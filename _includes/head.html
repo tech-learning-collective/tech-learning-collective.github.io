@@ -1,0 +1,27 @@
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>{% include title-text.html %}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}" />
+
+    <link rel="stylesheet" href="{{ "static/css/main.css" | relative_url }}" />
+
+    <link rel="canonical" href="{{ page.url | absolute_url }}" />
+    <link rel="alternate" href="{{ "/blog/feed.xml" | relative_url }}" type="application/rss+xml" title="Latest {{ site.rss.items | default: 10 }} blog posts" />
+    {% if page.next %}<link rel="next" href="{{ page.next.url | relative_url }}" />{% endif %}
+    {% if page.previous %}<link rel="prev" href="{{ page.previous.url | relative_url }}" />{% endif %}
+
+    <meta itemprop="name" content="{% include title-text.html %}" />
+    <meta itemprop="url" content="{{ page.url | absolute_url }}" />
+
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <meta property="og:title" content="{% include title-text.html %}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:title" content="{% include title-text.html %}" />
+    <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="description" content="{{ site.description }}" />
+</head>

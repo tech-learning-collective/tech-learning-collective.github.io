@@ -1,0 +1,18 @@
+# Contact information to publish on the site. This should be the info
+# for you, not the technical contact for the site's operators.
+#
+# To unpublish a given contact method, remove the corresponding line
+# from this file or insert an octothorpe (`#`, i.e., a comment
+# character) at the beginning of its line.
+---
+full_name: Tech Learning Collective
+
+image: logo.png
+
+street_address: "123 Main Street"
+locality: New York
+region: NY
+postal_code: XXXXX
+
+telephone: "555-123-4567"
+email: info@techlearningcollective.com

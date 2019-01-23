@@ -1,0 +1,15 @@
+<ul>
+    {% for item in site.data.nav_menus.main  %}
+    {% assign the_page = page.path | split: "/" | first %}
+    {% assign the_item = item.url | split: "/" | join: "" %}
+    <li class="main-nav-{{ item.text | slugify }} {% if the_page == the_item %}current{% endif %}">
+        <a href="{{ item.url | relative_url }}"{% if item.title_text %} title="{{ item.title_text }}"{% endif %}>
+        {%- if item.image %}
+            <img src="{{ "/static/images/" | append: item.image | relative_url }}" alt="{{ item.text }}" />
+        {% else %}
+            {{- item.text -}}
+        {% endif -%}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

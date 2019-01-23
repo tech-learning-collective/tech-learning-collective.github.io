@@ -1,0 +1,7 @@
+<header id="Masthead">
+    <h1><a href="{{ site.url | relative_url }}"><img src="{{ "/static/images/logo.jpg" | relative_url }}" alt="{{ site.title }}" /></a></h1>
+    {% if site.tagline %}<p id="Tagline">{{ site.tagline }}</p>{% endif %}
+    <nav id="MainNavigation" onclick="void(0);">{% comment %}<!-- The `onclick` attribute is required for iOS hover effects. -->{% endcomment %}
+        {% include site-navigation.html %}
+    </nav>
+</header>

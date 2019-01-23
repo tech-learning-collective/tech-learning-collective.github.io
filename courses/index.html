@@ -1,0 +1,39 @@
+---
+title: Courses
+image: https://via.placeholder.com/2000x300
+---
+
+{% assign course_list = site.courses | group_by: 'enrollable' %}
+{% assign course_list = course_list[1].items | concat: course_list[0].items %}
+<ul id="course-list">{% for course in course_list %}
+    <li>
+        <h3><a href="{{ course.url }}">{{ course.title }}</a><span>{{ course.slug | upcase }}</span></h3>
+        <div class="course-meta">
+            <ul>
+                <li class="course-enrollable">
+                    <span class="label">Enrollment</span>: {% if course.enrollable %}Open{% else %}Closed{% endif %}
+                </li>
+                <li class="course-prereqs">
+                    <p class="label">Prerequisites:</p>
+                    {% if course.prereqs %}
+                    <ol>{% for prereq in course.prereqs %}
+                        {% assign p = site.courses | where: "slug", prereq | first %}
+                        <li><a href="{{ p.url }}">{{ prereq | upcase }}</a></li>
+                    {% endfor %}</ol>
+                    {% else %}
+                    None
+                    {% endif %}
+                </li>
+                {% if course.topics %}
+                <li>
+                    <p class="label">Topics covered:</p>
+                    <ul>{% for topic in course.topics %}
+                        <li>{{ topic }}</li>
+                    {% endfor %}</ul>
+                </li>
+                {% endif %}
+            </ul>
+        </div><!-- .course-meta -->
+        <p>{{ course.content }}</p>
+    </li>
+{% endfor %}</ul>

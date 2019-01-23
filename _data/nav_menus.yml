@@ -1,0 +1,16 @@
+# Description of navigation menus used throughout the site, in YAML.
+# See https://yaml.org/ for a complete manual on writing in YAML.
+#
+# See the `README.md` file in the same folder as this file for more
+# details about the specifics of each key and its meaning.
+---
+main:
+  -
+    url: /about/
+    text: About
+  -
+    url: /courses/
+    text: Courses
+  - 
+    url: /contact/
+    text: Contact

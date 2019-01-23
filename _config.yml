@@ -1,0 +1,59 @@
+#####################################################################
+# This is Jekyll's configuration file for this project.
+#
+# For more information, see the documentation:
+#
+#     https://jekyllrb.com/docs/configuration/
+#####################################################################
+
+# Site settings
+title: Tech Learning Collective
+#description: >-
+#    Uncomment this text to supply an site description.
+#    This text will be used in feeds and other metadata
+#    throughout your site.
+human_language: "en-US" # The primary human language you write in.
+timezone: "America/New_York"
+
+# Build settings
+markdown: kramdown
+exclude:
+  - vendor
+  - README.m
+
+# Blog settings.
+paginate: 5    # How many posts per HTML page.
+paginate_path: "/blog/page/:num/"
+
+# RSS feed settings.
+rss:
+  items:            10       # How many posts to include in blog RSS/Atom feeds.
+  update_period:    "weekly" # Acceptable values are: `hourly`, `daily`, `weekly`, `monthly`, or `yearly`.
+  update_frequency: 1        # How many times in the feed_update_period the feed is updated.
+  ttl:              60       # Number of minutes indicating how long to cache the channel content.
+  editor_email:     editor@example.invalid # Email of the person responsible for channel content.
+  webmaster_email:  editor@example.invalid # Email of the person responsible for technical issues.
+  image:            "logo.olive_webdev.white-on-black.470x534.png"
+
+# Collections.
+#
+# Collections are a Jekyll feature that takes structured data and can
+# render a page for each item in that data structure. For example, you
+# can make a collection of baking recipes and then, for each recipe in
+# the collection, you can make a page with its own Web address to show
+# the recipe on your Web site.
+collections:
+  courses:
+    output: true
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: courses
+    values:
+      layout: page

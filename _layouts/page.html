@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<img class="featured"
+     src="{{ page.image }}"
+     alt=""
+/>
+{% endif %}
+
+<article id="PageWrapper">
+    {% if page.poster %}
+    <img class="course-poster"
+         src="{{ "/static/images/" | append: page.poster | relative_url }}"
+         alt=""
+    />
+    {% endif %}
+
+    <h2>{{ page.title }}</h2>
+
+    {% if false == page.enrollable %}{% include notice-not-enrollable.html %}{% endif %}
+
+    {{ content }}
+</article>
