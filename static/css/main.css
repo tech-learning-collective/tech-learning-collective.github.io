@@ -82,9 +82,10 @@ nav li {
 #PageWrapper {
     padding: 2em 4em;
 }
-
-img.featured {
-    max-width: 100%;
+#PageWrapper.featured-image {
+    padding-top: calc(300px + 2em);
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 
 footer {

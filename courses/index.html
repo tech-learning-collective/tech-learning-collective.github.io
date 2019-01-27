@@ -1,6 +1,6 @@
 ---
 title: Courses
-image: https://via.placeholder.com/2000x300
+image: colorized-banner-02.png
 ---
 
 {% assign course_list = site.courses | group_by: 'enrollable' %}
@@ -35,5 +35,30 @@ image: https://via.placeholder.com/2000x300
             </ul>
         </div><!-- .course-meta -->
         <p>{{ course.content }}</p>
+        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}">Register</a></p>
     </li>
 {% endfor %}</ul>
+
+<h2 id="enrollment-application-process">Enrollment application process</h2>
+
+<p>TLC courses have a two-stage enrollment process.</p>
+
+<ol>
+    <li>
+        <p>First, you must first submit an application along with a $25 application fee. (See <a href="#pricing">§ Pricing</a> for details.) The application consists of a short questionaire intended to help TLC admissions ensure you and your peers will get the most out of your course experience. If the course you are signing up for requires a prerequisite that you have not completed, you will be required to pass a quiz to ensure you are ready for the course. (If you don’t pass, you will have the option of defering your application or applying your application fee to one of the prerequisite courses instead of the course to which you initially applied.)</p>
+    </li>
+    <li>
+        <p>If your application is approved, you will be contacted to schedule a remote video interview. The interview is a casual, short (~20 minute) conversation conducted by a TLC trainer or teaching assistant.</p>
+    </li>
+</ol>
+
+<p>If you are accepted as a student, you will be eligible to enroll in the next available course to which you have applied. You do not necessarily have to enroll in the next course, although if there are not enough students for a given course, the course will be postponed.</p>
+<p>If you are not accepted as a student, please don’t take it personally. This simply means that, at the moment, we think you’ll be a better fit for a class elsewhere. However, you are welcome to re-apply as early as two months later. While your original application fee is non-refundable, re-applying for the same course will waive your application fee. (This waiver does not apply to applications for different courses.)</p>
+
+<h2 id="pricing">Pricing</h2>
+
+<p>All courses are offered on a sliding scale basis. Most courses range from $25.00 USD – $100.00 USD per course. Your cost for a course will be evaluated during your application process and is based solely on your financial means. The outstanding balance for a course, along with payment information, will be sent to you before the course’s orientation session.</p>
+
+<p>TLC charges a non-refundable application fee of $25.00 per course. This fee rolls into tuition. For example, if your sliding scale cost is evaluated to be $25.00, once you have paid your application fee your outstanding balance for the course will be $0. If your sliding scale cost is evaluated to be $50.00, you will be charged $25.00 prior to the start of the course.</p>
+
+<p>Please note there are <em>no</em> refunds.</p>
