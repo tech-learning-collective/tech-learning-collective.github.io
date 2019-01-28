@@ -12,7 +12,7 @@ h1 {
 }
 
 /**
- * @group Fonts.
+ * @group Typography.
  */
 @font-face {
     font-family: "Gidole";
@@ -25,6 +25,17 @@ h1 {
 @font-face {
     font-family: "MonoSpatial";
     src: url("../fonts/MonoSpatial.ttf");
+}
+h1 {
+    display: inline;
+    margin-right: 1em;
+}
+#Tagline {
+    display: inline;
+    margin: 0;
+    font-family: "MonoSpatial";
+    vertical-align: top;
+    color: #CCC;
 }
 
 /**
@@ -57,6 +68,10 @@ h3 {
 
 a {
     color: #1cd6e6;
+}
+
+nav {
+    margin-top: 1em;
 }
 
 header {
@@ -146,6 +161,7 @@ body#Homepage {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 0 2em;
     background: #31ddec fixed url("../images/bg.home.png") center / cover no-repeat;
     font-size: 1.25em;
 }
@@ -159,7 +175,12 @@ body#Homepage {
     color: #000;
 }
 #Homepage h1 {
+    display: block;
+    margin-right: 0;
     font-family: "Couture";
+}
+#Homepage #Tagline {
+    display: none;
 }
 #Homepage nav ul {
     display: flex;
