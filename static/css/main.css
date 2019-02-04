@@ -67,7 +67,7 @@ h3 {
 }
 
 a {
-    color: #1cd6e6;
+    color: #11b2c0;
 }
 
 nav {
@@ -95,12 +95,20 @@ nav li {
     font-family: "MonoSpatial";
 }
 #PageWrapper {
+    position: relative;
     padding: 2em 4em;
 }
 #PageWrapper.featured-image {
     padding-top: calc(300px + 2em);
     background-repeat: no-repeat;
     background-position-x: center;
+}
+h2:first-child {
+    position: absolute;
+    top: calc(300px - .8em);
+    margin: 0;
+    color: #FFF;
+    font-size: 110px;
 }
 
 footer {
@@ -124,6 +132,9 @@ footer a {
     grid-gap: 2em;
 }
 @media screen and (max-width: 400px) {
+    h2:first-child {
+        font-size: 36px;
+    }
     #course-list {
         grid-template-columns: 1fr;
     }

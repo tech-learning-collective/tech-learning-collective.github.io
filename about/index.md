@@ -1,5 +1,5 @@
 ---
-title: About the Tech Learning Collective
+title: About
 image: colorized-banner-01.png
 ---
 
