@@ -34,7 +34,7 @@ image: colorized-banner-02.png
                 {% endif %}
             </ul>
         </div><!-- .course-meta -->
-        <p>{{ course.content }}</p>
+        {{ course.content }}
         <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}">Register</a></p>
     </li>
 {% endfor %}</ul>
