@@ -31,10 +31,8 @@ h1 {
     margin-right: 1em;
 }
 #Tagline {
-    display: inline;
-    margin: 0;
+    margin: 1em 0 0 0;
     font-family: "MonoSpatial";
-    vertical-align: top;
     color: #CCC;
 }
 
@@ -70,8 +68,9 @@ a {
     color: #11b2c0;
 }
 
-nav {
-    margin-top: 1em;
+nav,
+nav ul {
+    display: inline;
 }
 
 header {
