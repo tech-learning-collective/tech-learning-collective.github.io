@@ -3,39 +3,34 @@ title: About
 image: colorized-banner-01.png
 ---
 
-The TLC has two primary goals:
+Our team has two primary goals for the Tech Learning Collective. These are:
 
-1. [Radical technology education](#radical-technology-education)
+1. [Provide radical technology education](#radical-technology-education)
 1. [Fund existing technology-centered community projects](#fund-existing-technology-centered-community-projects)
 
 We are [different from many other educational institutions](#our-difference) in a variety of ways. Many of these differences grew organically from [our unique history](#our-history).
 
 <h3 id="radical-technology-education">Radical technology education</h3>
 
-The Tech Learning Collective intends to offer educational resources exclusively to groups and individuals engaged in projects that lie outside the realm of technocapitalism. In other words, our teachers train technologists or would-be technologists who are not primarily interested in working at a faceless tech corporation or becoming an entrepreneur, but who are rather working within community-based, grassroots, and activist spheres.
-
-We do this by offering a range of [courses]({{ "/courses/" | relative_url }}) on a sliding scale basis.
+The Tech Learning Collective offers educational resources exclusively to groups and individuals engaged in projects outside the realm of techno-capitalism. In other words, we offer education to students who are not primarily interested in entrepreneurial endeavors or working as laborers in the tech industry, i.e., finding jobs at software development companies, large corporations, [data brokers](https://privacyinternational.org/type-resource/data-brokers-profile), or similar entities. Rather, [our courses]({{ "/courses/" | relative_url }}) are open only to those people working within community-based, grassroots, and activist spheres. The skills we teach <em>do</em> make individuals more likely to get hired in technology-sector jobs, and some of our students have successfully switched careers to become programmers or Site Reliability Engineers (SREs), but our focus during class is on [Free Software](https://www.gnu.org/philosophy/free-sw.html) and commodity, low-cost hardware that individuals and advocacy organizations can use immediately, perpetually, and without any fees.
 
 <h3 id="fund-existing-technology-centered-community-projects">Fund existing technology-centered community projects</h3>
 
-Tuition for TLC courses is a way to provide supplementary funding to existing technology-centered community projects, in order that these projects may more easily:
+Tuition for Tech Learning Collective courses is primarily used to provide supplementary funding to existing technology-centered community projects. These projects range from additional educational workshops to physical infrastructure installations and upkeep for community-operated information and communication networks. Teachers are also paid for their time on a student-per-course basis for the courses they teach.
 
-* continue offering other programming for free;
-* fund new additional community infrastructure projects which, are always offered for free.
-
-View a [list of our benefitting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies).
+Funding secured through TLC course tuition always funds projects that are, themselves, free of charge. View a [list of our benefitting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies).
 
 <h3 id="our-difference">Our Difference</h3>
 
-We are different from many other educational institutions in a number of ways that we believe make the quality of our teachers, students, and alumni community noticably better than the existing crop of coding bootcamps, technical trade schools, and development academies you could go to. By "better" we mean:
+We are unlike many other educational institutions in ways that we believe make the quality of our teachers, students, and alumni community noticably better than existing coding bootcamps, technical trade schools, and development academies you might otherwise attend. By "better" we mean:
 
-* Tech Learning Collective students master more skills more quickly that will serve them for a longer period of time and in more contexts than they would otherwise acquire. This is because code bootcamps and dev academies are primarily focused on job placement rather than knowledge-seeking or skill building.
-* Tech Learning Collective teachers must pass a near-paranoid level of scrutiny to be considered as teachers, ensuring that they are not merely experts in their field, but are also actually good at transferring their skills to others (i.e., they have an additional skill: the skill of teaching). All Tech Learning Collective teachers have demonstrated a deep commitment to anti-State, anti-racist, feminist ideals by their actions. The majority of our teaching staff is genderqueer and femme. We believe this meaningfully impacts the experience of our students for the better.
-* Tech Learning Collective courses are dramatically more interactive than most other educational offerings, focusing almost exclusively on providing guided, kinetic, hands-on, experience-based training. There are no required textbooks in any Tech Learning Collective course. Instead, every course is modeled on a Socratic, collaborative discussion focused on keyboard time and direct interaction with fellow students (pair programming).
+* Tech Learning Collective students master more skills more quickly that will serve them for a longer period of time and in more contexts than they would otherwise acquire. This is because code bootcamps and dev academies are primarily focused on job placement and reward task-completion, whereas TLC courses are primarily focued on foundational skill building and reward curiosity.
+* Tech Learning Collective teachers go through a near-paranoid level of scrutiny to be considered as teachers, ensuring that they are not merely experts in their field but are also actually good at transferring their skills to others (i.e., they have an additional skill: the skill of teaching). All TLC teachers are actively engaged in one or more of the projects TLC funds, and have demonstrated a deep and lasting commitment to anti-State, anti-racist, feminist ideals. The majority of our teaching team is genderqueer and femme, which we feel meaningfully impacts the experience of our students for the better.
+* Tech Learning Collective courses are dramatically more interactive than most other educational offerings. Our methodology focuses almost exclusively on providing guided, kinetic, hands-on, experience-based training. Although students are provided with many supplementary course materials, there are no required textbooks or assignments in any Tech Learning Collective course. Instead, every course is modeled on a Socratic, collaborative discussion. The main activity at each class is "keyboard time" and direct interaction with fellow students (e.g., pair programming).
 
 <h3 id="our-history">Our History</h3>
 
-The Tech Learning Collective offers low-cost courses on computer technologies specifically for Left-leaning politically engaged individuals and groups. Courses cater to people with skill levels ranging from self-identified “beginners” to very experienced technologists.
+The Tech Learning Collective offers low-cost courses on computer technologies specifically for Left-leaning, politically engaged individuals and groups. Courses cater to people with skill levels ranging from self-identified “beginners” to very experienced technologists.
 
 The first version of the TLC was formed in 2016 by a group of radicals who sought out methods of mutual self-education around technology, and met regularly in Brooklyn. None of us were formally trained technologists; none of us have ever held computer science degrees. Many of the traditional techniques of and environments offering technology education felt alienating to us.
 
@@ -43,4 +38,4 @@ From 2016 to 2019, TLC members dispersed into a number of community projects, bu
 
 <p>In keeping with our original mission, the TLC is especially in service to people who might identify themselves as being “outsiders” to the mainstream “tech world.” That is, those folks who have either never been tech workers or who have otherwise felt at odds with the general culture of technocapitalism, its tech bros, and its monocultural intentions.</p>
 
-<p>The goal of the TLC is to provide its students with the resources and abilities to in turn provide for their communities, especially as it relates to liberating their communities from corporate overseers (like Google and Facebook). Our students already assist in the organization of projects like community gardens, <a href="https://en.wikipedia.org/wiki/Copwatch">Copwatch</a> programs, and other projects that help build collective power. At TLC, students learn how to extend the existing capabilities of their projects and communities using free, open, and ubiquitous digital technologies.</p>
+<p>The goal of the TLC is to provide its students with the resources and abilities to in turn provide for their communities, especially as it relates to liberating their communities from corporate overseers (like Google and Facebook). Our students already assist in the organization of projects like community gardens, <a href="https://en.wikipedia.org/wiki/Copwatch">Copwatch</a> programs, and other projects that help build collective power. At TLC, students learn how to extend the existing capabilities of their projects and communities using free, open, and increasingly ubiquitous digital technologies.</p>
