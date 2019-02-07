@@ -3,22 +3,35 @@ title: About
 image: colorized-banner-01.png
 ---
 
-The TLC has two primary goals.
+The TLC has two primary goals:
+
+1. [Radical technology education](#radical-technology-education)
+1. [Fund existing technology-centered community projects](#fund-existing-technology-centered-community-projects)
+
+We are [different from many other educational institutions](#our-difference) in a variety of ways. Many of these differences grew organically from [our unique history](#our-history).
 
 <h3 id="radical-technology-education">Radical technology education</h3>
 
-Firstly, it is the intention of the TLC to offer educational resources to groups and individuals engaged in projects that lie outside the realm of technocapitalism. In other words, our teachers train technologists or would-be technologists who are not primarily interested in working at a faceless tech corporation or becoming an entrepreneur, but who are rather working within community-based, grassroots, and activist spheres.
+The Tech Learning Collective intends to offer educational resources exclusively to groups and individuals engaged in projects that lie outside the realm of technocapitalism. In other words, our teachers train technologists or would-be technologists who are not primarily interested in working at a faceless tech corporation or becoming an entrepreneur, but who are rather working within community-based, grassroots, and activist spheres.
 
 We do this by offering a range of [courses]({{ "/courses/" | relative_url }}) on a sliding scale basis.
 
 <h3 id="fund-existing-technology-centered-community-projects">Fund existing technology-centered community projects</h3>
 
-Tuition for TLC courses should be understood as a way to provide supplementary funding to existing technology-centered community projects, in order that these projects may more easily:
+Tuition for TLC courses is a way to provide supplementary funding to existing technology-centered community projects, in order that these projects may more easily:
 
 * continue offering other programming for free;
-* fund new additional community infrastructure projects which are always offered for free.
+* fund new additional community infrastructure projects which, are always offered for free.
 
 View a [list of our benefitting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies).
+
+<h3 id="our-difference">Our Difference</h3>
+
+We are different from many other educational institutions in a number of ways that we believe make the quality of our teachers, students, and alumni community noticably better than the existing crop of coding bootcamps, technical trade schools, and development academies you could go to. By "better" we mean:
+
+* Tech Learning Collective students master more skills more quickly that will serve them for a longer period of time and in more contexts than they would otherwise acquire. This is because code bootcamps and dev academies are primarily focused on job placement rather than knowledge-seeking or skill building.
+* Tech Learning Collective teachers must pass a near-paranoid level of scrutiny to be considered as teachers, ensuring that they are not merely experts in their field, but are also actually good at transferring their skills to others (i.e., they have an additional skill: the skill of teaching). All Tech Learning Collective teachers have demonstrated a deep commitment to anti-State, anti-racist, feminist ideals by their actions. The majority of our teaching staff is genderqueer and femme. We believe this meaningfully impacts the experience of our students for the better.
+* Tech Learning Collective courses are dramatically more interactive than most other educational offerings, focusing almost exclusively on providing guided, kinetic, hands-on, experience-based training. There are no required textbooks in any Tech Learning Collective course. Instead, every course is modeled on a Socratic, collaborative discussion focused on keyboard time and direct interaction with fellow students (pair programming).
 
 <h3 id="our-history">Our History</h3>
 
