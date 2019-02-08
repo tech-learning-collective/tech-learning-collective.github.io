@@ -3,9 +3,10 @@ title: Courses
 image: colorized-banner-02.png
 ---
 
+{% assign empty_list = "" | split: "," %}
 {% assign course_list = site.courses | group_by: 'enrollable' %}
 {% assign open_courses = course_list[0].items %}
-{% assign closed_courses = course_list[1].items %}
+{% assign closed_courses = course_list[1].items | default: empty_list %}
 {% assign course_list = open_courses | concat: closed_courses %}
 <ul id="course-list">{% for course in course_list %}
     <li>
