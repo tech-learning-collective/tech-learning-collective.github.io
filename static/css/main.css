@@ -35,6 +35,9 @@ h1 {
     font-family: "MonoSpatial";
     color: #CCC;
 }
+p {
+    line-height: 1.5em;
+}
 
 /**
  * @group Animations.
