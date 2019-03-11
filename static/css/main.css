@@ -1,237 +1,115 @@
 /**
  * @group Reset.
  */
-html,
-body,
-ul,
-ol,
-h1 {
+html, body, ul, ol, h1, h2, h3, h4, h5, h6,
+p {
     margin: 0;
     border: none;
     padding: 0;
+    list-style: none;
 }
 
-/**
- * @group Typography.
- */
-@font-face {
-    font-family: "Gidole";
-    src: url("../fonts/Gidole-Regular.ttf");
-}
-@font-face {
-    font-family: "Couture";
-    src: url("../fonts/couture-bld.otf");
-}
 @font-face {
     font-family: "MonoSpatial";
     src: url("../fonts/MonoSpatial.ttf");
 }
-h1 {
-    display: inline;
-    margin-right: 1em;
+@font-face {
+    font-family: "Gidole";
+    src: url("../fonts/Gidole-Regular.ttf");
 }
-#Tagline {
-    margin: 1em 0 0 0;
-    font-family: "MonoSpatial";
-    color: #CCC;
+
+a {
+    color: #FFF;
 }
-p {
+p, main li {
     line-height: 1.5em;
 }
-
-/**
- * @group Animations.
- */
-@keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/**
- * @group Notices.
- */
-.notice {
-    color: red;
-    font-weight: bold;
+main li {
+    list-style: disc;
 }
 
 /**
  * @group Main.
  */
 body {
-    font-family: "Gidole";
-}
-h1,
-h2,
-h3 {
-    font-family: "Couture";
-}
-
-a {
-    color: #11b2c0;
+    display: grid;
+    grid-template-columns: 350px minmax(350px, auto);
+    padding: 25px;
+    background: #372BFB;
+    font: 12pt "Gidole";
+    color: #FFF;
+    height: calc(100vh - 50px);
 }
 
-nav,
-nav ul {
-    display: inline;
+h1 {
+    font: 18pt "MonoSpatial";
+}
+h1 a {
+    text-decoration-skip-ink: auto;
 }
 
 header {
-    padding: 2em 4em;
-    background: #000;
-    color: #fff;
+    display: grid;
+    grid-template-rows: 75px minmax(100px, max-content) auto;
 }
-h1 a,
+
 nav a {
-    color: #fff;
     text-decoration: none;
 }
-h1 a:hover,
-nav a:hover,
-nav li.current a {
-    text-decoration: underline;
+nav > ul {
+    padding-bottom: 60px;
+    background: url("/static/images/icon.chip.transparent.png") 0 bottom / 60px no-repeat;
 }
 nav li {
-    display: inline;
-    margin-right: 2em;
-    font-family: "MonoSpatial";
-}
-#PageWrapper {
-    position: relative;
-    padding: 2em 4em;
-}
-#PageWrapper.featured-image {
-    padding-top: calc(300px + 2em);
-    background-repeat: no-repeat;
-    background-position-x: center;
-}
-h2:first-child {
-    position: absolute;
-    top: calc(300px - .8em);
-    margin: 0;
-    color: #FFF;
-    font-size: 110px;
-}
-
-footer {
-    clear: both;
-    padding-top: 2em;
-    color: #ccc;
-    text-align: center;
-}
-footer a {
-    color: #ccc;
-}
-
-#course-list,
-#course-list ul,
-#course-list ol {
-    list-style: none;
-}
-#course-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-}
-@media screen and (max-width: 400px) {
-    h2:first-child {
-        font-size: 36px;
-    }
-    #course-list {
-        grid-template-columns: 1fr;
-    }
-    .course-poster {
-        float: none;
-        margin-left: 0;
-    }
-}
-#course-list h3 span {
-    display: block;
-    font: small MonoSpatial;
-}
-#course-list .label {
     font-weight: bold;
+    margin-bottom: 1rem;
 }
-#course-list p.label,
-#course-list p.label + * {
-    display: inline;
+nav li li {
+    font-weight: normal;
+    margin-bottom: 0;
 }
-#course-list .course-meta li li {
-    display: inline;
+
+main {
+    box-sizing: border-box;
+    padding: 75px 20px 0;
+    max-height: 100%;
+    columns: 2;
+    column-gap: 2rem;
+    overflow: scroll;
 }
-#course-list .course-meta li li::after {
-    content: ", ";
+
+main h2,
+main h3 {
+    margin-bottom: 1em;
 }
-#course-list .course-meta li li:last-child::after {
-    content: "";
+main h3 {
+    margin-top: 1em;
+}
+
+img#spinner {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-left: -100px;
+    animation: spin 15s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
 /**
- * @group Homepage.
+ * @group Footer.
  */
-body#Homepage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 0 2em;
-    background: #31ddec fixed url("../images/bg.home.png") center / cover no-repeat;
-    font-size: 1.25em;
+footer {
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    font-size: 8pt;
+    writing-mode: vertical-rl;
+    opacity: .5;
 }
-#Homepage main {
-    margin-top: -10%;
-    animation: 2s fade-in;
-}
-#Homepage header {
-    padding: 0;
-    background: transparent;
-    color: #000;
-}
-#Homepage h1 {
-    display: block;
-    margin-right: 0;
-    font-family: "Couture";
-}
-#Homepage #Tagline {
-    display: none;
-}
-#Homepage nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    font-family: "MonoSpatial";
-    text-transform: uppercase;
-}
-#Homepage nav ul li {
-    margin-right: 0;
-    flex-grow: 1;
-}
-#Homepage nav ul li:nth-of-type(1) {
-    text-align: left;
-}
-#Homepage nav ul li:nth-of-type(2) {
-    text-align: center;
-}
-#Homepage nav ul li:nth-of-type(3) {
-    text-align: right;
-}
-
-#Homepage a {
-    color: #000;
-    text-decoration: underline;
-    font-weight: bold;
-}
-#Homepage a:hover,
-#Homepage h1 a {
-    text-decoration: none;
-}
-
-.course-poster {
-    max-width: 100%;
-    float: right;
-    margin-left: 2em;
-    margin-bottom: 2em;
-}
-.course-poster + h2 {
-    margin-top: 0;
+footer p {
+    margin: .25rem;
 }

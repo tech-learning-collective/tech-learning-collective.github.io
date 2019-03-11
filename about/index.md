@@ -1,6 +1,6 @@
 ---
 title: About
-image: colorized-banner-01.png
+backgroundColor: "#7A9C2C"
 ---
 
 Our team has two primary goals for the Tech Learning Collective. These are:

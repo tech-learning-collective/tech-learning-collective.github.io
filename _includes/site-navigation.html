@@ -4,12 +4,20 @@
     {% assign the_item = item.url | split: "/" | join: "" %}
     <li class="main-nav-{{ item.text | slugify }} {% if the_page == the_item %}current{% endif %}">
         <a href="{{ item.url | relative_url }}"{% if item.title_text %} title="{{ item.title_text }}"{% endif %}>
-        {%- if item.image %}
-            <img src="{{ "/static/images/" | append: item.image | relative_url }}" alt="{{ item.text }}" />
-        {% else %}
             {{- item.text -}}
-        {% endif -%}
         </a>
+        {% comment %}TODO: Second-level submenu; no recursion yet. {% endcomment %}
+        {% if item.submenu %}
+        <ul>
+        {% for subitem in item.submenu %}
+            <li>
+                <a href="{{ subitem.url | relative_url }}"{% if subitem.title_text %} title="{{ subitem.title_text }}"{% endif %}>
+                    {{- subitem.text -}}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
     </li>
     {% endfor %}
 </ul>

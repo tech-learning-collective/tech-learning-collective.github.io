@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ site.human_language | default: "en" }}">
 {% include head.html %}
-<body>
-    <main id="MainContent">
-        {% include masthead.html %}
+<body{% if page.backgroundColor %} style="background-color: {{ page.backgroundColor }};"{% endif %}>
+    <header>
+        <h1><a href="{{ site.url | relative_url }}">{{ site.title }}</a></h1>
+        {% if site.tagline %}<p id="Tagline">{{ site.tagline }}</p>{% endif %}
+        <nav id="MainNavigation">
+            {% include site-navigation.html %}
+        </nav>
+    </header>
+    <main>
         {{ content }}
-        {% include foot.html %}
     </main>
+    <footer>
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
 </body>
 </html>

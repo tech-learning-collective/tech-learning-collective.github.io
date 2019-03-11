@@ -5,12 +5,14 @@
 # details about the specifics of each key and its meaning.
 ---
 main:
-  -
-    url: /about/
+  - url: /about/
     text: About
-  -
-    url: /courses/
+  - url: /courses/
     text: Courses
-  - 
-    url: /contact/
+    submenu:
+      - url: /enrollment/
+        text: Enrollment
+      - url: /pricing/
+        text: Pricing
+  - url: /contact/
     text: Contact
