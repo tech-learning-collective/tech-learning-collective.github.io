@@ -36,6 +36,13 @@ rss:
   webmaster_email:  editor@example.invalid # Email of the person responsible for technical issues.
   image:            "logo.olive_webdev.white-on-black.470x534.png"
 
+# Course subjects
+subject_map:
+  net: Networking
+  sec: Security
+  sys: System Administration
+  web: Web Design and Development
+
 # Collections.
 #
 # Collections are a Jekyll feature that takes structured data and can
@@ -52,3 +59,12 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: page
+  - scope:
+      path: "courses"
+    values:
+      layout: course
+  - scope:
+      path: "courses/*"
+    values:
+      layout: course
+      backgroundColor: "#19A3BF"

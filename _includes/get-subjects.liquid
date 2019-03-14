@@ -1,0 +1,8 @@
+{% comment %}
+Creates a global variable, `subjects` which is a list of all subjects offered.
+{% endcomment %}
+{% assign subjects = "" | split: "," %}
+{% for course in site.courses %}
+    {% assign arr_subject = course.slug | slice: 0, 3 | split: "," %}
+    {% assign subjects = subjects | concat: arr_subject | uniq %}
+{% endfor %}

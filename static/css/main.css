@@ -25,7 +25,16 @@ p, main li {
     line-height: 1.5em;
 }
 main li {
+    margin: 0 0 1em 0;
+}
+main ul li, main ol ul li {
     list-style: disc;
+}
+main ol li {
+    list-style: decimal;
+}
+ol ul {
+    margin-left: 2em;
 }
 
 /**
@@ -46,6 +55,10 @@ h1 {
 }
 h1 a {
     text-decoration-skip-ink: auto;
+}
+main p:not(:first-child) {
+    margin: 1em 0;
+    text-indent: 2rem;
 }
 
 header {
@@ -72,12 +85,13 @@ nav li li {
 main {
     box-sizing: border-box;
     padding: 75px 20px 0;
+}
+body.page main {
     max-height: 100%;
     columns: 2;
     column-gap: 2rem;
     overflow: scroll;
 }
-
 main h2,
 main h3 {
     margin-bottom: 1em;
@@ -99,11 +113,47 @@ img#spinner {
     to { transform: rotate(360deg); }
 }
 
+#subjects-list {
+    margin-top: 2rem;
+}
+#subjects-list li {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    font-size: 36pt;
+    line-height: 1em;
+}
+#subjects-list span {
+    font-size: 24pt;
+}
+#subjects-list a {
+    width: 3em;
+    text-decoration: none;
+}
+#subjects-list a:hover {
+    text-decoration: underline;
+}
+#course-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 0 1rem 1rem;
+}
+#course-list li {
+    list-style: none;
+}
+#course-list header {
+    display: block;
+}
+#course-list header img {
+    max-width: 100%;
+}
+
 /**
  * @group Footer.
  */
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 1rem;
     right: 0;
     font-size: 8pt;

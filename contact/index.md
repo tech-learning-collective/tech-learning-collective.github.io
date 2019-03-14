@@ -1,6 +1,6 @@
 ---
 title: Contact
-image: colorized-banner-03.png
+backgroundColor: "#FB592B"
 ---
 
 **General inquiries:** [{{ site.data.contact.email }}](mailto:{{ site.data.contact.email }})

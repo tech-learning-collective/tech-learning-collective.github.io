@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.human_language | default: "en" }}">
 {% include head.html %}
-<body{% if page.backgroundColor %} style="background-color: {{ page.backgroundColor }};"{% endif %}>
+<body{% if page.backgroundColor %} style="background-color: {{ page.backgroundColor }};"{% endif %} class="{{ page.layout }}">
     <header>
         <h1><a href="{{ site.url | relative_url }}">{{ site.title }}</a></h1>
         {% if site.tagline %}<p id="Tagline">{{ site.tagline }}</p>{% endif %}

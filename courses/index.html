@@ -1,31 +1,13 @@
 ---
-title: Courses
+title: Course Catalog
+backgroundColor: "#BD0E60"
 ---
 
-{% assign empty_list = "" | split: "," %}
-{% assign course_list = site.courses | group_by: 'enrollable' %}
-{% assign open_courses = course_list[0].items %}
-{% assign closed_courses = course_list[1].items | default: empty_list %}
-{% assign course_list = open_courses | concat: closed_courses %}
-<ul id="course-list">{% for course in course_list %}
-    <li>
-        <h3><a href="{{ course.url }}">{{ course.title }}</a><span>{{ course.slug | upcase }}</span></h3>
-        <div class="course-meta">
-            <ul>
-                <li class="course-enrollable">
-                    <span class="label">Enrollment</span>: {% if course.enrollable %}Open{% else %}Closed{% endif %}
-                </li>
-                {% if course.topics %}
-                <li>
-                    <p class="label">Topics covered:</p>
-                    <ul>{% for topic in course.topics %}
-                        <li>{{ topic }}</li>
-                    {% endfor %}</ul>
-                </li>
-                {% endif %}
-            </ul>
-        </div><!-- .course-meta -->
-        {{ course.content }}
-        <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}">Register</a></p>
-    </li>
-{% endfor %}</ul>
+<p>The Tech Learning Collective currently offers courses in the following subjects. Choose a subject to view the available courses for that subject.</p>
+
+{% include get-subjects.liquid %}
+<ul id="subjects-list">
+{% for subject in subjects %}
+    <li><a href="{{ "/courses/" | append: subject | append: "/" | relative_url }}" title="View {{ site.subject_map[subject] }} courses.">{{ subject | upcase }}</a><span>{{ site.subject_map[subject] }}</span></li>
+{% endfor %}
+</ul>

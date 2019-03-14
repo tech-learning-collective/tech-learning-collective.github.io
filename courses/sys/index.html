@@ -1,0 +1,22 @@
+---
+title: SYS Courses
+---
+
+<ul id="course-list">
+    {% for course in site.courses %}
+    {% assign course_subject = course.slug | slice: 0, 3 %}
+    {% assign this_subject = page.title | slice: 0, 3 | downcase %}
+    {% if this_subject == course_subject %}
+    <li>
+        <article>
+            <header>
+                <h2>{{ course.title }}</h2>
+                <img src="{{ "/static/images/" | append: course.poster | relative_url }}" alt="" />
+                {{ course.slug | upcase }}
+            </header>
+            {{ course.content }}
+        </article>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
