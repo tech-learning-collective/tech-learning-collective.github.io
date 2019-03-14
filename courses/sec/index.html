@@ -12,7 +12,7 @@ title: SEC Courses
             <header>
                 <h2>{{ course.title }}</h2>
                 <img src="{{ "/static/images/" | append: course.poster | relative_url }}" alt="" />
-                {{ course.slug | upcase }}
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}">Apply for pre-enrollment in {{ course.slug | upcase }}</a>
             </header>
             {{ course.content }}
         </article>
