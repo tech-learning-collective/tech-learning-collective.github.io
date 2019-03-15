@@ -154,7 +154,7 @@ img#spinner {
  */
 footer {
     position: fixed;
-    bottom: 1rem;
+    bottom: 25px;
     right: 0;
     font-size: 8pt;
     writing-mode: vertical-rl;
