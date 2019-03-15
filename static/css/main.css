@@ -163,3 +163,34 @@ footer {
 footer p {
     margin: .25rem;
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        display: block;
+        height: auto;
+    }
+    header {
+        display: block;
+    }
+    body.page main {
+        max-height: unset;
+        columns: initial;
+        overflow: initial;
+    }
+    main {
+        padding: 20px 0 0 0;
+    }
+    img#spinner {
+        top: initial;
+    }
+    #subjects-list li {
+        display: list-item;
+    }
+    #subjects-list a {
+        display: block;
+        width: auto;
+    }
+    #course-list {
+        display: block;
+    }
+}
