@@ -19,7 +19,7 @@ The quesionaire is free and you will not be invoiced if your registration does n
 
 ## Paying the application fee
 
-If your pre-enrollment application quesionaire is accepted, you will receive an invoice for the application fee of $25. This fee is the same regardless of which course you apply to enroll in. You will need to pay the application fee to proceed to the next phase of the enrollment process.
+If your pre-enrollment application questionnaire is accepted, you will receive an invoice for the application fee of $25. This fee is the same regardless of which course you apply to enroll in. You will need to pay the application fee to proceed to the next phase of the enrollment process.
 
 ## The placement test
 
