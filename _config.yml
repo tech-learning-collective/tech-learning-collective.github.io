@@ -9,10 +9,8 @@
 # Site settings
 title: Tech Learning Collective
 tagline: Technology education for radical organizers and revolutionary communities.
-#description: >-
-#    Uncomment this text to supply an site description.
-#    This text will be used in feeds and other metadata
-#    throughout your site.
+description: >-
+    The Tech Learning Collective offers low-cost courses on computer technologies specifically for Left-leaning, politically engaged individuals and groups. Courses cater to people with skill levels ranging from self-identified “beginners” to very experienced technologists.
 human_language: "en-US" # The primary human language you write in.
 timezone: "America/New_York"
 

@@ -19,9 +19,12 @@
     <meta property="og:title" content="{% include title-text.html %}" />
     <meta property="og:url" content="{{ page.url | absolute_url }}" />
     <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:image" content="{{ "/static/images/icon.chip.blue.png" | absolute_url }}" />
 
     <meta name="twitter:title" content="{% include title-text.html %}" />
     <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
     <meta name="twitter:card" content="summary" />
-    <meta name="description" content="{{ site.description }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:image" content="{{ "/static/images/icon.chip.blue.png" | absolute_url }}" />
 </head>
