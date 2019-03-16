@@ -172,10 +172,22 @@ footer p {
     header {
         display: block;
     }
+    #Tagline {
+        margin: 1em 0;
+    }
     body.page main {
         max-height: unset;
         columns: initial;
         overflow: initial;
+    }
+    nav > ul {
+        display: flex;
+        padding-bottom: 0;
+        padding-right: 60px;
+        background-position: right 0;
+    }
+    nav li {
+        flex-grow: 1;
     }
     main {
         padding: 20px 0 0 0;
@@ -192,5 +204,7 @@ footer p {
     }
     #course-list {
         display: block;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
