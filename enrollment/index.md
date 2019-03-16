@@ -15,7 +15,7 @@ The pre-enrollment process consists of a short questionnaire intended to help TL
 
 The questionnaire also asks for contact information so that our admissions team can get in touch with you should your pre-enrollment application proceed to the next phase.
 
-The quesionaire is free and you will not be invoiced if your registration does not proceed to the next phase of the enrollment process.
+The questionnaire is free and you will not be invoiced if your registration does not proceed to the next phase of the enrollment process.
 
 ## Paying the application fee
 
