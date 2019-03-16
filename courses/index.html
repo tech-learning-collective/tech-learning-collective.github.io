@@ -8,6 +8,6 @@ backgroundColor: "#BD0E60"
 {% include get-subjects.liquid %}
 <ul id="subjects-list">
 {% for subject in subjects %}
-    <li><a href="{{ "/courses/" | append: subject | append: "/" | relative_url }}" title="View {{ site.subject_map[subject] }} courses.">{{ subject | upcase }}</a><span>{{ site.subject_map[subject] }}</span></li>
+    <li><a href="{{ "/courses/" | append: subject | append: "/" | relative_url }}" title="View {{ site.subject_map[subject] }} courses."><span>{{ subject | upcase }}</span><span>{{ site.subject_map[subject] }}</span></a></li>
 {% endfor %}
 </ul>

@@ -22,6 +22,7 @@ p {
 }
 a {
     color: #FFF;
+    text-decoration-skip-ink: auto;
 }
 p, main li {
     line-height: 1.5em;
@@ -48,9 +49,6 @@ body {
 
 h1 {
     font: 18pt "MonoSpatial";
-}
-h1 a {
-    text-decoration-skip-ink: auto;
 }
 main p:not(:first-child) {
     margin: 1em 0;
@@ -120,19 +118,21 @@ img#spinner {
 }
 #subjects-list li {
     list-style: none;
-    display: flex;
     align-items: baseline;
     font-size: 36pt;
     line-height: 1em;
 }
-#subjects-list span {
-    font-size: 24pt;
-}
 #subjects-list a {
-    width: 3em;
     text-decoration: none;
 }
-#subjects-list a:hover {
+#subjects-list span:last-child {
+    font-size: 24pt;
+}
+#subjects-list span:first-child {
+    display: inline-block;
+    width: 3em;
+}
+#subjects-list a:hover span {
     text-decoration: underline;
 }
 #course-list {
@@ -200,7 +200,7 @@ footer p {
     #subjects-list li {
         display: list-item;
     }
-    #subjects-list a {
+    #subjects-list span:first-child {
         display: block;
         width: auto;
     }
