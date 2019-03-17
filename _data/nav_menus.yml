@@ -7,6 +7,10 @@
 main:
   - url: /about/
     text: About
+    submenu:
+        - url: /faq/
+          text: FAQ
+          title_text: Answers to Frequently Asked Questions
   - url: /courses/
     text: Courses
     submenu:
