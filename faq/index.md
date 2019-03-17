@@ -8,7 +8,9 @@ title: FAQ
 
 ## What do I need to bring to class?
 
-As every Tech Learning Collective course focuses on hands-on, experience-based training, you will need a portable personal computer running any modern version of [Apple&rsquo;s macOS](https://www.apple.com/macos/what-is/), [Microsoft Windows](https://www.microsoft.com/windows), or any flavor of the [GNU/Linux](https://www.linux.com/what-is-linux) operating systems to take full advantage of class time. For certain courses, [Google Chromebooks](https://www.google.com/chromebook/) and certain handheld or tablet computers may suffice, but are generally not recommended as they can be severely constrained by their manufacturer or vendor. If in doubt, please either [contact]({{ "/contact/" | relative_url }}) us or bring up your concerns during your [enrollment process]({{ "/enrollment/" | relative_url }}).
+As every Tech Learning Collective course focuses on hands-on, experience-based training, **you will need a portable personal computer** running any modern version of [Apple&rsquo;s macOS](https://www.apple.com/macos/what-is/), [Microsoft Windows](https://www.microsoft.com/windows), or any flavor of the [GNU/Linux](https://www.linux.com/what-is-linux) operating systems to take full advantage of class time. For certain courses, [Google Chromebooks](https://www.google.com/chromebook/) and certain handheld or tablet computers may suffice, but are generally not recommended as they can be severely constrained by their manufacturer or vendor. If in doubt, please either [contact]({{ "/contact/" | relative_url }}) us or bring up your concerns during your [enrollment process]({{ "/enrollment/" | relative_url }}).
+
+Learning a lot in a short period of time can also make one very hungry, so we also advise that you arrive to class well-fed or that you bring a lunch with you.
 
 ## What if I don&rsquo;t have a laptop?
 
