@@ -147,7 +147,8 @@ img#spinner {
 #course-list header {
     display: block;
 }
-#course-list header img {
+#course-list header img,
+.course-poster {
     max-width: 100%;
 }
 

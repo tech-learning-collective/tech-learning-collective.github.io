@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: page
 ---
 
-<article>
-    {{ content }}
-</article>
+<img class="course-poster"
+    alt="{{ page.poster_title }}"
+    src="{{ "/static/images/" | append: page.poster | relative_url }}"
+/>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ page.slug | upcase | uri_escape }}">Apply for pre-enrollment in {{ page.slug | upcase }}</a>
+{{ content }}

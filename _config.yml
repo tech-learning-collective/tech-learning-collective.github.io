@@ -32,7 +32,7 @@ rss:
   ttl:              60       # Number of minutes indicating how long to cache the channel content.
   editor_email:     editor@example.invalid # Email of the person responsible for channel content.
   webmaster_email:  editor@example.invalid # Email of the person responsible for technical issues.
-  image:            "logo.olive_webdev.white-on-black.470x534.png"
+  image:            "icon.chip.blue.png"
 
 # Course subjects
 subject_map:
@@ -58,11 +58,11 @@ defaults:
     values:
       layout: page
   - scope:
-      path: "courses"
+      type: courses
     values:
       layout: course
   - scope:
-      path: "courses/*"
+      path: "courses"
     values:
-      layout: course
+      layout: courses
       backgroundColor: "#19A3BF"

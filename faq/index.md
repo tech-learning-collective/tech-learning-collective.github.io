@@ -1,5 +1,6 @@
 ---
 title: FAQ
+backgroundColor: "#E19600"
 ---
 
 * [What do I need to bring to class?](#what-do-i-need-to-bring-to-class)
