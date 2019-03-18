@@ -5,12 +5,12 @@ backgroundColor: "#7A9C2C"
 
 Our team has two primary goals for the Tech Learning Collective. These are:
 
-1. [Provide radical technology education](#radical-technology-education)
+1. [Provide radical technology education](#provide-radical-technology-education)
 1. [Fund existing technology-centered community projects](#fund-existing-technology-centered-community-projects)
 
 We are [different from many other educational institutions](#our-difference) in a variety of ways. Many of these differences grew organically from [our unique history](#our-history).
 
-### Radical technology education
+### Provide radical technology education
 
 The Tech Learning Collective offers educational resources exclusively to groups and individuals engaged in projects outside the realm of techno-capitalism. In other words, we offer education to students who are not primarily interested in entrepreneurial endeavors or working as laborers in the tech industry, i.e., finding jobs at software development companies, large corporations, [data brokers](https://privacyinternational.org/type-resource/data-brokers-profile), or similar entities. Rather, [our courses]({{ "/courses/" | relative_url }}) are open only to those people working within community-based, grassroots, and activist spheres. The skills we teach *do* make individuals more likely to get hired in technology-sector jobs, and some of our students have successfully switched careers to become programmers or Site Reliability Engineers (SREs), but our focus during class is on [Free Software](https://www.gnu.org/philosophy/free-sw.html) and commodity, low-cost hardware that individuals and advocacy organizations can use immediately, perpetually, and without any fees.
 
