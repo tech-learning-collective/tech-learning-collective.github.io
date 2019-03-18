@@ -2,21 +2,4 @@
 title: SEC Courses
 ---
 
-<ul id="course-list">
-    {% for course in site.courses %}
-    {% assign course_subject = course.slug | slice: 0, 3 %}
-    {% assign this_subject = page.title | slice: 0, 3 | downcase %}
-    {% if this_subject == course_subject %}
-    <li>
-        <article>
-            <header>
-                <h2>{{ course.title }}</h2>
-                <img src="{{ "/static/images/" | append: course.poster | relative_url }}" alt="" />
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}">Apply for pre-enrollment in {{ course.slug | upcase }}</a>
-            </header>
-            {{ course.content }}
-        </article>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+{% include category-course.html %}
