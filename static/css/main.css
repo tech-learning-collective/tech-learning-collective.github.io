@@ -149,6 +149,10 @@ img#spinner {
 }
 #course-list header img,
 .course-poster {
+    display: block;
+    box-shadow: 0 0 3px #F0F8FF;
+    margin-bottom: 1em;
+    border-radius: .25rem;
     max-width: 100%;
 }
 
