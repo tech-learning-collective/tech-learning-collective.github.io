@@ -1,0 +1,30 @@
+---
+---
+
+<div id="pay-application-fee">
+    <h2>Pre-enrollment Application Invoice</h2>
+    <p>Thank you for submitting a pre-enrollment application for <span id="course-id">a Tech Learning Collective course</span>. We require prospective students to pay a non-refundable ${{ site.payments.prices.application_fee }} USD application fee in order to continue the pre-enrollment process. Please complete your payment below to continue.</p>
+
+    <ul id="payment-options">
+        {% assign amount = site.payments.prices.application_fee | append: '' %}
+        {% assign return = page.url | append: "#payment-thank-you" | absolute_url %}
+        {% assign cancel_return = page.url | append: "#cancelled-payment" | absolute_url %}
+        <li><a href="{% include paypal-url.liquid amount=amount item_number=pre-enrollment-application-fee return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
+    </ul>
+</div><!-- #pay-application-fee -->
+
+<div id="cancelled-payment">
+    <h2>You Cancelled Your Payment</h2>
+    <p>You have cancelled your payment. No funds have been transferred.</p>
+    <p><a href="{{ page.url | append: "#pay-application-fee" | relative_url }}">Return to payment page</a>.</p>
+</div><!-- #cancelled-payment -->
+
+<div id="payment-thank-you">
+    <h2>Your pre-enrollment application fee has been received!</h2>
+    <p>Thank you for your payment to continue the pre-enrollment process with the Tech Learning Collective.</p>
+    <p>Please allow 48 to 72 hours for processing, by which time you should receive a confirmation to your application email address with further details.</p>
+    <p>Thank you again!</p>
+    <p><a href="{{ "/" | relative_url }}">Return to website</a>.</p>
+</div><!-- #payment-thank-you -->
+
+<script src="{{ "/static/js/main.js" | relative_url }}"></script>

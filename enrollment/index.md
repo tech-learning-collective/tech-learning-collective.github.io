@@ -6,7 +6,7 @@ backgroundColor: "#3D5E62"
 Enrolling in a Tech Learning Collective course is a three-stage process:
 
 1. [Register for pre-enrollment](#the-pre-enrollment-process) in a specific course. (Choose a course on our [Course Catalog]({{ "/courses/" | relative_url }}).)
-1. If your registration proceeds to the next phase, you will be invoiced a [$25 application fee](#paying-the-application-fee). (See [Pricing]({{ "/pricing/" | relative_url }}) for details.)
+1. If your registration proceeds to the next phase, you will be invoiced a [${{ site.payments.prices.application_fee }} application fee](#paying-the-application-fee). (See [Pricing]({{ "/pricing/" | relative_url }}) for details.)
 1. Upon payment of your application fee, we will schedule a [placement test](#the-placement-test) and/or a [video interview](#the-video-interview) with you.
 
 ## The pre-enrollment process
@@ -19,7 +19,7 @@ The questionnaire is free and you will not be invoiced if your registration does
 
 ## Paying the application fee
 
-If your pre-enrollment application questionnaire is accepted, you will receive an invoice for the application fee of $25. This fee is the same regardless of which course you apply to enroll in. You will need to pay the application fee to proceed to the next phase of the enrollment process.
+If your pre-enrollment application questionnaire is accepted, you will receive an invoice for the application fee of ${{ site.payments.prices.application_fee }}. This fee is the same regardless of which course you apply to enroll in. You will need to pay the application fee to proceed to the next phase of the enrollment process.
 
 ## The placement test
 

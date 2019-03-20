@@ -66,3 +66,11 @@ defaults:
     values:
       layout: courses
       backgroundColor: "#19A3BF"
+
+# Payment processor integrations.
+payments:
+  prices:
+    application_fee: 25
+  processors:
+    paypal:
+      user_id: techlearningcollective@riseup.net

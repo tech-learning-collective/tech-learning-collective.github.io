@@ -171,6 +171,17 @@ footer p {
     margin: .25rem;
 }
 
+#pay-application-fee,
+#payment-thank-you,
+#cancelled-payment {
+    display: none;
+}
+#pay-application-fee:target,
+#payment-thank-you:target,
+#cancelled-payment:target {
+    display: block;
+}
+
 @media screen and (max-width: 900px) {
     body {
         display: block;
