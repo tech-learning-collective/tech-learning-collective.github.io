@@ -11,11 +11,9 @@ Enrolling in a Tech Learning Collective course is a three-stage process:
 
 ## The pre-enrollment process
 
-The pre-enrollment process consists of a short questionnaire intended to help TLC admissions predict whether you and your peers will find your course experience valuable.
+The pre-enrollment process consists of a short questionnaire intended to help TLC admissions predict whether you and your peers will find your course experience valuable. The questionnaire also asks for contact information so that our admissions team can get in touch with you should your pre-enrollment application proceed to the next phase.
 
-The questionnaire also asks for contact information so that our admissions team can get in touch with you should your pre-enrollment application proceed to the next phase.
-
-The questionnaire is free and you will not be invoiced if your registration does not proceed to the next phase of the enrollment process.
+The questionnaire is free and you will not be invoiced if your registration does not proceed to the next phase of the enrollment process. We process pre-enrollment applications in batches, so you may not hear back from us for several weeks even if your application proceeds to the next phase.
 
 ## Paying the application fee
 
