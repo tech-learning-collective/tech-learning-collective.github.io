@@ -53,6 +53,7 @@ h1 {
 main p:not(:first-child) {
     margin: 1em 0;
     text-indent: 2rem;
+    text-align: justify;
 }
 main li {
     margin: 0 0 1em 0;
