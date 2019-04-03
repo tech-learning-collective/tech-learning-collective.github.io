@@ -9,6 +9,8 @@ Enrolling in a Tech Learning Collective course is a three-stage process:
 1. If your registration proceeds to the next phase, you will be invoiced a [${{ site.payments.prices.application_fee }} application fee](#paying-the-application-fee). (See [Pricing]({{ "/pricing/" | relative_url }}) for details.)
 1. Upon payment of your application fee, we will schedule a [placement test](#the-placement-test) and/or a [video interview](#the-video-interview) with you.
 
+Shortly thereafter, we will let you know [if your application has been accepted](#enrollment-acceptance).
+
 ## The pre-enrollment process
 
 The pre-enrollment process consists of a short questionnaire intended to help TLC admissions predict whether you and your peers will find your course experience valuable. The questionnaire also asks for contact information so that our admissions team can get in touch with you should your pre-enrollment application proceed to the next phase.
