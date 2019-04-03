@@ -57,6 +57,7 @@ main p:not(:first-child) {
 }
 main li {
     margin: 0 0 1em 0;
+    text-align: justify;
 }
 ol ul {
     margin-left: 2em;
@@ -96,6 +97,7 @@ body.page main {
 main h2,
 main h3 {
     margin-bottom: 1em;
+    text-align: left;
 }
 main h3 {
     margin-top: 1em;
