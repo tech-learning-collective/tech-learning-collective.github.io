@@ -27,4 +27,33 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="{{ site.description }}" />
     <meta name="twitter:image" content="{{ "/static/images/icon.chip.blue.png" | absolute_url }}" />
+{% if page.backgroundColor %}
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: {{ page.backgroundColor }};
+}
+body.page header {
+    position: relative;
+}
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to right, {{ page.backgroundColor }}, transparent);
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, {{ page.backgroundColor }}, transparent);
+}
+</style>
+{% endif %}
 </head>

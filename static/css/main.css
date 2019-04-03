@@ -86,13 +86,16 @@ nav li li {
 
 main {
     box-sizing: border-box;
-    padding: 75px 20px 0;
+    padding: 75px 20px 0 30px;
 }
 body.page main {
     max-height: 100%;
     columns: 2;
-    column-gap: 2rem;
+    column-gap: calc(2rem - 15px);
     overflow: auto;
+}
+body.page article {
+    padding-right: 15px;
 }
 main h2,
 main h3 {
@@ -192,6 +195,13 @@ footer p {
     }
     header {
         display: block;
+    }
+    body.page header {
+        position: static;
+    }
+    body.page header::before,
+    body.page header::after {
+        display: none;
     }
     #Tagline {
         margin: 1em 0;
