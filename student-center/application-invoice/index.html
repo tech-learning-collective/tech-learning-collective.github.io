@@ -5,11 +5,15 @@
     <h2>Pre-enrollment Application Invoice</h2>
     <p>Thank you for submitting a pre-enrollment application for <span id="course-id">a Tech Learning Collective course</span>. We require prospective students to pay a non-refundable ${{ site.payments.prices.application_fee }} USD application fee in order to continue the pre-enrollment process. Please complete your payment below to continue.</p>
 
+    <noscript>
+        <p>Due to payment processor requirements, your browser must have JavaScript enabled to continue. Please <a href="https://enable-javascript.com/" title="Learn how to enable JavaScript browser in your browser.">enable JavaScript in your browser</a> and then reload this page to continue.</p>
+    </noscript>
+
     <ul id="payment-options">
         {% assign amount = site.payments.prices.application_fee | append: '' %}
         {% assign return = page.url | append: "#payment-thank-you" | absolute_url %}
         {% assign cancel_return = page.url | append: "#cancelled-payment" | absolute_url %}
-        <li><a href="{% include paypal-url.liquid amount=amount item_number=pre-enrollment-application-fee return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
+        <li style="display: none;"><a href="{% include paypal-url.liquid amount=amount item_name="Pre-enrollment Application Fee" item_number="-APPFEE" return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
     </ul>
 </div><!-- #pay-application-fee -->
 
