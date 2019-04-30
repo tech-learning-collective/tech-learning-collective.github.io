@@ -18,7 +18,9 @@ timezone: "America/New_York"
 markdown: kramdown
 exclude:
   - vendor
-  - README.m
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
 # Blog settings.
 paginate: 5    # How many posts per HTML page.
