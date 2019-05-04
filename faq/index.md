@@ -24,7 +24,7 @@ The Tech Learning Collective partners with several organizations that provide cl
 
 After you [enroll]({{ "/enrollment/" | relative_url }}), you will receive access to our course scheduler and will be able to choose the course timeline that best suits your schedule. The scheduler provides details regarding course logistics, including classroom locations. All classes in a given course are held in the same classroom for the duration of the course unless otherwise noted in the scheduler.
 
-We strive to ensure that students have access to gender-neutral restrooms and that each classroom is wheelchair accessible, but cannot always gaurantee this. Our course scheduler indicates which classrooms provide which amenities so that you can make a more informed choice regarding the specific course timeline and location you ultimately choose to attend.
+We strive to ensure that students have access to gender-neutral restrooms and that each classroom is wheelchair accessible, but cannot always guarantee this. Our course scheduler indicates which classrooms provide which amenities so that you can make a more informed choice regarding the specific course timeline and location you ultimately choose to attend.
 
 At this time, all Tech Learning Collective courses are only offered in person. You must physically arrive at class to participate.
 
