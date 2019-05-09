@@ -127,6 +127,7 @@ img#spinner {
     align-items: baseline;
     font-size: 36pt;
     line-height: 1em;
+    text-align: left;
 }
 #subjects-list a {
     text-decoration: none;
