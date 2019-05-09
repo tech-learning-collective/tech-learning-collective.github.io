@@ -162,6 +162,13 @@ img#spinner {
     max-width: 100%;
 }
 
+td.price::before {
+    content: "$";
+}
+td.price::after {
+    content: " USD";
+}
+
 /**
  * @group Footer.
  */

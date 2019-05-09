@@ -20,3 +20,26 @@ Please note that we do *not* offer refunds.
 Organizations can attend Tech Learning Collective courses as part of corporate or group training for a slightly reduced tuition. We typically offer a 10% reduction in tuition with group courses for batches of 15 or more students. Group tuition fees are not eligible for individual sliding scale adjustments.
 
 [Contact us]({{ "/contact/" | relative_url }}) directly to discuss training details for your organization.
+
+### Course pricing
+
+The tuition for each course is listed in the table below:
+
+<table>
+    <thead>
+        <tr>
+            <th>Course Code</th>
+            <th>Tuition (before sliding scale adjustment)</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for course in site.courses %}
+        <tr>
+            <td>
+                <a href="{{ course.url }}" title="View {{ course.slug | upcase }} details.">{{ course.slug | upcase }}</a>
+            </td>
+            <td class="price">{{ course.tuition }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
