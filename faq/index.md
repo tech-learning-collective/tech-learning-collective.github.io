@@ -3,14 +3,27 @@ title: FAQ
 backgroundColor: "#E19600"
 ---
 
+* [Which course should I take first?](#which-course-should-i-take-first)
 * [What do I need to bring to class?](#what-do-i-need-to-bring-to-class)
 * [What if I don&rsquo;t have a laptop?](#what-if-i-dont-have-a-laptop)
 * [Where are classes held?](#where-are-classes-held)
 * [Can I pay my course tuition in installments?](#can-i-pay-my-course-tuition-in-installments)
 
+## Which course should I take first?
+
+Generally, you should apply for the course on our [course catalog]({% link courses/index.html %}) that most immediately interests you. This is because each course is designed as a self-contained unit and our pre-enrollment application process will help guide you towards the most fitting class for your level of experience. That being said, if you don&rsquo;t have any (or much) existing experience in this area and are not drawn to a particular subject on your own, we suggest that you consider the following learning path through our courses:
+
+1. [SYS101]({% link _courses/sys101.md %}): Learn the fundamentals of what a computing device is and how to interact with one.
+1. [NET101]({% link _courses/net101.md %}): Learn how devices are networked together.
+1. [WEB101]({% link _courses/web101.md %}): Learn fundamental concepts of Web publishing, which is among the most common uses for computer networks today.
+1. [SEC101]({% link _courses/sec101.md %}): Learn why the complex interactions between devices, networks, and applications create security and privacy vulnerabilities and how to deal with them.
+1. [WEB201]({% link _courses/web201.md %}): Learn how to safely utilitize the Web as a platform for advocacy and coordination beyond traditional Web sites.
+
+To be clear, you could start at any 101-level course. Nevertheless, completing the courses in the order they are listed above offers the fastest, most thorough, and logical route through the material. This is because networks (NET101) will make more sense if you have some understanding of the networked devices in isolation (SYS101), and so on.
+
 ## What do I need to bring to class?
 
-As every Tech Learning Collective course focuses on hands-on, experience-based training, **you will need a portable personal computer** running any modern version of [Apple&rsquo;s macOS](https://www.apple.com/macos/what-is/), [Microsoft Windows](https://www.microsoft.com/windows), or any flavor of the [GNU/Linux](https://www.linux.com/what-is-linux) operating systems to take full advantage of class time. For certain courses, [Google Chromebooks](https://www.google.com/chromebook/) and certain handheld or tablet computers may suffice, but are generally not recommended as they can be severely constrained by their manufacturer or vendor. If in doubt, please either [contact]({{ "/contact/" | relative_url }}) us or bring up your concerns during your [enrollment process]({{ "/enrollment/" | relative_url }}).
+As every Tech Learning Collective course focuses on hands-on, experience-based training, **you will need a portable personal computer** running any modern version of [Apple&rsquo;s macOS](https://www.apple.com/macos/what-is/), [Microsoft Windows](https://www.microsoft.com/windows), or any flavor of the [GNU/Linux](https://www.linux.com/what-is-linux) operating systems to take full advantage of class time. For certain courses, [Google Chromebooks](https://www.google.com/chromebook/) and certain handheld or tablet computers may suffice, but are generally not recommended as they can be severely constrained by their manufacturer or vendor. If in doubt, please either [contact]({% link contact/index.md %}) us or bring up your concerns during your [enrollment process]({% link enrollment/index.md %}).
 
 Learning a lot in a short period of time can also make one very hungry, so we also advise that you arrive to class well-fed or that you bring a meal with you.
 
@@ -22,7 +35,7 @@ If you cannot afford or acquire a computer sufficient for the course you are enr
 
 The Tech Learning Collective partners with several organizations that provide classroom spaces around New York City. We typically determine the classroom location for a specific course one to two months before the course begins. Course locations are determined based on a combination of classroom and teacher availability.
 
-After you [enroll]({{ "/enrollment/" | relative_url }}), you will receive access to our course scheduler and will be able to choose the course timeline that best suits your schedule. The scheduler provides details regarding course logistics, including classroom locations. All classes in a given course are held in the same classroom for the duration of the course unless otherwise noted in the scheduler.
+After you [enroll]({% link enrollment/index.md %}), you will receive access to our course scheduler and will be able to choose the course timeline that best suits your schedule. The scheduler provides details regarding course logistics, including classroom locations. All classes in a given course are held in the same classroom for the duration of the course unless otherwise noted in the scheduler.
 
 We strive to ensure that students have access to gender-neutral restrooms and that each classroom is wheelchair accessible, but cannot always guarantee this. Our course scheduler indicates which classrooms provide which amenities so that you can make a more informed choice regarding the specific course timeline and location you ultimately choose to attend.
 
@@ -30,4 +43,4 @@ At this time, all Tech Learning Collective courses are only offered in person. Y
 
 ## Can I pay my course tuition in installments?
 
-Generally, no. Our [flexible pricing model and sliding-scale tuition]({{ "/pricing/" | relative_url }}) helps ensure that all Tech Learning Collective courses are affordable. If you need financial assistance, please voice your concerns during your [enrollment process]({{ "/enrollment/" | relative_url }}). More often than not, your tuition can be reduced based on your needs, but we still ask that you pay tuition in full before the start of your course's first class.
+Generally, no. Our [flexible pricing model and sliding-scale tuition]({% link pricing/index.md %}) helps ensure that all Tech Learning Collective courses are affordable. If you need financial assistance, please voice your concerns during your [enrollment process]({% link enrollment/index.md %}). More often than not, your tuition can be reduced based on your needs, but we still ask that you pay tuition in full before the start of your course&rsquo;s first class.
