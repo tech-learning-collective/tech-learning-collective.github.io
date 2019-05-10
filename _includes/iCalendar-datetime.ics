@@ -1,0 +1,12 @@
+{%- assign offset_operation  = include.datetime | date: "%z" | split: "" | first -%}
+{%- assign offset_hours      = include.datetime | date: "%z" | split: "" | slice: 1, 2 | join: "" | plus: 0 -%}
+{%- assign offset_minutes    = include.datetime | date: "%z" | split: "" | slice: 3, 4 | join: "" | plus: 0 -%}
+{%- assign offset_hours_in_seconds   = 60 | times: 60 | times: offset_hours -%}
+{%- assign offset_minutes_in_seconds = 60 | times: offset_minutes -%}
+{%- assign offset_in_seconds         = offset_hours_in_seconds | plus: offset_minutes_in_seconds -%}
+{%- if "+" == offset_operation -%}
+    {{- include.datetime | date: "%s" | plus: 0 | minus: offset_in_seconds | date: "%Y%m%dT%H%M%SZ" -}}
+{%- else -%}
+    {{- include.datetime | date: "%s" | plus: 0 | plus: offset_in_seconds | date: "%Y%m%dT%H%M%SZ" -}}
+{%- endif -%}
+

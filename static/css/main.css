@@ -24,13 +24,16 @@ a {
     color: #FFF;
     text-decoration-skip-ink: auto;
 }
+.icon {
+    width: 1em;
+}
 p, main li {
     line-height: 1.5em;
 }
 main ul li, main ol ul li {
     list-style: disc;
 }
-main ol li {
+main ol:not(.h-events) li {
     list-style: decimal;
 }
 
@@ -49,6 +52,7 @@ body {
 
 h1 {
     font: 18pt "MonoSpatial";
+    margin-bottom: 1em;
 }
 main p:not(:first-child) {
     margin: 1em 0;
@@ -155,7 +159,8 @@ img#spinner {
     display: block;
 }
 #course-list header img,
-.course-poster {
+.course-poster,
+.h-event img {
     display: block;
     box-shadow: 0 0 3px #F0F8FF;
     margin-bottom: 1em;
@@ -168,6 +173,29 @@ td.price::before {
 }
 td.price::after {
     content: " USD";
+}
+
+/**
+ * @group Microformats and structured data.
+ */
+.h-event {
+    margin: 0 0 2em 0;
+}
+.h-event header {
+    display: block;
+}
+.h-event footer {
+    position: static;
+    writing-mode: initial;
+    font-size: inherit;
+    opacity: 1;
+}
+.event-meta li {
+    list-style-type: none;
+}
+.h-event .u-photo,
+.h-event .event-status {
+    display: none;
 }
 
 /**

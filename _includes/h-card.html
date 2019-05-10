@@ -1,0 +1,65 @@
+{% assign entity = include.entity %}
+{% assign entity_photo = nil %}
+{% assign entity_logo = nil %}
+{% assign entity_image = nil %}
+
+{% if entity.photo %}
+{% assign x = entity.photo | split: ":" | first %}
+{% if "http" == x or "https" == x %}
+    {% assign entity_photo = entity.photo %}
+{% else %}
+    {% assign entity_photo = "/static/images/" | append: x | relative_url %}
+{% endif %}
+{% endif %}
+
+{% if entity.logo %}
+{% assign x = entity.logo | split: ":" | first %}
+{% if "http" == x or "https" == x %}
+    {% assign entity_logo = entity.logo %}
+{% else %}
+    {% assign entity_logo = "/static/images/" | append: x | relative_url %}
+{% endif %}
+{% endif %}
+
+{% if entity.image %}
+{% assign x = entity.image | split: ":" | first %}
+{% if "http" == x or "https" == x %}
+    {% assign entity_image = entity.image %}
+{% else %}
+    {% assign entity_image = "/static/images/" | append: x | relative_url %}
+{% endif %}
+{% endif %}
+
+<div class="h-card vcard">
+    {% if entity.name %}
+    <div class="p-name fn{% if include.isOrg %} org{% endif %}" itemprop="name">
+
+        {% if entity_photo or entity_logo or entity_image %}
+        <img
+            src="{{ entity_photo | default: entity_logo | default: entity_image | absolute_url }}"
+            alt=""
+            class="u-photo photo"
+            itemprop="image logo photo" />
+        {% endif %}
+
+        {% if entity.url %}<a href="{{ entity.url }}" class="url" itemprop="url">{% endif %}
+            {{ entity.name }}
+        {% if entity.url %}</a>{% endif %}
+
+    </div><!-- .p-name -->
+    {% endif %}
+
+    {% if entity.address %}
+    <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+        {% if entity.address.streetAddress %}<span class="p-street-address street-address" itemprop="streetAddress">{{ entity.address.streetAddress | strip }}</span>{% endif %}
+        {% if entity.address.addressLocality %}<span class="p-locality locality" itemprop="addressLocality">{{ entity.address.addressLocality | strip }}</span>{% endif %}
+        {% if entity.address.addressRegion %}<span class="p-region region" itemprop="addressRegion">{{ entity.address.addressRegion | strip }}</span>{% endif %}
+        {% if entity.address.postalCode %}<span class="p-postal-code postal-code" itemprop="postalCode">{{ entity.address.postalCode | strip }}</span>{% endif %}
+        {% if entity.address.addressCountry %}<span class="p-country country" itemprop="addressCountry">{{ entity.address.addressCountry | strip }}</span>{% endif %}
+    </div><!-- .h-adr -->
+    {% endif %}
+
+    {% if entity.maximumAttendeeCapacity %}
+    <meta itemprop="maximumAttendeeCapacity" content="{{ entity.maximumAttendeeCapacity }}" />
+    {% endif %}
+</div><!-- .h-card -->

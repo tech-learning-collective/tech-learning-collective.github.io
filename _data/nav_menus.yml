@@ -5,18 +5,20 @@
 # details about the specifics of each key and its meaning.
 ---
 main:
-  - url: /about/
-    text: About
-    submenu:
-        - url: /faq/
-          text: FAQ
-          title_text: Answers to Frequently Asked Questions
-  - url: /courses/
-    text: Courses
-    submenu:
-      - url: /enrollment/
-        text: Enrollment
-      - url: /pricing/
-        text: Pricing
-  - url: /contact/
-    text: Contact
+    - url: /about/
+      text: About
+      submenu:
+          - url: /faq/
+            text: FAQ
+            title_text: Answers to Frequently Asked Questions
+          - url: /events/
+            text: Events & Workshops
+    - url: /courses/
+      text: Courses
+      submenu:
+          - url: /enrollment/
+            text: Enrollment
+          - url: /pricing/
+            text: Pricing
+    - url: /contact/
+      text: Contact

@@ -1,0 +1,11 @@
+{{- include.description
+    | replace: "<br />", "\n"
+    | replace: "<br>", "\n"
+    | strip_html
+    | newline_to_br
+    | strip_newlines
+    | replace: "<br />", '\n'
+    | replace: "<br>", '\n'
+    | replace: ",", "\,"
+    | replace: ";", "\;"
+-}}

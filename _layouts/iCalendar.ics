@@ -1,0 +1,13 @@
+---
+layout: none
+---
+{%- include globals.liquid -%}
+{%- assign events = site.events | sort: "startDate" -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:iCalendar Generator at {{ site.url }}
+NAME:{% include site-title.txt %} - {% include gettext.liquid key="all_events" %}
+{% for event in events -%}
+{%- include vevent.ics event=event -%}
+{%- endfor %}
+END:VCALENDAR

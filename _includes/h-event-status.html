@@ -1,0 +1,18 @@
+Status:
+
+<span class="status">
+{% if "EventCancelled" == event.eventStatus %}
+CANCELLED
+<meta itemprop="eventStatus" content="https://schema.org/EventCancelled" />
+{% elsif "EventPostponed" == event.eventStatus %}
+TENTATIVE
+<meta itemprop="eventStatus" content="https://schema.org/EventPostponed" />
+{% else %}
+CONFIRMED
+    {% if "EventRescheduled" == event.eventStatus %}
+    <meta itemprop="eventStatus" content="https://schema.org/EventRescheduled" />
+    {% else %}
+    <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+    {% endif %}
+{% endif %}
+</span>

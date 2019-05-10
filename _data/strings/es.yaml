@@ -1,0 +1,13 @@
+# Text strings for Spanish.
+---
+add_our_info_to_address_book: Agregue nuestra información de contacto a su libreta de direcciones.
+all_events: Todos Los Eventos
+latest_posts: Últimas %s publicaciones de blog.
+site_description: >-
+    Descripción del lugar.
+site_title: Sitio de ejemplo
+subscribe_to_events: Suscríbete a estos eventos en tu calendario.
+this_page_has_translations: "Esta página está disponible en los siguientes idiomas:"
+newer_posts: Las publicaciones más nuevas
+older_posts: Posts más antiguos
+no_blog_posts_published_yet: Aún no se han publicado publicaciones en el blog.

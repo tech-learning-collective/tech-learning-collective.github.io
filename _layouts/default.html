@@ -1,5 +1,9 @@
+{%- include globals.liquid -%}
 <!DOCTYPE html>
-<html lang="{{ site.human_language | default: "en" }}">
+<html lang="{{ lang | default: "en" }}"
+      itemscope="itemscope"
+      itemtype="https://schema.org/{{ site.type | default: "Thing" }}"
+>
 {% include head.html %}
 <body class="{{ page.layout }}">
     <header>
@@ -9,7 +13,7 @@
             {% include site-navigation.html %}
         </nav>
     </header>
-    <main>
+    <main{% if page.columns %} style="column-count: {{ page.columns }}; overflow: unset; max-height: unset;"{% endif %}>
         {{ content }}
     </main>
     <footer>

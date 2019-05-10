@@ -1,0 +1,24 @@
+{% assign offer = include.offer %}
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    {% if offer.url %}<a href="{{ offer.url }}" itemprop="url">{% endif %}
+        {% if offer.name %}<span itemprop="name">{{ offer.name }}</span>{% endif %}
+        {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif%}
+        {% if offer.priceCurrency %}<meta itemprop="priceCurrency" content="{{ offer.priceCurrency }}" />{% endif%}
+    {% if offer.url %}</a>{% endif %}
+
+    {% if offer.description %}
+    <div itemprop="description">
+        {{ offer.description }}
+    </div>
+    {% endif %}
+
+    {% if offer.availability %}
+    <link itemprop="availability" content="https://schema.org/{{ offer.availability }}" />
+    {% endif %}
+
+    {% if offer.availabilityEnds %}
+    <meta itemprop="availabilityEnds" content="{{ offer.availabilityEnds | date_to_xmlschema }}" />
+    {% endif %}
+</div>

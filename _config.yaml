@@ -11,8 +11,9 @@ title: Tech Learning Collective
 tagline: Technology education for radical organizers and revolutionary communities.
 description: >-
     The Tech Learning Collective offers low-cost courses on computer technologies specifically for Left-leaning, politically engaged individuals and groups. Courses cater to people with skill levels ranging from self-identified “beginners” to very experienced technologists.
-human_language: "en-US" # The primary human language you write in.
+lang: "en_US" # The primary human language you write in.
 timezone: "America/New_York"
+type: School
 
 # Build settings
 markdown: kramdown
@@ -25,6 +26,8 @@ exclude:
 # Blog settings.
 paginate: 5    # How many posts per HTML page.
 paginate_path: "/blog/page/:num/"
+date_format: "%B %e, %Y"
+time_format: "%l:%M %p"
 
 # RSS feed settings.
 rss:
@@ -34,7 +37,7 @@ rss:
   ttl:              60       # Number of minutes indicating how long to cache the channel content.
   editor_email:     editor@example.invalid # Email of the person responsible for channel content.
   webmaster_email:  editor@example.invalid # Email of the person responsible for technical issues.
-  image:            "icon.chip.blue.png"
+  image: &image     "icon.chip.blue.png"
 
 # Course subjects
 subject_map:
@@ -53,7 +56,12 @@ subject_map:
 collections:
   courses:
     output: true
+  events:
+    output: true
+    permalink: /:collection/:categories/:year/:month/:title
+    sort_by: startDate
 
+# Front Matter defaults.
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
@@ -68,6 +76,22 @@ defaults:
     values:
       layout: courses
       backgroundColor: "#19A3BF"
+  - scope:
+      path: "events"
+    values:
+      backgroundColor: &eventsBackgroundColor "#7E0098"
+  - scope:
+      type: events
+    values:
+      layout: event
+      backgroundColor: *eventsBackgroundColor
+
+# iCalendar settings.
+iCalendar:
+    defaults:
+        location: New York, NY
+        status: CONFIRMED
+        image: *image
 
 # Payment processor integrations.
 payments:
