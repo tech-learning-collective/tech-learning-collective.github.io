@@ -25,7 +25,7 @@ Organizations can attend Tech Learning Collective courses as part of corporate o
 
 The tuition for each course is listed in the table below:
 
-<table>
+<table class="dotleader">
     <thead>
         <tr>
             <th>Course Code</th>
@@ -36,9 +36,9 @@ The tuition for each course is listed in the table below:
     {% for course in site.courses %}
         <tr>
             <td>
-                <a href="{{ course.url }}" title="View {{ course.slug | upcase }} details.">{{ course.slug | upcase }}</a>
+                <span><a href="{{ course.url }}" title="View {{ course.slug | upcase }} details.">{{ course.slug | upcase }}</a></span>
             </td>
-            <td class="price">{{ course.tuition }}</td>
+            <td class="price"><span>{{ course.tuition }}</span></td>
         </tr>
     {% endfor %}
     </tbody>

@@ -36,6 +36,24 @@ main ul li, main ol ul li {
 main ol:not(.h-events) li {
     list-style: decimal;
 }
+.dotleader tr {
+    overflow: hidden;
+}
+.dotleader td:first-child::before {
+    content:
+        ".............................................."
+        ".............................................."
+        ".............................................."
+        ".............................................."
+        ".............................................."
+        "..............................................";
+    width: 0;
+    float: left;
+    z-index: -99;
+}
+.dotleader span {
+    background-color: inherit;
+}
 
 /**
  * @group Main.
@@ -168,6 +186,9 @@ img#spinner {
     max-width: 100%;
 }
 
+td.price {
+    text-align: right;
+}
 td.price::before {
     content: "$";
 }
