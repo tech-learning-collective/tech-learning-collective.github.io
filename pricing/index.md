@@ -23,9 +23,9 @@ Organizations can attend Tech Learning Collective courses as part of corporate o
 
 ### Course pricing
 
-The tuition for each course is listed in the table below:
+The tuition for each course is listed in the table below. Tuition costs shown here include the ${{ site.payments.prices.application_fee}} USD non-refundable application fee.
 
-<table class="dotleader">
+<table class="dotleader price">
     <thead>
         <tr>
             <th>Course Code</th>
@@ -38,7 +38,7 @@ The tuition for each course is listed in the table below:
             <td>
                 <span><a href="{{ course.url }}" title="View {{ course.slug | upcase }} details.">{{ course.slug | upcase }}</a></span>
             </td>
-            <td class="price"><span>{{ course.tuition }}</span></td>
+            <td><span>{{ course.tuition }}</span></td>
         </tr>
     {% endfor %}
     </tbody>
