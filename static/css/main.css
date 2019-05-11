@@ -274,8 +274,12 @@ footer p {
         padding-right: 60px;
         background-position: right 0;
     }
+    nav > ul > li {
+        padding-right: 15px;
+    }
     nav li {
         flex-grow: 1;
+        flex-basis: 0;
     }
     main {
         padding: 20px 0 0 0;
