@@ -44,3 +44,5 @@ At this time, all Tech Learning Collective courses are only offered in person. Y
 ## Can I pay my course tuition in installments?
 
 Generally, no. Our [flexible pricing model and sliding-scale tuition]({% link pricing/index.md %}) helps ensure that all Tech Learning Collective courses are affordable. If you need financial assistance, please voice your concerns during your [enrollment process]({% link enrollment/index.md %}). More often than not, your tuition can be reduced based on your needs, but we still ask that you pay tuition in full before the start of your course&rsquo;s first class.
+
+If you *still* cannot afford to enroll in one of our courses, you may be able to attend our occasional donation-based, or satellite [workshops]({% link workshops/index.md %}). Subscribe to [our events calendar]({% link events/index.md %}) to make sure you don't miss the opportunity!
