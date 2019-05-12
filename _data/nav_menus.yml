@@ -12,7 +12,9 @@ main:
             text: FAQ
             title_text: Answers to Frequently Asked Questions
           - url: /events/
-            text: Events & Workshops
+            text: Events
+          - url: /workshops/
+            text: Workshops
     - url: /courses/
       text: Courses
       submenu:

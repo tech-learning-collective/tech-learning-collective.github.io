@@ -56,6 +56,9 @@ subject_map:
 collections:
   courses:
     output: true
+  workshops:
+    output: true
+    permalink: /:collection/:categories/:title
   events:
     output: true
     permalink: /:collection/:categories/:year/:month/:title
@@ -76,6 +79,14 @@ defaults:
     values:
       layout: courses
       backgroundColor: "#19A3BF"
+  - scope:
+      type: workshops
+    values:
+      backgroundColor: &workshopsBackgroundColor "#6F6A33"
+  - scope:
+      path: "workshops" 
+    values:
+      backgroundColor: *workshopsBackgroundColor
   - scope:
       path: "events"
     values:
