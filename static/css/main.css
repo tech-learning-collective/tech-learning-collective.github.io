@@ -185,8 +185,9 @@ img#spinner {
     display: block;
     box-shadow: 0 0 3px #F0F8FF;
     margin-bottom: 1em;
+    margin-left: 3px;
     border-radius: .25rem;
-    max-width: 100%;
+    max-width: calc(100% - 6px);
 }
 
 table.price th:first-child{
