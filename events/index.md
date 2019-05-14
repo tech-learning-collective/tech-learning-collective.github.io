@@ -4,7 +4,7 @@ id: events
 columns: 1
 ---
 
-In addition to our intensive [courses]({% link courses/index.html %}), we also host satellite events such as workshops, skillshares, and demonstrations in collaboration with hackerspaces and other venues across New York City. Our satellite workshops are a low-commitment way to get a feel for our more intensive courses as well as meet some of our teaching team. Workshops are priced similarly to their course subject.
+In addition to our intensive [courses]({% link courses/index.html %}), we also host satellite events such as [workshops]({% link workshops/index.md %}), skillshares, and demonstrations in collaboration with hackerspaces and other venues across New York City. Our satellite workshops are a low-commitment way to get a feel for our more intensive courses as well as meet some of our teaching team. Workshops are priced similarly to their course subject.
 
 # Upcoming events
 

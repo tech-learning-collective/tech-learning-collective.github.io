@@ -2,7 +2,7 @@
 title: Workshops
 ---
 
-In addition to our intensive [courses]({% link courses/index.html %}), we are also available to teach one-off workshops on specific subjects. These workshops are derived from portions of our longer course intensives, and do not cover the entirety of their subject matter. They are typically one- to two-hour presentations that can be run either as demonstrations (lecture format) or as practice labs (workshop format).
+In addition to our intensive [courses]({% link courses/index.html %}) and public [events]({% link events/index.md %}), Tech Learning Collective instructors are also available to host one-off workshops on specific subjects. These workshops are derived from portions of our longer course intensives, and are similar to but do not cover the entirety of the associated subject matter. Each workshop is typically one- to two-hours long and can be run either as demonstrations (in lecture format) or as practice labs (in workshop format).
 
 Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collective instructor at your next event.
 
