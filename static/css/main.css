@@ -24,6 +24,9 @@ a {
     color: #FFF;
     text-decoration-skip-ink: auto;
 }
+a:hover {
+    text-decoration-style: dashed;
+}
 .icon {
     width: 1em;
 }
@@ -104,12 +107,28 @@ nav > ul {
     background: url("/static/images/icon.chip.transparent.png") 0 bottom / 60px no-repeat;
 }
 nav li {
-    font-weight: bold;
     margin-bottom: 1rem;
+    font-weight: bold;
+    border-left: 0 solid white;
+    transition:
+        margin-left .25s,
+        border-left-width .25s,
+        padding-left .25s;
+}
+nav li:hover {
+    margin-left: -25px;
+    border-left-width: 15px;
+    padding-left: 10px;
 }
 nav li li {
     font-weight: normal;
     margin-bottom: 0;
+    padding-left: 0;
+}
+nav li:hover li:hover {
+    margin-left: -25px;
+    border-left-width: 25px;
+    padding-left: 5px;
 }
 
 main {
@@ -291,6 +310,18 @@ footer p {
     nav li {
         flex-grow: 1;
         flex-basis: 0;
+        margin-left: 0;
+        border: none;
+        transition: none;
+    }
+    nav li:hover,
+    nav li:hover li:hover {
+        margin-left: 0;
+        border: none;
+        padding-left: 0;
+    }
+    nav a:hover {
+        text-decoration: underline dashed white;
     }
     main {
         padding: 20px 0 0 0;
