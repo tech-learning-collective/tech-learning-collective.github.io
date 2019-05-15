@@ -30,6 +30,9 @@ a {
 .icon[src$=".svg"] {
     filter: invert(100%);
 }
+.icon.calendar {
+    margin-right: .25em;
+}
 p, main li {
     line-height: 1.5em;
 }
