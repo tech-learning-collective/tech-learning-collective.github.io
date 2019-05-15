@@ -27,8 +27,6 @@ Certain courses require you to pass a small placement test. The placement test i
 
 Based on the results of your placement test, we may ask that you consider re-applying to a different course, or that you complete some self-study exercises on your own before re-applying to the same course. If your application is not approved due to the results of your placement test, you will be able to carry your application fee over to your next application.
 
-If the course to which you applied does not require a placement test, you will progress to the video interview, described next.
-
 ## The video interview
 
 If you proceed to the final stage of the enrollment process, we will ask you to make time for a remote video interview. (To participate, you merely need access to a modern Web browser such as an up-to-date copy of [Mozilla Firefox](https://www.mozilla.org/firefox/) or [Google Chrome](https://www.google.com/chrome/).)
