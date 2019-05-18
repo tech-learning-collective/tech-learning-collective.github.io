@@ -1,6 +1,6 @@
 ---
 title: FAQ
-backgroundColor: "#E19600"
+backgroundColor: rgba(225, 150, 0, 1)
 ---
 
 * [Which course should I take first?](#which-course-should-i-take-first)

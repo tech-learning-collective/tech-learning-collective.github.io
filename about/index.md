@@ -1,6 +1,6 @@
 ---
 title: About
-backgroundColor: "#7A9C2C"
+backgroundColor: rgba(122, 156, 44, 1)
 ---
 
 Our team has two primary goals for the Tech Learning Collective. These are:

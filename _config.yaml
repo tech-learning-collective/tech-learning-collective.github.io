@@ -78,11 +78,11 @@ defaults:
       path: "courses"
     values:
       layout: courses
-      backgroundColor: "#19A3BF"
+      backgroundColor: rgba(25, 163, 191, 1)
   - scope:
       type: workshops
     values:
-      backgroundColor: &workshopsBackgroundColor "#6F6A33"
+      backgroundColor: &workshopsBackgroundColor rgba(111, 106, 51, 1)
   - scope:
       path: "workshops" 
     values:
@@ -90,7 +90,7 @@ defaults:
   - scope:
       path: "events"
     values:
-      backgroundColor: &eventsBackgroundColor "#7E0098"
+      backgroundColor: &eventsBackgroundColor rgba(126, 0, 152, 1)
   - scope:
       type: events
     values:

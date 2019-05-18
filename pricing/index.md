@@ -1,6 +1,6 @@
 ---
 title: Pricing
-backgroundColor: "#A10101"
+backgroundColor: rgba(161, 1, 1, 1)
 ---
 
 Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups).
