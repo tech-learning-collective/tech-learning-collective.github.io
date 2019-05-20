@@ -3,6 +3,7 @@ title: "Tor: What is it Good For? (Absolutely Everything!) A Dark Web Workshop b
 startDate: 2019-06-15 15:30:00 -0400
 endDate: 2019-06-15 17:30:00 -0400
 location: Wonderville
+image: event.2019-06-15.tor.jpg
 offers:
     - name: Workshop Ticket
       price: 45
