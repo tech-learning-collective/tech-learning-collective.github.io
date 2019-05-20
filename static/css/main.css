@@ -248,6 +248,11 @@ table.price td:last-child::after {
 .h-event .event-status {
     display: none;
 }
+.p-street-address::after,
+.p-locality::after,
+.p-postal-code::after {
+    content: ",";
+}
 
 /**
  * @group Footer.
