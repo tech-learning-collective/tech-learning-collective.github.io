@@ -1,0 +1,10 @@
+---
+layout: page
+---
+
+<img src="{{ page.image | default: "icon.chip.blue.png" | prepend: "/static/images/" | relative_url }}" alt="Poster for {{ page.title }}" />
+{{ content }}
+
+<footer>
+    <p><a href="mailto:{{ site.data.contact.email }}?subject={{ "Booking request: " | append: page.title | uri_escape }}">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>

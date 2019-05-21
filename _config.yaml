@@ -82,6 +82,7 @@ defaults:
   - scope:
       type: workshops
     values:
+      layout: workshop
       backgroundColor: &workshopsBackgroundColor rgba(111, 106, 51, 1)
   - scope:
       path: "workshops" 

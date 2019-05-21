@@ -153,6 +153,17 @@ main h3 {
     margin-top: 1em;
 }
 
+/**
+ * @group Images.
+ */
+img {
+    box-shadow: 0 0 3px #F0F8FF;
+}
+img#spinner,
+img.icon {
+    box-shadow: none;
+}
+
 img#spinner {
     position: absolute;
     top: 35%;
@@ -205,7 +216,6 @@ img#spinner {
 .course-poster,
 .h-event img {
     display: block;
-    box-shadow: 0 0 3px #F0F8FF;
     margin-bottom: 1em;
     margin-left: 3px;
     border-radius: .25rem;
@@ -256,9 +266,21 @@ table.price td:last-child::after {
 }
 
 /**
- * @group Footer.
+ * @group Workshop pages.
+ */
+.workshop article img:first-of-type {
+    float: right;
+    width: 50%;
+    margin: 0 0 1em 1em;
+}
+
+/**
+ * @group Footers.
  */
 footer {
+    margin-bottom: 1em;
+}
+#MainFooter {
     position: fixed;
     bottom: 25px;
     right: 0;
@@ -266,7 +288,7 @@ footer {
     writing-mode: vertical-rl;
     opacity: .5;
 }
-footer p {
+#MainFooter p {
     margin: .25rem;
 }
 
@@ -346,5 +368,11 @@ footer p {
         display: block;
         margin-left: 0;
         margin-right: 0;
+    }
+    .workshop article img:first-of-type {
+        float: none;
+        width: auto;
+        max-width: 100%;
+        margin: 0;
     }
 }
