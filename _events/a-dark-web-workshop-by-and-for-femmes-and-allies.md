@@ -1,6 +1,6 @@
 ---
 title: "Tor: What is it Good For? (Absolutely Everything!) A Dark Web Workshop by and for Femmes and Allies"
-startDate: 2019-06-15 15:30:00 -0400
+startDate: &startDate 2019-06-15 15:30:00 -0400
 endDate: 2019-06-15 17:30:00 -0400
 location: Wonderville
 image: event.2019-06-15.tor.jpg
@@ -8,9 +8,16 @@ offers:
     - name: Workshop Ticket
       price: 45
       priceCurrency: USD
+      availabilityEnds: *startDate
+      url: https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything-a-dark-web-workshop-by-and-for-femmes-and-allies
     - name: Reduced price Workshop Ticket (for queer and femme-identified folx)
       price: 30
       priceCurrency: USD
+      availabilityEnds: *startDate
+      url: https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything-a-dark-web-workshop-by-and-for-femmes-and-allies
+sameAs:
+    - https://withfriends.co/event/1711849/
+    - https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything-a-dark-web-workshop-by-and-for-femmes-and-allies
 maximumAttendeeCapacity: 25
 ---
 
@@ -22,7 +29,7 @@ This digital safety workshop, open to all, is facilitated by the Tech Learning C
 >
 > In this deep dive workshop on [Tor](https://torproject.org/), the [Tech Learning Collective]({% link index.html %})’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool. They’ll demonstrate numerous Tor features such as Tor authentication, target service load balancing, and NAT-punching. In the process, you’ll finally understand—on a technical level—what the “Dark Web” actually is and how it works. Bring a laptop to class, and you’ll leave having run your own Dark Web site. Whether you’re a veteran black hat or a timid newbie, this class will shine a light on the Dark Web once and for all.
 
-This workshop features material from the [Tech Learning Collective's popular "Hacking with Mr. Robot" SEC101 course]({% link _courses/sec101.md %}). Tickets are sold at the door on a first-come, first-served basis:
+This workshop features material from the [Tech Learning Collective's popular "Hacking with Mr. Robot" SEC101 course]({% link _courses/sec101.md %}). Tickets are sold on a first-come, first-served basis:
 
 * $45 - Workshop Ticket
 * $30 - Reduced price Workshop Ticket for queer and femme-identified folx
