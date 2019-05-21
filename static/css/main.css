@@ -249,6 +249,7 @@ table.price td:last-child::after {
     display: none;
 }
 .p-street-address::after,
+.p-extended-address::after,
 .p-locality::after,
 .p-postal-code::after {
     content: ",";
