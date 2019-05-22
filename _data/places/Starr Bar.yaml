@@ -1,0 +1,17 @@
+---
+name: Starr Bar
+description: Mission-based social justice bar that celebrates and supports movements for social justice.
+type: BarOrPub
+address:
+    streetAddress: 214 Starr Street
+    addressLocality: Brooklyn
+    addressRegion: NY
+    postalCode: 11237
+    addressCountry: United States
+url: https://starrbar.com/
+telephone: +1 718-821-1100
+logo: https://images.squarespace-cdn.com/content/578e8fe1ff7c505582a6d2ea/1553181090169-XVRFAQHTB6XXRD5B5816/starr-logo-transparent.png?content-type=image%2Fpng
+sameAs:
+    - https://www.facebook.com/StarrBarBK/
+    - https://www.instagram.com/StarrBarBK/
+    - https://twitter.com/StarrBarBK
