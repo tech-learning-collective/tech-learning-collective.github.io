@@ -13,6 +13,11 @@ offers:
       price: 10
       priceCurrency: USD
       availabilityEnds: *startDate
+organizers:
+    - Tech Learning Collective
+    - Starr Bar
+performers:
+    - Tech Learning Collective
 ---
 
 Starr Bar in collaboration with the Tech Learning Collective presents: *Mr. Robot&rsquo;s Hacker Happy Hour*.

@@ -15,6 +15,11 @@ offers:
 sameAs:
     - https://www.wonderville.nyc/events/mr-robot-hacker-happy-hour
     - https://www.facebook.com/events/577952639377320/
+organizers:
+    - Tech Learning Collective
+    - Wonderville
+performers:
+    - Tech Learning Collective
 ---
 
 Get a crash course in cybersecurity fundamentals with the Tech Learning Collective in a preview of the forthcoming Security 101 course!

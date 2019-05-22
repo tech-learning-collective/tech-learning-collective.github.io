@@ -255,7 +255,9 @@ table.price td:last-child::after {
     list-style-type: none;
 }
 .h-event .u-photo,
-.h-event .event-status {
+.h-event .event-status,
+.h-event .performances,
+.h-event .organizers {
     display: none;
 }
 .p-street-address::after,
