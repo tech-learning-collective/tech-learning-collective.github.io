@@ -8,6 +8,8 @@ audiences:
     - type: people
       requiredMinAge: 21
 isAccessibleForFree: true
+sameAs:
+    - https://www.facebook.com/events/429137514547430/
 offers:
     - name: Suggested Donation
       price: 10
