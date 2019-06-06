@@ -18,6 +18,7 @@ offers:
 sameAs:
     - https://withfriends.co/event/1711849/
     - https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything-a-dark-web-workshop-by-and-for-femmes-and-allies
+    - https://www.facebook.com/events/695691824195682/
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
