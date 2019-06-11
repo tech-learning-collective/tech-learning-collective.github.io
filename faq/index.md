@@ -4,10 +4,13 @@ backgroundColor: rgba(225, 150, 0, 1)
 ---
 
 * [Which course should I take first?](#which-course-should-i-take-first)
+* [Can I enroll in more than one class at a time?](#can-i-enroll-in-more-than-one-class-at-a-time)
+* [How should I prepare for my enrollment interview?](#how-should-i-prepare-for-my-enrollment-interview)
 * [What do I need to bring to class?](#what-do-i-need-to-bring-to-class)
 * [What if I don&rsquo;t have a laptop?](#what-if-i-dont-have-a-laptop)
 * [Where are classes held?](#where-are-classes-held)
 * [Can I pay my course tuition in installments?](#can-i-pay-my-course-tuition-in-installments)
+* [How can I stay in touch with my classmates and meet more alumns after my course?](#how-can-i-stay-in-touch-with-my-classmates-and-meet-more-alumns-after-my-course)
 
 ## Which course should I take first?
 
@@ -20,6 +23,20 @@ Generally, you should apply for the course on our [course catalog]({% link cours
 1. [WEB201]({% link _courses/web201.md %}): Learn how to safely utilitize the Web as a platform for advocacy and coordination beyond traditional Web sites.
 
 To be clear, you could start at any 101-level course. Nevertheless, completing the courses in the order they are listed above offers the fastest, most thorough, and logical route through the material. This is because networks (NET101) will make more sense if you have some understanding of the networked devices in isolation (SYS101), and so on.
+
+## Can I enroll in more than one class at a time?
+
+Yes. Our [enrollment process]({% link enrollment/index.md %}) tracks each of your applications individually. You can simultaneously apply for pre-enrollment in as many of our courses as you like at any time.
+
+In addition to enrolling in full courses, you can also participate in any of our paid or donation-based [events]({% link events/index.md %}) independent of your enrollment status. In fact, coming to a workshop that is related to your course subject can be a great way to supplement your course experience because it will give you a chance to solidify your skills in a different context and meet people who are not your immediate peers. Subscribe to our events calendar so you can stay abreast of when and where our one-off workshops and events will take place.
+
+## How should I prepare for my enrollment interview?
+
+First of all, remember that the interview is not a technical exam. If you have made it through to the interview phase, it means we already believe you have the requisite skill to get something valuable out of the course material. There are no trick questions and we are not going to grill you about how much (or how little) you already know about the course subject.
+
+During your interview, we are simply trying to get a sense of who you are as a person and in what ways you wish to grow in the near future. Our goal is to fill each class with self-motivated people who are eager to use technology to improve the lives of their immediate community; lofty ambitions are great, but what matters more is that you demonstrate empathy, thoughtfulness, and care for those with less power than you have. Your interviewer will be a teacher, teaching assistant, or alumni who has these same traits and who has gone through a similar process as you have, so share your frustrations or lament obstacles you have faced same as you might share optimistic hopes and successes you&rsquo;ve had.
+
+If you have not yet done so, we also suggest that you take a minute to familiarize yourself with [our partner and sister organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies), as well as with [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules). We are serious about creating an environment where work that materially improves our lives and the lives of our loved ones gets done, not merely discussed, and we make choices based on how likely we think that is to happen. This doesn&rsquo;t mean we are purists, but it does mean we prioritize the applications of people who are both willing and able to contribute to these efforts.
 
 ## What do I need to bring to class?
 
@@ -45,4 +62,14 @@ At this time, all Tech Learning Collective courses are only offered in person. Y
 
 Generally, no. Our [flexible pricing model and sliding-scale tuition]({% link pricing/index.md %}) helps ensure that all Tech Learning Collective courses are affordable. If you need financial assistance, please voice your concerns during your [enrollment process]({% link enrollment/index.md %}). More often than not, your tuition can be reduced based on your needs, but we still ask that you pay tuition in full before the start of your course&rsquo;s first class.
 
-If you *still* cannot afford to enroll in one of our courses, you may be able to attend our occasional donation-based, or satellite [workshops]({% link workshops/index.md %}). Subscribe to [our events calendar]({% link events/index.md %}) to make sure you don't miss the opportunity!
+If you *still* cannot afford to enroll in one of our courses, you may be able to attend our occasional donation-based, or satellite [workshops]({% link workshops/index.md %}). Subscribe to [our events calendar]({% link events/index.md %}) to make sure you don&rsquo;t miss the opportunity!
+
+## How can I stay in touch with my classmates and meet more alumns after my course?
+
+As will become evident during your course experience, the Tech Learning Collective is designed to facilitate longer-lasting relationships among peers, teachers, and between students and teachers in order to nurture new projects and support existing communities.
+
+This means that the best way to stay in touch is to make positive relationships with your peers and teacher during your course. Your teacher especially will be engaged in numerous &ldquo;extra-curriculuar&rdquo; community projects, and if you don&rsquo;t already have a project of your own that consumes you, you should offer to help out with one of theirs. Alternatively, if you do already have a project that you&rsquo;re working on&mdash;many TLC students enroll specifically to gain skills in an area relevant to their existing projects&mdash;feel free to ask for help from your peers or teacher(s).
+
+Put another way, the Tech Learning Collective alumni community is held together through work. By collaborating on projects with your peers and teachers, you will find that the alumni community can mentor you, or you will find someone who you can mentor. This method provides a much fuller continuing education experience even after your course is officially ended that is more akin to the apprenticeships of yesteryear than it is to the internships of today. For this reason, the Tech Learning Collective itself does not maintain a formal group membership or alumni listserve; instead, you are expected to choose (or create!) a material project to get involved in.
+
+Once again, we encourage you to peruse our [list of benefitting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies) to help guide you towards such a project, as well as to voice interest in your teacher&rsquo;s projects during your course.
