@@ -1,0 +1,7 @@
+---
+title: "Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work"
+---
+
+Our ability to browse Web sites, send and receive digital messages like emails and text messages, and make phone or video calls depends on the connections our digital devices make with one another. That makes it critical to understand how these connections are made, and where they lead to. Far from being an amorphous "cloud," modern telecommunications networks and services like the Internet are made up of physical devices. Some of these you can see, like your own computer or the router and modem in your house, and others you can&rsquo;t, like distant servers or Layer 2 switches that make up the network infrastructure itself.
+
+In this workshop, derived from a portion of the [Tech Learning Collective&rsquo;s NET101 course]({% link _courses/net101.md %}), you'll have the opportunity to actually look—visually and with great detail—at how your computer "talks" to other computers like those that power Google Drive, Facebook, and other "cloud" services. By using an industry-standard tool called [Wireshark](https://wireshark.org/), we'll dissect a conversation between your computer and a server and walk through the process of encapsulating a packet of application layer data, emitting it onto a network, and watching it travel to its destination. We'll also touch on some illustrative counter-examples to explore how things can go wrong on a network: rogue DHCP servers, ARP spoofing attacks, unsecured or weakly-secured Wi-Fi networks.
