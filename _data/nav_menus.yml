@@ -24,3 +24,6 @@ main:
             text: Pricing
     - url: /contact/
       text: Contact
+      submenu:
+          - url: /testimonials/
+            text: Testimonials

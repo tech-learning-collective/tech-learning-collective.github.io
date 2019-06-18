@@ -333,6 +333,7 @@ footer {
         padding-bottom: 0;
         padding-right: 60px;
         background-position: right 0;
+        background-size: 30px;
     }
     nav > ul > li {
         padding-right: 15px;
