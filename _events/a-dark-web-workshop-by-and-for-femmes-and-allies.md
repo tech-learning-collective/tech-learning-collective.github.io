@@ -10,7 +10,7 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
       url: https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything-a-dark-web-workshop-by-and-for-femmes-and-allies
-    - name: Reduced price Workshop Ticket (for queer and femme-identified folx)
+    - name: Reduced price Workshop Ticket (for queer and femme folx)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
@@ -29,7 +29,7 @@ performers:
 
 Wonderville NYC in collaboration with the Tech Learning Collective presents: *A Dark Web workshop by and for Femmes and Allies*.
 
-This digital safety workshop, open to all, is facilitated by the Tech Learning Collective's femme-identified cybersecurity instructors. It is a two-hour mini-intensive focused on the Tor Project. Tor is a free, state-of-the-art, privacy-enhancing Web browser, SOCKS proxy, and anonymizing overlay mixnet. Don't worry if you don't know what these terms mean, that's what the workshop is for!
+This digital safety workshop, open to all, is facilitated by the Tech Learning Collective's femme cybersecurity instructors. It is a two-hour mini-intensive focused on the Tor Project. Tor is a free, state-of-the-art, privacy-enhancing Web browser, SOCKS proxy, and anonymizing overlay mixnet. Don't worry if you don't know what these terms mean, that's what the workshop is for!
 
 > From illegal online drug stores like Silk Road to DDoS botnet command and control headquarters, media attention has long painted “the Dark Web” as though nothing good can come of it. But learn just a little bit more about how Tor and “hidden services” work and you’ll find a treasure trove of valuable possibilities for day-to-day Internet use. The same technology that can hide the location of a drug ring can also serve as a free VPN-like service to protect your privacy while you browse the Internet, make censored websites available again, and even let you host your own Internet services for free, all without opening a single port on your firewall!
 >
@@ -38,7 +38,7 @@ This digital safety workshop, open to all, is facilitated by the Tech Learning C
 This workshop features material from the [Tech Learning Collective's popular "Hacking with Mr. Robot" SEC101 course]({% link _courses/sec101.md %}). Tickets are sold on a first-come, first-served basis:
 
 * $45 - Workshop Ticket
-* $30 - Reduced price Workshop Ticket for queer and femme-identified folx
+* $30 - Reduced price Workshop Ticket for queer and femme folx
 
 Class space is limited to 25 students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
 

@@ -1,16 +1,16 @@
 ---
 title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
-startDate: &startDate 2019-07-20 15:30:00 -0400
-endDate: 2019-07-20 17:30:00 -0400
+startDate: &startDate 2019-07-21 15:30:00 -0400
+endDate: 2019-07-21 17:30:00 -0400
 location: Wonderville
-image: workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.png
+image: workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
 offers:
     - name: Workshop Ticket
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
 #      url: https://www.wonderville.nyc/events/TK-TOO
-    - name: Reduced price Workshop Ticket (for queer and femme-identified folx)
+    - name: Reduced price Workshop Ticket (for queer and femme folx)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
@@ -36,7 +36,7 @@ Wonderville NYC in collaboration with the Tech Learning Collective presents: *Go
 Tickets are sold on a first-come, first-served basis:
 
 * $45 - Workshop Ticket
-* $30 - Reduced price Workshop Ticket for queer and femme-identified folx
+* $30 - Reduced price Workshop Ticket for queer and femme folx
 
 Class space is limited to 25 students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
 
