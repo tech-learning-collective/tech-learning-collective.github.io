@@ -9,14 +9,15 @@ offers:
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
-#      url: https://www.wonderville.nyc/events/TK-TOO
+      url: https://www.wonderville.nyc/events/event-template
     - name: Reduced price Workshop Ticket (for queer and femme folx)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
-#      url: https://www.wonderville.nyc/events/TK-TOO
-#sameAs:
-#    - TK-TODO
+      url: https://www.wonderville.nyc/events/event-template
+sameAs:
+    - https://www.wonderville.nyc/events/event-template
+    - https://withfriends.co/event/1958937
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
