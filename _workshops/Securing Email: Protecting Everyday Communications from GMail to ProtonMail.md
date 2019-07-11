@@ -1,6 +1,6 @@
 ---
 title: "Securing Email: Protecting Everyday Communications from GMail to ProtonMail"
-#image: TODO
+image: workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png
 ---
 
 As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name &ldquo;e-mail&rdquo; might make you think that electronic mail works the same way that writing a physical letter does, but this isn&rsquo;t entirely true. From a technical perspective, it&rsquo;s more like &ldquo;e-postcards&rdquo; because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote.
