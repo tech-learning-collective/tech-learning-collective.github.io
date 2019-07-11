@@ -1,6 +1,6 @@
 ---
 title: "OpenPGP: How to Protect Everything with Pretty Good Privacy"
-#image: TODO
+image: workshop.openpgp-how-to-protect-everything-with-pretty-good-privacy.square.png
 ---
 
 Did you know that the technology Edward Snowden used to safely get in touch with journalists was available more than two decades before he blew the whistle on the NSA&rsquo;s global surveillance and domestic spying campaigns? Way back in 1991, Phil Zimmerman released a program [called *Pretty Good Privacy*, or *PGP* for short](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), setting the bar for almost every other "end-to-end encrypted messaging" tool for the next twenty years. Today, this same technology is freely available as the [OpenPGP](https://openpgp.org/) standard, and it&rsquo;s what companies like [Keybase](https://keybase.io/) and [ProtonMail](https://protonmail.com/) built their own privacy-enhancing products with.
