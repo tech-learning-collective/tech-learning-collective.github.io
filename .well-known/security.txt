@@ -1,0 +1,8 @@
+# Please report security issues to following contact point.
+Contact: mailto:techlearningcollective@riseup.net
+
+# Please use our OpenPGP public key to encrypt your security report.
+Encryption: https://techlearningcollective.com/.well-known/openpgp-public-key.asc
+
+# Please verify this file before trusting the information contained herein.
+Signature: https://techlearningcollective.com/.well-known/security.txt.asc

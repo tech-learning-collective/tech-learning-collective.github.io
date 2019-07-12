@@ -22,6 +22,8 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+include:
+  - .well-known
 
 # Blog settings.
 paginate: 5    # How many posts per HTML page.
