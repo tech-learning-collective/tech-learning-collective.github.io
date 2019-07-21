@@ -25,5 +25,7 @@ main:
     - url: /contact/
       text: Contact
       submenu:
+          - url: /blog/
+            text: Blog
           - url: /testimonials/
             text: Testimonials

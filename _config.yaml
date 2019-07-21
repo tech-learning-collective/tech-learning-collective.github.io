@@ -37,8 +37,8 @@ rss:
   update_period:    "weekly" # Acceptable values are: `hourly`, `daily`, `weekly`, `monthly`, or `yearly`.
   update_frequency: 1        # How many times in the feed_update_period the feed is updated.
   ttl:              60       # Number of minutes indicating how long to cache the channel content.
-  editor_email:     editor@example.invalid # Email of the person responsible for channel content.
-  webmaster_email:  editor@example.invalid # Email of the person responsible for technical issues.
+  editor_email:     techlearningcollective@riseup.net # Email of the person responsible for channel content.
+  webmaster_email:  techlearningcollective@riseup.net # Email of the person responsible for technical issues.
   image: &image     "icon.chip.blue.png"
 
 # Course subjects

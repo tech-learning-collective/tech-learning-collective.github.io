@@ -1,0 +1,27 @@
+---
+title: Blog
+i18n: blog
+columns: 1
+---
+
+{% assign num_posts = site.posts | size %}
+{% if 0 < num_posts  %}
+<ol class="posts-wrapper">{% for post in paginator.posts %}<li>
+    {% include h-entry.html entry=post excerpt_only=true %}
+</li>{% endfor %}</ol>
+
+<ul class="Pagination">
+    {% if paginator.previous_page %}
+    <li class="PaginationPrev">
+        <a href="{{ paginator.previous_page_path }}">{% include gettext.liquid key="newer_posts" %}</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="PaginationNext">
+        <a href="{{ paginator.next_page_path }}">{% include gettext.liquid key="older_posts" %}</a>
+    </li>
+    {% endif %}
+</ul>
+{% else %}
+<p>{% include gettext.liquid key="no_blog_posts_published_yet" %}</p>
+{% endif %}
