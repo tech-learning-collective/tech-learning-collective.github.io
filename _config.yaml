@@ -99,6 +99,15 @@ defaults:
     values:
       layout: event
       backgroundColor: *eventsBackgroundColor
+  - scope:
+      path: "blog"
+    values:
+      columns: 1
+  - scope:
+      type: posts
+    values:
+      layout: post
+      columns: 1
 
 # iCalendar settings.
 iCalendar:

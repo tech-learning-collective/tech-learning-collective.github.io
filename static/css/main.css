@@ -42,7 +42,9 @@ p, main li {
 main ul li, main ol ul li {
     list-style: disc;
 }
-main ol:not(.h-events) li {
+main ol:not(.h-events) li,
+main ol:not(.posts-wrapper) li,
+{
     list-style: decimal;
 }
 .dotleader {
@@ -242,7 +244,8 @@ table.price td:last-child::after {
 .h-event {
     margin: 0 0 2em 0;
 }
-.h-event header {
+.h-event header,
+.h-entry header {
     display: block;
 }
 .h-event footer {
@@ -265,6 +268,10 @@ table.price td:last-child::after {
 .p-locality::after,
 .p-postal-code::after {
     content: ",";
+}
+
+.h-entry .e-content p:first-child {
+    margin-bottom: 1em;
 }
 
 /**

@@ -1,0 +1,53 @@
+{% if include.entry %}
+    {% assign entry = include.entry %}
+{% else %}
+    {% assign entry = page %}
+{% endif %}
+<article id="post-{{ entry.id | slugify }}" class="h-entry hentry">
+    <header>
+        <time class="dt-published published" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: site.date_format }}</time>
+        <h1 class="p-name entry-title">
+            <a href="{{ entry.url }}" class="u-url">{{ entry.title }}</a>
+        </h1>
+        {% if entry.author %}<p class="ByLine">
+            By <span class="p-author">{{ entry.author }}</span>
+        </p>{% endif %}
+    </header>
+
+    {% if entry.image %}
+    <img src="{{ entry.image | prepend: "/static/images/" | relative_url }}" alt="{{ entry.image_alt }}" class="u-featured" />
+    {% endif %}
+
+    <div class="e-content entry-content">
+        {% if include.excerpt_only %}{{ entry.excerpt }}{% else %}{{ content }}{% endif %}
+    </div>
+
+    <footer>
+        {% if include.excerpt_only and entry.excerpt != entry.content %}
+        <p class="ReadMore"><a href="{{ entry.url | relative_url }}">Read on&hellip;</a>.</p>
+        {% endif %}
+
+        {% unless include.excerpt_only %}
+            {% assign event = site.data.events | where: "Summary", include.entry.event_summary | first %}
+            {% if event %}
+                {% include h-event.html event=event %}
+                {% include h-events-download-links.html %}
+            {% endif %}
+            {% if page.previous or page.next %}
+            <p>Continue to:</p>
+            <ul class="Pagination">
+                {% if page.previous %}
+                <li class="PaginationPrev">
+                    <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                </li>
+                {% endif %}
+                {% if page.next %}
+                <li class="PaginationNext">
+                    <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                </li>
+                {% endif %}
+            </ul>
+            {% endif %}
+        {% endunless %}
+    </footer>
+</article>
