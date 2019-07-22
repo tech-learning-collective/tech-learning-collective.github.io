@@ -1,0 +1,51 @@
+---
+title: Want to get good with computers? Don't start with code.
+---
+
+More often than not, when people hear that the Tech Learning Collective (TLC) provides "foundational technology education," they ask us what programming languages our courses cover. Our answer almost always surprises them: we don't teach coding! It isn't that learning to code is bad or something to be discouraged, but TLC was in part formed as a David to stand against the cultural "learn to code" Goliath.
+
+## Predatory capitalism comes to "learn to code" bootcamps
+
+Coding "bootcamps," as they like to describe themselves, rarely if ever offer their ~customers~ students the necessary knowledge needed to understand what code or even a computer really is. It may seem a bold claim, but coding bootcamps just don't teach much about computers, and *they never claimed to*. What they do is promise to make you more readily employable, to equip you for the trenches of the tech job market.
+
+Unfortunately for their many students, code bootcamps don't tend to do a good job of that, either. An investigation by Bloomberg found that at many of the most prestigious tech companies, [hiring processes automatically disqualify code bootcamp graduates](https://www.bloomberg.com/news/features/2016-12-06/want-a-job-in-silicon-valley-keep-away-from-coding-schools). And while almost all coding schools tout high job placement numbers, [they are frequently inflated, unaudited, or otherwise misleading](https://techbeacon.com/app-dev-testing/bootcamps-wont-make-you-coder-heres-what-will). Add to that the fact that the average code bootcamp costs $11,000, and code bootcamps begin to look more and more like [the predatory for-profit college industry](https://consumerist.com/2014/09/08/john-oliver-on-for-profit-colleges-you-might-as-well-go-to-hogwarts/).
+
+The fact is today's code bootcamps promise a new American Dream in the new Fully Automated Luxury Capitalism economy, but what they deliver is subpar vocational training at best. Many fewer graduates than promised ever actually get a job in tech, and those that do are entering today's equivalent of the Ford factory assembly line—complete with [horrific bosses](https://getlighthouse.com/blog/silicon-valley-bad-managers/), and [rampant misogyny](https://www.theatlantic.com/magazine/archive/2017/04/why-is-silicon-valley-so-awful-to-women/517788/) and [other prejudices](https://www.theguardian.com/technology/2017/apr/27/tech-industry-sexism-racism-silicon-valley-study), not the cushy Silicon Valley lifestyle they are sold. And those few are the lucky ones!
+
+Worst of all, though, most code bootcamp graduates still don't know how to operate their computer sufficiently well to do much beyond the highly specific activities and practice exercises they were shown at school. This, of course, is part and parcel of why so many companies dismiss code bootcamp graduates from the hiring process. They simply weren't taught what the most empowering and most important parts of computing. Learning JavaScript or Python doesn't make you a competent technologist any more than learning a few words in a foreign language prepares you for giving speeches or writing poetry in that language.
+
+So what's missing here? *Foundations!* If you want to become a master carpenter, don't start by picking up a power tool. Likewise, if you want to become a skilled digital technologist, don't start by learning to code. You have to start at the basics.
+
+Basic digital competency starts with understanding the foundations, the infrastructure, on which every digital device and capability rests. Infrastructure must come before code. If you understand the basics of digital infrastructures (this can be as simple as more fully understanding how to use all the existing capabilities your own laptop—capabilities you need not write any code to access), then learning to code becomes an easy segue to take. But learning to code first makes it damn near impossible to dig deep enough to understand the landscape in which you are operating, which in turn means all your future steps will feel shakier and take longer.
+
+This is one reason why Tech Learning Collective made a conscious choice to offer no coding courses. Even if our goal was to train more programmers (and it isn't), starting with a programming language is bad pedagogy. When programmers are at their computer, most of their time is not spent coding.
+
+Instead, they're performing myriad other actions. Perhaps they're interacting with programs that have already been written, like Integrated Development Environments (IDEs) or utilities for text replacement and pattern matching. Perhaps they're making requests of services provided by their operating system, such as network sockets or local servers. All of these and more are vital infrastructural tasks without which the code they write could not function in the first place. At the end of the day, without a sufficient understanding of this infrastructure, programmers write programs with more bugs and less functionality, expending vastly more effort to accomplish vastly less.
+
+For many of us at the Tech Learning Collective, this whole scheme is eerily familiar. It mirrors the worst parts of capitalism. It removes individuals from their land, and keeps them ignorant of the most important parts of their immediate environment, while charging for something that (at best!) is an anemic version of something they could do themsevles.
+
+## Living off the (digital) land
+
+For a moment, forget about computers and code. Now consider that we don't often talk about growing our own food, or learning how to purify water, or knit, or raising a barn, or learning the basics of plumbing as a way to join the ranks of the wealthy and powerful. We don't usually think of attending a gardening "bootcamp" in the hopes that our gardens will net us high paying salaries. Typically, we embark on those kinds of projects for the sheer joy of doing them or, more pragmatically, for the immediate benefit of feeding ourselves our friends and neighbours, once we get really good it.
+
+At the Tech Learning Collective, we talk about technology in the same way that we talk about gardening. Ours is a kind of counter-school, pushing against the rhetoric of industry and military indoctrination. A good soldier (or police officer) follows orders, whether those orders are moral or not, and one way to ensure that these employees do their job is to isolate them from the foundations and the consequences of their actions. A well-trained soldier need only the bare minimum understanding of how their weapon works to pull the trigger, and even less of a grasp of geopolitical struggles, to participate in an unjust war. A code bootcamp is focused on producing for the capitalist economy the same things as a military bootcamp produces for aggressive, militarized nations.
+
+In the "learn to code" culture, the corporation is the new army and the employee is the new solider. They are called "bootcamps," after all.
+
+Rather than focus on jobs or the commercial applications digital technologies, our primary inquiries at class and in our day-to-day lives consider how can we leverage our digital devices for the most immediate (social) good. Much like the advice that says try to eat foods whose ingredients you can pronounce grown on soil you have left your footprints on, we believe that our engagement with technology ought to be as directly integrated as possible with our everyday lives: do you know where your servers are?
+
+We aim for the kind of good that we can understand at each and every stage of the process. Our classrooms reflect this by, for example, making use of the immediate environment in all its diveristy rather than creating sterile labs in which to guide students through a rote series of steps with pre-determined outcomes.
+
+Exactly what comes of this alternative approach depends partly on the people who take it up, along with the concerns or issues they face in their lives. For a highly surveilled community, maintaining network services free of surveillance become a central focus. For a poor neighborhood, building a cooperative computer lab becomes a pathway to empowerment and (certain kinds of) self-sufficiency. By harnessing digital tools, menial tasks like logistical coordination for physical-world projects can be made easier in the same way that a garden needs our protection from bad weather and produces a higher yield in good weather. This is not a mimicry of a fully automated utopia, but a systematic reclamation of the value our own labor.
+
+And, notice, none of the above goals require you to learn to code!
+
+## Empowerment at Tech Learning Collective
+
+The courses we offer at the Tech Learning Collective range from networking basics—how routers work, how to construct a network, and understanding the components of and differences between one and another—all the way to complex security topics ("hacking") from both offensive and defensive positions. When we teach Web design, it doesn't focus on JavaScript but rather on page structure, semantics, and [document flow](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout), accounting for both security and accessibility considerations from the start.
+
+And our pedagogy is as important as the content of our classes. Rather than confine participants to a single method, our classes take form according to what is most appropriate for a given class. Different materials are provided where the instructor believes they would add to the class, not handed on down from a precient syllabus. The students's own decisions as to how they want to learn is just as important as what they've chosen to learn.
+
+For us, "foundational" means uncovering an ethos and methodology that is radically contra any tech or code bootcamp. In doing so, we don't merely learn how to use a computer or how to make "new" apps that do the same thing as every other app. Rather, we embody the seeds of reinvention, of redefining a culture, an imaginary, and a way of relating to, with, and through digital devices.
+
+This is the power of *foundational* technology education, and that's what we mean when we say we're not a code bootcamp.
