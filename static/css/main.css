@@ -282,6 +282,20 @@ table.price td:last-child::after {
     width: 50%;
     margin: 0 0 1em 1em;
 }
+#workshop-list ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#workshop-list ul li {
+    list-style-type: none;
+    margin-right: 2em;
+    width: calc(50% - 2em);
+}
+#workshop-list img {
+    display: block;
+    margin-bottom: 1em;
+    max-width: 100%;
+}
 
 /**
  * @group Footers.
@@ -384,5 +398,12 @@ footer {
         width: auto;
         max-width: 100%;
         margin: 0;
+    }
+    #workshop-list ul {
+        display: block;
+    }
+    #workshop-list ul li {
+        margin-right: 0;
+        width: auto;
     }
 }
