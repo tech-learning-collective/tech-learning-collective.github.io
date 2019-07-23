@@ -1,0 +1,19 @@
+---
+name: PowrPlnt
+description: An open digital art collaboratory that connects teens with established artists on free, interest-driven digital art projects and educational programs.
+type: School
+address:
+    streetAddress: 562 Evergreen Avenue
+    addressLocality: Brooklyn
+    addressRegion: NY
+    postalCode: 11221
+    addressCountry: United States
+url: https://powrplnt.org/
+telephone: +1 347-927-8661
+email: hello@powrplnt.org
+logo: https://images.squarespace-cdn.com/content/586d5a81ebbd1a367d57703a/1484519513688-Y51R2W5ZI6CVE845Q6IT/POWRPLNT_Logo-800px-shdw.png?content-type=image%2Fpng
+sameAs:
+    - https://www.facebook.com/powrplnt
+    - https://www.instagram.com/powrplnt/
+    - https://twitter.com/powrplnt
+    - https://withfriends.co/powrplnt
