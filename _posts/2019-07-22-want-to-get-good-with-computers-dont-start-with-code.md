@@ -32,7 +32,7 @@ At the Tech Learning Collective, we talk about technology in the same way that w
 
 In the "learn to code" culture, the corporation is the new army and the employee is the new soldier. They are called "bootcamps," after all.
 
-Rather than focus on jobs or the commercial applications of digital technologies, our primary inquiries in Tech Learning Collective classes consider how can we leverage our digital devices for the most immediate social good, same as in our day-to-day lives as radical queers and radical technologists. Much like the advice encouraging you to eat foods whose ingredients you can pronounce and grown on soil you have left your footprints on, we believe that our engagement with technology ought to be as directly integrated as possible with our everyday lives: do you know where your servers are?
+Rather than focus on jobs or the commercial applications of digital technologies, our primary inquiries in Tech Learning Collective classes consider how we can leverage our digital devices for the most immediate social good, same as in our day-to-day lives as radical queers and radical technologists. Much like the advice encouraging you to eat foods whose ingredients you can pronounce and grown on soil you have left your footprints on, we believe that our engagement with technology ought to be as directly integrated as possible with our everyday lives: do you know where your servers are?
 
 We aim for the kind of good that we can understand at each and every stage of the process. Our classrooms reflect this by, for example, making use of the actual environment, in all its diversity, rather than creating sterile labs in which to guide students through a rote series of steps with pre-determined outcomes.
 
