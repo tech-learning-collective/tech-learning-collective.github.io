@@ -1,6 +1,6 @@
 ---
 title: "Securing Our Servers: Basic Network Operations for Autonomous Communities"
-#image: TODO
+image: workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.square.png
 ---
 
 Every app you use&mdash;from messengers like [Signal](https://signal.org/) or WhatsApp to blogs and websites like [WordPress](https://wordpress.org/) and even other coordination tools like digital calendars and [online maps](https://openstreetmap.org/)&mdash;relies on a computer called a server. Whether that computer is one in your hand (your smartphone), or a computer somewhere across the Internet (&ldquo;in the cloud&rdquo;), no meaningful digital communication happens without servers offering services, somewhere. So, do you know where *your* servers are? If not, you can&rsquo;t know how safe your data is!
