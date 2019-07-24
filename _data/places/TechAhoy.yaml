@@ -1,0 +1,18 @@
+---
+name: TechAhoy
+description: Non-profit community space where children and adults of all backgrounds and experience levels can learn about computer programming, robotics, art, and technology in a creative, collaborative, and inclusive setting.
+type: School
+address:
+    streetAddress: 801 Woodward Avenue
+    addressLocality: Queens
+    addressRegion: NY
+    postalCode: 11385
+    addressCountry: United States
+url: https://techahoy.org/
+telephone: +1 917-994-2441
+email: info@techahoy.org
+logo: https://images.squarespace-cdn.com/content/5b6a53ed70e802d74a4639d6/1559405705380-4VVDLOT4V22PT5IPRLI1/TechAhoy_logo_color.png?content-type=image%2Fpng
+sameAs:
+    - https://www.eventbrite.com/o/techahoy-inc-23421642817
+    - https://twitter.com/techahoynyc
+    - https://www.instagram.com/techahoynyc/
