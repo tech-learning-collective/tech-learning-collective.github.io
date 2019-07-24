@@ -293,7 +293,7 @@ table.price td:last-child::after {
 }
 #workshop-list img {
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: .25em;
     max-width: 100%;
 }
 
