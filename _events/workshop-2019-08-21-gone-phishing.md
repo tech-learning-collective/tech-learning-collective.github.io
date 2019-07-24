@@ -9,15 +9,15 @@ offers:
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://www.eventbrite.com/e/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-tickets-66489978315
     - name: Reduced price Workshop Ticket (for queer and femme folx)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
-#sameAs:
-#    - TODO
-maximumAttendeeCapacity: 25
+      url: https://www.eventbrite.com/e/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-tickets-66489978315
+sameAs:
+    - https://www.eventbrite.com/e/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-tickets-66489978315
+maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
     - TechAhoy
@@ -40,7 +40,7 @@ Tickets are sold on a first-come, first-served basis:
 * $45 - Workshop Ticket
 * $30 - Reduced price Workshop Ticket for queer and femme folx
 
-Class space is limited! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
+Class space is limited to 15 students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
 
 You do not need to bring a laptop to class, but may want to do so to follow along with the exercises.
 
