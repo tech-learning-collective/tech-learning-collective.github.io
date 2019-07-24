@@ -3,6 +3,11 @@ title: Blog
 i18n: blog
 ---
 
+<p>
+    <img src="{% link static/images/icon.rss-feed.orange.svg %}" alt="" style="width: 1em; box-shadow: none;" />
+    <a href="{% link blog/feed.xml %}" title="Subscribe to our blog posts via RSS.">Subscribe to our blog.</a>
+</p>
+
 {% assign num_posts = site.posts | size %}
 {% if 0 < num_posts  %}
 <ol class="posts-wrapper">{% for post in paginator.posts %}<li>
