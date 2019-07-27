@@ -10,9 +10,10 @@ offers:
       price: 25
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TBD
-#sameAs:
-#    - TBD
+      url: https://withfriends.co/event/2266335/introduction_to_writing_your_own_website_with_html_and_css
+sameAs:
+    - https://www.powrplnt.org/calendar/2019/8/13/introduction-to-writing-your-own-website-with-html-and-css
+    - https://withfriends.co/event/2266335/introduction_to_writing_your_own_website_with_html_and_css
 #maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
