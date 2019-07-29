@@ -24,9 +24,9 @@ Most people will fall under the &ldquo;Individuals&rdquo; group. If you are resp
 
 As attackers get more powerful, they pose can pose more and more risk to you. The first group of attackers is the least powerful, and is represented by the left-most column. (The Anarcho-Tech NYC Collective calls these attackers &ldquo;Random Assholes.&rdquo;) To defend yourself against this group, you should attend workshops for which some part of the left-most column is colored red.
 
-Likewise, as your responsibilities in cyberspace grows, you must take an increasingly strong security posture in order to safeguard the digital information you and your organization maintains. In this case, you should attand workshops for which some part of the middle or lower rows are colored in red in addition to the left-most column.
+Likewise, as your responsibilities in cyberspace grows, you must take an increasingly strong security posture in order to safeguard the digital information you and your organization maintains. In this case, you should attend workshops for which some part of the middle or lower rows are colored in red in addition to the left-most column.
 
-For example, if you run a community organization such as a small business or non-profit and you keep a mailing list of interested subscribers, you could classify yourself as belonging to the &ldquo;Organizers and Jouranlists&rdquo; defender persona because you handle other people&rdquo;s information such as their email addresses and names. This persona is represented by the second (middle) row. For people matching this group of defenders, the following persona matrix would indicate that the workshop contains relevant safety information:
+For example, if you run a community organization such as a small business or non-profit and you keep a mailing list of interested subscribers, you could classify yourself as belonging to the &ldquo;Organizers and Journalists&rdquo; defender persona because you handle other people&rsquo;s information such as their email addresses and names. This persona is represented by the second (middle) row. For people matching this group of defenders, the following persona matrix would indicate that the workshop contains relevant safety information:
 
 {% assign matrix = "" | split: "" %}
 {% assign matrix = matrix | push: 2 %}
