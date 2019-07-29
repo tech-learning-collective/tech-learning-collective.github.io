@@ -300,6 +300,27 @@ table.price td:last-child::after {
 h4 {
     text-align: center;
 }
+div.persona-training-container {
+    float: right;
+    margin: 0 0 1em 3em;
+    font-size: small;
+    text-align: center;
+}
+div.persona-training-graph {
+    display: grid;
+}
+div.persona-training-graph > div {
+    display: flex;
+}
+div.persona-training-graph > div > div {
+    flex: 1;
+    height: 15px;
+    border: 1px solid yellow;
+    background: #000;
+}
+div.persona-training-graph .persona-match-row .persona-match-col {
+    background: red;
+}
 
 /**
  * @group Footers.

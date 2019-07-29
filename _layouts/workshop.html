@@ -3,6 +3,11 @@ layout: page
 ---
 
 <img src="{{ page.image | default: "icon.chip.blue.png" | prepend: "/static/images/" | relative_url }}" alt="Poster for {{ page.title }}" />
+
+{% if page.persona_matrix %}
+{% include persona-matrix.html matrix=page.persona_matrix %}
+{% endif %}
+
 {{ content }}
 
 <footer>
