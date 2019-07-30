@@ -302,7 +302,7 @@ h4 {
 }
 div.persona-training-container {
     float: right;
-    margin: 0 0 1em 3em;
+    margin: 0 0 1em 2em;
     font-size: small;
     text-align: center;
 }
@@ -423,6 +423,9 @@ footer {
         width: auto;
         max-width: 100%;
         margin: 0;
+    }
+    div.persona-training-container {
+        margin-top: 1.5em;
     }
     .workshop-list ul {
         display: block;
