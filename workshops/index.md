@@ -35,7 +35,7 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 {% for category in categories %}
 #### {{ category }} collection
 
-<div class="workshop-list" markdown="1">
+<div class="workshop-list workshop-collection" markdown="1">
 {% assign workshops = site.workshops | where: "categories", category | sort: "order" %}
 {% for workshop in workshops %}
 * [![Poster for {{ workshop.title }}]({{ workshop.image | default: "icon.chip.blue.png" | prepend: "static/images/" | relative_url }}) {{ workshop.title }}]({{ workshop.url }})

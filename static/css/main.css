@@ -297,6 +297,9 @@ table.price td:last-child::after {
     margin-bottom: .25em;
     max-width: 100%;
 }
+.workshop-collection img {
+    box-shadow: none;
+}
 h4 {
     text-align: center;
 }
