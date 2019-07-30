@@ -29,7 +29,7 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 ### Browse workshop collections
 
 {% for c in categories %}
-* [{{ c }}](#{{ c | slugify }} "View workshops in &ldquo;{{ c }}&rdquo; collection.")
+* [{{ c }}](#{{ c | slugify | append: "-collection" }} "View workshops in &ldquo;{{ c }}&rdquo; collection.")
 {% endfor %}
 
 {% for category in categories %}
