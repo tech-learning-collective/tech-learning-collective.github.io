@@ -1,6 +1,6 @@
 ---
 title: "Taming Daemons: System Administration and Operation Basics"
-#image: TODO
+image: workshop.taming-daemons-system-administration-and-operation-basics.square.png
 ---
 
 How much good does a powerful tool do for you if you don&rsquo;t know how to use it well? How much more capable would you be if you mastered all the tools available to you? It might sound ridiculous, but failing to learn the practicalities of computer system operation basics is arguably the most common mistake people in the fast-paced tech scene make.
