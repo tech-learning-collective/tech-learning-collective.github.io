@@ -9,6 +9,7 @@ backgroundColor: rgba(225, 150, 0, 1)
 * [What do I need to bring to class?](#what-do-i-need-to-bring-to-class)
 * [What if I don&rsquo;t have a laptop?](#what-if-i-dont-have-a-laptop)
 * [Where are classes held?](#where-are-classes-held)
+* [When is the next class going to start?](#when-is-the-next-class-going-to-start)
 * [Can I pay my course tuition in installments?](#can-i-pay-my-course-tuition-in-installments)
 * [How can I stay in touch with my classmates and meet more alumns after my course?](#how-can-i-stay-in-touch-with-my-classmates-and-meet-more-alumns-after-my-course)
 
@@ -57,6 +58,16 @@ After you [enroll]({% link enrollment/index.md %}), you will receive access to o
 We strive to ensure that students have access to gender-neutral restrooms and that each classroom is wheelchair accessible, but cannot always guarantee this. Our course scheduler indicates which classrooms provide which amenities so that you can make a more informed choice regarding the specific course timeline and location you ultimately choose to attend.
 
 At this time, all Tech Learning Collective courses are only offered in person. You must physically arrive at class to participate.
+
+## When is the next class going to start?
+
+The Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}), intensive [courses]({% link courses/index.html %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
+
+* For information about public **workshops** and events, visit our [events page]({% link events/index.md %}) and subscribe to our event calendar.
+* The schedules for our **courses** are available only to pre-enrolled students; you must first apply for pre-enrollment before you can view upcoming course schedules. Refer to our [enrollment process]({% link enrollment/index.md %}) for more details.
+* If you are preparing for a private event as part of our group or corporate training programs, your organization will have a designated liaison that will provide you with the training schedule.
+
+If you&rsquo;re excited about a particular workshop but don&rsquo;t see an upcoming event for it on our calendar, [contact us]({% link contact/index.md %}) to start a conversation about how you can help make the event happen. We are always thrilled to find new venues and audiences who are eager to improve their lives and their communities with the aid of digital tools!
 
 ## Can I pay my course tuition in installments?
 
