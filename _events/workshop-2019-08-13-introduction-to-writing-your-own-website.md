@@ -22,7 +22,7 @@ performers:
     - Tech Learning Collective
 ---
 
-PowrPlnt in collaboration with the Tech Learning Collective presents: *Introduction to Writing Your Own Website in HTML and CSS*. This workshop, based on the Tech Learning Collective's intensive [WEB101 course]({% link _courses/web101.md %}), is a practical introduction to the basics of creating Web sites of any size, from personal blogs to full-fledged Web applications. No prior experience in Web design is assumed, but even experienced "front-end designers" will leave with a better understanding of what and how Web sites are really made:
+PowrPlnt in collaboration with the Tech Learning Collective presents: *Introduction to Writing Your Own Website in HTML and CSS*. This workshop, based on the Tech Learning Collective's intensive [WEB101 course]({% link _courses/web101.md %}), is a practical introduction to the basics of creating Web sites of any size, from personal blogs to full-fledged Web applications. No prior experience in Web design is assumed, but even experienced "front-end designers" will leave with a better understanding of what Web sites really are and how they&rsquo;re made:
 
 > The Hypertext Markup Language (HTML) is the de-facto standard for publishing information online, a kind of digital equivalent to learning to read and write. Why, then, is it so rarely explained in terms of the *language* that it actually is? What is HTML's grammar, where do HTML "sentences" begin and end, and how is meaning represented in its elements? You don't need a computer science degree to learn a foreign language, and that includes HTML.
 >
