@@ -13,9 +13,7 @@ Shortly thereafter, we will let you know [if your application has been accepted]
 
 ## The pre-enrollment process
 
-The pre-enrollment process consists of a short questionnaire intended to help TLC admissions predict whether you and your peers will find your course experience valuable. The questionnaire also asks for contact information so that our admissions team can get in touch with you should your pre-enrollment application proceed to the next phase.
-
-The questionnaire is free and you will not be invoiced if your registration does not proceed to the next phase of the enrollment process. We process pre-enrollment applications in batches, so you may not hear back from us for several weeks even if your application proceeds to the next phase.
+The pre-enrollment process consists of a short questionnaire intended to help TLC admissions predict whether you and your peers will find your course experience valuable. The questionnaire also asks for contact information so that our admissions team can get in touch with you should your pre-enrollment application proceed to the next phase. The questionnaire is free and you will not be invoiced if your registration does not proceed to the next phase of the enrollment process.
 
 ## Paying the application fee
 
@@ -23,7 +21,7 @@ If your pre-enrollment application questionnaire is accepted, you will receive a
 
 ## The placement test
 
-Certain courses require you to pass a small placement test. The placement test is designed to ensure you are at a point in your studies where the course to which you applied will actually help you become a more skilled technologist. You will receive a link to the placement test after your application fee has been received.
+Most of our courses require you to pass a small placement test. The placement test is designed to ensure you are at a point in your studies where the course to which you applied will actually help you become a more skilled technologist. You will receive a link to the placement test after your application fee has been received.
 
 Based on the results of your placement test, we may ask that you consider re-applying to a different course, or that you complete some self-study exercises on your own before re-applying to the same course. If your application is not approved due to the results of your placement test, you will be able to carry your application fee over to your next application.
 
