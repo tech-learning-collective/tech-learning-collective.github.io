@@ -9,14 +9,15 @@ offers:
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://withfriends.co/event/2350024/tor_what_is_it_good_for_absolutely_everything
     - name: Reduced price Workshop Ticket (for queer and femme folks)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
-#sameAs:
-#    - https://withfriends.co/event/1711849/
+      url: https://withfriends.co/event/2350024/tor_what_is_it_good_for_absolutely_everything
+sameAs:
+    - https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything
+    - https://withfriends.co/event/2350024/tor_what_is_it_good_for_absolutely_everything
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
