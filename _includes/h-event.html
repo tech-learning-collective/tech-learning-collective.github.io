@@ -12,7 +12,7 @@
 {% assign default_image = "/static/images/" | append: site.iCalendar.defaults.image | relative_url %}
 {% assign x = event.image | split: ":" | first %}
 {% if "http" == x or "https" == x %}
-    {% assign event_image = x %}
+    {% assign event_image = event.image %}
 {% elsif x != nil %}
     {% assign event_image = "/static/images/" | append: x | relative_url %}
 {% else %}
