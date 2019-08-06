@@ -24,7 +24,7 @@ performers:
     - Tech Learning Collective
 ---
 
-The Tech Learning Collective invites you join to us for *Radical Infrastructure: Your First Physical Server*, a full day intensive workshop that will get you up and running with your own server that you can administer from anywhere in the world. This one-day class combines material from several TLC courses ([SYS101]({% link _courses/sys101.md %}), [NET101]({% link _courses/net101.md %}), and [SEC101]({% link _courses/sec101.md %})) into a single project-based exercise in which you will build, install, and configure your own server, from the ground up:
+The Tech Learning Collective invites you to join us for *Radical Infrastructure: Your First Physical Server*, a full day intensive workshop that will get you up and running with your own server that you can administer from anywhere in the world. This one-day class combines material from several TLC courses ([SYS101]({% link _courses/sys101.md %}), [NET101]({% link _courses/net101.md %}), and [SEC101]({% link _courses/sec101.md %})) into a single project-based exercise in which you will build, install, and configure your own server, from the ground up:
 
 > Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google’s GMail for email and Facebook’s Messenger for instant messaging. However, simply jumping to another company’s equivalent product is like moving your money out of one too-big-to-fail bank into another; it’s a lateral move at best. Thankfully, it’s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank.
 >
