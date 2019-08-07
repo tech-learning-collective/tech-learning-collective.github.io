@@ -18,6 +18,11 @@ offers:
 sameAs:
     - https://www.wonderville.nyc/events/tor-what-is-it-good-for-absolutely-everything
     - https://withfriends.co/event/2350024/tor_what_is_it_good_for_absolutely_everything
+    - https://www.facebook.com/events/2379382675636410/
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/263621911/ 
+    - https://www.builtinnyc.com/node/57463
+    - https://nyc.civicaction.center/event/tor-what-it-good-absolutely-everything
+    - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

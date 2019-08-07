@@ -14,6 +14,11 @@ offers:
 sameAs:
     - https://www.powrplnt.org/calendar/2019/8/13/introduction-to-writing-your-own-website-with-html-and-css
     - https://withfriends.co/event/2266335/introduction_to_writing_your_own_website_with_html_and_css
+    - https://www.instagram.com/p/B038Fjblh0W/
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/263557273/
+    - https://nyc.civicaction.center/event/introduction-writing-your-own-website-html-and-css
+    - https://www.builtinnyc.com/event/introduction-writing-your-own-website-html-and-css/57459
+    - https://brokelyn.com/event/introduction-to-writing-your-own-website-in-html-and-css/
 #maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective

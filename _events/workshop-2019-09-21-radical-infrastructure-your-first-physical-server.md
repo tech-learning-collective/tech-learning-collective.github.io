@@ -17,6 +17,9 @@ offers:
       url: https://www.artful.ly/store/events/18622
 sameAs:
     - https://www.artful.ly/store/events/18622
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/263782683/
+    - https://nyc.civicaction.center/event/radical-infrastructures-your-first-physical-server
+    - https://www.builtinnyc.com/node/57464
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

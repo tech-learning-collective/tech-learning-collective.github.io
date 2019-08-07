@@ -17,6 +17,10 @@ offers:
       url: https://www.eventbrite.com/e/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-tickets-66489978315
 sameAs:
     - https://www.eventbrite.com/e/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-tickets-66489978315
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/263492243/
+    - https://nyc.civicaction.center/event/gone-phishing-how-recognize-fake-websites-and-other-online-scams
+    - https://www.builtinnyc.com/node/57462
+    - https://brokelyn.com/event/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
