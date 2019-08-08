@@ -1,6 +1,9 @@
 ---
 title: "Open Doors: Introduction to the Art of Lockpicking"
 image: workshop.open-doors-introduction-to-the-art-of-lockpicking.square.png
+persona_matrix:
+    - 3
+    - 3
 ---
 
 To most people, locks often symbolize permanence, safety, or ownership, and they can serve critical social functions, such as demarcating public space from private space. Like all other technologies, locks can be used for good or evil ends, making them inherently political. Powerful people use locks to hoard resources and create obstacles or barriers for the less resourced, but locks can also be used as legitimate security devices to slow the advance of a theif, sabateur, or other ill-intentioned actor.

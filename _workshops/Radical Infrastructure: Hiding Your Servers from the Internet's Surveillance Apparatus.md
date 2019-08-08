@@ -4,6 +4,9 @@ image: workshop.radical-infrastructures.hiding-your-servers-from-the-five-eyes.p
 categories:
     - Radical infrastructures
 order: 100
+persona_matrix:
+    - 3
+    - 3
 ---
 
 As a radical organization, setting up your own service infrastructure is only part of the challenge. Depending on how likely you are to be raided, surveilled, or otherwise targeted, you may also need to hide from the surveillance apparatus deployed on the Internet by the [Five Eyes](https://en.wikipedia.org/wiki/Five_Eyes), a coalition of five Western governments including the United States and the United Kingdom whose Internet surveillance campaigns were thrust into the spotlight when Edward Snowden blew the whistle on their secretive spying programs in 2013. By employing companies with names such as Palantir, a direct reference to the fictional crystal ball in J.R.R. Tolkien's <cite>Lord of the Rings</cite> that makes it possible to see events in other parts of the world or the distant past and future, the Five Eyes pumps billions of dollars into the mass surveillance industry each year in an effort to ensure political organizing efforts are contained and controlled.

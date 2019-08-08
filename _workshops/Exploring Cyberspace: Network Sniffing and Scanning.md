@@ -1,6 +1,9 @@
 ---
 title: "Exploring Cyberspace: Network Sniffing and Scanning"
 image: workshop.exploring-cyberspace-network-sniffing-and-scanning.square.png
+persona_matrix:
+    - 3
+    - 2
 ---
 
 Have you ever wondered what&rsquo;s between your computer and the websites you visit? Are you curious about where your messages actually go in order to get from here to there? Do you wonder what a map of computer networks really looks like? Come exploring with us as we embark on a journey into cyberspace, the final Final Frontier! In this beginner-friendly workshop, we&rsquo;ll throw a metaphorical message in a bottle into the expanse of cyberspace, and learn how to sense and track its movement as it makes its way back to us&mdash;or not!

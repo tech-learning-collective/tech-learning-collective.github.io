@@ -4,6 +4,9 @@ image: workshop.radical-infrastructures.self-hosting-contacts-and-calendars.squa
 categories:
     - Radical infrastructures
 order: 20
+persona_matrix:
+    - 2
+    - 3
 ---
 
 No matter what advocacy issue you focus on, every effective organizer and organization needs to know who they&rsquo;re working with and what&rsquo;s happening when. Even apolitical organizations need an address book to remember email addresses or phone numbers and a calendar to plan their time and coordinate meetings or events with others. So it&rsquo;s no surprise that most successful organizations maintain and manage at least some digital contact information and calendaring data.

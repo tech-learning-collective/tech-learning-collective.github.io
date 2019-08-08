@@ -4,6 +4,9 @@ image: workshop.radical-infrastructures.your-first-physical-server.square.png
 categories:
     - Radical infrastructures
 order: 5
+persona_matrix:
+    - 2
+    - 2
 ---
 
 Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google's GMail for email and Facebook's Messenger for instant messaging. However, simply jumping to another company&rsquo;s equivalent product is like moving your money out of one too-big-to-fail bank into another; it&rsquo;s a lateral move at best. Thankfully, it&rsquo;s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank.

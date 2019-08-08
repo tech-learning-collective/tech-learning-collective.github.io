@@ -2,8 +2,8 @@
 title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
 image: workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.png
 persona_matrix:
-    - 1 # Defenders
-    - 2 # Attackers
+    - 3
+    - 3
 ---
 
 Whether it&rsquo;s corporate espionage, ransomware, or online fraud, most cyber attacks don&rsquo;t start with sophisticated software exploits, but rather by employing relatively simple tricks. These tricks are called &ldquo;phishing&rdquo; attacks because, much like baiting a lure, they won&rsquo;t work unless you bite. However, <em>many</em> people do get caught up by them.
