@@ -3,7 +3,9 @@ title: About our Persona-based Training Matrix
 columns: 1
 ---
 
-In the description of some of our [workshops]({% link workshops/index.md %}), we provide a &ldquo;persona matrix&rdquo; in order to help you assess whether the topic of the workshop is relevant to your particular situation. When a Tech Learning Collective workshop has a persona matrix associated with it, the red cells indicate levels of risk that the workshop material is designed to address. [The persona-based training matrix is a teaching tool created by the Anarcho-Tech NYC Collective](https://github.com/AnarchoTechNYC/meta/wiki/Persona-based-training-matrix#the-matrix) and consists of a three-by-three (3&times;3) grid. On our site, it looks something like this:
+In the description of some of our [workshops]({% link workshops/index.md %}), we provide a &ldquo;persona matrix&rdquo; in order to help you assess whether the topic of the workshop is relevant to your particular situation. [The persona-based training matrix is a teaching tool created by the Anarcho-Tech NYC Collective](https://github.com/AnarchoTechNYC/meta/wiki/Persona-based-training-matrix#the-matrix) and consists of a three-by-three (3&times;3) grid. Each cell of the grid represents a level of risk that you might be facing.
+
+When a Tech Learning Collective workshop has a persona matrix associated with it, the red cells indicate levels of risk that the workshop material is designed to address. On our site, the persona matrix looks something like this:
 
 {% assign matrix = "" | split: "" %}
 {% assign matrix = matrix | push: 1 %}
@@ -11,7 +13,7 @@ In the description of some of our [workshops]({% link workshops/index.md %}), we
 {:style="float: none; width: 100px;"}
 {% include persona-matrix.html matrix=matrix %}
 
-Each cell of the grid represents a level of risk that you might be facing. At each level of risk, certain digital security and privacy tools or techniques are relevant, while others are (probably) overkill. As the level of risk rises, i.e., as the cells change from black to red), a defender will need to employ an increasing number and strength of digital defenses in order to protect themselves. Importantly, note that unlike physical measures of attacks, these digital defenses are *cumulative*, meaning that someone at great risk must employ defenses sufficient to protect them from that increased risk *and also* should still probably make use of defensive techniques that are designed to protect against more simplistic or weaker attacks.
+At each level of risk, certain digital security and privacy tools or techniques are relevant, while others are (probably) overkill. As the level of risk rises (i.e., as the cells change from black to red), a defender will need to employ an increasing number and strength of digital defenses in order to protect themselves. Importantly, note that unlike physical measures of attacks, these digital defenses are *cumulative*, meaning that someone at great risk must employ defenses sufficient to protect them from that increased risk *and also* should still probably make use of defensive techniques that are designed to protect against more simplistic or weaker attacks.
 
 In this model, risk levels are evaluated based on a coarse grouping of who you are and who you are defending yourself from. Each row of the grid represents a coarse grouping of defender profiles, with people at least risk at the top or first row and people at the most risk at the bottom or last row. Meanwhile, each column represents a similarly coarse grouping of adversaries who pose a risk to you. The weakest or least-resourced attackers are represented by the first or left-most column, while the most powerful adversaries are are represented by the last or right-most column.
 
