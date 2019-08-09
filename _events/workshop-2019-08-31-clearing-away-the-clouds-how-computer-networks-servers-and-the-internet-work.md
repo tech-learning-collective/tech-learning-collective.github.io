@@ -17,6 +17,10 @@ offers:
       url: https://www.artful.ly/store/events/18639
 sameAs:
     - https://www.artful.ly/store/events/18639
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/263874387/
+    - https://nyc.civicaction.center/event/clearing-away-clouds-how-computer-networks-servers-and-internet-work
+    - https://www.builtinnyc.com/node/57634
+    - https://brokelyn.com/?post_type=tribe_events&p=218872
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
