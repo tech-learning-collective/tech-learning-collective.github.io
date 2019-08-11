@@ -10,6 +10,7 @@ audiences:
 isAccessibleForFree: true
 sameAs:
     - https://www.facebook.com/events/429137514547430/
+    - https://www.ridgewoodsocial.com/events/hacker-happy-hour/
 offers:
     - name: Suggested Donation
       price: 10
