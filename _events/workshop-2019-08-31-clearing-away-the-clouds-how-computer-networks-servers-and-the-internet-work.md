@@ -20,7 +20,7 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/263874387/
     - https://nyc.civicaction.center/event/clearing-away-clouds-how-computer-networks-servers-and-internet-work
     - https://www.builtinnyc.com/node/57634
-    - https://brokelyn.com/?post_type=tribe_events&p=218872
+    - https://brokelyn.com/event/clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
