@@ -6,6 +6,7 @@
     <link rel="shortcut icon" type="image/png" href="{% link static/images/icon.chip.blue.png %}" />
 
     <link rel="stylesheet" href="{% link static/css/main.css %}" />
+    {% if "events" == page.collection %}<link rel="stylesheet" href="{% link static/css/event-flyer.css %}" media="print" />{% endif %}
 
     <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
@@ -64,6 +65,25 @@ body.page header::after {
 .dotleader.price td:last-child::after {
     background-color: {{ page.backgroundColor }};
 }
+</style>
+{% endif %}
+{% if "events" == page.collection and page.flyer != nil %}
+{% assign styles = site.data.flyers[page.flyer] %}
+<style media="print">
+.h-event {
+{% for declaration in styles.default %}
+    {{ declaration[0] }}: {{ declaration[1] }};
+{% endfor %}
+}
+{% for rule in styles.rules %}
+{% for selector in rule.selectors %}
+{{ selector }}{% if loop.last %}, {% endif %} {
+    {% for declaration in rule.declarations %}
+    {{ declaration[0] }}: {{ declaration[1] }};
+    {% endfor %}
+}
+{% endfor %}
+{% endfor %}
 </style>
 {% endif %}
 </head>

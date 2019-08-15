@@ -1,0 +1,53 @@
+/**
+ * Printable flyers for each event. :)
+ */
+
+@page {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #FFF !important;
+    transform: rotate(90deg);
+}
+
+body,
+main,
+.h-event img {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+body > header,
+footer,
+.p-summary,
+.h-event section {
+    display: none;
+}
+
+.h-card .p-name,
+.h-card .h-adr {
+    display: inline;
+}
+
+a,
+abbr {
+    text-decoration: none;
+}
+
+.h-event img {
+    box-shadow: none;
+    border-radius: 0;
+    max-width: none;
+    width: 100%;
+}
+
+.event-datetime {
+    visibility: hidden;
+}
+.h-event .dt-start {
+    visibility: visible;
+}
