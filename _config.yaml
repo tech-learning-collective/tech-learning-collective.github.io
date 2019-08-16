@@ -15,6 +15,10 @@ lang: "en_US" # The primary human language you write in.
 timezone: "America/New_York"
 type: School
 
+author:
+  name: Tech Learning Collective
+  email: techlearningcollective@riseup.net
+
 # Build settings
 markdown: kramdown
 exclude:
@@ -30,16 +34,6 @@ paginate: 5    # How many posts per HTML page.
 paginate_path: "/blog/page/:num/"
 date_format: "%B %e, %Y"
 time_format: "%l:%M %p"
-
-# RSS feed settings.
-rss:
-  items:            10       # How many posts to include in blog RSS/Atom feeds.
-  update_period:    "weekly" # Acceptable values are: `hourly`, `daily`, `weekly`, `monthly`, or `yearly`.
-  update_frequency: 1        # How many times in the feed_update_period the feed is updated.
-  ttl:              60       # Number of minutes indicating how long to cache the channel content.
-  editor_email:     techlearningcollective@riseup.net # Email of the person responsible for channel content.
-  webmaster_email:  techlearningcollective@riseup.net # Email of the person responsible for technical issues.
-  image: &image     "icon.chip.blue.png"
 
 # Course subjects
 subject_map:
@@ -109,6 +103,11 @@ defaults:
       layout: post
       columns: 1
 
+# Settings for jekyll-feed plugin.
+feed:
+  collections:
+    - events
+
 # iCalendar settings.
 iCalendar:
     defaults:
@@ -123,3 +122,9 @@ payments:
   processors:
     paypal:
       user_id: techlearningcollective@riseup.net
+
+# Load whitelisted plugins.
+# See https://help.github.com/en/articles/configuring-jekyll-plugins
+plugins:
+    - jekyll-seo-tag
+    - jekyll-feed
