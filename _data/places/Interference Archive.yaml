@@ -1,0 +1,15 @@
+---
+name: Interference Archive
+description: An archive from below that is people powered, with open stacks and accessibility for all.
+type: EducationalOrganization
+address:
+    streetAddress: 314 7th Street
+    addressLocality: Brooklyn
+    addressRegion: NY
+    postalCode: 11215
+    addressCountry: United States
+url: https://interferencearchive.org/
+logo: logo.interference-archive.jpg
+sameAs:
+    - https://www.facebook.com/InterferenceArc
+    - https://twitter.com/InterferenceArc
