@@ -16,8 +16,8 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
       #url: TODO
-#sameAs:
-#    - https://withfriends.co/event/1711849/
+sameAs:
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/264090983/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
