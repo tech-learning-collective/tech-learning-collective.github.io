@@ -3,7 +3,7 @@ title: "Tor: What is it Good For? (Absolutely Everything!)"
 startDate: &startDate 2019-09-01 15:30:00 -0400
 endDate: 2019-09-01 17:30:00 -0400
 location: Wonderville
-image: workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
+image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
 flyer: workshop-tor-1
 offers:
     - name: Workshop Ticket

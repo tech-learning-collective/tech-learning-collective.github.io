@@ -3,7 +3,7 @@ title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
 startDate: &startDate 2019-08-21 18:30:00 -0400
 endDate: 2019-08-21 20:30:00 -0400
 location: TechAhoy
-image: workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
+image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
 offers:
     - name: Workshop Ticket
       price: 45

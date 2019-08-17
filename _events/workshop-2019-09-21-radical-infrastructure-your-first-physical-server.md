@@ -3,7 +3,7 @@ title: "Radical Infrastructure: Your First Physical Server"
 startDate: &startDate 2019-09-21 13:00:00 -0400
 endDate: 2019-09-21 20:00:00 -0400
 location: Triangle Arts Association
-image: workshop.radical-infrastructures.your-first-physical-server.rectangle.png
+image: static/images/workshop.radical-infrastructures.your-first-physical-server.rectangle.png
 offers:
     - name: Workshop Ticket
       price: 150

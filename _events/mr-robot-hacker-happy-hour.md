@@ -3,7 +3,7 @@ title: Mr. Robot's Hacker Happy Hour
 startDate: 2019-05-09 19:00:00 -0400
 endDate: 2019-05-09 21:00:00 -0400
 location: Wonderville
-image: mr-robot-hacker-happy-hour-wonderville.jpg
+image: static/images/mr-robot-hacker-happy-hour-wonderville.jpg
 audiences:
     - type: people
       requiredMinAge: 21

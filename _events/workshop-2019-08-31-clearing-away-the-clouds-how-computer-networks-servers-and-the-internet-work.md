@@ -3,7 +3,7 @@ title: "Clearing Away the Clouds: How Computer Networks, Servers, and the Intern
 startDate: &startDate 2019-08-31 15:30:00 -0400
 endDate: 2019-08-31 17:30:00 -0400
 location: Triangle Arts Association
-image: workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.png
+image: static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.png
 offers:
     - name: Workshop Ticket
       price: 45

@@ -48,10 +48,10 @@ Use the `featured` custom field to showcase a specific blog post in a prominent 
 
 ### `image`
 
-If you have already uploaded an image to [your site's `static/images` folder](../static/images/), you can use it as the featured image for this post by writing its filename as the `image` custom field. For example, assuming an image whose file name is `karaoke-event-poster.jpg` exists in the `static/images` folder, use this custom field value to make that image the featured image for this post:
+If you have already uploaded an image (perhaps to [your site's `static/images` folder](../static/images/)), you can use it as the featured image for this post by writing the path to the file as the `image` custom field. For example, assuming an image whose file name is `karaoke-event-poster.jpg` exists in the `static/images` folder, use this custom field value to make that image the featured image for this post:
 
 ```yaml
-image: "karaoke-event-poster.jpg"
+image: static/images/karaoke-event-poster.jpg
 ```
 
 ### `title`

@@ -3,7 +3,7 @@ title: Mr. Robot's Hacker Happy Hour
 startDate: &startDate 2019-06-17 18:30:00 -0400
 endDate: 2019-06-17 21:00:00 -0400
 location: Starr Bar
-image: event.2019-06-17.mr-robot-hacker-happy-hour.png
+image: static/images/event.2019-06-17.mr-robot-hacker-happy-hour.png
 audiences:
     - type: people
       requiredMinAge: 21

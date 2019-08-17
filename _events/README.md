@@ -82,11 +82,11 @@ See the [`places`](../_places/README.md) folder for details about places.
 
 ### `image`
 
-The fully-qualified URL of an image on the Internet, or the filename of an image to feature for the event. For the latter to be useful, a file with a matching filename must be uploaded to the `[static/images](../static/images/README.md#the-images-folder)` folder. For example, assuming the following URLs work, these are all valid examples:
+The fully-qualified URL of an image on the Internet, or the path to an image to feature for the event. For the latter to be useful, a file with a matching filename must be uploaded to yor site (the recommended place is in the `[static/images](../static/images/README.md#the-images-folder)` folder). For example, assuming the following URLs work, these are all valid examples:
 
 ```yaml
 # An image uploaded to your site's `static/images` folder.
-image: best-event-ever.jpg
+image: static/images/best-event-ever.jpg
 ```
 
 ```yaml
