@@ -1,0 +1,20 @@
+---
+layout: none
+---
+{% comment %}
+This template generates a JSON-formatted feed of event data, much like
+the equivalent iCalendar feed, for websites that use a FullCalendar.io
+client to consume event information.
+{% endcomment %}
+{%- include globals.liquid -%}
+{%- assign events = site.events | sort: "startDate" -%}
+[
+    {%- for event in events -%}
+        {%- assign thirty_one_days = 60 | times: 60 | times: 24 | times: 31 -%}
+        {%- assign thirty_one_days_ago = site.time | date: "%s" | plus: 0 | minus: thirty_one_days -%}
+        {%- assign event_end_unix_time = event.endDate | date: "%s" | plus: 0 -%}
+        {%- if event_end_unix_time > thirty_one_days_ago -%}
+        {%- include fullcalendar-io-event.json event=event -%}{%- unless forloop.last -%},{%- endunless -%}
+        {%- endif -%}
+    {%- endfor -%}
+]
