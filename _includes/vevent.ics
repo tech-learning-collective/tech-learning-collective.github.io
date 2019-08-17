@@ -15,7 +15,7 @@
 {% if "http" == x or "https" == x %}
     {% assign event_image = x %}
 {% elsif x != nil %}
-    {% assign event_image = "/static/images/" | append: x | relative_url %}
+    {% assign event_image = x | relative_url %}
 {% else %}
     {% assign event_image = default_image %}
 {% endif %}
