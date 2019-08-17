@@ -19,10 +19,10 @@ offers:
       url: https://www.artful.ly/store/events/18757
 sameAs:
     - https://www.artful.ly/store/events/18757
-#    - https://www.meetup.com/New-York-Cryptoparty-Network/events/263621911/ 
-#    - https://www.builtinnyc.com/node/57463
-#    - https://nyc.civicaction.center/event/tor-what-it-good-absolutely-everything
-#    - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything/
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/264087954/
+    - https://www.builtinnyc.com/node/58057
+    - https://nyc.civicaction.center/event/tor-what-it-good-absolutely-everything-0
+#    - TODO: https://brokelyn.com/events/219384/
 maximumAttendeeCapacity: 20
 organizers:
     - Tech Learning Collective
