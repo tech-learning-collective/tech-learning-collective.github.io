@@ -41,7 +41,7 @@ For more information, refer to the [Anarcho-Tech NYC Collective&rsquo;s Persona-
 
 ## TLC workshop materials and the Persona Matrix
 
-As a politically oriented education initiative, some of the Tech Learning Collective&rsquo;s workshop materials are designed for activists and advocacy groups that are at a higher risk of cyberattacks than others. Moreover, our security-first approach to technology education means that even our &ldquo;beginner&rdquo; workshops often contain some security content. When a cell in the persona matrix is red, it means that the workshop contains materials that are relevant for the indicated risk level, *not* that the workshop is intended *only* for that risk level.
+As a politically oriented education initiative, some of the Tech Learning Collective&rsquo;s workshop materials are designed for activists and advocacy groups that are at a higher risk of cyberattacks than others. Moreover, [our security-first approach to technology education]({% link _posts/2019-08-10-how-we-approach-cybersecurity-topics-at-the-tech-learning-collective.md %}) means that even our &ldquo;beginner&rdquo; workshops often contain some security content. When a cell in the persona matrix is red, it means that the workshop contains materials that are relevant for the indicated risk level, *not* that the workshop is intended *only* for that risk level.
 
 For example, the persona matrix for our [Gone Phishing]({% link _workshops/Gone Phishing: How to Recognize Fake Websites and Other Online Scams.md %}) workshop is all red:
 
