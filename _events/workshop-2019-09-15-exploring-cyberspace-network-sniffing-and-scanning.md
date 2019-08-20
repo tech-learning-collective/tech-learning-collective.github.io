@@ -10,14 +10,17 @@ offers:
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://withfriends.co/event/2446999/exploring_cyberspace_network_sniffing_and_scanning
     - name: Reduced price Workshop Ticket (for queer and femme folks)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://withfriends.co/event/2446999/exploring_cyberspace_network_sniffing_and_scanning
 sameAs:
+    - https://withfriends.co/event/2446999/exploring_cyberspace_network_sniffing_and_scanning
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264090983/
+    - https://www.wonderville.nyc/events/exploring-cyberspace-network-sniffing-and-scanning
+    - https://www.facebook.com/events/1632425266892144/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
@@ -26,7 +29,7 @@ performers:
     - Tech Learning Collective
 ---
 
-Wonderville NYC in collaboration with the Tech Learning Collective presents: *Exploring Cyberspace: Network Sniffing and Scanning*, an adventure into the vastness of the Internet:
+{{ page.location }} in collaboration with the Tech Learning Collective presents: *{{ page.title }}*, an adventure into the vastness of the Internet:
 
 > Have you ever wondered what&rsquo;s between your computer and the websites you visit? Are you curious about where your messages actually go in order to get from here to there? Do you wonder what a map of computer networks really looks like? Come exploring with us as we embark on a journey into cyberspace, the final Final Frontier! In this beginner-friendly workshop, we&rsquo;ll throw a metaphorical message in a bottle into the expanse of cyberspace, and learn how to sense and track its movement as it makes its way back to us&mdash;or not!
 > 
@@ -36,10 +39,11 @@ These are the voyages of frames, packets, and segments&mdash;our messages&mdash;
 
 This workshop combines material from two [Tech Learning Collective courses]({% link courses/index.html %}) ([NET101]({% link _courses/net101.md %}) and [SEC101]({% link _courses/sec101.md %})). Tickets are sold on a first-come, first-served basis:
 
-* $45 - Workshop Ticket
-* $30 - Reduced price Workshop Ticket for queer and femme folks
+{% for offer in page.offers %}
+* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }})
+{% endfor %}
 
-Class space is limited to 15 students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
+Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
 
 You do not need to bring a laptop to class, but may want to do so to follow along with the exercises.
 
