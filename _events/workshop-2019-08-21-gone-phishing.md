@@ -21,6 +21,7 @@ sameAs:
     - https://nyc.civicaction.center/event/gone-phishing-how-recognize-fake-websites-and-other-online-scams
     - https://www.builtinnyc.com/node/57462
     - https://brokelyn.com/event/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
+    - https://www.cityguideny.com/event/TechAhoy-2019-08-21-2019-08-21
     - https://www.ridgewoodsocial.com/?post_type=gd_event&p=20203
 maximumAttendeeCapacity: 15
 organizers:
