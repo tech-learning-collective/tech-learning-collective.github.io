@@ -20,6 +20,7 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/263782683/
     - https://nyc.civicaction.center/event/radical-infrastructures-your-first-physical-server
     - https://www.builtinnyc.com/node/57464
+    - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-09-21-2019-09-21
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

@@ -24,6 +24,7 @@ sameAs:
     - https://www.builtinnyc.com/node/57463
     - https://nyc.civicaction.center/event/tor-what-it-good-absolutely-everything
     - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything/
+    - https://www.cityguideny.com/event/Wonderville-2019-09-01-2019-09-01
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

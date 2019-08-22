@@ -21,6 +21,7 @@ sameAs:
     - https://nyc.civicaction.center/event/clearing-away-clouds-how-computer-networks-servers-and-internet-work
     - https://www.builtinnyc.com/node/57634
     - https://brokelyn.com/event/clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work/
+    - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-08-31-2019-08-31
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
