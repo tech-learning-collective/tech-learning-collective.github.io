@@ -21,6 +21,7 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264090983/
     - https://www.wonderville.nyc/events/exploring-cyberspace-network-sniffing-and-scanning
     - https://www.facebook.com/events/1632425266892144/
+    - https://www.cityguideny.com/event/Wonderville-2019-09-15-2019-09-15
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
