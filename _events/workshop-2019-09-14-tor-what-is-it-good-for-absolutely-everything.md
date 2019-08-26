@@ -19,10 +19,11 @@ offers:
       url: https://www.artful.ly/store/events/18757
 sameAs:
     - https://www.artful.ly/store/events/18757
+    - https://interferencearchive.org/tor-what-is-it-good-for/
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264087954/
     - https://www.builtinnyc.com/node/58057
     - https://nyc.civicaction.center/event/tor-what-it-good-absolutely-everything-0
-#    - TODO: https://brokelyn.com/events/219384/
+    - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything-2/
 maximumAttendeeCapacity: 20
 organizers:
     - Tech Learning Collective
@@ -42,9 +43,9 @@ This workshop features material from the [Tech Learning Collective's "Hacking wi
 * [${{ page.offers[0].price }} - {{ page.offers[0].name }}]({{ page.offers[0].url }})
 * [${{ page.offers[1].price }} - {{ page.offers[1].name }}]({{ page.offers[1].url }})
 
-Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and make your donation, or make your donation now and [get your reservation ticket online]({{ page.offers[0].url }}).
+Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and make your donation, or make your donation now and [get your reservation ticket online]({{ page.offers[0].url }}). If the suggested rate is cost-prohibitive, we encourage attendees to pay whatever is comfortable for them. For accommodations, please email the Interference Archive at [info@interferencearchive.org](mailto:info@interferencearchive.org).
 
-You do not need to bring a laptop to class, but may want to do so to follow along with the exercises.
+You do not need to bring a laptop to class, but may want to do so to follow along with the exercises. Mobile devices are also compatible with Tor software and their use is encouraged. If you&rsquo;d like to borrow a computer for the workshop, Interference Archive has a very limited supply of laptops which can be made available.
 
 As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior *will* result in immediate removal from class without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
 
