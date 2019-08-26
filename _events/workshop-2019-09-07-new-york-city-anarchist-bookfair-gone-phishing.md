@@ -5,8 +5,8 @@ endDate: 2019-09-07 16:45:00 -0400
 location: Judson Memorial Church
 image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
 isAccessibleForFree: true
-#sameAs:
-#    - TODO
+sameAs:
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/264303547/
 #maximumAttendeeCapacity: TODO
 organizers:
     - Tech Learning Collective
