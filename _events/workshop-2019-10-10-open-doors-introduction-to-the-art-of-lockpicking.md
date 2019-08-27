@@ -9,13 +9,14 @@ offers:
       price: 35
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://www.eventbrite.com/e/open-doors-introduction-to-the-art-of-lockpicking-tickets-70646763371
     - name: Reduced price Workshop Ticket (for queer-identified and femme people)
       price: 25
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://www.eventbrite.com/e/open-doors-introduction-to-the-art-of-lockpicking-tickets-70646763371
 sameAs:
+    - https://techahoy.org/calendar/2019/9/10/open-doors-introduction-to-the-art-of-lockpicking
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264318595/
 maximumAttendeeCapacity: 15
 organizers:
@@ -37,8 +38,8 @@ performers:
 
 Tickets are sold on a first-come, first-served basis:
 
-* ${{ page.offers[0].price }} - {{ page.offers[0].name }}
-* ${{ page.offers[1].price }} - {{ page.offers[1].name }}
+* [${{ page.offers[0].price }} - {{ page.offers[0].name }}]({{ page.offers[0].url }})
+* [${{ page.offers[1].price }} - {{ page.offers[1].name }}]({{ page.offers[1].url }})
 
 Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
 
