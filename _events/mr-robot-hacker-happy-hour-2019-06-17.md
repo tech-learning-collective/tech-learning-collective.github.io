@@ -11,6 +11,7 @@ isAccessibleForFree: true
 sameAs:
     - https://www.facebook.com/events/429137514547430/
     - https://www.ridgewoodsocial.com/events/hacker-happy-hour/
+    - https://www.partybeep.com/mr-robots-hacker-happy-hour-starr-bar-2013401-301058017.html
 offers:
     - name: Suggested Donation
       price: 10

@@ -22,7 +22,7 @@ sameAs:
     - https://www.builtinnyc.com/node/57462
     - https://brokelyn.com/event/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
     - https://www.cityguideny.com/event/TechAhoy-2019-08-21-2019-08-21
-    - https://www.ridgewoodsocial.com/?post_type=gd_event&p=20203
+    - https://www.brownpapertickets.com/event/4325455
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
