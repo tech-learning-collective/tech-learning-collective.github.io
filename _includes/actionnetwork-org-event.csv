@@ -1,0 +1,48 @@
+{%- assign event = include.event -%}
+{%- assign place_index = event.location | replace: " ", "_" -%}
+{%- assign place = site.data.places[place_index] %}
+"{{ event.title | replace: '"', '""' }}",{{- '' -}}
+"{{ event.title | replace: '"', '""' }} (at {{ place.name | replace: '"', '""' }} on {{ event.startDate | date: site.date_format }})",{{- '' -}}
+"{{ place.name | replace: "'", '""'' }}",{{- '' -}}
+"{{ place.address.streetAddress | replace: "'", '""'' }}",{{- '' -}}
+"{{ place.address.addressLocality }}",{{- '' -}}
+"{{ place.address.addressRegion }}",{{- '' -}}
+"{{ place.address.postalCode }}",{{- '' -}}
+"",{%- comment -%}Blank country field will default to `US`.{%- endcomment -%}{{- '' -}}
+"{{ event.startDate | date: "%R" }}",{{- '' -}}
+"{{ event.startDate | date: "%D" }}",{{- '' -}}
+"",{%- comment -%}Blank timezone field will default to event address's local time.{%- endcomment -%}{{- '' -}}
+"{{ site.data.contact.email }}",{{- '' -}}
+"{{ event.content | replace: 'href="/', 'href="https://techlearningcollective.com/' | replace: '"', '""' | strip_newlines }}",{{- '' -}}
+"",{{- '' -}}
+"{{ site.data.contact.email }}",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"{{ event.maximumAttendeeCapacity | default: '' }}",{{- '' -}}
+"",{%- comment -%}Blank automatic_notifications field defaults to true.{%- endcomment -%}{{- '' -}}
+"",{%- comment -%}Blank display_sharing_options field defaults to true.{%- endcomment -%}{{- '' -}}
+"",{{- '' -}}
+"{{ event.endDate | date: "%R" }}",{{- '' -}}
+"{{ event.endDate | date: "%D" }}",{{- '' -}}
+"true",{%- comment -%}Disable event's discussion board.{%- endcomment -%}{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{%- comment -%}Blank allow_guests field defaults to false.{%- endcomment -%}{{- '' -}}
+"{{ event.lang | default: site.lang | truncate: 2, "" }}",{{- '' -}}
+"{{ event.url | absolute_url }}",{{- '' -}}
+"",{%- comment -%}Blank email_response field defaults to true.{%- endcomment -%}{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"",{{- '' -}}
+"{{ event.url | absolute_url }}"{{- '' -}}

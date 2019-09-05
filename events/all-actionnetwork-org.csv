@@ -1,0 +1,64 @@
+---
+layout: none
+---
+{%- comment -%}
+This template generates a CSV-formatted feed of event data, much like
+the equivalent iCalendar feed, in the format expected by the
+ActionNetwork.org bulk event CSV upload template. For details, see:
+https://help.actionnetwork.org/hc/en-us/articles/360000270663
+{%- endcomment -%}
+{%- include globals.liquid -%}
+{%- assign events = site.events | sort: "startDate" -%}
+event_title,{{- '' -}}
+administrative_title,{{- '' -}}
+location_name,{{- '' -}}
+address,{{- '' -}}
+city,{{- '' -}}
+state,{{- '' -}}
+zip,{{- '' -}}
+country,{{- '' -}}
+time,{{- '' -}}
+date,{{- '' -}}
+timezone,{{- '' -}}
+host,{{- '' -}}
+attendee_pitch,{{- '' -}}
+attendee_instructions,{{- '' -}}
+host_contact_info,{{- '' -}}
+van_id,{{- '' -}}
+shift_id,{{- '' -}}
+role_id,{{- '' -}}
+status_id,{{- '' -}}
+custom_fields,{{- '' -}}
+rsvp_limit,{{- '' -}}
+automatic_notifications,{{- '' -}}
+display_sharing_options,{{- '' -}}
+submit_button_title,{{- '' -}}
+end_date,{{- '' -}}
+end_time,{{- '' -}}
+disable_discussions,{{- '' -}}
+reminder_message,{{- '' -}}
+reminder_from,{{- '' -}}
+reminder_subject,{{- '' -}}
+reminder_reply_to,{{- '' -}}
+allow_guests,{{- '' -}}
+language,{{- '' -}}
+redirect_url,{{- '' -}}
+email_response,{{- '' -}}
+response_message,{{- '' -}}
+response_from,{{- '' -}}
+response_subject,{{- '' -}}
+response_reply_to,{{- '' -}}
+twitter_share,{{- '' -}}
+email_share,{{- '' -}}
+facebook_title,{{- '' -}}
+facebook_link,{{- '' -}}
+facebook_description,{{- '' -}}
+direct_link
+{%- for event in events -%}
+    {%- assign thirty_one_days = 60 | times: 60 | times: 24 | times: 31 -%}
+    {%- assign thirty_one_days_ago = site.time | date: "%s" | plus: 0 | minus: thirty_one_days -%}
+    {%- assign event_end_unix_time = event.endDate | date: "%s" | plus: 0 -%}
+    {%- if event_end_unix_time > thirty_one_days_ago -%}
+    {%- include actionnetwork-org-event.csv event=event -%}
+    {%- endif -%}
+{%- endfor -%}
