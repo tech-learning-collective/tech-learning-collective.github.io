@@ -14,7 +14,7 @@
 "",{%- comment -%}Blank timezone field will default to event address's local time.{%- endcomment -%}{{- '' -}}
 "{{ site.data.contact.email }}",{{- '' -}}
 "{{ event.content | replace: 'href="/', 'href="https://techlearningcollective.com/' | replace: '"', '""' | strip_newlines }}",{{- '' -}}
-"",{{- '' -}}
+"There are no special instructions for this event.",{{- '' -}}
 "{{ site.data.contact.email }}",{{- '' -}}
 "",{{- '' -}}
 "",{{- '' -}}
