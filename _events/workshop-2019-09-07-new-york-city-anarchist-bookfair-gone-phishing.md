@@ -7,6 +7,7 @@ image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-o
 isAccessibleForFree: true
 sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264303547/
+    - https://actionnetwork.org/events/gone-phishing-recognize-online-entrapment-and-other-scams-by-learning-how-to-launch-your-own-phishing-attack-website
 #maximumAttendeeCapacity: TODO
 organizers:
     - Tech Learning Collective

@@ -7,6 +7,7 @@ image: static/images/event-2019-09-07-new-york-city-anarchist-bookfair-network-t
 isAccessibleForFree: true
 sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264511449/
+    - https://actionnetwork.org/events/network-the-revolution-building-alternative-internets-2
 #maximumAttendeeCapacity: TODO
 organizers:
     - Tech Learning Collective

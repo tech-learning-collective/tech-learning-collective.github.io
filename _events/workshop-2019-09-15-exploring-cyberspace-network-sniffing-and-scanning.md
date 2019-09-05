@@ -22,6 +22,7 @@ sameAs:
     - https://www.wonderville.nyc/events/exploring-cyberspace-network-sniffing-and-scanning
     - https://www.facebook.com/events/1632425266892144/
     - https://www.cityguideny.com/event/Wonderville-2019-09-15-2019-09-15
+    - https://actionnetwork.org/events/exploring-cyberspace-network-sniffing-and-scanning
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

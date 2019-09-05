@@ -23,6 +23,7 @@ sameAs:
     - https://brokelyn.com/event/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
     - https://www.cityguideny.com/event/TechAhoy-2019-08-21-2019-08-21
     - https://www.brownpapertickets.com/event/4325455
+    - https://actionnetwork.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

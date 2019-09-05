@@ -18,6 +18,7 @@ offers:
 sameAs:
     - https://techahoy.org/calendar/2019/9/10/open-doors-introduction-to-the-art-of-lockpicking
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264318595/
+    - https://actionnetwork.org/events/open-doors-introduction-to-the-art-of-lockpicking
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

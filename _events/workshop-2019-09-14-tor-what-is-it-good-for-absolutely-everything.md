@@ -25,6 +25,7 @@ sameAs:
     - https://nyc.civicaction.center/event/tor-what-it-good-absolutely-everything-0
     - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything-2/
     - https://www.facebook.com/events/719341101839362/
+    - https://actionnetwork.org/events/tor-what-is-it-good-for-absolutely-everything
 maximumAttendeeCapacity: 20
 organizers:
     - Tech Learning Collective
