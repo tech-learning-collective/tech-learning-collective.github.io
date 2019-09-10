@@ -14,7 +14,7 @@ description: >-
 lang: "en_US" # The primary human language you write in.
 timezone: "America/New_York"
 type: School
-logo: /static/images/icon.chip.blue.png
+logo: &logo /static/images/icon.chip.blue.png
 
 author:
   name: Tech Learning Collective
@@ -70,6 +70,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: page
+      image: *logo
   - scope:
       type: courses
     values:
