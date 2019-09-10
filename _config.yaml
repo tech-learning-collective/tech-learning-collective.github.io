@@ -14,10 +14,14 @@ description: >-
 lang: "en_US" # The primary human language you write in.
 timezone: "America/New_York"
 type: School
+logo: /static/images/icon.chip.blue.png
 
 author:
   name: Tech Learning Collective
   email: techlearningcollective@riseup.net
+
+twitter:
+  card: summary_large_image
 
 # Build settings
 markdown: kramdown

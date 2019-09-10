@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="{% link static/css/main.css %}" />
     {% if "events" == page.collection %}<link rel="stylesheet" href="{% link static/css/event-flyer.css %}" media="print" />{% endif %}
 
-    <link rel="canonical" href="{{ page.url | absolute_url }}" />
-
     {% feed_meta %}
 
     {% if site.events %}<link rel="alternate" href="{% link events/all.ics %}" type="text/calendar" title="{% include gettext.liquid key="subscribe_to_events" %}" />{% endif %}
@@ -20,18 +18,8 @@
     <meta itemprop="name" content="{% include title-text.html %}" />
     <meta itemprop="url" content="{{ page.url | absolute_url }}" />
 
-    <meta property="og:site_name" content="{{ site.title }}" />
-    <meta property="og:title" content="{% include title-text.html %}" />
-    <meta property="og:url" content="{{ page.url | absolute_url }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta property="og:image" content="{% link static/images/icon.chip.blue.png %}" />
+    {% seo title=false %}
 
-    <meta name="twitter:title" content="{% include title-text.html %}" />
-    <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="{{ site.description }}" />
-    <meta name="twitter:image" content="{% link static/images/icon.chip.blue.png %}" />
 {% if page.backgroundColor %}
 <style>
 /**
