@@ -38,12 +38,12 @@
             <ul class="Pagination">
                 {% if page.previous %}
                 <li class="PaginationPrev">
-                    <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                    Earlier post: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
                 </li>
                 {% endif %}
                 {% if page.next %}
                 <li class="PaginationNext">
-                    <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+                    Later post: <a href="{{ page.next.url }}">{{ page.next.title }}</a>
                 </li>
                 {% endif %}
             </ul>
