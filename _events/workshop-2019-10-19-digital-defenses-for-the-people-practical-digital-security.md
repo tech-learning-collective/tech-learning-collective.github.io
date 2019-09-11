@@ -19,6 +19,10 @@ offers:
       url: https://www.artful.ly/store/events/18961
 sameAs:
     - https://www.artful.ly/store/events/18961
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/264763065/
+    - https://nyc.civicaction.center/event/digital-defenses-people-practical-digital-security
+    - https://brokelyn.com/?p=221676
+    - https://actionnetwork.org/events/digital-defenses-for-the-people-practical-digital-security
 maximumAttendeeCapacity: 12
 organizers:
     - Tech Learning Collective
