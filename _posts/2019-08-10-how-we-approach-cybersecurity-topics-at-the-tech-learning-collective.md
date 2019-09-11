@@ -1,5 +1,6 @@
 ---
 title: "How we approach cybersecurity topics at the Tech Learning Collective"
+image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.png
 ---
 
 One thing that makes the Tech Learning Collective [different than other technical schools]({% link about/index.md %}#our-difference) is our explicitly political approach. Our teachers have to be more than just competent technologists, they must also be politically engaged. Similarly, we prioritize enrollment for students who are committed to social justice and have demonstrated that commitment through concrete actions. This makes our classrooms sites of political praxis, sharpening our student&rsquo;s ability to critically scrutinize the implications of modern technologies and the impact of tech companies from an ethical standpoint. Practically speaking, it also means that we introduce computer security topics far earlier in our programs than most other schools do.

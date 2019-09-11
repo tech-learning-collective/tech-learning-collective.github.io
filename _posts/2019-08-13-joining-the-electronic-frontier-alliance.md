@@ -1,5 +1,6 @@
 ---
 title: Joining the Electronic Frontier Alliance
+image: static/images/efa-2_1.png
 ---
 
 Today, the Tech Learning Collective is happy to announce our intent to join the [Electronic Frontier Foundation](https://www.eff.org/)&rsquo;s network of community organizations who support digital rights, the [Electronic Frontier Alliance (EFA)](https://www.eff.org/electronic-frontier-alliance). As radical queers and femmes, we viscerally understand the importance of having access to secure and private communication tools every time we use our computers. That&rsquo;s why, as [a technology school whose mission is to empower marginalized groups]({% link about/index.md %}) by enabling them to access all the digital age has to offer, [our security-first approach to education]({% link _posts/2019-08-10-how-we-approach-cybersecurity-topics-at-the-tech-learning-collective.md %}) places a premium on security and privacy from day one.
