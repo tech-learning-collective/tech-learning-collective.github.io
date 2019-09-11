@@ -2,6 +2,7 @@
 title: "Open Doors: Introduction to the Art of Lockpicking"
 startDate: &startDate 2019-10-10 18:30:00 -0400
 endDate: 2019-10-10 19:30:00 -0400
+date: *startDate
 location: TechAhoy
 image: static/images/workshop.open-doors-introduction-to-the-art-of-lockpicking.rectangle.png
 offers:

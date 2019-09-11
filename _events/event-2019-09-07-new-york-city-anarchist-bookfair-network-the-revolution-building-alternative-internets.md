@@ -2,6 +2,7 @@
 title: "Network the Revolution: Building Alternative Internets"
 startDate: &startDate 2019-09-07 12:30:00 -0400
 endDate: 2019-09-07 13:45:00 -0400
+date: *startDate
 location: Judson Memorial Church
 image: static/images/event-2019-09-07-new-york-city-anarchist-bookfair-network-the-revolution-building-alternative-internets.png
 isAccessibleForFree: true

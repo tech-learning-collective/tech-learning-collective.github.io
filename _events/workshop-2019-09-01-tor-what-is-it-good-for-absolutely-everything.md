@@ -2,6 +2,7 @@
 title: "Tor: What is it Good For? (Absolutely Everything!)"
 startDate: &startDate 2019-09-01 15:30:00 -0400
 endDate: 2019-09-01 17:30:00 -0400
+date: *startDate
 location: Wonderville
 image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
 flyer: workshop-tor-1

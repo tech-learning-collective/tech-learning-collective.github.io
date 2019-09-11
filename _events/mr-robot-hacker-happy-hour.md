@@ -1,7 +1,8 @@
 ---
 title: Mr. Robot's Hacker Happy Hour
-startDate: 2019-05-09 19:00:00 -0400
+startDate: &startDate 2019-05-09 19:00:00 -0400
 endDate: 2019-05-09 21:00:00 -0400
+date: *startDate
 location: Wonderville
 image: static/images/mr-robot-hacker-happy-hour-wonderville.jpg
 audiences:
@@ -12,6 +13,7 @@ offers:
     - name: Suggested Donation
       price: 10
       priceCurrency: USD
+      availabilityEnds: *startDate
 sameAs:
     - https://www.wonderville.nyc/events/mr-robot-hacker-happy-hour
     - https://www.facebook.com/events/577952639377320/

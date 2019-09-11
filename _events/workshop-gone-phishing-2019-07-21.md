@@ -2,6 +2,7 @@
 title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
 startDate: &startDate 2019-07-21 15:30:00 -0400
 endDate: 2019-07-21 17:30:00 -0400
+date: *startDate
 location: Wonderville
 image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
 offers:

@@ -2,6 +2,7 @@
 title: "Gone Phishing: Recognize Online Entrapment and Other Scams by Learning How to Launch Your Own Phishing Attack Website"
 startDate: &startDate 2019-09-07 15:30:00 -0400
 endDate: 2019-09-07 16:45:00 -0400
+date: *startDate
 location: Judson Memorial Church
 image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
 isAccessibleForFree: true

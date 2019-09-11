@@ -2,6 +2,7 @@
 title: "Tor: What is it Good For? (Absolutely Everything!)"
 startDate: &startDate 2019-09-14 15:30:00 -0400
 endDate: 2019-09-14 17:30:00 -0400
+date: *startDate
 location: Interference Archive
 image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
 flyer: workshop-tor-1
