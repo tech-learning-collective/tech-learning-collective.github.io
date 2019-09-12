@@ -3,6 +3,8 @@ title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
 startDate: &startDate 2019-08-21 18:30:00 -0400
 endDate: 2019-08-21 20:30:00 -0400
 date: *startDate
+redirect_from:
+    - /events/2019/07/workshop-2019-08-21-gone-phishing
 location: TechAhoy
 image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
 offers:

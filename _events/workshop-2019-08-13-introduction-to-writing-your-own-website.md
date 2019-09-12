@@ -3,6 +3,8 @@ title: "Introduction to Writing Your Own Website in HTML and CSS"
 startDate: &startDate 2019-08-13 19:00:00 -0400
 endDate: 2019-08-13 21:00:00 -0400
 date: *startDate
+redirect_from:
+    - /events/2019/07/workshop-2019-08-13-introduction-to-writing-your-own-website
 location: PowrPlnt
 image: static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.png
 isAccessibleForFree: true

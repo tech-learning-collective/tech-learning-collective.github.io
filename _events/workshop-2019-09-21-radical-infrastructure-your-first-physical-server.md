@@ -3,6 +3,8 @@ title: "Radical Infrastructure: Your First Physical Server"
 startDate: &startDate 2019-09-21 13:00:00 -0400
 endDate: 2019-09-21 20:00:00 -0400
 date: *startDate
+redirect_from:
+    - /events/2019/08/workshop-2019-09-21-radical-infrastructure-your-first-physical-server
 location: Triangle Arts Association
 image: static/images/workshop.radical-infrastructures.your-first-physical-server.rectangle.png
 offers:

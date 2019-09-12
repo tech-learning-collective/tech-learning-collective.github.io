@@ -3,6 +3,8 @@ title: "Tor: What is it Good For? (Absolutely Everything!) A Dark Web Workshop b
 startDate: &startDate 2019-06-15 15:30:00 -0400
 endDate: 2019-06-15 17:30:00 -0400
 date: *startDate
+redirect_from:
+    - /events/2019/08/a-dark-web-workshop-by-and-for-femmes-and-allies
 location: Wonderville
 image: static/images/event.2019-06-15.tor.jpg
 offers:
