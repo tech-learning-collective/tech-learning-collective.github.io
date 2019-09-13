@@ -29,7 +29,7 @@ sameAs:
     - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything-2/
     - https://www.facebook.com/events/719341101839362/
     - https://actionnetwork.org/events/tor-what-is-it-good-for-absolutely-everything
-maximumAttendeeCapacity: 25
+maximumAttendeeCapacity: 30
 organizers:
     - Tech Learning Collective
     - Interference Archive
