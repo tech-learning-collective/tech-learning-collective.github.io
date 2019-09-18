@@ -18,6 +18,7 @@ offers:
       url: https://www.artful.ly/store/events/19000
 sameAs:
     - https://www.artful.ly/store/events/19000
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/264958235/
 organizers:
     - Wonderville
     - Hex90
