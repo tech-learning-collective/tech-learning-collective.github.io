@@ -19,6 +19,7 @@ offers:
 sameAs:
     - https://www.artful.ly/store/events/19000
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264958235/
+    - https://xoxa-nyc.github.io/events/hex90-hello-friend
 organizers:
     - Wonderville
     - Hex90
@@ -90,7 +91,7 @@ https://hexninety.github.io/video.mp4
 * [${{ offer.price }} - {{ offer.name }}]({{ offer.url }})
 {% endfor %}
 
-As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior *will* result in immediate removal from class without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
+As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior *will* result in immediate removal from the event without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
 
 ## About [Shift-CTRL Space](https://shiftctrl.space/)
 
