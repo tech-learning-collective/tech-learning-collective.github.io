@@ -24,6 +24,7 @@ sameAs:
     - https://brokelyn.com/event/digital-defenses-for-the-people-practical-digital-security/
     - https://actionnetwork.org/events/digital-defenses-for-the-people-practical-digital-security
     - https://www.google.com/calendar/event?eid=MHQ2MGwyMHIzcjkyMW12djdkazl0a2xoZTUgbGdidGJyb29rbHluLm9yZ181cmthN3I3aGRxb3BnMjY1Nm45dG40b2lqY0Bn&ctz=America/New_York
+    - https://lgbtbrooklyn.org/portfolio/practical-digital-security/
 maximumAttendeeCapacity: 12
 organizers:
     - Tech Learning Collective
