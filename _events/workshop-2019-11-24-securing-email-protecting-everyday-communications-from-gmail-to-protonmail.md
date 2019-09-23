@@ -18,7 +18,7 @@ offers:
       availabilityEnds: *startDate
       #url: TODO
 sameAs:
-    #- TODO
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/265100402/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
