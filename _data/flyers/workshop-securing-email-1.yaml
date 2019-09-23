@@ -1,0 +1,24 @@
+---
+default:
+    font-family: MonoSpatial
+    font-size: 14pt
+    color: white
+rules:
+    - selectors:
+          - .event-datetime
+      declarations:
+          position: absolute
+          top: 275px
+          left: 50px
+          color: black
+    - selectors:
+          - .p-location
+      declarations:
+          position: absolute
+          top: 310px
+          left: 50px
+          color: white
+    - selectors:
+          - .h-card .p-name
+      declarations:
+          padding-right: 3mm
