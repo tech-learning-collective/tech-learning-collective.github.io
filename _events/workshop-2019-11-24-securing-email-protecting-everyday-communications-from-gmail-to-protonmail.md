@@ -11,14 +11,15 @@ offers:
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
     - name: Reduced price Workshop Ticket (for queer and femme folks)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
-      #url: TODO
+      url: https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
 sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265100402/
+    - https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
