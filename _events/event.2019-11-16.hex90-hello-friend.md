@@ -20,6 +20,7 @@ sameAs:
     - https://www.artful.ly/store/events/19000
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264958235/
     - https://xoxa-nyc.github.io/events/hex90-hello-friend
+    - https://brokelyn.com/?p=222470
 organizers:
     - Wonderville
     - Hex90

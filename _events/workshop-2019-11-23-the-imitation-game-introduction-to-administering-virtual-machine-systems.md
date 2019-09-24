@@ -19,6 +19,7 @@ offers:
 sameAs:
     - https://www.artful.ly/store/events/19035
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265100104/
+    - https://brokelyn.com/?p=222474
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
