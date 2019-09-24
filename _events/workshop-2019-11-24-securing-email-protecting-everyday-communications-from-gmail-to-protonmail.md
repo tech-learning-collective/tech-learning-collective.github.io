@@ -21,6 +21,7 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265100402/
     - https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
     - https://brokelyn.com/?p=222477
+    - https://actionnetwork.org/events/securing-email-protecting-everyday-communications-from-gmail-to-protonmail
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
