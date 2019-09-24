@@ -24,18 +24,18 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 
 # Recent events
 
-{% assign events = site.events | where_exp: "event", "event.endDate < site.time" | sort: "startDate" %}
+{% assign events = site.events | where_exp: "event", "event.endDate < site.time" | sort: "startDate" | reverse %}
 {% comment %}
 <!--
     When Jekyll can paginate collections natively, this can be updated.
-    For now, we slice to the most recent 30 events so that this page
+    For now, we slice to the most recent 10 events so that this page
     does not grow too much. It means we can't publish archive listing
     pages in paginated form, but the permalinks will always be online.
 -->
 {% endcomment %}
-{% assign events = events | slice: 0, 30 %}
+{% assign events = events | slice: 0, 10 %}
 <ol class="h-events">
-{% for event in events reversed %}
+{% for event in events %}
     <li>
         {% include h-event.html event=event excerpt=true %}
     </li>
