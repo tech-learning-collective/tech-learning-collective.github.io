@@ -231,10 +231,10 @@ table.price th:last-child,
 table.price td:last-child {
     text-align: right;
 }
-table.price td:last-child::before {
+table.price tr:not(.no-currency) td:last-child::before {
     content: "$";
 }
-table.price td:last-child::after {
+table.price tr:not(.no-currency) td:last-child::after {
     content: " USD";
 }
 

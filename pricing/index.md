@@ -3,7 +3,14 @@ title: Pricing
 backgroundColor: rgba(161, 1, 1, 1)
 ---
 
-Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups) in several different formats. These include one-off [workshops]({% link workshops/index.md %}) and intensive [courses]({% link courses/index.html %}). Workshop tickets are priced on a per-workshop basis, and usually include a hefty discount for queer-identified and femme students; please see our [events]({% link events/index.md %}) page for details on upcoming workshops. The rest of this page describes tuition for individual and group course enrollment.
+Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups) in several different formats such as one-off [workshops]({% link workshops/index.md %}) and intensive [courses]({% link courses/index.html %}).
+
+
+Courses for individuals are offered only to selected pre-enrolled applicants; read more about [course enrollment]({% link enrollment/index.md %}) to learn about our application and selection process. Courses for groups are negotiated on a case-by-case basis. Please [contact us]({% link contact/index.md %}) if you would like to enroll your staff members in a group course.
+
+Ticketed workshops are priced on a per-workshop basis. We usually offer a hefty discount for queer-identified and femme students. Please see our [events]({% link events/index.md %}) page for more details on upcoming workshops and to subscribe to our events calendar.
+
+Tech Learning Collective instructors can be booked for unticketed events for a nominal [booking fee](#booking-fees).
 
 ### Individuals
 
@@ -41,5 +48,38 @@ The tuition for each course is listed in the table below. Tuition costs shown he
             <td><span>{{ course.tuition }}</span></td>
         </tr>
     {% endfor %}
+    </tbody>
+</table>
+
+### Booking Fees
+
+The Tech Learning Collective prefers that all events for which we supply trainers are ticketed. We can provide a complete ticketing and sales solution to manage the entire event lifecycle from publication to sales reporting for you. For ticketed events, we do not charge a booking fee. Instead, Tech Learning Collective collects a percentage of the net ticket sales to pay its trainers and continue to fund community projects.
+
+For events that are not ticketed, the Tech Learning Collective charges the organization or venue that is booking a workshop a booking fee and an hourly rate per trainer based on the maximum number of participants for the workshop. Our standard booking fee is $60 USD. Hourly rates break down as shown in the following table:
+
+<table class="dotleader price">
+    <thead>
+        <tr>
+            <th>Event Capacity</th>
+            <th>Hourly Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><span>10</span></td>
+            <td><span>125</span></td>
+        </tr>
+        <tr>
+            <td><span>20</span></td>
+            <td><span>200</span></td>
+        </tr>
+        <tr>
+            <td><span>50</span></td>
+            <td><span>400</span></td>
+        </tr>
+        <tr class="no-currency">
+            <td><span>More than 50</span></td>
+            <td><span>Negotiated per-event</span></td>
+        </tr>
     </tbody>
 </table>

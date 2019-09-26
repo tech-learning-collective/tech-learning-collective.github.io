@@ -9,7 +9,7 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 
 ### Stand-alone workshops
 
-Stand-alone workshop ticket prices can range from a $25 suggested donation to a $45 general admissions ticket. The Tech Learning Collective negotiates sales splits and booking fees with the booking venue on a per-event basis. We can process sales online and provide your organization with a door list and sales report at no extra charge, or we can integrate with your existing sales process.
+Stand-alone workshop ticket prices can range from a $25 suggested donation to a $45 general admissions ticket. The Tech Learning Collective [negotiates sales splits and booking fees]({% link pricing/index.md %}#booking-fees) with the booking venue on a per-event basis. We can process sales online and provide your organization with a door list and sales report at no extra charge, or we can integrate with your existing sales process.
 
 <div class="workshop-list" markdown="1">
 {% assign workshops = site.workshops %}
