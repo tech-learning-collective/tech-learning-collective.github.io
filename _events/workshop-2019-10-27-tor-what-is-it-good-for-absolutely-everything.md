@@ -20,7 +20,7 @@ offers:
 sameAs:
     - https://www.artful.ly/store/events/19044
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265123235/
-    - https://brokelyn.com/?p=222467
+    - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything-3/
     - https://actionnetwork.org/events/tor-what-is-it-good-for-absolutely-everything-2
 maximumAttendeeCapacity: 15
 organizers:
