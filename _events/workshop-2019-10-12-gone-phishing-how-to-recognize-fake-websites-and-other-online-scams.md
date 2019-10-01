@@ -18,6 +18,7 @@ offers:
       url: https://www.artful.ly/store/events/19090
 sameAs:
     - https://www.artful.ly/store/events/19090
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/265306208/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
