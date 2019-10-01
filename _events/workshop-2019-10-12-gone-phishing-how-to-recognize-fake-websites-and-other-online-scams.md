@@ -19,6 +19,8 @@ offers:
 sameAs:
     - https://www.artful.ly/store/events/19090
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265306208/
+    - https://brokelyn.com/?p=223973
+    - https://actionnetwork.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-2
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
