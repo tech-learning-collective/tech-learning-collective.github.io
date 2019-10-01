@@ -5,6 +5,7 @@ endDate: 2019-10-12 17:30:00 -0400
 date: *startDate
 location: Triangle Arts Association
 image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
+isAccessibleForFree: true
 offers:
     - name: General admissions suggested donation
       price: 45
