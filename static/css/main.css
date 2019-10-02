@@ -225,6 +225,9 @@ img#spinner {
     max-width: calc(100% - 6px);
 }
 
+table.dotleader.price {
+    width: 100%;
+}
 table.price th:first-child{
     text-align: left;
 }
