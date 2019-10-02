@@ -15,6 +15,7 @@ image: /static/images/event.2019-10-14.tech-learning-collective-with-team-human-
 isAccessibleForFree: true
 sameAs:
     - https://www.meetup.com/Team-Human-NYC/events/265331433/
+    - https://brokelyn.com/?p=224040
 maximumAttendeeCapacity: 12
 organizers:
     - Team Human NYC
