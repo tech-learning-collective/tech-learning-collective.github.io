@@ -4,7 +4,7 @@
 {%- else -%}
     {%- assign place_index = event.location | replace: " ", "_" -%}
     {%- assign place = site.data.places[place_index] -%}
-{%- endif -%}
+{%- endif %}
 "{{ event.title | replace: '"', '""' }}",{{- '' -}}
 "{{ event.title | replace: '"', '""' }} (at {{ place.name | replace: '"', '""' }} on {{ event.startDate | date: site.date_format }})",{{- '' -}}
 "{{ place.name | replace: "'", '""'' }}",{{- '' -}}
