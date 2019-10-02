@@ -102,6 +102,7 @@ header {
 }
 
 nav a {
+    display: block;
     text-decoration: none;
 }
 nav > ul {
