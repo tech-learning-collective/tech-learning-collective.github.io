@@ -1,7 +1,7 @@
 ---
 title: "Securing Email: Protecting Everyday Communications from GMail to ProtonMail"
-startDate: &startDate 2019-11-24 15:30:00 -0400
-endDate: 2019-11-24 17:30:00 -0400
+startDate: &startDate 2019-11-24 15:30:00 -0500
+endDate: 2019-11-24 17:30:00 -0500
 date: *startDate
 location: Wonderville
 image: static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.rectangle.png
