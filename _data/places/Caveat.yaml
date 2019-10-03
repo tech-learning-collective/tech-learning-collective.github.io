@@ -1,0 +1,19 @@
+---
+name: Caveat
+description: NYC's speakeasy bar for intelligent nightlife. Making entertainment smarter.
+type: EntertainmentBusiness
+address:
+    streetAddress: 21 A Clinton Street
+    addressLocality: New York
+    addressRegion: NY
+    postalCode: 10002
+    addressCountry: United States
+url: https://caveat.nyc/
+telephone: +1 212-228-2100
+email: contact@caveat.nyc
+logo: logo.caveat-nyc.jpg
+maximumAttendeeCapacity: 100
+sameAs:
+    - https://www.facebook.com/caveatnyc
+    - https://twitter.com/caveatnyc
+    - https://www.instagram.com/caveatnyc/
