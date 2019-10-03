@@ -54,14 +54,16 @@ features_
 
 ~ visuals & livecoding by LiveCode.NYC
 ~ indie arcade cabinets by Death By Audio
-~ music performances by XOXA
+~ musical sets by XOXA residents
 ~ glowing crystal crowns and accessories by Half Lucid Jewelry
 ~ hacking demos by Tech Learning Collective
 ~ cybersecurity alternate reality experience by Shift-CTRL Space
 
 featured artists_
 
-~ TO BE ANNOUNCED
+~ DJ Kandylion
+~ DJ Panooc
+~ more to be announced!
 
 info_
 
