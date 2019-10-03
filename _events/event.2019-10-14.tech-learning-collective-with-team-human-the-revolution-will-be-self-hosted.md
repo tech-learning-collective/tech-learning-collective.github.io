@@ -16,7 +16,7 @@ isAccessibleForFree: true
 sameAs:
     - https://www.meetup.com/Team-Human-NYC/events/265331433/
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265345134/
-    - https://brokelyn.com/?p=224040
+    - https://brokelyn.com/event/tech-learning-collective-with-team-human-the-revolution-will-be-self-hosted/
     - https://actionnetwork.org/events/tech-learning-collective-with-team-human-the-revolution-will-be-self-hosted
 maximumAttendeeCapacity: 12
 organizers:
