@@ -1,7 +1,7 @@
 ---
 title: "Hex90: Hello, friend."
-startDate: &startDate 2019-11-16 21:00:00 -0400
-endDate: 2019-11-17 02:00:00 -0400
+startDate: &startDate 2019-11-16 21:00:00 -0500
+endDate: 2019-11-17 02:00:00 -0500
 date: *startDate
 location: Wonderville
 image: static/images/event.2019-11-16.hex90-hello-friend.jpg
