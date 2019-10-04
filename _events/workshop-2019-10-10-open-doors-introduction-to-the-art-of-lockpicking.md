@@ -30,6 +30,7 @@ organizers:
     - TechAhoy
 performers:
     - Tech Learning Collective
+teaser: In this hands-on introduction to physical security, learn to pick your first lock, or hone your understanding of how traditional American pin and tumbler locks work. Find out just how easy it is to pick most typical padlocks, and discover what really makes locks click. We&rsquo;ll go over the basics of fundamental picking techniques such as single-pin picking (SPP) and raking, so you can understand why they&rsquo;re effective, along with basic shim technique for combination and other keyless locks.
 ---
 
 {{ page.location }} in collaboration with the Tech Learning Collective presents: *{{ page.title }}*.

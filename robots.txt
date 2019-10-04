@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /student-center/
+Disallow: /events/operations.html
+
