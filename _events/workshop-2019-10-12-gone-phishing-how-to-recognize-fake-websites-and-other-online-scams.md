@@ -24,6 +24,8 @@ sameAs:
     - https://actionnetwork.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-2
     - https://newyorkcity.eventful.com/events/gone-phishing-recognize-fake-websites-and-other-on-/E0-001-131185194-0
     - https://thoughtgallery.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
+    - https://www.garysguide.com/events/brmxknp/Gone-Phishing-How-to-Recognize-Fake-Websites-Other-Online-Scams
+    - https://patch.com/new-york/new-york-city/calendar/event/20191012/660750/gone-phishing-how-to-recognize-fake-websites-other-online-scams
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
