@@ -23,6 +23,7 @@ sameAs:
     - https://brokelyn.com/event/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-2/
     - https://actionnetwork.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams-2
     - https://newyorkcity.eventful.com/events/gone-phishing-recognize-fake-websites-and-other-on-/E0-001-131185194-0
+    - https://thoughtgallery.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
