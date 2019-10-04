@@ -32,6 +32,7 @@ promoters:
                 <th>Event Image URL</th>
                 <th>Event Teaser</th>
                 <th>Event Description</th>
+                <th>Event URL</th>
                 <th>Venue Name</th>
                 <th>Venue Description</th>
                 <th>Venue Street Address</th>
@@ -67,6 +68,7 @@ promoters:
                 <td>{{ event.image | absolute_url }}</td>
                 <td>{{ event.teaser }}</td>
                 <td>{{ event.content }}</td>
+                <td>{{ event.url | absolute_url }}</td>
                 <td>{{ place.name }}</td>
                 <td>{{ place.description }}</td>
                 <td>{{ place.address.streetAddress }}</td>
