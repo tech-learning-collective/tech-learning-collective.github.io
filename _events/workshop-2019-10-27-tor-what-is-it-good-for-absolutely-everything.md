@@ -22,6 +22,9 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265123235/
     - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything-3/
     - https://actionnetwork.org/events/tor-what-is-it-good-for-absolutely-everything-2
+    - https://www.garysguide.com/events/wfo0c7a/Tor-What-is-it-Good-For-Absolutely-Everything
+    - https://newyorkcity.eventful.com/events/tor-good-absolutely-everything-/E0-001-131216491-1
+    - https://patch.com/new-york/new-york-city/calendar/event/20191027/660863/tor-what-is-it-good-for-absolutely-everything
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

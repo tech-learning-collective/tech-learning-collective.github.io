@@ -24,6 +24,9 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264318595/
     - https://actionnetwork.org/events/open-doors-introduction-to-the-art-of-lockpicking
     - https://brokelyn.com/event/open-doors-introduction-to-the-art-of-lockpicking/
+    - https://www.garysguide.com/events/51odch5/Open-Doors-Intro-to-the-Art-of-Lockpicking
+    - https://newyorkcity.eventful.com/events/open-doors-introduction-art-lockpicking-/E0-001-131215660-2
+    - https://patch.com/new-york/new-york-city/calendar/event/20191010/660841/open-doors-introduction-to-the-art-of-lockpicking
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

@@ -25,7 +25,10 @@ sameAs:
     - https://actionnetwork.org/events/digital-defenses-for-the-people-practical-digital-security
     - https://www.google.com/calendar/event?eid=MHQ2MGwyMHIzcjkyMW12djdkazl0a2xoZTUgbGdidGJyb29rbHluLm9yZ181cmthN3I3aGRxb3BnMjY1Nm45dG40b2lqY0Bn&ctz=America/New_York
     - https://lgbtbrooklyn.org/portfolio/practical-digital-security/
+    - https://patch.com/new-york/new-york-city/calendar/event/20191019/660847/digital-defenses-for-the-people-practical-digital-security
+    - https://www.garysguide.com/events/z01sinx/Digital-Defenses-for-the-People-Practical-Digital-Security
 maximumAttendeeCapacity: 12
+    - https://newyorkcity.eventful.com/events/digital-defenses-people-practical-digital-security-/E0-001-131216216-2
 organizers:
     - Tech Learning Collective
     - Brooklyn Community Pride Center
