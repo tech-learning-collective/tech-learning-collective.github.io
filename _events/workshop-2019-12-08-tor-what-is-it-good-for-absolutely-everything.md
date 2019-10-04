@@ -25,6 +25,7 @@ sameAs:
     - https://www.eventbrite.com/e/tech-learning-collective-workshop-tor-what-is-it-good-for-absolutely-everything-tickets-75212928895
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265386501/
     - https://brokelyn.com/?p=224305
+    - https://actionnetwork.org/events/tor-what-is-it-good-for-absolutely-everything-3
 maximumAttendeeCapacity: 100
 organizers:
     - Tech Learning Collective
