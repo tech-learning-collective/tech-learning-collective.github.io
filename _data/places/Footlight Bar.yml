@@ -1,0 +1,18 @@
+---
+name: Footlight Bar
+description: Quirky art space, music venue, and bar.
+type: BarOrPub
+address:
+    streetAddress: 465 Seneca Avenue
+    addressLocality: Queens
+    addressRegion: NY
+    postalCode: 11385
+    addressCountry: United States
+telephone: +1-718-673-8211
+email: footlightbar@gmail.com
+url: https://thefootlightbar.nyc/
+logo: logo.thefootlightbar.transparent.1110x1370.png
+sameAs:
+    - https://www.facebook.com/thefootlightbar
+    - https://twitter.com/thefootlightbar
+    - https://www.instagram.com/thefootlightbar/
