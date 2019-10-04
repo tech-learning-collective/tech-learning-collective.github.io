@@ -24,6 +24,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
+teaser: Team Human is the NY Times bestselling book and podcast by media theorist Douglas Rushkoff that sparked a nation-wide conversation about how to reflect and embody humane values in our technologically mediated modern society. Tech Learning Collective is excited to represent Team Human against Team Big-Tech in this free, two-hour special event hosted at the Meetup HQ building in downtown Manhattan.
 ---
 
 Each month, the crew at Team Human NYC hosts a guest to lead a conversation of shared interest that reflects the Team Human values. This month, they&rsquo;ve invited the Tech Learning Collective to learn about [our unique technology education pedagogy]({% post_url 2019-07-22-want-to-get-good-with-computers-dont-start-with-code %}).

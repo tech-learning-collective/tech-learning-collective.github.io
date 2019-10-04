@@ -27,6 +27,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
+teaser: This workshop is a two-hour mini-intensive digital safety workshop focused on the free Tor Browser. Tor is a free, state-of-the-art, privacy-enhancing Web browser, SOCKS proxy, and anonymizing overlay mixnet. Don't worry if you don't know what these terms mean, that's what the workshop is for!
 ---
 
 The Tech Learning Collective invites you to join us for *{{ page.title }}*, a two-hour mini-intensive digital safety workshop focused on the Tor Project. Tor is a free, state-of-the-art, privacy-enhancing Web browser, SOCKS proxy, and anonymizing overlay mixnet. Don't worry if you don't know what these terms mean, that's what the workshop is for!

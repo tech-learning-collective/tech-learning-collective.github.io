@@ -26,6 +26,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
+teaser: This two-hour workshop is a practical introduction to creating, using, and administering virtual machine (VM) systems. Even if you&rsquo;ve never heard of a virtual machine before, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren&rsquo;t a software developer because they can help secure your Web browsing activity, give you a sandbox in which to try out new software, and much more!
 ---
 
 The Tech Learning Collective invites you to join us for *{{ page.title }}*. This two-hour workshop is a practical introduction to creating, using, and administering virtual machine (VM) systems. Even if you&rsquo;ve never heard of a virtual machine before, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren&rsquo;t a software developer because they can help secure your Web browsing activity, give you a sandbox in which to try out new software, and much more!

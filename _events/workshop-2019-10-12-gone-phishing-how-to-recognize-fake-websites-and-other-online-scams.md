@@ -29,6 +29,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
+teaser: This workshop is a combination &ldquo;attack/defense&rdquo; exercise focusing on Web-based social engineering attacks. Participants will practice both how to launch their own attacks as well as how to defend against them.
 ---
 
 The Tech Learning Collective invites you to join us for, &ldquo;*Gone Phishing: How to Recognize Fake Websites and Other Online Scams*.&rdquo; This workshop is a combination &ldquo;attack/defense&rdquo; exercise focusing on Web-based social engineering attacks. Participants will practice both how to launch their own attacks as well as how to defend against them:

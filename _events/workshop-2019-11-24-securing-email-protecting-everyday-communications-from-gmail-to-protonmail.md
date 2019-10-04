@@ -29,6 +29,7 @@ organizers:
     - Wonderville
 performers:
     - Tech Learning Collective
+teaser: This workshop will demystify the nuance of email privacy and security. By using freely available OpenPGP-compatible software, which has been available since 1991, the Tech Learning Collective&rsquo;s cybersecurity instructors will show you how you can keep your message contents private regardless of the email service provider you use.
 ---
 
 {{ page.location }} in collaboration with the Tech Learning Collective presents: *{{ page.title }}*, a two-hour digital safety workshop that will demystify the nuance of email privacy and security:

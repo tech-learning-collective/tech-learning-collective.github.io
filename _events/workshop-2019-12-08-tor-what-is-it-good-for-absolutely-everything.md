@@ -31,6 +31,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
+teaser: Come learn how the free Tor Web Browser can be your gateway to the Dark Web while simultaneously keeping you safer and your personal info more private as you browse web sites big and small. In this deep dive workshop on Tor, the Tech Learning Collective&rsquo;s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool.
 ---
 
 {{ page.location }} in collaboration with The Tech Learning Collective presents *{{ page.title }}.* Come learn how the free Tor Web Browser can be your gateway to the Dark Web while simultaneously keeping you safer and your personal info more private as you browse web sites big and small.

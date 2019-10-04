@@ -31,6 +31,7 @@ performers:
     - XOXA
     - Death By Audio Arcade
     - Half Lucid Jewelry
+teaser: Hex90 is a recurring occasional &ldquo;queer hacker salon&rdquo; featuring music, visuals, special performances, and unique experiences that mix technology, queer culture, art, and late-night partying of course! And they&rsquo;re back for a sequel! The Tech Learning Collective is sending two of our cybersecurity instructors to the Hex90 party to help party-goers navigate the event&rsquo;s exclusive, physical-world cybersecurity component.
 ---
 
 Queer hackers of the world, unite! The Tech Learning Collective is excited to invite you to [Hex90&rsquo;s latest queer hacker salon, &ldquo;Hello, friend,&rdquo;](https://hexninety.github.io/) hosted at [Wonderville](https://wonderville.nyc/), where some of our teaching staff will be on-hand to assist players as they navigate [the party's "cybersecurity alternate reality experience" game](https://hexninety.github.io/) produced in partnership with the semi-elusive NYC-based hacklab, [Shift-CTRL Space](https://shiftctrl.space/).
