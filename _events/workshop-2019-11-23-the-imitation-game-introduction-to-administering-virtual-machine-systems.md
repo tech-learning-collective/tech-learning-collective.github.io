@@ -21,6 +21,9 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265100104/
     - https://brokelyn.com/event/the-imitation-game-introduction-to-administering-virtual-machine-systems/
     - https://actionnetwork.org/events/the-imitation-game-introduction-to-administering-virtual-machine-systems
+    - https://www.garysguide.com/events/ivpur7w/The-Imitation-Game-Intro-to-Administering-Virtual-Machine-Systems
+    - https://newyorkcity.eventful.com/events/imitation-game-introduction-administering-virtual-/E0-001-131216652-0
+    - https://patch.com/new-york/new-york-city/calendar/event/20191123/660872/the-imitation-game-introduction-to-administering-virtual-machine
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

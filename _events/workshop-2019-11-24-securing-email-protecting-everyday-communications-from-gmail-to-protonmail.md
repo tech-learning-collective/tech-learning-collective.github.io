@@ -23,6 +23,9 @@ sameAs:
     - https://brokelyn.com/event/securing-email-protecting-everyday-communications-from-gmail-to-protonmail/
     - https://actionnetwork.org/events/securing-email-protecting-everyday-communications-from-gmail-to-protonmail
     - https://www.wonderville.nyc/events/securingemailprotectingeverydaycommunicationsfromgmailtoprotonmail
+    - https://www.garysguide.com/events/manopis/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail
+    - https://newyorkcity.eventful.com/events/securing-email-protecting-everyday-communication-/E0-001-131217530-6
+    - https://patch.com/new-york/new-york-city/calendar/event/20191124/660894/securing-email-protecting-everyday-communications
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective

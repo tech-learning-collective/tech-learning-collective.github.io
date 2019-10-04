@@ -24,8 +24,11 @@ sameAs:
     - https://www.caveat.nyc/event/tech-learning-collective-workshop-tor-what-is-it-good-for-absolutely-everything-12-8-2019
     - https://www.eventbrite.com/e/tech-learning-collective-workshop-tor-what-is-it-good-for-absolutely-everything-tickets-75212928895
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265386501/
-    - https://brokelyn.com/?p=224305
+    - https://brokelyn.com/event/tor-what-is-it-good-for-absolutely-everything-4/
     - https://actionnetwork.org/events/tor-what-is-it-good-for-absolutely-everything-3
+    - https://www.garysguide.com/events/pes0uc8/Tor-What-Is-It-Good-For-Absolutely-Everything
+    - https://newyorkcity.eventful.com/events/tor-good-absolutely-everything-/E0-001-131217033-8
+    - https://patch.com/new-york/new-york-city/calendar/event/20191208/660874/tor-what-is-it-good-for-absolutely-everything
 maximumAttendeeCapacity: 100
 organizers:
     - Tech Learning Collective
