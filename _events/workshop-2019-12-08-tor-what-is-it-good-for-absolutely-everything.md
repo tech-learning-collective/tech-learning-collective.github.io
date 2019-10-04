@@ -17,6 +17,9 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
       url: https://www.eventbrite.com/e/tech-learning-collective-workshop-tor-what-is-it-good-for-absolutely-everything-tickets-75212928895
+audiences:
+    - type: People
+      requiredMinAge: 21
 sameAs:
     - https://www.caveat.nyc/event/tech-learning-collective-workshop-tor-what-is-it-good-for-absolutely-everything-12-8-2019
     - https://www.eventbrite.com/e/tech-learning-collective-workshop-tor-what-is-it-good-for-absolutely-everything-tickets-75212928895
