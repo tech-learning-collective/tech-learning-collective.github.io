@@ -6,13 +6,14 @@ date: *startDate
 location: Triangle Arts Association
 image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
 flyer: workshop-tor-1
+isAccessibleForFree: true
 offers:
-    - name: Workshop Ticket
+    - name: General admissions suggested donation
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
       url: https://www.artful.ly/store/events/19044
-    - name: Reduced price Workshop Ticket (for queer-identified and femme people)
+    - name: Suggested donation for queer-identified and femme people
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
@@ -25,7 +26,7 @@ sameAs:
     - https://www.garysguide.com/events/wfo0c7a/Tor-What-is-it-Good-For-Absolutely-Everything
     - https://newyorkcity.eventful.com/events/tor-good-absolutely-everything-/E0-001-131216491-1
     - https://patch.com/new-york/new-york-city/calendar/event/20191027/660863/tor-what-is-it-good-for-absolutely-everything
-maximumAttendeeCapacity: 15
+maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
 performers:
@@ -39,12 +40,13 @@ The Tech Learning Collective invites you to join us for *{{ page.title }}*, a tw
 >
 > In this deep dive workshop on [Tor](https://torproject.org/), the [Tech Learning Collective]({% link index.html %})&rsquo;s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool. They&rsquo;ll demonstrate numerous Tor features such as Tor authentication, target service load balancing, and NAT-punching. In the process, you&rsquo;ll finally understand—on a technical level—what the &ldquo;Dark Web&rdquo; actually is and how it works. Bring a laptop to class, and you&rsquo;ll leave having run your own Dark Web site. Whether you’re a veteran black hat or a timid newbie, this class will shine a light on the Dark Web once and for all.
 
-This workshop features material from the [Tech Learning Collective&rsquo;s "Hacking with Mr. Robot" SEC101 course]({% link _courses/sec101.md %}). Tickets are sold on a first-come, first-served basis and are only available via our online storefront:
+This workshop features material from the [Tech Learning Collective&rsquo;s "Hacking with Mr. Robot" SEC101 course]({% link _courses/sec101.md %}). Advance reservation tickets are offered on a first-come, first-served basis and are only available via our online storefront:
 
-* [${{ page.offers[0].price }} - {{ page.offers[0].name }}]({{ page.offers[0].url }})
-* [${{ page.offers[1].price }} - {{ page.offers[1].name }}]({{ page.offers[1].url }})
+{% for offer in page.offers %}
+* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }})
+{% endfor %}
 
-Class space is limited to {{ page.maximumAttendeeCapacity }} students! After purchasing your ticket online, please arrive 5 to 10 minutes early to get settled.
+Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and make your donation, or make your donation now and [get your reservation ticket online]({{ page.offers[0].url }}). If the suggested rate is cost-prohibitive, we encourage attendees to pay whatever is comfortable for them. For accommodations, please email us at [{{ site.data.contact.email }}](mailto:{{ site.data.contact.email }}?subject={{ "[WORKSHOP: " | append: page.title | append: "] Discount request" | uri_escape }}).
 
 You do not need to bring a laptop to class, but may want to do so to follow along with the exercises. Mobile devices are also compatible with Tor software and their use is encouraged.
 

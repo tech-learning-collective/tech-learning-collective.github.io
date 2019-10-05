@@ -26,7 +26,7 @@ sameAs:
     - https://thoughtgallery.org/events/gone-phishing-how-to-recognize-fake-websites-and-other-online-scams/
     - https://www.garysguide.com/events/brmxknp/Gone-Phishing-How-to-Recognize-Fake-Websites-Other-Online-Scams
     - https://patch.com/new-york/new-york-city/calendar/event/20191012/660750/gone-phishing-how-to-recognize-fake-websites-other-online-scams
-maximumAttendeeCapacity: 15
+maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
 performers:
