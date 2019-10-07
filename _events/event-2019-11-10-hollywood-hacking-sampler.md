@@ -19,6 +19,10 @@ offers:
       url: https://www.artful.ly/store/events/19143
 sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265464831/
+    - https://www.garysguide.com/events/1us6z5t/Hollywood-Hacking-Sampler
+    - https://brokelyn.com/?p=224479
+    - https://newyorkcity.eventful.com/events/hollywood-hacking-sampler-/E0-001-131293967-0
+    - https://patch.com/new-york/new-york-city/calendar/event/20191110/661910/hollywood-hacking-sampler
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
