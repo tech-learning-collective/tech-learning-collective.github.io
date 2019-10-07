@@ -1,7 +1,7 @@
 ---
 title: "Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State"
-startDate: &startDate 2019-11-02 15:30:00 -0500
-endDate: 2019-11-02 17:30:00 -0500
+startDate: &startDate 2019-11-02 15:30:00 -0400
+endDate: 2019-11-02 17:30:00 -0400
 date: *startDate
 location: Triangle Arts Association
 image: static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.png
