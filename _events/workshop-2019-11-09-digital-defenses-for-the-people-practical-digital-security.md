@@ -1,7 +1,7 @@
 ---
 title: "Digital Defenses for the People: Practical Digital Security"
-startDate: &startDate 2019-11-09 15:30:00 -0400
-endDate: 2019-11-09 17:30:00 -0400
+startDate: &startDate 2019-11-09 15:30:00 -0500
+endDate: 2019-11-09 17:30:00 -0500
 date: *startDate
 location: Triangle Arts Association
 image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.png
@@ -19,6 +19,11 @@ offers:
       url: https://www.artful.ly/store/events/19150
 sameAs:
     - https://www.artful.ly/store/events/19150
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/265481153/
+    - https://www.garysguide.com/events/4ec5uj6/Digital-Defenses-for-the-People-Practical-Digital-Security
+    - https://brokelyn.com/?p=224521
+    - https://newyorkcity.eventful.com/events/digital-defenses-people-practical-digital-security-/E0-001-131313979-0
+    - https://patch.com/new-york/new-york-city/calendar/event/20191109/662510/digital-defenses-for-the-people-practical-digital-security
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
