@@ -1,10 +1,33 @@
 ---
 title: Technology, taught collectively.
+columns: 1
 ---
 
-<a href="{% link about/index.md %}">
-<img id="spinner"
-    alt="Learn more about the Tech Learning Collective."
-    src="{% link static/images/icon.chip.transparent.png %}"
-/>
-</a>
+<p>
+    <a href="{% link about/index.md %}">
+        <img id="spinner"
+            alt="Learn more about the Tech Learning Collective."
+            src="{% link static/images/icon.chip.transparent.png %}"
+        />
+    </a>
+</p>
+
+<h2 id="next-event">Next Event</h2>
+
+<p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
+
+{% if site.events %}
+{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
+{% assign events = events | slice: 0, 1 %}
+<ol class="h-events">
+{% for event in events %}
+    <li>
+        {% include h-event.html event=event excerpt=true %}
+    </li>
+{% endfor %}
+</ol><!-- .h-events -->
+{% else %}
+<p>No events&mdash;yet. :)</p>
+{% endif %}
+
+<p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>

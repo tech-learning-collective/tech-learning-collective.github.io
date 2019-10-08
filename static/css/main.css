@@ -166,12 +166,9 @@ img#spinner,
 img.icon {
     box-shadow: none;
 }
-
 img#spinner {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    margin-left: -100px;
+    display: block;
+    margin: 0 auto;
     animation: spin 15s infinite linear;
 }
 
