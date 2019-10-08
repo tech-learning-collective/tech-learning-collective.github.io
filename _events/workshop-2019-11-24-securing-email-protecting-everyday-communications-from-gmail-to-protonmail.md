@@ -11,15 +11,15 @@ offers:
       price: 45
       priceCurrency: USD
       availabilityEnds: *startDate
-      url: https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
+      url: https://www.artful.ly/store/events/19155
     - name: Reduced price Workshop Ticket (for queer and femme folks)
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
-      url: https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
+      url: https://www.artful.ly/store/events/19155
 sameAs:
+    - https://www.artful.ly/store/events/19155
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265100402/
-    - https://withfriends.co/event/2678741/securing_email_protecting_everyday_communications_from_gmail_to_protonmail/
     - https://brokelyn.com/event/securing-email-protecting-everyday-communications-from-gmail-to-protonmail/
     - https://actionnetwork.org/events/securing-email-protecting-everyday-communications-from-gmail-to-protonmail
     - https://www.wonderville.nyc/events/securingemailprotectingeverydaycommunicationsfromgmailtoprotonmail
