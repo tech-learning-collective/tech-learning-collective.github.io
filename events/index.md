@@ -12,6 +12,8 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 [![Download]({% link static/images/icon.download.svg %}){:.download.icon}]({% link events/all.ics %} "Export events as iCalendar file.")
 [![Subscribe to Atom feed of events.]({% link static/images/icon.rss-feed.orange.svg %}){:style="width: 1em; box-shadow: none;"}]({% link feed/events.xml %} "Subscribe to Atom feed of events.")
 
+([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
+
 {% if site.events %}
 {% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
 <ol class="h-events">
