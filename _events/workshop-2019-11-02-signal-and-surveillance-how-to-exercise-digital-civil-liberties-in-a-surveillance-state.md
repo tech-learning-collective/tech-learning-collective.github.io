@@ -24,6 +24,7 @@ sameAs:
     - https://brokelyn.com/?p=224517
     - https://newyorkcity.eventful.com/events/signal-and-surveillance-exercise-digital-civil-lib-/E0-001-131311655-9
     - https://patch.com/new-york/new-york-city/calendar/event/20191102/662408/signal-and-surveillance-how-to-exercise-digital-civil-liberties
+    - https://www.eff.org/event/signal-and-surveillance-how-exercise-digital-civil-liberties-surveillance-state
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective

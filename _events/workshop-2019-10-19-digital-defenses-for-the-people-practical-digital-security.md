@@ -28,6 +28,7 @@ sameAs:
     - https://patch.com/new-york/new-york-city/calendar/event/20191019/660847/digital-defenses-for-the-people-practical-digital-security
     - https://www.garysguide.com/events/z01sinx/Digital-Defenses-for-the-People-Practical-Digital-Security
     - https://newyorkcity.eventful.com/events/digital-defenses-people-practical-digital-security-/E0-001-131216216-2
+    - https://www.eff.org/event/digital-defenses-people-practical-digital-security
 maximumAttendeeCapacity: 12
 organizers:
     - Tech Learning Collective

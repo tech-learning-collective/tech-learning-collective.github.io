@@ -26,6 +26,7 @@ sameAs:
     - https://www.garysguide.com/events/wfo0c7a/Tor-What-is-it-Good-For-Absolutely-Everything
     - https://newyorkcity.eventful.com/events/tor-good-absolutely-everything-/E0-001-131216491-1
     - https://patch.com/new-york/new-york-city/calendar/event/20191027/660863/tor-what-is-it-good-for-absolutely-everything
+    - https://www.eff.org/event/tor-what-it-good-absolutely-everything
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
