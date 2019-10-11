@@ -17,6 +17,11 @@ offers:
       availabilityEnds: *startDate
       url: https://www.artful.ly/store/events/19189
 sameAs:
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/265598580/
+    - https://www.garysguide.com/events/trr8wi5/Open-Doors-Intro-to-the-Art-of-Lockpicking
+    - https://brokelyn.com/?p=224983
+    - https://newyorkcity.eventful.com/events/open-doors-introduction-art-lockpicking-/E0-001-131425219-5
+    - https://patch.com/new-york/new-york-city/calendar/event/20191110/667759/open-doors-introduction-to-the-art-of-lockpicking
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
