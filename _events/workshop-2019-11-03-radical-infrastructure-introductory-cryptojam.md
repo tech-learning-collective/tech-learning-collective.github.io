@@ -17,6 +17,11 @@ offers:
       availabilityEnds: *startDate
       url: https://www.artful.ly/store/events/19188
 sameAs:
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/265595786/
+    - https://www.garysguide.com/events/b4486d1/Radical-Infrastructure-Introductory-CryptoJam
+    - https://brokelyn.com/?p=224976
+    - https://newyorkcity.eventful.com/events/radical-infrastructure-introductory-cryptojam-/E0-001-131425135-4
+    - https://patch.com/new-york/new-york-city/calendar/event/20191103/667649/radical-infrastructure-introductory-cryptojam
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
