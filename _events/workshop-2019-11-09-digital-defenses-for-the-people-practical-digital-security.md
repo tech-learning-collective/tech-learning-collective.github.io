@@ -24,6 +24,7 @@ sameAs:
     - https://brokelyn.com/?p=224521
     - https://newyorkcity.eventful.com/events/digital-defenses-people-practical-digital-security-/E0-001-131313979-0
     - https://patch.com/new-york/new-york-city/calendar/event/20191109/662510/digital-defenses-for-the-people-practical-digital-security
+    - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-11-09-2019-11-09
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
