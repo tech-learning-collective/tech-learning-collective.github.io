@@ -1,11 +1,8 @@
 ---
 title: "Open Doors: Introduction to the Art of Lockpicking"
-startDate: &startDate 2019-10-10 18:30:00 -0400
-endDate: 2019-10-10 19:30:00 -0400
+startDate: &startDate 2019-11-10 18:00:00 -0500
+endDate: 2019-11-10 19:00:00 -0500
 date: *startDate
-redirect_from:
-    - /events/2019/08/workshop-2019-10-10-open-doors-introduction-to-the-art-of-lockpicking
-    - /events/2019/09/workshop-2019-10-10-open-doors-introduction-to-the-art-of-lockpicking
 location: TechAhoy
 image: static/images/workshop.open-doors-introduction-to-the-art-of-lockpicking.rectangle.png
 offers:
@@ -13,22 +10,14 @@ offers:
       price: 35
       priceCurrency: USD
       availabilityEnds: *startDate
-      url: https://www.eventbrite.com/e/open-doors-introduction-to-the-art-of-lockpicking-tickets-70646763371
+      url: https://www.artful.ly/store/events/19189
     - name: Reduced price Workshop Ticket (for queer-identified and femme people)
       price: 25
       priceCurrency: USD
       availabilityEnds: *startDate
-      url: https://www.eventbrite.com/e/open-doors-introduction-to-the-art-of-lockpicking-tickets-70646763371
+      url: https://www.artful.ly/store/events/19189
 sameAs:
-    - https://techahoy.org/calendar/2019/9/10/open-doors-introduction-to-the-art-of-lockpicking
-    - https://www.meetup.com/New-York-Cryptoparty-Network/events/264318595/
-    - https://actionnetwork.org/events/open-doors-introduction-to-the-art-of-lockpicking
-    - https://brokelyn.com/event/open-doors-introduction-to-the-art-of-lockpicking/
-    - https://www.garysguide.com/events/51odch5/Open-Doors-Intro-to-the-Art-of-Lockpicking
-    - https://newyorkcity.eventful.com/events/open-doors-introduction-art-lockpicking-/E0-001-131215660-2
-    - https://patch.com/new-york/new-york-city/calendar/event/20191010/660841/open-doors-introduction-to-the-art-of-lockpicking
-    - https://thoughtgallery.org/events/open-doors-introduction-to-the-art-of-lockpicking/
-maximumAttendeeCapacity: 15
+maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
     - TechAhoy
