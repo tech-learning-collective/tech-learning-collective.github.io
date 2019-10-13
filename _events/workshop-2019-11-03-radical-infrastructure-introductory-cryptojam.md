@@ -22,6 +22,7 @@ sameAs:
     - https://brokelyn.com/?p=224976
     - https://newyorkcity.eventful.com/events/radical-infrastructure-introductory-cryptojam-/E0-001-131425135-4
     - https://patch.com/new-york/new-york-city/calendar/event/20191103/667649/radical-infrastructure-introductory-cryptojam
+    - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-11-03-2019-11-03
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
