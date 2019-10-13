@@ -246,6 +246,18 @@ table.price tr:not(.no-currency) td:last-child::after {
 /**
  * @group Microformats and structured data.
  */
+.h-review .p-author {
+    margin-top: 1em;
+}
+.h-review .p-author div {
+    display: inline;
+}
+.h-review .h-card .u-photo {
+    float: left;
+    width: 25%;
+    margin: 0 1em 0 3px;
+    border-radius: 50%;
+}
 .h-event {
     margin: 0 0 2em 0;
 }

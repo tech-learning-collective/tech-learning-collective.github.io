@@ -63,6 +63,7 @@ collections:
     output: true
     permalink: /:collection/:categories/:year/:month/:title
     sort_by: startDate
+  reviews:
 
 # Front Matter defaults.
 defaults:
@@ -71,7 +72,7 @@ defaults:
     values:
       layout: page
       image: *logo
-      backgroundColor: "#372BFB"
+      backgroundColor: rgba(55, 43, 251, 1)
   - scope:
       type: courses
     values:

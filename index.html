@@ -4,16 +4,15 @@ columns: 1
 ---
 
 <p>
-    <a href="{% link about/index.md %}">
+    <a href="{% link about/index.md %}" title="Learn more about {{ site.title }}.">
         <img id="spinner"
-            alt="Learn more about the Tech Learning Collective."
+            alt="{{ site.title }} logo, a stylized microchip spinning in space."
             src="{% link static/images/icon.chip.transparent.png %}"
         />
     </a>
 </p>
 
 <h2 id="next-event">Next Event</h2>
-
 <p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
 
 {% if site.events %}
@@ -31,3 +30,7 @@ columns: 1
 {% endif %}
 
 <p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
+
+{% assign featured_testimonial = site.reviews | sample %}
+{% include h-review.html review=featured_testimonial %}
+<p>(<a href="{% link testimonials/index.md %}">Read all reviews</a>.)</p>

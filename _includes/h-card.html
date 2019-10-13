@@ -42,9 +42,13 @@
             itemprop="image logo photo" />
         {% endif %}
 
-        {% if entity.url %}<a href="{{ entity.url }}" class="url" itemprop="url">{% endif %}
-            {{ entity.name }}
-        {% if entity.url %}</a>{% endif %}
+        {% if entity.url %}<a href="{{ entity.url }}" class="url" itemprop="url">{% endif -%}
+            {{- entity.name -}}
+        {%- if entity.url %}</a>{%- endif -%}
+
+        {%- if entity.jobTitle -%},
+        <span class="p-job-title title" itemprop="jobTitle">{{ entity.jobTitle }}</span>
+        {% endif %}
 
     </div><!-- .p-name -->
     {% endif %}

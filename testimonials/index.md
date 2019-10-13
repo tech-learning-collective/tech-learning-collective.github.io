@@ -4,11 +4,9 @@ title: Testimonials
 
 Some nice things former students and friends have said about the Tech Learning Collective. If you&rsquo;ve participated in a TLC course or workshop and have feedback of any sort, please [send it in to us]({% link contact/index.md %}). We appreciate hearing about your experience and are especially grateful to everyone who's provided a testimonial below.
 
-# "welcoming for beginners, but still engaging for more experienced people"
-
-> [A]fter checking the\[ir [Gone Phishing]({% link _workshops/Gone Phishing: How to Recognize Fake Websites and Other Online Scams.md %}) workshop] out, I highly recommend!! I’ve gone to a lot of meetups, including a few cybersecurity workshops, and what they are doing is really top of the line. The workshop was a good middle ground of welcoming for beginners, but still engaging for more experienced people. I learned so much! It was well-paced and had a tight, manageable scope, but I also walked away with a ton of links of additional resources to explore on my own time. So if you’re in the NYC area and have the chance, definitely check out [their calendar]({% link events/index.md %})!
-
-—<cite>[Martha H.](https://artistsguidetocomputation.substack.com/p/as-if-i-had-missed-the-smell-of-hot)</cite>
+{% for testimonial in site.reviews %}
+    {% include h-review.html review=testimonial %}
+{% endfor %}
 
 # "way more educational than anything I've been to before"
 
