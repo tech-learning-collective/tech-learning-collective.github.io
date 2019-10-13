@@ -32,10 +32,10 @@ to be set on DIV elements, not ARTICLEs.
     <header>
 
         <a href="{{ event.url | relative_url }}" class="u-url url" itemprop="url">
-            <img src="{{ event_image }}" alt="" itemprop="image" />
             <h2 class="p-summary summary p-name" itemprop="name">
                     {{ event.name | default: event.title }}
             </h2>
+            <img src="{{ event_image }}" alt="" itemprop="image" />
         </a>
         <ul class="event-meta">
             <li class="event-datetime">

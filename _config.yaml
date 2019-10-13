@@ -71,6 +71,7 @@ defaults:
     values:
       layout: page
       image: *logo
+      backgroundColor: "#372BFB"
   - scope:
       type: courses
     values:

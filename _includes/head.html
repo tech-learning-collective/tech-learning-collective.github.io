@@ -49,6 +49,15 @@ body.page header::after {
     background-image: linear-gradient(to left, {{ page.backgroundColor }}, {{ page.backgroundColor | replace: "1)", "0)" }});
 }
 
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: {{ page.backgroundColor }};
+}
+
 .dotleader span,
 .dotleader.price td:last-child::before,
 .dotleader.price td:last-child::after {
