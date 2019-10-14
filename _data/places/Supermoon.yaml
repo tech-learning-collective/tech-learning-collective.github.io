@@ -1,0 +1,17 @@
+---
+name: Supermoon
+description: Community art center and gathering space for people of all ages to share, create, and inquire together.
+type: School
+address:
+    streetAddress: 753 Onderdonk Avenue
+    addressLocality: Queens
+    addressRegion: NY
+    postalCode: 11385
+    addressCountry: United States
+url: https://supermoonartspace.com/
+telephone: +1 718-628-3817
+email: info@supermoonartspace.com
+logo: logo.supermoon.jpg
+maximumAttendeeCapacity: 25
+sameAs:
+    - https://www.facebook.com/supermoonartspace/

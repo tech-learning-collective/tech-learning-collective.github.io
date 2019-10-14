@@ -300,7 +300,7 @@ table.price tr:not(.no-currency) td:last-child::after {
 .workshop article img:first-of-type {
     float: right;
     width: 50%;
-    margin: 0 0 1em 1em;
+    margin: 1em 0 1em 1em;
 }
 .workshop-list ul {
     display: grid;
@@ -444,7 +444,7 @@ footer {
         float: none;
         width: auto;
         max-width: 100%;
-        margin: 0;
+        margin: 1em 0 0;
     }
     div.persona-training-container {
         margin-top: 1.5em;
