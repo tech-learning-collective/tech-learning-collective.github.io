@@ -8,6 +8,8 @@ columns: 1
 [![Download]({% link static/images/icon.download.svg %}){:.download.icon}]({% link events/all.ics %} "Export events as iCalendar file.")
 [![Subscribe to Atom feed of events.]({% link static/images/icon.rss-feed.orange.svg %}){:style="width: 1em; box-shadow: none;"}]({% link feed/events.xml %} "Subscribe to Atom feed of events.")
 
+([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
+
 In addition to our intensive [courses]({% link courses/index.html %}), we also host satellite events such as [workshops]({% link workshops/index.md %}), skillshares, and demonstrations in collaboration with community centers, hackerspaces and hacklabs, and other venues across New York City. Our satellite workshops are a low-commitment way to get a feel for our more intensive courses as well as meet some of our teaching team.
 
 {% if site.events %}
