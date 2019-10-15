@@ -18,7 +18,8 @@ sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265345134/
     - https://brokelyn.com/event/tech-learning-collective-with-team-human-the-revolution-will-be-self-hosted/
     - https://actionnetwork.org/events/tech-learning-collective-with-team-human-the-revolution-will-be-self-hosted
-maximumAttendeeCapacity: 12
+    - https://www.evensi.us/tech-learning-collective-team-human-revolution-hosted-meetup-hq-10th-floor/346809970
+maximumAttendeeCapacity: 15
 organizers:
     - Team Human NYC
     - Tech Learning Collective
