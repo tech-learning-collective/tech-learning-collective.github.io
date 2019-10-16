@@ -3,7 +3,7 @@ name: Triangle Arts Association
 description: Artist-founded non-profit art institution in New York City, working locally and globally since 1982.
 type: NGO
 address:
-    streetAddress: 20 Jay Street
+    streetAddress: 20 Jay Street, Suite 317
     addressLocality: Brooklyn
     addressRegion: NY
     postalCode: 11201
