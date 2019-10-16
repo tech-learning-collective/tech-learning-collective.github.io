@@ -13,6 +13,9 @@ image: static/images/event.2019-12-14.hackers-next-door-an-infosec-conference.re
 #      url: https://hnd.techlearningcollective.com/tickets/
 sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264958235/
+    - https://www.garysguide.com/events/xlww51f/Hackers-Next-Door-An-InfoSec-Conference
+    - https://brokelyn.com/?p=225393
+    - https://patch.com/new-york/new-york-city/calendar/event/20191214/672701/hackers-next-door-an-infosec-conference
 organizers:
     - Tech Learning Collective
 performers:
