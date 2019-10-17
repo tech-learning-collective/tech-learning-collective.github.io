@@ -3,7 +3,7 @@ title: About
 backgroundColor: rgba(122, 156, 44, 1)
 ---
 
-The Tech Learning Collective is an educational initiative run by radical queer and femme technologists offering unparalleled, low-cost computer classes primarily to marginalized groups and individuals who are politically engaged. Unlike coding bootcamps that focus on moving the highest number of students through rote task-completion for the goal of job placement, Tech Learning Collective teachers facilitate foundational skill building through Socratic discussion and kinetic, experience-based training.
+Tech Learning Collective is an apprenticeship-based technology school aiming to train politically self-motivated individuals in the art of hypermedia, Information Technology, and radical political praxis. Run by radical queer and femme technologists, we offer unparalleled, low-cost computer classes primarily to marginalized groups and individuals who are politically engaged. Unlike coding bootcamps that focus on moving the highest number of students through rote task-completion for the goal of job placement, Tech Learning Collective teachers facilitate foundational skill building through Socratic discussion and kinetic, experience-based training.
 
 We are [different from many other educational institutions](#our-difference) in a variety of ways. Many of these differences grew organically from [our unique history](#our-history). Our team has two primary goals for the Tech Learning Collective. These are:
 
