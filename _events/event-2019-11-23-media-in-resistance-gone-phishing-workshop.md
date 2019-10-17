@@ -35,6 +35,10 @@ sameAs:
     - https://www.artful.ly/store/events/19218
     - https://www.miccenter.org/?page_id=18
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265747555/
+    - https://www.garysguide.com/events/0c6sx82/Media-in-Resistance-Conference-Workshop-Gone-Phishing
+    - https://brokelyn.com/?p=225473
+    - https://newyorkcity.eventful.com/events/media-resistance-conference-workshop-gone-phishi-/E0-001-131721065-9
+    - https://patch.com/new-york/new-york-city/calendar/event/20191123/673664/media-in-resistance-conference-workshop-gone-phishing
 maximumAttendeeCapacity: 20
 organizers:
     - Tech Learning Collective
