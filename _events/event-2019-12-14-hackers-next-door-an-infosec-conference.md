@@ -5,16 +5,18 @@ endDate: 2019-12-14 20:00:00 -0500
 date: *startDate
 location: Triangle Arts Association
 image: static/images/event.2019-12-14.hackers-next-door-an-infosec-conference.rectangle.png
-#offers:
-#    - name: Conference Ticket
-#      price: 65
-#      priceCurrency: USD
-#      availabilityEnds: *startDate
-#      url: https://hnd.techlearningcollective.com/tickets/
+offers:
+    - name: Conference Tickets
+      price: 30-199
+      priceCurrency: USD
+      availabilityEnds: *startDate
+      url: https://hnd.techlearningcollective.com/tickets/
 sameAs:
+    - https://www.artful.ly/store/events/19216
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/265725574/
     - https://www.garysguide.com/events/xlww51f/Hackers-Next-Door-An-InfoSec-Conference
     - https://brokelyn.com/?p=225393
+    - https://newyorkcity.eventful.com/events/hackers-next-door-infosec-conference-/E0-001-131690411-3
     - https://patch.com/new-york/new-york-city/calendar/event/20191214/672701/hackers-next-door-an-infosec-conference
 organizers:
     - Tech Learning Collective
@@ -28,11 +30,13 @@ teaser: Hackers Next Door is an open-to-the-public information security conferen
 
 The Tech Learning Collective is proud to present our inaugural {{ page.title }}. Space is limited. A ticket is required to attend. No walk-ins are allowed, and no door sales are offered.
 
-Hackers Next Door is an open-to-the-public information security conference featuring invitation-only presentations by the best of the tri-state area’s cybersecurity trainers, privacy rights advocacy groups, and their constituencies.
+*Hackers Next Door* is an open-to-the-public information security conference featuring presentations by the best of the tri-state area&rsquo;s cybersecurity trainers, privacy rights advocacy groups, and their constituencies.
 
-The two-day conference is a unique opportunity for anyone interested in how to protect themselves online to participate in a skill-sharing and educational convergence where they can meet one another, compare notes with peers and colleagues, and learn practical techniques from the region’s top cybersecurity instructors, legal experts, and experienced activists.
+The two-day conference is a unique opportunity for anyone interested in protecting themselves online to participate in a skill-sharing and educational convergence where they can meet one another, compare notes with peers and colleagues, and learn practical techniques from the region’s top cybersecurity instructors, legal experts, and experienced activists.
 
-By enhancing cybersecurity training for everyone, and increasing public awareness of digital civil liberties issues, Hackers Next Door gives invited speakers a chance to showcase and workshop their educational methods and materials to and with an audience of like-minded and impassioned community organizers, activists, and fellow security and privacy trainers so that we can all learn from one another’s experience and perspective.
+For community organizers and movement builders, *Hackers Next Door* offers a weekend of hacking demonstrations, &ldquo;State of the Movement&rdquo; briefings, legal primers, know-your-rights trainings, technical workshops, and political strategy brainstorming opportunities in a kinetic environment.
+
+By enhancing cybersecurity training for everyone and increasing public awareness of digital civil liberties issues, *Hackers Next Door* gives invited speakers a chance to showcase and workshop their educational methods and materials to and with an audience of like-minded and impassioned community organizers so that we can all learn from one another’s experience and perspective.
 
 Learn more and [buy tickets](https://hnd.techlearningcollective.com/tickets/) at the [Hackers Next Door conference website](https://hnd.techlearningcollective.com/).
 
