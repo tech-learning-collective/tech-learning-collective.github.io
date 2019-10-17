@@ -94,6 +94,7 @@ to be set on DIV elements, not ARTICLEs.
 
     {% if event_description %}
     <section itemprop="description">
+        <h2>Event description</h2>
         <div class="p-description description">
             {{ event_description -}}
             {%- if include.excerpt -%}… (<a href="{{ event.url }}">read more</a>)

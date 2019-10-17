@@ -83,7 +83,7 @@ h1 {
     font: 18pt "MonoSpatial";
     margin-bottom: 1em;
 }
-main p:not(:first-child) {
+main p {
     margin: 1em 0;
     text-align: justify;
 }
