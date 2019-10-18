@@ -1,5 +1,6 @@
 ---
 title: "Media in Resistance Conference Workshop: Gone Phishing"
+published: false
 startDate: &startDate 2019-11-23 11:00:00 -0500
 endDate: 2019-11-23 12:30:00 -0500
 date: *startDate
