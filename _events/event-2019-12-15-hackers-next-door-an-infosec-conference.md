@@ -18,6 +18,7 @@ sameAs:
     - https://brokelyn.com/?p=225393
     - https://newyorkcity.eventful.com/events/hackers-next-door-infosec-conference-/E0-001-131690411-3
     - https://patch.com/new-york/new-york-city/calendar/event/20191214/672701/hackers-next-door-an-infosec-conference
+    - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-12-14-2019-12-14
 organizers:
     - Tech Learning Collective
 performers:
