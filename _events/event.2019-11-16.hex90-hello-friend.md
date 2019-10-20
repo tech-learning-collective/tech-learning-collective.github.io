@@ -29,6 +29,7 @@ performers:
     - Shift-CTRL Space
     - Tech Learning Collective
     - XOXA
+    - Melody Loveless
     - Death By Audio Arcade
     - Half Lucid Jewelry
 teaser: Hex90 is a recurring occasional &ldquo;queer hacker salon&rdquo; featuring music, visuals, special performances, and unique experiences that mix technology, queer culture, art, and late-night partying of course! And they&rsquo;re back for a sequel! The Tech Learning Collective is sending two of our cybersecurity instructors to the Hex90 party to help party-goers navigate the event&rsquo;s exclusive, physical-world cybersecurity component.
@@ -64,7 +65,7 @@ featured artists_
 
 ~ DJ Kandylion
 ~ DJ Panooc
-~ more to be announced!
+~ Audiovisual artist Melody Loveless
 
 info_
 
@@ -107,6 +108,10 @@ We are anti-(techno)capitalists, solarpunks, and radical technologists. Our ethi
 Dedicated to cultivating an inclusive queer community through art, music and performance by curating the best of the Brooklyn underground for femmes and allies.
 
 [XOXA](https://xoxa-nyc.github.io/) curates the best of the Brooklyn underground for femmes and allies.
+
+## About [Melody Loveless](http://melodyloveless.com/)
+
+Melody Loveless is a Brooklyn-based performer, musician, and audiovisual artist creating visuals that are made with love and code.
 
 ## About [LiveCode.NYC](https://livecode.nyc/)
 
