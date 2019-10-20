@@ -31,7 +31,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
-teaser: This introductory cybersecurity workshop will you show why Signal, a free, secure, private message app is simple enough to schedule drinks with, yet secure enough to use for planning a protest. As dragnet surveillance practices are legalized at alarming speed, there has never been a more important time to flex your digital civil liberties muscle than right now.
+teaser: This introductory cybersecurity workshop will show you why Signal, a free, secure, private message app is simple enough to schedule drinks with, yet secure enough to use for planning a protest. As dragnet surveillance practices are legalized at alarming speed, there has never been a more important time to flex your digital civil liberties muscle than right now.
 ---
 
 The Tech Learning Collective invites you to join us for *{{ page.title }}*. {{ page.teaser }}
