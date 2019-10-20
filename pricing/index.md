@@ -5,12 +5,11 @@ backgroundColor: rgba(161, 1, 1, 1)
 
 Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups) in several different formats such as one-off [workshops]({% link workshops/index.md %}) and intensive [courses]({% link courses/index.html %}).
 
-
 Courses for individuals are offered only to selected pre-enrolled applicants; read more about [course enrollment]({% link enrollment/index.md %}) to learn about our application and selection process. Courses for groups are negotiated on a case-by-case basis. Please [contact us]({% link contact/index.md %}) if you would like to enroll your staff members in a group course.
 
 Ticketed workshops are priced on a per-workshop basis. We usually offer a hefty discount for queer-identified and femme students. Please see our [events]({% link events/index.md %}) page for more details on upcoming workshops and to subscribe to our events calendar.
 
-Tech Learning Collective instructors can be booked for unticketed events for a nominal [booking fee](#booking-fees).
+Tech Learning Collective instructors can be booked for unticketed events for a nominal [booking fee](#booking-fees). We are also available to speak at conferences, trade shows, and other educational events for reasonable fees. If you&rsquo;d like to schedule some time with us, [get in touch]({% link contact/index.md %}) and we&rsquo;ll write you back as soon as possible.
 
 ### Individuals
 
@@ -51,7 +50,7 @@ The tuition for each course is listed in the table below. Tuition costs shown he
     </tbody>
 </table>
 
-### Booking Fees
+### Booking fees
 
 The Tech Learning Collective prefers that all events for which we supply trainers are ticketed. We can provide a complete ticketing and sales solution to manage the entire event lifecycle from publication to sales reporting for you. For ticketed events, we do not charge a booking fee. Instead, Tech Learning Collective collects a percentage of the net ticket sales to pay its trainers and continue to fund community projects.
 
