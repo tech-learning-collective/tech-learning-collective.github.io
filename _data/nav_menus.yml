@@ -29,3 +29,5 @@ main:
             text: Blog
           - url: /testimonials/
             text: Testimonials
+          - url: /donate/
+            text: Donate

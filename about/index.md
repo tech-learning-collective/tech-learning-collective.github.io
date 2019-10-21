@@ -30,7 +30,7 @@ The skills we teach *do* make individuals more likely to get hired in technology
 
 Proceeds from Tech Learning Collective [courses]({% link courses/index.html %}), [workshops]({% link workshops/index.md %}), and [events]({% link events/index.md %}) provides support to a number of existing community-owned technology projects, including hardware for physical infrastructure installations, operating costs for community information and communication networks, and seed funding for hyperlocal advocacy efforts that align with Tech Learning Collective&rsquo;s mission. Tech Learning Collective instructors and teaching assistants are also paid for their time on a student-per-course basis for the courses and workshops they teach, as are our promotions, partner operations, and special event staff.
 
-Funding secured through Tech Learning Collective tuition and workshop or event ticket sales always funds projects that are, themselves, free of charge. View a [list of our benefitting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies).
+Funding secured through Tech Learning Collective course tuition and workshop or event ticket sales always funds projects that are, themselves, free of charge. View a [list of our benefitting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies).
 
 ### Our Difference
 
