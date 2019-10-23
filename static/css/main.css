@@ -22,7 +22,6 @@ p {
 }
 a {
     color: #FFF;
-    text-decoration-skip-ink: auto;
 }
 a:hover {
     text-decoration-style: dashed;
@@ -471,4 +470,45 @@ footer {
     .workshop-list ul {
         display: block;
     }
+}
+
+/**
+ * Featured event sales widget.
+ */
+#shopping-cart {
+    position: fixed;
+    bottom: 0;
+    width: calc(100% - 50px);
+}
+#shopping-cart iframe {
+    width: 100%;
+    border: 1px solid #000;
+}
+#shopping-cart .cart-name {
+    visibility: hidden;
+}
+#shopping-cart .cart-name::before {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-width: 1px 1px 0 1px;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 5px;
+    background: silver;
+    content: "Event Shopping Cart";
+    visibility: visible;
+}
+.event-name::before {
+    content: "Join us for ";
+}
+.event-name::after {
+    content: "!";
+}
+.event-subtitle,
+.event-producer {
+    display: none;
+}
+.ticket-type-price {
+    padding-left: .5em;
 }
