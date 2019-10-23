@@ -66,6 +66,16 @@ main ol:not(.posts-wrapper) li,
     background-color: inherit;
 }
 
+h1:target,
+h2:target,
+h3:target,
+h4:target,
+h5:target,
+h6:target {
+    box-shadow: 0px 0px 50px white;
+    transition: box-shadow 2s;
+}
+
 /**
  * @group Main.
  */
@@ -166,6 +176,12 @@ main h3 {
  */
 img {
     box-shadow: 0 0 3px #F0F8FF;
+}
+#spinner-link {
+    transition: filter .5s;
+}
+#spinner-link:hover {
+    filter: drop-shadow(0 0 20px #FFF);
 }
 img#spinner,
 img.icon {
@@ -424,6 +440,9 @@ footer {
     }
     main {
         padding: 20px 0 0 0;
+    }
+    #spinner-link:hover {
+        filter: none;
     }
     img#spinner {
         top: initial;
