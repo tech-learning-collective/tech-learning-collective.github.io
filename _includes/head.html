@@ -31,6 +31,7 @@ body {
 body.page header {
     position: relative;
 }
+{% if page.columns == nil or 1 < page.columns %}
 body.page header::before {
     content: '';
     position: absolute;
@@ -48,6 +49,7 @@ body.page header::after {
     height: 100%;
     background-image: linear-gradient(to left, {{ page.backgroundColor }}, {{ page.backgroundColor | replace: "1)", "0)" }});
 }
+{% endif %}
 
 main h1, main h1 a,
 main h2, main h2 a,
