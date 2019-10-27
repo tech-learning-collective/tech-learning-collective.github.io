@@ -104,6 +104,21 @@ ol ul {
     margin-left: 2em;
 }
 
+body > header > h1,
+body > header > #Tagline,
+#MainNavigation > ul {
+    position: sticky;
+}
+body > header > h1 {
+    top: 20px
+}
+body > header > #Tagline {
+    top: 60px;
+}
+#MainNavigation > ul {
+    top: 120px;
+}
+
 header {
     display: grid;
     grid-template-rows: 75px minmax(100px, max-content) auto;
@@ -405,6 +420,11 @@ footer {
     }
     #Tagline {
         margin: 1em 0;
+    }
+    body > header > h1,
+    body > header > #Tagline,
+    #MainNavigation > ul {
+        position: static;
     }
     body.page main {
         max-height: unset;
