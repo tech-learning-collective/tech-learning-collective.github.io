@@ -1,0 +1,10 @@
+---
+title: "Over The Air: Community Wireless and Mesh Networking Primer"
+image: workshop.over-the-air-community-wireless-and-mesh-networking-primer.square.png
+---
+
+For years, grassroots organizations and communities around the world have been laying the foundation for a more free and open Internet. From Detroit to Baltimore to Santa Fe, and of course right here in New York City, activists and engineers have been pushing for community-owned and community-operated Internet access. And although Internet access is important in its own right, these same efforts to create a &ldquo;rooftop-to-rooftop&rdquo; computer network between neighbors can also be used for more local intranets, which are automonously governed networks completely independent of the globalized Internet.
+
+Today&rsquo;s powerful and inexpensive wireless mesh networking hardware from manufacturers such as Ubiquiti and MicroTik puts true point-to-multipoint (PtMP) Wi-Fi mesh deployments within reach of cash-strapped individuals and community groups. Leveraging these advances in tandem with Free and Open Source Software, ordinary neighborhood residents can easily provision, maintain, monitor, and operate their own network services. They can even hook up their network to a neighboring community&rsquo;s similar network, creating new and exciting opportunities for autonomous, non-commercial, &ldquo;bottom-up&rdquo; digital infrastructure initiatives.
+
+In this workshop, we reveal how this is all done. After sifting through the jargon and exploring the technology&rsquo;s successes, you&rsquo;ll see first-hand how to establish your own wireless mesh network or connect to an existing infrastructure in your area. Whether in New York City via NYC Mesh or elsewhere in the world, community-owned wireless internetworking is a technology whose time has most definitely come. The only challenge remaining is to ensure that we, as a community of friends and neighbours, realize its full potential to meaningfully improve everyone&rsquo;s lives.
