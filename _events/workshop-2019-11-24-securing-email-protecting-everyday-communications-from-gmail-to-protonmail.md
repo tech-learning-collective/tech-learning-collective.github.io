@@ -13,6 +13,7 @@ offers:
       availabilityEnds: *startDate
       url: https://www.artful.ly/store/events/19155
     - name: Reduced price Workshop Ticket (for queer and femme folks)
+      description: Reduced price tickets help offset systemic biases prevalent in society and in the cybersecurity industry especially.
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
@@ -26,6 +27,7 @@ sameAs:
     - https://www.garysguide.com/events/manopis/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail
     - https://newyorkcity.eventful.com/events/securing-email-protecting-everyday-communication-/E0-001-131217530-6
     - https://patch.com/new-york/new-york-city/calendar/event/20191124/660894/securing-email-protecting-everyday-communications
+    - https://allevents.in/brooklyn/securing-email-protecting-everyday-communications-from-gmail-to-protonmail/80007570233795
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
@@ -35,7 +37,15 @@ performers:
 teaser: This workshop will demystify the nuance of email privacy and security. By using freely available OpenPGP-compatible software, which has been available since 1991, the Tech Learning Collective&rsquo;s cybersecurity instructors will show you how you can keep your message contents private regardless of the email service provider you use.
 ---
 
-{{ page.location }} in collaboration with the Tech Learning Collective presents: *{{ page.title }}*, a two-hour digital safety workshop that will demystify the nuance of email privacy and security:
+{{ page.location }} in collaboration with the Tech Learning Collective presents: *{{ page.title }}*, a two-hour digital safety workshop that will demystify the nuance of email privacy and security.
+
+### RSVP
+
+{% for offer in page.offers %}
+* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }}){% if offer.description %}: {{ offer.description }}{% endif %}
+{% endfor %}
+
+### Workshop Description
 
 > As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name &ldquo;e-mail&rdquo; might make you think that electronic mail works the same way that writing a physical letter does, but this isn&rsquo;t entirely true. From a technical perspective, it&rsquo;s more like &ldquo;e-postcards&rdquo; because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote.
 >
@@ -43,13 +53,7 @@ teaser: This workshop will demystify the nuance of email privacy and security. B
 >
 > This workshop will demystify the nuance of email privacy and security. By using [freely available OpenPGP-compatible software](https://prism-break.org/en/protocols/gpg/), which has been available since 1991, the Tech Learning Collective&rsquo;s cybersecurity instructors will show you how you can keep your message contents private regardless of the email service provider you use. Never send paperwork with your social security number or other sensitive details on a digital postcard to your lawyer or accountant ever again!
 
-Tickets are sold on a first-come, first-served basis:
-
-{% for offer in page.offers %}
-* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }})
-{% endfor %}
-
-Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
+Tickets are sold on a first-come, first-served basis. Class space is limited to {{ page.maximumAttendeeCapacity }} students! Please arrive 5 to 10 minutes early to reserve your seat and purchase your ticket.
 
 You do not need to bring a laptop to class, but may want to do so to follow along with the exercises.
 

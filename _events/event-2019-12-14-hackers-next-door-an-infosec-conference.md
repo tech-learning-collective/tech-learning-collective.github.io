@@ -7,6 +7,7 @@ location: Triangle Arts Association
 image: static/images/event.2019-12-14.hackers-next-door-an-infosec-conference.rectangle.png
 offers:
     - name: Conference Tickets
+      description: Tickets range in price from $30 to $199, with prices rising as early bird and discounted rate tickets sell out.
       price: 30-199
       priceCurrency: USD
       availabilityEnds: *startDate
@@ -18,6 +19,7 @@ sameAs:
     - https://brokelyn.com/?p=225393
     - https://newyorkcity.eventful.com/events/hackers-next-door-infosec-conference-/E0-001-131690411-3
     - https://patch.com/new-york/new-york-city/calendar/event/20191214/672701/hackers-next-door-an-infosec-conference
+    - https://allevents.in/brooklyn/hackers-next-door-an-infosec-conference/80002066341344
     - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-12-14-2019-12-14
 organizers:
     - Tech Learning Collective
@@ -29,7 +31,17 @@ performers:
 teaser: Hackers Next Door is an open-to-the-public information security conference featuring invitation-only presentations by the best of the tri-state area’s cybersecurity trainers, privacy rights advocacy groups, and their constituencies.
 ---
 
-The Tech Learning Collective is proud to present our inaugural {{ page.title }}. Space is limited. A ticket is required to attend. No walk-ins are allowed, and no door sales are offered.
+The Tech Learning Collective is proud to present our inaugural {{ page.title }}.
+
+### RSVP
+
+Space is limited. A ticket is required to attend. No walk-ins are allowed, and no door sales are offered.
+
+{% for offer in page.offers %}
+* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }}){% if offer.description %}: {{ offer.description }}{% endif %}
+{% endfor %}
+
+### Conference Description
 
 *Hackers Next Door* is an open-to-the-public information security and social technology conference featuring presentations by the best of the tri-state area&rsquo;s cybersecurity trainers, privacy rights advocacy groups, activist networks, and their constituencies.
 

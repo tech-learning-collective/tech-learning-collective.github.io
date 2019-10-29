@@ -13,6 +13,7 @@ offers:
       availabilityEnds: *startDate
       url: https://www.artful.ly/store/events/19143
     - name: Suggested donation for queer-identified and femme people
+      description: Reduced price tickets help offset systemic biases prevalent in society and especially in the cybersecurity industry.
       price: 30
       priceCurrency: USD
       availabilityEnds: *startDate
@@ -23,6 +24,7 @@ sameAs:
     - https://brokelyn.com/?p=224479
     - https://newyorkcity.eventful.com/events/hollywood-hacking-sampler-/E0-001-131293967-0
     - https://patch.com/new-york/new-york-city/calendar/event/20191110/661910/hollywood-hacking-sampler
+    - https://allevents.in/ridgewood/hollywood-hacking-sampler/80002173934205
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
@@ -35,8 +37,10 @@ Part movie night, part cybersecurity workshop, join the Tech Learning Collective
 
 We&rsquo;ll watch a clip from the movie, then critique it from a technopolitical perspective. In the process, you&rsquo;ll be exposed to some indinspensible computer security tools (like `nmap`!), learn about hacking exploits of yesteryear, and ultimately gain a better sense of how to separate fiction from reality in contemporary hacking dramas in pop culture.
 
+### RSVP
+
 {% for offer in page.offers %}
-* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }})
+* [${{ offer.price }} - {{ offer.name }}]({{ offer.url }}){% if offer.description %}: {{ offer.description }}{% endif %}
 {% endfor %}
 
 Event space is limited to {{ page.maximumAttendeeCapacity }} participants! Please arrive 5 to 10 minutes early to reserve your seat and make your donation, or make your donation now and [get your reservation ticket online]({{ page.offers[0].url }}). If the suggested rate is cost-prohibitive, we encourage attendees to pay whatever is comfortable for them. For accommodations, please email us at [{{ site.data.contact.email }}](mailto:{{ site.data.contact.email }}?subject={{ "[WORKSHOP: " | append: page.title | append: "] Discount request" | uri_escape }}).
