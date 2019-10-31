@@ -1,7 +1,7 @@
 ---
 title: "Hackers Next Door: An InfoSec Conference (Day 1)"
-startDate: &startDate 2019-12-14 11:00:00 -0500
-endDate: 2019-12-14 20:00:00 -0500
+startDate: &startDate 2019-12-14 10:00:00 -0500
+endDate: 2019-12-14 21:00:00 -0500
 date: *startDate
 location: Triangle Arts Association
 image: static/images/event.2019-12-14.hackers-next-door-an-infosec-conference.rectangle.png
