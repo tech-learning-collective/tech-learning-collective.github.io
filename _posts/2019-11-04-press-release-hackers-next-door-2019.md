@@ -1,6 +1,7 @@
 ---
 title: "At Hackers Next Door, national tech and policy groups meet with local privacy activists and cybersecurity experts"
 image: /static/images/event.2019-12-14.hackers-next-door-an-infosec-conference.rectangle.png
+published: false
 ---
 
 **FOR IMMEDIATE RELEASE:**
