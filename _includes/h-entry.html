@@ -9,9 +9,15 @@
         <h1 class="p-name entry-title">
             <a href="{{ entry.url }}" class="u-url">{{ entry.title }}</a>
         </h1>
-        {% if entry.author %}<p class="ByLine">
-            By <span class="p-author">{{ entry.author }}</span>
-        </p>{% endif %}
+        {% if entry.authors %}
+        <p class="ByLine">
+            By
+            {% for a in entry.authors %}
+                <span class="p-author">{{ site.data.authors[a].name }}</span>{% unless forloop.last %}, {% endunless %}
+                {% if forloop.last and forloop.index > 1 %}and{% endif %}
+            {% endfor %}
+        </p>
+        {% endif %}
     </header>
 
     {% if entry.image %}

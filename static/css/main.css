@@ -75,6 +75,15 @@ h6:target {
     transition: box-shadow 2s;
 }
 
+.highlight {
+    margin: 0;
+}
+.highlight pre {
+    border-radius: 1em;
+    padding: 1em;
+    overflow-x: scroll;
+}
+
 /**
  * @group Main.
  */
