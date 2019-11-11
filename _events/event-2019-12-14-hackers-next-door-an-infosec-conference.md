@@ -21,6 +21,7 @@ sameAs:
     - https://patch.com/new-york/new-york-city/calendar/event/20191214/672701/hackers-next-door-an-infosec-conference
     - https://allevents.in/brooklyn/hackers-next-door-an-infosec-conference/80002066341344
     - https://www.cityguideny.com/event/Triangle-Arts-Association-2019-12-14-2019-12-14
+    - https://blog.torproject.org/events/hackers-next-door-brooklyn
 organizers:
     - Tech Learning Collective
 performers:
@@ -28,6 +29,10 @@ performers:
     - Shift-CTRL Space
     - Tech Learning Collective
     - Surveillance Technology Oversight Project
+    - Tor Project
+    - Ari Melenciano
+    - No New Jails NYC
+    - CyPurr Collective
 teaser: Hackers Next Door is an open-to-the-public information security conference featuring invitation-only presentations by the best of the tri-state area’s cybersecurity trainers, privacy rights advocacy groups, and their constituencies.
 ---
 
