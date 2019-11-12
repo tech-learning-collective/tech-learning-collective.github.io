@@ -13,13 +13,13 @@ Tech Learning Collective instructors can be booked for unticketed events for a n
 
 ### Individuals
 
-All courses are offered on a sliding scale basis. Most courses range from $200.00 to $350.00 (USD) per course. Most courses consist of four weekly sessions ranging from three to four hours each, which breaks down to ~$10 to ~$20 per hour of classtime, and are usually held on weekends or in the late afternoon and early evenings. After your pre-enrollment application has been approved, please confirm the details for the course you&rsquo;re enrolling in, as we do not offer refunds or discounts beyond sliding scale tuition.
+All courses are offered on a sliding scale basis, and most students pay anywhere from $200.00 to $500.00 (USD) for their course tuition. This breaks down to approximately ~$10 to ~$30 per hour of classtime. After your pre-enrollment application has been approved, please confirm the details for the course you&rsquo;re enrolling in, as we do not offer refunds or discounts beyond sliding scale tuition (i.e., financial assistance).
 
-Your exact cost for a course is evaluated during your application process and is based *solely* on your financial means. Your outstanding balance for course enrollment, along with payment information, will be sent to you at the time you enroll in your chosen course. We expect to receive the entirety of your course tuition in full before the start of your first class.
+Your total cost for a course is evaluated during your application process and is based *solely* on your financial means. See [§ Financial aid](#financial-aid) for details. Your outstanding balance for course enrollment, along with payment information, will be sent to you at the time you enroll in your chosen course. We expect to receive the entirety of your course tuition in full before the start of your first class.
 
-The Tech Learning Collective charges an application fee of ${{ site.payments.prices.application_fee }} USD per course. This fee is the same for all courses and rolls into tuition. For example, if your sliding scale cost is evaluated to be ${{ site.payments.prices.application_fee }}, your outstanding balance for the course will be zero after you have paid your application fee. If your sliding scale cost is evaluated to be $100.00, your outstanding balance will be $75.00.
+Tech Learning Collective charges an application fee of ${{ site.payments.prices.application_fee }} USD per course application. This fee is the same for all courses and rolls into tuition. For example, if your sliding scale cost is evaluated to be ${{ site.payments.prices.application_fee }}, your outstanding balance for the course will be zero after you have paid your application fee. If your sliding scale cost is evaluated to be $100.00, your outstanding balance will be $75.00.
 
-We do *not* offer any refunds.
+We do *not* offer any refunds for any reason.
 
 ### Groups
 
@@ -29,13 +29,13 @@ Please have your volunteer coordinator or Human Resources department [contact us
 
 ### Course pricing
 
-The tuition for each course is listed in the table below. Tuition costs shown here include the ${{ site.payments.prices.application_fee}} USD non-refundable application fee.
+The full tuition for each course is listed in the table below. Tuition costs shown here include the ${{ site.payments.prices.application_fee}} USD application fee but do *not* include sliding scale adjustments made for [financial aid](#financial-aid) recipients.
 
 <table class="dotleader price">
     <thead>
         <tr>
             <th>Course Code</th>
-            <th>Tuition (before sliding scale adjustment)</th>
+            <th>Tuition (before financial aid adjustments)</th>
         </tr>
     </thead>
     <tbody>
@@ -49,6 +49,18 @@ The tuition for each course is listed in the table below. Tuition costs shown he
     {% endfor %}
     </tbody>
 </table>
+
+### Financial aid
+
+Tech Learning Collective offers sliding scale pricing for each and every one of our courses, as well as many (but not all) workshops and special events. Well over half of accepted pre-enrolled students receive a financial aid adjustment as part of their course enrollment acceptance package.
+
+Financial assistance for Tech Learning Collective courses is offered to accepted pre-enrolled students on a case-by-case basis. The determination of whether or not to offer a student financial assistance is made by TLC&rsquo;s Admissions team as part of the enrollment process and is based on the applicant&rsquo;s original pre-enrollment application, records of employment or unemployment history, and other concerns raised by the applicant during their interview. All financial aid decisions are final, but relate solely to the original application. Future pre-enrollment applications are potentially again eligible for financial aid.
+
+Sliding scale adjustments offered by Tech Learning Collective as financial aid to our courses typically reduce a student&rsquo;s tuition cost from anywhere between 25% to 75% and ensures that all Tech Learning Collective courses are dramatically more affordable to those in need than comparable offerings elsewhere.
+
+Financial aid decisions *do not* explicitly consider race, gender, sexual orientation, disability, ethnicity, religion, nationality, or other legally protected classes as part of the determination process. The *only* consideration is the applicant&rsquo;s financial means. However, since one key way colonialist, hetero-patriarchical, capitalist society often manifests itself is by economically disenfranchising people of color, ethnic or religious minorities, women, femmes, gender non-conforming, non-binary, queer, LGBTQIA+ individuals, and other minority groups, the overwhelming majority of Tech Learning Collective financial aid recipients are people of these same legally protected classes.
+
+Tech Learning Collective has found that our determination process ensures a far more intersectional practice than many other programs because it forces us to prioritize the material reality of a given individual&rsquo;s personal situation above their ability to check a box that, in a perfect world, should never have been part of the enrollment equation in the first place.
 
 ### Booking fees
 
