@@ -8,7 +8,7 @@
             <header>
                 <h2><a href="{{ course.url | relative_url }}" title="View details for {{ course.title }}">{{ course.title }}</a></h2>
                 <img src="{{ "/static/images/" | append: course.poster | relative_url }}" alt="" />
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}">Apply for pre-enrollment in {{ course.slug | upcase }}</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ course.slug | upcase | uri_escape }}" class="button">Apply for pre-enrollment in {{ course.slug | upcase }}</a>
             </header>
             {{ course.content }}
             <a href="{{ course.url | relative_url }}">View course details</a>

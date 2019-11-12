@@ -265,6 +265,21 @@ img#spinner {
     max-width: 100%;
 }
 
+
+a.button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 1em;
+    background: #19BFBF;
+    box-shadow: -2px 5px 10px #FFF;
+    text-decoration: none;
+}
+a.button:hover {
+    text-decoration: underline;
+    background: #FFF;
+    box-shadow: -2px 5px 10px #19BFBF;
+    color: #19BFBF;
+}
 table.dotleader.price {
     width: 100%;
 }
@@ -281,7 +296,6 @@ table.price tr:not(.no-currency) td:last-child::before {
 table.price tr:not(.no-currency) td:last-child::after {
     content: " USD";
 }
-
 /**
  * @group Microformats and structured data.
  */

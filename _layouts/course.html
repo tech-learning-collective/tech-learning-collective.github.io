@@ -12,5 +12,5 @@ layout: page
     <li>Full tuition: ${{ page.tuition }}</li>
     <li>Typical tuition ranges with <a href="{% link pricing/index.md %}#financial-aid">sliding scale financial aid</a>: ${{ page.tuition | divided_by: 4 | to_integer }}&ndash;${{ page.tuition | divided_by: 1.75 | to_integer }}</li>
 </ul>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ page.slug | upcase | uri_escape }}">Apply for pre-enrollment in {{ page.slug | upcase }}</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ page.slug | upcase | uri_escape }}" class="button">Apply for pre-enrollment in {{ page.slug | upcase }}</a>
 {{ content }}
