@@ -1,8 +1,21 @@
 {% assign offer = include.offer %}
+{% assign processing_fee = 2 %}{% comment %} Add a two dollar processing fee, same as primary system.{% endcomment %}
+{% assign amount = offer.price | plus: processing_fee %}
+{% assign item_name = include.event.title | append: " - " | append: offer.name | uri_escape %}
+{% assign item_number = include.event.startDate | date_to_xmlschema | append: "-" | append: include.event.title | slugify | uri_escape %}
+
+{% assign custom = "" | split: "" %}
+{% assign custom = custom | push: "Processing fee: 2" %} 
+{% assign original_offer_url = "Original Offer URL: " | append: offer.url %}
+{% assign custom = custom | push: original_offer_url %}
+{% assign custom = custom | jsonify | uri_escape %}
+
+{% assign return = page.url | append: "#tickets-fallback-event-thank-you-" | append: include.event.slug %}
+{% assign cancel_return = page.url | append: "#tickets-fallback-event-cancelled-" | append: include.event.slug %}
 
 <div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
 
-    {% if offer.url %}<a href="{{ offer.url }}" itemprop="url">{% endif %}
+    {% if offer.url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer.url }}{% endif %}" itemprop="url">{% endif %}
         {% if offer.name %}<span itemprop="name">{{ offer.name }}</span>{% endif %}
         {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif%}
         {% if offer.priceCurrency %}<meta itemprop="priceCurrency" content="{{ offer.priceCurrency }}" />{% endif%}

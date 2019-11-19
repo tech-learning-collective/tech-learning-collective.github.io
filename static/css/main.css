@@ -296,6 +296,7 @@ table.price tr:not(.no-currency) td:last-child::before {
 table.price tr:not(.no-currency) td:last-child::after {
     content: " USD";
 }
+
 /**
  * @group Microformats and structured data.
  */
@@ -345,6 +346,18 @@ table.price tr:not(.no-currency) td:last-child::after {
 }
 .h-entry .e-content p:first-child {
     margin-bottom: 1em;
+}
+
+.offers .tickets-fallback {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+.offers .tickets-fallback:target {
+    margin: 1em 0;
+    padding: 0 2em;
+    border: 2px dotted;
+    max-height: 100vh;
 }
 
 /**
