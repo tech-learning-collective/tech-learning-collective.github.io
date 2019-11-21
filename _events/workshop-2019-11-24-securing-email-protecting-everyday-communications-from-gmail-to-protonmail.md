@@ -7,6 +7,12 @@ location: Wonderville
 image: static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.rectangle.png
 flyer: workshop-securing-email-1
 offers:
+    - name: Privacy Defender Workshop Ticket
+      description: Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.
+      price: 90
+      priceCurrency: USD
+      availabilityEnds: *startDate
+      url: https://www.artful.ly/store/events/19155
     - name: Workshop Ticket
       price: 45
       priceCurrency: USD
