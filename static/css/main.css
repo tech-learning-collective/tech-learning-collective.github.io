@@ -357,7 +357,7 @@ table.price tr:not(.no-currency) td:last-child::after {
     margin: 1em 0;
     padding: 0 2em;
     border: 2px dotted;
-    max-height: 100vh;
+    max-height: 9999px;
 }
 
 /**
