@@ -72,7 +72,7 @@ keywords:
     'login': 25
 {% endhighlight %}
 
-Here, a score of 25 &ldquo;suspicion points&rdquo; is added to the generic keyword `login` when it is found in a TLS certificate domain name. Increasing this value will raise the level of suspicion against domains with the string `login` in them, thus allowing you to subject these certificate issuances to increased scrutiny.
+Here, a score of 25 &ldquo;suspicion points&rdquo; is added to the TLS certificate record when the generic keyword `login` is found in its domain name. Increasing this value will raise the level of suspicion against domains with the string `login` in them, thus allowing you to subject these certificate issuances to increased scrutiny.
 
 Continuing from the example above, if you are running an activist group with the domain name `exampleactivist.com`, then you will probably want to add the string `exampleactivist` into Phishing Catcher&rsquo;s `keywords` dictionary and give it a pretty high score by adding this string as a key to the `external.yaml` configuration file&rsquo;s `keywords` dictionary:
 
