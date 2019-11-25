@@ -29,7 +29,7 @@ To be clear, you could start at any 101-level course. Nevertheless, completing t
 
 Yes. Our [enrollment process]({% link enrollment/index.md %}) tracks each of your applications individually. You can simultaneously apply for pre-enrollment in as many of our courses as you like at any time.
 
-In addition to enrolling in full courses, you can also participate in any of our paid or donation-based [events]({% link events/index.md %}) independent of your enrollment status. In fact, coming to a workshop that is related to your course subject can be a great way to supplement your course experience because it will give you a chance to solidify your skills in a different context and meet people who are not your immediate peers. Subscribe to our events calendar so you can stay abreast of when and where our one-off workshops and events will take place.
+In addition to enrolling in full courses, you can also participate in any of our paid or donation-based [events]({% link events/index.md %}) independent of your enrollment status. In fact, coming to a workshop that is related to your course subject can be a great way to supplement your course experience because it will give you a chance to solidify your skills in a different context and meet people who are not your immediate peers. [Subscribe to our events calendar]({% link events/upcoming/index.md %}#export-event-calendar) so you can stay abreast of when and where our one-off workshops and events will take place.
 
 ## How should I prepare for my enrollment interview?
 
