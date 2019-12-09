@@ -4,7 +4,7 @@ layout: default
 
 {% if page.artfully_event_id %}
 <article id="featured-event-box-office">
-    <a href="{% link _events/event-2019-12-14-hackers-next-door-an-infosec-conference.md %}" title="Learn more about this special event."><img src="{{ "/static/images/event.2019-12-14.hackers-next-door-an-infosec-conference.rectangle.png" | relative_url }}" alt="" width="100%" /></a>
+    <a href="https://artful.ly/store/events/{{ page.artfully_event_id }}" title="Learn more about this special event."><img src="{{ page.artfully_event_image | relative_url }}" alt="" width="100%" /></a>
     <div id="artfully-event"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://artfully-herokuapp-com.global.ssl.fastly.net/assets/artfully-v3.js"></script>
