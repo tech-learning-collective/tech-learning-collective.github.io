@@ -179,6 +179,10 @@ body.page main {
 body.page article {
     padding-right: 15px;
 }
+body.page article[itemtype="https://schema.org/Event"],
+body.page article.h-entry {
+    padding-right: 0;
+}
 main h1,
 main h2,
 main h3,
