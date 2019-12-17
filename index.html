@@ -12,24 +12,20 @@ columns: 1
     </a>
 </p>
 
-<h2 id="next-event">Next Event</h2>
-<p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
-
 {% if site.events %}
 {% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
-{% assign events = events | slice: 0, 1 %}
-<ol class="h-events">
-{% for event in events %}
-    <li>
-        {% include h-event.html event=event excerpt=true %}
-    </li>
-{% endfor %}
-</ol><!-- .h-events -->
-{% else %}
-<p>No events&mdash;yet. :)</p>
-{% endif %}
-
+{% if 1 <= events.size %}
+<h2 id="next-event">Next Event</h2>
 <p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
+{% endif %}
+{% endif %}
+{% include events-upcoming.html limit=1 silent=true %}
+{% if site.events %}
+{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
+{% if 1 <= events.size %}
+<p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
+{% endif %}
+{% endif %}
 
 {% assign featured_testimonial = site.reviews | sample %}
 {% include h-review.html review=featured_testimonial %}

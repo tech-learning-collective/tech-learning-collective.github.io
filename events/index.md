@@ -14,18 +14,11 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 
 ([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
 
-{% if site.events %}
-{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
-<ol class="h-events">
-{% for event in events %}
-    <li>
-        {% include h-event.html event=event excerpt=true %}
-    </li>
-{% endfor %}
-</ol><!-- .h-events -->
+{% include events-upcoming.html%}
 
 # Recent events
 
+{% if site.events %}
 {% assign events = site.events | where_exp: "event", "event.endDate < site.time" | sort: "startDate" | reverse %}
 {% comment %}
 <!--

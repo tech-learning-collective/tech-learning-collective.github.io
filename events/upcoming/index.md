@@ -12,18 +12,7 @@ columns: 1
 
 In addition to our intensive [courses]({% link courses/index.html %}), we also host satellite events such as [workshops]({% link workshops/index.md %}), skillshares, and demonstrations in collaboration with community centers, hackerspaces and hacklabs, and other venues across New York City. Our satellite workshops are a low-commitment way to get a feel for our more intensive courses as well as meet some of our teaching team.
 
-{% if site.events %}
-{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
-<ol class="h-events">
-{% for event in events %}
-    <li>
-        {% include h-event.html event=event excerpt=true %}
-    </li>
-{% endfor %}
-</ol><!-- .h-events -->
-{% else %}
-<p>No events&mdash;yet. :)</p>
-{% endif %}
+{% include events-upcoming.html %}
 
 ## Export Event Calendar
 
