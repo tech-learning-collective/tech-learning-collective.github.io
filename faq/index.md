@@ -106,6 +106,6 @@ Tech Learning Collective workshops are dervied from our longer course material, 
 
 ## How do I know where to go for an online webinar?
 
-When you purchase a ticket to one of our remote workshops (online training webinars), our system sends an email to the account associated with your payment processor account (e.g., PayPal) with the log-in details. This is simply a link you can click along with a password that will grant you access to the webinar software.
+When you purchase a ticket to one of our remote workshops (online training webinars), our system sends an email to the address associated with your payment processor account (e.g., PayPal) containing the log-in details necessary to access the webinar video stream in the form of a personalized link you can click and a password for the event. Simply click the link you received to load the webinar page in your Web browser. When the page loads, you&rsquo;ll be prompted to type in a short password, which will have been delivered to you in the same email. Entering the correct password will grant you access to the webinar interface.
 
-If you don&rsquo;t receive the confirmation email with your log-in credentials within a few minutes, please make sure to check your email spam folder. If you still don&rsquo;t receive your login information, [contact us]({% link contact/index.md %}) and our admissions team will sort it out with you.
+If you don&rsquo;t receive the confirmation email containing your log-in credentials within a few minutes, please make sure to check your email spam folder. If you still don&rsquo;t receive your login information, [contact us]({% link contact/index.md %}) and our admissions team will sort it out with you.

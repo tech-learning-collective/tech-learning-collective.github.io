@@ -88,6 +88,11 @@ to be set on DIV elements, not ARTICLEs.
         </li>
         {% endfor %}
         </ul>
+
+        {% comment %}
+        <!-- PayPal is the fallback processor, so if it's also the primary one, disable fallback links. -->
+        {% endcomment %}
+        {% unless "paypal" == page.payment_processor %}
         <p><small><a href="#tickets-fallback-event-{{ event.slug | slugify }}">Problems with your RSVP?</a></small></p>
         <div id="tickets-fallback-event-{{ event.slug | slugify }}" class="tickets-fallback">
             <p>Use these fallback links if you are having trouble using our automated ticketing system. Please allow an extra 24 hours for your RSVP to be confirmed. Amounts shown do not include a nominal processing fee.</p>
@@ -100,6 +105,8 @@ to be set on DIV elements, not ARTICLEs.
             {% endfor %}
             </ul>
         </div>
+        {% endunless %}
+
         <div id="tickets-fallback-event-thank-you-{{ event.slug | slugify }}" class="tickets-fallback">
             <p>Thank you for your order! We have received your information, but <strong>please allow an extra 24 hours for your order to be confirmed</strong> in our ticketing system.</p>
             <p>If the event to which you RSVP&rsquo;s is in less than 24 hours, please bring your payment receipt with you!</p>

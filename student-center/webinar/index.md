@@ -17,10 +17,10 @@ columns: 1
  * @see https://github.com/jitsi/jitsi-meet/blob/master/doc/api.md
  */
 (function () {
-    const p = new URLSearchParams(window.location.search);
+    const qs = new URLSearchParams(window.location.search);
     const domain = 'meet.jit.si';
     const options = {
-        roomName: p.get('roomName') || false,
+        roomName: qs.get('roomName') || false,
         width: '100%',
         height: '500px',
         parentNode: document.querySelector('#tlc-webinar-container'),
@@ -53,7 +53,7 @@ columns: 1
     const api = new JitsiMeetExternalAPI(domain, options);
     api.executeCommands({
         'avatarUrl': ['{{ site.logo | absolute_url }}'],
-        'subject'  : [ atob(p.get('subject')) || false ]
+        'subject'  : [ atob(qs.get('subject')) || false ]
     });
 })();
 </script>
