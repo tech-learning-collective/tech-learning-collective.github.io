@@ -1,25 +1,40 @@
 {% assign offer = include.offer %}
-{% assign processing_fee = 2 %}{% comment %} Add a two dollar processing fee, same as primary system.{% endcomment %}
+{% comment %}
+TODO: Figure out a more precise processing fee pricing model.
+      See, for example: https://www.paypal.com/us/webapps/mpp/merchant-fees
+
+      For now, we just tack on an extra $2 USD, which usually evens out.
+{% endcomment %}
+{% assign processing_fee = 2 %}
 {% assign amount = offer.price | plus: processing_fee %}
 {% assign item_name = include.event.title | append: " - " | append: offer.name | uri_escape %}
 {% assign item_number = include.event.startDate | date_to_xmlschema | append: "-" | append: include.event.title | slugify | uri_escape %}
 
-{% assign custom = "" | split: "" %}
-{% assign custom = custom | push: "Processing fee: 2" %} 
-{% assign original_offer_url = "Original Offer URL: " | append: offer.url %}
-{% assign custom = custom | push: original_offer_url %}
-{% assign custom = custom | jsonify | uri_escape %}
-
 {% assign return = page.url | append: "#tickets-fallback-event-thank-you-" | append: include.event.slug %}
 {% assign cancel_return = page.url | append: "#tickets-fallback-event-cancelled-" | append: include.event.slug %}
 
+{% if offer.url %}
+    {% assign offer_url = offer.url %}
+{% elsif "paypal" == page.payment_processor %}
+    {% assign item_number = item_number | append: "-TICKET" %}
+    {% capture offer_url %}{% include paypal-url.liquid amount=amount item_name=item_name item_number=item_number return=return cancel_return=cancel_return %}{% endcapture %}
+{% endif %}
+{% assign offer_url = offer_url | default: "" | strip %}
+
+{% assign custom_items = "" | split: "" %}
+{% assign custom_processing_fee = "Processing fee: " | append: processing_fee %}
+{% assign custom_items = custom_items | push: custom_processing_fee %}
+{% assign custom_offer_url = "Original Offer URL: " | append: offer_url %}
+{% assign custom_items = custom_items | push: custom_offer_url %}
+{% assign custom = custom_items | jsonify | uri_escape %}
+
 <div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
 
-    {% if offer.url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer.url }}{% endif %}" itemprop="url">{% endif %}
+    {% if offer_url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer_url }}{% endif %}" itemprop="url">{% endif %}
         {% if offer.name %}<span itemprop="name">{{ offer.name }}</span>{% endif %}
         {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif%}
         {% if offer.priceCurrency %}<meta itemprop="priceCurrency" content="{{ offer.priceCurrency }}" />{% endif%}
-    {% if offer.url %}</a>{% endif %}
+    {% if offer_url %}</a>{% endif %}
 
     {% if offer.description %}
     <div itemprop="description">

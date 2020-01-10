@@ -3,6 +3,13 @@ title: FAQ
 backgroundColor: rgba(225, 150, 0, 1)
 ---
 
+Have questions about {{ site.title }}? This page lists some frequently asked questions and provides fast answers. Choose the category that best addresses your question:
+
+* [Courses and enrollment](#courses-and-enrollment)
+* [Workshops and webinars](#workshops-and-webinars)
+
+# Courses and enrollment
+
 * [Which course should I take first?](#which-course-should-i-take-first)
 * [Can I enroll in more than one class at a time?](#can-i-enroll-in-more-than-one-class-at-a-time)
 * [How should I prepare for my enrollment interview?](#how-should-i-prepare-for-my-enrollment-interview)
@@ -29,7 +36,7 @@ To be clear, you could start at any 101-level course. Nevertheless, completing t
 
 Yes. Our [enrollment process]({% link enrollment/index.md %}) tracks each of your applications individually. You can simultaneously apply for pre-enrollment in as many of our courses as you like at any time.
 
-In addition to enrolling in full courses, you can also participate in any of our paid or donation-based [events]({% link events/index.md %}) independent of your enrollment status. In fact, coming to a workshop that is related to your course subject can be a great way to supplement your course experience because it will give you a chance to solidify your skills in a different context and meet people who are not your immediate peers. [Subscribe to our events calendar]({% link events/upcoming/index.md %}#export-event-calendar) so you can stay abreast of when and where our one-off workshops and events will take place.
+In addition to enrolling in full courses, you can also participate in any of our paid or donation-based [events]({% link events/index.md %}) independent of your enrollment status. In fact, coming to a [workshop]({% link workshops/index.md %}) that is related to your course subject can be a great way to supplement your course experience because it will give you a chance to solidify your skills in a different context and meet people who are not your immediate peers. [Subscribe to our events calendar]({% link events/upcoming/index.md %}#export-event-calendar) so you can stay abreast of when and where our one-off workshops and events will take place.
 
 ## How should I prepare for my enrollment interview?
 
@@ -57,13 +64,13 @@ After you [enroll]({% link enrollment/index.md %}), you will receive access to o
 
 We strive to ensure that students have access to gender-neutral restrooms and that each classroom is wheelchair accessible, but cannot always guarantee this. Our course scheduler indicates which classrooms provide which amenities so that you can make a more informed choice regarding the specific course timeline and location you ultimately choose to attend.
 
-At this time, all Tech Learning Collective courses are only offered in person. You must physically arrive at class to participate.
+At this time, all Tech Learning Collective courses are only offered in person. You must physically arrive at class to participate. For remote and online training options, refer to our [Workshop and Webinar FAQ](#workshops-and-webinars).
 
 ## When is the next class going to start?
 
-The Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}), intensive [courses]({% link courses/index.html %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
+The Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}) (including some remote/online webinars), intensive [courses]({% link courses/index.html %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
 
-* For information about public **workshops** and events, visit our [events page]({% link events/index.md %}) and subscribe to our event calendar.
+* For information about public **workshops**, webinars, and events, visit our [events page]({% link events/index.md %}) and subscribe to our event calendar.
 * The schedules for our **courses** are available only to pre-enrolled students; you must first apply for pre-enrollment before you can view upcoming course schedules. Refer to our [enrollment process]({% link enrollment/index.md %}) for more details.
 * If you are preparing for a private event as part of our group or corporate training programs, your organization will have a designated liaison that will provide you with the training schedule.
 
@@ -84,3 +91,21 @@ This means that the best way to stay in touch is to make positive relationships 
 Put another way, the Tech Learning Collective alumni community is held together through work. By collaborating on projects with your peers and teachers, you will find that the alumni community can mentor you, or you will find someone who you can mentor. This method provides a much fuller continuing education experience even after your course is officially ended that is more akin to the apprenticeships of yesteryear than it is to the internships of today. For this reason, the Tech Learning Collective itself does not maintain a formal group membership or alumni listserve; instead, you are expected to choose (or create!) a material project to get involved in.
 
 Once again, we encourage you to peruse our [list of benefiting organizations](https://github.com/AnarchoTechNYC/meta/wiki/Accomplices-and-allies) to help guide you towards such a project, as well as to voice interest in your teacher&rsquo;s projects during your course.
+
+# Workshops and webinars
+
+* [What do I need to participate in a workshop?](#what-do-i-need-to-participate-in-a-workshop)
+* [How do I know where to go for an online webinar?](#how-do-i-know-where-to-go-for-an-online-webinar)
+
+## What do I need to participate in a workshop?
+
+Tech Learning Collective workshops are dervied from our longer course material, so you can prepare for them in the same way you might prepare for a full course:
+
+* if the workshop is offered in-person, bring a laptop with you to follow along with the exercises, but don&rsquo;t stress if you&rsquo;d rather simply watch and take notes during the workshop.
+* if the workshop is offered online as a webinar, you will need a laptop capable of running a modern version of the [Google Chrome](https://www.google.com/chrome/) or [Mozilla Firefox](https://www.mozilla.org/firefox/) Web browsers in order to join our video Web conferencing room. You can test your setup ahead of time by visiting the [Jitsi Meet](https://meet.jit.si/) service anytime to make sure you have the required hardware and software and to familiarize yourself with the webinar environment.
+
+## How do I know where to go for an online webinar?
+
+When you purchase a ticket to one of our remote workshops (online training webinars), our system sends an email to the account associated with your payment processor account (e.g., PayPal) with the log-in details. This is simply a link you can click along with a password that will grant you access to the webinar software.
+
+If you don&rsquo;t receive the confirmation email with your log-in credentials within a few minutes, please make sure to check your email spam folder. If you still don&rsquo;t receive your login information, [contact us]({% link contact/index.md %}) and our admissions team will sort it out with you.

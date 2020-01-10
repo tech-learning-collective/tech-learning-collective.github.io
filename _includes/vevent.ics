@@ -5,8 +5,8 @@
     {%- assign place_index = event.location | replace: " ", "_" -%}
     {%- assign place = site.data.places[place_index] -%}
 {%- endif -%}
+{%- assign address = "" -%}
 {%- if place and place.address -%}
-    {% assign address = "" %}
     {% for str in place.address %}
         {% assign address = address | append: str[1] %}
         {% unless forloop.last %}
