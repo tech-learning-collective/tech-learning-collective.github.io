@@ -58,4 +58,4 @@ You do not need to bring a laptop or smartphone to class, but may want to do so 
 
 As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, &ldquo;brogrammer,&rdquo; &ldquo;manarchist,&rdquo; or any kind of similarly awful behavior *will* result in immediate removal from class without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}

@@ -41,4 +41,4 @@ As with all Tech Learning Collective events, racism, queerphobia, transphobia, s
 
 We are anti-(techno)capitalists, solarpunks, and radical technologists. Our ethics place us against &ldquo;Adtech,&rdquo; &ldquo;Fintech,&rdquo; and Silicon Valley. We believe technology is an intangible earth, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one&rsquo;s actual communities. Our approach stands in contrast to isolationism, sterility, and authoritarianism by being participatory, flexible, and adaptive.
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}

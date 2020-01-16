@@ -125,4 +125,4 @@ The [Death By Audio Arcade](https://www.deathbyaudioarcade.com/) is a series of 
 
 [Half Lucid Jewelry](https://www.etsy.com/shop/HalfLucidJewelry) is unique, 100% handcrafted, recycled and/or resourced jewelry. No two Half Lucid creations are the same. Sparkly, beautiful, and made with crystal and stones, Half Lucid's crowns are a forever statement piece. Half Lucid Jewelry is eccentric, colorful, and crazy magical&mdash;perfect for fashionistas with wanderlust.
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}

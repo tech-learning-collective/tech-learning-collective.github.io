@@ -49,4 +49,4 @@ teaser: This beginner-friendly introduction to digital safety will cut through t
 
 {% include boilerplate-webinar.md %}
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}

@@ -36,4 +36,4 @@ You do not need to bring a laptop but may do so.
 
 $10 suggested donation — help support our incredible hosts!
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}

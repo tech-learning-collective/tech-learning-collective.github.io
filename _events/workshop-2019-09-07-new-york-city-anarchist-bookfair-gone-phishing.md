@@ -39,4 +39,4 @@ As with all Tech Learning Collective events, racism, queerphobia, transphobia, s
 
 The NYC chapter of the Anarcho-Tech Collective provides technological and digital infrastructure support services to anti-fascist, anti-racist, and anti-capitalist organizations in New York City. These services range from computer training for activists and advocacy groups, to direct assistance with digital components of advocacy efforts and private audits of an ally's security posture when requested. We are an entirely volunteer-run organization operating without any licensing or legal recognition and a financial budget intentionally as close to zero as possible.
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}

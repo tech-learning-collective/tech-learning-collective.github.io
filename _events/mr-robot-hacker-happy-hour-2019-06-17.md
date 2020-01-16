@@ -39,7 +39,7 @@ We ask for a $10 suggested donation&mdash;help support our incredible hosts!
 
 As with all Tech Learning Collective and Starr Bar events, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior *will* result in immediate removal from the space without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}
 
 ## About Starr Bar
 

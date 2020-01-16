@@ -29,6 +29,6 @@ Organizers said that scheduling hacking demos back-to-back with policy strategy 
 
 &ldquo;For us at Tech Learning Collective, it&rsquo;s important to have both uncompromising pro-social politics and unparalleled technical competency so that we can go further than just imagining a more just, less unequal future, but also build power beyond mere voter representation to enact that vision ourselves,&rdquo; they said. &ldquo;As activists, journalists, and tenants, we need to see first-hand exactly what threats government-funded hackers and cyberwarfare units&mdash;and especially cyber-augmented class warfare&mdash;pose to our work, or we won&rsquo;t be able to exercise our rights, communicate freely, or organize safely. This conference gives us a better chance to win all the legal, cultural, and technical battles we&rsquo;ve been forced to fight.&rdquo;
 
-{% include press-boilerplate.md %}
+{% include boilerplate-press.md %}
 
  # # #
