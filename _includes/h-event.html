@@ -80,7 +80,11 @@ to be set on DIV elements, not ARTICLEs.
         {% endif %}
 
         {% if event.offers %}
+        {% if 'events' == page.collection %}
+        <h2 id="tickets-{{ page.slug }}">Tickets</h2>
+        {% else %}
         <p>Tickets:</p>
+        {% endif %}
         <ul itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/AggregateOffer">
         {% for offer in event.offers %}
         <li>
