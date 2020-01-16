@@ -15,10 +15,10 @@ TODO: Figure out a more precise processing fee pricing model.
 
 {% if offer.url %}
     {% assign offer_url = offer.url %}
-{% elsif "paypal" == page.payment_processor %}
+{% elsif "paypal" == include.event.payment_processor %}
     {% assign item_number = item_number | append: "-TICKET" %}
-    {% if page.webinar_id %}
-        {% assign item_number = item_number | prepend: "-" | prepend: page.webinar_id | prepend: "WEBINAR-" %}
+    {% if include.event.webinar_id %}
+        {% assign item_number = item_number | prepend: "-" | prepend: include.event.webinar_id | prepend: "WEBINAR-" %}
     {% endif %}
     {% capture offer_url %}{% include paypal-url.liquid amount=amount item_name=item_name item_number=item_number return=return cancel_return=cancel_return %}{% endcapture %}
 {% endif %}
