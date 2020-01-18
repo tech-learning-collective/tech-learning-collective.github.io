@@ -1,10 +1,18 @@
+{%- comment -%}
+See the HTML Variables for PayPal Payments Standard reference documentation at:
+https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/Appx-websitestandard-htmlvariables/
+{%- endcomment -%}
 https://www.paypal.com/cgi-bin/webscr?cmd=
 {%- if include.donation -%}_donations{%- else -%}_xclick{%- endif -%}
-&amp;business={{- site.payments.processors.paypal.user_id | uri_escape -}}
-&amp;amount={{- include.amount | append: "" | default: "" | uri_escape -}}
-&amp;item_name={{- include.item_name | default: "" | uri_escape -}}
-&amp;item_number={{- include.item_number | uri_escape -}}
-&amp;return={{- include.return | default: page.url | absolute_url | uri_escape -}}
-&amp;cancel_return={{- include.cancel_return | default: page.url | absolute_url | uri_escape -}}
-&amp;custom={{- include.custom | default: "" | uri_escape -}}
-&amp;rm=0&amp;currency_code={{- include.currency_code | default: "USD" | uri_escape -}}&amp;no_shipping=1
+&amp;business={{- site.payments.processors.paypal.user_id | cgi_escape -}}
+&amp;amount={{- include.amount | append: "" | default: "" | cgi_escape -}}
+&amp;discount_amount={{- include.discount_amount | append: "" | default: "" | cgi_escape -}}
+&amp;handling={{- include.handling | append: "" | default: "" | cgi_escape -}}
+&amp;currency_code={{- include.currency_code | default: "USD" | cgi_escape -}}
+&amp;item_name={{- include.item_name | default: "" | cgi_escape -}}
+&amp;item_number={{- include.item_number | cgi_escape -}}
+&amp;no_shipping=0{{- '' -}}
+&amp;rm=0{{- '' -}}
+&amp;return={{- include.return | default: page.url | absolute_url | cgi_escape -}}
+&amp;cancel_return={{- include.cancel_return | default: page.url | absolute_url | cgi_escape -}}
+&amp;custom={{- include.custom | default: "" | cgi_escape -}}

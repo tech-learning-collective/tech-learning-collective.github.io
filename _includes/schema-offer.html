@@ -1,12 +1,12 @@
 {% assign offer = include.offer %}
+{% assign amount = offer.price %}
 {% comment %}
-TODO: Figure out a more precise processing fee pricing model.
+TODO: Figure out a more precise handling fee pricing model.
       See, for example: https://www.paypal.com/us/webapps/mpp/merchant-fees
 
       For now, we just tack on an extra $2 USD, which usually evens out.
 {% endcomment %}
-{% assign processing_fee = 2 %}
-{% assign amount = offer.price | plus: processing_fee %}
+{% assign handling_fee = 2 %}
 {% assign item_name = include.event.title | append: " - " | append: offer.name %}
 {% assign item_number = include.event.startDate | date_to_xmlschema | append: "-" | append: include.event.title | slugify %}
 
@@ -20,20 +20,20 @@ TODO: Figure out a more precise processing fee pricing model.
     {% if include.event.webinar_id %}
         {% assign item_number = item_number | prepend: "-" | prepend: include.event.webinar_id | prepend: "WEBINAR-" %}
     {% endif %}
-    {% capture offer_url %}{% include paypal-url.liquid amount=amount item_name=item_name item_number=item_number return=return cancel_return=cancel_return %}{% endcapture %}
+    {% capture offer_url %}{% include paypal-url.liquid amount=amount handling=handling_fee item_name=item_name item_number=item_number return=return cancel_return=cancel_return %}{% endcapture %}
 {% endif %}
 {% assign offer_url = offer_url | default: "" | strip %}
 
 {% assign custom_items = "" | split: "" %}
-{% assign custom_processing_fee = "Processing fee: " | append: processing_fee %}
-{% assign custom_items = custom_items | push: custom_processing_fee %}
+{% assign custom_handling_fee = "Handling fee: " | append: handling_fee %}
+{% assign custom_items = custom_items | push: custom_handling_fee %}
 {% assign custom_offer_url = "Original Offer URL: " | append: offer_url %}
 {% assign custom_items = custom_items | push: custom_offer_url %}
 {% assign custom = custom_items | jsonify %}
 
 <div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
 
-    {% if offer_url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer_url }}{% endif %}" itemprop="url">{% endif %}
+    {% if offer_url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount handling=handling_fee currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer_url }}{% endif %}" itemprop="url">{% endif %}
         {% if offer.name %}<span itemprop="name">{{ offer.name }}</span>{% endif %}
         {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif%}
         {% if offer.priceCurrency %}<meta itemprop="priceCurrency" content="{{ offer.priceCurrency }}" />{% endif%}
