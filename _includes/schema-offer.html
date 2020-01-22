@@ -8,7 +8,7 @@ TODO: Figure out a more precise handling fee pricing model.
 {% endcomment %}
 {% assign handling_fee = 2 %}
 {% assign item_name = include.event.title | append: " - " | append: offer.name %}
-{% assign item_number = include.event.startDate | date_to_xmlschema | append: "-" | append: include.event.title | slugify %}
+{% assign item_number = include.event.startDate | date_to_xmlschema | append: "-" | append: include.event.title | slugify | slice: 0, 100 %}
 
 {% assign return = page.url | append: "#tickets-fallback-event-thank-you-" | append: include.event.slug %}
 {% assign cancel_return = page.url | append: "#tickets-fallback-event-cancelled-" | append: include.event.slug %}
