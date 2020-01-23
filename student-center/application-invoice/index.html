@@ -5,7 +5,7 @@ columns: 1
 <div id="pay-application-fee">
     <h2>Pre-enrollment Application Invoice</h2>
     <p>Thank you for submitting a pre-enrollment application for <span id="course-id">a Tech Learning Collective course</span>. We require prospective students to pay a non-refundable ${{ site.payments.prices.application_fee }} USD application fee in order to continue the pre-enrollment process.</p>
-    <p>Your application fee payment ensures that we can continue to provide potential students with accurate and high-quality guidance during the pre-enrollment process. Moreover, your application fee rolls into your course tuition, which means that if you are ultimately accepted as a student, a portion of your course tuition equal to the application fee amount will already have been paid. <a href="{% link pricing/index.md %}">Learn more about course pricing</a>.</p>
+    <p>Your application fee payment ensures that we can continue to provide potential students with accurate and high-quality guidance during the pre-enrollment process. Moreover, your application fee (minus a nominal handling fee) rolls into your course tuition, which means that if you are ultimately accepted as a student, a portion of your course tuition equal to the application fee amount will already have been paid. <a href="{% link pricing/index.md %}">Learn more about course pricing</a>.</p>
     
     <p>Please complete your payment below to continue.</p>
 
@@ -17,7 +17,7 @@ columns: 1
         {% assign amount = site.payments.prices.application_fee | append: '' %}
         {% assign return = page.url | append: "#payment-thank-you" | absolute_url %}
         {% assign cancel_return = page.url | append: "#cancelled-payment" | absolute_url %}
-        <li style="display: none;"><a href="{% include paypal-url.liquid amount=amount item_name="Pre-enrollment Application Fee" item_number="-APPFEE" return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
+        <li style="display: none;"><a href="{% include paypal-url.liquid amount=amount handling=2 item_name="Pre-enrollment Application Fee" item_number="-APPFEE" return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
     </ul>
 </div><!-- #pay-application-fee -->
 
@@ -35,13 +35,4 @@ columns: 1
     <p><a href="{% link index.html %}">Return to website</a>.</p>
 </div><!-- #payment-thank-you -->
 
-<script>
-'use strict';
-(function (){
-    async function init () {
-        let { default: main } = await import('{% link static/js/modules/application-invoice.mjs %}');
-        main();
-    }
-    document.addEventListener('DOMContentLoaded', init);
-})()
-</script>
+<script src="{% link static/js/application-invoice.js %}"></script>
