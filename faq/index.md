@@ -96,16 +96,27 @@ Once again, we encourage you to peruse our [list of benefiting organizations](ht
 
 * [What do I need to participate in a workshop?](#what-do-i-need-to-participate-in-a-workshop)
 * [How do I know where to go for an online webinar?](#how-do-i-know-where-to-go-for-an-online-webinar)
+* [How do I control the Webinar interface?](#how-do-i-control-the-webinar-interface)
 
 ## What do I need to participate in a workshop?
 
-Tech Learning Collective workshops are dervied from our longer course material, so you can prepare for them in the same way you might prepare for a full course:
+Tech Learning Collective workshops are derived from our longer course material, so you can prepare for them in the same way you might prepare for a full course:
 
 * if the workshop is offered in-person, bring a laptop with you to follow along with the exercises, but don&rsquo;t stress if you&rsquo;d rather simply watch and take notes during the workshop.
-* if the workshop is offered online as a webinar, you will need a laptop capable of running a modern version of the [Google Chrome](https://www.google.com/chrome/) or [Mozilla Firefox](https://www.mozilla.org/firefox/) Web browsers in order to join our video Web conferencing room. You can test your setup ahead of time by visiting the [Jitsi Meet](https://meet.jit.si/) service anytime to make sure you have the required hardware and software and to familiarize yourself with the webinar environment.
+* if the workshop is offered online as a webinar, you will need a laptop capable of running a modern version of the [Google Chrome](https://www.google.com/chrome/) or [Mozilla Firefox](https://www.mozilla.org/firefox/) Web browsers in order to join our video Web conferencing room.
+
+In either case, we suggest that you arrive five to ten minutes early in order to get settled.
 
 ## How do I know where to go for an online webinar?
 
-When you purchase a ticket to one of our remote workshops (online training webinars), our system sends an email to the address associated with your payment processor account (e.g., PayPal) containing the log-in details necessary to access the webinar video stream in the form of a personalized link you can click and a password for the event. Simply click the link you received to load the webinar page in your Web browser. When the page loads, you&rsquo;ll be prompted to type in a short password, which will have been delivered to you in the same email. Entering the correct password will grant you access to the webinar interface.
+A few moments after you purchase a ticket to one our remote workshops (online training webinars), our system sends you an email with log-in details that includes a Web link (URL) and a webinar passphrase that will grant you access to the video conference. The email will be sent to the address associated with your payment processor account (e.g., your PayPal email address), so be doubly-sure to check that email account (and its spam folder!) to make sure you don&rsquo;t miss our message.
 
-If you don&rsquo;t receive the confirmation email containing your log-in credentials within a few minutes, please make sure to check your email spam folder. If you still don&rsquo;t receive your login information, [contact us]({% link contact/index.md %}) and our admissions team will sort it out with you.
+Simply click the link you received from our email to load the webinar page in your Web browser. When the page loads, you&rsquo;ll be prompted to type in a short password, which will have been delivered to you in the same email. Entering the correct password will grant you access to the [webinar interface](#how-do-i-control-the-webinar-interface).
+
+Again, if you don&rsquo;t receive our confirmation email containing your log-in credentials within a few minutes, please make sure to check your email account&rsquo;s &ldquo;spam&rdquo; folder. If you still don&rsquo;t see your login information in your spam folder, [contact us]({% link contact/index.md %}) and our admissions team will sort it out with you.
+
+## How do I control the Webinar interface?
+
+When you first join one of our webinar workshops, you&rsquo;ll see a set of controls with which you can change things like the volume of the other speakers, the size of the video stream, and possibly also the ability to share your own screen and activate your own microphone so that others can see and hear what you&rsquo;re doing.
+
+Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet integration]({% link student-center/webinar/index.md %}) or our [GoBrunch Webinar rooms](https://gobrunch.com/mypage/214824). When you sign up for the Webinar, the Webinar address will tell you which video conferencing software we&rsquo;ll be using. See the [GoBrunch documentation](https://help.gobrunch.com/{{ page.lang | default: site.lang | slice: 0, 2 }}/) for help using the Gobrunch Webinar interface.
