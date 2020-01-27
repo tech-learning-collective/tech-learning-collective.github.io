@@ -17,7 +17,7 @@ columns: 1
         {% assign amount = site.payments.prices.application_fee | append: '' %}
         {% assign return = page.url | append: "#payment-thank-you" | absolute_url %}
         {% assign cancel_return = page.url | append: "#cancelled-payment" | absolute_url %}
-        <li style="display: none;"><a href="{% include paypal-url.liquid amount=amount handling=2 item_name="Pre-enrollment Application Fee" item_number="-APPFEE" return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
+        <li style="display: none;"><a href="{% include paypal-url.liquid amount=amount handling=3 item_name="Pre-enrollment Application Fee" item_number="-APPFEE" return=return cancel_return=cancel_return %}">Pay via PayPal</a></li>
     </ul>
 </div><!-- #pay-application-fee -->
 

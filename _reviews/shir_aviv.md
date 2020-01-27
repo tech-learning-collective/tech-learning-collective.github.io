@@ -3,7 +3,7 @@ title: "&ldquo;Outstanding webinar taught by a phenominal instructor!&rdquo;"
 author:
     name: Shir Aviv
     jobTitle: Founder &amp; CEO
-    photo: https://web.archive.org/web/20200121023943if_/https://www.filepicker.io/api/file/TjkP2i9ySFeuyiMgGJ7x
+    photo: https://web.archive.org/web/20200127205115if_/https://www.filepicker.io/api/file/TjkP2i9ySFeuyiMgGJ7x
     url: https://excelshir.com/
 datePublished: 2020-01-20 12:55:00 -0500
 ---

@@ -4,9 +4,9 @@
 TODO: Figure out a more precise handling fee pricing model.
       See, for example: https://www.paypal.com/us/webapps/mpp/merchant-fees
 
-      For now, we just tack on an extra $2 USD, which usually evens out.
+      For now, we just tack on an extra $3 USD, which usually evens out.
 {% endcomment %}
-{% assign handling_fee = 2 %}
+{% assign handling_fee = 3 %}
 {% assign item_name = include.event.title | append: " - " | append: offer.name %}
 {% assign item_number = include.event.startDate | date_to_xmlschema | append: "-" | append: include.event.title | slugify | slice: 0, 100 %}
 
