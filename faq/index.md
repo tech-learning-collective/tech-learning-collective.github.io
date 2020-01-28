@@ -7,6 +7,7 @@ Have questions about {{ site.title }}? This page lists some frequently asked que
 
 * [Courses and enrollment](#courses-and-enrollment)
 * [Workshops and webinars](#workshops-and-webinars)
+* [Volunteering and getting involved](#volunteering-and-getting-involved)
 
 # Courses and enrollment
 
@@ -120,3 +121,30 @@ Again, if you don&rsquo;t receive our confirmation email containing your log-in 
 When you first join one of our webinar workshops, you&rsquo;ll see a set of controls with which you can change things like the volume of the other speakers, the size of the video stream, and possibly also the ability to share your own screen and activate your own microphone so that others can see and hear what you&rsquo;re doing.
 
 Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet integration]({% link student-center/webinar/index.md %}) or our [GoBrunch Webinar rooms](https://gobrunch.com/mypage/214824). When you sign up for the Webinar, the Webinar address will tell you which video conferencing software we&rsquo;ll be using. See the [GoBrunch documentation](https://help.gobrunch.com/{{ page.lang | default: site.lang | slice: 0, 2 }}/) for help using the Gobrunch Webinar interface.
+
+# Volunteering and getting involved
+
+* [I am a tech professional. How do I become a TLC teacher?](#i-am-a-tech-professional-how-do-i-become-a-tlc-teacher)
+* [I&rsquo;d like to volunteer for TLC. How do I get involved?](#id-like-to-volunteer-for-tlc-how-do-i-get-involved)
+
+## I am a tech professional. How do I become a TLC teacher?
+
+While we greatly appreciate offers from skilled individuals to teach workshops, our pedagogy demands far more than solely technical skill. [Tech Learning Collective teachers are expert teachers, not merely experts]({% link about/index.md %}#learn-from-expert-teachers-not-merely-experts). In order to be considered as teachers, Tech Learning Collective rigorously vets instructors across numerous areas, including technical expertise, political commitment, and teaching ability. Put another way, teaching is its own skill, and teaching digital technology for political ends requires an even rarer combination of critical skills.
+
+Moreover, as an *apprenticeship-based* technology school, all Tech Learning Collective instructors were former Tech Learning Collective students. This means that in order to become a Tech Learning Collective teacher, you must first apprentice under an existing Tech Learning Collective teacher. You can do this is a number of different ways, including enrolling in [Tech Learning Collective courses]({% link courses/index.html %}) or stand-alone workshop [events]({% link events/index.md %}), or by contributing to any of the open source or Free Software community projects that Tech Learning Collective teachers are involved in alongside them.
+
+Ultimately, while we appreciate your interest in becoming a Tech Learning Collective teacher, we do not offer teaching positions to anyone, no matter how experienced, without first mentoring them in our specific pedagogy.
+
+## I&rsquo;d like to volunteer for TLC. How do I get involved?
+
+While we greatly appreciate volunteer work from anyone who wishes to contribute to Tech Learning Collective materials, what we need most of all is financial support (or, better, student sign-ups). This is because all of our systems are automated and our procedures do not rely on manual labor to accomplish tasks such as student enrollments and interview scheduling, event organizing, booking, marketing and promotions, invoicing, reporting, or any other administrative functions. Put another way, we don&rsquo;t have any volunteer work for you to do.
+
+But, if you can afford it, we encourage you to [donate]({% link donate/index.md %}) directly so that we can spend more time producing educational materials.
+
+If supporting us financially is not something you can do, and you also do not want or cannot participate in our training events, the simplest way to get involved is to peruse the Web site(s) of our curriculum partners and/or [sister projects]({% link about/index.md %}#fund-existing-community-owned-technology-projects-for-radical-social-good) looking for work you can do with them that would help us out. In particular, check out the following resources:
+
+* [Anarcho-Tech NYC&rsquo;s &ldquo;Train the Trainers&rdquo; project](https://github.com/AnarchoTechNYC/meta/blob/master/train-the-trainers/README.md#readme)
+
+Another way to help out is to spread the word about Tech Learning Collective events, inviting your friends and comrades to participate in workshops or training sessions that we&rsquo;re producing. Remember that you can [subscribe to our event calendar]({% link events/upcoming/index.md %}#export-event-calendar) to be notified whenever we publish a new event. Likewise, if you&rsquo;re organizing your own event, or know someone who is, consider inviting Tech Learning Collective to host a digital security training session there.
+
+Again, while we greatly appreciate your desire to volunteer, the best thing you can do to support us and to get involved in our community is to attend our events.
