@@ -1,0 +1,48 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/admin/"
+webhook_url: 
+sections:
+- type: jekyll-pages
+  label: Pages
+  create: all
+- type: jekyll-posts
+  label: Posts
+  create: all
+- type: directory
+  path: _reviews
+  label: Reviews
+  create: all
+  match: "**/*"
+- type: directory
+  path: _events
+  label: Events
+  create: all
+  match: "**/*"
+- type: directory
+  path: _workshops
+  label: Workshops
+  create: all
+  match: "**/*"
+- type: directory
+  path: _courses
+  label: Courses
+  create: all
+  match: "**/*"
+upload_dir: static/images
+public_path: "/static/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - JEKYLL_ENV=staging
+  - PAGES_REPO_NWO=tech-learning-collective/tech-learning-collective.github.io
+  preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
+  preview_docker_image: forestryio/ruby:2.6
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
+    --port 8080 --host 0.0.0.0 -d _site
