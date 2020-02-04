@@ -1,5 +1,0 @@
-# The `_layouts` folder
-
-This folder contains [Jekyll layouts](https://jekyllrb.com/docs/layouts/), which are the outer-most portions of the templates for each of your Web pages. The content for a particular page is placed in a Layout, depending on its type. For example, single pages like your site's main "About" or "Contact" page are inserted into the `page.html` layout file, while blog posts that you compose are inserted into the `post.html` layout file. Layouts can even be templated inside other layouts, so that you can share layout code common to more than one type of content; in fact, the `page.html` layout inherits from the `default.html` layout.
-
-You generally don't have to (and probably shouldn't) make any changes to your site's layouts unless you want to make major changes to your site's design or want to add an entirely new way to view the content in your site (like adding RSS or iCalendar support). If you're not sure what these are or why you might want to do that, you probably don't need them.

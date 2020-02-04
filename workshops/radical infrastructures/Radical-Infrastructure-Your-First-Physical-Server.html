@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Radical Infrastructure: Your First Physical Server &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail" />
+    <link rel="prev" href="/workshops/radical%20infrastructures/Radical-Infrastructure-Self-hosting-Contacts-and-Calendars" />
+
+    <meta itemprop="name" content="Radical Infrastructure: Your First Physical Server &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/workshops/radical%20infrastructures/Radical-Infrastructure-Your-First-Physical-Server" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Radical Infrastructure: Your First Physical Server" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google’s GMail for email and Facebook’s Messenger for instant messaging. However, simply jumping to another company’s equivalent product is like moving your money out of one too-big-to-fail bank into another; it’s a lateral move at best. Thankfully, it’s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank." />
+<meta property="og:description" content="Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google’s GMail for email and Facebook’s Messenger for instant messaging. However, simply jumping to another company’s equivalent product is like moving your money out of one too-big-to-fail bank into another; it’s a lateral move at best. Thankfully, it’s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/workshop.radical-infrastructures.your-first-physical-server.square.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T22:21:33-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/workshop.radical-infrastructures.your-first-physical-server.square.png" />
+<meta property="twitter:title" content="Radical Infrastructure: Your First Physical Server" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google’s GMail for email and Facebook’s Messenger for instant messaging. However, simply jumping to another company’s equivalent product is like moving your money out of one too-big-to-fail bank into another; it’s a lateral move at best. Thankfully, it’s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/workshop.radical-infrastructures.your-first-physical-server.square.png","headline":"Radical Infrastructure: Your First Physical Server","url":"/workshops/radical%20infrastructures/Radical-Infrastructure-Your-First-Physical-Server","dateModified":"2020-02-03T22:21:33-05:00","datePublished":"2020-02-03T22:21:33-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/workshops/radical%20infrastructures/Radical-Infrastructure-Your-First-Physical-Server"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Radical Infrastructure: Your First Physical Server</h2>
+    <div class="workshop-collection">
+<img src="/static/images/workshop.radical-infrastructures.your-first-physical-server.square.png" alt="Poster for Radical Infrastructure: Your First Physical Server" />
+</div>
+
+
+
+
+<div class="persona-training-container">
+    Persona matrix:
+    <div class="persona-training-graph">
+        <div class="persona-match-row">
+            <div class="persona-match-col" title="Individuals versus Random Assholes"></div>
+            <div class="persona-match-col" title="Individuals versus Assholes with Resources"></div>
+            <div title="Individuals versus The State"></div>
+        </div>
+        <div class="persona-match-row">
+            <div class="persona-match-col" title="Organizers and Jouranlists versus Random Assholes"></div>
+            <div class="persona-match-col" title="Organizers and Jouranlists versus Assholes with Resources"></div>
+            <div title="Organizers and Journalists versus The State"></div>
+        </div>
+        <div>
+            <div class="persona-match-col" title="Targeted Activists versus Random Assholes"></div>
+            <div class="persona-match-col" title="Targeted Activists versus Assholes with Resources"></div>
+            <div title="Targeted Activists versus The State"></div>
+        </div>
+    </div>
+    (<a href="/about/persona-matrix/">What&rsquo;s this?</a>)
+</div><!-- .persona-training-container -->
+
+
+
+<p>Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google’s GMail for email and Facebook’s Messenger for instant messaging. However, simply jumping to another company’s equivalent product is like moving your money out of one too-big-to-fail bank into another; it’s a lateral move at best. Thankfully, it’s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank.</p>
+
+<p>In this workshop, you’ll be guided through the first steps of setting up just such an alternative infrastructure capable of providing a plethora of digital services to hundreds or even thousands of people. Since every app you use ultimately relies on a physical computer somewhere in the world offering services, that’s where we’ll start: plugging a computer into a power outlet. From there, we’ll install an Operating System, learn the basics of remote administration over SSH, and start choosing services to run on our new server. By starting at the ground level, you can see for yourself exactly how tools like Google Calendar or <a href="https://signal.org/">Signal</a> actually work—and how easy they are to replicate for free on the scale of a community or neighborhood network.</p>
+
+<p>Moreover, one of the best-kept secrets in tech is that most off-the-shelf computers can function remarkably well as servers. The <a href="https://www.raspberrypi.org/">Raspberry Pi</a> is one great example of such a device. Cash-strapped advocacy groups can use it to astonishingly powerful ends if only they had the know-how, as a single Raspberry Pi device retails for only $35 USD! This means that most small- to mid-sized organizations of a dozen to several hundred people can have their own truly self-owned and self-operated server infrastructures, completely independent from the Googles and Facebooks of the world, for only a few dozen dollars.</p>
+
+<p>Whether you or your group is using messagers like WhatsApp, publishing blog posts with <a href="https://wordpress.org/">WordPress</a>, or using other coordination tools like <a href="https://openstreetmap.org/">online maps</a>, ultimately, you’re using <em>someone’s</em> computer. Do you know whose computer you’re using? Do you know where <em>your</em> servers are? Knowing exactly where your data lives is a critical step on the path towards true autonomy, and by the end of this workshop you’ll be well on your way to operating your own fleet of devices with which to replace your reliance on the corporate “cloud.”</p>
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Radical%20Infrastructure:%20Your%20First%20Physical%20Server">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

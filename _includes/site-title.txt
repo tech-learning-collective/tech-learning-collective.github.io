@@ -1,7 +1,0 @@
-{%- if page.lang == site.lang -%}
-{{- site.title -}}
-{%- elsif nil == page.lang -%}
-{{- site.title -}}
-{%- else -%}
-{%- include gettext.liquid key="site_title" -%}
-{%- endif -%}

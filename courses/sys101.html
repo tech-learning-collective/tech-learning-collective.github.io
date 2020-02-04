@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>From End User to (Em)power(ed) User: Basics of System Administration &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/courses/web101.html" />
+    <link rel="prev" href="/courses/sec101.html" />
+
+    <meta itemprop="name" content="From End User to (Em)power(ed) User: Basics of System Administration &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/courses/sys101.html" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="From End User to (Em)power(ed) User: Basics of System Administration" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Behind every computer, there is a human. Each computer system needs an administrator, someone responsible for configuring, maintaining, and supporting the reliable operation of that computer so that those who need to use it can actually do so. This task is called system administration, or sometimes Site (or System) Reliability Engineering. If you have a personal computer such as a laptop or smartphone, then you are already a system administrator whether you realize it or not! Making sure the apps you want to use are installed and up to date, managing the amount of free space you have for your photos, and connecting or disconnecting from the Internet are all examples of simple system administration tasks that you probably already take on a daily basis." />
+<meta property="og:description" content="Behind every computer, there is a human. Each computer system needs an administrator, someone responsible for configuring, maintaining, and supporting the reliable operation of that computer so that those who need to use it can actually do so. This task is called system administration, or sometimes Site (or System) Reliability Engineering. If you have a personal computer such as a laptop or smartphone, then you are already a system administrator whether you realize it or not! Making sure the apps you want to use are installed and up to date, managing the amount of free space you have for your photos, and connecting or disconnecting from the Internet are all examples of simple system administration tasks that you probably already take on a daily basis." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/static/images/icon.chip.blue.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T22:21:33-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/static/images/icon.chip.blue.png" />
+<meta property="twitter:title" content="From End User to (Em)power(ed) User: Basics of System Administration" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"Behind every computer, there is a human. Each computer system needs an administrator, someone responsible for configuring, maintaining, and supporting the reliable operation of that computer so that those who need to use it can actually do so. This task is called system administration, or sometimes Site (or System) Reliability Engineering. If you have a personal computer such as a laptop or smartphone, then you are already a system administrator whether you realize it or not! Making sure the apps you want to use are installed and up to date, managing the amount of free space you have for your photos, and connecting or disconnecting from the Internet are all examples of simple system administration tasks that you probably already take on a daily basis.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/static/images/icon.chip.blue.png","headline":"From End User to (Em)power(ed) User: Basics of System Administration","url":"/courses/sys101.html","dateModified":"2020-02-03T22:21:33-05:00","datePublished":"2020-02-03T22:21:33-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/courses/sys101.html"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(55, 43, 251, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(55, 43, 251, 1), rgba(55, 43, 251, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(55, 43, 251, 1), rgba(55, 43, 251, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(55, 43, 251, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(55, 43, 251, 1);
+}
+</style>
+
+
+</head>
+
+<body class="course">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>From End User to (Em)power(ed) User: Basics of System Administration</h2>
+    <img class="course-poster"
+    alt=""
+    src="/static/images/poster.sys101.png"
+/>
+<ul>
+    <li>Number of classes in course: 4</li>
+    <li>Typical class duration: 3.5 hours</li>
+    <li>Full tuition: $750</li>
+    <li>Typical tuition ranges with <a href="/pricing/#financial-aid">sliding scale financial aid</a>: $187&ndash;$428</li>
+</ul>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831=SYS101" class="button">Apply for pre-enrollment in SYS101</a>
+<p>Behind every computer, there is a human. Each computer system needs an administrator, someone responsible for configuring, maintaining, and supporting the reliable operation of that computer so that those who need to use it can actually do so. This task is called system administration, or sometimes Site (or System) Reliability Engineering. If you have a personal computer such as a laptop or smartphone, then you are already a system administrator whether you realize it or not! Making sure the apps you want to use are installed and up to date, managing the amount of free space you have for your photos, and connecting or disconnecting from the Internet are all examples of simple system administration tasks that you probably already take on a daily basis.</p>
+
+<p>In this course, students will build on their existing, personal system administration experience to answer questions such as “how much memory does my computer have, and how much do I need?” “How do I know which programs are running on my computer?” “How can I see the network connections being made by the programs I have running?” We will then build on these foundations to understand what a “server” is, how to make them run on your own devices, and how to keep them in tip-top shape. By the end of this course, students will understand how the basic application-level services critical for organizations of any size, such as file sharing, digital identity management, contact and calendar sharing, and more actually function, and they will be able to replace some paid or proprietary corporate services like Google Contacts and Google Calendars with free and unsurveilled alternatives they can host themselves.</p>
+
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

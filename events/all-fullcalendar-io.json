@@ -1,20 +1,46 @@
----
-layout: none
----
-{% comment %}
-This template generates a JSON-formatted feed of event data, much like
-the equivalent iCalendar feed, for websites that use a FullCalendar.io
-client to consume event information.
-{% endcomment %}
-{%- include globals.liquid -%}
-{%- assign events = site.events | sort: "startDate" -%}
 [
-    {%- for event in events -%}
-        {%- assign thirty_one_days = 60 | times: 60 | times: 24 | times: 31 -%}
-        {%- assign thirty_one_days_ago = site.time | date: "%s" | plus: 0 | minus: thirty_one_days -%}
-        {%- assign event_end_unix_time = event.endDate | date: "%s" | plus: 0 -%}
-        {%- if event_end_unix_time > thirty_one_days_ago -%}
-        {%- include fullcalendar-io-event.json event=event -%}{%- unless forloop.last -%},{%- endunless -%}
-        {%- endif -%}
-    {%- endfor -%}
+
+
+{
+    "title": "Digital Defenses for the People: Practical Digital Security",
+    "start": "2020-01-18T17:30:00-0500",
+    "end"  : "2020-01-18T19:30:00-0500",
+    "url"  : "/events/2020/01/workshop-2020-01-18-digital-defenses-for-the-people-practical-digital-security"
+}
+,
+
+
+{
+    "title": "The Imitation Game: Introduction to Administering Virtual Machine Systems",
+    "start": "2020-01-20T19:00:00-0500",
+    "end"  : "2020-01-20T21:00:00-0500",
+    "url"  : "/events/2020/01/workshop-2020-01-20-the-imitation-game-introduction-to-administering-virtual-machine-systems"
+}
+,
+
+
+{
+    "title": "The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask",
+    "start": "2020-01-25T18:00:00-0500",
+    "end"  : "2020-01-25T20:00:00-0500",
+    "url"  : "/events/2020/01/workshop-2020-01-25-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask"
+}
+,
+
+
+{
+    "title": "Collaboration Across Universes: Basics of Version Control with Git",
+    "start": "2020-02-03T15:00:00-0500",
+    "end"  : "2020-02-03T16:30:00-0500",
+    "url"  : "/events/2020/02/workshop-2020-02-03-collaboration-across-universes-basics-of-version-control-with-git"
+}
+,
+
+
+{
+    "title": "Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work",
+    "start": "2020-02-08T17:00:00-0500",
+    "end"  : "2020-02-08T19:00:00-0500",
+    "url"  : "/events/2020/02/workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work"
+}
 ]

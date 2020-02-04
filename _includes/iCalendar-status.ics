@@ -1,1 +1,0 @@
-{{ include.status | replace: "Event", "" | default: site.iCalendar.defaults.status }}

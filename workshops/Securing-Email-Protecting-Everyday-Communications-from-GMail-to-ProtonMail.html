@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Securing Email: Protecting Everyday Communications from GMail to ProtonMail &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Securing-Our-Servers-Basic-Network-Operations-for-Autonomous-Communities" />
+    <link rel="prev" href="/workshops/radical%20infrastructures/Radical-Infrastructure-Your-First-Physical-Server" />
+
+    <meta itemprop="name" content="Securing Email: Protecting Everyday Communications from GMail to ProtonMail &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/workshops/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Securing Email: Protecting Everyday Communications from GMail to ProtonMail" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name “e-mail” might make you think that electronic mail works the same way that writing a physical letter does, but this isn’t entirely true. From a technical perspective, it’s more like “e-postcards” because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote." />
+<meta property="og:description" content="As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name “e-mail” might make you think that electronic mail works the same way that writing a physical letter does, but this isn’t entirely true. From a technical perspective, it’s more like “e-postcards” because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T22:21:33-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png" />
+<meta property="twitter:title" content="Securing Email: Protecting Everyday Communications from GMail to ProtonMail" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name “e-mail” might make you think that electronic mail works the same way that writing a physical letter does, but this isn’t entirely true. From a technical perspective, it’s more like “e-postcards” because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png","headline":"Securing Email: Protecting Everyday Communications from GMail to ProtonMail","url":"/workshops/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail","dateModified":"2020-02-03T22:21:33-05:00","datePublished":"2020-02-03T22:21:33-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/workshops/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Securing Email: Protecting Everyday Communications from GMail to ProtonMail</h2>
+    
+<img src="/static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png" alt="Poster for Securing Email: Protecting Everyday Communications from GMail to ProtonMail" />
+
+
+
+
+
+<div class="persona-training-container">
+    Persona matrix:
+    <div class="persona-training-graph">
+        <div class="persona-match-row">
+            <div class="persona-match-col" title="Individuals versus Random Assholes"></div>
+            <div class="persona-match-col" title="Individuals versus Assholes with Resources"></div>
+            <div class="persona-match-col" title="Individuals versus The State"></div>
+        </div>
+        <div class="persona-match-row">
+            <div class="persona-match-col" title="Organizers and Jouranlists versus Random Assholes"></div>
+            <div class="persona-match-col" title="Organizers and Jouranlists versus Assholes with Resources"></div>
+            <div class="persona-match-col" title="Organizers and Journalists versus The State"></div>
+        </div>
+        <div>
+            <div class="persona-match-col" title="Targeted Activists versus Random Assholes"></div>
+            <div class="persona-match-col" title="Targeted Activists versus Assholes with Resources"></div>
+            <div class="persona-match-col" title="Targeted Activists versus The State"></div>
+        </div>
+    </div>
+    (<a href="/about/persona-matrix/">What&rsquo;s this?</a>)
+</div><!-- .persona-training-container -->
+
+
+
+<p>As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name “e-mail” might make you think that electronic mail works the same way that writing a physical letter does, but this isn’t entirely true. From a technical perspective, it’s more like “e-postcards” because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote.</p>
+
+<p>In the physical world, protecting your correspondence requires you to take the extra step of putting your letter inside an envelope and then sealing the envelope. That way, no one looking at the outside of the envelope can read what you wrote on the letter paper. To protect your email in the digital world, you still have to take this extra step of putting your letter inside a metaphorical envelope. Some services, like <a href="https://github.com/AnarchoTechNYC/meta/wiki/ProtonMail">ProtonMail, claim to do this for you, but fail to do so in many common scenarios</a>. Meanwhile, many people believe that just using Google’s GMail service means all your email content is always readable by Google, but this isn’t always true either.</p>
+
+<p>This workshop will demystify the nuance of email privacy and security. By using <a href="https://prism-break.org/en/protocols/gpg/">freely available OpenPGP-compatible software</a>, which has been available since 1991, the Tech Learning Collective’s cybersecurity instructors will show you how you can keep your message contents private regardless of the email service provider you use. Never send paperwork with your social security number or other sensitive details on a digital postcard to your lawyer or accountant ever again!</p>
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Securing%20Email:%20Protecting%20Everyday%20Communications%20from%20GMail%20to%20ProtonMail">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

@@ -1,6 +1,3 @@
----
-layout: none
----
 /**
  * Jitsi Meet integration.
  *
@@ -23,26 +20,19 @@ layout: none
             liveStreamingEnabled: false,
             fileRecordingsEnabled: false
 
-            {% comment %}
-            // TODO: These seem to be getting ignored?
-            //enableCalendarIntegration: false,
-            //gatherStats: false
-            {% endcomment %}
+            
         },
         interfaceConfigOverwrite: {
             SETTINGS_SECTIONS: [ 'devices', 'language', 'profile' ],
             ENFORCE_NOTIFICATION_AUTO_DISMISS_TIMEOUT: 10000,
             JITSI_WATERMARK_LINK: false
 
-            {% comment %}
-            // Uncomment this to disable toolbar, useful for large events?
-            //filmStripOnly: true
-            {% endcomment %}
+            
         }
     };
     const api = new JitsiMeetExternalAPI(domain, options);
     api.executeCommands({
-        'avatarUrl': ['{{ site.logo | absolute_url }}'],
+        'avatarUrl': ['/static/images/icon.chip.blue.png'],
         'subject'  : [ atob(qs.get('subject')) || false ]
     });
 })();

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Collaboration Across Universes: Basics of Version Control with Git &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Digital-Defenses-for-the-People-Practical-Digital-Security" />
+    <link rel="prev" href="/workshops/Clearing-Away-the-Clouds-How-Computer-Networks,-Servers,-and-the-Internet-Work" />
+
+    <meta itemprop="name" content="Collaboration Across Universes: Basics of Version Control with Git &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/workshops/Collaboration-Across-Universes-Basics-of-Version-Control-with-Git" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Collaboration Across Universes: Basics of Version Control with Git" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As most of us know first-hand, the creative process involves many edits and revisions. Adding a little bit here, trimming a little bit there, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file, pressing “Save As…” many times might suffice, but what if your project spans dozens or even hundreds of files?" />
+<meta property="og:description" content="As most of us know first-hand, the creative process involves many edits and revisions. Adding a little bit here, trimming a little bit there, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file, pressing “Save As…” many times might suffice, but what if your project spans dozens or even hundreds of files?" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T22:21:33-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png" />
+<meta property="twitter:title" content="Collaboration Across Universes: Basics of Version Control with Git" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"As most of us know first-hand, the creative process involves many edits and revisions. Adding a little bit here, trimming a little bit there, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file, pressing “Save As…” many times might suffice, but what if your project spans dozens or even hundreds of files?","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png","headline":"Collaboration Across Universes: Basics of Version Control with Git","url":"/workshops/Collaboration-Across-Universes-Basics-of-Version-Control-with-Git","dateModified":"2020-02-03T22:21:33-05:00","datePublished":"2020-02-03T22:21:33-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/workshops/Collaboration-Across-Universes-Basics-of-Version-Control-with-Git"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Collaboration Across Universes: Basics of Version Control with Git</h2>
+    
+<img src="/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png" alt="Poster for Collaboration Across Universes: Basics of Version Control with Git" />
+
+
+
+
+<p>As most of us know first-hand, the creative process involves many edits and revisions. Adding a little bit here, trimming a little bit there, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file, pressing “Save As…” many times might suffice, but what if your project spans dozens or even hundreds of files?</p>
+
+<p>This is where version control systems (VCSs) shine. Designed to track, compare, and merge different versions of the same project, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times, across any number of files. Moreover, by naming different snapshots, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a <em>branch</em>) without throwing away or overwriting the original version of the project on which your changes were based.</p>
+
+<p>In this beginner’s workshop, you’ll learn the basics of <a href="https://git-scm.com/">Git</a>, a free distributed version control system on which popular sites like <a href="https://github.com/">GitHub</a> are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers, Git is also useful for novelists, researchers, and anyone else whose work involves creativity in a digital medium.</p>
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Collaboration%20Across%20Universes:%20Basics%20of%20Version%20Control%20with%20Git">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

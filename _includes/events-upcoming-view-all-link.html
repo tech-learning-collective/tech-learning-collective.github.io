@@ -1,6 +1,0 @@
-{% if site.events %}
-{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
-{% if 1 <= events.size %}
-<p><a href="{% link events/upcoming/index.md %}">(View all upcoming events.)</a></p>
-{% endif %}
-{% endif %}

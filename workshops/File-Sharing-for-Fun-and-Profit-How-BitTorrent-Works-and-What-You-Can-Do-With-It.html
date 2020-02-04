@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Gone-Phishing-How-to-Recognize-Fake-Websites-and-Other-Online-Scams" />
+    <link rel="prev" href="/workshops/Exploring-Cyberspace-Network-Sniffing-and-Scanning" />
+
+    <meta itemprop="name" content="File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/workshops/File-Sharing-for-Fun-and-Profit-How-BitTorrent-Works-and-What-You-Can-Do-With-It" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="If you’ve heard anything about “downloading free movies on the Internet,” you probably heard of BitTorrent or its more colloquial synonym, “torrents.” You have also probably heard of companies threatening BitTorrent users with Internet service bans, financial penalties, and even lawsuits for “stealing intellectual property.“ Through expensive and coordinated disinformation campaigns, companies like Disney and other “Big Content” media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard, immoral, and unsafe to use, but the reality is far less one-sided." />
+<meta property="og:description" content="If you’ve heard anything about “downloading free movies on the Internet,” you probably heard of BitTorrent or its more colloquial synonym, “torrents.” You have also probably heard of companies threatening BitTorrent users with Internet service bans, financial penalties, and even lawsuits for “stealing intellectual property.“ Through expensive and coordinated disinformation campaigns, companies like Disney and other “Big Content” media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard, immoral, and unsafe to use, but the reality is far less one-sided." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.square.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T22:21:33-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.square.png" />
+<meta property="twitter:title" content="File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"If you’ve heard anything about “downloading free movies on the Internet,” you probably heard of BitTorrent or its more colloquial synonym, “torrents.” You have also probably heard of companies threatening BitTorrent users with Internet service bans, financial penalties, and even lawsuits for “stealing intellectual property.“ Through expensive and coordinated disinformation campaigns, companies like Disney and other “Big Content” media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard, immoral, and unsafe to use, but the reality is far less one-sided.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.square.png","headline":"File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It","url":"/workshops/File-Sharing-for-Fun-and-Profit-How-BitTorrent-Works-and-What-You-Can-Do-With-It","dateModified":"2020-02-03T22:21:33-05:00","datePublished":"2020-02-03T22:21:33-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/workshops/File-Sharing-for-Fun-and-Profit-How-BitTorrent-Works-and-What-You-Can-Do-With-It"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It</h2>
+    
+<img src="/static/images/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.square.png" alt="Poster for File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It" />
+
+
+
+
+<p>If you’ve heard anything about “downloading free movies on the Internet,” you probably heard of <a href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a> or its more colloquial synonym, “torrents.” You have also probably heard of companies threatening BitTorrent users with Internet service bans, financial penalties, and even lawsuits for “stealing intellectual property.“ Through expensive and coordinated disinformation campaigns, companies like Disney and other “Big Content” media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard, immoral, and unsafe to use, but the reality is far less one-sided.</p>
+
+<p><em>BitTorrent</em> refers to a file transfer technology that has been around since 2001 and is designed to make it easy for you to more quickly share very large files across a computer network, even if your computer lacked a high-speed Internet connection. It worked so well that by the end of 2013 there were more than a quarter billion individual BitTorrent users on the Internet. While the media painted this as an epidemic of criminal behavior, most BitTorrent uses were and still are both legal and mundane. Moreover, the heaviest BitTorrent users were actually companies who built the technology into their own products, such as <a href="https://www.howtogeek.com/141257/htg-explains-how-does-bittorrent-work/">Blizzard, Inc. (the World of WarCraft company), who used BitTorrent to deliver updates of its game software to players</a>.</p>
+
+<p>Today, BitTorrent is still one of the most popular, cost-efficient, and speediest large-file transfer technologies available to both individuals and multinational corporations alike. Cash-strapped Free Software projects such as GNU/Linux distributions use BitTorrent to distribute their installation packages in order to reduce their monthly bandwidth bills, a whole new category of “decentralized Web” applications like <a href="https://zeronet.io/">ZeroNet</a> are using BitTorrent under the hood to make Web publishing easier and more censorship-resistant than ever before, and traditional Web sites with large bandwidth requirements like video streaming sites (e.g., <a href="https://joinpeertube.org/en/">PeerTube</a>) are increasingly adopting a newer variant called <a href="https://webtorrent.io/faq">WebTorrent</a> to improve download speeds and interoperate with the massive existing BitTorrent network.</p>
+
+<p>In this beginner-friendly workshop, we’ll bust BitTorrent myths and set the record straight about what “torrenting” actually is, how it works, and what you can do with it. Learn how to find, download, and even create your own torrents so you can share files with friends and colleagues regardless of network obstacles like firewalls or NAT routers. Bring a laptop and you’ll be able to participate in a (legal and safe!) BitTorrent “swarm.” We’ll also discuss the implications of using BitTorrent for less-than-legal ends, and demonstrate steps you can take to improve your privacy such as enabling BitTorrent encryption, connecting to trackers through public proxies, and building private <a href="https://seedboxgui.de/">seedboxes</a>.</p>
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20File%20Sharing%20for%20Fun%20and%20Profit:%20How%20BitTorrent%20Works%20and%20What%20You%20Can%20Do%20With%20It">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

@@ -1,36 +1,701 @@
----
-title: Technology, taught collectively.
-columns: 1
----
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Technology, taught collectively. &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
 
-<p>
-    <a id="spinner-link" href="{% link about/index.md %}" title="Learn more about {{ site.title }}.">
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    
+    
+
+    <meta itemprop="name" content="Technology, taught collectively. &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Technology, taught collectively." />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Apprenticeship-based technology school for hypermedia, Information Technology, cybersecurity, and radical political practice. We offer unparalleled classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by cyber armies and governments." />
+<meta property="og:description" content="Apprenticeship-based technology school for hypermedia, Information Technology, cybersecurity, and radical political practice. We offer unparalleled classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by cyber armies and governments." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/static/images/icon.chip.blue.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/static/images/icon.chip.blue.png" />
+<meta property="twitter:title" content="Technology, taught collectively." />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"Apprenticeship-based technology school for hypermedia, Information Technology, cybersecurity, and radical political practice. We offer unparalleled classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by cyber armies and governments.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"WebSite","image":"/static/images/icon.chip.blue.png","headline":"Technology, taught collectively.","url":"/","name":"Tech Learning Collective","author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(55, 43, 251, 1);
+}
+body.page header {
+    position: relative;
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(55, 43, 251, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(55, 43, 251, 1);
+}
+</style>
+
+
+</head>
+
+<body class="page">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main style="column-count: 1; overflow: unset; max-height: unset;">
+        
+
+<article>
+    <h2>Technology, taught collectively.</h2>
+    <p>
+    <a id="spinner-link" href="/about/" title="Learn more about Tech Learning Collective.">
         <img id="spinner"
-            alt="{{ site.title }} logo, a stylized microchip spinning in space."
-            src="{% link static/images/icon.chip.transparent.png %}"
+            alt="Tech Learning Collective logo, a stylized microchip spinning in space."
+            src="/static/images/icon.chip.transparent.png"
         />
     </a>
 </p>
 
-{% if site.events %}
-{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
-{% if 1 <= events.size %}
+
+
+
 <section>
     <h1 id="next-event">Next Event</h1>
-    {% include events-upcoming-view-all-link.html %}
-    {% include events-upcoming.html limit=1 silent=true %}
-    {% include events-upcoming-view-all-link.html %}
-</section>
-{% endif %}
-{% endif %}
+    
 
-{% assign featured_testimonials = site.reviews | sample: 4 %}
-{% if 0 < featured_testimonials.size %}
+
+<p><a href="/events/upcoming/">(View all upcoming events.)</a></p>
+
+
+
+    
+
+
+<ol class="h-events">
+
+    <li>
+        
+
+
+
+
+
+
+
+
+
+
+<div class="h-event vevent">
+<article itemscope="itemscope" itemtype="https://schema.org/Event">
+    <header>
+
+        <a href="/events/2020/02/workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work" class="u-url url" itemprop="url">
+            <h2 class="p-summary summary p-name" itemprop="name">
+                    Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
+            </h2>
+            <img src="/static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.png" alt="" itemprop="image" />
+        </a>
+        <ul class="event-meta">
+            <li class="event-datetime">
+                <abbr class="dt-start dtstart" title="2020-02-08T17:00:00-05:00">
+                    <span>February  8, 2020</span>
+                    <span> 5:00 PM (-0500)</span>
+                </abbr>
+                &ndash;
+                <abbr class="dt-end dtend" title="2020-02-08T19:00:00-05:00">
+                    <span>February  8, 2020</span>
+                    <span> 7:00 PM</span>
+                </abbr>
+                <meta itemprop="startDate" content="2020-02-08T17:00:00-05:00" />
+                <meta itemprop="endDate" content="2020-02-08T19:00:00-05:00" />
+            </li><!-- .event-datetime -->
+            
+            <li class="p-location location" itemprop="location" itemscope="itemscope" itemtype="https://schema.org/Place">
+                
+                <span itemprop="address">Remote</span>
+                
+            </li><!-- .p-location -->
+            <li class="event-status">
+                Status:
+
+<span class="status">
+
+CONFIRMED
+    
+    <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+    
+
+</span>
+
+            </li>
+        </ul>
+    </header>
+
+    <section class="offers">
+
+        
+
+        
+        
+        <p>Tickets:</p>
+        
+        <ul itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/AggregateOffer">
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=70&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Clearing+Away+the+Clouds%3A+How+Computer+Networks%2C+Servers%2C+and+the+Internet+Work+-+Privacy+Defender+Webinar+Ticket&amp;item_number=WEBINAR-5-2020-02-08t17-00-00-05-00-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-wo-TICKET&amp;no_shipping=0&amp;rm=0&amp;return=%2F%23tickets-fallback-event-thank-you-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work&amp;cancel_return=%2F%23tickets-fallback-event-cancelled-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work&amp;custom=" itemprop="url">
+        <span itemprop="name">Privacy Defender Webinar Ticket</span>
+        <span class="currency-symbol">$</span><span itemprop="price">70</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+    <div itemprop="description">
+        Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.
+    </div>
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2020-02-08T17:00:00-05:00" />
+    
+</div>
+
+        </li>
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=35&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Clearing+Away+the+Clouds%3A+How+Computer+Networks%2C+Servers%2C+and+the+Internet+Work+-+General+Admission&amp;item_number=WEBINAR-5-2020-02-08t17-00-00-05-00-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-wo-TICKET&amp;no_shipping=0&amp;rm=0&amp;return=%2F%23tickets-fallback-event-thank-you-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work&amp;cancel_return=%2F%23tickets-fallback-event-cancelled-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work&amp;custom=" itemprop="url">
+        <span itemprop="name">General Admission</span>
+        <span class="currency-symbol">$</span><span itemprop="price">35</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2020-02-08T17:00:00-05:00" />
+    
+</div>
+
+        </li>
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=25&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Clearing+Away+the+Clouds%3A+How+Computer+Networks%2C+Servers%2C+and+the+Internet+Work+-+Reduced+price+admission+%28for+queer-identified+and+femme+people%29&amp;item_number=WEBINAR-5-2020-02-08t17-00-00-05-00-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-wo-TICKET&amp;no_shipping=0&amp;rm=0&amp;return=%2F%23tickets-fallback-event-thank-you-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work&amp;cancel_return=%2F%23tickets-fallback-event-cancelled-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work&amp;custom=" itemprop="url">
+        <span itemprop="name">Reduced price admission (for queer-identified and femme people)</span>
+        <span class="currency-symbol">$</span><span itemprop="price">25</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+    <div itemprop="description">
+        Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.
+    </div>
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2020-02-08T17:00:00-05:00" />
+    
+</div>
+
+        </li>
+        
+        </ul>
+        <p><small>Prices shown may exclude nominal handling fees.</small></p>
+
+        
+        
+
+        <div id="tickets-fallback-event-thank-you-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work" class="tickets-fallback">
+            <p>Thank you for your order! We have received your information, but <strong>please allow an extra 24 hours for your order to be confirmed</strong> in our ticketing system.</p>
+            <p>If the event to which you RSVP&rsquo;s is in less than 24 hours, please bring your payment receipt with you!</p>
+        </div>
+        <div id="tickets-fallback-event-cancelled-workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work" class="tickets-fallback">
+            <p>Your order has been cancelled.</p>
+        </div>
+        
+
+    </section><!-- .offers -->
+
+    
+    <section itemprop="description">
+        
+        <div class="p-description description">
+            This two-hour workshop is all about the basics of computer networking. If you’ve ever been curious about what happens “on… (<a href="/events/2020/02/workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work">read more</a>)
+            
+        </div><!-- .p-description -->
+    </section>
+    
+
+    
+    <section class="performances">
+        <h2>Performances by</h2>
+        <ul>
+        
+            
+
+
+<li itemprop="performer" itemscope="itemscope" itemtype="https://schema.org/School"><div class="h-card vcard">        <div class="p-name fn org" itemprop="name">                <img            src="https://techlearningcollective.com/static/images/icon.chip.transparent.png"            alt=""            class="u-photo photo"            itemprop="image logo photo" />                <a href="https://techlearningcollective.com/" class="url" itemprop="url">Tech Learning Collective</a>    </div><!-- .p-name -->            <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">                <span class="p-locality locality" itemprop="addressLocality">New York</span>        <span class="p-region region" itemprop="addressRegion">NY</span>                <span class="p-country country" itemprop="addressCountry">United States</span>    </div><!-- .h-adr -->        </div><!-- .h-card --></li>
+
+        
+        </ul>
+    </section>
+    
+
+    
+    <section class="organizers">
+        <h2>Presented by</h2>
+        <ul>
+        
+            
+
+
+<li itemprop="organizer" itemscope="itemscope" itemtype="https://schema.org/School"><div class="h-card vcard">        <div class="p-name fn org" itemprop="name">                <img            src="https://techlearningcollective.com/static/images/icon.chip.transparent.png"            alt=""            class="u-photo photo"            itemprop="image logo photo" />                <a href="https://techlearningcollective.com/" class="url" itemprop="url">Tech Learning Collective</a>    </div><!-- .p-name -->            <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">                <span class="p-locality locality" itemprop="addressLocality">New York</span>        <span class="p-region region" itemprop="addressRegion">NY</span>                <span class="p-country country" itemprop="addressCountry">United States</span>    </div><!-- .h-adr -->        </div><!-- .h-card --></li>
+
+        
+        </ul>
+    </section>
+    
+
+    <footer>
+        
+
+        
+    </footer>
+
+    
+    <meta itemprop="sameAs" content="https://gobrunch.com/events/35863" />
+    
+</article>
+</div><!-- .h-event -->
+
+    </li>
+
+</ol><!-- .h-events -->
+
+
+
+    
+
+
+<p><a href="/events/upcoming/">(View all upcoming events.)</a></p>
+
+
+
+</section>
+
+
+
+
+
 <section>
     <h1 id="testimonials">Testimonials</h1>
-    {% for t in featured_testimonials %}
-    {% include h-review.html review=t %}
-    {% endfor %}
-    <p>(<a href="{% link testimonials/index.md %}">Read all reviews</a>.)</p>
+    
+    
+<div class="h-review hreview"
+    itemscope="itemscope"
+    itemtype="https://schema.org/Review">
+    <h2 class="p-name summary" itemprop="name">&ldquo;I really appreciate the femme-friendly communications&rdquo;</h2>
+
+    <div class="p-author reviewer" itemprop="author">
+        <span>Read what</span>
+        
+
+
+
+
+
+
+
+
+
+
+<div class="h-card vcard">
+    
+    <div class="p-name fn" itemprop="name">
+
+        
+
+        <a href="https://marinaberio.net/" class="url" itemprop="url">Marina Berio</a>
+
+    </div><!-- .p-name -->
+    
+
+    
+
+    
+</div><!-- .h-card -->
+
+        had to say about
+        <span class="p-item item h-card vcard fn" itemprop="itemReviewed" itemscope="itemscope" itemtype="https://schema.org/School">
+            <span itemprop="name">Tech Learning Collective</span>
+        </span>
+        on
+        <abbr class="dtreviewed"
+            title="2019-12-02T21:19:00-05:00"
+            itemprop="datePublished">
+            December  2, 2019</abbr>:
+    </div>
+
+    <blockquote class="e-content description" itemprop="description"><p>When I attended <a href="/workshops/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail">Tech Learning Collective’s “Securing Email” PGP workshop</a>, I was expecting more of a simple how-to, but the instructor was detailed and informative, and went deeper to show us what encryption really is, how keys work, and where to find more information. The workshop was thorough but unintimidating and the instructor did a good job of checking the group’s temperature and staying in tune with our respective paces of learning and skill set. Also I <em>really</em> appreciate the femme-friendly communications and price structure.</p>
+</blockquote>
+
+    
+</div>
+
+    
+    
+<div class="h-review hreview"
+    itemscope="itemscope"
+    itemtype="https://schema.org/Review">
+    <h2 class="p-name summary" itemprop="name">&ldquo;immensely helpful&hellip;tools that I could use in everyday life&rdquo;</h2>
+
+    <div class="p-author reviewer" itemprop="author">
+        <span>Read what</span>
+        
+
+
+
+
+
+
+
+
+
+
+<div class="h-card vcard">
+    
+    <div class="p-name fn" itemprop="name">
+
+        
+
+        Mad Penny
+
+    </div><!-- .p-name -->
+    
+
+    
+
+    
+</div><!-- .h-card -->
+
+        had to say about
+        <span class="p-item item h-card vcard fn" itemprop="itemReviewed" itemscope="itemscope" itemtype="https://schema.org/School">
+            <span itemprop="name">Tech Learning Collective</span>
+        </span>
+        on
+        <abbr class="dtreviewed"
+            title="2019-10-29T14:30:00-04:00"
+            itemprop="datePublished">
+            October 29, 2019</abbr>:
+    </div>
+
+    <blockquote class="e-content description" itemprop="description"><p>The <a href="/workshops/Digital-Defenses-for-the-People-Practical-Digital-Security">Practical Digital Security</a> workshop [I attended] was immensely helpful. It provided me with a sense of calm, explained different levels of threat, and left me with tools that I could use in everyday life. The class not only helped me as an individual, but in ways I could share with my work, friends, and family. The teaching style was informative and engaging. It was a very well-spent Saturday!</p>
+</blockquote>
+
+    
+</div>
+
+    
+    
+<div class="h-review hreview"
+    itemscope="itemscope"
+    itemtype="https://schema.org/Review">
+    <h2 class="p-name summary" itemprop="name">&ldquo;cogent, concise, and free of unnecessary technical jargon&rdquo;</h2>
+
+    <div class="p-author reviewer" itemprop="author">
+        <span>Read what</span>
+        
+
+
+
+
+
+
+
+
+
+
+<div class="h-card vcard">
+    
+    <div class="p-name fn" itemprop="name">
+
+        
+
+        Hilts
+
+    </div><!-- .p-name -->
+    
+
+    
+
+    
+</div><!-- .h-card -->
+
+        had to say about
+        <span class="p-item item h-card vcard fn" itemprop="itemReviewed" itemscope="itemscope" itemtype="https://schema.org/School">
+            <span itemprop="name">Tech Learning Collective</span>
+        </span>
+        on
+        <abbr class="dtreviewed"
+            title="2019-11-28T15:34:00-05:00"
+            itemprop="datePublished">
+            November 28, 2019</abbr>:
+    </div>
+
+    <blockquote class="e-content description" itemprop="description"><p><a href="/workshops/Securing-Email-Protecting-Everyday-Communications-from-GMail-to-ProtonMail">TLC’s workshop on securing email</a> was very well organized and easy to follow. At every step of the way during demonstrations, actions taken were clearly explained along with their intended purpose. The instructor’s delivery was cogent, concise, and free of unnecessary technical jargon. The instructor facilitated an informative conversation with attendees about encryption and related issues. This workshop provided a convincing case for using encryption and demonstrated how easily it can be implemented. I look forward to setting up encryption for my personal communications and reaping the benefits.</p>
+</blockquote>
+
+    
+</div>
+
+    
+    
+<div class="h-review hreview"
+    itemscope="itemscope"
+    itemtype="https://schema.org/Review">
+    <h2 class="p-name summary" itemprop="name">&ldquo;simply so illuminating&rdquo;</h2>
+
+    <div class="p-author reviewer" itemprop="author">
+        <span>Read what</span>
+        
+
+
+
+
+
+
+
+
+
+
+<div class="h-card vcard">
+    
+    <div class="p-name fn" itemprop="name">
+
+        
+
+        Alex C.
+
+    </div><!-- .p-name -->
+    
+
+    
+
+    
+</div><!-- .h-card -->
+
+        had to say about
+        <span class="p-item item h-card vcard fn" itemprop="itemReviewed" itemscope="itemscope" itemtype="https://schema.org/School">
+            <span itemprop="name">Tech Learning Collective</span>
+        </span>
+        on
+        <abbr class="dtreviewed"
+            title="2019-11-06T15:52:00-05:00"
+            itemprop="datePublished">
+            November  6, 2019</abbr>:
+    </div>
+
+    <blockquote class="e-content description" itemprop="description"><p>I knew that I have a lot to learn about digital security and online privacy, but I didn’t know exactly what I had to learn, or how to start. After I took Tech Learning Collective’s <a href="/workshops/Signal-and-Surveillance-How-to-Exercise-Digital-Civil-Liberties-in-a-Surveillance-State">Signal and Surveillance workshop</a>, though, the things I didn’t know that I didn’t know became a lot clearer. At the same time, the workshop got me jazzed to take other courses from them. It was simply so illuminating!</p>
+</blockquote>
+
+    
+</div>
+
+    
+    <p>(<a href="/testimonials/">Read all reviews</a>.)</p>
 </section><!-- #featured-testimonials -->
-{% endif %}
+
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

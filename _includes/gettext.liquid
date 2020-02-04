@@ -1,6 +1,0 @@
-{%- include globals.liquid -%}
-{{-
-    site.data.strings[lang][include.key]
-    | default: site.data.strings[site.lang][include.key]
-    | replace: "%s", include.var
--}}

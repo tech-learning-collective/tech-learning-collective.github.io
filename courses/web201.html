@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Coding Advanced Web Designs: Web Browser as App Platform &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    
+    <link rel="prev" href="/courses/web101.html" />
+
+    <meta itemprop="name" content="Coding Advanced Web Designs: Web Browser as App Platform &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/courses/web201.html" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Coding Advanced Web Designs: Web Browser as App Platform" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Using the built-in features of modern Web browsers and their support for technologies like CSS3, a single HTML document can simultaneously be a scrollable and interactive presentation when viewed online, a picture-perfect paper brochure when printed, and even an installed app when launched from your smartphone’s home screen. Moreover, the Web as we know it today could not do what it does without a plethora of additional technologies like SVG for resolution-independent imagery or RSS and Atom for syndicated articles from blogs and news outlets. These alternate document formats and markup languages can be styled, tweaked, and customized using CSS, and CSS in turn borrows some of its more advanced features like animations, graphical filters, and modern layout concepts from those XML-based formats." />
+<meta property="og:description" content="Using the built-in features of modern Web browsers and their support for technologies like CSS3, a single HTML document can simultaneously be a scrollable and interactive presentation when viewed online, a picture-perfect paper brochure when printed, and even an installed app when launched from your smartphone’s home screen. Moreover, the Web as we know it today could not do what it does without a plethora of additional technologies like SVG for resolution-independent imagery or RSS and Atom for syndicated articles from blogs and news outlets. These alternate document formats and markup languages can be styled, tweaked, and customized using CSS, and CSS in turn borrows some of its more advanced features like animations, graphical filters, and modern layout concepts from those XML-based formats." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/static/images/icon.chip.blue.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-03T22:21:33-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/static/images/icon.chip.blue.png" />
+<meta property="twitter:title" content="Coding Advanced Web Designs: Web Browser as App Platform" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"Using the built-in features of modern Web browsers and their support for technologies like CSS3, a single HTML document can simultaneously be a scrollable and interactive presentation when viewed online, a picture-perfect paper brochure when printed, and even an installed app when launched from your smartphone’s home screen. Moreover, the Web as we know it today could not do what it does without a plethora of additional technologies like SVG for resolution-independent imagery or RSS and Atom for syndicated articles from blogs and news outlets. These alternate document formats and markup languages can be styled, tweaked, and customized using CSS, and CSS in turn borrows some of its more advanced features like animations, graphical filters, and modern layout concepts from those XML-based formats.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/static/images/icon.chip.blue.png","headline":"Coding Advanced Web Designs: Web Browser as App Platform","url":"/courses/web201.html","dateModified":"2020-02-03T22:21:33-05:00","datePublished":"2020-02-03T22:21:33-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/courses/web201.html"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(55, 43, 251, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(55, 43, 251, 1), rgba(55, 43, 251, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(55, 43, 251, 1), rgba(55, 43, 251, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(55, 43, 251, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(55, 43, 251, 1);
+}
+</style>
+
+
+</head>
+
+<body class="course">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Coding Advanced Web Designs: Web Browser as App Platform</h2>
+    <img class="course-poster"
+    alt=""
+    src="/static/images/poster.web201.png"
+/>
+<ul>
+    <li>Number of classes in course: 4</li>
+    <li>Typical class duration: 3 hours</li>
+    <li>Full tuition: $850</li>
+    <li>Typical tuition ranges with <a href="/pricing/#financial-aid">sliding scale financial aid</a>: $212&ndash;$485</li>
+</ul>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831=WEB201" class="button">Apply for pre-enrollment in WEB201</a>
+<p>Using the built-in features of modern Web browsers and their support for technologies like CSS3, a single HTML document can simultaneously be a scrollable and interactive presentation when viewed online, a picture-perfect paper brochure when printed, and even an installed app when launched from your smartphone’s home screen. Moreover, the Web as we know it today could not do what it does without a plethora of additional technologies like SVG for resolution-independent imagery or RSS and Atom for syndicated articles from blogs and news outlets. These alternate document formats and markup languages can be styled, tweaked, and customized using CSS, and CSS in turn borrows some of its more advanced features like animations, graphical filters, and modern layout concepts from those XML-based formats.</p>
+
+<p>Building on the fundamentals introduced in <a href="/courses/web101.html">WEB101</a>, students in this course will take their Web design and development skills to the next level by mastering modern design techniques such as the Flexbox and Grid Layout CSS3 modules, Web Fonts, CSS-based animations, transitions, filter effets, and more. We will also thoroughly cover the Scalable Vector Graphics XML dialect, which is increasingly found embedded directly into Web pages. By the end of this course, students will have added techniques and technologies to their toolkit beyond mere HTML for a much broader view of what “the Web” is and what they can do with it.</p>
+
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

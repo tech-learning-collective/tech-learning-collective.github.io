@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Radical Infrastructure: Your First Physical Server &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="/static/css/event-flyer.css" media="print" />
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/events/2019/10/workshop-2019-10-10-open-doors-introduction-to-the-art-of-lockpicking" />
+    <link rel="prev" href="/events/2019/09/workshop-2019-09-15-exploring-cyberspace-network-sniffing-and-scanning" />
+
+    <meta itemprop="name" content="Radical Infrastructure: Your First Physical Server &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/events/2019/09/workshop-2019-09-21-radical-infrastructure-your-first-physical-server" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Radical Infrastructure: Your First Physical Server" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The Tech Learning Collective invites you to join us for Radical Infrastructure: Your First Physical Server, a full day intensive workshop that will get you up and running with your own server that you can administer from anywhere in the world. This one-day class combines material from several TLC courses (SYS101, NET101, and SEC101) into a single project-based exercise in which you will build, install, and configure your own server, from the ground up:" />
+<meta property="og:description" content="The Tech Learning Collective invites you to join us for Radical Infrastructure: Your First Physical Server, a full day intensive workshop that will get you up and running with your own server that you can administer from anywhere in the world. This one-day class combines material from several TLC courses (SYS101, NET101, and SEC101) into a single project-based exercise in which you will build, install, and configure your own server, from the ground up:" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/static/images/workshop.radical-infrastructures.your-first-physical-server.rectangle.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-09-21T13:00:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/static/images/workshop.radical-infrastructures.your-first-physical-server.rectangle.png" />
+<meta property="twitter:title" content="Radical Infrastructure: Your First Physical Server" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"description":"The Tech Learning Collective invites you to join us for Radical Infrastructure: Your First Physical Server, a full day intensive workshop that will get you up and running with your own server that you can administer from anywhere in the world. This one-day class combines material from several TLC courses (SYS101, NET101, and SEC101) into a single project-based exercise in which you will build, install, and configure your own server, from the ground up:","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@type":"BlogPosting","image":"/static/images/workshop.radical-infrastructures.your-first-physical-server.rectangle.png","headline":"Radical Infrastructure: Your First Physical Server","url":"/events/2019/09/workshop-2019-09-21-radical-infrastructure-your-first-physical-server","dateModified":"2019-09-21T13:00:00-04:00","datePublished":"2019-09-21T13:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/events/2019/09/workshop-2019-09-21-radical-infrastructure-your-first-physical-server"},"author":{"@type":"Person","name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(126, 0, 152, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(126, 0, 152, 1), rgba(126, 0, 152, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(126, 0, 152, 1), rgba(126, 0, 152, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(126, 0, 152, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(126, 0, 152, 1);
+}
+</style>
+
+
+</head>
+
+<body class="event">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+
+
+
+
+
+
+
+
+
+<div class="h-event vevent">
+<article itemscope="itemscope" itemtype="https://schema.org/Event">
+    <header>
+
+        <a href="/events/2019/09/workshop-2019-09-21-radical-infrastructure-your-first-physical-server" class="u-url url" itemprop="url">
+            <h2 class="p-summary summary p-name" itemprop="name">
+                    Radical Infrastructure: Your First Physical Server
+            </h2>
+            <img src="/static/images/workshop.radical-infrastructures.your-first-physical-server.rectangle.png" alt="" itemprop="image" />
+        </a>
+        <ul class="event-meta">
+            <li class="event-datetime">
+                <abbr class="dt-start dtstart" title="2019-09-21T13:00:00-04:00">
+                    <span>September 21, 2019</span>
+                    <span> 1:00 PM</span>
+                </abbr>
+                &ndash;
+                <abbr class="dt-end dtend" title="2019-09-21T20:00:00-04:00">
+                    <span>September 21, 2019</span>
+                    <span> 8:00 PM</span>
+                </abbr>
+                <meta itemprop="startDate" content="2019-09-21T13:00:00-04:00" />
+                <meta itemprop="endDate" content="2019-09-21T20:00:00-04:00" />
+            </li><!-- .event-datetime -->
+            
+            <li class="p-location location" itemprop="location" itemscope="itemscope" itemtype="https://schema.org/NGO">
+                
+                
+
+
+
+
+
+
+
+
+
+
+<div class="h-card vcard">
+    
+    <div class="p-name fn org" itemprop="name">
+
+        
+        <img
+            src="https://images.squarespace-cdn.com/content/5b5b68c05ffd20964c1bb95e/1559837089204-NW733PSMLSASUW3D9IHW/TAlogotransparaentblack.png?format=1500w&content-type=image%2Fpng"
+            alt=""
+            class="u-photo photo"
+            itemprop="image logo photo" />
+        
+
+        <a href="https://www.triangleartsnyc.org/" class="url" itemprop="url">Triangle Arts Association</a>
+
+    </div><!-- .p-name -->
+    
+
+    
+    <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">
+        <span class="p-street-address street-address" itemprop="streetAddress">20 Jay Street, Suite 317</span>
+        <span class="p-locality locality" itemprop="addressLocality">Brooklyn</span>
+        <span class="p-region region" itemprop="addressRegion">NY</span>
+        <span class="p-postal-code postal-code" itemprop="postalCode">11201</span>
+        <span class="p-country country" itemprop="addressCountry">United States</span>
+    </div><!-- .h-adr -->
+    
+
+    
+    <meta itemprop="maximumAttendeeCapacity" content="15" />
+    
+</div><!-- .h-card -->
+
+                
+            </li><!-- .p-location -->
+            <li class="event-status">
+                Status:
+
+<span class="status">
+
+CONFIRMED
+    
+    <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+    
+
+</span>
+
+            </li>
+        </ul>
+    </header>
+
+    <section class="offers">
+
+        
+
+        
+        
+        <h2 id="tickets-workshop-2019-09-21-radical-infrastructure-your-first-physical-server">Tickets</h2>
+        
+        <ul itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/AggregateOffer">
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.artful.ly/store/events/18622" itemprop="url">
+        <span itemprop="name">Workshop Ticket</span>
+        <span class="currency-symbol">$</span><span itemprop="price">150</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2019-09-21T13:00:00-04:00" />
+    
+</div>
+
+        </li>
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.artful.ly/store/events/18622" itemprop="url">
+        <span itemprop="name">Reduced price Workshop Ticket (for queer and femme folks)</span>
+        <span class="currency-symbol">$</span><span itemprop="price">99</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2019-09-21T13:00:00-04:00" />
+    
+</div>
+
+        </li>
+        
+        </ul>
+        <p><small>Prices shown may exclude nominal handling fees.</small></p>
+
+        
+        
+        <p><small><a href="#tickets-fallback-event-workshop-2019-09-21-radical-infrastructure-your-first-physical-server">Problems with your RSVP?</a></small></p>
+        <div id="tickets-fallback-event-workshop-2019-09-21-radical-infrastructure-your-first-physical-server" class="tickets-fallback">
+            <p>Use these fallback links if you are having trouble using our automated ticketing system. Please allow an extra 24 hours for your RSVP to be confirmed. Amounts shown do not include a nominal processing fee.</p>
+            <p>If you have any further problems, please <a href="/contact/">contact us</a> to let us know!</p>
+            <ul itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/AggregateOffer">
+            
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=150&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Radical+Infrastructure%3A+Your+First+Physical+Server+-+Workshop+Ticket&amp;item_number=workshop-2019-09-21-radical-infrastructure-your-first-physical-server&amp;no_shipping=0&amp;rm=0&amp;return=%2Fevents%2F2019%2F09%2Fworkshop-2019-09-21-radical-infrastructure-your-first-physical-server%23tickets-fallback-event-thank-you-workshop-2019-09-21-radical-infrastructure-your-first-physical-server&amp;cancel_return=%2Fevents%2F2019%2F09%2Fworkshop-2019-09-21-radical-infrastructure-your-first-physical-server%23tickets-fallback-event-cancelled-workshop-2019-09-21-radical-infrastructure-your-first-physical-server&amp;custom=%5B%22Handling+fee%3A+3%22%2C%22Original+Offer+URL%3A+https%3A%2F%2Fwww.artful.ly%2Fstore%2Fevents%2F18622%22%5D" itemprop="url">
+        <span itemprop="name">Workshop Ticket</span>
+        <span class="currency-symbol">$</span><span itemprop="price">150</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2019-09-21T13:00:00-04:00" />
+    
+</div>
+
+            </li>
+            
+            <li>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=99&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Radical+Infrastructure%3A+Your+First+Physical+Server+-+Reduced+price+Workshop+Ticket+%28for+queer+and+femme+folks%29&amp;item_number=workshop-2019-09-21-radical-infrastructure-your-first-physical-server&amp;no_shipping=0&amp;rm=0&amp;return=%2Fevents%2F2019%2F09%2Fworkshop-2019-09-21-radical-infrastructure-your-first-physical-server%23tickets-fallback-event-thank-you-workshop-2019-09-21-radical-infrastructure-your-first-physical-server&amp;cancel_return=%2Fevents%2F2019%2F09%2Fworkshop-2019-09-21-radical-infrastructure-your-first-physical-server%23tickets-fallback-event-cancelled-workshop-2019-09-21-radical-infrastructure-your-first-physical-server&amp;custom=%5B%22Handling+fee%3A+3%22%2C%22Original+Offer+URL%3A+https%3A%2F%2Fwww.artful.ly%2Fstore%2Fevents%2F18622%22%5D" itemprop="url">
+        <span itemprop="name">Reduced price Workshop Ticket (for queer and femme folks)</span>
+        <span class="currency-symbol">$</span><span itemprop="price">99</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2019-09-21T13:00:00-04:00" />
+    
+</div>
+
+            </li>
+            
+            </ul>
+        </div>
+        
+
+        <div id="tickets-fallback-event-thank-you-workshop-2019-09-21-radical-infrastructure-your-first-physical-server" class="tickets-fallback">
+            <p>Thank you for your order! We have received your information, but <strong>please allow an extra 24 hours for your order to be confirmed</strong> in our ticketing system.</p>
+            <p>If the event to which you RSVP&rsquo;s is in less than 24 hours, please bring your payment receipt with you!</p>
+        </div>
+        <div id="tickets-fallback-event-cancelled-workshop-2019-09-21-radical-infrastructure-your-first-physical-server" class="tickets-fallback">
+            <p>Your order has been cancelled.</p>
+        </div>
+        
+
+    </section><!-- .offers -->
+
+    
+    <section itemprop="description">
+        <h2>Event description</h2>
+        <div class="p-description description">
+            <p>The Tech Learning Collective invites you to join us for <em>Radical Infrastructure: Your First Physical Server</em>, a full day intensive workshop that will get you up and running with your own server that you can administer from anywhere in the world. This one-day class combines material from several TLC courses (<a href="/courses/sys101.html">SYS101</a>, <a href="/courses/net101.html">NET101</a>, and <a href="/courses/sec101.html">SEC101</a>) into a single project-based exercise in which you will build, install, and configure your own server, from the ground up:</p>
+
+<blockquote>
+  <p>Today, the first step in effective radical organizing is often escaping from the surveillance economy by using alternatives to popular online services such as Google’s GMail for email and Facebook’s Messenger for instant messaging. However, simply jumping to another company’s equivalent product is like moving your money out of one too-big-to-fail bank into another; it’s a lateral move at best. Thankfully, it’s way easier to start (or find) organizations that run alternative digital infrastructures than it is to start a new bank.</p>
+
+  <p>In this workshop, you’ll be guided through the first steps of setting up just such an alternative infrastructure capable of providing a plethora of digital services to hundreds or even thousands of people. Since every app you use ultimately relies on a physical computer somewhere in the world offering services, that’s where we’ll start: plugging a server into a power outlet. From there, we’ll install an Operating System, learn the basics of remote administration over SSH, and start choosing services to run on our new server. By starting at the ground level, you can see for yourself exactly how tools like Google Calendar or <a href="https://signal.org/">Signal</a> actually work—and how easy they are to replicate for free on the scale of a community or neighborhood network.</p>
+
+  <p>Moreover, one of the best-kept secrets in tech is that most off-the-shelf computers can function remarkably well as servers. For example, the Raspberry Pi is one great example of such a device that cash-strapped advocacy groups can use to astonishingly powerful ends if only they had the know-how. (A single Raspberry Pi device retails for $35 USD!) This means that most small- to mid-sized organizations of a dozen to several hundred people can have their own truly self-owned and self-operated server infrastructures, completely independent from the Googles and Facebooks of the world, for only a few dozen dollars.</p>
+
+  <p>Whether you or your group is using messagers like WhatsApp, publishing blog posts with WordPress, or using other coordination tools like online maps, ultimately, you’re using someone’s computer. Do you know whose computer you’re using? Do you know where your servers are? Knowing exactly where your data lives is a critical step on the path towards true autonomy, and by the end of this workshop you’ll be well on your way to operating your own fleet of devices with which to replace your reliance on the corporate “cloud.”</p>
+</blockquote>
+
+<p><strong>Tickets</strong> are sold on a first-come, first-served basis and are only available via <a href="https://www.artful.ly/store/events/18622">our online storefront</a>. We are offering a 33% discounted price ticket to this class for queer-identified and femme folks to help offset systemic biases.</p>
+
+<ul>
+  <li><a href="https://www.artful.ly/store/events/18622">$150 - General admissions Workshop Ticket</a></li>
+  <li><a href="https://www.artful.ly/store/events/18622">$99 - Reduced price Workshop Ticket for queer-identified and femme folks</a></li>
+</ul>
+
+<p>Class space is limited to 15 students! <a href="https://www.artful.ly/store/events/18622">Purchase your ticket now to reserve your spot</a>.</p>
+
+<p><strong>Equipment</strong> will be provided in limited quantity for demo and exercise purposes only. We will have some Raspberry Pi devices that you can practice with, but if you want to leave class with your own physical server that you can install in your home, venue, or organizing space, you will need to purchase a hardware device to keep. We recommend <a href="https://www.adafruit.com/product/3775">purchasing a Raspberry Pi from AdaFruit</a>, along with the required peripheral hardware to complete the project at home: <a href="https://www.adafruit.com/product/1995">a power supply</a>, an <a href="https://www.adafruit.com/product/1294">8GB or larger SD card (hard disk)</a>, an SD card reader/writer compatible with your laptop, a generic USB keyboard (and optionally a USB mouse), an HDMI video cable, and an HDMI-capable video monitor.</p>
+
+<p>If you’re not ready or able to purchase a Raspberry Pi, <em>you can still participate with just your laptop</em> because we will also be covering how to create virtual machines in software to simulate real hardware. This technique makes it possible to start learning the fundamentals without needing to make any additional hardware purchases. Feel free to <a href="/contact/">contact us</a> if you have any further questions.</p>
+
+<p>As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior <em>will</em> result in immediate removal from class without a refund. Please refer to <a href="https://github.com/AnarchoTechNYC/meta/wiki/Social-rules">our lightweight social rules</a> for details on our strictly enforced no-tolerance policy against bigotry of any kind.</p>
+
+<h2 id="about-the-tech-learning-collective">About the Tech Learning Collective</h2>
+
+<p>Tech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia, Information Technology, and radical political practice. We offer unparalleled free, by-donation, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll, visit <a href="/">TechLearningCollective.com</a>.</p>
+        </div><!-- .p-description -->
+    </section>
+    
+
+    
+    <section class="performances">
+        <h2>Performances by</h2>
+        <ul>
+        
+            
+
+
+<li itemprop="performer" itemscope="itemscope" itemtype="https://schema.org/School"><div class="h-card vcard">        <div class="p-name fn org" itemprop="name">                <img            src="https://techlearningcollective.com/static/images/icon.chip.transparent.png"            alt=""            class="u-photo photo"            itemprop="image logo photo" />                <a href="https://techlearningcollective.com/" class="url" itemprop="url">Tech Learning Collective</a>    </div><!-- .p-name -->            <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">                <span class="p-locality locality" itemprop="addressLocality">New York</span>        <span class="p-region region" itemprop="addressRegion">NY</span>                <span class="p-country country" itemprop="addressCountry">United States</span>    </div><!-- .h-adr -->        </div><!-- .h-card --></li>
+
+        
+        </ul>
+    </section>
+    
+
+    
+    <section class="organizers">
+        <h2>Presented by</h2>
+        <ul>
+        
+            
+
+
+<li itemprop="organizer" itemscope="itemscope" itemtype="https://schema.org/School"><div class="h-card vcard">        <div class="p-name fn org" itemprop="name">                <img            src="https://techlearningcollective.com/static/images/icon.chip.transparent.png"            alt=""            class="u-photo photo"            itemprop="image logo photo" />                <a href="https://techlearningcollective.com/" class="url" itemprop="url">Tech Learning Collective</a>    </div><!-- .p-name -->            <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">                <span class="p-locality locality" itemprop="addressLocality">New York</span>        <span class="p-region region" itemprop="addressRegion">NY</span>                <span class="p-country country" itemprop="addressCountry">United States</span>    </div><!-- .h-adr -->        </div><!-- .h-card --></li>
+
+        
+        </ul>
+    </section>
+    
+
+    <footer>
+        
+        <p><a href="https://h2vx.com/ics/get-cal.php?uri=%2Fevents%2F2019%2F09%2Fworkshop-2019-09-21-radical-infrastructure-your-first-physical-server">Save this event to your calendar</a>.</p>
+        
+
+        
+    </footer>
+
+    
+    <meta itemprop="sameAs" content="https://www.artful.ly/store/events/18622" />
+    
+    <meta itemprop="sameAs" content="https://www.meetup.com/New-York-Cryptoparty-Network/events/263782683/" />
+    
+    <meta itemprop="sameAs" content="https://nyc.civicaction.center/event/radical-infrastructures-your-first-physical-server" />
+    
+    <meta itemprop="sameAs" content="https://www.builtinnyc.com/node/57464" />
+    
+    <meta itemprop="sameAs" content="https://www.cityguideny.com/event/Triangle-Arts-Association-2019-09-21-2019-09-21" />
+    
+    <meta itemprop="sameAs" content="https://actionnetwork.org/events/radical-infrastructure-your-first-physical-server" />
+    
+</article>
+</div><!-- .h-event -->
+
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>

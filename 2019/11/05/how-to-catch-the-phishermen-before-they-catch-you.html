@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>How to start catching phishermen before they catch you &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/2019/11/28/hackers-next-door-featured-on-its-going-down-podcast-this-is-america-episode-97.html" />
+    <link rel="prev" href="/2019/11/01/press-release-hackers-next-door-2019.html" />
+
+    <meta itemprop="name" content="How to start catching phishermen before they catch you &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/2019/11/05/how-to-catch-the-phishermen-before-they-catch-you.html" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="How to start catching phishermen before they catch you" />
+<meta name="author" content="Anarcho-Tech NYC" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Remember, remember the tech antifa on the fifth of November! Antifa activists defend against the rise or spread of fascism by combating threats to anti-fascist groups, anti-racist organizers, and others for whom fascist groups pose a clear and present danger. The NYC chapter of the Anarcho-Tech Collective provides computer training for activists and advocacy groups, direct assistance with digital components of advocacy efforts, and private audits of an ally’s security posture when requested. At Tech Learning Collective’s Hackers Next Door conference in December and in this blog post, anonymous members from Anarcho-Tech NYC will show you how attackers work and think so you know how to first spot and then stop them in their tracks." />
+<meta property="og:description" content="Remember, remember the tech antifa on the fifth of November! Antifa activists defend against the rise or spread of fascism by combating threats to anti-fascist groups, anti-racist organizers, and others for whom fascist groups pose a clear and present danger. The NYC chapter of the Anarcho-Tech Collective provides computer training for activists and advocacy groups, direct assistance with digital components of advocacy efforts, and private audits of an ally’s security posture when requested. At Tech Learning Collective’s Hackers Next Door conference in December and in this blog post, anonymous members from Anarcho-Tech NYC will show you how attackers work and think so you know how to first spot and then stop them in their tracks." />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-11-05T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png" />
+<meta property="twitter:title" content="How to start catching phishermen before they catch you" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Anarcho-Tech NYC" />
+<script type="application/ld+json">
+{"description":"Remember, remember the tech antifa on the fifth of November! Antifa activists defend against the rise or spread of fascism by combating threats to anti-fascist groups, anti-racist organizers, and others for whom fascist groups pose a clear and present danger. The NYC chapter of the Anarcho-Tech Collective provides computer training for activists and advocacy groups, direct assistance with digital components of advocacy efforts, and private audits of an ally’s security posture when requested. At Tech Learning Collective’s Hackers Next Door conference in December and in this blog post, anonymous members from Anarcho-Tech NYC will show you how attackers work and think so you know how to first spot and then stop them in their tracks.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/static/images/icon.chip.blue.png"},"name":"Anarcho-Tech NYC"},"@type":"BlogPosting","image":"/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png","headline":"How to start catching phishermen before they catch you","url":"/2019/11/05/how-to-catch-the-phishermen-before-they-catch-you.html","dateModified":"2019-11-05T00:00:00-05:00","datePublished":"2019-11-05T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2019/11/05/how-to-catch-the-phishermen-before-they-catch-you.html"},"author":{"@type":"Person","name":"Anarcho-Tech NYC"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(55, 43, 251, 1);
+}
+body.page header {
+    position: relative;
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(55, 43, 251, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(55, 43, 251, 1);
+}
+</style>
+
+
+</head>
+
+<body class="post">
+    <header>
+        <h1><a href="">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main style="column-count: 1; overflow: unset; max-height: unset;">
+        
+<article id="post-2019-11-05-how-to-catch-the-phishermen-before-they-catch-you" class="h-entry hentry">
+    <header>
+        <time class="dt-published published" datetime="2019-11-05T00:00:00-05:00">November  5, 2019</time>
+        <h1 class="p-name entry-title">
+            <a href="/2019/11/05/how-to-catch-the-phishermen-before-they-catch-you.html" class="u-url">How to start catching phishermen before they catch you</a>
+        </h1>
+        
+        <p class="ByLine">
+            By
+            
+                <span class="p-author">Anarcho-Tech NYC</span>
+                
+            
+        </p>
+        
+    </header>
+
+    
+    <img src="/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png" alt="" class="u-featured" />
+    
+
+    <div class="e-content entry-content">
+        <p><em>Editor’s note: This is a guest post by Anarcho-Tech NYC, who will be presenting at Tech Learning Collective’s year-end event, the <a href="https://hnd.techlearningcollective.com/speakers/#anarcho-tech-nyc">Hackers Next Door 2019 conference</a>. Tech Learning Collective is excited to include them on the program this year and to have this opportunity to learn more about their work. Be sure to <a href="https://hnd.techlearningcollective.com/tickets/">get your con tickets</a> today so you don’t miss your chance to see them speak at the conference in December!</em></p>
+
+<p>As part of the “tech antifa,” one of Anarcho-Tech NYC’s missions is defending against the rise or spread of fascism in New York City and the surrounding area. In addition to digital security education, members of our collective often conduct security assessments of an allied group’s cybersecurity posture. When asked, we take a look at how easy it might be to infiltrate antifa communications channels such as secret or closed Facebook groups, Signal threads, e-mail listserves, and more.</p>
+
+<h2 id="how-attackers-go-phishing">How attackers go phishing</h2>
+
+<p>Perhaps unsurprisingly, the weakest link is often <em>not</em> the communication tools activists use, like Facebook groups—although if you don’t consider Facebook an enemy of fascism, we have some deeper concerns about your organizing principles. Rather, the weak point in their security is how they use those tools. It’s surprisingly difficult to get activists to pay close enough attention to the warning signs of an attack as it’s happening, probably because even though most antifa know how to throw and defend against a punch, they don’t have any equivalent experience while using their computer.</p>
+
+<p>In other words, breaking into Facebook or GMail is far harder than tricking you into giving us your Facebook or Google Account password. Bad operational security (“OPSEC”) practices like sharing passwords insecurely are forgivable if the people involved don’t have any cybersecurity education, but activist groups need to start taking online safety seriously if they ever hope to be effective organizing forces.</p>
+
+<p>One of the easiest and most common ways attackers get username and password combinations for other people’s accounts is by getting their targets to try to log in to “spoofed” websites. These are websites that look similar enough to the legitimate website to make the target believe they truly are logging in at the correct place when in fact the site they’re logging in to is actually a fake controlled by the attacker. Once the target types their password into a look-alike website instead of the real one, the game is over and the attacker wins.</p>
+
+<p>This technique, called <em>phishing</em>, has become so prevalent that according to several cybersecurity companies there are now more than one and a half million <em>phishing websites</em> launched every month. Of course, most of these phishing sites are not targeting <em>your</em> domains. Instead, they’re creating fake PayPal, Facebook, or other big-name websites. And believe it or not, it’s just as easy to spoof Facebook’s login page as it is to spoof the login page for your group’s website.</p>
+
+<p>In <a href="https://hnd.techlearningcollective.com/events/gone-phishing-recognize-online-entrapment-and-other-scams-by-learning-how-to-launch-your-own-phishing-attack-website">one of our <em>Hackers Next Door</em> conference sessions, “Gone Phishing: Recognize Online Entrapment and Other Scams by Learning How to Launch Your Own Phishing Attack Website,”</a> we’ll show you step-by-step how we can compromise the Facebook and social media accounts of our fellow activists by using this same technique. Our goal is to make sure you’ve been exposed to all the dirty tricks attackers try to play to get you to give them your account credentials.</p>
+
+<p>In this post, we’re going to take it one step further and briefly explain how your organization can easily and freely monitor the Internet for signs that phishermen—and yes, the kinds of people who attack anti-fascist and anti-racist activists are usually men—are preparing to go after your members. This advanced defensive technique relies on watching a public ledger called the <a href="https://www.certificate-transparency.org/what-is-ct">Certificate Transparency Log (CTL)</a> for suspicious issuances of website security certificates and is particularly helpful for groups that maintain their own domain name.</p>
+
+<h2 id="what-is-the-certificate-transparency-log">What is the Certificate Transparency Log?</h2>
+
+<p><img src="https://www.certificate-transparency.org/_/rsrc/1472780090452/what-is-ct/ct_intro_system.png" alt="Interaction between CT log servers, monitors, and auditors." style="float: right; margin-left: 1em; width: 25%;" /></p>
+
+<p>Most of the time, to successfully spoof a target website an attacker needs to first get a security certificate for the website in question. This website security certificate, called a Transport Layer Security (TLS) certificate, is what your Web browser is checking for whenever it shows the padlock icon indicating that you’re visiting a “secured” (HTTPS) website. Each time you load a secured Web page (using HTTPS), your browser compares the domain name of the page you loaded with the domain name embedded in the security certificate. If they match, you see the lock icon. If they don’t, you see a security error page instead of the page you were in the process of loading, and alarm bells start going off.</p>
+
+<p>In order to fool you into thinking that you’re loading your own website’s secured pages, attackers have to get look-alike security certificates. For example, if you run a WordPress site at <code class="language-plaintext highlighter-rouge">exampleactivist.com</code>, then an attacker might try getting a certificate for <code class="language-plaintext highlighter-rouge">exampleactivist.com-wp-login-php.com</code>. This is a completely different website, but after merely a glance at the URL bar, the difference between the URL of the login page to your WordPress blog (<code class="language-plaintext highlighter-rouge">exampleactivist.com/wp-login.php</code>) and the domain of the phishing site (<code class="language-plaintext highlighter-rouge">exampleactivist.com-wp-login-php.com</code>) might not immediately stand out to you. This is doubly true if you’ve only been taught to pay attention to the healthy-looking padlock icon.</p>
+
+<p>Thankfully, each time a website security certificate is issued by reputable companies, that company records its issuance in a public ledger called the Certificate Transparency Log (CTL). The CTL is a decentralized database, not unlike the BitCoin public ledger. In fact, the implementations of both BitCoin and the Certificate Transparency Log are closely related to the much-hyped “blockchain” technology. The purpose of the CTL is to create a publicly shared, append-only record of every single HTTPS website security certificate ever issued so that the entire Internet community (which includes you!) can see for themselves what domain names have been issued security certificates along with when and by whom those certificates were issued.</p>
+
+<h2 id="how-certificate-transparency-helps-catch-the-phishers">How Certificate Transparency helps catch the phishers</h2>
+
+<p>Under normal circumstances, you or your team should be the only ones requesting certificates for your domain. If you are monitoring the CTL and notice a certificate issued for your domain that you did <em>not</em> intend, you can be pretty sure something is wrong. Similarly, because the CTL gives you visibility into <em>every</em> security certificate issued across <em>every</em> domain name, you can search the log looking for certificates issued for domain names that look similar to your own or that match patterns often used to phish members of your group.</p>
+
+<p>Even better, since the log records certificate issuances in near real time, you can be alerted to a potential phishing site that is going to, but has not yet had the opportunity to actually, target your members. This lets you pre-emptively alert your group’s members that an attack is being prepared before it even gets a chance to phish you.</p>
+
+<h2 id="monitoring-the-ctl-for-suspicious-certificate-issuances">Monitoring the CTL for suspicious certificate issuances</h2>
+
+<p>Since the technology’s initial release in 2013, many Certificate Transparency monitoring tools have been developed. Perhaps the simplest is <a href="https://sslmate.com/certspotter/">SSLMate’s CertSpotter</a>. Simply sign-up with a free account and SSLMate will send you an email every time a new certificate for one of your domain names is issued. Unfortunately, the service limits you to monitoring a maximum of 5 domain names. To monitor more than five, you have to <a href="https://github.com/SSLMate/certspotter">self-host the CertSpotter code yourself</a>. This makes the free SSLMate service more useful for spotting duplicate certificates than it is for finding look-alike certs.</p>
+
+<p>For the latter case, we’ll use a free tool called <a href="https://github.com/x0rz/phishing_catcher">Phishing Catcher</a>, which itself relies on a free service called <a href="https://certstream.calidog.io/">CertStream</a>. The CertStream service is simply a firehose of all new certificates recorded in the CTL wrapped up in a simple to use Application Programming Interface (API). You don’t need to do any coding to use the service, though, because they also supply a command line tool (predictably named <code class="language-plaintext highlighter-rouge">certstream</code>) as well.</p>
+
+<p><img src="https://certstream.calidog.io/static/img/demo1.gif" alt="CertStream demo showing simple usage from a command line." style="width: 100%;" /></p>
+
+<p>Using the <code class="language-plaintext highlighter-rouge">certstream</code> command, you can get a running tally of every new TLS certificate recorded in the CTL.</p>
+
+<p>One of the very first things you’ll notice is that there are <em>a lot</em> of certificates being issued. Too many, in fact, to manually make sense of. This is where Phishing Catcher comes in.</p>
+
+<p>Phishing Catcher reads data from the same firehose, but scores each new record it sees using a simple algorithm to determine if that certificate is “suspicious.” If Phishing Catcher determines that the certificate is not suspicious, the record is ignored. Otherwise, the certificate is deemed either “potentially,” “likely,” or “suspiciously” similar to a possible phishing domain and gets logged to a file. At your earliest convenience, you can then examine this subset of issued certificates to see if they are indeed phishing domains that have been set up to target you.</p>
+
+<p>To use Phishing Catcher, you must have <a href="https://www.python.org/">Python</a> installed on your computer, and then you have to <a href="https://packaging.python.org/installing/">install the Python package management tool, <code class="language-plaintext highlighter-rouge">pip</code></a>. With those requirements satisfied, Phishing Catcher itself is a simple download from GitHub and a standard <code class="language-plaintext highlighter-rouge">pip</code> requirements installation invocation:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">git clone https://github.com/x0rz/phishing_catcher.git
+<span class="nb">cd </span>phishing_catcher
+python <span class="nt">-m</span> venv venv      <span class="c"># Optional, but nice.</span>
+<span class="nb">source </span>venv/bin/activate <span class="c"># Only necessary if you did the above.</span>
+pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt</code></pre></figure>
+
+<p>Once you have Phishing Catcher downloaded, you’ll want to edit its configuration file, <code class="language-plaintext highlighter-rouge">external.yaml</code>, to customize Phishing Catcher’s behavior for your needs. The tool loads sensible defaults from a second file (<code class="language-plaintext highlighter-rouge">suspicious.yaml</code>), but you can adjust or add to both the keywords it contains and the score assigned to each keyword by editing the <code class="language-plaintext highlighter-rouge">external.yaml</code> file. For example, in the default file, you’ll see a snippet like this:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="c1"># In file `suspicious.yaml`</span>
+<span class="na">keywords</span><span class="pi">:</span>
+    <span class="s1">'</span><span class="s">login'</span><span class="pi">:</span> <span class="s">25</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>Here, a score of 25 “suspicion points” is added to the TLS certificate record when the generic keyword <code class="language-plaintext highlighter-rouge">login</code> is found in its domain name. Increasing this value will raise the level of suspicion against domains with the string <code class="language-plaintext highlighter-rouge">login</code> in them, thus allowing you to subject these certificate issuances to increased scrutiny.</p>
+
+<p>Continuing from the example above, if you are running an activist group with the domain name <code class="language-plaintext highlighter-rouge">exampleactivist.com</code>, then you will probably want to add the string <code class="language-plaintext highlighter-rouge">exampleactivist</code> into Phishing Catcher’s <code class="language-plaintext highlighter-rouge">keywords</code> dictionary and give it a pretty high score by adding this string as a key to the <code class="language-plaintext highlighter-rouge">external.yaml</code> configuration file’s <code class="language-plaintext highlighter-rouge">keywords</code> dictionary:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="c1"># In file `external.yaml`</span>
+<span class="na">keywords</span><span class="pi">:</span>
+    <span class="s1">'</span><span class="s">exampleactivist'</span><span class="pi">:</span> <span class="s">60</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<p>You’ll also want to include certain permutations of your domain names common in phishing attacks, such as misspellings, letter transpositions (e.g., replacing <code class="language-plaintext highlighter-rouge">i</code>’s with <code class="language-plaintext highlighter-rouge">l</code>’s), and so on. (Have a look at tools like <a href="https://github.com/elceef/dnstwist"><code class="language-plaintext highlighter-rouge">dnstwist</code></a> to automatically generate this list for you.) Once configured to your liking, running Phishing Catcher is as simple as invoking its main <code class="language-plaintext highlighter-rouge">catch_phishing.py</code> script:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">./catch_phishing.py</code></pre></figure>
+
+<p><img src="https://i.imgur.com/4BGuXkR.gif" alt="Screencast of example Phishing Catcher usage." style="width: 100%;" /></p>
+
+<p>In addition to the terminal output, Phishing Catcher also writes a log file of all certificate issuances it sees that it thinks are suspicious based on the configuration file you supply.</p>
+
+<p>As we hope you can see, monitoring the Certificate Transparency Logs like this is something cybersecurity Blue Teams of any size can do easily and cheaply as part of an early warning system to detect imminent cyber attacks and potentially alert or better defend the users whose online safety they are partly responsible for protecting.</p>
+
+<p>We’re looking forward to going into more detail on this and other techniques that both attackers and defenders in the cybersecurity space use on a daily basis at the <a href="https://hnd.techlearningcollective.com/">Tech Learning Collective’s Hackers Next Door conference</a>. See you then!</p>
+
+    </div>
+
+    <footer>
+        
+
+        
+            
+            
+            
+            <p>Continue to:</p>
+            <ul class="Pagination">
+                
+                <li class="PaginationPrev">
+                    Earlier post: <a href="/2019/11/01/press-release-hackers-next-door-2019.html">At Hackers Next Door, national tech and policy groups meet with local privacy activists and cybersecurity experts</a>
+                </li>
+                
+                
+                <li class="PaginationNext">
+                    Later post: <a href="/2019/11/28/hackers-next-door-featured-on-its-going-down-podcast-this-is-america-episode-97.html">Hackers Next Door featured on It&rsquo;s Going Down&rsquo;s podcast, &ldquo;This Is America&rdquo; Episode 97</a>
+                </li>
+                
+            </ul>
+            
+        
+    </footer>
+</article>
+
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>
