@@ -6,28 +6,31 @@
 ---
 main:
     - url: /about/
-      text: About
+      title: About
+      lang: en_US
       submenu:
           - url: /faq/
-            text: FAQ
+            title: FAQ
             title_text: Answers to Frequently Asked Questions
           - url: /events/
-            text: Events
+            title: Events
           - url: /workshops/
-            text: Workshops
+            title: Workshops
     - url: /courses/
-      text: Courses
+      title: Courses
+      lang: en_US
       submenu:
           - url: /enrollment/
-            text: Enrollment
+            title: Enrollment
           - url: /pricing/
-            text: Pricing
+            title: Pricing
     - url: /contact/
-      text: Contact
+      title: Contact
+      lang: en_US
       submenu:
           - url: /blog/
-            text: Blog
+            title: Blog
           - url: /testimonials/
-            text: Testimonials
+            title: Testimonials
           - url: /donate/
-            text: Donate
+            title: Donate

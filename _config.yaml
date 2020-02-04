@@ -31,6 +31,9 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - .github
+  - .gitignore
+  - .nojekyll
 include:
   - .well-known
 

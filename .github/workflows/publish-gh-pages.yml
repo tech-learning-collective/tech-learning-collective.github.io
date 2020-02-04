@@ -1,0 +1,19 @@
+name: Publish to GitHub Pages
+
+on:
+  schedule:
+    - cron: '* */2 * * *' # Every two hours.
+  push:
+    branches:
+      - forestry
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: EdricChan03/action-build-deploy-ghpages@v2.2.1
+      with:
+        github_token: ${{ github.token }}
+        gh_pages_token: ${{ secrets.GH_PAGES_TOKEN }}
+        gh_pages_branch: master
