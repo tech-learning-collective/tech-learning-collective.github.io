@@ -8,7 +8,7 @@ NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1579386600-digital-defenses-for-the-people-practical-digital-security@
-DTSTAMP:20200206T020520Z
+DTSTAMP:20200206T040539Z
 DTSTART;VALUE=DATE-TIME:20200118T223000Z
 DTEND;VALUE=DATE-TIME:20200119T003000Z
 
@@ -25,7 +25,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1579564800-the-imitation-game-introduction-to-administering-virtual-machine-systems@
-DTSTAMP:20200206T020520Z
+DTSTAMP:20200206T040539Z
 DTSTART;VALUE=DATE-TIME:20200121T000000Z
 DTEND;VALUE=DATE-TIME:20200121T020000Z
 
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1579993200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@
-DTSTAMP:20200206T020520Z
+DTSTAMP:20200206T040539Z
 DTSTART;VALUE=DATE-TIME:20200125T230000Z
 DTEND;VALUE=DATE-TIME:20200126T010000Z
 
@@ -59,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1580760000-collaboration-across-universes-basics-of-version-control-with-git@
-DTSTAMP:20200206T020520Z
+DTSTAMP:20200206T040539Z
 DTSTART;VALUE=DATE-TIME:20200203T200000Z
 DTEND;VALUE=DATE-TIME:20200203T213000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1581199200-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@
-DTSTAMP:20200206T020520Z
+DTSTAMP:20200206T040539Z
 DTSTART;VALUE=DATE-TIME:20200208T220000Z
 DTEND;VALUE=DATE-TIME:20200209T000000Z
 
