@@ -34,6 +34,7 @@ exclude:
   - .github
   - .gitignore
   - .nojekyll
+  - .forestry
 include:
   - .well-known
 
