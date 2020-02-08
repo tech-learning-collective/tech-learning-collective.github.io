@@ -32,7 +32,7 @@
     };
     const api = new JitsiMeetExternalAPI(domain, options);
     api.executeCommands({
-        'avatarUrl': ['/static/images/icon.chip.blue.png'],
+        'avatarUrl': ['http://techlearningcollective.com/static/images/icon.chip.blue.png'],
         'subject'  : [ atob(qs.get('subject')) || false ]
     });
 })();
