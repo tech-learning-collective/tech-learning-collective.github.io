@@ -59,17 +59,17 @@ If you cannot afford or acquire a computer sufficient for the course you are enr
 
 ## Where are classes held?
 
-The Tech Learning Collective partners with several organizations that provide classroom spaces around New York City. We typically determine the classroom location for a specific course one to two months before the course begins. Course locations are determined based on a combination of classroom and teacher availability.
+Tech Learning Collective holds classes both in-person and online. For in-person courses, workshops, or events, Tech Learning Collective partners with several organizations that provide classroom spaces around New York City, including artist studios, hackerspaces and hacklabs, community centers, and more. For remote classes, our virtual classrooms are accessible via the Internet with your favorite Web browser. Location details are provided for each class to which you purchase a ticket or course in which you enroll.
 
-After you [enroll]({% link enrollment/index.md %}), you will receive access to our course scheduler and will be able to choose the course timeline that best suits your schedule. The scheduler provides details regarding course logistics, including classroom locations. All classes in a given course are held in the same classroom for the duration of the course unless otherwise noted in the scheduler.
+We typically determine the classroom location for an in-person event one to two months before it is scheduled to begin. Physical locations are determined based on a combination of classroom and teacher availability.
 
-We strive to ensure that students have access to gender-neutral restrooms and that each classroom is wheelchair accessible, but cannot always guarantee this. Our course scheduler indicates which classrooms provide which amenities so that you can make a more informed choice regarding the specific course timeline and location you ultimately choose to attend.
+Note that in-person course locations are only available to pre-enrolled students; after you [enroll]({% link enrollment/index.md %}), you will receive access to our course scheduler and will be able to choose the available course timeline and location that fits you best. The scheduler provides all the details regarding course logistics, including information about gender-neutral restrooms and wheelchair access. While we strive to ensure that all our classroom locations provide these facilities, we cannot always guarantee this.
 
-At this time, all Tech Learning Collective courses are only offered in person. You must physically arrive at class to participate. For remote and online training options, refer to our [Workshop and Webinar FAQ](#workshops-and-webinars).
+For more information about our remote/online courses, workshops, or events, refer to our [Workshop and Webinar FAQ](#workshops-and-webinars).
 
 ## When is the next class going to start?
 
-The Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}) (including some remote/online webinars), intensive [courses]({% link courses/index.html %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
+Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}), intensive [courses]({% link courses/index.html %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
 
 * For information about public **workshops**, webinars, and events, visit our [events page]({% link events/index.md %}) and subscribe to our event calendar.
 * The schedules for our **courses** are available only to pre-enrolled students; you must first apply for pre-enrollment before you can view upcoming course schedules. Refer to our [enrollment process]({% link enrollment/index.md %}) for more details.
@@ -115,6 +115,8 @@ A few moments after you purchase a ticket to one our remote workshops (online tr
 Simply click the link you received from our email to load the webinar page in your Web browser. When the page loads, you&rsquo;ll be prompted to type in a short password, which will have been delivered to you in the same email. Entering the correct password will grant you access to the [webinar interface](#how-do-i-control-the-webinar-interface).
 
 Again, if you don&rsquo;t receive our confirmation email containing your log-in credentials within a few minutes, please make sure to check your email account&rsquo;s &ldquo;spam&rdquo; folder. If you still don&rsquo;t see your login information in your spam folder, [contact us]({% link contact/index.md %}) and our admissions team will sort it out with you.
+
+For online courses, your virtual classroom access details will be available to you in the course scheduler, which is accessible via the personalized link sent to your email address as part of your acceptance packet, and in the description of each event displayed in your course calendar.
 
 ## How do I control the Webinar interface?
 
