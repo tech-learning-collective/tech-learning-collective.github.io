@@ -20,6 +20,8 @@ main:
       title: Courses
       lang: en_US
       submenu:
+          - url: /foundations/
+            title: Foundations
           - url: /enrollment/
             title: Enrollment
           - url: /pricing/
