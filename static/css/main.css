@@ -304,6 +304,9 @@ table.price tr:not(.no-currency) td:last-child::after {
 /**
  * @group Microformats and structured data.
  */
+.h-review {
+    clear: left;
+}
 .h-review .p-author {
     margin-top: 1em;
 }

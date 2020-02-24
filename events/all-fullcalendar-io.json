@@ -2,24 +2,6 @@
 
 
 {
-    "title": "Digital Defenses for the People: Practical Digital Security",
-    "start": "2020-01-18T17:30:00-0500",
-    "end"  : "2020-01-18T19:30:00-0500",
-    "url"  : "http://techlearningcollective.com/events/2020/01/workshop-2020-01-18-digital-defenses-for-the-people-practical-digital-security"
-}
-,
-
-
-{
-    "title": "The Imitation Game: Introduction to Administering Virtual Machine Systems",
-    "start": "2020-01-20T19:00:00-0500",
-    "end"  : "2020-01-20T21:00:00-0500",
-    "url"  : "http://techlearningcollective.com/events/2020/01/workshop-2020-01-20-the-imitation-game-introduction-to-administering-virtual-machine-systems"
-}
-,
-
-
-{
     "title": "The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask",
     "start": "2020-01-25T18:00:00-0500",
     "end"  : "2020-01-25T20:00:00-0500",
@@ -42,5 +24,86 @@
     "start": "2020-02-08T17:00:00-0500",
     "end"  : "2020-02-08T19:00:00-0500",
     "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-08-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work"
+}
+,
+
+
+{
+    "title": "Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State",
+    "start": "2020-02-11T15:00:00-0500",
+    "end"  : "2020-02-11T16:30:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-11-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state"
+}
+,
+
+
+{
+    "title": "Securing Our Servers: Basic Network Operations for Autonomous Communities",
+    "start": "2020-02-13T17:00:00-0500",
+    "end"  : "2020-02-13T19:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-13-securing-our-servers-basic-network-operations-for-autonomous-communities"
+}
+,
+
+
+{
+    "title": "The Imitation Game: Introduction to Administering Virtual Machine Systems",
+    "start": "2020-02-15T19:00:00-0500",
+    "end"  : "2020-02-15T21:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-15-the-imitation-game-introduction-to-administering-virtual-machine-systems"
+}
+,
+
+
+{
+    "title": "Taming Daemons: System Administration and Operation Basics",
+    "start": "2020-02-17T19:30:00-0500",
+    "end"  : "2020-02-17T21:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-17-taming-daemons-system-administration-and-operation-basics"
+}
+,
+
+
+{
+    "title": "Collaboration Across Universes: Basics of Version Control with Git",
+    "start": "2020-02-19T14:00:00-0500",
+    "end"  : "2020-02-19T15:30:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-19-collaboration-across-universes-basics-of-version-control-with-git"
+}
+,
+
+
+{
+    "title": "Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work",
+    "start": "2020-02-19T19:00:00-0500",
+    "end"  : "2020-02-19T21:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-19-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work"
+}
+,
+
+
+{
+    "title": "Gone Phishing: How to Recognize Fake Websites and Other Online Scams",
+    "start": "2020-02-21T13:00:00-0500",
+    "end"  : "2020-02-21T15:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-21-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams"
+}
+,
+
+
+{
+    "title": "Digital Defenses for the People: Practical Digital Security",
+    "start": "2020-02-22T14:30:00-0500",
+    "end"  : "2020-02-22T16:30:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-22-digital-defenses-for-the-people-practical-digital-security"
+}
+,
+
+
+{
+    "title": "Tor: What is it Good For? (Absolutely Everything!)",
+    "start": "2020-02-22T19:30:00-0500",
+    "end"  : "2020-02-22T21:30:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/02/workshop-2020-02-22-tor-what-is-it-good-for-absolutely-everything"
 }
 ]
