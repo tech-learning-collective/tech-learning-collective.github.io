@@ -33,10 +33,10 @@ exclude:
   - Gemfile.lock
   - .github
   - .gitignore
-  - .nojekyll
   - .forestry
 include:
   - .well-known
+  - .nojekyll
 
 # Blog settings.
 paginate: 5    # How many posts per HTML page.
