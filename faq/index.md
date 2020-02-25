@@ -81,7 +81,7 @@ If you&rsquo;re excited about a particular workshop but don&rsquo;t see an upcom
 
 Generally, no. Our [flexible pricing model and sliding-scale tuition]({% link pricing/index.md %}) helps ensure that all Tech Learning Collective courses are affordable. If you need financial assistance, please voice your concerns during your [enrollment process]({% link enrollment/index.md %}). More often than not, your tuition can be reduced based on your needs, but we still ask that you pay tuition in full before the start of your course&rsquo;s first class.
 
-If you *still* cannot afford to enroll in one of our courses, you may be able to attend our occasional donation-based, or satellite [workshops]({% link workshops/index.md %}). Subscribe to [our events calendar]({% link events/index.md %}) to make sure you don&rsquo;t miss the opportunity!
+If you *still* cannot afford to enroll in one of our courses, you may find [our free online and self-paced learning labs]({% link foundations/index.md %}) useful, and you may also be able to attend our occasional donation-based or satellite [workshops]({% link workshops/index.md %}). Subscribe to [our events calendar]({% link events/index.md %}) to make sure you don&rsquo;t miss the opportunity!
 
 ## How can I stay in touch with my classmates and meet more alumns after my course?
 

@@ -418,6 +418,36 @@ div.persona-training-graph .persona-match-row .persona-match-col {
 }
 
 /**
+ * @group Foundations (Katacoda) scenarios and learning modules.
+ */
+ol.katacoda-scenarios {
+    display: flex;
+    flex-wrap: wrap;
+}
+ol.katacoda-scenarios li {
+    min-width: 200px;
+    margin: 0 auto 3em 0;
+    width: 25%;
+    padding: 2em;
+    background: #4183C4;
+}
+ol.katacoda-scenarios h4 {
+    border: none;
+    background: transparent;
+    font-size: xx-large;
+    line-height: 1.2em;
+    color: white;
+}
+ol.katacoda-scenarios .button {
+    box-sizing: border-box;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    background: #FD7700;
+    text-align: center;
+}
+
+/**
  * @group Footers.
  */
 footer {
