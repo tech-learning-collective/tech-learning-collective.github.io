@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Computer Language Foundations: Command Line Basics &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Digital-Defenses-for-the-People-Practical-Digital-Security" />
+    <link rel="prev" href="/workshops/Collaboration-Across-Universes-Basics-of-Version-Control-with-Git" />
+
+    <meta itemprop="name" content="Computer Language Foundations: Command Line Basics &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/Computer-Language-Foundations-Command-Line-Basics" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Computer Language Foundations: Command Line Basics" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="To be useful, every computer must offer some way for you to control it. Generically, the way you can control a computer is called a user interface because it allows you (the user) to interact with (that is, “to interface with”) the computer system. Most people may already be familiar with Graphical User Interfaces or GUIs, which are the buttons, windows, and other controls that you can point-and-click on, but this way of controlling a computer comes with severe limitations. Chief among these is the fact that you are limited to using only one tip of one finger on one of your hands (called your pointer or mouse cursor) and, worse, you have no access to anything outside of your immediate reach. In a GUI, if you cannot see it or touch it with the mouse, you cannot manipulate it." />
+<meta property="og:description" content="To be useful, every computer must offer some way for you to control it. Generically, the way you can control a computer is called a user interface because it allows you (the user) to interact with (that is, “to interface with”) the computer system. Most people may already be familiar with Graphical User Interfaces or GUIs, which are the buttons, windows, and other controls that you can point-and-click on, but this way of controlling a computer comes with severe limitations. Chief among these is the fact that you are limited to using only one tip of one finger on one of your hands (called your pointer or mouse cursor) and, worse, you have no access to anything outside of your immediate reach. In a GUI, if you cannot see it or touch it with the mouse, you cannot manipulate it." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Computer-Language-Foundations-Command-Line-Basics" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Computer-Language-Foundations-Command-Line-Basics" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/icon.chip.blue.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/icon.chip.blue.png" />
+<meta property="twitter:title" content="Computer Language Foundations: Command Line Basics" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"description":"To be useful, every computer must offer some way for you to control it. Generically, the way you can control a computer is called a user interface because it allows you (the user) to interact with (that is, “to interface with”) the computer system. Most people may already be familiar with Graphical User Interfaces or GUIs, which are the buttons, windows, and other controls that you can point-and-click on, but this way of controlling a computer comes with severe limitations. Chief among these is the fact that you are limited to using only one tip of one finger on one of your hands (called your pointer or mouse cursor) and, worse, you have no access to anything outside of your immediate reach. In a GUI, if you cannot see it or touch it with the mouse, you cannot manipulate it.","headline":"Computer Language Foundations: Command Line Basics","@type":"WebPage","image":"http://techlearningcollective.com/static/images/icon.chip.blue.png","url":"http://techlearningcollective.com/workshops/Computer-Language-Foundations-Command-Line-Basics","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Computer Language Foundations: Command Line Basics</h2>
+    
+<img src="/static/images/icon.chip.blue.png" alt="Poster for Computer Language Foundations: Command Line Basics" />
+
+
+
+
+<p>To be useful, every computer must offer some way for you to control it. Generically, the way you can control a computer is called a <em>user interface</em> because it allows you (the user) to interact with (that is, “to interface with”) the computer system. Most people may already be familiar with <em>Graphical User Interfaces</em> or GUIs, which are the buttons, windows, and other controls that you can point-and-click on, but this way of controlling a computer comes with severe limitations. Chief among these is the fact that you are limited to using only one tip of one finger on one of your hands (called your <em>pointer</em> or <em>mouse cursor</em>) and, worse, you have no access to anything outside of your immediate reach. In a GUI, if you cannot see it or touch it with the mouse, you cannot manipulate it.</p>
+
+<p>This is why almost all serious hackers, programmers, and system administrators prefer a Command Line Interface or CLI over the graphical options for many, if not most, of their day-to-day tasks. In a command-line, or “terminal,” you can use the complete expressive power of spoken language to control your computer. You can use symbolism and metaphor to express any idea that you have the words for. Moreover, you always have all the words you know at your disposal at any time, even if they refer to things that are far away or that you cannot currently see.</p>
+
+<p>In this beginner’s workshop, you”ll learn how to access the command line interface of your computer, and you’ll learn the basic grammar of command line languages such as that provided by the ubiquitous Bash command interpreter. You’ll also be introduced to the basic set of utilities required to quickly accomplish tasks that require working with files and folders, processing text, and automating common workflows that would take dozens or even hundreds of clicks with a mouse to complete in a Graphical User Interface. By learning how to “speak” to your computer using a command language, you can save hours every day and take your first step toward using your computer the way the best hackers would.</p>
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Computer%20Language%20Foundations:%20Command%20Line%20Basics">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+        <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+    </footer>
+</body>
+</html>
