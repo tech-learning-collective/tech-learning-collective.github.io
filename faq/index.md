@@ -141,11 +141,12 @@ Ultimately, while we appreciate your interest in becoming a Tech Learning Collec
 
 While we greatly appreciate volunteer work from anyone who wishes to contribute to Tech Learning Collective materials, what we need most of all is financial support (or, better, student sign-ups). This is because all of our systems are automated and our procedures do not rely on manual labor to accomplish tasks such as student enrollments and interview scheduling, event organizing, booking, marketing and promotions, invoicing, reporting, or any other administrative functions. Put another way, we don&rsquo;t have any volunteer work for you to do.
 
-But, if you can afford it, we encourage you to [donate]({% link donate/index.md %}) directly so that we can spend more time producing educational materials.
+So, if you can afford it, we encourage you to [donate]({% link donate/index.md %}) directly so that we can put more time into producing, maintaining, and continually improving the educational materials that we offer at low cost or for free, such as the [free self-paced courses we host online]({% link foundations/index.md %}).
 
 If supporting us financially is not something you can do, and you also do not want or cannot participate in our training events, the simplest way to get involved is to peruse the Web site(s) of our curriculum partners and/or [sister projects]({% link about/index.md %}#fund-existing-community-owned-technology-projects-for-radical-social-good) looking for work you can do with them that would help us out. In particular, check out the following resources:
 
 * [Anarcho-Tech NYC&rsquo;s &ldquo;Train the Trainers&rdquo; project](https://github.com/AnarchoTechNYC/meta/blob/master/train-the-trainers/README.md#readme)
+* [Tech Learning Collective&rsquo; Katacoda Scenarios](https://github.com/tech-learning-collective/katacoda-scenarios)
 
 Another way to help out is to spread the word about Tech Learning Collective events, inviting your friends and comrades to participate in workshops or training sessions that we&rsquo;re producing. Remember that you can [subscribe to our event calendar]({% link events/upcoming/index.md %}#export-event-calendar) to be notified whenever we publish a new event. Likewise, if you&rsquo;re organizing your own event, or know someone who is, consider inviting Tech Learning Collective to host a digital security training session there.
 
