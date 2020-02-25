@@ -1,6 +1,6 @@
 ---
 title: "Radical Infrastructure: Hiding Your Servers from the Five Eyes"
-image: workshop.radical-infrastructures.hiding-your-servers-from-the-five-eyes.png
+image: static/images/workshop.radical-infrastructures.hiding-your-servers-from-the-five-eyes.png
 categories:
     - Radical infrastructures
 order: 100

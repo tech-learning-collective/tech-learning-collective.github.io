@@ -1,6 +1,6 @@
 ---
 title: "Exploring Cyberspace: Network Sniffing and Scanning"
-image: workshop.exploring-cyberspace-network-sniffing-and-scanning.square.png
+image: static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.square.png
 persona_matrix:
     - 3
     - 2

@@ -1,6 +1,6 @@
 ---
 title: "Open Doors: Introduction to the Art of Lockpicking"
-image: workshop.open-doors-introduction-to-the-art-of-lockpicking.square.png
+image: static/images/workshop.open-doors-introduction-to-the-art-of-lockpicking.square.png
 persona_matrix:
     - 3
     - 3

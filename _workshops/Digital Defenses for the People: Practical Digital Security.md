@@ -1,6 +1,6 @@
 ---
 title: "Digital Defenses for the People: Practical Digital Security"
-image: workshop.digital-defenses-for-the-people-practical-digital-security.square.png
+image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.square.png
 ---
 
 Learning how to stay safe online is on many people&rsquo;s minds, but how do you start this process? With so many tools and suggestions from &ldquo;experts,&rdquo; how do you know which tool to use, when, and in what situation? Do you really need a VPN? (And what even is that?) What are the tools you really *should* use, and which tools aren&rsquo;t worth it? Moreover, without being a cybersecurity expert yourself, how do you learn to sniff out the useful stuff from the placebos?

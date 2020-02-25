@@ -14,7 +14,7 @@ Stand-alone workshop ticket prices can range from a $25 suggested donation to a 
 <div class="workshop-list" markdown="1">
 {% assign workshops = site.workshops %}
 {% for workshop in workshops %}{% if empty == workshop.categories %}
-* [![Poster for {{ workshop.title }}]({{ workshop.image | default: "icon.chip.blue.png" | prepend: "static/images/" | relative_url }}) {{ workshop.title }}]({{ workshop.url }})
+* [![Poster for {{ workshop.title }}]({{ workshop.image | default: site.logo | relative_url }}) {{ workshop.title }}]({{ workshop.url }})
 {% endif %}
 {% endfor %}
 </div>
@@ -38,7 +38,7 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 <div class="workshop-list workshop-collection" markdown="1">
 {% assign workshops = site.workshops | where: "categories", category | sort: "order" %}
 {% for workshop in workshops %}
-* [![Poster for {{ workshop.title }}]({{ workshop.image | default: "icon.chip.blue.png" | prepend: "static/images/" | relative_url }}) {{ workshop.title }}]({{ workshop.url }})
+* [![Poster for {{ workshop.title }}]({{ workshop.image | default: site.logo |  relative_url }}) {{ workshop.title }}]({{ workshop.url }})
 {% endfor %}
 </div>
 {% endfor %}

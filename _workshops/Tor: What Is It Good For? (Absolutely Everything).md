@@ -1,6 +1,6 @@
 ---
 title: "Tor: What Is It Good For? (Absolutely Everything)"
-image: workshop.tor-what-is-it-good-for-absolutely-everything.pink.png
+image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.pink.png
 persona_matrix:
     - 2 # Defenders
     - 3 # Attackers

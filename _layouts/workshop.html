@@ -3,7 +3,7 @@ layout: page
 ---
 
 {% if empty != page.categories %}<div class="workshop-collection">{% endif %}
-<img src="{{ page.image | default: "icon.chip.blue.png" | prepend: "/static/images/" | relative_url }}" alt="Poster for {{ page.title }}" />
+<img src="{{ page.image | default: site.logo | relative_url }}" alt="Poster for {{ page.title }}" />
 {% if empty != page.categories %}</div>{% endif %}
 
 {% if page.persona_matrix %}

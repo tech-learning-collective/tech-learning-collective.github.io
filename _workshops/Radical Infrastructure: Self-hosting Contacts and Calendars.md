@@ -1,6 +1,6 @@
 ---
 title: "Radical Infrastructure: Self-hosting Contacts and Calendars"
-image: workshop.radical-infrastructures.self-hosting-contacts-and-calendars.square.png
+image: static/images/workshop.radical-infrastructures.self-hosting-contacts-and-calendars.square.png
 categories:
     - Radical infrastructures
 order: 20

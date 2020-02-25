@@ -1,6 +1,6 @@
 ---
 title: "Radical Infrastructure: Introductory CryptoJam"
-image: workshop.radical-infrastructures.introductory-cryptojam.square.png
+image: static/images/workshop.radical-infrastructures.introductory-cryptojam.square.png
 categories:
     - Radical infrastructures
 order: 1

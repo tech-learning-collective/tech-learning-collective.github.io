@@ -1,6 +1,6 @@
 ---
 title: "Securing Email: Protecting Everyday Communications from GMail to ProtonMail"
-image: workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png
+image: static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.square.png
 persona_matrix:
     - 2 # Defenders
     - 3 # Attackers

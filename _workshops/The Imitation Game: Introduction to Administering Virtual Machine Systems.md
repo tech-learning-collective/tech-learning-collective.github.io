@@ -1,6 +1,6 @@
 ---
 title: "The Imitation Game: Introduction to Administering Virtual Machine Systems"
-image: workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.square.png
+image: static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.square.png
 ---
 
 Virtualization and containerization are concepts almost as old as computing itself so, no matter what you&rsquo;re doing on your computer, you&rsquo;re probably using one form of it or another. For example, partitioning a hard disk chunks its total capacity into smaller units useful for specific purposes, much like the individual drawers in a dresser might separate undergarments from outerwear. Organizing, or &ldquo;containerizing,&rdquo; your closet this way is useful in its own right because it helps you keep things neat and orderly. But this organizing method also offers dramatic security enhancements because a misbehaving program (or dirty sock) will be confined to its own container.

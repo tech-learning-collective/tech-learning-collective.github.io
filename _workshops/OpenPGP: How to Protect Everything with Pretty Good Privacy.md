@@ -1,6 +1,6 @@
 ---
 title: "OpenPGP: How to Protect Everything with Pretty Good Privacy"
-image: workshop.openpgp-how-to-protect-everything-with-pretty-good-privacy.square.png
+image: static/images/workshop.openpgp-how-to-protect-everything-with-pretty-good-privacy.square.png
 persona_matrix:
     - 3
     - 3

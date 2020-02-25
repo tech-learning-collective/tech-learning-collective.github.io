@@ -1,6 +1,6 @@
 ---
 title: "Our Streets, Our Maps: Introduction to OpenStreetMap"
-image: workshop.our-streets-our-maps-introduction-to-openstreetmap.square.png
+image: static/images/workshop.our-streets-our-maps-introduction-to-openstreetmap.square.png
 ---
 
 [OpenStreetMap](https://openstreetmap.org/about) is a free and open-source, worldwide mapping project that was started in 2004. Since

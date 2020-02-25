@@ -1,6 +1,6 @@
 ---
 title: "Access Granted: Hollywood Hacking Sampler"
-image: workshop.hollywood-hacking-sampler.square.png
+image: static/images/workshop.hollywood-hacking-sampler.square.png
 redirect_from:
     - /workshops/Hollywood-Hacking-Sampler
 ---

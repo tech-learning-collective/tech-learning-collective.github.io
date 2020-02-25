@@ -1,6 +1,6 @@
 ---
 title: "File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It"
-image: workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.square.png
+image: static/images/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.square.png
 ---
 
 If you&rsquo;ve heard anything about &ldquo;downloading free movies on the Internet,&rdquo; you probably heard of [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent) or its more colloquial synonym, &ldquo;torrents.&rdquo; You have also probably heard of companies threatening BitTorrent users with Internet service bans, financial penalties, and even lawsuits for &ldquo;stealing intellectual property.&ldquo; Through expensive and coordinated disinformation campaigns, companies like Disney and other &ldquo;Big Content&rdquo; media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard, immoral, and unsafe to use, but the reality is far less one-sided.

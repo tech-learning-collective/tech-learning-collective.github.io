@@ -1,6 +1,6 @@
 ---
 title: "Radical Infrastructure: Your First Physical Server"
-image: workshop.radical-infrastructures.your-first-physical-server.square.png
+image: static/images/workshop.radical-infrastructures.your-first-physical-server.square.png
 categories:
     - Radical infrastructures
 order: 5

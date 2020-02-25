@@ -1,6 +1,6 @@
 ---
 title: "Collaboration Across Universes: Basics of Version Control with Git"
-image: workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png
+image: static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png
 ---
 
 As most of us know first-hand, the creative process involves many edits and revisions. Adding a little bit here, trimming a little bit there, but then hitting &ldquo;undo&rdquo; a bunch and experimenting with a new direction is quite normal! When your project is a single file, pressing &ldquo;Save As&hellip;&rdquo; many times might suffice, but what if your project spans dozens or even hundreds of files?

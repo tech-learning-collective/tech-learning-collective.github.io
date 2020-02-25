@@ -1,6 +1,6 @@
 ---
 title: "Securing Our Servers: Basic Network Operations for Autonomous Communities"
-image: workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.square.png
+image: static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.square.png
 persona_matrix:
     - 2 # Defenders
     - 2 # Attackers

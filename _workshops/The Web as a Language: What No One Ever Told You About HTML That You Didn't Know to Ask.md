@@ -1,6 +1,6 @@
 ---
 title: "The Web as a Language: What No One Ever Told You About HTML That You Didn't Know to Ask"
-image: workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.square.png
+image: static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.square.png
 ---
 
 The Hypertext Markup Language (HTML) is the de-facto standard for publishing information online, a kind of digital equivalent to learning to read and write. Why, then, is it so rarely explained in terms of the *language* that it actually is? What is HTML's grammar, where do HTML "sentences" begin and end, and how is meaning represented in its elements? You don't need a computer science degree to learn a foreign language, and that includes HTML.
