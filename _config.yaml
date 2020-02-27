@@ -120,7 +120,7 @@ defaults:
   - scope:
       type: katacoda
     values:
-      layout: katacoda
+      layout: katacoda-tlc-foundations
 
 # Settings for jekyll-feed plugin.
 feed:

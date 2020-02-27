@@ -1,0 +1,35 @@
+---
+layout: katacoda
+---
+
+{% assign collection_path = "_" | append: page.collection | append: "/" %}
+{% assign current_katacoda_id = page.path | replace: collection_path, "" | split: page.ext | first %}
+{% assign katacoda_pathway = current_katacoda_id | split: "/" | first %}
+{% assign current_pathway = "foundations-" | append: katacoda_pathway | append: "-pathway" %}
+{% for course in site.data.katacoda[current_pathway].courses %}
+    {% if page.slug == course.course_id %}
+    {% assign next_index = forloop.index %}{% comment %} Jekyll `forloop.index` starts at 1, so no need to increment. {% endcomment %}
+    {% assign prev_index = forloop.index | minus: 2 %}{% comment %} For the same reason, subtract by two to get previous. {% endcomment%}
+    {% endif %}
+{% endfor %}
+{% assign previous_katacoda_id = current_katacoda_id | replace: page.slug, site.data.katacoda[current_pathway].courses[prev_index].course_id %}
+{% assign next_katacoda_id = current_katacoda_id | replace: page.slug, site.data.katacoda[current_pathway].courses[next_index].course_id %}
+
+{% comment %}
+No `{{ content }}` because embed uses Foundations courses from `_data/katacoda/` by default.
+{% endcomment %}
+{% include katacoda-embed.html %}
+
+<p>Continue to:</p>
+<ul class="Pagination">
+    {% if prev_index > -1 and site.data.katacoda[current_pathway].courses[prev_index] %}
+    <li class="PaginationPrev">
+        Previous module: <a href="{{ "/foundations/" | append: previous_katacoda_id | relative_url }}">{{ site.data.katacoda[current_pathway].courses[prev_index].title }}</a>
+    </li>
+    {% endif %}
+    {% if site.data.katacoda[current_pathway].courses[next_index] %}
+    <li class="PaginationNext">
+        Next module: <a href="{{ "/foundations/" | append: next_katacoda_id | relative_url }}">{{ site.data.katacoda[current_pathway].courses[next_index].title }}</a>
+    </li>
+    {% endif %}
+</ul>
