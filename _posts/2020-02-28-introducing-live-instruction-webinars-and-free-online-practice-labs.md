@@ -27,7 +27,7 @@ Speaking of learning the foundations of computer technology, we&rsquo;ve also be
 
 What&rsquo;s more, since we&rsquo;ve designed our Foundations series to be entirely self-paced, we&rsquo;re offering the whole course completely free of charge.
 
-Since they Foundations series is free and always available, you can take as long as you need to work through it. Start with our [Foundations: Command Line Basics]({% link foundations/index.md %}#foundations-command-line-basics) course, which introduces you to a computer terminal, one of the most important foundations of the rest of our curriculum material. We&rsquo;re launching with a limited selection of free materials, but are planning to expand the free courses with more labs over time, so check back regularly.
+Since our Foundations series is free and always available, you can take as long as you need to work through it. Start with our [Foundations: Command Line Basics]({% link foundations/index.md %}#foundations-command-line-basics) course, which introduces you to a computer terminal, one of the most important foundations of the rest of our curriculum. We&rsquo;re launching with a limited selection of free materials, but are planning to expand the free courses with more labs over time, so check back regularly.
 
 ## Free Practice Labs of Advanced Scenarios
 
