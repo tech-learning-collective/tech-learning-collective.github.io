@@ -13,7 +13,7 @@ columns: 1
 </p>
 
 {% if site.events %}
-{% assign events = site.events | where_exp: "event", "event.endDate > site.time" | sort: "startDate" %}
+{% assign events = site.events | where_exp: "event", "event.startDate > site.time" | sort: "startDate" %}
 {% if 1 <= events.size %}
 <section>
     <h1 id="next-event">Next Event</h1>
