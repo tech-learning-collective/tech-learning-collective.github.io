@@ -25,7 +25,7 @@
     {% endif %}
 
     <div class="e-content entry-content">
-        {% if include.excerpt_only %}{{ entry.excerpt }}{% else %}{{ content }}{% endif %}
+        {% if include.excerpt_only %}{{ entry.excerpt | markdownify }}{% else %}{{ content }}{% endif %}
     </div>
 
     <footer>

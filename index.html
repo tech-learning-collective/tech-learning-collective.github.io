@@ -25,7 +25,7 @@ columns: 1
 {% endif %}
 
 {% if site.posts %}
-<section>
+<section class="recent-posts">
     {% for post in site.posts limit: 2 %}
     {% include h-entry.html entry=post excerpt_only=true %}
     {% endfor %}
@@ -36,9 +36,11 @@ columns: 1
 {% if 0 < featured_testimonials.size %}
 <section>
     <h1 id="testimonials">Testimonials</h1>
-    {% for t in featured_testimonials %}
-    {% include h-review.html review=t %}
-    {% endfor %}
+    <div class="featured-testimonials">
+        {% for t in featured_testimonials %}
+        {% include h-review.html review=t %}
+        {% endfor %}
+    </div>
     <p>(<a href="{% link testimonials/index.md %}">Read all reviews</a>.)</p>
 </section><!-- #featured-testimonials -->
 {% endif %}

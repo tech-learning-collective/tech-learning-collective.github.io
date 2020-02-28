@@ -1,7 +1,7 @@
 ---
 title: Introducing live instruction webinars and free online practice labs
 image: static/images/post.featured-image.webinars.png
-excerpt: Tech Learning Collective is excited to offer free, self-paced beginner courses along with new webinar workshops that make it easier than ever before to level up your h4x0r skillz. If you can Netflix 'n' chill, you have all the equipment you need to participate in a webinar and tackle technical problems with our team of technical experts and expert techers. Learn more about our free online &ldquo;Foundations&rdquo;s curriculum series and our new webinar events in this post.
+excerpt: Tech Learning Collective is excited to offer free, self-paced beginner courses along with new webinar workshops that make it easier than ever before to level up your h4x0r skillz. If you can Netflix &lsquo;n&rsquo; chill, you have all the equipment you need to participate in a webinar and tackle technical problems with our team of technical experts and expert techers. Learn more about our free online &ldquo;Foundations&rdquo; curriculum series and our new webinar events in this post.
 ---
 
 At the end of last year, we invited the Tech Learning Collective community to our year-end conference, [Hackers Next
