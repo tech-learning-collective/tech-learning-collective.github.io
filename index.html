@@ -24,6 +24,14 @@ columns: 1
 {% endif %}
 {% endif %}
 
+{% if site.posts %}
+<section>
+    {% for post in site.posts limit: 2 %}
+    {% include h-entry.html entry=post excerpt_only=true %}
+    {% endfor %}
+</section>
+{% endif %}
+
 {% assign featured_testimonials = site.reviews | sample: 4 %}
 {% if 0 < featured_testimonials.size %}
 <section>
