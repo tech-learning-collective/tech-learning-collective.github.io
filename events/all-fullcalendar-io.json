@@ -115,4 +115,22 @@
     "end"  : "2020-03-01T16:00:00-0500",
     "url"  : "http://techlearningcollective.com/events/2020/03/workshop-2020-03-01-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state"
 }
+,
+
+
+{
+    "title": "The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask",
+    "start": "2020-03-01T19:00:00-0500",
+    "end"  : "2020-03-01T21:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/03/workshop-2020-03-01-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask"
+}
+,
+
+
+{
+    "title": "Securing Our Servers: Basic Network Operations for Autonomous Communities",
+    "start": "2020-03-03T15:00:00-0500",
+    "end"  : "2020-03-03T17:00:00-0500",
+    "url"  : "http://techlearningcollective.com/events/2020/03/workshop-2020-03-03-securing-our-servers-basic-network-operations-for-autonomous-communities"
+}
 ]

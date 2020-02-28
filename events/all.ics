@@ -8,7 +8,7 @@ NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1580760000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200203T200000Z
 DTEND;VALUE=DATE-TIME:20200203T213000Z
 
@@ -25,7 +25,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1581199200-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200208T220000Z
 DTEND;VALUE=DATE-TIME:20200209T000000Z
 
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1581451200-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200211T200000Z
 DTEND;VALUE=DATE-TIME:20200211T213000Z
 
@@ -59,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1581631200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200213T220000Z
 DTEND;VALUE=DATE-TIME:20200214T000000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1581811200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200216T000000Z
 DTEND;VALUE=DATE-TIME:20200216T020000Z
 
@@ -93,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1581985800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200218T003000Z
 DTEND;VALUE=DATE-TIME:20200218T020000Z
 
@@ -110,7 +110,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1582138800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200219T190000Z
 DTEND;VALUE=DATE-TIME:20200219T203000Z
 
@@ -127,7 +127,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1582156800-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200220T000000Z
 DTEND;VALUE=DATE-TIME:20200220T020000Z
 
@@ -144,7 +144,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1582308000-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200221T180000Z
 DTEND;VALUE=DATE-TIME:20200221T200000Z
 
@@ -161,7 +161,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1582399800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200222T193000Z
 DTEND;VALUE=DATE-TIME:20200222T213000Z
 
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1582417800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200223T003000Z
 DTEND;VALUE=DATE-TIME:20200223T023000Z
 
@@ -195,7 +195,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
 UID:1583022600-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200301T003000Z
 DTEND;VALUE=DATE-TIME:20200301T020000Z
 
@@ -212,7 +212,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1583091000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200228T211008Z
+DTSTAMP:20200228T220252Z
 DTSTART;VALUE=DATE-TIME:20200301T193000Z
 DTEND;VALUE=DATE-TIME:20200301T210000Z
 
@@ -222,6 +222,40 @@ URL:http://techlearningcollective.com/events/2020/03/workshop-2020-03-01-signal-
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.png
+END:VEVENT
+
+
+
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
+UID:1583107200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
+DTSTAMP:20200228T220252Z
+DTSTART;VALUE=DATE-TIME:20200302T000000Z
+DTEND;VALUE=DATE-TIME:20200302T020000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of Web publishing in a way that builds on your existing computer experience from the ground up! This workshop presents the Hypertext Markup Language (HTML) the same way you might learn a new written language. By understanding the language’s grammar and vocabulary\, you can compose surprisingly complex and powerful Web pages without needing to know a programming language like JavaScript. If you’ve used a word processor like Microsoft Word or Google Docs\, you have all the prerequisites you need to understand\, at a deep and foundational level\, what HTML is and how it works.\n\nWorkshop Description\n\n\n  The Hypertext Markup Language (HTML) is the de-facto standard for publishing information online\, a kind of digital equivalent to learning to read and write. Why\, then\, is it so rarely explained in terms of the language that it actually is? What is HTML’s grammar\, where do HTML “sentences” begin and end\, and how is meaning represented in its elements? You don’t need a computer science degree to learn a foreign language\, and that includes HTML.\n\n  This workshop is designed for anyone who ever wanted to toy with HTML once or twice\, whether it was in the 90’s or just last week. Based on a portion of the Tech Learning Collective’s WEB101 course\, it is a remarkably thorough treatment of some of the Web’s most powerful and most-often overlooked parts. Covering the structure of HTML and extending to the richness of semantic data formats like Microdata and RDFa\, learn how to write in the Web’s native language so that both humans (like your friends and comrades) and machines (like Google!) can find\, use\, and most importantly understand what you’re saying.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout the Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2020/03/workshop-2020-03-01-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.png
+END:VEVENT
+
+
+
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
+UID:1583265600-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
+DTSTAMP:20200228T220252Z
+DTSTART;VALUE=DATE-TIME:20200303T200000Z
+DTEND;VALUE=DATE-TIME:20200303T220000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol\, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations\, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up\, access\, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself\, friends\, or comrades.\n\nWorkshop Description\n\n\n  Every app you use—from messengers like Signal or WhatsApp to blogs and websites like WordPress and even other coordination tools like digital calendars and online maps—relies on a computer called a server. Whether that computer is one in your hand (your smartphone)\, or a computer somewhere across the Internet (“in the cloud”)\, no meaningful digital communication happens without servers offering services\, somewhere. So\, do you know where your servers are? If not\, you can’t know how safe your data is!\n\n  When you don’t have a clear map of how your messages and other data gets from here to there\, you might be at risk of someone listening in on your conversations. When you rely on services that you don’t own yourself for critical day-to-day operations (like Google Calendar\, or Facebook…) you risk losing access to those capabilities by having your account banned\, even by mistake. Regardless of your specific situation\, knowing more about the digital servers that are serving you is a vital first step for supporting communities or companies large and small.\n\n  This intermediate-level workshop combines various topics from the Tech Learning Collective’s System Administration\, Networking\, and Security courses to offer an intensive crash course in secure server setup\, monitoring\, and maintenance. By taking a deep dive into the SSH protocol\, you’ll learn how to set up remote administrative access to a server in a safe way\, and you’ll be exposed to the potential risks of network eavesdroppers\, Machine-in-the-Middle (MITM) attacks\, and much more. By the end of this workshop\, you’ll have a basic understanding of how to safely operate self-hosted digital infrastructures for yourself\, your friends\, and your comrades\, as well as what first steps you need to take to keep intruders and enemies at bay.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout the Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2020/03/workshop-2020-03-03-securing-our-servers-basic-network-operations-for-autonomous-communities
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.png
 END:VEVENT
 
 END:VCALENDAR
