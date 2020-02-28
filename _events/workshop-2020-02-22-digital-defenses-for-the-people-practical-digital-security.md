@@ -23,7 +23,7 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
 sameAs:
-    - URL
+    - https://gobrunch.com/events/37905
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
