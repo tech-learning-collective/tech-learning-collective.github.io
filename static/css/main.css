@@ -198,6 +198,21 @@ main h3 {
     margin-top: 1em;
 }
 
+.recent-posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recent-posts article {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.featured-testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
 /**
  * @group Images.
  */
@@ -538,6 +553,12 @@ footer {
     }
     img#spinner {
         top: initial;
+    }
+    .recent-posts article {
+        width: auto;
+    }
+    .featured-testimonials {
+        display: block;
     }
     #subjects-list li {
         display: list-item;
