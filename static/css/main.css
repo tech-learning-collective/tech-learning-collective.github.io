@@ -201,10 +201,10 @@ main h3 {
 .recent-posts {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .recent-posts article {
-    width: 45%;
-    margin: 0 auto;
+    width: 47%;
 }
 
 .featured-testimonials {
