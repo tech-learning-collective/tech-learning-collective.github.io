@@ -1,7 +1,7 @@
 ---
 title: "Digital Defenses for the People: Practical Digital Security"
-startDate: &startDate 2020-03-22 18:30:00 -0500
-endDate: 2020-03-22 20:00:00 -0500
+startDate: &startDate 2020-03-22 18:30:00 -0400
+endDate: 2020-03-22 20:00:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal

@@ -1,7 +1,7 @@
 ---
 title: "The Imitation Game: Introduction to Administering Virtual Machine Systems"
-startDate: &startDate 2020-03-21 18:30:00 -0500
-endDate: 2020-03-21 20:00:00 -0500
+startDate: &startDate 2020-03-21 18:30:00 -0400
+endDate: 2020-03-21 20:00:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal
