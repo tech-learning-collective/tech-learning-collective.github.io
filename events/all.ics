@@ -8,7 +8,7 @@ NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1581631200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200213T220000Z
 DTEND;VALUE=DATE-TIME:20200214T000000Z
 
@@ -25,7 +25,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1581811200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200216T000000Z
 DTEND;VALUE=DATE-TIME:20200216T020000Z
 
@@ -42,7 +42,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1581985800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200218T003000Z
 DTEND;VALUE=DATE-TIME:20200218T020000Z
 
@@ -59,7 +59,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1582138800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200219T190000Z
 DTEND;VALUE=DATE-TIME:20200219T203000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1582156800-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200220T000000Z
 DTEND;VALUE=DATE-TIME:20200220T020000Z
 
@@ -93,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1582308000-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200221T180000Z
 DTEND;VALUE=DATE-TIME:20200221T200000Z
 
@@ -110,7 +110,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1582399800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200222T193000Z
 DTEND;VALUE=DATE-TIME:20200222T213000Z
 
@@ -127,7 +127,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1582417800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200223T003000Z
 DTEND;VALUE=DATE-TIME:20200223T023000Z
 
@@ -144,7 +144,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
 UID:1583022600-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200301T003000Z
 DTEND;VALUE=DATE-TIME:20200301T020000Z
 
@@ -161,7 +161,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1583091000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200301T193000Z
 DTEND;VALUE=DATE-TIME:20200301T210000Z
 
@@ -178,7 +178,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1583107200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200302T000000Z
 DTEND;VALUE=DATE-TIME:20200302T020000Z
 
@@ -195,7 +195,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1583265600-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200303T200000Z
 DTEND;VALUE=DATE-TIME:20200303T220000Z
 
@@ -212,7 +212,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1583627400-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200308T003000Z
 DTEND;VALUE=DATE-TIME:20200308T030000Z
 
@@ -229,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1583694000-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200308T190000Z
 DTEND;VALUE=DATE-TIME:20200308T203000Z
 
@@ -246,7 +246,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1583794800-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200309T230000Z
 DTEND;VALUE=DATE-TIME:20200310T003000Z
 
@@ -263,7 +263,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1584048600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200312T213000Z
 DTEND;VALUE=DATE-TIME:20200312T233000Z
 
@@ -280,7 +280,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1584297000-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200315T081024Z
+DTSTAMP:20200315T121145Z
 DTSTART;VALUE=DATE-TIME:20200315T183000Z
 DTEND;VALUE=DATE-TIME:20200315T203000Z
 
