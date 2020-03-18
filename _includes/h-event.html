@@ -8,7 +8,7 @@
 {% endif %}
 
 {% if include.excerpt %}
-    {% assign event_description = event.content | markdownify | strip_html | truncatewords: 20, "" | strip %}
+    {% assign event_description = event.excerpt | default: event.teaser | default: event.content | markdownify | strip_html | truncatewords: 50, "" | strip %}
 {% else %}
     {% assign event_description = event.content | strip %}
 {% endif %}
@@ -41,7 +41,7 @@ to be set on DIV elements, not ARTICLEs.
             <li class="event-datetime">
                 <abbr class="dt-start dtstart" title="{{ event.startDate | date_to_xmlschema }}">
                     <span>{{ event.startDate | date: site.date_format }}</span>
-                    <span>{{ event.startDate | date: site.time_format }}{% if event.webinar_id %} ({{ event.startDate | date: "%z" }}){% endif %}</span>
+                    <span>{{ event.startDate | date: site.time_format }}{% if "Remote" == event.location %} ({{ event.startDate | date: "%z" }}){% endif %}</span>
                 </abbr>
                 &ndash;
                 <abbr class="dt-end dtend" title="{{ event.endDate | date_to_xmlschema }}">
