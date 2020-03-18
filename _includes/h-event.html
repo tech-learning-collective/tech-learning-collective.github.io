@@ -124,7 +124,7 @@ to be set on DIV elements, not ARTICLEs.
         <div id="tickets-fallback-event-cancelled-{{ event.slug | slugify }}" class="tickets-fallback">
             <p>Your order has been cancelled.</p>
         </div>
-        {% else %}
+        {% elsif event.offers %}
         <p>Tickets are no longer available for this event because the event has passed.</p>
         {% endif %}
 
