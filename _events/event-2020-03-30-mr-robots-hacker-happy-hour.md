@@ -8,6 +8,7 @@ image: static/images/event.mr-robots-hacker-happy-hour.rectangle.png
 isAccessibleForFree: true
 sameAs:
     - https://gobrunch.com/events/46638
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/269493584/
 organizers:
     - Tech Learning Collective
 performers:
@@ -24,7 +25,7 @@ This event offers a brief inside look at some of the topics covered by Tech Lear
 
 No previous experience with the show or cybersecurity is required for this event. We are materially and culturally very welcoming for total newbies and experienced hackers alike. Please be aware that Mr. Robot contains potentially triggering content.
 
-We are asking for a $10 suggested [donation]({% link donate/index.md %}) if you can afford it. Help support our incredbile team of experts and expert teachers! No one will be turned away for lack of funds.
+<big>We are asking for a $10 suggested [donation]({% link donate/index.md %}) if you can afford it. Help support our incredible team of experts and expert teachers! No one will be turned away for lack of funds.</big>
 
 {% include donate.html %}
 
