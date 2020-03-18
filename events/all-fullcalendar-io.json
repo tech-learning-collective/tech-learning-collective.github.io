@@ -178,4 +178,13 @@
     "end"  : "2020-03-29T20:00:00-0400",
     "url"  : "http://techlearningcollective.com/events/2020/03/workshop-2020-03-29-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams"
 }
+,
+
+
+{
+    "title": "Mr. Robot's Hacker Happy Hour",
+    "start": "2020-03-30T20:00:00-0400",
+    "end"  : "2020-03-30T21:00:00-0400",
+    "url"  : "http://techlearningcollective.com/events/2020/03/event-2020-03-30-mr-robots-hacker-happy-hour"
+}
 ]
