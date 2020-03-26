@@ -168,7 +168,7 @@ nav li:hover li:hover {
 
 main {
     box-sizing: border-box;
-    padding: 75px 20px 0 30px;
+    padding: 75px 20px 40px 30px;
 }
 body.page main {
     max-height: 100%;
