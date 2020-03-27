@@ -3,7 +3,7 @@ title: About
 backgroundColor: rgba(122, 156, 44, 1)
 ---
 
-Tech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia, Information Technology, and radical political practice.
+Tech Learning Collective is an apprenticeship-based technology school for radical organizers headquarted in New York City that provides a security-first IT infrastructure curriculum to otherwise underserved communities and organizations advancing social justice causes. We train politically self-motivated individuals in the arts of hypermedia, Information Technology, and radical political practice.
 
 Founded and operated exclusively by radical queer and femme technologists, we offer unparalleled free, by-donation, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies).
 
