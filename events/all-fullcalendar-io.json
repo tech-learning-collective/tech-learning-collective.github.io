@@ -142,4 +142,13 @@
     "end"  : "2020-04-05T17:30:00-0400",
     "url"  : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-05-tor-what-is-it-good-for-absolutely-everything"
 }
+,
+
+
+{
+    "title": "File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It",
+    "start": "2020-04-07T17:00:00-0400",
+    "end"  : "2020-04-05T18:30:00-0400",
+    "url"  : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-07-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it"
+}
 ]
