@@ -29,7 +29,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
-teaser: This two-hour workshop is all about the basics of computer networking. If you&rsquo;ve ever been curious about what happens &ldquo;on the wire&rdquo; when you&rsquo;re browsing a Web site, or if you ever wanted to take a look &ldquo;under the hood&rdquo; of your Wi-Fi connection, this is the class for you!
+teaser: This workshop is all about the basics of computer networking. If you&rsquo;ve ever been curious about what happens &ldquo;on the wire&rdquo; when you&rsquo;re browsing a Web site, or if you ever wanted to take a look &ldquo;under the hood&rdquo; of your Wi-Fi connection, this is the class for you!
 ---
 
 {{ page.teaser }}
