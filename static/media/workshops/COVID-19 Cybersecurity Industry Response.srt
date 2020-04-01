@@ -1,0 +1,100 @@
+1
+00:00:03,600 --> 00:00:09,440
+I'm actually super pleased to see finally for the first time I think that I have ever seen this happen—
+
+2
+00:00:09,440 --> 00:00:15,680
+dear cybersecurity industry if any of you folks like work in AppSec or InfoSec like—this is,
+
+3
+00:00:15,680 --> 00:00:26,080
+we are helping out civic services and volunteer groups and activist groups with our expertise far too little far too late.
+
+4
+00:00:26,080 --> 00:00:30,220
+Right. But basically, there's like the COVID-19 cybersecurity response now,
+
+5
+00:00:30,220 --> 00:00:37,700
+that folks that people are doing, who are in the industry, who are sitting there setting up the equivalent of like, you know, a Slack channel
+
+6
+00:00:37,700 --> 00:00:46,020
+for, you know, cross company collaboration, but now they're offering that pro bono to
+
+7
+00:00:46,020 --> 00:00:49,560
+critical infrastructure services like hospitals and health care providers and this sort of stuff,
+
+8
+00:00:49,560 --> 00:00:53,940
+smaller groups that are doing for example, home deliveries that are trying to set up websites and this kind of stuff.
+
+9
+00:00:53,940 --> 00:00:58,900
+That's great to see. Too little too fucking late! But you know, it's something.
+
+10
+00:00:58,900 --> 00:01:01,260
+And I'm glad to see that because that's really great.
+
+11
+00:01:01,260 --> 00:01:05,900
+We need more of that kind of pro bono work that is not governmental in nature,
+
+12
+00:01:05,900 --> 00:01:10,260
+that is just actual mutual aid, like for real people helping people, because they're neighbors, right?
+
+13
+00:01:10,260 --> 00:01:16,140
+Like, I like to say that just because you know, you have running water doesn't mean you want to be a plumber,
+
+14
+00:01:16,140 --> 00:01:17,860
+and you shouldn't have to be a plumber.
+
+15
+00:01:17,860 --> 00:01:21,240
+But someone in your community should fucking be a plumber,
+
+16
+00:01:21,240 --> 00:01:24,140
+because you're going to be better off when your pipes break.
+
+17
+00:01:24,140 --> 00:01:28,920
+Someone in your community should fucking be a system administrator, should fucking be, you know, doing some kind of infosec
+
+18
+00:01:28,920 --> 00:01:34,740
+and those people should then help those folks who don't want to do that full time.
+
+19
+00:01:34,740 --> 00:01:36,440
+And so it's good to see that happen.
+
+20
+00:01:36,440 --> 00:01:40,940
+So primarily, we're seeing ransomware attacks, primarily, we're seeing obviously continuation with phishing.
+
+21
+00:01:40,940 --> 00:01:43,100
+Those are sort of tied together obviously,
+
+22
+00:01:43,100 --> 00:01:47,380
+because a lot of, y'know, over 90% of the footholds in corporate networks
+
+23
+00:01:47,380 --> 00:01:51,660
+are going to be phishing related in some, some way, one way or another.
+
+24
+00:01:51,660 --> 00:01:57,700
+We do, for what it's worth, have an entire phishing workshop that is about Web based
+
+25
+00:01:57,700 --> 00:02:00,800
+social engineering attacks. So we show how phishing works.
+
