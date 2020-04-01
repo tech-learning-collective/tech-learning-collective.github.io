@@ -4,6 +4,11 @@ image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.pink
 persona_matrix:
     - 2 # Defenders
     - 3 # Attackers
+videos:
+    - title: Mixnets and Tor
+      src: /static/media/workshops/Mixnets and Tor.mp4
+    - title: Unlinking Your Data Trail with Tor's "New Identity" Button
+      src: /static/media/workshops/Unlinking Your Data Trail with Tor's "New Identity" Button.mp4
 ---
 
 From illegal online drug stores like Silk Road to DDoS botnet command and control headquarters, media attention has long painted "the Dark Web" as though nothing good can come of it. But learn just a little bit more about how Tor and "hidden services" work and you'll find a treasure trove of valuable possibilities for day-to-day Internet use. The same technology that can hide the location of a drug ring can also serve as a free VPN-like service to protect your privacy while you browse the Internet, make censored websites available again, and even let you host your own Internet services for free, all without opening a single port on your firewall!

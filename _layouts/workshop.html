@@ -12,6 +12,26 @@ layout: page
 
 {{ content }}
 
+{% if page.videos %}
+<section class="videos">
+    <h1 id="video-samples">Video Samples</h1>
+    <ul>
+    {% for video in page.videos %}
+        <li>
+            <h2 id="{{ video.title | slugify }}">{{ video.title }}</h2>
+            <video controls="controls" width="100%"
+                src="{{ video.src | relative_url }}"
+            >
+                <p>
+                    <a href="{{ video.src | relative_url }}">Watch {{ video.title }}.</a>
+                </p>
+            </video>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
 <footer>
     <p><a href="mailto:{{ site.data.contact.email }}?subject={{ "Booking request: " | append: page.title | uri_escape }}">Book a Tech Learning Collective instructor for this workshop</a>.</p>
 </footer>
