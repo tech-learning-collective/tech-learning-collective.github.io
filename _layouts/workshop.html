@@ -22,6 +22,13 @@ layout: page
             <video controls="controls" width="100%"
                 src="{{ video.src | relative_url }}"
             >
+            {% if video.tracks %}
+            {% for t in video.tracks %}
+                <track label="{{ t.label }}" srclang="{{ t.srclang }}" kind="{{ t.kind }}"
+                                 src="{{ t.src | relative_url }}"
+                />
+            {% endfor %}
+            {% endif %}
                 <p>
                     <a href="{{ video.src | relative_url }}">Watch {{ video.title }}.</a>
                 </p>
