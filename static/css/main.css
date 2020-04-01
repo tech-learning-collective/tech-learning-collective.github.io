@@ -431,6 +431,18 @@ div.persona-training-graph > div > div {
 div.persona-training-graph .persona-match-row .persona-match-col {
     background: red;
 }
+.workshop .videos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.workshop .videos li {
+    list-style-type: none;
+    flex-basis: 49%;
+}
+.workshop .videos h2 {
+    min-height: 2em;
+}
 
 /**
  * @group Foundations (Katacoda) scenarios and learning modules.
@@ -577,6 +589,9 @@ footer {
         width: auto;
         max-width: 100%;
         margin: 1em 0 0;
+    }
+    .workshop .videos ul {
+        display: block;
     }
     div.persona-training-container {
         margin-top: 1.5em;
