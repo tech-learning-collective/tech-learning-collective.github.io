@@ -4,6 +4,14 @@ image: static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump
 persona_matrix:
     - 3
     - 2
+videos:
+    - title: Password Hashes Explained
+      src: /static/media/workshops/Password Hashes Explained.mp4
+      tracks:
+        - label: Closed Captioning (English)
+          kind: captions
+          srclang: en
+          src: /static/media/workshops/Password Hashes Explained.vtt
 ---
 
 Have you been &ldquo;pwned&rdquo;? For years, security researcher Troy Hunt has been running a website at [HaveIBeenPwned.com](https://haveibeenpwned.com/) that lets you check to see if your online accounts have been pwned—that is, if your personal information such as your password, has been leaked, accessed, or (worst of all!) &ldquo;cracked.&rdquo; Go on, check for yourself!
