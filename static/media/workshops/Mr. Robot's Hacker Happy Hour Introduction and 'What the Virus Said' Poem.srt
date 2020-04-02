@@ -1,0 +1,548 @@
+1
+00:00:03,880 --> 00:00:08,580
+Hopefully you got a drink, you got settled, you watched the first episode of the show.
+
+2
+00:00:08,580 --> 00:00:13,180
+For most of this hour, maybe even longer if we're having a good time,
+
+3
+00:00:13,180 --> 00:00:15,680
+we're just going to talk tech, we're going to talk hacking.
+
+4
+00:00:15,680 --> 00:00:19,540
+We're gonna see what we can play around with that was actually on the show.
+
+5
+00:00:19,540 --> 00:00:27,420
+And we will just do a sort of a Q&A and answer questions and, maybe show some demos and this kind of thing.
+
+6
+00:00:27,420 --> 00:00:31,660
+Before that, though, because there's so many of you here that I have not seen before,
+
+7
+00:00:31,660 --> 00:00:36,010
+and I think many for many of you, this might be your first introduction to the Tech Learning Collective,
+
+8
+00:00:36,240 --> 00:00:38,560
+I wanted to let you know who we are.
+
+9
+00:00:38,560 --> 00:00:50,020
+So TLC, right, is a collective of some radical folks in the United States primarily with some friends around the country,
+
+10
+00:00:50,020 --> 00:00:52,300
+around the continent, I should say,
+
+11
+00:00:52,300 --> 00:00:56,680
+and some around the globe. We do educational courses like this.
+
+12
+00:00:56,680 --> 00:01:02,060
+So if you haven't noticed, come by to some of our events before,
+
+13
+00:01:02,060 --> 00:01:07,520
+you can sign up on our events page, you'll see a calendar listing of the stuff that we're doing.
+
+14
+00:01:07,520 --> 00:01:13,300
+You can see some upcoming events. Soon. Next week, we do workshops on Tor,
+
+15
+00:01:13,300 --> 00:01:17,120
+we do workshops on in this case, we're trying went out on BitTorrent.
+
+16
+00:01:17,120 --> 00:01:24,700
+Some basic networking things, we often do offensive and defensive, hacking demonstrations in educational environments.
+
+17
+00:01:24,700 --> 00:01:32,540
+We just did a gone phishing workshop, which was about web based social engineering attacks, you might get some of that, some of that stuff.
+
+18
+00:01:32,540 --> 00:01:37,880
+But they're typically low cost, free, or donation based events.
+
+19
+00:01:37,880 --> 00:01:44,760
+They are remote typically thanks, of course, to the virus, and we do them sort of at our whenever we can.
+
+20
+00:01:44,760 --> 00:01:53,160
+So it's a small collective of a couple of folks. And we just kind of try to have fun with it and teach people what they need to know.
+
+21
+00:01:54,400 --> 00:02:00,100
+So that's who we are. We are also partners with a number of different groups.
+
+22
+00:02:00,100 --> 00:02:10,580
+And you might see some references to some of them. In particular, I want to point a great big shout out to the Anarcho-Tech NYC group,
+
+23
+00:02:10,580 --> 00:02:17,920
+which is an organization here in New York City that partners with us to do a lot of sort of educational curriculum building.
+
+24
+00:02:17,920 --> 00:02:29,600
+And they provide anti fascist, anti racist, anti capitalist organizations in New York City with digital security services, including penetration tests and different kinds of hands on infrastructure support.
+
+25
+00:02:29,600 --> 00:02:33,130
+So if you're in New York City, especially take take note of this.
+
+26
+00:02:33,130 --> 00:02:40,400
+We use their social rules for our own events. And since this is a huge, huge event,
+
+27
+00:02:40,400 --> 00:02:42,140
+I just want to go over these super quick:
+
+28
+00:02:42,140 --> 00:02:48,150
+first, basically, again, this is both free and we're doing it for fun.
+
+29
+00:02:48,150 --> 00:02:54,150
+So that means if we're not having fun, more specifically, if I'm not having fun, this stops, it's as simple as that.
+
+30
+00:02:54,150 --> 00:02:58,580
+We don't have any time or you know, budget for policing people's behavior and this kind of stuff.
+
+31
+00:02:58,580 --> 00:03:03,820
+We'll simply ban you from all this event and all future events, we have the technology to do it.
+
+32
+00:03:03,820 --> 00:03:09,170
+It's not hard. You're a couple of bytes in a spreadsheet for us. So like, don't, don't, you know, don't don't spoil it for us.
+
+33
+00:03:09,170 --> 00:03:10,840
+We want this to be a lot of fun.
+
+34
+00:03:10,840 --> 00:03:19,040
+Super briefly, the rules, be supportive. Don't, don't you know, there was always a period in someone's time
+
+35
+00:03:19,040 --> 00:03:24,180
+period in someone's life when they didn't know something. We're not here to make fun of how little people know.
+
+36
+00:03:24,180 --> 00:03:31,060
+We're here to help people know more. So don't, you know, you—I'm sure you were in that maybe a tech group at some point and someone said,
+
+37
+00:03:31,060 --> 00:03:34,440
+"Oh, my God, you don't know what a pull request is?" Or, "Oh my god, you don't know what a command line is?"
+
+38
+00:03:34,440 --> 00:03:40,880
+Like, don't don't bother with that. Just say, hey, command line is this, you know, help them fill in some gaps in their knowledge instead of
+
+39
+00:03:40,880 --> 00:03:44,380
+beating them down for some for stuff they don't know. Especially noobs.
+
+40
+00:03:44,380 --> 00:03:47,180
+We want this to be a noob friendly environment. Cool?
+
+41
+00:03:47,180 --> 00:03:52,840
+All right. Secondly, don't you know, try to chime in with stuff that isn't proportional to what we're dealing with.
+
+42
+00:03:52,840 --> 00:04:00,220
+Yes. Someone might get some technical thing tiny bit wrong or like there might be you know, a teeny error in someone's—that's fine.
+
+43
+00:04:00,220 --> 00:04:08,200
+You know, we're here to talk about big picture concepts and philosophies. We're not trying to figure out exactly what the syntax of JavaScript is. No one cares. Okay?
+
+44
+00:04:08,200 --> 00:04:11,440
+Be engaged, be here, maybe go again, grab a drink, relax.
+
+45
+00:04:11,440 --> 00:04:14,780
+Just get rid of some distractions, put your phone down.
+
+46
+00:04:14,780 --> 00:04:17,760
+Also, please don't ask us to do illegal shit.
+
+47
+00:04:17,760 --> 00:04:25,480
+We get asked that too much. Right? Keep it legal when we're in public, and we're in public now.
+
+48
+00:04:25,480 --> 00:04:32,780
+So you know, so please don't please don't ask us to hack on your behalf. We won't do it. We'll ban you.
+
+49
+00:04:32,780 --> 00:04:37,160
+Next, just assume that we're all trying to have a good time here. Right?
+
+50
+00:04:37,160 --> 00:04:43,480
+This is just you know, don't assume that people aren't, don't call out people as Feds and this sort of shit. We don't have time for that either, all right?
+
+51
+00:04:43,480 --> 00:04:51,270
+Next, just be serious about the fact that we're doing this, to have fun that there are some politics involved in these sort of things.
+
+52
+00:04:51,270 --> 00:04:54,000
+You know, we're talking about surveillance technology. That gets political.
+
+53
+00:04:54,000 --> 00:04:58,740
+We're not here to debate the merits of this or that political belief. We all have beliefs on that.
+
+54
+00:04:58,740 --> 00:05:06,280
+We're doing this for free. I don't care what your politics are, if you are here, and you want to learn, and you don't share our politics,
+
+55
+00:05:06,280 --> 00:05:12,290
+that's fine, but shut the fuck up about it. It's as simple as that. We don't want to talk about that at this point.
+
+56
+00:05:12,460 --> 00:05:14,440
+So those are our rules.
+
+57
+00:05:14,440 --> 00:05:21,820
+Now, tonight is our very first, right, our very first Hacker Happy Hour that we are doing remotely.
+
+58
+00:05:21,820 --> 00:05:30,310
+It is, of course, spurred by the incredibly tragic pandemic that's happening.
+
+59
+00:05:30,480 --> 00:05:35,780
+And before we get too much on the Mr. Robot stuff, I do want to just say like, you know,
+
+60
+00:05:35,780 --> 00:05:40,400
+this is unprecedented and I just want to acknowledge the fact that this is hard for a lot of people.
+
+61
+00:05:40,400 --> 00:05:49,520
+I'm personally worried about my family. I hope that everyone's families are okay. And I know that all of you have someone who is either,
+
+62
+00:05:49,520 --> 00:05:53,380
+you know, stressed by it, personally, immediately affected by it.
+
+63
+00:05:53,380 --> 00:05:58,180
+And I just want to take a moment to acknowledge the profound moment in history that this represents, okay?
+
+64
+00:05:58,180 --> 00:06:06,740
+So in a nod to the seriousness of that situation, I'd like to very, very briefly read a translated poem, excerpt of the poem.
+
+65
+00:06:06,740 --> 00:06:13,580
+I know this is not what you came for, but I'm gonna, you know, this is for free. And it's, my stage at the moment. So I'm going to do it. It's not going to take too long.
+
+66
+00:06:13,580 --> 00:06:16,460
+But I want us to recognize how important this is and why
+
+67
+00:06:16,460 --> 00:06:23,100
+this is, you know, now something that things like telework, things like remote work, things like all the
+
+68
+00:06:23,100 --> 00:06:27,960
+importance of understanding the technology that we that we use every day, the networks that we have, right,
+
+69
+00:06:27,960 --> 00:06:34,740
+those of you who understand how this is going to work, it's—you're going to be in a much better position, we want you to have that power.
+
+70
+00:06:34,740 --> 00:06:40,920
+So with that in mind, let me briefly read to you what we've got in this poem.
+
+71
+00:06:40,920 --> 00:06:44,800
+This poem for what it's worth is from our friends in France.
+
+72
+00:06:44,800 --> 00:06:52,540
+They are from the French autonomous movement. And they've written a poem, or published a poem called
+
+73
+00:06:52,540 --> 00:06:56,560
+"What the Virus Said." And it goes like this.
+
+74
+00:06:56,560 --> 00:07:01,350
+I have come to shut down the machine whose emergency break you couldn't find.
+
+75
+00:07:01,350 --> 00:07:04,900
+I've come in order to suspend the operation that held you hostage.
+
+76
+00:07:04,900 --> 00:07:11,250
+I've come in order to demonstrate that aberration, the aberration of normalcy, what it constitutes.
+
+77
+00:07:11,250 --> 00:07:16,980
+Politicians now, they suddenly say "There is no budgetary limit. Health has no no price."
+
+78
+00:07:16,980 --> 00:07:20,420
+See how I redirect the language and spirit of your governing authorities.
+
+79
+00:07:20,420 --> 00:07:26,120
+See how I bring them down for you to their real standing as miserable racketeers, and arrogance to boot!
+
+80
+00:07:26,120 --> 00:07:31,060
+For them, you are nothing but supports for the reproduction of their system—that is, less than slaves.
+
+81
+00:07:31,060 --> 00:07:34,940
+Even the plankton are treated better than you.
+
+82
+00:07:34,940 --> 00:07:43,200
+But don't waste your time reproaching them. Pointing out their deficiencies. Accusing them of negligence is still to give them more credit than they deserve.
+
+83
+00:07:43,200 --> 00:07:47,020
+Ask yourselves, rather, how you could find it so comfortable to let yourself be governed.
+
+84
+00:07:47,020 --> 00:07:55,760
+Praising the merits of the Chinese option compared to the British option is to understand nothing about the one or the other, the horror of one and the horror of the other.
+
+85
+00:07:56,560 --> 00:08:02,180
+Since Quesnay, the liberals have always looked with envy at the Chinese Empire; and they still do.
+
+86
+00:08:02,180 --> 00:08:12,180
+They are Siamese twins. The fact that one of them confines you in its interest and the other in the interest of "society" always amounts to suppressing the only non nihilistic conduct:
+
+87
+00:08:12,180 --> 00:08:19,080
+taking care of oneself, of those one loves, and of what one loves in those one doesn't know.
+
+88
+00:08:19,080 --> 00:08:24,880
+Don't let those who've lead you to the abyss claim to be saving you from it.
+
+89
+00:08:24,880 --> 00:08:32,640
+They will prepare you for a more perfect hell, an even deeper grave. And someday when they're able, they'll send the army to patrol the afterlife.
+
+90
+00:08:32,640 --> 00:08:40,860
+You ought to thank me rather. Without me, for how much longer would those unquestionable things that are suddenly suspended have gone on being presented as necessary.
+
+91
+00:08:40,860 --> 00:08:48,800
+Globalization, competitive exams, air traffic, budgetary limits, elections, sports spectacles, disneyland fitness gyms, most businesses,
+
+92
+00:08:48,800 --> 00:08:53,300
+the National Assembly, school, barracking, mass gatherings, most office jobs,
+
+93
+00:08:53,300 --> 00:08:59,720
+all that automatic sociability that is nothing but the reverse of the anxious solitude of the metropolitan monads:
+
+94
+00:08:59,720 --> 00:09:05,180
+all of that was rendered unnecessary once the state of necessity asserted its presence.
+
+95
+00:09:05,180 --> 00:09:08,120
+Thank me for the truth test in the coming weeks.
+
+96
+00:09:08,120 --> 00:09:15,020
+You're finally going to inhabit your own life, without the thousand escapes that, good year bad year, hold the untenable together.
+
+97
+00:09:15,020 --> 00:09:20,860
+Now you will live with your kindreds. You will be at home. You will cease to be in transit towards death.
+
+98
+00:09:20,860 --> 00:09:28,340
+Perhaps you will hate your husband. Maybe your children won't be able to stand you. Maybe you will feel like blowing up the decor of your everyday life.
+
+99
+00:09:28,340 --> 00:09:38,000
+The truth is that you were no longer in the world, in those metropolises of separation. Your world was no longer livable in any of its guises unless you were constantly cleaning.
+
+100
+00:09:38,000 --> 00:09:45,560
+Thanks to me, for an indefinite time, you will no longer go to work, your kids won't go to school, and yet it will be the opposite of a vacation.
+
+101
+00:09:45,560 --> 00:09:51,570
+Vacations are that space that must be filled up at all costs while waiting for the obligatory return to work.
+
+102
+00:09:51,570 --> 00:09:57,580
+But now what is opening up in front of you, thanks to me, is not a delimited space but a gaping emptiness.
+
+103
+00:09:57,580 --> 00:09:58,860
+I render you idle.
+
+104
+00:09:58,860 --> 00:10:04,780
+There's no guarantee that yesterday's non-world will reappear. All of that profitable absurdity may cease.
+
+105
+00:10:04,780 --> 00:10:10,400
+Not being paid oneself, what would be more natural than to stop paying one's rent?
+
+106
+00:10:10,400 --> 00:10:15,180
+Why would a person unable to work go on depositing their mortgage payments at the bank?
+
+107
+00:10:15,180 --> 00:10:19,320
+Isn't it suicidal, when you come down to it, to live where you can't even cultivate a garden?
+
+108
+00:10:19,320 --> 00:10:24,600
+Someone who doesn't have any money left doesn't stop eating as a consequence, and who has the iron has the bread.
+
+109
+00:10:24,600 --> 00:10:31,900
+So thank me! I place you in front of the bifurcation that was tacitly structuring your existences: the economy or life.
+
+110
+00:10:31,900 --> 00:10:36,260
+It's your move, your turn to play. The stakes are historical.
+
+111
+00:10:36,260 --> 00:10:41,100
+Either the governing authorities impose their state of exception on you, or you invent your own.
+
+112
+00:10:41,100 --> 00:10:45,620
+Either you go with the truths that are coming to light, or you put your head on the chopping block.
+
+113
+00:10:45,800 --> 00:10:54,080
+Either you use the time I'm giving you to envision the world of the aftermath in light of what you learned from the collapse that's underway, or the latter will go extreme.
+
+114
+00:10:54,080 --> 00:10:59,460
+The disaster ends when the economy ends. The economy is the devastation.
+
+115
+00:10:59,460 --> 00:11:03,640
+That was a theory before last month, now it is a fact.
+
+116
+00:11:03,640 --> 00:11:05,260
+So as you deal with me,
+
+117
+00:11:05,260 --> 00:11:09,650
+don't succumb to panic or denial, don't give in to the biopolitical hysterias.
+
+118
+00:11:09,650 --> 00:11:14,800
+The coming weeks will be terrible, oppressive, and cruel. The gates of death will be wide open.
+
+119
+00:11:14,800 --> 00:11:19,280
+I am the most devastating production of the devastation of production.
+
+120
+00:11:19,280 --> 00:11:25,220
+I come to reduce the nihilists to nothingness. The injustice of this world will never be more outrageous.
+
+121
+00:11:25,220 --> 00:11:28,740
+It's a civilization, not you, that I come to bury.
+
+122
+00:11:28,740 --> 00:11:33,380
+Those who desire to live will have to construct new habits, ones that are suitable for them.
+
+123
+00:11:33,380 --> 00:11:38,060
+But avoiding me will be the occasion for this reinvention, this new art of distances.
+
+124
+00:11:38,060 --> 00:11:45,680
+The art of greeting one another, which some were short sighted enough to see as the very form of the institution, will soon not obey any etiquette.
+
+125
+00:11:45,680 --> 00:11:47,580
+It will sign beings.
+
+126
+00:11:47,580 --> 00:11:52,740
+Don't do it "for the others," for "the population," or for, "society." Do it for your people.
+
+127
+00:11:52,740 --> 00:12:00,120
+Take care of your friends, and those you love. Rethink along with them, decisively, would a just form of life would be.
+
+128
+00:12:00,120 --> 00:12:05,160
+Organize clusters of right living and expand them, and I won't be able to do anything against you.
+
+129
+00:12:05,160 --> 00:12:14,120
+I am calling for a massive return, not of discipline, but of attention. Not for the end of insouciance, but the end of all carelessness.
+
+130
+00:12:14,120 --> 00:12:19,420
+What other way remained for me to remind you that salvation is in each gesture.
+
+131
+00:12:19,420 --> 00:12:22,480
+That everything is the tiniest thing.
+
+132
+00:12:22,480 --> 00:12:29,360
+I've had to face the facts: humanity only asks itself the questions it can no longer keep from asking.
+
+133
+00:12:29,360 --> 00:12:35,000
+So for what it's worth, this is a link. That was the poem. Thank you so much for listening for that.
+
+134
+00:12:35,000 --> 00:12:44,620
+This is a link to some resources from the Anarcho-Tech NYC collective about some social distancing resources, please use them, share them,
+
+135
+00:12:44,620 --> 00:12:50,080
+consider supporting those five demands for emergency COVID-19 survival in your state.
+
+136
+00:12:50,080 --> 00:12:52,460
+There's plenty of petitions you can find them on the internet.
+
+137
+00:12:52,460 --> 00:12:59,580
+And that, thank you again, was my little "I'm worried about my family. I hope everyone's okay."
+
