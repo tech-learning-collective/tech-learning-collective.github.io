@@ -38,7 +38,7 @@ Last week&rsquo;s &ldquo;Mr. Robot&rsquo;s Hacker Happy Hour&rdquo; was one tiny
     </p>
 </video>
 
-The event opened with a brief introduction to Tech Learning Collective, a rundown of some links to resources elsewhere, shout-outs to our sister organizations, and [a poem acknowledging the current tragedy unfolding before us](https://lundi.am/What-the-virus-said) all across the globe. 
+The event opened with a brief introduction to Tech Learning Collective, a rundown of some links to [resources elsewhere](https://github.com/AnarchoTechNYC/awesome-social-distancing/tree/master/README.md#readme), shout-outs to our sister organizations, and [a poem acknowledging the current tragedy unfolding before us](https://lundi.am/What-the-virus-said) all across the globe. 
 
 ## Mixnets and Tor
 
