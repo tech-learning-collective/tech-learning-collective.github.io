@@ -8,9 +8,9 @@
 {% endif %}
 
 {% if include.excerpt %}
-    {% assign event_description = event.excerpt | default: event.teaser | default: event.content | markdownify | strip_html | truncatewords: 50, "" | strip %}
+    {% assign event_description = event.excerpt | default: event.teaser | default: event.content | default: event.description | markdownify | strip_html | truncatewords: 50, "" | strip %}
 {% else %}
-    {% assign event_description = event.content | strip %}
+    {% assign event_description = event.content | default: event.simple_html_description | strip %}
 {% endif %}
 
 {% assign default_image = site.iCalendar.defaults.image | relative_url %}
@@ -33,20 +33,20 @@ to be set on DIV elements, not ARTICLEs.
 
         <a href="{{ event.url | relative_url }}" class="u-url url" itemprop="url">
             <h2 class="p-summary summary p-name" itemprop="name">
-                    {{ event.name | default: event.title }}
+                    {{ event.name | default: event.title | default: event.summary }}
             </h2>
             <img src="{{ event_image }}" alt="" itemprop="image" />
         </a>
         <ul class="event-meta">
             <li class="event-datetime">
-                <abbr class="dt-start dtstart" title="{{ event.startDate | date_to_xmlschema }}">
-                    <span>{{ event.startDate | date: site.date_format }}</span>
-                    <span>{{ event.startDate | date: site.time_format }}{% if "Remote" == event.location %} ({{ event.startDate | date: "%z" }}){% endif %}</span>
+                <abbr class="dt-start dtstart" title="{{ event.startDate | default: event.start_time | date_to_xmlschema }}">
+                    <span>{{ event.startDate | default: event.start_time | date: site.date_format }}</span>
+                    <span>{{ event.startDate | default: event.start_time | date: site.time_format }}{% if "Remote" == event.location %} ({{ event.startDate | date: "%z" }}){% endif %}</span>
                 </abbr>
                 &ndash;
-                <abbr class="dt-end dtend" title="{{ event.endDate | date_to_xmlschema }}">
-                    <span>{{ event.endDate | date: site.date_format }}</span>
-                    <span>{{ event.endDate | date: site.time_format }}</span>
+                <abbr class="dt-end dtend" title="{{ event.endDate | default: event.end_time | date_to_xmlschema }}">
+                    <span>{{ event.endDate | default: event.end_time | date: site.date_format }}</span>
+                    <span>{{ event.endDate | default: event.end_time | date: site.time_format }}</span>
                 </abbr>
                 <meta itemprop="startDate" content="{{ event.startDate | date_to_xmlschema }}" />
                 <meta itemprop="endDate" content="{{ event.endDate | date_to_xmlschema }}" />
