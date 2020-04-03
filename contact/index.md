@@ -8,11 +8,17 @@ Tech Learning Collective instructors can be booked for events for a nominal book
 
 If you&rsquo;d like to schedule some time with us, get in touch and we&rsquo;ll write you back as soon as possible.
 
-For **all inquiries**, please email us at [{{ site.data.contact.email }}](mailto:{{ site.data.contact.email }}).
+For **all inquiries**, please email us at [{{ site.data.contact.email }}](mailto:{{ site.data.contact.email }}). This is the fastest way to reach a member of our team. To secure our email correspondence, please use [our PGP/GPG key]({% link .well-known/openpgp-public-key.asc %}). ([What&rsquo;s PGP/GPG?]({% link _workshops/Securing Email: Protecting Everyday Communications from GMail to ProtonMail.md %}))
 
-To secure our email correspondence, please use [our PGP/GPG key]({% link .well-known/openpgp-public-key.asc %}). ([What&rsquo;s PGP/GPG?]({% link _workshops/Securing Email: Protecting Everyday Communications from GMail to ProtonMail.md %}))
+If you cannot use email to communicate safely with us, you can reach us via [Signal Private Messenger](https://signal.org/) by sending a Signal message to [+12083296847](sms:+12083296847). This address is *not* capable of receiving phone calls or unencrypted text messages, only encrypted Signal messages. Please **verify our Signal Safety Number** before you send your message. ([Learn how to verify Signal Safety Numbers](https://support.signal.org/hc/articles/360007060632-What-is-a-safety-number-and-why-do-I-see-that-it-changed-).)
 
-To report security issues, please see [our `security.txt` file]({% link .well-known/security.txt %}).
+Signal Safety Number verification means that exactly half of the Safety Number for your conversation with our Signal endpoint matches the following Safety Number:
+
+<pre>43262 76684 06688 95429 48222 77528</pre>
+
+Learn more about securely using Signal Private Messenger in [our Signal and Surveillance workshop]({% link _workshops/Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State.md %}).
+
+To report security issues to our own cybersecurity team, please refer to the instructions in [our `security.txt` file]({% link .well-known/security.txt %}). ([Learn more about a `security.txt` file.](https://securitytxt.org/))
 
 # Alumni and Community
 
