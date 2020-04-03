@@ -130,6 +130,7 @@ Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet 
 
 * [I am a tech professional. How do I become a TLC teacher?](#i-am-a-tech-professional-how-do-i-become-a-tlc-teacher)
 * [I&rsquo;d like to volunteer for TLC. How do I get involved?](#id-like-to-volunteer-for-tlc-how-do-i-get-involved)
+* [I heard TLC has a Capture the Flag (CTF) team. Can I join?](#i-heard-tlc-has-a-capture-the-flag-team-can-i-join)
 
 ## I am a tech professional. How do I become a TLC teacher?
 
@@ -153,3 +154,7 @@ If supporting us financially is not something you can do, and you also do not wa
 Another way to help out is to spread the word about Tech Learning Collective events, inviting your friends and comrades to participate in workshops or training sessions that we&rsquo;re producing. Remember that you can [subscribe to our event calendar]({% link events/upcoming/index.md %}#export-event-calendar) to be notified whenever we publish a new event. Likewise, if you&rsquo;re organizing your own event, or know someone who is, consider inviting Tech Learning Collective to host a digital security training session there.
 
 Again, while we greatly appreciate your desire to volunteer, the best thing you can do to support us and to get involved in our community is to attend our events.
+
+## I heard TLC has a Capture the Flag (CTF) team. Can I join?
+
+We do indeed have several CTF teams. These primarily function as a cybersecurity study groups for current and former Tech Learning Collective students. However, you *may* still be able to join as an external collaborator, subject to several restrictions. For more information, refer to [our CTF FAQ]({% link events/ctfs.md %}#ctf-faq).
