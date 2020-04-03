@@ -132,7 +132,7 @@ iCalendar:
     defaults:
         location: New York, NY
         status: CONFIRMED
-        image: *image
+        image: *logo
 
 # Payment processor integrations.
 payments:
