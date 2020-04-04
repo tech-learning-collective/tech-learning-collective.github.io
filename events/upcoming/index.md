@@ -29,7 +29,7 @@ If clicking the link does not open your calendaring application, it means your W
 Your calendaring application will also have instructions in its user manual for subscribing to calendars like ours. For example:
 
 * [Google Calendar Support](https://support.google.com/calendar/answer/37100)
-* [Apple Calendar Support](https://techlearningcollective.com/events/all.ics)
+* [Apple Calendar Support](https://support.apple.com/guide/calendar/subscribe-to-calendars-icl1022/mac)
 * [Microsoft Outlook Support](https://support.office.com/en-us/article/Import-or-subscribe-to-a-calendar-in-Outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df)
 * [Mozilla Thunderbird Lightning Calendar Support](https://support.mozilla.org/en-US/kb/creating-new-calendars#w_icalendar-ics)
 
