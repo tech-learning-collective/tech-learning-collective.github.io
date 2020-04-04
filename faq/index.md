@@ -157,4 +157,4 @@ Again, while we greatly appreciate your desire to volunteer, the best thing you 
 
 ## I heard TLC has a Capture the Flag (CTF) team. Can I join?
 
-We do indeed have several CTF teams. These primarily function as a cybersecurity study groups for current and former Tech Learning Collective students. However, you *may* still be able to join as an external collaborator, subject to several restrictions. For more information, refer to [our CTF FAQ]({% link events/ctfs.md %}#ctf-faq).
+We do indeed have several CTF teams. These primarily function as cybersecurity study groups for current and former Tech Learning Collective students. However, you *may* still be able to join as an external collaborator, subject to several restrictions. For more information, refer to [our CTF FAQ]({% link events/ctfs.md %}#ctf-faq).
