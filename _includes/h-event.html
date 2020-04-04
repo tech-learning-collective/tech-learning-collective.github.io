@@ -27,13 +27,13 @@
 Old Microformat converters need `vevent` class values
 to be set on DIV elements, not ARTICLEs.
 {% endcomment %}
-<div class="h-event vevent">
+<div id="{{ event.name | default: event.title | default: event.summary | prepend: "-" | prepend: event.startDate | slugify }}" class="h-event vevent">
 <article itemscope="itemscope" itemtype="https://schema.org/{{ event.type | default: "Event" }}">
     <header>
 
         <a href="{{ event.url | relative_url }}" class="u-url url" itemprop="url">
             <h2 class="p-summary summary p-name" itemprop="name">
-                    {{ event.name | default: event.title | default: event.summary }}
+                {{ event.name | default: event.title | default: event.summary }}
             </h2>
             <img src="{{ event_image }}" alt="" itemprop="image" />
         </a>
