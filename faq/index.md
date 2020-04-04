@@ -130,7 +130,7 @@ Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet 
 
 * [I am a tech professional. How do I become a TLC teacher?](#i-am-a-tech-professional-how-do-i-become-a-tlc-teacher)
 * [I&rsquo;d like to volunteer for TLC. How do I get involved?](#id-like-to-volunteer-for-tlc-how-do-i-get-involved)
-* [I heard TLC has a Capture the Flag (CTF) team. Can I join?](#i-heard-tlc-has-a-capture-the-flag-team-can-i-join)
+* [I heard TLC has a Capture the Flag (CTF) team. Can I join?](#i-heard-tlc-has-a-capture-the-flag-ctf-team-can-i-join)
 
 ## I am a tech professional. How do I become a TLC teacher?
 
