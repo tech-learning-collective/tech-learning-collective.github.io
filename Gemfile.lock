@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/meitar/jekyll-ical-tag.git
-  revision: 956aad1d2c41d3bcbe7821d807f295288b9c34fd
+  revision: 05c221d7784d72da6b432465da798ea01957562f
   branch: jekyll-3.x
   specs:
     jekyll-ical-tag (1.0.7)
