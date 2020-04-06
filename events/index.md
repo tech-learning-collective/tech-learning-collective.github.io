@@ -14,7 +14,14 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 
 ([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
 
-{% include events-upcoming.html%}
+{% include events-upcoming.html %}
+
+{% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 3 %}
+{%- capture desc -%}{% include boilerplate-partner-ctf-event.md join_url="https://gitter.im/AnarchoTechNYC/Lobby" event=event %}{% endcapture %}
+{%- capture desc -%}{{ desc | markdownify }}{% endcapture %}
+{%- capture img -%}{{ "static/images/capture-the-flag.gif" | absolute_url }}{%- endcapture -%}
+{% include h-event.html event=event description=desc url="https://github.com/AnarchoTechNYC/meta/wiki/CTF-team" image=img %}
+{% endical %}
 
 # Recent events
 

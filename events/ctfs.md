@@ -8,7 +8,8 @@ Tech Learning Collective&rsquo;s cybersecurity students are welcome to join any 
 <ol style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 2em;">
 {% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true %}
 <li id="ctf-event-{{ event.summary | slugify }}">
-    {% include h-event.html event=event excerpt=true %}
+    {% capture img %}{{ "static/images/capture-the-flag.gif" | absolute_url }}{% endcapture %}
+    {% include h-event.html event=event excerpt=true image=img %}
 </li>
 {% endical %}
 </ol>

@@ -14,5 +14,11 @@ NAME:{% include site-title.txt %} - {% include gettext.liquid key="all_events" %
 {%- if event_end_unix_time > thirty_one_days_ago -%}
 {%- include vevent.ics event=event -%}
 {%- endif -%}
-{%- endfor %}
+{%- endfor -%}
+{%- ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 5  -%}
+{%- capture desc -%}{% include boilerplate-partner-ctf-event.md join_url="https://gitter.im/AnarchoTechNYC/Lobby" event=event %}{% endcapture %}
+{%- capture desc -%}{{ desc | markdownify }}{% endcapture %}
+{%- capture img -%}{{ "static/images/capture-the-flag.gif" | absolute_url }}{%- endcapture -%}
+{%- include vevent.ics event=event description=desc url="https://github.com/AnarchoTechNYC/meta/wiki/CTF-team" image=img -%}
+{%- endical -%}
 END:VCALENDAR

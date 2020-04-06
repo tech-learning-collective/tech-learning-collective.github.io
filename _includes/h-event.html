@@ -8,9 +8,9 @@
 {% endif %}
 
 {% if include.excerpt %}
-    {% assign event_description = event.excerpt | default: event.teaser | default: event.content | default: event.description | markdownify | strip_html | truncatewords: 50, "" | strip %}
+    {% assign event_description = event.excerpt | default: event.teaser | default: include.description | default: event.content | default: event.description | markdownify | strip_html | truncatewords: 50, "" | strip %}
 {% else %}
-    {% assign event_description = event.content | default: event.simple_html_description | strip %}
+    {% assign event_description = include.description | default: event.content | default: event.simple_html_description | strip %}
 {% endif %}
 
 {% assign default_image = site.iCalendar.defaults.image | relative_url %}
@@ -20,7 +20,7 @@
 {% elsif x != nil %}
     {% assign event_image = x | relative_url %}
 {% else %}
-    {% assign event_image = default_image %}
+    {% assign event_image = include.image | default: default_image %}
 {% endif %}
 
 {% comment %}

@@ -18,7 +18,7 @@ columns: 1
 <section>
     <h1 id="next-event">Next Event</h1>
     {% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 1 %}
-    <p>Next CTF: <a href="{{ event.url | absolute_url }}">{{ event.summary }}</a>. (<a href="{% link events/ctfs.md %}#what-is-a-ctf">What is a CTF?</a>)</p>
+    <p>Next CTF: <a href="{% link events/index.md %}#{{ event.summary | slugify }}">{{ event.summary }}</a>. (<a href="{% link events/ctfs.md %}#what-is-a-ctf">What is a CTF?</a>)</p>
     {% endical %}
     {% include events-upcoming-view-all-link.html %}
     {% include events-upcoming.html limit=1 silent=true %}
