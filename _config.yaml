@@ -59,6 +59,9 @@ subject_map:
 # the collection, you can make a page with its own Web address to show
 # the recipe on your Web site.
 collections:
+  calendars:
+    output: true
+    permalink: /:collection/:categories/:title
   courses:
     output: true
   workshops:
@@ -81,6 +84,11 @@ defaults:
       layout: page
       image: *logo
       backgroundColor: rgba(55, 43, 251, 1)
+  - scope:
+      type: calendars
+    values:
+      layout: calendars
+      columns: 1
   - scope:
       type: courses
     values:

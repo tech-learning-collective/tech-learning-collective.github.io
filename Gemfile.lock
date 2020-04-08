@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/meitar/jekyll-ical-tag.git
+  revision: 2b47cc4968d2e7ec32398ca56e66e081f859cb31
+  branch: temporary
+  specs:
+    jekyll-ical-tag (1.1.0.pre.hotfix)
+      activesupport
+      api_cache
+      icalendar
+      jekyll (~> 3)
+      pry
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -125,12 +137,6 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
-    jekyll-ical-tag (1.0.9)
-      activesupport
-      api_cache
-      icalendar
-      jekyll (~> 3)
-      pry
     jekyll-mentions (1.5.1)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -260,7 +266,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-ical-tag
+  jekyll-ical-tag!
   jekyll-menus
 
 BUNDLED WITH

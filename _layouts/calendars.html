@@ -1,0 +1,9 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% ical url: page.icalendar_url only_future: true limit: 5 %}
+{% include h-event.html event=event excerpt=true image=page.image %}
+{% endical %}
