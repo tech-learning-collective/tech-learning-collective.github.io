@@ -641,3 +641,33 @@ footer {
 .ticket-type-price {
     padding-left: .5em;
 }
+
+/**
+ * @group DataTables overrides.
+ */
+.datatables {
+    background-color: #FFF;
+    color: #000;
+}
+.datatables a {
+    color: #000;
+}
+.dataTables_wrapper label {
+    color: #FFF;
+}
+.datatables img {
+    max-width: 100%;
+}
+.datatables .dtr-details {
+    width: 100%;
+}
+.datatables .dtr-details li {
+    list-style-type: none;
+    display: flex;
+}
+.datatables .dtr-details .dtr-title {
+    flex-grow: 1;
+}
+.datatables .dtr-details .dtr-data {
+    flex-grow: 10;
+}

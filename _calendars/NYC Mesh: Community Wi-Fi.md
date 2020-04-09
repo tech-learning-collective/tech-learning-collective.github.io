@@ -2,6 +2,10 @@
 title: "NYC Mesh: Community Wi-Fi"
 icalendar_url: https://www.meetup.com/nycmesh/events/ical/
 image: https://secure.meetupstatic.com/photos/event/7/8/5/c/600_473190812.jpeg
+adr:
+    country: United States
+    region: NY
+    locality: New York
 ---
 
 The Internet is central to our lives, but in New York City, many people cannot afford access.

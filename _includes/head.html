@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="{% link static/css/main.css %}" />
     {% if "events" == page.collection %}<link rel="stylesheet" href="{% link static/css/event-flyer.css %}" media="print" />{% endif %}
     <link rel="stylesheet" href="{% link static/css/vim.css %}" />
+    {% for s in page.include_styles %}
+    <link rel="stylesheet" href="{{ s }}" />
+    {% endfor %}
 
     {% feed_meta %}
 

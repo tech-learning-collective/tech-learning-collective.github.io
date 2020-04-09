@@ -2,6 +2,10 @@
 title: DEFCON 201
 icalendar_url: https://www.meetup.com/DEFCON201/events/ical/
 image: https://secure.meetupstatic.com/photos/event/d/a/1/7/600_474895831.jpeg
+adr:
+    country: United States
+    region: NJ
+    locality: Jersey City
 ---
 
 [DEFCON 201](https://www.defcon201.org/) (aka DC201) is the North NJ DEFCON local meetup group.
