@@ -645,29 +645,36 @@ footer {
 /**
  * @group DataTables overrides.
  */
-.datatables {
+.dataTable {
     background-color: #FFF;
     color: #000;
 }
-.datatables a {
+.dataTable a {
     color: #000;
 }
-.dataTables_wrapper label {
+.dataTables_wrapper label,
+.dataTables_wrapper .dataTables_info[role="status"] {
     color: #FFF;
 }
-.datatables img {
+.dataTable img {
     max-width: 100%;
 }
-.datatables .dtr-details {
+.dataTable .dtr-details {
     width: 100%;
 }
-.datatables .dtr-details li {
+.dataTable .dtr-details li {
     list-style-type: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
-.datatables .dtr-details .dtr-title {
-    flex-grow: 1;
+.dataTable .dtr-details .dtr-title {
+    margin-right: 1em;
+    text-align: right;
 }
-.datatables .dtr-details .dtr-data {
-    flex-grow: 10;
+table.dataTable td {
+    white-space: nowrap;
+}
+table.dataTable td.child,
+.dataTable td:nth-child(2) {
+    white-space: normal;
 }

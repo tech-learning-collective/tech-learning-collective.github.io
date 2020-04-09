@@ -14,9 +14,13 @@
 {% endif %}
 
 {% assign default_image = site.iCalendar.defaults.image | relative_url %}
-{% assign x = event.image | split: ":" | first %}
+{% for i in event.image %}
+    {% comment %} If an array, "coerce" to string. {% endcomment %}
+    {% assign event_image = i %}
+{% endfor %}
+{% assign x = event_image | split: ":" | first %}
 {% if "http" == x or "https" == x %}
-    {% assign event_image = event.image %}
+    {% comment %} Event image already an absolute URI; don't change it. {% endcomment %}
 {% elsif x != nil %}
     {% assign event_image = x | relative_url %}
 {% else %}
