@@ -89,6 +89,7 @@ defaults:
     values:
       layout: calendars
       columns: 1
+      image: false
   - scope:
       type: courses
     values:
