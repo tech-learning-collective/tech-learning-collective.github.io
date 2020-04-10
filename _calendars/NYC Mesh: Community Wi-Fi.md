@@ -4,7 +4,7 @@ icalendar_url: https://www.meetup.com/nycmesh/events/ical/
 image: https://secure.meetupstatic.com/photos/event/7/8/5/c/600_473190812.jpeg
 adr:
     country: United States
-    region: NY
+    region: New York
     locality: New York
 ---
 

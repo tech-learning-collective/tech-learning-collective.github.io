@@ -4,7 +4,7 @@ icalendar_url: https://www.meetup.com/Portlands-Techno-Activism-3rd-Mondays/even
 image: https://secure.meetupstatic.com/photos/event/7/1/f/d/600_434189181.jpeg
 adr:
     country: United States
-    region: OR
+    region: Oregon
     locality: Portland
 ---
 

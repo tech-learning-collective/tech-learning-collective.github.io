@@ -6,7 +6,7 @@ icalendar_url: https://www.eff.org/calendar/ics/export.ics
 image: https://www.eff.org/sites/all/modules/custom/eff_library/images/eff-logo-1color-blue.svg
 adr:
     country: United States
-    region: CA
+    region: California
     locality: San Francisco
 ---
 

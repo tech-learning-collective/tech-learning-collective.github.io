@@ -670,6 +670,7 @@ footer {
 .dataTable .dtr-details .dtr-title {
     margin-right: 1em;
     text-align: right;
+    font-size: small;
 }
 table.dataTable td {
     white-space: nowrap;

@@ -4,7 +4,7 @@ icalendar_url: https://www.meetup.com/New-York-Cryptoparty-Network/events/ical/
 image: https://secure.meetupstatic.com/photos/event/e/5/1/b/600_451858651.jpeg
 adr:
     country: United States
-    region: NY
+    region: New York
     locality: New York
 ---
 

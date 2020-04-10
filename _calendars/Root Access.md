@@ -4,7 +4,7 @@ icalendar_url: "https://www.google.com/calendar/ical/rootaccess.space_ogg77tvbsh
 image: https://cdn.rootaccess.org/static/img/branding/rootaccess-logo-color-negative.e0f6a58fcc99.svg
 adr:
     country: United States
-    region: CA
+    region: California
     locality: Fresno
 ---
 

@@ -4,7 +4,7 @@ icalendar_url: https://calagator.org/events/search.ics?query=telco
 image: https://personaltelco.net/htdocs/personaltelco/img/ptp-logo.png
 adr:
     country: United States
-    region: OR
+    region: Oregon
     locality: Portland
 ---
 

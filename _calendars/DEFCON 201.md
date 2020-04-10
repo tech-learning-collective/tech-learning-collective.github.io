@@ -4,7 +4,7 @@ icalendar_url: https://www.meetup.com/DEFCON201/events/ical/
 image: https://secure.meetupstatic.com/photos/event/d/a/1/7/600_474895831.jpeg
 adr:
     country: United States
-    region: NJ
+    region: New Jersey
     locality: Jersey City
 ---
 

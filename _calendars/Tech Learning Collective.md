@@ -4,7 +4,7 @@ icalendar_url: https://techlearningcollective.com/events/all.ics
 image: https://techlearningcollective.com/static/images/icon.chip.blue.png
 adr:
     country: United States
-    region: NY
+    region: New York
     locality: New York
 ---
 

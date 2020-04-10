@@ -3,7 +3,7 @@ title: White Hat Club
 icalendar_url: https://www.google.com/calendar/ical/whitehatcalpoly%40gmail.com/public/basic.ics
 adr:
     country: United States
-    region: CA
+    region: California
     locality: San Luis Obispo
 ---
 

@@ -4,7 +4,7 @@ icalendar_url: https://www.meetup.com/noisebridge/events/ical/
 image: https://www.noisebridge.net/images/d/d0/Nb-logo-131.png
 adr:
     country: United States
-    region: CA
+    region: California
     locality: San Francisco
 ---
 

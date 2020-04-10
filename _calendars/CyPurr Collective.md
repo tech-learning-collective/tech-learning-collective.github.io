@@ -4,7 +4,7 @@ icalendar_url: https://p.fruux.com/c/a3298180890/9d9ddc4b-9b28-476b-a161-19ebcd5
 image: https://cypurr.nyc/images/catoutline_poster_-crop-u163.png
 adr:
     country: United States
-    region: NY
+    region: New York
     locality: New York
 ---
 

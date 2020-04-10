@@ -6,7 +6,7 @@ include_styles:
     - https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css
 ---
 
-This page lists groups that we are aware of along with information about their next published event. Use the search field to filter groups based on their name, location, and other details. Groups other than {{ site.title }} are *not affiliated with us in any way*. This resource is provided for information purposes only.
+This page lists groups that we are aware of along with information about their next published event. Use the search field to filter groups based on their name, location, and other details. Groups other than {{ site.title }} are *not affiliated with us in any way*. This resource is provided for informational purposes only.
 
 For more information about {{ site.title }}&rsquo;s own upcoming free, by-donation, and low-cost events, refer to the [official Tech Learning Collective Events calendar]({% link events/index.md %}). If you run a technology education group and would like to be considered for inclusion on this page, [send us a note]({% link contact/index.md %}) and tell us about yourselves! Be certain to read through the [inclusion requirements](#inclusion-requirements) before you write us.
 
