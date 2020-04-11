@@ -14,6 +14,7 @@
 {% endif %}
 
 {% assign default_image = site.iCalendar.defaults.image | relative_url %}
+{% assign event_image = include.image %}
 {% for i in event.image %}
     {% comment %} If an array, "coerce" to string. {% endcomment %}
     {% assign event_image = i %}

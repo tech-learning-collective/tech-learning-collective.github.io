@@ -657,7 +657,7 @@ footer {
     color: #FFF;
 }
 .dataTable img {
-    max-width: 100%;
+    max-width: 100px;
 }
 .dataTable .dtr-details {
     width: 100%;
