@@ -22,6 +22,10 @@ You can either compete against yourself or against the other participants in the
 
 As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, &ldquo;brogrammer,&rdquo; &ldquo;manarchist,&rdquo; or any kind of similarly awful behavior *will* result in immediate removal from class without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
 
+## About the Anarcho-Tech NYC Collective
+
+The [NYC chapter of the Anarcho-Tech Collective](https://github.com/AnarchoTechNYC/meta/wiki) provides technological and digital infrastructure support services to anti-fascist, anti-racist, and anti-capitalist organizations in New York City. These services range from computer training for activists and advocacy groups, to direct assistance with digital components of advocacy efforts and private audits of an ally&rsquo;s security posture when requested. We are an entirely volunteer-run organization operating without any licensing or legal recognition and a financial budget intentionally as close to zero as possible.
+
 {% include boilerplate-press.md %}
 
 *This event is publicized on behalf of another group and is not an official {{ site.title }} workshop or class.*
