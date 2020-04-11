@@ -3,13 +3,13 @@ title: Free, Foundational Self-Paced Computer Practice Labs
 columns: 1
 ---
 
-Tech Learning Collective provides some free, self-paced practice labs that you can use to jump-start your learing before you ever join us at one of [our events]({% link events/index.md %}).
+Tech Learning Collective provides numerous free, self-paced practice labs that you can use to jump-start your learing before you ever join us at one of [our events]({% link events/index.md %}).
 
-These labs are provided free of charge, and are always available, so feel free to take as long as you need to work through them. Our &ldquo;Foundations&rdquo; series of courses are designed to introduce you to the most important foundations of our material. We also offer several bite-sized modules of additional material to show you some of what our longer in-person and online webinar workshops are like.
+These labs are provided free of charge, and are always available, so feel free to take as long as you need to work through them. Our &ldquo;Foundations&rdquo; series of courses are designed to introduce you to the most important foundations of our material. We also offer several bite-sized modules of additional [sample learning modules](#sample-learning-modules) to show you some of what our longer in-person and online webinar workshops are like.
 
 Of course, nothing can compare to learning directly from a teacher whom you can actually see and ask questions of in real time, but we hope that these self-paced learning modules will whet your appetite until your next (or first) class with us!
 
-{% for pathway in site.data.katacoda %}
+{% for pathway in site.data.katacoda reversed %}
 
 ### {{ pathway[1].title }}
 
