@@ -1,6 +1,7 @@
 ---
 title: White Hat Club
 icalendar_url: https://www.google.com/calendar/ical/whitehatcalpoly%40gmail.com/public/basic.ics
+image: https://avatars1.githubusercontent.com/u/18688180
 adr:
     country: United States
     region: California
