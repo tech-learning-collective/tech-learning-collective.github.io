@@ -10,6 +10,8 @@ This page lists groups that we are aware of along with information about their n
 
 For more information about {{ site.title }}&rsquo;s own upcoming free, by-donation, and low-cost events, refer to the [official Tech Learning Collective Events calendar]({% link events/index.md %}). If you run a technology education group and would like to be considered for inclusion on this page, [send us a note]({% link contact/index.md %}) and tell us about yourselves! Be certain to read through the [inclusion requirements](#inclusion-requirements) before you write us.
 
+{% include enable-javascript.html message="to search, sort, and paginate this table" %}
+
 {% comment %}
 This table is a DataTables table; its class names are defined by that
 library and should not be changed (too much).

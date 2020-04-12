@@ -1,3 +1,4 @@
+{% include enable-javascript.html message="to load this interactive learning module content" %}
 <script src="//katacoda.com/embed.js"></script>
 <div id="katacoda-scenario-{{ page.slug }}"
      data-katacoda-id="{% if include.katacoda-id %}{{ include.katacoda-id }}{% else %}tech-learning-collective/courses/foundations-{{ current_katacoda_id }}{% endif %}"
