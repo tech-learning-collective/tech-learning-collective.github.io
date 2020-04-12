@@ -20,6 +20,10 @@ No `{{ content }}` because embed uses Foundations courses from `_data/katacoda/`
 {% endcomment %}
 {% include katacoda-embed.html %}
 
+<p>
+    Found a mistake we made? <a href="https://github.com/tech-learning-collective/katacoda-scenarios/tree/master/foundations-{{ current_katacoda_id }}">Fix it by editing this learning module on GitHub</a> and help improve this course for future students!
+</p>
+
 <p>Continue to:</p>
 <ul class="Pagination">
     {% if prev_index > -1 and site.data.katacoda[current_pathway].courses[prev_index] %}
