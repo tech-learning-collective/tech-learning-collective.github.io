@@ -16,7 +16,7 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 
 {% include events-upcoming.html %}
 
-{% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 3 %}
+{% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 2 %}
 {%- capture desc -%}{% include boilerplate-partner-ctf-event.md join_url="https://gitter.im/AnarchoTechNYC/Lobby" event=event %}{% endcapture %}
 {%- capture desc -%}{{ desc | markdownify }}{% endcapture %}
 {%- capture img -%}{{ "static/images/capture-the-flag.gif" | absolute_url }}{%- endcapture -%}
