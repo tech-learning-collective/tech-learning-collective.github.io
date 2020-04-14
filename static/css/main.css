@@ -301,6 +301,7 @@ a.button:hover {
 }
 table.dotleader.price {
     width: 100%;
+    margin-bottom: 1em;
 }
 table.price th:first-child{
     text-align: left;
@@ -314,6 +315,18 @@ table.price tr:not(.no-currency) td:last-child::before {
 }
 table.price tr:not(.no-currency) td:last-child::after {
     content: " USD";
+}
+table.price td:last-child {
+    position: relative;
+    height: 3em;
+}
+table.price td:last-child span[title]::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: attr(title);
+    font-size: x-small;
+    white-space: pre;
 }
 
 /**

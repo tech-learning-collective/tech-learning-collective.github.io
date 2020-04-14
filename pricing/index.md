@@ -77,16 +77,20 @@ For events that are not ticketed, the Tech Learning Collective charges the organ
     </thead>
     <tbody>
         <tr>
+            <td><span>5</span></td>
+            <td><span title="Our standard general admission ticket charge.">175</span></td>
+        </tr>
+        <tr>
             <td><span>10</span></td>
-            <td><span>125</span></td>
+            <td><span title="One ticket is free of charge.">315</span></td>
         </tr>
         <tr>
             <td><span>20</span></td>
-            <td><span>200</span></td>
+            <td><span title="Best value! Three tickets are free of charge.">595</span></td>
         </tr>
         <tr>
             <td><span>50</span></td>
-            <td><span>400</span></td>
+            <td><span title="Five tickets are free of charge.">1,575</span></td>
         </tr>
         <tr class="no-currency">
             <td><span>More than 50</span></td>
