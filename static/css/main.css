@@ -301,6 +301,7 @@ a.button:hover {
 }
 table.dotleader.price {
     width: 100%;
+    margin-bottom: 1em;
 }
 table.price th:first-child{
     text-align: left;
@@ -314,6 +315,18 @@ table.price tr:not(.no-currency) td:last-child::before {
 }
 table.price tr:not(.no-currency) td:last-child::after {
     content: " USD";
+}
+table.price td:last-child {
+    position: relative;
+    height: 3em;
+}
+table.price td:last-child span[title]::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: attr(title);
+    font-size: x-small;
+    white-space: pre;
 }
 
 /**
@@ -640,4 +653,42 @@ footer {
 }
 .ticket-type-price {
     padding-left: .5em;
+}
+
+/**
+ * @group DataTables overrides.
+ */
+.dataTable {
+    background-color: #FFF;
+    color: #000;
+}
+.dataTable a {
+    color: #000;
+}
+.dataTables_wrapper label,
+.dataTables_wrapper .dataTables_info[role="status"] {
+    color: #FFF;
+}
+.dataTable img {
+    max-width: 100px;
+}
+.dataTable .dtr-details {
+    width: 100%;
+}
+.dataTable .dtr-details li {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.dataTable .dtr-details .dtr-title {
+    margin-right: 1em;
+    text-align: right;
+    font-size: small;
+}
+table.dataTable td {
+    white-space: nowrap;
+}
+table.dataTable td.child,
+.dataTable td:nth-child(2) {
+    white-space: normal;
 }

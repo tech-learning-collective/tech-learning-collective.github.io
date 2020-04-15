@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Developing Digital Dexterity: Introduction to JavaScript &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Digital-Defenses-for-the-People-Practical-Digital-Security" />
+    <link rel="prev" href="/workshops/Computer-Language-Foundations-Command-Line-Basics" />
+
+    <meta itemprop="name" content="Developing Digital Dexterity: Introduction to JavaScript &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/Developing-Digital-Dexterity-Introduction-to-JavaScript" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Developing Digital Dexterity: Introduction to JavaScript" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Over the course of ten days in 1995, the Web changed forever when Brendan Eich was hired by Netscape, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript, the language became known as JavaScript three months later, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects." />
+<meta property="og:description" content="Over the course of ten days in 1995, the Web changed forever when Brendan Eich was hired by Netscape, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript, the language became known as JavaScript three months later, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Developing-Digital-Dexterity-Introduction-to-JavaScript" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Developing-Digital-Dexterity-Introduction-to-JavaScript" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.png" />
+<meta property="twitter:title" content="Developing Digital Dexterity: Introduction to JavaScript" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"image":"http://techlearningcollective.com/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"Over the course of ten days in 1995, the Web changed forever when Brendan Eich was hired by Netscape, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript, the language became known as JavaScript three months later, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects.","@type":"WebPage","url":"http://techlearningcollective.com/workshops/Developing-Digital-Dexterity-Introduction-to-JavaScript","headline":"Developing Digital Dexterity: Introduction to JavaScript","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Developing Digital Dexterity: Introduction to JavaScript</h2>
+    
+<img src="/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.png" alt="Poster for Developing Digital Dexterity: Introduction to JavaScript" />
+
+
+
+
+<p>Over the course of ten days in 1995, the Web changed forever when Brendan Eich was hired by Netscape, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript, the language became known as JavaScript three months later, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects.</p>
+
+<p>Although most people know of JavaScript as the programming language of the Web, where <a href="https://developer.mozilla.org/en-US/docs/Web/API">its capabilities</a> have increased dramatically over the years, many other environments outside of the Web browser or traditional Web application now embed or rely on JavaScript engines to work. Entire back-end applications can be created with “server-side JavaScript” (<a href="https://nodejs.org/">Node.js</a>, <a href="https://www.ringojs.org/">RingoJS</a>), Internet-of-Things (IoT) devices like sensors and larger microcontrollers offer JavaScript scriptable interfaces (<a href="https://www.espruino.com/">Espruino</a>, <a href="https://www.neonious.com/lowjs/">low.js</a>), mundane office jobs and “paperwork” can be accomplished in JavaScript (<a href="https://wiki.openoffice.org/wiki/Documentation/DevGuide/Scripting/JavaScript_Editor">OpenOffice</a>/LibreOffice Script Provider, <a href="https://developers.google.com/apps-script/">Google Apps Script</a>, <a href="https://docs.microsoft.com/en-us/javascript/api/overview">Microsoft Office JavaScript API</a>), desktop and PC game programming can be done entirely in JavaScript (<a href="https://gdevelop-app.com/javascript-game-engine/">GDevelop</a>, <a href="https://www.babylonjs.com/">Babylon.js</a>), some other programming languages are implemented in JavaScript (<a href="https://scratch.mit.edu/">Scratch</a>), and JavaScript can even be used for macOS system automation tasks using the <a href="https://en.wikipedia.org/wiki/AppleScript#Open_Scripting_Architecture">Open Scripting Architecture (OSA) JavaScript for Automation extension</a>. Almost no other programming language is as easy to learn while offering the breadth of options that JavaScript does, which is one clear reason for the language’s popularity among developers and desirability among employers.</p>
+
+<p>In this workshop, you’ll learn what you need to know to get started with JavaScript in any environment. By focusing on the language’s built-in constructs, you’ll be able to avoid many common pitfalls and understand what makes JavaScript tick. We’ll cover some programming basics common to all languages, but we’ll also show how JavaScript’s unusual rules (functional scope, prototype-based object inheritance, etc.) make it possible to write especially elegant—or especially dangerous—code, as well as showing you why developing even minimal proficiency with JavaScript will drastically increase your “digital dexterity” as you browse the Web.</p>
+
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Developing%20Digital%20Dexterity:%20Introduction%20to%20JavaScript">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="/static/js/gitter-sidecar.js"></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+</body>
+</html>

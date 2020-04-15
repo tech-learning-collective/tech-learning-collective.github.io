@@ -1,0 +1,125 @@
+WEBVTT
+
+1
+00:00:03.320 --> 00:00:06.260
+Right. So this is known as cryptographic mixnet.
+
+2
+00:00:06.820 --> 00:00:11.995
+M-I-X-N-E-T, and the idea here is that because we have a blind node in the middle there,
+
+3
+00:00:12.160 --> 00:00:19.100
+then if we can trust some, which is to say, enough of a percentage of the network,
+
+4
+00:00:19.100 --> 00:00:24.320
+then you are reducing the amount of metadata and information that can be gathered by your adversary
+
+5
+00:00:24.320 --> 00:00:28.020
+such as the NSA. Not saying it's perfect and there's definitely been traffic correlation,
+
+6
+00:00:28.020 --> 00:00:33.500
+you know, issues and, but those are not vulnerabilities of the Tor system.
+
+7
+00:00:33.500 --> 00:00:36.020
+The Tor system as it exists today,
+
+8
+00:00:36.520 --> 00:00:47.300
+in sort of like a design, right is as robust as it was in the 90's when it was developed in the Naval Research Lab at the Naval Research Laboratory NRL
+
+9
+00:00:47.300 --> 00:00:49.600
+the US NRL or something like that.
+
+10
+00:00:50.120 --> 00:00:54.300
+And that's because the design is a mixnet.
+
+11
+00:00:54.300 --> 00:00:56.780
+Just like for example, if you familiar with Bitcoin tumblers
+
+12
+00:00:56.780 --> 00:00:59.280
+where you basically do Bitcoin money laundering, right?
+
+13
+00:00:59.280 --> 00:01:01.960
+Cleaning money from Bitcoin. That's the same principle.
+
+14
+00:01:01.960 --> 00:01:06.580
+You send a bunch of data in, so it's hard to figure out where that data comes out.
+
+15
+00:01:06.580 --> 00:01:12.600
+That is, we look at, for example, a cryptographic mix net on Wikipedia.
+
+16
+00:01:12.600 --> 00:01:14.820
+This is what you want to read, if you want to know more about that.
+
+17
+00:01:14.820 --> 00:01:17.860
+And what's—mix network. Yeah.
+
+18
+00:01:17.860 --> 00:01:24.067
+And what's really cool about this, this sort of paradigm is that as long, again, as long as you can trust some nodes,
+
+19
+00:01:24.260 --> 00:01:29.860
+then you have a very, very high probability of making it at best or, you know,
+
+20
+00:01:29.860 --> 00:01:33.420
+at worst, extremely hard for your adversary to find stuff out about you.
+
+21
+00:01:33.420 --> 00:01:37.440
+We know, the NSA has trouble with Tor. We've seen that in the Snowden slides since 2013.
+
+22
+00:01:37.440 --> 00:01:41.080
+Tor itself, the cryptographic protocols are not broken.
+
+23
+00:01:41.080 --> 00:01:46.240
+There are sometimes bugs in Tor Browser, which is primarily a Firefox issue, right?
+
+24
+00:01:46.240 --> 00:01:50.780
+If we go to for example, Tor browser and go to about Tor Browser, you'll see it's based on Mozilla Firefox,
+
+25
+00:01:50.780 --> 00:01:56.040
+which is one reason why we tell you constantly keep your software up to date.
+
+26
+00:01:56.040 --> 00:02:02.240
+You'll see a little green icon here if your Tor browser is out of date. And the minute you see that you want to update.
+
+27
+00:02:02.240 --> 00:02:09.880
+In fact, you may even want to go to "About Tor Browser" before you do anything else because the first thing that—when you open Tor Browser—because what it does is it updates.
+
+28
+00:02:09.880 --> 00:02:13.880
+Here Tor browser is up to date, right it checks for an update.
+
+29
+00:02:14.340 --> 00:02:21.124
+So, most things when you hear Tor has been hacked, it's actually Firefox browser has a vulnerability in it,
+
+30
+00:02:21.320 --> 00:02:25.560
+which is almost always solvable for most people. Just by doing this.
+
+31
+00:02:25.560 --> 00:02:27.860
+About -> Tor Browser, and you're up to date.

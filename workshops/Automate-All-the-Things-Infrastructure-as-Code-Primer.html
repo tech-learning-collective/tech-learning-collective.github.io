@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Automate All the Things: A Primer to Infrastructure as Code &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Clearing-Away-the-Clouds-How-Computer-Networks,-Servers,-and-the-Internet-Work" />
+    <link rel="prev" href="/workshops/Access-Granted-Hollywood-Hacking-Sampler" />
+
+    <meta itemprop="name" content="Automate All the Things: A Primer to Infrastructure as Code &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/Automate-All-the-Things-Infrastructure-as-Code-Primer" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Automate All the Things: A Primer to Infrastructure as Code" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In today’s IT environments, application servers, databases, file shares, and even network devices are too numerous for any individual or team to provision, configure, and administer one at a time. To deploy, maintain, and secure large digital fleets, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching, updating code) to critical but rare operations (migrations, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact; today, a two-person hobby project can outperform a 100-person company if they use the right tools the right way." />
+<meta property="og:description" content="In today’s IT environments, application servers, databases, file shares, and even network devices are too numerous for any individual or team to provision, configure, and administer one at a time. To deploy, maintain, and secure large digital fleets, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching, updating code) to critical but rare operations (migrations, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact; today, a two-person hobby project can outperform a 100-person company if they use the right tools the right way." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Automate-All-the-Things-Infrastructure-as-Code-Primer" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Automate-All-the-Things-Infrastructure-as-Code-Primer" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.square.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.square.png" />
+<meta property="twitter:title" content="Automate All the Things: A Primer to Infrastructure as Code" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"image":"http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.square.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"In today’s IT environments, application servers, databases, file shares, and even network devices are too numerous for any individual or team to provision, configure, and administer one at a time. To deploy, maintain, and secure large digital fleets, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching, updating code) to critical but rare operations (migrations, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact; today, a two-person hobby project can outperform a 100-person company if they use the right tools the right way.","@type":"WebPage","url":"http://techlearningcollective.com/workshops/Automate-All-the-Things-Infrastructure-as-Code-Primer","headline":"Automate All the Things: A Primer to Infrastructure as Code","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Automate All the Things: A Primer to Infrastructure as Code</h2>
+    
+<img src="/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.square.png" alt="Poster for Automate All the Things: A Primer to Infrastructure as Code" />
+
+
+
+
+<p>In today’s IT environments, application servers, databases, file shares, and even network devices are too numerous for any individual or team to provision, configure, and administer one at a time. To deploy, maintain, and secure large digital fleets, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching, updating code) to critical but rare operations (migrations, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact; today, a two-person hobby project can outperform a 100-person company if they use the right tools the right way.</p>
+
+<p>Generically called <em>Infrastructure as Code (IaC)</em>, modern configuration management tools like <a href="https://www.ansible.com/">Ansible</a>, <a href="https://chef.io/">Chef</a>, <a href="https://saltstack.com/">SaltStack</a>, and <a href="https://puppet.com/">Puppet</a> make it possible for a single operator to paralellize executing Standard Operating Procedures (SOPs) like initiating backups or performing blue-green deployments on hundreds or thousands of machines at once. By using virtualization through IaC tools like <a href="https://vagrantup.com/">Vagrant</a>, entire “cloud” environments can be emulated for heterogenous development teams, massively streamlining everything from software development, to R&amp;D, to education and onboarding. (Tech Learning Collective’s own course exercises and practice labs are defined in code as Vagrant configurations!) Encoding your organization’s infrastructure requirements in standard, vendor-neutral, open formats such as <a href="https://terraform.io/">Terraform</a> means you can switch from one infrastructure provider to another with ease. But perhaps most important of all, “automating all the things” means that potential disasters like ransomware extortion attempts, outages, or even mere accidents can be audited, diagnosed, and remediated in a matter of minutes instead of days or weeks.</p>
+
+<p>In this workshop, you’ll get a practical introduction to cloud infrastructure automation. You’ll learn how to create your first virtual private cloud (VPC), add multiple machines to it, automatically install server software on those machines, and write exectuable runbooks to automatically perform upgrades and other maintenance tasks on your new infrastructure. Whether you’re already administering a fleet of servers at work, or just want to slim your “weekend project” time down to size, this far-reaching workshop will solidify your understanding of the development operations (DevOps) skills every IT professional needs to hone to have success with modern digital infrastructure projects.</p>
+
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Automate%20All%20the%20Things:%20A%20Primer%20to%20Infrastructure%20as%20Code">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="/static/js/gitter-sidecar.js"></script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+</body>
+</html>
