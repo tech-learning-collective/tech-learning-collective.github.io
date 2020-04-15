@@ -8,7 +8,7 @@
 {% if "http" == x or "https" == x %}
     {% assign entity_photo = entity.photo %}
 {% else %}
-    {% assign entity_photo = "/static/images/" | append: x | relative_url %}
+    {% assign entity_photo = x | relative_url %}
 {% endif %}
 {% endif %}
 
@@ -17,7 +17,7 @@
 {% if "http" == x or "https" == x %}
     {% assign entity_logo = entity.logo %}
 {% else %}
-    {% assign entity_logo = "/static/images/" | append: x | relative_url %}
+    {% assign entity_logo = x | relative_url %}
 {% endif %}
 {% endif %}
 
@@ -26,7 +26,7 @@
 {% if "http" == x or "https" == x %}
     {% assign entity_image = entity.image %}
 {% else %}
-    {% assign entity_image = "/static/images/" | append: x | relative_url %}
+    {% assign entity_image = x | relative_url %}
 {% endif %}
 {% endif %}
 
