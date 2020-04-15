@@ -100,3 +100,7 @@ For events that are not ticketed, the Tech Learning Collective charges the organ
 </table>
 
 When an event for which we have sent an invoice is cancelled by the purchaser for any reason, Tech Learning Collective charges a cancellation fee equal to 50% of the invoiced amount if the event is more than two (2) weeks away from the scheduled date of the booked event. After the two-week deadline, our cancellation fee is 75% of the total invoiced amount.
+
+### Add-on services
+
+* **Video recording and transcription**: For private events, we can also supply a video recording (screencast) along with a written text transcript for an additional fee. We supply transcripts as plain text, WebVTT, and SRT caption files for hard-of-hearing users.
