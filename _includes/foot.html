@@ -1,5 +1,14 @@
 <footer id="MainFooter">
     <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
 </footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    {% comment %} This would be nice, but will not work as the server
+                  from which we fetch the Gitter integration script
+                  does not reply with an Access-Control-Allow-Origin
+                  HTTP header. :(
+    integrity="sha384-u0JeMQN/xQC0aa7ffIj2gVQSrSySOHeeVXRfaTv3K1RQfQreVr8SbyPjN7jCCgtR"
+    crossorigin="anonymous"
+    {% endcomment %}
+></script>
 <script src="{% link static/js/gitter-sidecar.js %}"></script>
-<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>

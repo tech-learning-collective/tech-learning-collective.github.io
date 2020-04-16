@@ -9,7 +9,10 @@
     {% if "events" == page.collection %}<link rel="stylesheet" href="{% link static/css/event-flyer.css %}" media="print" />{% endif %}
     <link rel="stylesheet" href="{% link static/css/vim.css %}" />
     {% for s in page.include_styles %}
-    <link rel="stylesheet" href="{{ s }}" />
+    <link rel="stylesheet" href="{{ s.href }}"
+        {% if s.integrity %} integrity="{{ s.integrity }}"{% endif %}
+        {% if s.crossorigin %} crossorigin="{{ s.crossorigin }}"{% endif %}
+    />
     {% endfor %}
 
     {% feed_meta %}

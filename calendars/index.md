@@ -2,8 +2,12 @@
 title: Tech Education Events Calendars
 columns: 1
 include_styles:
-    - https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css
-    - https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css
+    - href: https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css
+      integrity: sha384-1UXhfqyOyO+W+XsGhiIFwwD3hsaHRz2XDGMle3b8bXPH5+cMsXVShDoHA3AH/y/p
+      crossorigin: anonymous
+    - href: https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css
+      integrity: sha384-GHUTcUk7YeeUFGZAENEhudvXVYlTLSOMku/2BivswbwdUSldZVO4ovkP93xAd4Gs
+      crossorigin: anonymous
 ---
 
 This page lists groups that we are aware of along with information about their next published event. Use the search field to filter groups based on their name, location, and other details. Groups other than {{ site.title }} are *not affiliated with us in any way*. This resource is provided for informational purposes only.
@@ -106,7 +110,16 @@ To be included on this listing, a group must meet *all* of the following require
 * **Be accurate.** Your published calendaring information must be as accurate as reasonably possible. If we learn that your feed provides inaccurate information, such as not updating or removing event information from your calendar when an event is canceled, we will remove your listing.
 * **Be available.** Your data feed must be reliably accessible to us. Our automated build systems notify us if your data feed goes offline. Above a certain threshold of failed attempts to access your event information, we may contact you to request you investigate, or we may simply remove your listing.
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+    crossorigin="anonymous"
+></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"
+    integrity="sha384-L74JDRkaoB7PWnReNepwX6+kSckc13TJXrka4EerY9jxQxSDl0dTguSLcA7dEfq8"
+    crossorigin="anonymous"
+></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"
+    integrity="sha384-utW62Q5udTycRsqDMdQwjeaKASTAE2cf20juuz5yfC1n1hu8gBJ1Pn0oEzKIb8Gd"
+    crossorigin="anonymous"
+></script>
 <script src="{% link static/js/datatables-init.js %}"></script>
