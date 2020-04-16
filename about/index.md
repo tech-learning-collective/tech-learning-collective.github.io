@@ -13,7 +13,7 @@ Unlike coding bootcamps that focus on moving the highest number of students thro
 
 This makes us very [different from many other educational institutions](#our-difference) in a variety of ways. Many of these differences grew organically from [our unique history](#our-history).
 
-The Tech Learning Collective has two primary goals. These are:
+Tech Learning Collective has two primary goals. These are:
 
 1. [Provide *meaningful* technology education to underserved communities](#provide-meaningful-technology-education-to-underserved-communities)
 1. [Fund existing community-owned technology projects for radical social good](#fund-existing-community-owned-technology-projects-for-radical-social-good)
@@ -22,7 +22,7 @@ The Tech Learning Collective has two primary goals. These are:
 
 Tech Learning Collective course enrollment is open *only* to students who are in one way or another materially disenfranchised in mainstream society, particularly financially.
 
-Moreover, we closely scrutinize and often reject the applications of prospective students who are primarily motivated to enroll in a Tech Learning Collective course for the purpose of getting a job at a tech company (i.e., software development companies, [data brokers](https://privacyinternational.org/type-resource/data-brokers-profile), adtech, fintech, large enterprises, or other similar entities). This is because the Tech Learning Collective is explicitly *not* a job placement program or school-to-corporation pipeline; our curriculum is not accredited, we do not offer any certifications, and we are both philosophically and politically positioned against techno-capitalism.
+Moreover, we closely scrutinize and often reject the applications of prospective students who are primarily motivated to enroll in a Tech Learning Collective course for the purpose of getting a job at a tech company (i.e., software development companies, [data brokers](https://privacyinternational.org/type-resource/data-brokers-profile), adtech, fintech, large enterprises, or other similar entities). This is because Tech Learning Collective is explicitly *not* a job placement program or school-to-corporation pipeline; our curriculum is not accredited, we do not offer any certifications, and we are both philosophically and politically positioned against techno-capitalism.
 
 The skills we teach *do* make individuals more likely to get hired in technology-sector jobs, and some of our students have successfully switched careers to become programmers or Site Reliability Engineers (SREs), but our focus during class is on [Free Software](https://www.gnu.org/philosophy/free-sw.html) and commodity, low-cost hardware that individuals and advocacy organizations can use immediately, perpetually, and without any fees.
 
@@ -62,7 +62,7 @@ Although students are provided with many supplementary course materials, there a
 
 ### Our History
 
-The Tech Learning Collective offers low-cost courses on computer technologies specifically for Left-leaning, politically engaged individuals and groups. Courses cater to people with skill levels ranging from self-identified “beginners” to very experienced technologists.
+Tech Learning Collective offers low-cost courses on computer technologies specifically for Left-leaning, politically engaged individuals and groups. Courses cater to people with skill levels ranging from self-identified “beginners” to very experienced technologists.
 
 The first version of the TLC was formed in 2016 by a group of radicals who sought out methods of mutual self-education around technology, and met regularly in Brooklyn. None of us were formally trained technologists; none of us have ever held computer science degrees. Many of the traditional techniques of and environments offering technology education felt alienating to us.
 

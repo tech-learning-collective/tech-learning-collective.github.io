@@ -64,7 +64,7 @@ Tech Learning Collective has found that our determination process ensures a far 
 
 ### Booking fees
 
-The Tech Learning Collective prefers that all events for which we supply trainers are ticketed. We can provide a complete ticketing and sales solution to manage the entire event lifecycle from publication to sales reporting for you. For ticketed events, we do not charge a booking fee. Instead, Tech Learning Collective collects a percentage of the net ticket sales to pay its trainers and continue to fund community projects.
+Tech Learning Collective prefers that all events for which we supply trainers are ticketed. We can provide a complete ticketing and sales solution to manage the entire event lifecycle from publication to sales reporting for you. For ticketed events, we do not charge a booking fee. Instead, Tech Learning Collective collects a percentage of the net ticket sales to pay its trainers and continue to fund community projects.
 
 For events that are not ticketed, the Tech Learning Collective charges the organization or venue that is booking a workshop a booking fee and an hourly rate per trainer based on the maximum number of participants for the workshop. Our standard booking fee is $60 USD. Hourly rates break down as shown in the following table:
 
