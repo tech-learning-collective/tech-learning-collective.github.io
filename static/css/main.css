@@ -692,3 +692,16 @@ table.dataTable td.child,
 .dataTable td:nth-child(2) {
     white-space: normal;
 }
+
+#tlc-hero ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em 2.5em;
+}
+#tlc-hero li {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1.5em;
+    background: no-repeat left .25em/1em url("../images/icon.chip.transparent.png");
+    text-align: left;
+}
