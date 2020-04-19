@@ -10,7 +10,6 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     api_cache (0.3.0)
-    coderay (1.1.2)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -125,12 +124,11 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
-    jekyll-ical-tag (1.2.1)
+    jekyll-ical-tag (1.2.2)
       activesupport
       api_cache
       icalendar
       jekyll (~> 3)
-      pry
     jekyll-mentions (1.5.1)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -210,7 +208,6 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    method_source (1.0.0)
     mini_portile2 (2.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -225,9 +222,6 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    pry (0.13.1)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
     public_suffix (3.1.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
