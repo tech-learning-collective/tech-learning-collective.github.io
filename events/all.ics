@@ -5,7 +5,7 @@ NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1585261800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200326T223000Z
 DTEND;VALUE=DATE-TIME:20200327T000000Z
 
@@ -19,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1585521000-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200329T223000Z
 DTEND;VALUE=DATE-TIME:20200330T000000Z
 
@@ -33,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Mr. Robot's Hacker Happy Hour
 UID:1585612800-mr-robot-s-hacker-happy-hour@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200331T000000Z
 DTEND;VALUE=DATE-TIME:20200331T010000Z
 
@@ -47,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1586030400-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200404T200000Z
 DTEND;VALUE=DATE-TIME:20200404T213000Z
 
@@ -61,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1586116800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200405T200000Z
 DTEND;VALUE=DATE-TIME:20200405T213000Z
 
@@ -75,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1586293200-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200407T210000Z
 DTEND;VALUE=DATE-TIME:20200407T223000Z
 
@@ -88,10 +88,10 @@ IMAGE:http://techlearningcollective.com/static/images/workshop.file-sharing-for-
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
-UID:1586469600-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200425T184330Z
-DTSTART;VALUE=DATE-TIME:20200409T220000Z
-DTEND;VALUE=DATE-TIME:20200409T233000Z
+UID:1586466000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
+DTSTAMP:20200425T184719Z
+DTSTART;VALUE=DATE-TIME:20200409T210000Z
+DTEND;VALUE=DATE-TIME:20200409T223000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop\, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer\, novelist\, or art designer.\n\nWorkshop Description\n\n\n  As most of us know first-hand\, the creative process involves many edits and revisions. Adding a little bit here\, trimming a little bit there\, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file\, pressing “Save As…” many times might suffice\, but what if your project spans dozens or even hundreds of files?\n\n  This is where version control systems (VCSs) shine. Designed to track\, compare\, and merge different versions of the same project\, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times\, across any number of files. Moreover\, by naming different snapshots\, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others\; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a branch) without throwing away or overwriting the original version of the project on which your changes were based.\n\n  In this beginner’s workshop\, you’ll learn the basics of Git\, a free distributed version control system on which popular sites like GitHub are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers\, Git is also useful for novelists\, researchers\, and anyone else whose work involves creativity in a digital medium.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -103,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1586977200-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200415T190000Z
 DTEND;VALUE=DATE-TIME:20200415T203000Z
 
@@ -117,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1587074400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200416T220000Z
 DTEND;VALUE=DATE-TIME:20200416T233000Z
 
@@ -131,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1587236400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200418T190000Z
 DTEND;VALUE=DATE-TIME:20200418T203000Z
 
@@ -145,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1587247200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200418T220000Z
 DTEND;VALUE=DATE-TIME:20200418T233000Z
 
@@ -159,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1587322800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200419T190000Z
 DTEND;VALUE=DATE-TIME:20200419T203000Z
 
@@ -173,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1587333600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200419T220000Z
 DTEND;VALUE=DATE-TIME:20200419T233000Z
 
@@ -187,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1587673800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200423T203000Z
 DTEND;VALUE=DATE-TIME:20200423T220000Z
 
@@ -201,7 +201,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1587841200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200425T190000Z
 DTEND;VALUE=DATE-TIME:20200425T203000Z
 
@@ -214,10 +214,10 @@ IMAGE:http://techlearningcollective.com/static/images/workshop.tor-what-is-it-go
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
-UID:1588109400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200425T184330Z
-DTSTART;VALUE=DATE-TIME:20200428T213000Z
-DTEND;VALUE=DATE-TIME:20200428T230000Z
+UID:1588105800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
+DTSTAMP:20200425T184719Z
+DTSTART;VALUE=DATE-TIME:20200428T203000Z
+DTEND;VALUE=DATE-TIME:20200428T220000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This workshop is a combination “attack/defense” exercise focusing on Web-based social engineering attacks. Participants will practice both how to launch their own attacks as well as how to defend against them.\n\nWorkshop Description\n\n\n  Whether it’s corporate espionage\, ransomware\, or online fraud\, most cyber attacks don’t start with sophisticated software exploits\, but rather by employing relatively simple tricks. These tricks are called “phishing” attacks because\, much like baiting a lure\, they won’t work unless you bite. However\, many people do get caught up by them.\n\n  In 2019\, ninety percent (90%!) of reported data breaches began with a simple phishing scam\, costing businesses over $12 billion in losses. Phishing attacks are the most common type of cyberattack on the Internet today\, with one and a half million new phishing websites launched every month. Thankfully\, it’s easy to spot—and even to perform—these tricks if you have the right guidance.\n\n  For example\, when you’re at a cafe and you ask the patron next to you to watch your belongings\, your stuff will probably be safe when you return. But how safe would you feel if the patron at the next table turned to you and offered to watch your belongings when you next needed to use the restroom? If you had two different reactions to these scenarios\, you already have the intuition you need to understand how the overwhelming majority of cybercrime gets a foothold inside your company\, home\, or organization’s network.\n\n  In this workshop\, derived from a portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” Security 101 course\, you will have the opportunity to create and deploy your own phishing Web site that can steal usernames and passwords from unsuspecting victims. By learning how attackers build pixel-perfect replicas of familiar sites like the Facebook login screen\, you will also gain the skills you need to more quickly recognize the signs of a malicious web site\, email\, or other online scam.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -228,10 +228,10 @@ IMAGE:http://techlearningcollective.com/static/images/workshop.gone-phishing-how
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
-UID:1588284000-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200425T184330Z
-DTSTART;VALUE=DATE-TIME:20200430T220000Z
-DTEND;VALUE=DATE-TIME:20200430T233000Z
+UID:1588280400-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
+DTSTAMP:20200425T184719Z
+DTSTART;VALUE=DATE-TIME:20200430T210000Z
+DTEND;VALUE=DATE-TIME:20200430T223000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Start or continue your journey away from Google in this absolute beginner’s guide to the OpenStreetMap\, a free\, worldwide mapping project. Learn how to add information to the map\, such as your own business or your favorite lunch spot\, as well as how to use the map to find points of interest added by others. OpenStreetMap has been used by humanitarian efforts all over the world\, but it’s also useful for more everyday tasks like finding gender-neutral restrooms\, vegan-only restaurants\, and more. In this workshop\, you’ll see all these use cases in action\, and even become familiar with the basics of Geographic Information Systems (GIS) concepts that you can use in other location-based projects.\n\nWorkshop Description\n\n\n  OpenStreetMap is a free and open-source\, worldwide mapping project that was started in 2004. Since\nthen\, it has become a powerful\, community-driven resource for people to share information about their immediate vicinity.\n\n  Much more than simply a “Google Maps alternative\,” OpenStreetMap (OSM) is also a freely-available dataset of geographic information that is collectively owned. It powers a huge assortment of public (and commercial!) services from weather monitoring stations\, civic infrastructure maps\, and even the map views from sites like Craigslist. An ever-evolving community of humanitarians\, hobby cartographers\, and neighborhood residents add\, edit\, and maintain the information in the OpenStreetMap database and\, much like Wikipedia\, anyone can contribute the things that are important to them simply by creating a free OpenStreetMap account.\n\n  In this workshop\, learn the basics of how to use this free tool to create and improve publicly available\, communally editable maps of the things that matter to you. Learn about initiatives such as the Tech Autonomist’s Gender-Neutral Restrooms map which helps non-binary\, genderqueer\, and gender non-conforming people find safe restrooms to use\, along with other ways to find accessible venues\, queer friendly spaces\, and other necessary resources.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -242,10 +242,10 @@ IMAGE:http://techlearningcollective.com/static/images/workshop.our-streets-our-m
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
-UID:1588537800-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200425T184330Z
-DTSTART;VALUE=DATE-TIME:20200503T203000Z
-DTEND;VALUE=DATE-TIME:20200503T220000Z
+UID:1588534200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
+DTSTAMP:20200425T184719Z
+DTSTART;VALUE=DATE-TIME:20200503T193000Z
+DTEND;VALUE=DATE-TIME:20200503T210000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Come exploring with us as we show you how to map out interconnections between computers\, trace packet routes across network gateways\, and find information about network operators. In this workshop all about the voyages of frames\, packets\, and segments\, we use tools like nmap to send probes into cyberspace and tap into the wire with Wireshark to understand how they function.\n\nWorkshop Description\n\n\n  Have you ever wondered what’s between your computer and the websites you visit? Are you curious about where your messages actually go in order to get from here to there? Do you wonder what a map of computer networks really looks like? Come exploring with us as we embark on a journey into cyberspace\, the final Final Frontier! In this beginner-friendly workshop\, we’ll throw a metaphorical message in a bottle into the expanse of cyberspace\, and learn how to sense and track its movement as it makes its way back to us—or not!\n\n  These are the voyages of frames\, packets\, and segments—our messages—as they make their way across the vast reaches of the Internet. On the way\, they’ll encounter both friendly and unfriendly devices\, such as routers\, firewalls\, traffic inspectors\, or NAT tables. At each step of their journey\, a complex series of decisions are made to determine where they’ll be routed to next\, or if their journey is at an end. By using network mapping tools such as nmap along with digital wiretapping tools like Wireshark we can sense what happens on the far side of a network connection in much the same way as looking at the ripples on the surface of a river can tell us something about the shape of the riverbed.\n\n  Join us to explore strange new networks\, to seek out new devices and new organizations\, to boldly go where only packets have gone before!\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -256,10 +256,10 @@ IMAGE:http://techlearningcollective.com/static/images/workshop.exploring-cybersp
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
-UID:1588624200-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200425T184330Z
-DTSTART;VALUE=DATE-TIME:20200504T203000Z
-DTEND;VALUE=DATE-TIME:20200504T220000Z
+UID:1588620600-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
+DTSTAMP:20200425T184719Z
+DTSTART;VALUE=DATE-TIME:20200504T193000Z
+DTEND;VALUE=DATE-TIME:20200504T210000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This introductory cybersecurity workshop will show you why Signal\, a free\, secure\, private message app is simple enough to schedule drinks with\, yet secure enough to use for planning a protest. As dragnet surveillance practices are legalized at alarming speed\, there has never been a more important time to flex your digital civil liberties muscle than right now.\n\nWorkshop Description\n\n\n  Whether you’re an individual chatting with friends or an organizer planning a political action\, all effective coordination depends on safe and reliable communication. Lacking integrity for our communications dooms any effort from the outset\, whether mundane or revolutionary. As dragnet surveillance practices are legalized at alarming speed and continue to be fueled by a dramatic expansion of the law enforcement and private defense contractor economies\, there has never been a more important time to flex your digital civil liberties muscle than right now.\n\n  Signal is the name of a Free Software\, secure\, private message application built on a cryptographic protocol of the same name. Formerly known as the Axolotl Ratchet or\, more commonly\, the Double-Ratchet Algorithm\, its features are robust enough for the revolutionary activist (i.e.\, end-to-end encryption\, message authentication\, plausible deniability or message repudiation\, perfect forward secrecy\, and more) and yet simple enough to use as a drop-in replacement for your existing text messaging application. Signal also sports Skype-like voice and video calling\, location- and file-sharing features\, and even iMessage-style large font emojis!\n\n  If you’ve never heard of Signal before\, now’s the time to switch. If you think you already know how to use Signal\, let us show you some pro-tips (trusted third-party Safety Number verification\, disappearing messages\, registering Signal accounts with pseudonymous phone numbers\, inactivity lock-outs\, and Signal relay server IP address protection). This introductory cybersecurity workshop will show you why Signal is simple enough to schedule drinks at the bar with\, yet secure enough to use for planning a protest.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -270,10 +270,10 @@ IMAGE:http://techlearningcollective.com/static/images/workshop.signal-and-survei
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
-UID:1588804200-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20200425T184330Z
-DTSTART;VALUE=DATE-TIME:20200506T223000Z
-DTEND;VALUE=DATE-TIME:20200507T000000Z
+UID:1588800600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
+DTSTAMP:20200425T184719Z
+DTSTART;VALUE=DATE-TIME:20200506T213000Z
+DTEND;VALUE=DATE-TIME:20200506T230000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in\, how to find out if you have been “pwned\,” what the risks are\, and what you can do to protect yourself from brute-force\, credential stuffing\, and other forms of account takeover attacks.\n\nWorkshop Description\n\n\n  Have you been “pwned”? For years\, security researcher Troy Hunt has been running a website at HaveIBeenPwned.com that lets you check to see if your online accounts have been pwned—that is\, if your personal information such as your password\, has been leaked\, accessed\, or (worst of all!) “cracked.” Go on\, check for yourself!\n\n  If you’ve been “pwned\,” this workshop is your chance to learn exactly what the risk might be\, and what you can do about it. Derived from one portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” (Security 101) course\, this class will clarify the basics of cryptography and encryption within a context that actually applies to your day to day life online.\n\n\n\n  Learn what websites do with your password when you log in to them\, and why using free password management software can make you both safer and more productive. On the flip side\, learn professional techniques for recovering passwords from their “encrypted” (hashed) representation\, such as using optimized wordlists\, word-mangling rulesets\, and employing basic doxing techniques for creating personally targeted password-cracking attacks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -285,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Mr. Robot's Hacker Happy Hour
 UID:1593295200-mr-robot-s-hacker-happy-hour@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200627T220000Z
 DTEND;VALUE=DATE-TIME:20200627T230000Z
 
@@ -299,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:De1CTF 2020
 UID:1588381200-de1ctf-2020@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200502T010000Z
 DTEND;VALUE=DATE-TIME:20200504T010000Z
 
@@ -313,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:InnoCTF International 2020 Quals
 UID:1588662000-innoctf-international-2020-quals@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200505T070000Z
 DTEND;VALUE=DATE-TIME:20200506T070000Z
 
@@ -327,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:OmCTF-2020
 UID:1588842000-omctf-2020@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200507T090000Z
 DTEND;VALUE=DATE-TIME:20200508T200000Z
 
@@ -341,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:SharkyCTF
 UID:1588982460-sharkyctf@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200509T000100Z
 DTEND;VALUE=DATE-TIME:20200510T235900Z
 
@@ -355,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:S㎩mAndFlags Uけimate w呎は屸de C㏊mᒆonship Teaser ꕫꕫ - ㎩㏚i㎄ Edition
 UID:1589025599-s-mandflags-uけimate-w呎は屸de-c-mᒆonship-teaser-ꕫꕫ-i-edition@techlearningcollective.com
-DTSTAMP:20200425T184330Z
+DTSTAMP:20200425T184719Z
 DTSTART;VALUE=DATE-TIME:20200509T115959Z
 DTEND;VALUE=DATE-TIME:20200510T115959Z
 
