@@ -10,7 +10,7 @@ columns: 1
 
 ([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
 
-In addition to our intensive [courses]({% link courses/index.html %}), we also host satellite events such as [workshops]({% link workshops/index.md %}), skillshares, and demonstrations in collaboration with community centers, hackerspaces and hacklabs, and other venues across New York City. Our satellite workshops are a low-commitment way to get a feel for our more intensive courses as well as meet some of our teaching team.
+In addition to our intensive [courses]({% link courses/index.html %}), we also host satellite events such as [workshops]({% link workshops/index.md %}), skillshares, and demonstrations in collaboration with community centers, hackerspaces and hacklabs, and [other groups]({% link calendars/index.md %}) across New York City, and elsewhere via Internet video conference. These events are a low-commitment way to get a feel for our more intensive courses as well as meet some of our teaching team.
 
 {% include events-upcoming.html %}
 
