@@ -112,7 +112,7 @@ In either case, we suggest that you arrive five to ten minutes early in order to
 
 ## How do I know where to go for an online webinar?
 
-A few moments after you purchase a ticket to one our remote workshops (online training webinars), our system sends you an email with log-in details that includes a Web link (URL) and a webinar passphrase that will grant you access to the video conference. The email will be sent to the address associated with your payment processor account (e.g., your PayPal email address), so be doubly-sure to check that email account (and its spam folder!) to make sure you don&rsquo;t miss our message.
+A few moments after you purchase a ticket to one of our remote workshops (online training webinars), our system sends you an email with log-in details that includes a Web link (URL) and a webinar passphrase that will grant you access to the video conference. The email will be sent to the address associated with your payment processor account (e.g., your PayPal email address), so be doubly-sure to check that email account (and its spam folder!) to make sure you don&rsquo;t miss our message.
 
 Simply click the link you received from our email to load the webinar page in your Web browser. When the page loads, you&rsquo;ll be prompted to type in a short password, which will have been delivered to you in the same email. Entering the correct password will grant you access to the [webinar interface](#how-do-i-control-the-webinar-interface).
 
