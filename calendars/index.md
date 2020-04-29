@@ -33,8 +33,9 @@ library and should not be changed (too much).
         </tr>
     </thead>
     <tbody>
-        {% for g in site.calendars %}
-        {% assign ical_url = g.icalendar_url %}
+        {% assign calendars = site.calendars | where_exp: "item", "item.disabled != true" %}
+        {% for c in calendars %}
+        {% assign ical_url = c.icalendar_url %}
         {% assign has_events = 0 %}
 
         {% capture next_event_title %}
@@ -62,12 +63,12 @@ library and should not be changed (too much).
 
         <tr>
             <td>
-                {% if g.image %}
-                <img src="{{ g.image }}" loading="lazy" />
+                {% if c.image %}
+                <img src="{{ c.image }}" loading="lazy" />
                 {% endif %}
             </td>
             <td>
-                <a href="{{ g.url }}">{{ g.title }}</a>
+                <a href="{{ c.url }}">{{ c.title }}</a>
             </td>
             <td data-order="{% if 1 == has_events -%}
                 {{- next_event_date | date: "%Y-%m-%d %H:%M" -}}
@@ -88,13 +89,13 @@ library and should not be changed (too much).
                 {% endif %}
             </td>
             <td>
-                {{ g.adr.country }}
+                {{ c.adr.country }}
             </td>
             <td>
-                {{ g.adr.region }}
+                {{ c.adr.region }}
             </td>
             <td>
-                {{ g.adr.locality }}
+                {{ c.adr.locality }}
             </td>
         </tr>
         {% endfor %}
