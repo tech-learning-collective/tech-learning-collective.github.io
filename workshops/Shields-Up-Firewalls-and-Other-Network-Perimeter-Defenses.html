@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Shields Up: Firewalls and Other Network Perimeter Defenses &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Signal-and-Surveillance-How-to-Exercise-Digital-Civil-Liberties-in-a-Surveillance-State" />
+    <link rel="prev" href="/workshops/Securing-Our-Servers-Basic-Network-Operations-for-Autonomous-Communities" />
+
+    <meta itemprop="name" content="Shields Up: Firewalls and Other Network Perimeter Defenses &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/Shields-Up-Firewalls-and-Other-Network-Perimeter-Defenses" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Shields Up: Firewalls and Other Network Perimeter Defenses" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In today’s ubiquitous computing environment, the most frequently used entrance (and exit!) in to (or out of) any system is through its network connection. That’s why network firewalls have been a central component of every network security architecture since their introduction in the 1980’s. A firewall’s primary responsibility is to stop the spread of malware, help prevent cyberattacks and unauthorized data exfiltration, or isolate other problems in one network or network segment from affecting others. Thus, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router, just about every computer has a firewall these days, including your personal laptop." />
+<meta property="og:description" content="In today’s ubiquitous computing environment, the most frequently used entrance (and exit!) in to (or out of) any system is through its network connection. That’s why network firewalls have been a central component of every network security architecture since their introduction in the 1980’s. A firewall’s primary responsibility is to stop the spread of malware, help prevent cyberattacks and unauthorized data exfiltration, or isolate other problems in one network or network segment from affecting others. Thus, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router, just about every computer has a firewall these days, including your personal laptop." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Shields-Up-Firewalls-and-Other-Network-Perimeter-Defenses" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Shields-Up-Firewalls-and-Other-Network-Perimeter-Defenses" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.square.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.square.png" />
+<meta property="twitter:title" content="Shields Up: Firewalls and Other Network Perimeter Defenses" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"image":"http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.square.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"In today’s ubiquitous computing environment, the most frequently used entrance (and exit!) in to (or out of) any system is through its network connection. That’s why network firewalls have been a central component of every network security architecture since their introduction in the 1980’s. A firewall’s primary responsibility is to stop the spread of malware, help prevent cyberattacks and unauthorized data exfiltration, or isolate other problems in one network or network segment from affecting others. Thus, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router, just about every computer has a firewall these days, including your personal laptop.","@type":"WebPage","url":"http://techlearningcollective.com/workshops/Shields-Up-Firewalls-and-Other-Network-Perimeter-Defenses","headline":"Shields Up: Firewalls and Other Network Perimeter Defenses","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Shields Up: Firewalls and Other Network Perimeter Defenses</h2>
+    
+<img src="/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.square.png" alt="Poster for Shields Up: Firewalls and Other Network Perimeter Defenses" />
+
+
+
+
+<p>In today’s ubiquitous computing environment, the most frequently used entrance (and exit!) in to (or out of) any system is through its network connection. That’s why network firewalls have been a central component of every network security architecture since their introduction in the 1980’s. A firewall’s primary responsibility is to stop the spread of malware, help prevent cyberattacks and unauthorized data exfiltration, or isolate other problems in one network or network segment from affecting others. Thus, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router, just about <em>every</em> computer has a firewall these days, including your personal laptop.</p>
+
+<p>Modern firewalls can also do a lot more than their first or second generation ancestors that simply blocked certain ports or kept track of ongoing conversations between two endpoints. By building on so-called Deep Packet Inspection (DPI) technology, firewalls can analyze the traffic passing through them in real time, making decisions about what to allow or block based on a combination of myriad factors. On more heavily policed or otherwise protected networks, firewalls have evolved into very powerful Network Intrusion Detection or Prevention Systems (NIDS/NIPS).</p>
+
+<p>But don’t make the mistake of thinking this power is reserved for rich corporations! The firewall built into the Linux kernel (called <a href="https://www.netfilter.org/">Netfilter</a> and controlled with the <code class="language-plaintext highlighter-rouge">iptables</code> or <code class="language-plaintext highlighter-rouge">nftables</code> commands) is the backbone of almost all commercial enterprise firewall distributions, and it’s available free of charge. Plus, its ability to intercept and modify traffic in-flight is the basis of many proxy technologies such as <a href="https://docs.docker.com/network/">Docker’s networking</a> and Kubernetes’s <a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/">kube-proxy</a>, among others.</p>
+
+<p>So, are your network shields up? Find out at this workshop where we’ll show you how to use the firewall built-in to your Windows, macOS, or GNU/Linux laptop. We’ll also show you how to set up firewalled subnets using NAT routers, a bulletproof way to keep unsecured Internet of Things (IoT) or smart-home devices from infecting your more critical personal devices, or to make a super-secure guest Wi-Fi network available for visitors. You’ll leave understanding the utility of so-called Layer 7 firewalls such as Web Application Firewalls (WAFs), and knowing how to test the security of your own firewall configurations.</p>
+
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Shields%20Up:%20Firewalls%20and%20Other%20Network%20Perimeter%20Defenses">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    
+></script>
+<script src="/static/js/gitter-sidecar.js"></script>
+
+</body>
+</html>

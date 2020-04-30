@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Bare Bones Crypto: Understanding Critical Cryptographic Primitives &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Clearing-Away-the-Clouds-How-Computer-Networks,-Servers,-and-the-Internet-Work" />
+    <link rel="prev" href="/workshops/Automate-All-the-Things-Infrastructure-as-Code-Primer" />
+
+    <meta itemprop="name" content="Bare Bones Crypto: Understanding Critical Cryptographic Primitives &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/Bare-Bones-Crypto-Understanding-Critical-Cryptographic-Primitives" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Bare Bones Crypto: Understanding Critical Cryptographic Primitives" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Every time you use a modern computer, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or “locking” (encrypting) your secret documents behind passwords. At their root, these functions, called cryptographic primitives are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices, they serve as the bedrock atop which every provably secure system works, from password vaults to Virtual Private Networks (VPNs) to BitCoin and beyond." />
+<meta property="og:description" content="Every time you use a modern computer, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or “locking” (encrypting) your secret documents behind passwords. At their root, these functions, called cryptographic primitives are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices, they serve as the bedrock atop which every provably secure system works, from password vaults to Virtual Private Networks (VPNs) to BitCoin and beyond." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Bare-Bones-Crypto-Understanding-Critical-Cryptographic-Primitives" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Bare-Bones-Crypto-Understanding-Critical-Cryptographic-Primitives" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.square.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.square.png" />
+<meta property="twitter:title" content="Bare Bones Crypto: Understanding Critical Cryptographic Primitives" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"image":"http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.square.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"Every time you use a modern computer, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or “locking” (encrypting) your secret documents behind passwords. At their root, these functions, called cryptographic primitives are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices, they serve as the bedrock atop which every provably secure system works, from password vaults to Virtual Private Networks (VPNs) to BitCoin and beyond.","@type":"WebPage","url":"http://techlearningcollective.com/workshops/Bare-Bones-Crypto-Understanding-Critical-Cryptographic-Primitives","headline":"Bare Bones Crypto: Understanding Critical Cryptographic Primitives","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>Bare Bones Crypto: Understanding Critical Cryptographic Primitives</h2>
+    
+<img src="/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.square.png" alt="Poster for Bare Bones Crypto: Understanding Critical Cryptographic Primitives" />
+
+
+
+
+<p>Every time you use a modern computer, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or “locking” (encrypting) your secret documents behind passwords. At their root, these functions, called <em><a href="https://en.wikipedia.org/wiki/Cryptographic_primitive">cryptographic primitives</a></em> are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices, they serve as the bedrock atop which every provably secure system works, from password vaults to Virtual Private Networks (VPNs) to BitCoin and beyond.</p>
+
+<p>Today, everyone has full access to bulletproof “military grade encryption” for free, even if they don’t realize it. <a href="/workshops/Signal-and-Surveillance-How-to-Exercise-Digital-Civil-Liberties-in-a-Surveillance-State">Signal Private Messenger</a>’s “Safety Numbers?” Those are cryptographic hash functions! One-time passwords generated by apps like Google Authenticator or Authy? They use nonces! The <a href="/workshops/Tor-What-Is-It-Good-For-(Absolutely-Everything)">Tor anonymity network</a>? That’s a mixnet! The padlock icon in the address bar of your Web browser? Block ciphers (and public-key cryptography, and digital signatures, oh my)!</p>
+
+<p>Knowledge of cryptography was deemed so dangerous during the Cold War that the United States and its military allies attempted to regulate access to these crypto powers ever since the end of World War II by classifying them as “munitions” (i.e., mathematical <em>weapons</em>, literally) and criminalizing their sale or export. But as the Internet gained widespread commercial adoption and more people became familiar with the underlying math, the government largely relented, losing what is now retroactively known as the “<a href="https://en.wikipedia.org/wiki/Crypto_Wars">Crypto Wars</a>” in the 1990’s.</p>
+
+<p>In this workshop, you’ll learn the kind of math that governments sought to restrict knowledge of for decades, even if you’re “not a math person.” You’ll see hash functions in practice, learn why longer “keys” are stronger by understanding how RSA secrets are generated, practice developing your own simple ciphers, and start combining primitives to create security protocols that satisfy multiple requirements like confidentiality (privacy), integrity-protection (authenticity), and more. By the end of this workshop, the dizzying vocabulary crytographers use will be well within your reach, as will the ability to understand any new “encryption” product on the market.</p>
+
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Bare%20Bones%20Crypto:%20Understanding%20Critical%20Cryptographic%20Primitives">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    
+></script>
+<script src="/static/js/gitter-sidecar.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/The-Imitation-Game-Introduction-to-Administering-Virtual-Machine-Systems" />
+    <link rel="prev" href="/workshops/Taming-Daemons-System-Administration-and-Operation-Basics" />
+
+    <meta itemprop="name" content="The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/The-Genesis-Project-Making-and-Maintaining-Cloud-Infrastructure-with-Terraform" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In the beginning, there was the mainframe: a single, gigantic machine that held all the data and did all the work by itself, like a digital planet suspended in the vast emptiness of cyberspace. Then came networks, the personal computer, the Internet, Web 2.0, cloud computing, microservices, and containers—a whole cybergalaxy to explore. While the world today looks very different than it did in the days of the mainframe, every project still needs to start at the beginning: get at least one computer to hold all project data and do all project work. So how do modern projects go from a single computer to a whole galaxy so quickly?" />
+<meta property="og:description" content="In the beginning, there was the mainframe: a single, gigantic machine that held all the data and did all the work by itself, like a digital planet suspended in the vast emptiness of cyberspace. Then came networks, the personal computer, the Internet, Web 2.0, cloud computing, microservices, and containers—a whole cybergalaxy to explore. While the world today looks very different than it did in the days of the mainframe, every project still needs to start at the beginning: get at least one computer to hold all project data and do all project work. So how do modern projects go from a single computer to a whole galaxy so quickly?" />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/The-Genesis-Project-Making-and-Maintaining-Cloud-Infrastructure-with-Terraform" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/The-Genesis-Project-Making-and-Maintaining-Cloud-Infrastructure-with-Terraform" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.png" />
+<meta property="twitter:title" content="The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"image":"http://techlearningcollective.com/static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.png","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"In the beginning, there was the mainframe: a single, gigantic machine that held all the data and did all the work by itself, like a digital planet suspended in the vast emptiness of cyberspace. Then came networks, the personal computer, the Internet, Web 2.0, cloud computing, microservices, and containers—a whole cybergalaxy to explore. While the world today looks very different than it did in the days of the mainframe, every project still needs to start at the beginning: get at least one computer to hold all project data and do all project work. So how do modern projects go from a single computer to a whole galaxy so quickly?","@type":"WebPage","url":"http://techlearningcollective.com/workshops/The-Genesis-Project-Making-and-Maintaining-Cloud-Infrastructure-with-Terraform","headline":"The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+<article>
+    <h2>The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform</h2>
+    
+<img src="/static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.png" alt="Poster for The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform" />
+
+
+
+
+<p>In the beginning, there was the mainframe: a single, gigantic machine that held all the data and did all the work by itself, like a digital planet suspended in the vast emptiness of cyberspace. Then came networks, the personal computer, the Internet, Web 2.0, cloud computing, microservices, and containers—a whole cybergalaxy to explore. While the world today looks very different than it did in the days of the mainframe, every project still needs to start at the beginning: get at least one computer to hold all project data and do all project work. So how do modern projects go from a single computer to a whole galaxy so quickly?</p>
+
+<p>The answer for many (including Tech Learning Collective!) is <a href="https://terraform.io/">Terraform</a>, a free, open source, extensible tool that can provision and manage any number of infrastructural resources from source code repositories to cloud compute instances to DNS records and much, much more. Using Terraform, engineers describe the digital environment they”d <em>like</em> to have in a simple, declarative configuration language called <a href="https://www.terraform.io/docs/configuration/syntax.html">HCL</a> and then, when instructed to, Terraform does the work of metaphorically, well, terraforming cyberspace to match the engineer’s description.</p>
+
+<p>In this workshop, you’ll learn the basics of how to set up Terraform for your organization. We’ll also go over best practices for ensuring testing, staging, and production infrastructures stay isolated from one another, how to compose reusable modules, and how to share your Terraform configurations as well as project state with collaborators. At the end of this workshop, you’ll understand how to bring the cloud down to earth.</p>
+
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20The%20Genesis%20Project:%20Making%20and%20Maintaining%20Cloud%20Infrastructure%20with%20Terraform">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    
+></script>
+<script src="/static/js/gitter-sidecar.js"></script>
+
+</body>
+</html>
