@@ -40,7 +40,7 @@ library and should not be changed (too much).
 
         {% capture next_event_title %}
         {% ical url: ical_url only_future: true limit: 1 %}
-        <a href="{{ event.url }}">
+        <a href="{{ event.url | uri_escape }}">
             {{ event.summary }}
         </a>
         {% assign has_events = has_events | plus: 1 %}
