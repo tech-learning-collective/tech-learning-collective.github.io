@@ -1,5 +1,5 @@
 ---
-title: "Tor: What Is It Good For? (Absolutely Everything)"
+title: "Tor: What Is It Good For? (Absolutely Everything!)"
 image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.pink.png
 persona_matrix:
     - 2 # Defenders
