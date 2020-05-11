@@ -3,23 +3,9 @@ VERSION:2.0
 PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
-UID:1586466000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200510T205755Z
-DTSTART;VALUE=DATE-TIME:20200409T210000Z
-DTEND;VALUE=DATE-TIME:20200409T223000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop\, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer\, novelist\, or art designer.\n\nWorkshop Description\n\n\n  As most of us know first-hand\, the creative process involves many edits and revisions. Adding a little bit here\, trimming a little bit there\, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file\, pressing “Save As…” many times might suffice\, but what if your project spans dozens or even hundreds of files?\n\n  This is where version control systems (VCSs) shine. Designed to track\, compare\, and merge different versions of the same project\, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times\, across any number of files. Moreover\, by naming different snapshots\, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others\; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a branch) without throwing away or overwriting the original version of the project on which your changes were based.\n\n  In this beginner’s workshop\, you’ll learn the basics of Git\, a free distributed version control system on which popular sites like GitHub are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers\, Git is also useful for novelists\, researchers\, and anyone else whose work involves creativity in a digital medium.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2020/04/workshop-2020-04-09-collaboration-across-universes-basics-of-version-control-with-git
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.png
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1586977200-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200415T190000Z
 DTEND;VALUE=DATE-TIME:20200415T203000Z
 
@@ -33,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1587074400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200416T220000Z
 DTEND;VALUE=DATE-TIME:20200416T233000Z
 
@@ -47,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1587236400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200418T190000Z
 DTEND;VALUE=DATE-TIME:20200418T203000Z
 
@@ -61,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1587247200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200418T220000Z
 DTEND;VALUE=DATE-TIME:20200418T233000Z
 
@@ -75,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1587322800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200419T190000Z
 DTEND;VALUE=DATE-TIME:20200419T203000Z
 
@@ -89,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1587333600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200419T220000Z
 DTEND;VALUE=DATE-TIME:20200419T233000Z
 
@@ -103,7 +89,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1587673800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200423T203000Z
 DTEND;VALUE=DATE-TIME:20200423T220000Z
 
@@ -117,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1587841200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200425T190000Z
 DTEND;VALUE=DATE-TIME:20200425T203000Z
 
@@ -131,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1588105800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200428T203000Z
 DTEND;VALUE=DATE-TIME:20200428T220000Z
 
@@ -145,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
 UID:1588280400-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200430T210000Z
 DTEND;VALUE=DATE-TIME:20200430T223000Z
 
@@ -159,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1588534200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200503T193000Z
 DTEND;VALUE=DATE-TIME:20200503T210000Z
 
@@ -173,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1588620600-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200504T193000Z
 DTEND;VALUE=DATE-TIME:20200504T210000Z
 
@@ -187,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1588800600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200506T213000Z
 DTEND;VALUE=DATE-TIME:20200506T230000Z
 
@@ -201,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1588964400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200508T190000Z
 DTEND;VALUE=DATE-TIME:20200508T203000Z
 
@@ -215,7 +201,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1589137200-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200510T190000Z
 DTEND;VALUE=DATE-TIME:20200510T200000Z
 
@@ -229,7 +215,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1589398200-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200513T193000Z
 DTEND;VALUE=DATE-TIME:20200513T210000Z
 
@@ -243,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1589571000-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200515T193000Z
 DTEND;VALUE=DATE-TIME:20200515T210000Z
 
@@ -257,7 +243,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1589747400-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200517T203000Z
 DTEND;VALUE=DATE-TIME:20200517T220000Z
 
@@ -271,7 +257,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1590003000-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200520T193000Z
 DTEND;VALUE=DATE-TIME:20200520T210000Z
 
@@ -285,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1590262200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200523T193000Z
 DTEND;VALUE=DATE-TIME:20200523T210000Z
 
@@ -299,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1590352200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200524T203000Z
 DTEND;VALUE=DATE-TIME:20200524T220000Z
 
@@ -313,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1590521400-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200526T193000Z
 DTEND;VALUE=DATE-TIME:20200526T210000Z
 
@@ -327,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hacker Trivia Night: Restaurant and Bar Night
 UID:1590778800-hacker-trivia-night-restaurant-and-bar-night@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200529T190000Z
 DTEND;VALUE=DATE-TIME:20200531T220000Z
 
@@ -341,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1591043400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200601T203000Z
 DTEND;VALUE=DATE-TIME:20200601T220000Z
 
@@ -355,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1591212600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200603T193000Z
 DTEND;VALUE=DATE-TIME:20200603T210000Z
 
@@ -369,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Map is the Territory: A Magical Introduction to the Command Line
 UID:1591405200-the-map-is-the-territory-a-magical-introduction-to-the-command-line@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200606T010000Z
 DTEND;VALUE=DATE-TIME:20200606T023000Z
 
@@ -383,7 +369,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1591561800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200607T203000Z
 DTEND;VALUE=DATE-TIME:20200607T220000Z
 
@@ -397,7 +383,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1591729200-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200609T190000Z
 DTEND;VALUE=DATE-TIME:20200609T200000Z
 
@@ -411,7 +397,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Mr. Robot's Hacker Happy Hour
 UID:1593295200-mr-robot-s-hacker-happy-hour@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200627T220000Z
 DTEND;VALUE=DATE-TIME:20200627T230000Z
 
@@ -425,7 +411,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:CSR Germany Quals
 UID:1589364000-csr-germany-quals@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200513T100000Z
 DTEND;VALUE=DATE-TIME:20200515T100000Z
 
@@ -439,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:NorthSec 2020
 UID:1589569200-northsec-2020@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200515T190000Z
 DTEND;VALUE=DATE-TIME:20200517T160000Z
 
@@ -453,7 +439,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:DEF CON CTF Qualifier 2020
 UID:1589587200-def-con-ctf-qualifier-2020@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200516T000000Z
 DTEND;VALUE=DATE-TIME:20200518T000000Z
 
@@ -467,7 +453,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:HSCTF 7
 UID:1589803200-hsctf-7@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200518T120000Z
 DTEND;VALUE=DATE-TIME:20200523T000000Z
 
@@ -481,7 +467,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:TJCTF 2020
 UID:1590105600-tjctf-2020@techlearningcollective.com
-DTSTAMP:20200510T205755Z
+DTSTAMP:20200511T001755Z
 DTSTART;VALUE=DATE-TIME:20200522T000000Z
 DTEND;VALUE=DATE-TIME:20200526T000000Z
 
