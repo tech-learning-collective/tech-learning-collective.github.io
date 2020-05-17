@@ -3,23 +3,9 @@ VERSION:2.0
 PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
-UID:1587074400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20200517T232259Z
-DTSTART;VALUE=DATE-TIME:20200416T220000Z
-DTEND;VALUE=DATE-TIME:20200416T233000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:JavaScript is known for being “the Web programming language\,” and while its capabilities in a Web browser have grown considerably\, today JavaScript can also be used to automate mundane office jobs (e.g.\, Google Apps Script\, Microsoft Office’s JavaScript API)\, develop PC games (using GDevelop)\, and much more. Learn what you need to know to get started with JavaScript in any environment in this workshop covering some common programming concepts as well as the quirks of the JavaScript language itself (functional scope\, prototype-based object inheritance\, etc.) so you can increase your digital dexterity whether in a Web browser\, office job\, or your own project.\n\nWorkshop Description\n\n\n  Over the course of ten days in 1995\, the Web changed forever when Brendan Eich was hired by Netscape\, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript\, the language became known as JavaScript three months later\, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today\, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects.\n\n  Although most people know of JavaScript as the programming language of the Web\, where its capabilities have increased dramatically over the years\, many other environments outside of the Web browser or traditional Web application now embed or rely on JavaScript engines to work. Entire back-end applications can be created with “server-side JavaScript” (Node.js\, RingoJS)\, Internet-of-Things (IoT) devices like sensors and larger microcontrollers offer JavaScript scriptable interfaces (Espruino\, low.js)\, mundane office jobs and “paperwork” can be accomplished in JavaScript (OpenOffice/LibreOffice Script Provider\, Google Apps Script\, Microsoft Office JavaScript API)\, desktop and PC game programming can be done entirely in JavaScript (GDevelop\, Babylon.js)\, some other programming languages are implemented in JavaScript (Scratch)\, and JavaScript can even be used for macOS system automation tasks using the Open Scripting Architecture (OSA) JavaScript for Automation extension. Almost no other programming language is as easy to learn while offering the breadth of options that JavaScript does\, which is one clear reason for the language’s popularity among developers and desirability among employers.\n\n  In this workshop\, you’ll learn what you need to know to get started with JavaScript in any environment. By focusing on the language’s built-in constructs\, you’ll be able to avoid many common pitfalls and understand what makes JavaScript tick. We’ll cover some programming basics common to all languages\, but we’ll also show how JavaScript’s unusual rules (functional scope\, prototype-based object inheritance\, etc.) make it possible to write especially elegant—or especially dangerous—code\, as well as showing you why developing even minimal proficiency with JavaScript will drastically increase your “digital dexterity” as you browse the Web.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2020/04/workshop-2020-04-16-developing-digital-dexterity-introduction-to-javascript
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.rectangle.png
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1587236400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200418T190000Z
 DTEND;VALUE=DATE-TIME:20200418T203000Z
 
@@ -33,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1587247200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200418T220000Z
 DTEND;VALUE=DATE-TIME:20200418T233000Z
 
@@ -47,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1587322800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200419T190000Z
 DTEND;VALUE=DATE-TIME:20200419T203000Z
 
@@ -61,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1587333600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200419T220000Z
 DTEND;VALUE=DATE-TIME:20200419T233000Z
 
@@ -75,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1587673800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200423T203000Z
 DTEND;VALUE=DATE-TIME:20200423T220000Z
 
@@ -89,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1587841200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200425T190000Z
 DTEND;VALUE=DATE-TIME:20200425T203000Z
 
@@ -103,7 +89,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1588105800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200428T203000Z
 DTEND;VALUE=DATE-TIME:20200428T220000Z
 
@@ -117,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
 UID:1588280400-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200430T210000Z
 DTEND;VALUE=DATE-TIME:20200430T223000Z
 
@@ -131,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1588534200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200503T193000Z
 DTEND;VALUE=DATE-TIME:20200503T210000Z
 
@@ -145,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1588620600-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200504T193000Z
 DTEND;VALUE=DATE-TIME:20200504T210000Z
 
@@ -159,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1588800600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200506T213000Z
 DTEND;VALUE=DATE-TIME:20200506T230000Z
 
@@ -173,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1588964400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200508T190000Z
 DTEND;VALUE=DATE-TIME:20200508T203000Z
 
@@ -187,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1589137200-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200510T190000Z
 DTEND;VALUE=DATE-TIME:20200510T200000Z
 
@@ -201,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1589398200-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200513T193000Z
 DTEND;VALUE=DATE-TIME:20200513T210000Z
 
@@ -215,7 +201,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1589571000-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200515T193000Z
 DTEND;VALUE=DATE-TIME:20200515T210000Z
 
@@ -229,12 +215,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1589747400-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200517T203000Z
 DTEND;VALUE=DATE-TIME:20200517T220000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP)\, a free\, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process\, you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.\n\nWorkshop Description\n\n\n  According to Douglas Crockford\, former distinguished architect of Internet behemoths PayPal and Yahoo! before that\, “The Web is the most hostile software engineering environment imaginable.” Given that it’s hard enough to make Web applications work in the first place\, is it any surprise that so many of them can be broken\, hacked\, and exploited? Of course\, it’s often not good enough merely to break some system. Our task is to break into (or\, break out of) that system.\n\n  The “front door” to most targets is usually their Web site and so in this offensive security workshop you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about targeting websites\, identifying vulnerbabilities\, and exploiting them. By using the OWASP Zed Attack Proxy (ZAP)\, a free and open source Web application security scanner\, you’ll get a hands-on introduction to Web application security basics\, intercepting proxy configuration\, target scoping\, and more. We’ll be targeting the OWASP Juice Shop\, an intentionally vulnerable practice target that has a slew of common Web vulnerabilities for us to learn about collectively known as the OWASP Top Ten. They include SQL injection\, sensitive data exposure\, cross-site scripting (XSS)\, broken authentication and access control\, and many others.\n\n  Today’s World Wide Web has become a worldwide battleground\, economically\, militarily\, and culturally. By knowing how the Web-based systems we all use—or even build!—can be made to fail in just the “right” way\, we can better protect ourselves and our organizations from the constant barrage of attacks flying across the Internet. Come learn how to hack yourself before your opponents do\, so you can find vulnerabilities and shore up defenses in your own Web projects before attackers get the chance to leak your sensitive data such as usernames and passwords\, install malware on your systems\, or penetrate your network.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP)\, a free\, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process\, you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.\n\nWorkshop Description\n\n\n  According to Douglas Crockford\, former distinguished architect of Internet behemoths PayPal and Yahoo! before that\, “The Web is the most hostile software engineering environment imaginable.” Given that it’s hard enough to make Web applications work in the first place\, is it any surprise that so many of them can be broken\, hacked\, and exploited? Of course\, it’s often not good enough merely to break some system. Our task is to break into (or\, break out of) that system.\n\n  The “front door” to most targets is usually their Web site and so in this offensive security workshop you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about targeting websites\, identifying vulnerabilities\, and exploiting them. By using the OWASP Zed Attack Proxy (ZAP)\, a free and open source Web application security scanner\, you’ll get a hands-on introduction to Web application security basics\, intercepting proxy configuration\, target scoping\, and more. We’ll be targeting the OWASP Juice Shop\, an intentionally vulnerable practice target that has a slew of common Web vulnerabilities for us to learn about collectively known as the OWASP Top Ten. They include SQL injection\, sensitive data exposure\, cross-site scripting (XSS)\, broken authentication and access control\, and many others.\n\n  Today’s World Wide Web has become a worldwide battleground\, economically\, militarily\, and culturally. By knowing how the Web-based systems we all use—or even build!—can be made to fail in just the “right” way\, we can better protect ourselves and our organizations from the constant barrage of attacks flying across the Internet. Come learn how to hack yourself before your opponents do\, so you can find vulnerabilities and shore up defenses in your own Web projects before attackers get the chance to leak your sensitive data such as usernames and passwords\, install malware on your systems\, or penetrate your network.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
 URL:http://techlearningcollective.com/events/2020/05/workshop-2020-05-17-world-wide-wars-introduction-to-exploiting-web-applications
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
@@ -243,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1590003000-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200520T193000Z
 DTEND;VALUE=DATE-TIME:20200520T210000Z
 
@@ -257,7 +243,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1590262200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200523T193000Z
 DTEND;VALUE=DATE-TIME:20200523T210000Z
 
@@ -271,7 +257,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1590352200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200524T203000Z
 DTEND;VALUE=DATE-TIME:20200524T220000Z
 
@@ -285,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1590521400-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200526T193000Z
 DTEND;VALUE=DATE-TIME:20200526T210000Z
 
@@ -299,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hacker Trivia Night: Restaurant and Bar Night
 UID:1590778800-hacker-trivia-night-restaurant-and-bar-night@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200529T190000Z
 DTEND;VALUE=DATE-TIME:20200531T220000Z
 
@@ -313,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1591043400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200601T203000Z
 DTEND;VALUE=DATE-TIME:20200601T220000Z
 
@@ -327,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1591212600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200603T193000Z
 DTEND;VALUE=DATE-TIME:20200603T210000Z
 
@@ -341,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Map is the Territory: A Magical Introduction to the Command Line
 UID:1591405200-the-map-is-the-territory-a-magical-introduction-to-the-command-line@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200606T010000Z
 DTEND;VALUE=DATE-TIME:20200606T023000Z
 
@@ -355,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1591561800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200607T203000Z
 DTEND;VALUE=DATE-TIME:20200607T220000Z
 
@@ -369,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1591729200-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200609T190000Z
 DTEND;VALUE=DATE-TIME:20200609T200000Z
 
@@ -383,7 +369,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1591903800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200611T193000Z
 DTEND;VALUE=DATE-TIME:20200611T210000Z
 
@@ -397,7 +383,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1592166600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200614T203000Z
 DTEND;VALUE=DATE-TIME:20200614T220000Z
 
@@ -411,12 +397,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1592337600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200616T200000Z
 DTEND;VALUE=DATE-TIME:20200616T213000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP)\, a free\, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process\, you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.\n\nWorkshop Description\n\n\n  According to Douglas Crockford\, former distinguished architect of Internet behemoths PayPal and Yahoo! before that\, “The Web is the most hostile software engineering environment imaginable.” Given that it’s hard enough to make Web applications work in the first place\, is it any surprise that so many of them can be broken\, hacked\, and exploited? Of course\, it’s often not good enough merely to break some system. Our task is to break into (or\, break out of) that system.\n\n  The “front door” to most targets is usually their Web site and so in this offensive security workshop you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about targeting websites\, identifying vulnerbabilities\, and exploiting them. By using the OWASP Zed Attack Proxy (ZAP)\, a free and open source Web application security scanner\, you’ll get a hands-on introduction to Web application security basics\, intercepting proxy configuration\, target scoping\, and more. We’ll be targeting the OWASP Juice Shop\, an intentionally vulnerable practice target that has a slew of common Web vulnerabilities for us to learn about collectively known as the OWASP Top Ten. They include SQL injection\, sensitive data exposure\, cross-site scripting (XSS)\, broken authentication and access control\, and many others.\n\n  Today’s World Wide Web has become a worldwide battleground\, economically\, militarily\, and culturally. By knowing how the Web-based systems we all use—or even build!—can be made to fail in just the “right” way\, we can better protect ourselves and our organizations from the constant barrage of attacks flying across the Internet. Come learn how to hack yourself before your opponents do\, so you can find vulnerabilities and shore up defenses in your own Web projects before attackers get the chance to leak your sensitive data such as usernames and passwords\, install malware on your systems\, or penetrate your network.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP)\, a free\, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process\, you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.\n\nWorkshop Description\n\n\n  According to Douglas Crockford\, former distinguished architect of Internet behemoths PayPal and Yahoo! before that\, “The Web is the most hostile software engineering environment imaginable.” Given that it’s hard enough to make Web applications work in the first place\, is it any surprise that so many of them can be broken\, hacked\, and exploited? Of course\, it’s often not good enough merely to break some system. Our task is to break into (or\, break out of) that system.\n\n  The “front door” to most targets is usually their Web site and so in this offensive security workshop you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about targeting websites\, identifying vulnerabilities\, and exploiting them. By using the OWASP Zed Attack Proxy (ZAP)\, a free and open source Web application security scanner\, you’ll get a hands-on introduction to Web application security basics\, intercepting proxy configuration\, target scoping\, and more. We’ll be targeting the OWASP Juice Shop\, an intentionally vulnerable practice target that has a slew of common Web vulnerabilities for us to learn about collectively known as the OWASP Top Ten. They include SQL injection\, sensitive data exposure\, cross-site scripting (XSS)\, broken authentication and access control\, and many others.\n\n  Today’s World Wide Web has become a worldwide battleground\, economically\, militarily\, and culturally. By knowing how the Web-based systems we all use—or even build!—can be made to fail in just the “right” way\, we can better protect ourselves and our organizations from the constant barrage of attacks flying across the Internet. Come learn how to hack yourself before your opponents do\, so you can find vulnerabilities and shore up defenses in your own Web projects before attackers get the chance to leak your sensitive data such as usernames and passwords\, install malware on your systems\, or penetrate your network.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
 URL:http://techlearningcollective.com/events/2020/06/workshop-2020-06-16-world-wide-wars-introduction-to-exploiting-web-applications
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
@@ -425,7 +411,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Mr. Robot's Hacker Happy Hour
 UID:1593295200-mr-robot-s-hacker-happy-hour@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200627T220000Z
 DTEND;VALUE=DATE-TIME:20200627T230000Z
 
@@ -439,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:HSCTF 7
 UID:1589803200-hsctf-7@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200518T120000Z
 DTEND;VALUE=DATE-TIME:20200523T000000Z
 
@@ -453,7 +439,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:TJCTF 2020
 UID:1590105600-tjctf-2020@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200522T000000Z
 DTEND;VALUE=DATE-TIME:20200526T000000Z
 
@@ -467,7 +453,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:m0leCon CTF 2020 Teaser
 UID:1590174000-m0lecon-ctf-2020-teaser@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200522T190000Z
 DTEND;VALUE=DATE-TIME:20200523T190000Z
 
@@ -481,7 +467,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hack-A-Sat Qualifiers
 UID:1590192000-hack-a-sat-qualifiers@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200523T000000Z
 DTEND;VALUE=DATE-TIME:20200525T000000Z
 
@@ -495,7 +481,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ugra CTF Quals 2020
 UID:1590217200-ugra-ctf-quals-2020@techlearningcollective.com
-DTSTAMP:20200517T232259Z
+DTSTAMP:20200517T233356Z
 DTSTART;VALUE=DATE-TIME:20200523T070000Z
 DTEND;VALUE=DATE-TIME:20200524T190000Z
 
