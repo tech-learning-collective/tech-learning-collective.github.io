@@ -35,7 +35,20 @@
             },
             'windowResize': function (view) {
                 if (900 > window.innerWidth) {
+                    // Adjust for newer, small window size.
                     cal.changeView('listWeek');
+                    el.querySelectorAll('.fc-list-item').forEach(function (item) {
+                        var style = item.style;
+                        style.backgroundPosition = 'bottom left';
+                        style.backgroundSize     = '140px';
+                    });
+                } else {
+                    // Readjust back to larger window size.
+                    el.querySelectorAll('.fc-list-item').forEach(function (item) {
+                        var style = item.style;
+                        style.backgroundPosition = 'right';
+                        style.backgroundSize     = 'contain';
+                    });
                 }
             }
         });
