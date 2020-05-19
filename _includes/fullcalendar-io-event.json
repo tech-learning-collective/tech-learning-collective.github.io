@@ -20,8 +20,17 @@
     {% assign event_image = default_image %}
 {% endif %}
 {
-    "title": "{{ event.title }}",
-    "start": "{{ event.startDate | date: "%Y-%m-%dT%H:%M:%S%z" }}",
-    "end"  : "{{ event.endDate   | date: "%Y-%m-%dT%H:%M:%S%z" }}",
-    "url"  : "{{ event.url | absolute_url }}"
+    "title" : {{ event.title | smartify | jsonify }},
+    "start" : "{{ event.startDate | date: "%Y-%m-%dT%H:%M:%S%z" }}",
+    "end"   : "{{ event.endDate   | date: "%Y-%m-%dT%H:%M:%S%z" }}",
+    "url"   : {{ event.url | absolute_url | jsonify }},
+    "image" : {{ event.image | absolute_url | jsonify }},
+    "teaser": {{ event.teaser | smartify | jsonify }},
+    "location": {{ event.location | jsonify }},
+    "schemaDotOrg": {
+        "offers": {{ event.offers | jsonify }},
+        "maximumAttendeeCapacity": {{ event.maximumAttendeeCapacity | jsonify }},
+        "isAccessibleForFree": {{ event.isAccessibleForFree | jsonify }},
+        "sameAs": {{ event.sameAs | jsonify }}
+    }
 }

@@ -29,7 +29,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
-teaser: Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in, how to find out if you have been "pwned," what the risks are, and what you can do to protect yourself from brute-force, credential stuffing, and other forms of account takeover attacks.
+teaser: Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in, how to find out if you have been &ldquo;pwned,&rdquo; what the risks are, and what you can do to protect yourself from brute-force, credential stuffing, and other forms of account takeover attacks.
 ---
 
 {{ page.teaser }}

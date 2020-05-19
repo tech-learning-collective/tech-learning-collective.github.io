@@ -12,8 +12,8 @@ main:
           - url: /faq/
             title: FAQ
             title_text: Answers to Frequently Asked Questions
-          - url: /events/
-            title: Events
+          - url: /events/calendar/
+            title: Events Calendar
           - url: /workshops/
             title: Workshops
     - url: /courses/

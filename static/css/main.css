@@ -664,3 +664,32 @@ table.dataTable td.child,
     background: no-repeat left .25em/1em url("../images/icon.chip.transparent.png");
     text-align: left;
 }
+
+/**
+ * @group FullCalendar overrides.
+ *
+ * For now, we don't use a FullCalendar "theme" so all the
+ * class names are simply `unthemed`.
+ */
+#fullcalendar button {
+    text-transform: capitalize;
+}
+.fc-unthemed .fc-list-table .fc-list-heading td {
+    background: #333;
+}
+.fc-unthemed .fc-list-table .fc-list-item td {
+    background: rgba(189, 14, 96, 0.3);
+}
+.fc-unthemed .fc-list-table .fc-list-item:hover td {
+    background: rgba(189, 14, 96, 0.7);
+}
+.fc-unthemed .fc-dayGrid-view td.fc-today {
+    background: rgba(189, 14, 96, 0.7);
+}
+.fc-event-dot {
+    background-image: url("/static/images/icon.chip.transparent.png");
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
