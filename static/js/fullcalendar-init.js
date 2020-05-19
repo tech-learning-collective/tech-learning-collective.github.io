@@ -3,6 +3,7 @@ layout: none
 ---
 (function () {
     document.addEventListener('DOMContentLoaded', function () {
+
         /**
          * Tests for calendar-specific breakpoints.
          *
@@ -23,9 +24,9 @@ layout: none
                 'center': 'listWeek,dayGridMonth',
                 'right' : 'today prev,next'
             },
-            'aspectRatio': (calendarViewLayout()) ? 0.5 : 1.35,
+            'aspectRatio': ('portrait' === calendarViewLayout()) ? 0.5 : 1.35,
             'defaultView': 'listWeek',
-            'events': '{% link events/all-fullcalendar-io.json %}',
+            'events': fullcalendar_events || '{% link events/all-fullcalendar-io.json %}',
             'eventRender': function (info) {
                 if (info.view.type.match(/^list/)) {
                     var style = info.el.style;

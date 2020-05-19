@@ -21,9 +21,14 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 
 ([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
 
-<div id="fullcalendar"><noscript>
-{% include events-upcoming.html %}
-</noscript></div>
+<div id="fullcalendar">
+    <script>
+    var fullcalendar_events = {%- include fullcalendar-io-events.json -%};
+    </script>
+    <noscript>
+    {% include events-upcoming.html %}
+    </noscript>
+</div>
 
 [![Calendar]({% link static/images/icon.calendar.svg %}){:.download.icon} Subscribe to our calendar.]({{ "/events/all.ics" | absolute_url | replace: "https:", "webcal:" | replace: "http:", "webcal:" }} "Subscribe to our calendar.")
 [![Download]({% link static/images/icon.download.svg %}){:.download.icon}]({% link events/all.ics %} "Export events as iCalendar file.")
