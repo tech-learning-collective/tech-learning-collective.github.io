@@ -1,5 +1,531 @@
 (function () {
     document.addEventListener('DOMContentLoaded', function () {
+
+        var events =[
+
+
+{
+    "title" : "Computer Language Foundations: Command Line Basics",
+    "start" : "2020-04-18T18:00:00-0400",
+    "end"   : "2020-04-18T19:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-18-computer-language-foundations-command-line-basics",
+    "image" : "http://techlearningcollective.com/static/images/workshop.computer-language-foundations-command-line-basics.rectangle.png",
+    "teaser": "You have read about people who can talk to machines. Maybe you imagined secret chambers, hidden away behind locked doors, with dark rooms basking in blue from electric fires. Some of these people seemed friendly, others scary, but all of them were powerful. How did they learn to communicate with their computers? This is your chance to learn the foundations of all computer languages, the command line, and actually begin to talk to a machine yourself.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-18 18:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-18 18:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-18 18:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/70940"]
+    }
+}
+,
+
+
+{
+    "title" : "The Web as a Language: What No One Ever Told You About HTML That You Didn’t Know To Ask",
+    "start" : "2020-04-19T15:00:00-0400",
+    "end"   : "2020-04-19T16:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-19-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask",
+    "image" : "http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.png",
+    "teaser": "Learn the basics of Web publishing in a way that builds on your existing computer experience from the ground up! This workshop presents the Hypertext Markup Language (HTML) the same way you might learn a new written language. By understanding the language’s grammar and vocabulary, you can compose surprisingly complex and powerful Web pages without needing to know a programming language like JavaScript. If you’ve used a word processor like Microsoft Word or Google Docs, you have all the prerequisites you need to understand, at a deep and foundational level, what HTML is and how it works.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-19 15:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-19 15:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-19 15:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/70941"]
+    }
+}
+,
+
+
+{
+    "title" : "The Imitation Game: Introduction to Administering Virtual Machine Systems",
+    "start" : "2020-04-19T18:00:00-0400",
+    "end"   : "2020-04-19T19:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-19-the-imitation-game-introduction-to-administering-virtual-machine-systems",
+    "image" : "http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.png",
+    "teaser": "This workshop is a practical introduction to creating, using, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity, give you a sandbox in which to try out new software, and much more!",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-19 18:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-19 18:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-19 18:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/70942"]
+    }
+}
+,
+
+
+{
+    "title" : "Digital Defenses for the People: Practical Digital Security",
+    "start" : "2020-04-23T16:30:00-0400",
+    "end"   : "2020-04-23T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-23-digital-defenses-for-the-people-practical-digital-security",
+    "image" : "http://techlearningcollective.com/static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.png",
+    "teaser": "This beginner-friendly introduction to digital safety will cut through the fear, uncertainty, and doubt generated by the frenetic news cycle and the latest Internet privacy listicle, and offer an opportunity to ask the Tech Learning Collective’s cybersecurity trainers your most pressing online privacy and digital security questions.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-23 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-23 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-23 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/74578"]
+    }
+}
+,
+
+
+{
+    "title" : "Tor: What is it Good For? (Absolutely Everything!)",
+    "start" : "2020-04-25T15:00:00-0400",
+    "end"   : "2020-04-25T16:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-25-tor-what-is-it-good-for-absolutely-everything",
+    "image" : "http://techlearningcollective.com/static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png",
+    "teaser": "Come learn how the free Tor Web Browser can be your gateway to the Dark Web while simultaneously keeping you safer and your personal info more private as you browse web sites big and small. In this deep dive workshop on Tor, the Tech Learning Collective’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-25 15:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-25 15:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-25 15:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/74587"]
+    }
+}
+,
+
+
+{
+    "title" : "Gone Phishing: How to Recognize Fake Websites and Other Online Scams",
+    "start" : "2020-04-28T16:30:00-0400",
+    "end"   : "2020-04-28T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-28-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams",
+    "image" : "http://techlearningcollective.com/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png",
+    "teaser": "This workshop is a combination “attack/defense” exercise focusing on Web-based social engineering attacks. Participants will practice both how to launch their own attacks as well as how to defend against them.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-28 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-28 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-28 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/80841"]
+    }
+}
+,
+
+
+{
+    "title" : "Our Streets, Our Maps: Introduction to OpenStreetMap",
+    "start" : "2020-04-30T17:00:00-0400",
+    "end"   : "2020-04-30T18:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/04/workshop-2020-04-30-our-streets-our-maps-introduction-to-openstreetmap",
+    "image" : "http://techlearningcollective.com/static/images/workshop.our-streets-our-maps-introduction-to-openstreetmap.rectangle.png",
+    "teaser": "Start or continue your journey away from Google in this absolute beginner’s guide to the OpenStreetMap, a free, worldwide mapping project. Learn how to add information to the map, such as your own business or your favorite lunch spot, as well as how to use the map to find points of interest added by others. OpenStreetMap has been used by humanitarian efforts all over the world, but it’s also useful for more everyday tasks like finding gender-neutral restrooms, vegan-only restaurants, and more. In this workshop, you’ll see all these use cases in action, and even become familiar with the basics of Geographic Information Systems (GIS) concepts that you can use in other location-based projects.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-04-30 17:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-04-30 17:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-04-30 17:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/80848"]
+    }
+}
+,
+
+
+{
+    "title" : "Exploring Cyberspace: Network Sniffing and Scanning",
+    "start" : "2020-05-03T15:30:00-0400",
+    "end"   : "2020-05-03T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-03-exploring-cyberspace-network-sniffing-and-scanning",
+    "image" : "http://techlearningcollective.com/static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.png",
+    "teaser": "Come exploring with us as we show you how to map out interconnections between computers, trace packet routes across network gateways, and find information about network operators. In this workshop all about the voyages of frames, packets, and segments, we use tools like `nmap` to send probes into cyberspace and tap into the wire with Wireshark to understand how they function.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-03 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-03 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-03 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/80858"]
+    }
+}
+,
+
+
+{
+    "title" : "Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State",
+    "start" : "2020-05-04T15:30:00-0400",
+    "end"   : "2020-05-04T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-04-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state",
+    "image" : "http://techlearningcollective.com/static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.png",
+    "teaser": "This introductory cybersecurity workshop will show you why Signal, a free, secure, private message app is simple enough to schedule drinks with, yet secure enough to use for planning a protest. As dragnet surveillance practices are legalized at alarming speed, there has never been a more important time to flex your digital civil liberties muscle than right now.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-04 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-04 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-04 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/80864"]
+    }
+}
+,
+
+
+{
+    "title" : "Password Superpowers: How to Crack Hashes and Stump Hackers",
+    "start" : "2020-05-06T17:30:00-0400",
+    "end"   : "2020-05-06T19:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-06-password-superpowers-how-to-crack-hashes-and-stump-hackers",
+    "image" : "http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.png",
+    "teaser": "Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in, how to find out if you have been “pwned,” what the risks are, and what you can do to protect yourself from brute-force, credential stuffing, and other forms of account takeover attacks.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-06 17:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-06 17:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-06 17:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/80871"]
+    }
+}
+,
+
+
+{
+    "title" : "Securing Our Servers: Basic Network Operations for Autonomous Communities",
+    "start" : "2020-05-08T15:00:00-0400",
+    "end"   : "2020-05-08T16:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-08-securing-our-servers-basic-network-operations-for-autonomous-communities",
+    "image" : "http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.png",
+    "teaser": "Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-08 15:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-08 15:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-08 15:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/80919"]
+    }
+}
+,
+
+
+{
+    "title" : "Free Guided Tour of Tech Learning Collective Foundations",
+    "start" : "2020-05-10T15:00:00-0400",
+    "end"   : "2020-05-10T16:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/event-2020-05-10-free-guided-tour-of-tech-learning-collective-foundations",
+    "image" : "http://techlearningcollective.com/static/images/event.generic.tech-learning-collective.rectangle.png",
+    "teaser": "Just getting started learning computer technologies? Join Tech Learning Collective instructors for this free, guided tour of the Tech Learning Collective Foundations curriculum. These self-paced courses and practice labs are great for jump-starting your learning as they introduce you to the most important foundations of Tech Learning Collective course material, such as command line basics.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": null,
+        "maximumAttendeeCapacity": 72,
+        "isAccessibleForFree": true,
+        "sameAs": ["https://gobrunch.com/events/81322"]
+    }
+}
+,
+
+
+{
+    "title" : "Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work",
+    "start" : "2020-05-13T15:30:00-0400",
+    "end"   : "2020-05-13T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-13-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work",
+    "image" : "http://techlearningcollective.com/static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.png",
+    "teaser": "This workshop is all about the basics of computer networking. If you’ve ever been curious about what happens “on the wire” when you’re browsing a Web site, or if you ever wanted to take a look “under the hood” of your Wi-Fi connection, this is the class for you!",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-13 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-13 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-13 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/83318"]
+    }
+}
+,
+
+
+{
+    "title" : "File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It",
+    "start" : "2020-05-15T15:30:00-0400",
+    "end"   : "2020-05-15T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-15-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it",
+    "image" : "http://techlearningcollective.com/static/images/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.rectangle.png",
+    "teaser": "BitTorrent, the wildly popular but often maligned file sharing protocol, is now being used in everything from (legal!) video streaming sites to corporate software update servers, but you wouldn’t know that if you only listened to Big Media groups like the RIAA. In this beginner-friendly workshop, we’ll bust BitTorrent myths and set the record straight about what “torrenting” actually is, how it works, and what you can do with it. You’ll see how next generation “decentralized” Web applications are making use of the technology, how companies like Facebook and Blizzard, Inc. use it every day, how to make your own “torrents” to share files of your own, and how and why some people take protective measures to torrent more privately.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-15 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-15 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-15 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/83884"]
+    }
+}
+,
+
+
+{
+    "title" : "World Wide Wars: Introduction to Exploiting Web Applications",
+    "start" : "2020-05-17T16:30:00-0400",
+    "end"   : "2020-05-17T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-17-world-wide-wars-introduction-to-exploiting-web-applications",
+    "image" : "http://techlearningcollective.com/static/images/workshop.world-wide-wars-introduction-to-exploiting-web-applications.rectangle.png",
+    "teaser": "Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP), a free, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process, you’ll learn exactly how attackers, internal Red Teams, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-17 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-17 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-17 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/85002"]
+    }
+}
+,
+
+
+{
+    "title" : "Bare Bones Crypto: Understanding Critical Cryptographic Primitives",
+    "start" : "2020-05-20T15:30:00-0400",
+    "end"   : "2020-05-20T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-20-bare-bones-crypto-understanding-critical-cryptographic-primitives",
+    "image" : "http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.rectangle.png",
+    "teaser": "You don’t need to have your doctorate in theoretical mathematics to understand crypto enough to use it safely, but you do need to use it safely to be secure! Come learn the magic behind the math in this cryptography primer for those of us who are not “number people.” Using simplified examples and hands-on demonstrations, this workshop (finally!) offers a practical, accessible introduction to the foundations of modern cryptographic security protocols such as RSA public-key cryptography, stream and block ciphers, digital signatures, one-way hash functions, Hash-based Message Authentication Codes (HMACs), and more.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-20 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-20 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-20 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/85309"]
+    }
+}
+,
+
+
+{
+    "title" : "The Imitation Game: Introduction to Administering Virtual Machine Systems",
+    "start" : "2020-05-23T15:30:00-0400",
+    "end"   : "2020-05-23T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-23-the-imitation-game-introduction-to-administering-virtual-machine-systems",
+    "image" : "http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.png",
+    "teaser": "This workshop is a practical introduction to creating, using, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity, give you a sandbox in which to try out new software, and much more!",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-23 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-23 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-23 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/86237"]
+    }
+}
+,
+
+
+{
+    "title" : "Exploring Cyberspace: Network Sniffing and Scanning",
+    "start" : "2020-05-24T16:30:00-0400",
+    "end"   : "2020-05-24T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-24-exploring-cyberspace-network-sniffing-and-scanning",
+    "image" : "http://techlearningcollective.com/static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.png",
+    "teaser": "Come exploring with us as we show you how to map out interconnections between computers, trace packet routes across network gateways, and find information about network operators. In this workshop all about the voyages of frames, packets, and segments, we use tools like `nmap` to send probes into cyberspace and tap into the wire with Wireshark to understand how they function.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-24 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-24 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-24 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/86277"]
+    }
+}
+,
+
+
+{
+    "title" : "Automate All the Things: A Primer to Infrastructure as Code",
+    "start" : "2020-05-26T15:30:00-0400",
+    "end"   : "2020-05-26T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/workshop-2020-05-26-automate-all-the-things-a-primer-to-infrastructure-as-code",
+    "image" : "http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.rectangle.png",
+    "teaser": "Learn how to make your own Virtual Private Cloud (VPC), automatically install software on the servers in your cloud, and write executable runbooks to automatically perform upgrades and other maintenance with the press of a button. With today’s modern automation toolkits, a two-person hobby project can outperform a 100-person company, as long as they use the right tools the right way. In this workshop, you’ll get a practical introduction to cloud infrastructure automation with tools like Ansible, Vagrant, and Terraform, and a chance to solidify your understanding of fundamental DevOps skills that every IT professional needs.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-05-26 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-05-26 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-05-26 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/86861"]
+    }
+}
+,
+
+
+{
+    "title" : "Hacker Trivia Night: Restaurant and Bar Night",
+    "start" : "2020-05-29T15:00:00-0400",
+    "end"   : "2020-05-31T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/05/event-2020-05-29-hacker-trivia-night-restaurant-and-bar-night",
+    "image" : "https://secure.meetupstatic.com/photos/event/6/3/7/4/highres_490285460.jpeg",
+    "teaser": "",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": null,
+        "maximumAttendeeCapacity": null,
+        "isAccessibleForFree": true,
+        "sameAs": ["https://hacker-trivia-night.techlearningcollective.com/events/restaurant-and-bar-night","https://www.meetup.com/New-York-Cryptoparty-Network/events/270352490/"]
+    }
+}
+,
+
+
+{
+    "title" : "Computer Language Foundations: Command Line Basics",
+    "start" : "2020-06-01T16:30:00-0400",
+    "end"   : "2020-06-01T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-01-computer-language-foundations-command-line-basics",
+    "image" : "http://techlearningcollective.com/static/images/workshop.computer-language-foundations-command-line-basics.rectangle.png",
+    "teaser": "You have read about people who can talk to machines. Maybe you imagined secret chambers, hidden away behind locked doors, with dark rooms basking in blue from electric fires. Some of these people seemed friendly, others scary, but all of them were powerful. How did they learn to communicate with their computers? This is your chance to learn the foundations of all computer languages, the command line, and actually begin to talk to a machine yourself.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-01 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-01 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-01 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/88326"]
+    }
+}
+,
+
+
+{
+    "title" : "Writing with Blue Fire: Shell Scripting for Beginners",
+    "start" : "2020-06-03T15:30:00-0400",
+    "end"   : "2020-06-03T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-03-writing-with-blue-fire-shell-scripting-for-beginners",
+    "image" : "http://techlearningcollective.com/static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.rectangle.png",
+    "teaser": "Learn how to inscribe your thoughts, dreams, and desires into your computer and take your command line skills to the next level by learning how to write simple programs called shell scripts. In a way, invoking commands one at a time is like writing a program interactively, whereas writing a script inscribes that knowledge into a more permanent form. By learning how to turn commands into simple scripted programs, you can unlock the almost magical potential of your computer and more easily share that potential with others to whom you distribute your scripts.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-03 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-03 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-03 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/88992"]
+    }
+}
+,
+
+
+{
+    "title" : "The Map is the Territory: A Magical Introduction to the Command Line",
+    "start" : "2020-06-05T21:00:00-0400",
+    "end"   : "2020-06-05T22:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-05-the-map-is-the-territory-a-magical-introduction-to-the-command-line",
+    "image" : "http://techlearningcollective.com/static/images/workshop.the-map-is-the-territory-a-magical-introduction-to-the-command-line.rectangle.png",
+    "teaser": "Get an introduction to interacting with your computer through the terminal, and a hint towards all the beautiful radical power possible there. We will learn some basics by doing spellwork, and by the end you will have literally gathered magical fragments from the ether and cast a spell from a modest digital altar.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-05 21:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-05 21:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-05 21:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/89194"]
+    }
+}
+,
+
+
+{
+    "title" : "Gone Phishing: How to Recognize Fake Websites and Other Online Scams",
+    "start" : "2020-06-07T16:30:00-0400",
+    "end"   : "2020-06-07T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-07-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams",
+    "image" : "http://techlearningcollective.com/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png",
+    "teaser": "This workshop is a combination “attack/defense” exercise focusing on Web-based social engineering attacks. Participants will practice both how to launch their own attacks as well as how to defend against them.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-07 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-07 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-07 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/90213"]
+    }
+}
+,
+
+
+{
+    "title" : "Free Guided Tour of Tech Learning Collective Foundations",
+    "start" : "2020-06-09T15:00:00-0400",
+    "end"   : "2020-06-09T16:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/event-2020-06-09-free-guided-tour-of-tech-learning-collective-foundations",
+    "image" : "http://techlearningcollective.com/static/images/event.generic.tech-learning-collective.rectangle.png",
+    "teaser": "Just getting started learning computer technologies? Join Tech Learning Collective instructors for this free, guided tour of the Tech Learning Collective Foundations curriculum. These self-paced courses and practice labs are great for jump-starting your learning as they introduce you to the most important foundations of Tech Learning Collective course material, such as command line basics.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": null,
+        "maximumAttendeeCapacity": 72,
+        "isAccessibleForFree": true,
+        "sameAs": ["https://gobrunch.com/events/90587"]
+    }
+}
+,
+
+
+{
+    "title" : "Collaboration Across Universes: Basics of Version Control with Git",
+    "start" : "2020-06-11T15:30:00-0400",
+    "end"   : "2020-06-11T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-11-collaboration-across-universes-basics-of-version-control-with-git",
+    "image" : "http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.png",
+    "teaser": "Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer, novelist, or art designer.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-11 15:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-11 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-11 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/92434"]
+    }
+}
+,
+
+
+{
+    "title" : "Tor: What is it Good For? (Absolutely Everything!)",
+    "start" : "2020-06-14T16:30:00-0400",
+    "end"   : "2020-06-14T18:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-14-tor-what-is-it-good-for-absolutely-everything",
+    "image" : "http://techlearningcollective.com/static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png",
+    "teaser": "Come learn how the free Tor Web Browser can be your gateway to the Dark Web while simultaneously keeping you safer and your personal info more private as you browse web sites big and small. In this deep dive workshop on Tor, the Tech Learning Collective’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-14 16:30:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-14 16:30:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-14 16:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["TODO"]
+    }
+}
+,
+
+
+{
+    "title" : "World Wide Wars: Introduction to Exploiting Web Applications",
+    "start" : "2020-06-16T16:00:00-0400",
+    "end"   : "2020-06-16T17:30:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-16-world-wide-wars-introduction-to-exploiting-web-applications",
+    "image" : "http://techlearningcollective.com/static/images/workshop.world-wide-wars-introduction-to-exploiting-web-applications.rectangle.png",
+    "teaser": "Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP), a free, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process, you’ll learn exactly how attackers, internal Red Teams, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2020-06-16 16:00:00 -0400"},{"name":"General Admission","price":35,"priceCurrency":"USD","availabilityEnds":"2020-06-16 16:00:00 -0400"},{"name":"Reduced price admission (for queer-identified and femme people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2020-06-16 16:00:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/94413"]
+    }
+}
+,
+
+
+{
+    "title" : "Mr. Robot’s Hacker Happy Hour",
+    "start" : "2020-06-27T18:00:00-0400",
+    "end"   : "2020-06-27T19:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/event-2020-06-27-mr-robots-hacker-happy-hour",
+    "image" : "http://techlearningcollective.com/static/images/event.mr-robots-hacker-happy-hour.rectangle.png",
+    "teaser": "",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": null,
+        "maximumAttendeeCapacity": null,
+        "isAccessibleForFree": true,
+        "sameAs": ["https://gobrunch.com/events/72593","https://www.meetup.com/New-York-Cryptoparty-Network/events/270036597/"]
+    }
+}
+]
+;
+
         /**
          * Tests for calendar-specific breakpoints.
          *
@@ -22,7 +548,7 @@
             },
             'aspectRatio': (calendarViewLayout()) ? 0.5 : 1.35,
             'defaultView': 'listWeek',
-            'events': '/events/all-fullcalendar-io.json',
+            'events': events,
             'eventRender': function (info) {
                 if (info.view.type.match(/^list/)) {
                     var style = info.el.style;
