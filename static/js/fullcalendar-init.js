@@ -24,8 +24,8 @@
 
                     var p = document.createElement('p');
                     if (new Date(info.event.end) > new Date()) {
-                        p.textContent = (info.event.extendedProps.schemaDotOrg.offers)
-                            ? 'Buy tickets'
+                        p.innerHTML = (info.event.extendedProps.schemaDotOrg.offers)
+                            ? '<a href="' + info.event.url + '#tickets-' + info.event.url.split('/').pop() + '">Buy tickets</a>'
                             : 'Free or donation-based';
                     } else {
                         p.textContent = 'This event has passed.'
