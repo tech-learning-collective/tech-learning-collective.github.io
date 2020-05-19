@@ -1,5 +1,14 @@
 (function () {
     document.addEventListener('DOMContentLoaded', function () {
+        /**
+         * Tests for calendar-specific breakpoints.
+         *
+         * @return string Either `portrait` or `landscape`.
+         */
+        function calendarViewLayout () {
+            return (900 > window.innerWidth) ? 'portrait': 'landscape';
+        }
+
         var el  = document.getElementById('fullcalendar');
         var cal = new FullCalendar.Calendar(el, {
             'plugins': [
@@ -11,6 +20,7 @@
                 'center': 'listWeek,dayGridMonth',
                 'right' : 'today prev,next'
             },
+            'aspectRatio': (calendarViewLayout()) ? 0.5 : 1.35,
             'defaultView': 'listWeek',
             'events': '/events/all-fullcalendar-io.json',
             'eventRender': function (info) {
@@ -20,7 +30,7 @@
                     style.backgroundImage    = 'url("' + info.event.extendedProps.image + '")';
                     style.backgroundRepeat   = 'no-repeat';
                     // TODO: Move this into CSS proper.
-                    if (900 > window.innerWidth) {
+                    if ('portrait' === calendarViewLayout()) {
                         style.backgroundPosition = 'bottom left';
                         style.backgroundSize     = '140px';
                     } else {
@@ -40,7 +50,7 @@
                 }
             },
             'windowResize': function (view) {
-                if (900 > window.innerWidth) {
+                if ('portrait' === calendarViewLayout()) {
                     // Adjust for newer, small window size.
                     cal.changeView('listWeek');
                     el.querySelectorAll('.fc-list-item').forEach(function (item) {
@@ -49,6 +59,7 @@
                         style.backgroundPosition = 'bottom left';
                         style.backgroundSize     = '140px';
                     });
+                    cal.setOption('aspectRatio', 0.5); // Twice as high as wide.
                 } else {
                     // Readjust back to larger window size.
                     el.querySelectorAll('.fc-list-item').forEach(function (item) {
@@ -57,6 +68,7 @@
                         style.backgroundPosition = 'right';
                         style.backgroundSize     = 'contain';
                     });
+                    cal.setOption('aspectRatio', 1.35);
                 }
             }
         });
