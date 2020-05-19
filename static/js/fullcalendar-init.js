@@ -35,7 +35,7 @@
             },
             'windowResize': function (view) {
                 if (900 > window.innerWidth) {
-                    cal.changeView('listMonth');
+                    cal.changeView('listWeek');
                 }
             }
         });
