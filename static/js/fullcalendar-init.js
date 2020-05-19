@@ -19,8 +19,14 @@
                     style.height             = '5em';
                     style.backgroundImage    = 'url("' + info.event.extendedProps.image + '")';
                     style.backgroundRepeat   = 'no-repeat';
-                    style.backgroundPosition = 'right';
-                    style.backgroundSize     = 'contain';
+                    // TODO: Move this into CSS proper.
+                    if (900 > window.innerWidth) {
+                        style.backgroundPosition = 'bottom left';
+                        style.backgroundSize     = '140px';
+                    } else {
+                        style.backgroundPosition = 'right';
+                        style.backgroundSize     = 'contain';
+                    }
 
                     var p = document.createElement('p');
                     if (new Date(info.event.end) > new Date()) {
@@ -39,6 +45,7 @@
                     cal.changeView('listWeek');
                     el.querySelectorAll('.fc-list-item').forEach(function (item) {
                         var style = item.style;
+                        // TODO: Move this into CSS proper.
                         style.backgroundPosition = 'bottom left';
                         style.backgroundSize     = '140px';
                     });
@@ -46,6 +53,7 @@
                     // Readjust back to larger window size.
                     el.querySelectorAll('.fc-list-item').forEach(function (item) {
                         var style = item.style;
+                        // TODO: Move this into CSS proper.
                         style.backgroundPosition = 'right';
                         style.backgroundSize     = 'contain';
                     });
