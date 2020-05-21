@@ -1,7 +1,7 @@
 ---
 title: "Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work"
 startDate: &startDate 2020-06-20 16:00:00 -0400
-endDate: 2020-06-20 18:30:00 -0400
+endDate: 2020-06-20 17:30:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal
