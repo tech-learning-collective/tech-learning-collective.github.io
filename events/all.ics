@@ -5,7 +5,7 @@ NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1587673800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200423T203000Z
 DTEND;VALUE=DATE-TIME:20200423T220000Z
 
@@ -19,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1587841200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200425T190000Z
 DTEND;VALUE=DATE-TIME:20200425T203000Z
 
@@ -33,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1588105800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200428T203000Z
 DTEND;VALUE=DATE-TIME:20200428T220000Z
 
@@ -47,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
 UID:1588280400-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200430T210000Z
 DTEND;VALUE=DATE-TIME:20200430T223000Z
 
@@ -61,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1588534200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200503T193000Z
 DTEND;VALUE=DATE-TIME:20200503T210000Z
 
@@ -75,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1588620600-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200504T193000Z
 DTEND;VALUE=DATE-TIME:20200504T210000Z
 
@@ -89,7 +89,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1588800600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200506T213000Z
 DTEND;VALUE=DATE-TIME:20200506T230000Z
 
@@ -103,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1588964400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200508T190000Z
 DTEND;VALUE=DATE-TIME:20200508T203000Z
 
@@ -117,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1589137200-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200510T190000Z
 DTEND;VALUE=DATE-TIME:20200510T200000Z
 
@@ -131,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1589398200-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200513T193000Z
 DTEND;VALUE=DATE-TIME:20200513T210000Z
 
@@ -145,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1589571000-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200515T193000Z
 DTEND;VALUE=DATE-TIME:20200515T210000Z
 
@@ -159,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1589747400-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200517T203000Z
 DTEND;VALUE=DATE-TIME:20200517T220000Z
 
@@ -173,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1590003000-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200520T193000Z
 DTEND;VALUE=DATE-TIME:20200520T210000Z
 
@@ -187,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1590262200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200523T193000Z
 DTEND;VALUE=DATE-TIME:20200523T210000Z
 
@@ -201,7 +201,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1590352200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200524T203000Z
 DTEND;VALUE=DATE-TIME:20200524T220000Z
 
@@ -215,7 +215,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1590521400-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200526T193000Z
 DTEND;VALUE=DATE-TIME:20200526T210000Z
 
@@ -229,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hacker Trivia Night: Restaurant and Bar Night
 UID:1590778800-hacker-trivia-night-restaurant-and-bar-night@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200529T190000Z
 DTEND;VALUE=DATE-TIME:20200531T220000Z
 
@@ -243,7 +243,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1591043400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200601T203000Z
 DTEND;VALUE=DATE-TIME:20200601T220000Z
 
@@ -257,7 +257,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1591212600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200603T193000Z
 DTEND;VALUE=DATE-TIME:20200603T210000Z
 
@@ -271,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Map is the Territory: A Magical Introduction to the Command Line
 UID:1591405200-the-map-is-the-territory-a-magical-introduction-to-the-command-line@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200606T010000Z
 DTEND;VALUE=DATE-TIME:20200606T023000Z
 
@@ -285,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1591561800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200607T203000Z
 DTEND;VALUE=DATE-TIME:20200607T220000Z
 
@@ -299,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1591729200-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200609T190000Z
 DTEND;VALUE=DATE-TIME:20200609T200000Z
 
@@ -313,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1591903800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200611T193000Z
 DTEND;VALUE=DATE-TIME:20200611T210000Z
 
@@ -327,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1592166600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200614T203000Z
 DTEND;VALUE=DATE-TIME:20200614T220000Z
 
@@ -341,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1592337600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200616T200000Z
 DTEND;VALUE=DATE-TIME:20200616T213000Z
 
@@ -355,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1592512200-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200618T203000Z
 DTEND;VALUE=DATE-TIME:20200618T220000Z
 
@@ -369,9 +369,9 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1592683200-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200620T200000Z
-DTEND;VALUE=DATE-TIME:20200620T223000Z
+DTEND;VALUE=DATE-TIME:20200620T213000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
 DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This workshop is all about the basics of computer networking. If you’ve ever been curious about what happens “on the wire” when you’re browsing a Web site\, or if you ever wanted to take a look “under the hood” of your Wi-Fi connection\, this is the class for you!\n\nWorkshop Description\n\n\n  Our ability to browse Web sites\, send and receive digital messages like emails and text messages\, and make phone or video calls depends on the connections our digital devices make with one another. That makes it critical to understand how these connections are made\, and where they lead to. Far from being an amorphous “cloud\,” modern telecommunications networks and services like the Internet are made up of physical devices. Some of these you can see\, like your own computer or the router and modem in your house\, and others you can’t\, like distant servers or Layer 2 switches that make up the network infrastructure itself.\n\n  In this workshop derived from a portion of the Tech Learning Collective’s NET101 course\, you’ll have the opportunity to actually look—visually and with great detail—at how your computer “talks” to other computers like those that power Google Drive\, Facebook\, and other cloud services. By using an industry-standard tool called Wireshark\, we’ll dissect a conversation between your computer and a server and walk through the process of encapsulating a packet of application layer data\, emitting it onto a network\, and watching it travel to its destination. We’ll also touch on some illustrative counter-examples to explore how things can go wrong on a network\, such as DHCP server misconfigurations\, ARP spoofing attacks\, and unsecured or weakly-secured Wi-Fi networks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
@@ -381,9 +381,23 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.png
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
+UID:1592771400-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
+DTSTAMP:20200521T223556Z
+DTSTART;VALUE=DATE-TIME:20200621T203000Z
+DTEND;VALUE=DATE-TIME:20200621T220000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Master the fundamentals of personal and enterprise-grade network firewalls in this hands-on workshop about network perimeter security. By learning to use the macOS\, Windows\, BSD\, and Linux firewalls (including command-line utilities like iptables\, nft\, and pfctl)\, you can protect your devices even on untrustworthy or hostile networks\, like public Wi-Fi. Intended for all audiences\, you’ll gain experience with both beginner-friendly and advanced tools like pfSense as you get an introduction to a wide range of NetSec scenarios. We’ll also cover the important security properties of NAT routers\, how deep packet inspection (DPI) works\, and get you started with industry-standard Network Intrusion Detection/Prevsion Systems (NIDS/NIPS) like Snort.\n\nWorkshop Description\n\n\n  In today’s ubiquitous computing environment\, the most frequently used entrance (and exit!) in to (or out of) any system is its network connection. That’s why network firewalls have been a central component of every network security architecture since their introduction in the 1980’s. A firewall’s primary responsibility is to stop the spread of malware\, help prevent cyberattacks and unauthorized data exfiltration\, or isolate other problems in one network or network segment from affecting others. Thus\, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router\, just about every computer has a firewall these days\, including your personal laptop.\n\n  Modern firewalls can also do a lot more than their first or second generation ancestors that simply blocked certain ports or kept track of ongoing conversations between two endpoints. By building on so-called Deep Packet Inspection (DPI) technology\, firewalls can analyze the traffic passing through them in real time\, making decisions about what to allow or block based on myriad factors. On more heavily policed or otherwise protected networks\, firewalls have evolved into very powerful Network Intrusion Detection or Prevention Systems (NIDS/NIPS).\n\n  But don’t make the mistake of thinking this power is reserved for rich corporations! The firewall built into the Linux kernel (called Netfilter and controlled with the iptables or nft commands) is the backbone of almost all commercial enterprise firewall distributions\, and it’s available free of charge. Plus\, its ability to intercept and modify traffic in-flight is the basis of many proxy technologies such as Docker’s networking and Kubernetes’s kube-proxy\, among others.\n\n  So\, are your network shields up? Find out at this workshop where we’ll show you how to use the firewall built-in to your Windows\, macOS\, or GNU/Linux laptop. We’ll also show you how to set up firewalled subnets using NAT routers\, a bulletproof way to keep unsecured Internet of Things (IoT) or smart-home devices from infecting your more critical personal devices\, or to make a super-secure guest Wi-Fi network available for visitors. You’ll leave understanding the utility of so-called Layer 7 firewalls such as Web Application Firewalls (WAFs)\, and knowing how to test the security of your own firewall configurations.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2020/06/workshop-2020-06-21-shields-up-firewalls-and-other-network-perimeter-defenses
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.rectangle.png
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Mr. Robot's Hacker Happy Hour
 UID:1593295200-mr-robot-s-hacker-happy-hour@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200627T220000Z
 DTEND;VALUE=DATE-TIME:20200627T230000Z
 
@@ -397,7 +411,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:TJCTF 2020
 UID:1590105600-tjctf-2020@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200522T000000Z
 DTEND;VALUE=DATE-TIME:20200526T000000Z
 
@@ -411,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:m0leCon CTF 2020 Teaser
 UID:1590174000-m0lecon-ctf-2020-teaser@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200522T190000Z
 DTEND;VALUE=DATE-TIME:20200523T190000Z
 
@@ -425,7 +439,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hack-A-Sat Qualifiers
 UID:1590192000-hack-a-sat-qualifiers@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200523T000000Z
 DTEND;VALUE=DATE-TIME:20200525T000000Z
 
@@ -439,7 +453,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ugra CTF Quals 2020
 UID:1590217200-ugra-ctf-quals-2020@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200523T070000Z
 DTEND;VALUE=DATE-TIME:20200524T190000Z
 
@@ -453,7 +467,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Pwn2Win CTF 2020
 UID:1590770220-pwn2win-ctf-2020@techlearningcollective.com
-DTSTAMP:20200521T200921Z
+DTSTAMP:20200521T223556Z
 DTSTART;VALUE=DATE-TIME:20200529T163700Z
 DTEND;VALUE=DATE-TIME:20200531T163700Z
 
