@@ -1,0 +1,12 @@
+<p>
+    <a href="{{ "/events/all.ics" | absolute_url | replace: "https:", "webcal:" | replace: "http:", "webcal:" }}"
+       title="Subscribe to our calendar."
+    ><img alt="Calendar" class="download icon" src="{% link static/images/icon.calendar.svg %}" />
+        Subscribe to our calendar.</a>
+    <a href="{% link events/all.ics %}"
+       title="Export events as iCalendar file."
+    ><img alt="Download" class="download icon" src="{% link static/images/icon.download.svg %}" /></a>
+    <a href="{% link feed/events.xml %}"
+       title="Subscribe to Atom feed of events."
+    ><img alt="Download" src="{% link static/images/icon.rss-feed.orange.svg %}" style="width: 1em; box-shadow: none;" /></a>
+</p>

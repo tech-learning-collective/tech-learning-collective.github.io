@@ -12,6 +12,23 @@ layout: page
 
 {{ content }}
 
+<section>
+    <h1 id="events">Upcoming &ldquo;{{ page.title }}&rdquo; Events</h1>
+    {% include call-to-action-subscribe-to-calendar.html %}
+
+    {% for event in site.events %}
+    {% if page.title == event.title %}
+    {% assign event_start = event.startDate | date: "%s" | plus: 0 %}
+    {% assign unix_time = site.time | date: "%s" | plus: 0 %}
+    {% if unix_time < event_start %}
+    <ol>
+        <li><a href="{{ event.url }}">{{ event.startDate | date: "%B %e, %Y at %l:%M %P (%z)" }}</a></li>
+    </ol>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+</section>
+
 {% if page.videos %}
 <section class="videos">
     <h1 id="video-samples">Video Samples</h1>

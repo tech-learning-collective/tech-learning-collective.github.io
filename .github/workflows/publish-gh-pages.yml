@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: meitar/jekyll-builder-for-github-pages-action@builder-3.8
+    - uses: fabacab/jekyll-builder-for-github-pages-action@builder-3.8
       with:
         secret_gh_pages_api_token: ${{ secrets.GH_PAGES_TOKEN }}
         jekyll_build_opts: --future

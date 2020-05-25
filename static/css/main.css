@@ -398,7 +398,7 @@ table.price td:last-child span[title]::after {
 /**
  * @group Workshop pages.
  */
-.workshop article img:first-of-type {
+.workshop article > img:first-of-type {
     float: right;
     width: 50%;
     margin: 1em 0 1em 1em;
