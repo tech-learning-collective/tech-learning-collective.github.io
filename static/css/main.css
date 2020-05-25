@@ -597,7 +597,7 @@ footer {
         margin-left: 0;
         margin-right: 0;
     }
-    .workshop article img:first-of-type {
+    .workshop article > img:first-of-type {
         float: none;
         width: auto;
         max-width: 100%;
