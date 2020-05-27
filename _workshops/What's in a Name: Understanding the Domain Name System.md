@@ -1,6 +1,6 @@
 ---
 title: "What's in a Name: Understanding the Domain Name System"
-image: static/images/workshop.whats-in-a-name-understanding-the-domain-name-system.square.png
+image: static/images/workshop.whats-in-a-name-understanding-the-domain-name-system.square.jpg
 ---
 
 In the digital [world of cyperspace]({% link _workshops/Exploring Cyberspace: Network Sniffing and Scanning.md %}) networks, such as the Internet, places don&rsquo;t have names. They have numbers. Called Internet Protocol (IP) addresses, these numbers are used to identify the sources and destinations where network traffic, such as Web browsing, email, and video conferencing messages should go. But if computers use numbers and not names to route traffic, how do they know where to go when we type in addresses such as `google.com` in our Web browser?

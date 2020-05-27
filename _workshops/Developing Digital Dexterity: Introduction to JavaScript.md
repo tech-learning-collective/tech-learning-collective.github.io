@@ -1,6 +1,6 @@
 ---
 title: "Developing Digital Dexterity: Introduction to JavaScript"
-image: static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.png
+image: static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.jpg
 ---
 
 Over the course of ten days in 1995, the Web changed forever when Brendan Eich was hired by Netscape, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript, the language became known as JavaScript three months later, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects.

@@ -1,6 +1,6 @@
 ---
 title: "Automate All the Things: A Primer to Infrastructure as Code"
-image: static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.square.png
+image: static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.square.jpg
 ---
 
 In today&rsquo;s IT environments, application servers, databases, file shares, and even network devices are too numerous for any individual or team to provision, configure, and administer one at a time. To deploy, maintain, and secure large digital fleets, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching, updating code) to critical but rare operations (migrations, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact; today, a two-person hobby project can outperform a 100-person company if they use the right tools the right way.

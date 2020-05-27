@@ -1,6 +1,6 @@
 ---
 title: "Shields Up: Firewalls and Other Network Perimeter Defenses"
-image: static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.square.png
+image: static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.square.jpg
 ---
 
 In today&rsquo;s ubiquitous computing environment, the most frequently used entrance (and exit!) in to (or out of) any system is its [network connection]({% link _workshops/Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work.md %}). That&rsquo;s why network firewalls have been a central component of every network security architecture since their introduction in the 1980&rsquo;s. A firewall&rsquo;s primary responsibility is to stop the spread of malware, help prevent cyberattacks and unauthorized data exfiltration, or isolate other problems in one network or network segment from affecting others. Thus, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router, just about *every* computer has a firewall these days, including your personal laptop.

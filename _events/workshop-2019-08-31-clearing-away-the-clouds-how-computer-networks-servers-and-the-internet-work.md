@@ -4,7 +4,7 @@ startDate: &startDate 2019-08-31 15:30:00 -0400
 endDate: 2019-08-31 17:30:00 -0400
 date: *startDate
 location: Triangle Arts Association
-image: static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.png
+image: static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.jpg
 offers:
     - name: Workshop Ticket
       price: 45

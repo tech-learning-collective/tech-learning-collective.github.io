@@ -6,7 +6,7 @@ date: *startDate
 redirect_from:
     - /events/2019/08/workshop-2019-09-15-exploring-cyberspace-network-sniffing-and-scanning
 location: Wonderville
-image: static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.png
+image: static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.jpg
 flyer: workshop-exploring-cyberspace-1
 offers:
     - name: Workshop Ticket
