@@ -6,7 +6,7 @@ date: *startDate
 location: Remote
 payment_processor: paypal
 webinar_id: 7
-image: static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.png
+image: static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg
 offers:
     - name: Privacy Defender Webinar Ticket
       description: Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.

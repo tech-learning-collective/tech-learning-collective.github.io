@@ -1,6 +1,6 @@
 ---
 title: "Over The Air: Community Wireless and Mesh Networking Primer"
-image: static/images/workshop.over-the-air-community-wireless-and-mesh-networking-primer.square.png
+image: static/images/workshop.over-the-air-community-wireless-and-mesh-networking-primer.square.jpg
 ---
 
 For years, grassroots organizations and communities around the world have been laying the foundation for a more free and open Internet. From Detroit to Baltimore to Santa Fe, and of course right here in New York City, activists and engineers have been pushing for community-owned and community-operated Internet access. And although Internet access is important in its own right, these same efforts to create a &ldquo;rooftop-to-rooftop&rdquo; computer network between neighbors can also be used for more local intranets, which are automonously governed networks completely independent of the globalized Internet.

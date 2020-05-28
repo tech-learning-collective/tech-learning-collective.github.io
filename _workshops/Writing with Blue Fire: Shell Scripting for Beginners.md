@@ -1,6 +1,6 @@
 ---
 title: "Writing with Blue Fire: Shell Scripting for Beginners"
-image: static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.square.png
+image: static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.square.jpg
 ---
 
 At their core, digital computers are very complex writing instruments. Like pen and paper, they allow us to record our thoughts, dreams, and desires for later review. Unlike pen and paper, they allow us to do this at the speed of electricity and at a scale never before imagined possible, and their ability to directly manipulate the physical world through servomotors, industrial control systems, biomedical devices, and other robotic prosthesis means they can potentially supercharging every facet of our humanity.
