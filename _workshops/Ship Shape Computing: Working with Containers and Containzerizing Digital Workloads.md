@@ -1,6 +1,6 @@
 ---
 title: "Ship Shape Computing: Working with Containers and Containerizing Digital Workloads"
-image: static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.square.png
+image: static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.square.jpg
 ---
 
 In the earliest days of computing, an application would be responsible for processing only very small amounts of input. It would then produce a similarly small amount of output, working as fast and efficiently as possible. Known as a processing &ldquo;pipeline,&rdquo; this early solutions paradigm is most famously expressed as the so-called &ldquo;[UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy),&rdquo; a programmer&rsquo;s adage that states each program should &ldquo;do (only) one thing, and do it well,&rdquo; and it&rsquo;s still the beating heart of powerful computer interfaces such as [command line use]({% link _workshops/Computer Language Foundations: Command Line Basics.md %}) to this day.
