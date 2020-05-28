@@ -2,15 +2,28 @@
 layout: page
 ---
 
-<img class="course-poster"
-    alt="{{ page.poster_title }}"
-    src="{{ "/static/images/" | append: page.poster | relative_url }}"
-/>
+<img class="course-poster" alt="{{ page.poster_title }}" src="{{ page.poster | relative_url }}" />
 <ul>
     <li>Number of classes in course: {{ page.classes }}</li>
     <li>Typical class duration: {{ page.duration }} hours</li>
     <li>Full tuition: ${{ page.tuition }}</li>
     <li>Typical tuition ranges with <a href="{% link pricing/index.md %}#financial-aid">sliding scale financial aid</a>: ${{ page.tuition | divided_by: 4 | to_integer }}&ndash;${{ page.tuition | divided_by: 1.75 | to_integer }}</li>
+    {% if page.workshops %}
+    <li><a href="#related-workshops">View related workshops</a></li>
+    {% endif %}
 </ul>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUpAqmWZI76yAQZCaFKPGovkYv4mJpWUruMCwRMmfDh2yEzA/viewform?entry.51317831={{ page.slug | upcase | uri_escape }}" class="button">Apply for pre-enrollment in {{ page.slug | upcase }}</a>
 {{ content }}
+{% if page.workshops %}
+<h3 id="related-workshops">Related workshops</h3>
+<p>As a supplement (or taste test) of the {{ page.slug | upcase }} course intensive, consider attending one or more of the following related <a href="{% link workshops/index.md %}">workshops</a>. These are stand-alone <a href="{% link events/calendar/index.md %}">free, by-donation, or low-cost events</a> that are either derived from or augment this course&rsquo;s material. Since they are taught by the same instructor(s) as this course, these workshops provide a low-commitment way to get a feel for the fuller course itself as well as offer a chance for you to meet some of our teaching team.</p>
+<ul>
+{% for item in page.workshops %}
+    {% assign workshop = site.workshops | where: "title", item | first %}
+    {% if workshop %}
+    <li><a href="{{ workshop.url }}">{{ item }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+{% endif %}
+<p>Learn more about Tech Learning Collective workshops from our <a href="{% link faq/index.md %}#workshops-and-webinars">Workshops and Webinars FAQ</a>.</p>
