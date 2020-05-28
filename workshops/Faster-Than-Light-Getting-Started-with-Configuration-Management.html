@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Faster Than Light: Getting Started with Configuration Management &mdash; Tech Learning Collective</title>
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    <link type="application/atom+xml" rel="alternate" href="http://techlearningcollective.com/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/File-Sharing-for-Fun-and-Profit-How-BitTorrent-Works-and-What-You-Can-Do-With-It" />
+    <link rel="prev" href="/workshops/Exploring-Cyberspace-Network-Sniffing-and-Scanning" />
+
+    <meta itemprop="name" content="Faster Than Light: Getting Started with Configuration Management &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="http://techlearningcollective.com/workshops/Faster-Than-Light-Getting-Started-with-Configuration-Management" />
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Faster Than Light: Getting Started with Configuration Management" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Today, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don’t just have one server, you have a group of them. Commonly called a cluster, these servers need to be managed as a group, ensuring that their software configurations, security patches, and installed packages are deployed, maintained, and eventually updated or retired in a predictable way." />
+<meta property="og:description" content="Today, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don’t just have one server, you have a group of them. Commonly called a cluster, these servers need to be managed as a group, ensuring that their software configurations, security patches, and installed packages are deployed, maintained, and eventually updated or retired in a predictable way." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Faster-Than-Light-Getting-Started-with-Configuration-Management" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Faster-Than-Light-Getting-Started-with-Configuration-Management" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.faster-than-light-getting-started-with-configuration-management.square.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.faster-than-light-getting-started-with-configuration-management.square.jpg" />
+<meta property="twitter:title" content="Faster Than Light: Getting Started with Configuration Management" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"image":"http://techlearningcollective.com/static/images/workshop.faster-than-light-getting-started-with-configuration-management.square.jpg","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"Today, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don’t just have one server, you have a group of them. Commonly called a cluster, these servers need to be managed as a group, ensuring that their software configurations, security patches, and installed packages are deployed, maintained, and eventually updated or retired in a predictable way.","@type":"WebPage","headline":"Faster Than Light: Getting Started with Configuration Management","url":"http://techlearningcollective.com/workshops/Faster-Than-Light-Getting-Started-with-Configuration-Management","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+body {
+    background-color: rgba(142, 43, 9, 1);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, rgba(142, 43, 9, 1), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: rgba(142, 43, 9, 1);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: rgba(142, 43, 9, 1);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="http://techlearningcollective.com">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/calendar/">Events Calendar</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        <article>
+    <h2>Faster Than Light: Getting Started with Configuration Management</h2>
+    
+<img src="/static/images/workshop.faster-than-light-getting-started-with-configuration-management.square.jpg" alt="Poster for Faster Than Light: Getting Started with Configuration Management" />
+
+
+
+
+<p>Today, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don’t just have one server, you have a group of them. Commonly called a <em>cluster</em>, these servers need to be managed as a group, ensuring that their software configurations, security patches, and installed packages are deployed, maintained, and eventually updated or retired in a predictable way.</p>
+
+<p>In this deep dive workshop, we’ll set up our own small cluster and use <a href="https://ansible.com/">Ansible</a>, which is an agentless, cross-platform, enterprise-grade, free software <a href="https://en.wikipedia.org/wiki/Configuration_management">Configuration Management (CM)</a> and <a href="/workshops/Automate-All-the-Things-Infrastructure-as-Code-Primer">Infrastructure as Code (IaC)</a> framework used by giant corporations like IBM and Cisco, to turn old-school operator runbooks into computerized playbooks that can be executed quickly and easily even by novice operators. Through several hands-on exercises, you’ll learn about the entire CM lifecycle from planning through auditing so that you understand critical CM concepts like idempotence, change control, and more, which are common to all CM systems including <a href="https://www.chef.io/configuration-management/">Chef</a>, <a href="https://puppet.com/use-cases/configuration-management/">Puppet</a>, and <a href="https://docs.saltstack.com/en/latest/topics/states/">Salt</a>.</p>
+
+<p>Along the way, you’ll be exposed to key concepts such as <a href="/workshops/Ship-Shape-Computing-Working-with-Containers-and-Containzerizing-Digital-Workloads">containerization</a> through Ansible’s support for automating container builds, <a href="/con">Role-Based Access Control (RBAC)</a> via Ansible’s AWX Project, and more. By adopting configuration management workflows with tools like Ansible, you can reduce operator errors, and beat back configuration drift on any long-lived infrastructure components.</p>
+
+
+<section>
+    <h1 id="events">Upcoming &ldquo;Faster Than Light: Getting Started with Configuration Management&rdquo; Events</h1>
+    <p>
+    <a href="webcal://techlearningcollective.com/events/all.ics"
+       title="Subscribe to our calendar."
+    ><img alt="Calendar" class="download icon" src="/static/images/icon.calendar.svg" />
+        Subscribe to our calendar.</a>
+    <a href="/events/all.ics"
+       title="Export events as iCalendar file."
+    ><img alt="Download" class="download icon" src="/static/images/icon.download.svg" /></a>
+    <a href="/feed/events.xml"
+       title="Subscribe to Atom feed of events."
+    ><img alt="Download" src="/static/images/icon.rss-feed.orange.svg" style="width: 1em; box-shadow: none;" /></a>
+</p>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <ol>
+        <li><a href="/events/2020/07/workshop-2020-07-08-faster-than-light-getting-started-with-configuration-management">July  8, 2020 at  3:30 pm (-0400)</a></li>
+    </ol>
+    
+    
+    
+</section>
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Faster%20Than%20Light:%20Getting%20Started%20with%20Configuration%20Management">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    
+></script>
+<script src="/static/js/gitter-sidecar.js"></script>
+
+</body>
+</html>
