@@ -10,6 +10,22 @@
             return (900 > window.innerWidth) ? 'portrait': 'landscape';
         }
 
+        /**
+         * Checks for and validates a user-requested FullCalendar view.
+         *
+         * @return string
+         */
+        function getFullCalendarView () {
+            var valid_views = [
+                'dayGridMonth',
+                'listWeek'
+            ];
+            var p = new URLSearchParams(document.location.search.substring(1));
+            return (valid_views.includes(p.get('fullcalendar-view')))
+                ? p.get('fullcalendar-view')
+                : 'listWeek'; // Default view.
+        }
+
         var el  = document.getElementById('fullcalendar');
         var cal = new FullCalendar.Calendar(el, {
             'plugins': [
@@ -22,7 +38,7 @@
                 'right' : 'today prev,next'
             },
             'aspectRatio': ('portrait' === calendarViewLayout()) ? 0.5 : 1.35,
-            'defaultView': 'listWeek',
+            'defaultView': getFullCalendarView(),
             'events': fullcalendar_events || '/events/all-fullcalendar-io.json',
             'eventRender': function (info) {
                 if (info.view.type.match(/^list/)) {
