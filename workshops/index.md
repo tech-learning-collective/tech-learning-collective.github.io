@@ -3,9 +3,9 @@ title: Workshops
 columns: 1
 ---
 
-In addition to our intensive [courses]({% link courses/index.html %}) and public [events]({% link events/index.md %}), Tech Learning Collective instructors are also available to host presentations, lectures, and workshops on specific subjects. These are derived from portions of our longer course intensives and are typically one to two hours long. Each workshop can be run individually, or as part of a series along with the other workshops in [its collection](#browse-workshop-collections).
+In addition to our intensive [courses]({% link courses/index.html %}) and public [events]({% link events/calendar/index.md %}), Tech Learning Collective instructors are also available to host presentations, lectures, and workshops on specific subjects. These are derived from portions of our longer course intensives and are typically one to two hours long. Each workshop can be run individually, or as part of a series along with the other workshops in [its collection](#browse-workshop-collections).
 
-Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collective instructor for your venue&rsquo;s next event.
+Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collective instructor for your venue&rsquo;s next event. View a workshop&rsquo;s detail page for information about the next scheduled run of that workshop.
 
 ### Stand-alone workshops
 
@@ -14,7 +14,7 @@ Stand-alone workshop ticket prices can range from a $25 suggested donation to a 
 <div class="workshop-list" markdown="1">
 {% assign workshops = site.workshops %}
 {% for workshop in workshops %}{% if empty == workshop.categories %}
-* [![Poster for {{ workshop.title }}]({{ workshop.image | default: site.logo | relative_url }}){: loading="lazy"} {{ workshop.title }}]({{ workshop.url }})
+* [![Poster for {{ workshop.title }}]({{ workshop.image | default: site.logo | relative_url }}){:loading="lazy"} {{ workshop.title }}]({{ workshop.url }})
 {% endif %}
 {% endfor %}
 </div>

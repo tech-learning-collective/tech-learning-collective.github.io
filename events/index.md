@@ -12,6 +12,8 @@ In addition to our intensive [courses]({% link courses/index.html %}), we also h
 
 ([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
 
+([View events as calendar grid]({% link events/calendar/index.md %}?fullcalendar-view=dayGridMonth).)
+
 {% include events-upcoming.html %}
 
 {% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 2 %}
