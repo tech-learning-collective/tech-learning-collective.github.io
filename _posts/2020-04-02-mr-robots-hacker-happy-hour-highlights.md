@@ -53,7 +53,7 @@ The event opened with a brief introduction to Tech Learning Collective, a rundow
 
 Tor makes its appearance on <cite>Mr. Robot</cite> in the very first scene, even before the opening credits. So perhaps that&rsquo;s why, for the first thirty minutes of our Hacker Happy Hour, most people asked questions about Tor. In this clip, we discuss one of the foundational operating principles of the Tor network: the fact that it is a cryptographic mixnet. We also touch on why it&rsquo;s so important to keep your Tor Browser software (and, really, all your software) up to date.
 
-Tech Learning Collective regularly runs [our in-depth Tor workshop]({% link _workshops/Tor: What Is It Good For? (Absolutely Everything).md %}), which covers this and many more aspects of Tor use, configuration, and administration at various times. Check out [our events calendar]({% link events/index.md %}) to learn when the next Tor workshop you can sign up for is happening.
+Tech Learning Collective regularly runs [our in-depth Tor workshop]({% link _workshops/Tor: What is it Good For? (Absolutely Everything!).md %}), which covers this and many more aspects of Tor use, configuration, and administration at various times. Check out [our events calendar]({% link events/index.md %}) to learn when the next Tor workshop you can sign up for is happening.
 
 ## Password hashes explained
 

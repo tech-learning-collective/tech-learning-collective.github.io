@@ -10,4 +10,4 @@ I found out about Tech Learning Collective through an Electronic Frontier Founda
 
 What I really liked about it, is that they where very supportive to newbies (like me) and I wasn&rsquo;t too overwhelmed during the event. They made it as simple as they could. The communication between the audience and the presenter (and the teacher&rsquo;s assistant) was really nice too. They tried to answer as many questions as possible and kept going for almost two hours after the event was supposed to end.
 
-Among other things I learned a lot about the [Tor Browser]({% link _workshops/Tor: What Is It Good For? (Absolutely Everything).md %}), brute-force attacks, and how [password hashing]({% link _workshops/Password Superpowers: How to Crack Hashes and Stump Hackers.md %}) works.
+Among other things I learned a lot about the [Tor Browser]({% link _workshops/Tor: What is it Good For? (Absolutely Everything!).md %}), brute-force attacks, and how [password hashing]({% link _workshops/Password Superpowers: How to Crack Hashes and Stump Hackers.md %}) works.
