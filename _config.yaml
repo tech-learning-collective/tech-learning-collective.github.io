@@ -71,6 +71,9 @@ collections:
     output: true
     permalink: /:collection/:categories/:year/:month/:title
     sort_by: startDate
+  redirects:
+    output: true
+    permalink: /r/:title
   reviews:
   katacoda:
     output: true
@@ -135,6 +138,10 @@ defaults:
 feed:
   collections:
     - events
+
+# Settings for jekyll-redirect-from plugin.
+redirect_from:
+  json: false
 
 # iCalendar settings.
 iCalendar:
