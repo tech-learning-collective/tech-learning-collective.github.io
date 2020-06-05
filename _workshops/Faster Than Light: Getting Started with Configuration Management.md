@@ -1,6 +1,7 @@
 ---
 title: "Faster Than Light: Getting Started with Configuration Management"
 image: static/images/workshop.faster-than-light-getting-started-with-configuration-management.square.jpg
+simple_description: Strengthen your automation or scripting skills by learning how to use tools designed for helping huge organizations manage massive fleets of servers. Before your infrastructure starts to grow or your project gets particularly complex, you should learn about Configuration Management best practices so that you can more easily stay on top of how your computers are set up and how you're changing them over time. This workshop will introduce you to free tools meant to help you and your coworkers, teammates, or collaborators perform complex management tasks across hundreds of computers without having to log in to each of them one at a time.
 ---
 
 Today, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don&rsquo;t just have one server, you have a group of them. Commonly called a *cluster*, these servers need to be managed as a group, ensuring that their software configurations, security patches, and installed packages are deployed, maintained, and eventually updated or retired in a predictable way.

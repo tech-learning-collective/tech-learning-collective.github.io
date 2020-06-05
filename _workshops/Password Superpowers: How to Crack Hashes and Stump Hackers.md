@@ -12,6 +12,7 @@ videos:
           kind: captions
           srclang: en
           src: /static/media/workshops/Password Hashes Explained.vtt
+simple_description: This workshop teaches you how to use "password recovery" tools to find out what the password of a given user account or password-protected file is. By using free software programs that automates a technique called hash cracking, you can find out exactly how strong (or not) your own passwords are. Also in this workshop, you'll learn about password and secrets management apps that help you practice good password hygiene so that you don't reuse passwords or use weak passwords that don't offer as much protection as you might have thought before you learned how easy it can be to "crack" encrypted passwords yourself.
 ---
 
 Have you been &ldquo;pwned&rdquo;? For years, security researcher Troy Hunt has been running a website at [HaveIBeenPwned.com](https://haveibeenpwned.com/) that lets you check to see if your online accounts have been pwned—that is, if your personal information such as your password, has been leaked, accessed, or (worst of all!) &ldquo;cracked.&rdquo; Go on, check for yourself!

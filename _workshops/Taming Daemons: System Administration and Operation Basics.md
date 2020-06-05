@@ -1,6 +1,7 @@
 ---
 title: "Taming Daemons: System Administration and Operation Basics"
 image: static/images/workshop.taming-daemons-system-administration-and-operation-basics.square.jpg
+simple_description: Learn about the basic parts of a computer system by exploring the anatomy of digital software and hardware. This workshop thoroughly explains basic concepts like RAM, CPU, and persistent storage, breaks down what programs and processes really are, and introduces you to concepts like windowless applications ("servers"), filesystems, virtual memory, and a whole lot more.
 ---
 
 How much good does a powerful tool do for you if you don&rsquo;t know how to use it well? How much more capable would you be if you mastered all the tools available to you? It might sound ridiculous, but failing to learn the practicalities of computer system operation basics is arguably the most common mistake people in the fast-paced tech scene make.

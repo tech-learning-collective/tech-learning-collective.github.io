@@ -3,7 +3,8 @@ title: "Securing Our Servers: Basic Network Operations for Autonomous Communitie
 image: static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.square.jpg
 persona_matrix:
     - 2 # Defenders
-    - 2 # Attackers
+    - 3 # Attackers
+simple_description: This workshop shows you how to use and administer one of the most important security tools for system administrators ever developed, the Secure Shell or SSH for short. If you are responsible for maintaining any kind of Internet-connected service or device, even "just" a Web site, you should be using SSH so that your connections are secured. Come learn how SSH is able to protect you by dissecting the SSH connection process itself with tools like network protocol analyzers and learning about the many different kinds of cryptographic identity keys used during the SSH encryption and authentication process.
 ---
 
 Every app you use&mdash;from messengers like [Signal](https://signal.org/) or WhatsApp to blogs and websites like [WordPress](https://wordpress.org/) and even other coordination tools like digital calendars and [online maps]({% link _workshops/Our Streets, Our Maps: Introduction to OpenStreetMap.md %})&mdash;relies on a computer called a server. Whether that computer is one in your hand (your smartphone), or a computer somewhere across the Internet (&ldquo;in the cloud&rdquo;), no meaningful digital communication happens without servers offering services, somewhere. So, do you know where *your* servers are? If not, you can&rsquo;t know how safe your data is!
