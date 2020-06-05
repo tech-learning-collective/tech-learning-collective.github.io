@@ -1,6 +1,7 @@
 ---
 title: "Collaboration Across Universes: Basics of Version Control with Git"
 image: static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.square.png
+simple_description: Whenever you work on a project, like writing a computer program or designing a new poster, it's helpful to have a history of all the changes you made so that you can go back to a previous version if you need to undo a mistake or want to try going in a different direction without throwing away the work you've already done. One of the most powerful tools for doing this is called Git, which is the Free Software program that makes popular Web and code hosting sites like GitHub.com so versatile. This workshop will show you how to use Git so that you can save different versions of your projects without resorting to filenames like "my-project-draft-1" or "my-project-draft-2," share specific revisions of your work with others, and make it easy to merge your work with the work other people do if they're also using Git.
 ---
 
 As most of us know first-hand, the creative process involves many edits and revisions. Adding a little bit here, trimming a little bit there, but then hitting &ldquo;undo&rdquo; a bunch and experimenting with a new direction is quite normal! When your project is a single file, pressing &ldquo;Save As&hellip;&rdquo; many times might suffice, but what if your project spans dozens or even hundreds of files?

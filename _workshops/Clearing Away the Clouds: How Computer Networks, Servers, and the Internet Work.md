@@ -1,6 +1,7 @@
 ---
 title: "Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work"
 image: static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.square.jpg
+simple_description: Learn the basics of computer networking in this workshop that starts by watching a "conversation" between two computers as it's happening in real time. You'll be introduced to the free professional network analysis application called Wireshark so that you can listen in on what the programs on your computer are saying to or hearing from other computers across the Internet.
 ---
 
 Our ability to browse Web sites, send and receive digital messages like emails and text messages, and make phone or video calls depends on the connections our digital devices make with one another. That makes it critical to understand how these connections are made, and where they lead to. Far from being an amorphous &ldquo;cloud,&rdquo; modern telecommunications networks and services like the Internet are made up of physical devices. Some of these you can see, like your own computer or the router and modem in your house, and others you can&rsquo;t, like distant servers or Layer 2 switches that make up the network infrastructure itself.

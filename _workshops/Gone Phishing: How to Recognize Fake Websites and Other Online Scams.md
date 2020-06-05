@@ -4,6 +4,7 @@ image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-o
 persona_matrix:
     - 3
     - 3
+simple_description: The most common way hackers steal passwords, install malware on a victim's computer, or get employees to grant them unauthorized access to critical business systems is through so-called phishing attacks. A phishing attack is surprisingly low-tech, which is part of what makes it so devastatingly effective. Learning to spot these attacks is one of the most important things you can do to protect yourself online, since a hacker's tricks, called "lures," can appear anywhere from an email, to a Facebook message, to a real Web site that looks exactly like one you recognize! In this workshop, you'll learn how frighteningly easy it is to build these scam sites, and all about the tricks they use to fool you into falling for them.
 ---
 
 Whether it&rsquo;s corporate espionage, ransomware, or online fraud, most cyber attacks don&rsquo;t start with sophisticated software exploits, but rather by employing relatively simple tricks. These tricks are called &ldquo;phishing&rdquo; attacks because, much like baiting a lure, they won&rsquo;t work unless you bite. However, <em>many</em> people do get caught up by them.

@@ -36,7 +36,7 @@ teaser: Learn how to inscribe your thoughts, dreams, and desires into your compu
 
 ## Workshop Description
 
-> At their core, digital computers are very complex writing instruments. Like pen and paper, they allow us to record our thoughts, dreams, and desires for later review. Unlike pen and paper, they allow us to do this at the speed of electricity and at a scale never before imagined possible, and their ability to directly manipulate the physical world through servomotors, industrial control systems, biomedical devices, and other robotic prosthesis means they can potentially supercharging every facet of our humanity.
+> At their core, digital computers are very complex writing instruments. Like pen and paper, they allow us to record our thoughts, dreams, and desires for later review. Unlike pen and paper, they allow us to do this at the speed of electricity and at a scale never before imagined possible, and their ability to directly manipulate the physical world through servomotors, industrial control systems, biomedical devices, and other robotic prosthesis means they can potentially supercharge every facet of our humanity.
 >
 > When a system administrator or programmer uses a computer, they often issue instructions one by one using a special-purpose, text-only interface called a *[command line]({% link foundations/index.md %})*. Individually, these instructions are called *invocations*. (Yes, that&rsquo;s their technical term!) In this beginner&rsquo;s workshop, you&rsquo;ll learn how to write whole spells, rituals, or (sacred) texts called *shell scripts* to inscribe your own thoughts, dreams, and desires in the electrified silicon and minerals of your computer.
 >

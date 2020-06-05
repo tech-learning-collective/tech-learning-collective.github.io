@@ -403,6 +403,9 @@ table.price td:last-child span[title]::after {
     width: 50%;
     margin: 1em 0 1em 1em;
 }
+.workshop article > h2 {
+    clear: right;
+}
 .workshop-list ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
