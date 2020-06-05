@@ -37,3 +37,9 @@ No `{{ content }}` because embed uses Foundations courses from `_data/katacoda/`
     </li>
     {% endif %}
 </ul>
+
+{% if page.workshops %}
+<h2 id="related-workshops">Related workshops</h2>
+<p>You can also learn more about the topics in this learning module by attending the following related <a href="{% link workshops/index.md %}">workshops</a>:</p>
+{% include related-workshops.html workshops=page.workshops %}
+{% endif %}

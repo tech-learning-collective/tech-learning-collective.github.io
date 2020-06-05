@@ -17,13 +17,5 @@ layout: page
 {% if page.workshops %}
 <h3 id="related-workshops">Related workshops</h3>
 <p>As a supplement (or taste test) of the {{ page.slug | upcase }} course intensive, consider attending one or more of the following related <a href="{% link workshops/index.md %}">workshops</a>. These are stand-alone <a href="{% link events/calendar/index.md %}">free, by-donation, or low-cost events</a> that are either derived from or augment this course&rsquo;s material. Since they are taught by the same instructor(s) as this course, these workshops provide a low-commitment way to get a feel for the fuller course itself as well as offer a chance for you to meet some of our teaching team.</p>
-<ul>
-{% for item in page.workshops %}
-    {% assign workshop = site.workshops | where: "title", item | first %}
-    {% if workshop %}
-    <li><a href="{{ workshop.url }}">{{ item }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+{% include related-workshops.html workshops=page.workshops %}
 {% endif %}
-<p>Learn more about Tech Learning Collective workshops from our <a href="{% link faq/index.md %}#workshops-and-webinars">Workshops and Webinars FAQ</a>.</p>
