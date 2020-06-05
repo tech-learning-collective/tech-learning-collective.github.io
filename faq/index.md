@@ -49,9 +49,17 @@ If you have not yet done so, we also suggest that you take a minute to familiari
 
 ## What do I need to bring to class?
 
-As every Tech Learning Collective course focuses on hands-on, experience-based training, **you will need a portable personal computer** running any modern version of [Apple&rsquo;s macOS](https://www.apple.com/macos/what-is/), [Microsoft Windows](https://www.microsoft.com/windows), or any flavor of the [GNU/Linux](https://www.linux.com/what-is-linux) operating systems to take full advantage of class time. For certain courses, [Google Chromebooks](https://www.google.com/chromebook/) and certain handheld or tablet computers may suffice, but are generally not recommended as they can be severely constrained by their manufacturer or vendor. If in doubt, please either [contact]({% link contact/index.md %}) us or bring up your concerns during your [enrollment process]({% link enrollment/index.md %}).
+You should bring:
 
-Learning a lot in a short period of time can also make one very hungry, so we also advise that you arrive to class well-fed or that you bring a meal with you.
+* A personal portable computer (like a laptop) sufficient for the course or workshop you are attending. (Read on for details.)
+* Enough food so that you are not hungry during classtime (if attending an in-person training, unless your training is catered by the organization who [booked]({% link pricing/index.md %}#groups) the training).
+* Your curiosity and enthusiasm!
+
+As every Tech Learning Collective course focuses on hands-on, experience-based training, you will need a portable personal computer running any modern version of [Apple&rsquo;s macOS](https://www.apple.com/macos/what-is/), [Microsoft Windows](https://www.microsoft.com/windows), or any flavor of the [GNU/Linux](https://www.linux.com/what-is-linux) operating systems to take full advantage of class time. If you have the means to do so, we recommend getting devices made by [Purism](https://puri.sm/), although almost any computer made within the last decade or so will probably be sufficient, with some important exceptions listed below. If in doubt, please either [contact]({% link contact/index.md %}) us or bring up your concerns during your [enrollment process]({% link enrollment/index.md %}).
+
+While vendor-restricted devices such as [Google Chromebooks](https://www.google.com/chromebook/) and certain handheld or tablet computers such as [Apple iOS](https://www.apple.com/ios/) devices (iPhones and iPads) may suffice, they are generally not recommended as they severely constrain what software you are able to run and how you are able to interact with the underlying components of the device in ways that are difficult to overcome. As a rule of thumb, if you cannot access the command line (&ldquo;terminal&rdquo;) of your device&rsquo;s underlying operating system, you should consider acquiring an alternative device before enrolling in one of our courses. To learn more and to test whether your device has a command line you can access, visit our [Foundations]({% link foundations/index.md %}) learning modules.
+
+Learning a lot in a short period of time can also make one very hungry, so we also advise that you arrive to class well-fed or that you bring a meal with you. Also consider arriving to class well-rested by taking whatever measures you need so that you get a good night&rsquo;s sleep the evening before your class.
 
 ## What if I don&rsquo;t have a laptop?
 
