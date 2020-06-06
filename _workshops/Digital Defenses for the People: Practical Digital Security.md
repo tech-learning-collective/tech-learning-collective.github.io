@@ -4,7 +4,7 @@ image: static/images/workshop.digital-defenses-for-the-people-practical-digital-
 persona_matrix:
     - 1
     - 2
-simple_description: Get your most pressing cybersecurity questions answered in this interactive workshop covering a wide range of online safety and Internet privacy concerns. Learn how to make smart choices and think critically about what you should prioritize and figure out which scary headlines are probably not a big deal for you. Even if all you ever online is post on Facebook, there are still many easy things that you can do to help keep yourself and your friends safer both online and in the streets.
+simple_description: Get your most pressing cybersecurity questions answered in this interactive workshop covering a wide range of online safety and Internet privacy concerns. Learn how to make smart choices and think critically about what you should prioritize so you can figure out which scary headlines are worth worrying about versus which ones aren't relevant to you. Even if all you ever do online is post on Facebook, there are still many easy things that you can do to help keep yourself and your friends safer both online and in the streets.
 ---
 
 Learning how to stay safe online is on many people&rsquo;s minds, but how do you start this process? With so many tools and suggestions from &ldquo;experts,&rdquo; how do you know which tool to use, when, and in what situation? Do you really need a VPN? (And what even is that?) What are the tools you really *should* use, and which tools aren&rsquo;t worth it? Moreover, without being a cybersecurity expert yourself, how do you learn to sniff out the useful stuff from the placebos?
