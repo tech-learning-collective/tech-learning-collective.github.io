@@ -9,25 +9,9 @@ These labs are provided free of charge, and are always available, so feel free t
 
 Of course, nothing can compare to learning directly from a teacher whom you can actually see and ask questions of in real time, but we hope that these self-paced learning modules will whet your appetite until your next (or first) class with us!
 
-{% for pathway in site.data.katacoda reversed %}
-
-### {{ pathway[1].title }}
-
-{{ pathway[1].description | markdownify }}
-
-<ol class="katacoda-scenarios">
-{% for course in pathway[1].courses %}
-    <li>
-        <h4>{{ course.title }}</h4>
-        {{ course.description | markdownify}}
-        <a class="button"
-            href="{{ pathway[1].title | slugify | replace: "foundations-", "" }}/{{ course.course_id }}"
-        >Start Module</a>
-    </li>
-{% endfor %}
-</ol>
-
-{% endfor %}
+{% comment %} Define the order of included courses statically, here. {% endcomment %}
+{% include foundations-course.html pathway="foundations-command-line-basics-pathway" %}
+{% include foundations-course.html pathway="foundations-linux-journey-pathway" %}
 
 ## Sample Learning Modules
 

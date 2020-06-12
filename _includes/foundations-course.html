@@ -1,0 +1,16 @@
+{% assign pathway = site.data.katacoda[include.pathway] %}
+<h3 id="{{ pathway.title | slugify }}">{{ pathway.title }}</h3>
+
+{{ pathway.description | markdownify }}
+
+<ol class="katacoda-scenarios">
+{% for course in pathway.courses %}
+    <li>
+        <h4>{{ course.title }}</h4>
+        {{ course.description | markdownify}}
+        <a class="button"
+            href="{{ pathway.title | slugify | replace: "foundations-", "" }}/{{ course.course_id }}"
+        >Start Module</a>
+    </li>
+{% endfor %}
+</ol>
