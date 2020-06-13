@@ -272,6 +272,24 @@
 
 
 {
+    "title" : "Get in the Zone: Technological Autonomous Zone",
+    "start" : "2020-06-14T14:00:00-0400",
+    "end"   : "2020-06-14T15:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2020/06/event-2020-06-14-get-in-the-zone-technological-autonomous-zone",
+    "image" : "http://techlearningcollective.com/static/images/event.get-in-the-zone-technological-autonomous-zone.rectangle.jpg",
+    "teaser": "Watch servers and software get built (or hacked) before your very eyes. Get answers to your technical questions about how to build revolutionary infrastructure for an anti-capitalist, cop-free world. Learn how to protect your own data and the data of your friends or affinity groups with Tech Learning Collective’s expert cybersecurity trainers. Get to know other radical technologists in a safer and moderated virtual classroom space. Get in the Zone, the Technological Autonomous Zone!",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": null,
+        "maximumAttendeeCapacity": 72,
+        "isAccessibleForFree": true,
+        "sameAs": ["https://gobrunch.com/events/108292"]
+    }
+}
+,
+
+
+{
     "title" : "Tor: What is it Good For? (Absolutely Everything!)",
     "start" : "2020-06-14T16:30:00-0400",
     "end"   : "2020-06-14T18:00:00-0400",
