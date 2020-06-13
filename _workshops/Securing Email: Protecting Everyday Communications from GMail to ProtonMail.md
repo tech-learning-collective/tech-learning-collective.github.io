@@ -4,6 +4,7 @@ image: static/images/workshop.securing-email-protecting-everyday-communications-
 persona_matrix:
     - 2 # Defenders
     - 3 # Attackers
+simple_description: This workshop shows you how to keep your emails private regardless of what email provider you use. By learning how to use the freely and widely available Pretty Good Privacy (PGP) cryptosystem in email, you will see how easy it is to not only encrypt messages so that they remain confidential, but also how to make sure the emails you get were really sent by the people they claim to be from. Once you're able to verify the sender of email you receive, you're far less likely to get caught up in an email phishing scam ever again.
 ---
 
 As one of the oldest digital communication methods, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name &ldquo;e-mail&rdquo; might make you think that electronic mail works the same way that writing a physical letter does, but this isn&rsquo;t entirely true. From a technical perspective, it&rsquo;s more like &ldquo;e-postcards&rdquo; because, just like sending a postcard through the postal service, anyone who handles your postcard can read what you wrote.
