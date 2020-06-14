@@ -277,7 +277,7 @@ In this first installment, we talk about nurturing the bloom of students' curios
 > Yeah, yeah, exactly, exactly. Yeah. Um, but I'm still feeling a little like, I'm like, Oh, I still don't think my terminal skills are that strong. How do I get them stronger? I did find, what's this one website that's got some like, wait, let me tell you which one it is. That's got like some terminal practice. Let's see. That I now have some time set aside to do. Let's see, let's see. Well, there's Hack the Box EU but that's not the one for this.
 >
 > Interviewer:
-> Yeah, there's there's quite a number. We used to recommend Code Academy before they started charging for their beginner courses. There's another one called Taming the Terminal that I know about. That is really good.
+> Yeah, there's quite a number. We used to recommend Code Academy before they started charging for their beginner courses. There's another one called Taming the Terminal that I know about. That is really good.
 >
 > Student:
 > Oh I think that might be it.
@@ -321,10 +321,10 @@ In this first installment, we talk about nurturing the bloom of students' curios
 > Yeah, I feel like I'm not ready for Automate all the Things because I can't do the things that I want to be automated yet. So I'm like holding off on that for a second.
 >
 > Interviewer:
-> Yeah that makes sense, that's fine. But when you get there, it's you know part of it. And also, of course, the labs themselves. The actual practice labs, you can download and run on your own, is there, they're all automated with Vagraent.
+> Yeah that makes sense, that's fine. But when you get there, it's you know part of it. And also, of course, the labs themselves. The actual practice labs, you can download and run on your own, is there, they're all automated with Vagrant.
 >
 > Student:
-> Oh, cool. Oh, that's nice. Nice. Yeah, I haven't gotten to the level to run any of the labs yet. So that's one of my things I, yeah. And you asked if I'd taken any other classes in this format. Um, I've taken some on-demand learning in other areas. I really find that live teachers work better for me then, like, pre-recorded videos. And honestly, just to get me in front of the computer and do it in most cases, it just like, creates that sense of like time boundedness.
+> Oh, cool. Oh, that's nice. Nice. Yeah, I haven't gotten to the level to run any of the labs yet. So that's one of my things I, yeah. And you asked if I'd taken any other classes in this format. Um, I've taken some on-demand learning in other areas. I really find that live teachers work better for me than, like, pre-recorded videos. And honestly, just to get me in front of the computer and do it in most cases, it just like, creates that sense of like time boundedness.
 >
 > Interviewer:
 > Yeah, I've had a very hard time learning from, uh, recorded classes as well, when I was, you know, I, I was unfortunate in that I did not actually have a live teacher at all. But the result of that was, was that it just had to, that it took me a lot longer to get to the point where I'm seeing TLC students now get to. And that makes sense. You know, the live instruction, there's something about humans. Human mimicry, I think is a huge part of human learning. And you don't get that if you are mimicking the recording, because what you're missing is, as you said that you're getting very sort of tools and tactics focus, but if you don't find yourself in a situation where that exact tactic or that exact tool is available to you, you're sort of out of luck.
