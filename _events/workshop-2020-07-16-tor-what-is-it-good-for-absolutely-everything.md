@@ -1,11 +1,11 @@
 ---
 title: "Tor: What is it Good For? (Absolutely Everything!)"
-startDate: &startDate 2020-06-14 16:30:00 -0400
-endDate: 2020-06-14 18:00:00 -0400
+startDate: &startDate 2020-07-16 16:30:00 -0400
+endDate: 2020-07-16 18:00:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal
-webinar_id: 58
+webinar_id: 73
 image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
 offers:
     - name: Privacy Defender Webinar Ticket
@@ -23,7 +23,7 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
 sameAs:
-    - https://gobrunch.com/events/93821
+    - https://gobrunch.com/events/108858
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
