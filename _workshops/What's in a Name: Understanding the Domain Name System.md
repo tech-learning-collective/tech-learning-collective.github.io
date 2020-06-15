@@ -1,6 +1,7 @@
 ---
 title: "What's in a Name: Understanding the Domain Name System"
 image: static/images/workshop.whats-in-a-name-understanding-the-domain-name-system.square.jpg
+simple_description: Learn how computers translate names (like `google.com`) to IP addresses using the global Domain Name System or DNS. In this workshop, you'll see exactly what DNS queries and responses look like, and you'll learn valuable tips that can help you troubleshoot network problems, avoid DNS-based censorship, and increase the security and privacy of your day-to-day Web browsing. You'll also get a peek at what's involved in setting up your own DNS server, useful for learning how popular services like Web hosting providers, domain registrations, and DNS-based reverse proxies like Cloudflare actually work.
 ---
 
 In the digital [world of cyperspace]({% link _workshops/Exploring Cyberspace: Network Sniffing and Scanning.md %}) networks, such as the Internet, places don&rsquo;t have names. They have numbers. Called Internet Protocol (IP) addresses, these numbers are used to identify the sources and destinations where network traffic, such as Web browsing, email, and video conferencing messages should go. But if computers use numbers and not names to route traffic, how do they know where to go when we type in addresses such as `google.com` in our Web browser?
