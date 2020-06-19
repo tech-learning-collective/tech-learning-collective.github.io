@@ -677,6 +677,9 @@ table.dataTable td.child,
 #fullcalendar button {
     text-transform: capitalize;
 }
+.fc-unthemed .fc-list-empty {
+    background-color: inherit;
+}
 .fc-unthemed .fc-list-table .fc-list-heading td {
     background: #333;
 }
