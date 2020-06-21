@@ -1,6 +1,7 @@
 ---
 title: "Ship Shape Computing: Working with Containers and Containerizing Digital Workloads"
 image: static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.square.jpg
+simple_description: Complex programs like many modern Web apps work by making use of multiple helper programs, often called microservices. To make sure all the programs work together without overwhelming the computer or computing cluster they're running on, microservices are packaged inside specialized digital spaces called containers, which lets a system operator run and, importantly, constrain each microservice individually. This workshop shows you how containers are built, how they're moved around from system to system, and how they're ultimately connected to one another in centrally orchestrated containerized fleets.
 ---
 
 In the earliest days of computing, an application would be responsible for processing only very small amounts of input. It would then produce a similarly small amount of output, working as fast and efficiently as possible. Known as a processing &ldquo;pipeline,&rdquo; this early solutions paradigm is most famously expressed as the so-called &ldquo;[UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy),&rdquo; a programmer&rsquo;s adage that states each program should &ldquo;do (only) one thing, and do it well,&rdquo; and it&rsquo;s still the beating heart of powerful computer interfaces such as [command line use]({% link _workshops/Computer Language Foundations: Command Line Basics.md %}) to this day.
