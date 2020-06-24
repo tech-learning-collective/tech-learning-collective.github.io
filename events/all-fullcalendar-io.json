@@ -312,7 +312,7 @@
     "start" : "2020-06-25T15:30:00-0400",
     "end"   : "2020-06-25T17:00:00-0400",
     "url"   : "http://techlearningcollective.com/events/2020/06/workshop-2020-06-25-the-imitation-game-introduction-to-administering-virtual-machine-systems",
-    "image" : "http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.png",
+    "image" : "http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.jpg",
     "teaser": "This workshop is a practical introduction to creating, using, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity, give you a sandbox in which to try out new software, and much more!",
     "location": "Remote",
     "schemaDotOrg": {
