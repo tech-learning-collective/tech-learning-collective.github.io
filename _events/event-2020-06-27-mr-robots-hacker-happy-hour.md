@@ -4,7 +4,7 @@ startDate: &startDate 2020-06-27 18:00:00 -0400
 endDate: 2020-06-27 19:00:00 -0400
 date: *startDate
 location: Remote
-image: static/images/event.mr-robots-hacker-happy-hour.rectangle.png
+image: static/images/event.mr-robots-hacker-happy-hour.rectangle.jpg
 isAccessibleForFree: true
 sameAs:
     - https://gobrunch.com/events/72593

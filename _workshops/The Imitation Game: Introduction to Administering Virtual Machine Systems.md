@@ -1,6 +1,6 @@
 ---
 title: "The Imitation Game: Introduction to Administering Virtual Machine Systems"
-image: static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.square.png
+image: static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.square.jpg
 simple_description: This beginner workshop is one of the most important because it gets you up to speed with the concept and practice of virtualization, on which all modern "cloud computing" environments are based. You'll learn about virtual machine technology and see how easy it is to create sandboxed environments for all kinds of reasons, such as running Windows apps on your Mac or vice versa. Watch and see a computer-inside-of-a-computer boot up, pause without shutting down, and even jump backwards and forwards in time as its running state is saved and restored from snapshots.
 ---
 
