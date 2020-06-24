@@ -13,6 +13,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
+teaser: Join us for another in our series of FREE cybersecurity crash courses and virtual socials featuring themes from the critically-acclaimed TV show, Mr. Robot. This time, we'll focus on the hacks of Season 1, Episode 2, but all hacks from all previous episodes will be in scope, too.
 ---
 
 Join us for another in our series of FREE cybersecurity crash courses and virtual socials featuring themes from the critically-acclaimed TV show, <cite>[Mr. Robot](https://www.themoviedb.org/tv/62560-mr-robot)</cite>! This time, we'll focus on the hacks of Season 1, Episode 2, but all hacks from all previous episodes will be in scope, too.
