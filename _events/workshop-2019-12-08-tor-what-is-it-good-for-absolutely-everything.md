@@ -4,7 +4,7 @@ startDate: &startDate 2019-12-08 15:30:00 -0500
 endDate: 2019-12-08 17:30:00 -0500
 date: *startDate
 location: Caveat
-image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
+image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.jpg
 flyer: workshop-tor-1
 offers:
     - name: General Admission

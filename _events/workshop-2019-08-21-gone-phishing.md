@@ -6,7 +6,7 @@ date: *startDate
 redirect_from:
     - /events/2019/07/workshop-2019-08-21-gone-phishing
 location: TechAhoy
-image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
+image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.rectangle.jpg
 offers:
     - name: Workshop Ticket
       price: 45

@@ -1,6 +1,6 @@
 ---
 title: "Tor: What is it Good For? (Absolutely Everything!)"
-image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.pink.png
+image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.square.jpg
 redirect_from:
     - /workshops/Tor-What-Is-It-Good-For-(Absolutely-Everything)
 persona_matrix:

@@ -1,6 +1,6 @@
 ---
 title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
-image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.png
+image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.square.jpg
 persona_matrix:
     - 3
     - 3

@@ -4,7 +4,7 @@ startDate: &startDate 2019-10-27 15:30:00 -0400
 endDate: 2019-10-27 17:30:00 -0400
 date: *startDate
 location: Triangle Arts Association
-image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
+image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.jpg
 flyer: workshop-tor-1
 isAccessibleForFree: true
 offers:

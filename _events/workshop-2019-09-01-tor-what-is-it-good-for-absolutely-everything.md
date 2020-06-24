@@ -6,7 +6,7 @@ date: *startDate
 redirect_from:
     - /events/2019/08/workshop-2019-09-01-tor-what-is-it-good-for-absolutely-everything
 location: Wonderville
-image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.png
+image: static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.jpg
 flyer: workshop-tor-1
 offers:
     - name: Workshop Ticket

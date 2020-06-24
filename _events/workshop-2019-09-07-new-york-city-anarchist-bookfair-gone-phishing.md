@@ -4,7 +4,7 @@ startDate: &startDate 2019-09-07 15:30:00 -0400
 endDate: 2019-09-07 16:45:00 -0400
 date: *startDate
 location: Judson Memorial Church
-image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.blue.rectangle.png
+image: static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.rectangle.jpg
 isAccessibleForFree: true
 sameAs:
     - https://www.meetup.com/New-York-Cryptoparty-Network/events/264303547/
