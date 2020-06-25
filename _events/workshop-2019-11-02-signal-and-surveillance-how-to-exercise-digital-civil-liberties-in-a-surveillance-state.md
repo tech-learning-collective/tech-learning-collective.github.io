@@ -4,7 +4,7 @@ startDate: &startDate 2019-11-02 15:30:00 -0400
 endDate: 2019-11-02 17:30:00 -0400
 date: *startDate
 location: Triangle Arts Association
-image: static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.png
+image: static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.jpg
 isAccessibleForFree: true
 offers:
     - name: General admissions suggested donation

@@ -1,6 +1,6 @@
 ---
 title: "Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State"
-image: static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.square.png
+image: static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.square.jpg
 persona_matrix:
     - 3
     - 3

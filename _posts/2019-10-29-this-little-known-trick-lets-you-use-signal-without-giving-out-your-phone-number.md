@@ -7,7 +7,7 @@ The [Signal Private Messenger](https://signal.org/) app has become the de-facto 
 
 One of the most common reasons some people cite for not using Signal is because they don&rsquo;t want to give out their phone number to the same people they want to send encrypted messages to. In situations where you need both privacy *and* anonymity, this reluctance makes a lot of sense. But what they may not know is that Signal does not require you to use *your* phone number at all.
 
-[![Poster image for Tech Learning Collective&rsquo;s &ldquo;Signal and Surveillance&rdquo; workshop.]({% link static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.png %}){:style="width: 100%;"}]({% link _workshops/Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State.md %})
+[![Poster image for Tech Learning Collective&rsquo;s &ldquo;Signal and Surveillance&rdquo; workshop.]({% link static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.jpg %}){:style="width: 100%;"}]({% link _workshops/Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State.md %})
 
 As our instructors explain in more depth during our [Signal and Surveillance workshop]({% link _workshops/Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State.md %}), what most people don&rsquo;t realize is that Signal &ldquo;phone numbers&rdquo; are not really phone numbers. They are more like *numeric user names*.
 
