@@ -4,7 +4,7 @@ startDate: &startDate 2019-10-19 15:30:00 -0400
 endDate: 2019-10-19 17:30:00 -0400
 date: *startDate
 location: Brooklyn Community Pride Center
-image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.png
+image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.jpg
 isAccessibleForFree: true
 offers:
     - name: General admissions suggested donation

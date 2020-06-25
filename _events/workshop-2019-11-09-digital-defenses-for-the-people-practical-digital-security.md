@@ -4,7 +4,7 @@ startDate: &startDate 2019-11-09 15:30:00 -0500
 endDate: 2019-11-09 17:30:00 -0500
 date: *startDate
 location: Triangle Arts Association
-image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.png
+image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.rectangle.jpg
 isAccessibleForFree: true
 offers:
     - name: General admissions suggested donation

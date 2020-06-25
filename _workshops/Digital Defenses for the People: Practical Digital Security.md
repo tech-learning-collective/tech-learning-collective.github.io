@@ -1,6 +1,6 @@
 ---
 title: "Digital Defenses for the People: Practical Digital Security"
-image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.square.png
+image: static/images/workshop.digital-defenses-for-the-people-practical-digital-security.square.jpg
 persona_matrix:
     - 1
     - 2
