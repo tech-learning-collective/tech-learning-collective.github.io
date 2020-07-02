@@ -371,7 +371,7 @@
     "location": "Remote",
     "schemaDotOrg": {
         "offers": null,
-        "maximumAttendeeCapacity": 72,
+        "maximumAttendeeCapacity": 50,
         "isAccessibleForFree": true,
         "sameAs": ["https://gobrunch.com/events/109604"]
     }
@@ -389,7 +389,7 @@
     "location": "Remote",
     "schemaDotOrg": {
         "offers": null,
-        "maximumAttendeeCapacity": null,
+        "maximumAttendeeCapacity": 25,
         "isAccessibleForFree": true,
         "sameAs": ["https://gobrunch.com/events/115575"]
     }
