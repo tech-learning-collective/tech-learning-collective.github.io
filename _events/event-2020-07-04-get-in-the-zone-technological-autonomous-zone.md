@@ -8,7 +8,7 @@ image: static/images/event.get-in-the-zone-technological-autonomous-zone.rectang
 isAccessibleForFree: true
 sameAs:
     - https://gobrunch.com/events/109604
-maximumAttendeeCapacity: 72
+maximumAttendeeCapacity: 50
 organizers:
     - Tech Learning Collective
 performers:

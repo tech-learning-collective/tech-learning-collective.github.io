@@ -8,6 +8,7 @@ image: static/images/backdoors-and-breaches.rectangle.jpg
 isAccessibleForFree: true
 sameAs:
     - https://gobrunch.com/events/115575
+maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
 performers:
