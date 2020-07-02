@@ -683,6 +683,9 @@ table.dataTable td.child,
 .fc-unthemed .fc-list-table .fc-list-heading td {
     background: #333;
 }
+.fc-unthemed .fc-list-table .fc-list-tem:last-child {
+    border-bottom: 1px solid #FFF;
+}
 .fc-unthemed .fc-list-table .fc-list-item td {
     background: rgba(189, 14, 96, 0.3);
 }

@@ -81,6 +81,36 @@ layout: none
             }
         }
 
+        /**
+         * Custom window resize event handler.
+         *
+         * @see https://fullcalendar.io/docs/windowResize
+         * 
+         * @param {object} view The current FullCalendar View Object.
+         */
+        function resizeWindow (view) {
+            if ('portrait' === calendarViewLayout()) {
+                // Adjust for newer, small window size.
+                cal.changeView('listWeek');
+                el.querySelectorAll('.fc-list-item').forEach(function (item) {
+                    var style = item.style;
+                    // TODO: Move this into CSS proper.
+                    style.backgroundPosition = 'bottom left';
+                    style.backgroundSize     = '140px';
+                });
+                cal.setOption('aspectRatio', 0.5); // Twice as high as wide.
+            } else {
+                // Readjust back to larger window size.
+                el.querySelectorAll('.fc-list-item').forEach(function (item) {
+                    var style = item.style;
+                    // TODO: Move this into CSS proper.
+                    style.backgroundPosition = 'right';
+                    style.backgroundSize     = 'contain';
+                });
+                cal.setOption('aspectRatio', 1.35);
+            }
+        }
+
         var el  = document.getElementById('fullcalendar');
         var cal = new FullCalendar.Calendar(el, {
             'plugins': [
@@ -96,28 +126,7 @@ layout: none
             'defaultView': getFullCalendarView(),
             'events': fullcalendar_events || '{% link events/all-fullcalendar-io.json %}',
             'eventRender': renderEvent,
-            'windowResize': function (view) {
-                if ('portrait' === calendarViewLayout()) {
-                    // Adjust for newer, small window size.
-                    cal.changeView('listWeek');
-                    el.querySelectorAll('.fc-list-item').forEach(function (item) {
-                        var style = item.style;
-                        // TODO: Move this into CSS proper.
-                        style.backgroundPosition = 'bottom left';
-                        style.backgroundSize     = '140px';
-                    });
-                    cal.setOption('aspectRatio', 0.5); // Twice as high as wide.
-                } else {
-                    // Readjust back to larger window size.
-                    el.querySelectorAll('.fc-list-item').forEach(function (item) {
-                        var style = item.style;
-                        // TODO: Move this into CSS proper.
-                        style.backgroundPosition = 'right';
-                        style.backgroundSize     = 'contain';
-                    });
-                    cal.setOption('aspectRatio', 1.35);
-                }
-            }
+            'windowResize': resizeWindow
         });
         cal.render();
     });
