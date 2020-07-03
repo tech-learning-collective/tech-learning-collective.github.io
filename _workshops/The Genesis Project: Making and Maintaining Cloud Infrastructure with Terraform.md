@@ -1,6 +1,7 @@
 ---
 title: "The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform"
 image: static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.png
+simple_description: Build an infrastructure automatically and from scratch using Terraform, a free and open source tool that turns code into virtual machines, firewall rulesets, DNS records, and other computing resources. Automating the deployment of digital resources makes it easier to grow networks, fix issues, and perform basic maintenance, all of which means a smaller team can do more with less. This workshop introduces you to basic Infrastructure as Code principles so that you can understand how to make the most of "the cloud."
 ---
 
 In the beginning, there was the mainframe: a single, gigantic machine that held all the data and did all the work by itself, like a digital planet suspended in the vast emptiness of cyberspace. Then came networks, the personal computer, the Internet, Web 2.0, cloud computing, microservices, and containers&mdash;a whole [cybergalaxy to explore]({% link _workshops/Exploring Cyberspace: Network Sniffing and Scanning.md %}). While the world today looks very different than it did in the days of the mainframe, every project still needs to start at the beginning: get at least one computer to hold all project data and do all project work. So how do modern projects go from a single computer to a whole galaxy so quickly?
