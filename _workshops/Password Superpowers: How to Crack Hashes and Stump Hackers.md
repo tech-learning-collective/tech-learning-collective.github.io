@@ -1,6 +1,6 @@
 ---
 title: "Password Superpowers: How to Crack Hashes and Stump Hackers"
-image: static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.square.png
+image: static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.square.jpg
 persona_matrix:
     - 3
     - 2
