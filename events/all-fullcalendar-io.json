@@ -600,7 +600,7 @@
     "start" : "2020-07-30T16:30:00-0400",
     "end"   : "2020-07-30T18:00:00-0400",
     "url"   : "http://techlearningcollective.com/events/2020/07/workshop-2020-07-30-password-superpowers-how-to-crack-hashes-and-stump-hackers",
-    "image" : "http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.png",
+    "image" : "http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.jpg",
     "teaser": "Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in, how to find out if you have been “pwned,” what the risks are, and what you can do to protect yourself from brute-force, credential stuffing, and other forms of account takeover attacks.",
     "location": "Remote",
     "schemaDotOrg": {
