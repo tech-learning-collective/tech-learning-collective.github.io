@@ -36,7 +36,7 @@
 
         {% if entity_photo or entity_logo or entity_image %}
         <img
-            src="{{ entity_photo | default: entity_logo | default: entity_image | absolute_url }}"
+            src="{{ entity_photo | default: entity_logo | default: entity_image | absolute_url | replace: site.url, "" }}"
             alt=""
             class="u-photo photo"
             itemprop="image logo photo" />

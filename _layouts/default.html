@@ -7,7 +7,7 @@
 {% include head.html %}
 <body class="{{ page.layout }}">
     <header>
-        <h1><a href="{{ site.url | relative_url }}">{{ site.title }}</a></h1>
+        <h1><a href="{% link index.html %}">{{ site.title }}</a></h1>
         {% if site.tagline %}<p id="Tagline">{{ site.tagline }}</p>{% endif %}
         <nav id="MainNavigation">
             {% include site-navigation.html %}

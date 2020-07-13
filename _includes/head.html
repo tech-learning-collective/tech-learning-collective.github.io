@@ -15,7 +15,11 @@
     />
     {% endfor %}
 
-    {% feed_meta %}
+    {% comment %}
+        Manually replace hard-coded absolute URL in feed link.
+        See: https://github.com/jekyll/jekyll-feed/pull/317
+    {% endcomment %}
+    {% capture feed_meta_html %}{% feed_meta %}{% endcapture %}{{ feed_meta_html | replace: site.url, "" }}
 
     {% if site.events %}<link rel="alternate" href="{% link events/all.ics %}" type="text/calendar" title="{% include gettext.liquid key="subscribe_to_events" %}" />{% endif %}
 
@@ -23,9 +27,9 @@
     {% if page.previous %}<link rel="prev" href="{{ page.previous.url | relative_url }}" />{% endif %}
 
     <meta itemprop="name" content="{% include title-text.html %}" />
-    <meta itemprop="url" content="{{ page.url | absolute_url }}" />
+    <meta itemprop="url" content="{{ page.url | relative_url }}" />
 
-    {% seo title=false %}
+    {% seo title=false %}{% comment %} Facebook and Twitter cards require FQURLs, so don't capture and replace. {% endcomment %}
 
 {% if page.backgroundColor %}
 <style>
