@@ -1,11 +1,11 @@
 ---
 title: "Ship Shape Computing: Working with Containers and Containerizing Digital Workloads"
-startDate: &startDate 2020-06-23 16:00:00 -0400
-endDate: 2020-06-23 17:30:00 -0400
+startDate: &startDate 2020-08-13 16:00:00 -0400
+endDate: 2020-08-13 17:30:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal
-webinar_id: 69
+webinar_id: 87
 image: static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.rectangle.jpg
 offers:
     - name: Privacy Defender Webinar Ticket
@@ -23,7 +23,7 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
 sameAs:
-    - https://gobrunch.com/events/100800
+    - https://gobrunch.com/events/122417
 maximumAttendeeCapacity: 15
 organizers:
     - Tech Learning Collective
