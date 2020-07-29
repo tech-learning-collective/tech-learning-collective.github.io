@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Mr. Robot’s Hacker Happy Hour",
-    "start" : "2020-06-27T18:00:00-0400",
-    "end"   : "2020-06-27T19:00:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2020/06/event-2020-06-27-mr-robots-hacker-happy-hour",
-    "image" : "http://techlearningcollective.com/static/images/event.mr-robots-hacker-happy-hour.rectangle.jpg",
-    "teaser": "Join us for another in our series of FREE cybersecurity crash courses and virtual socials featuring themes from the critically-acclaimed TV show, Mr. Robot. This time, we’ll focus on the hacks of Season 1, Episode 2, but all hacks from all previous episodes will be in scope, too.",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": null,
-        "maximumAttendeeCapacity": null,
-        "isAccessibleForFree": true,
-        "sameAs": ["https://gobrunch.com/events/72593","https://www.meetup.com/New-York-Cryptoparty-Network/events/270036597/"]
-    }
-}
-,
-
-
-{
     "title" : "Free Play Night: Backdoors and Breaches (for Beginners)",
     "start" : "2020-06-28T18:30:00-0400",
     "end"   : "2020-06-28T19:30:00-0400",
