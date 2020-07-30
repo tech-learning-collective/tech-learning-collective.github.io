@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Free Play Night: Backdoors and Breaches (for Beginners)",
-    "start" : "2020-06-28T18:30:00-0400",
-    "end"   : "2020-06-28T19:30:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2020/06/event-2020-06-28-free-play-night-backdoors-and-breaches-for-beginners",
-    "image" : "http://techlearningcollective.com/static/images/backdoors-and-breaches.rectangle.jpg",
-    "teaser": "",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": null,
-        "maximumAttendeeCapacity": null,
-        "isAccessibleForFree": true,
-        "sameAs": ["https://gobrunch.com/events/105198"]
-    }
-}
-,
-
-
-{
     "title" : "Taming Daemons: System Administration and Operation Basics",
     "start" : "2020-06-29T15:30:00-0400",
     "end"   : "2020-06-29T17:00:00-0400",
