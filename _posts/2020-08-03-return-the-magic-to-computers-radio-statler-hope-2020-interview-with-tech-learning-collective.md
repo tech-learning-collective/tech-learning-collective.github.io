@@ -4,7 +4,7 @@ image: static/images/post.featured.tech-learning-collective-hope-2020.jpg
 excerpt: In a far-reaching interview on the Hackers On Planet Earth 2020 conference's Internet radio broadcast, Radio Statler, Tech Learning Collective discusses our philosophical approach to computer technology, hacking, anarcho-autonomism, and more. We also lead three offensive cybersecurity workshops at the HOPE 2020 workshops track this year, made possible by the conference organizer's decision to make the event a wholly-virtual one. Our own hope for the event is that people who are looking for a liberatory and ambitious direction that goes beyond but overlaps with the famous hacker ethos exemplified by the HOPE 2020 conference and community can find what they're looking for in the form of Tech Learning Collective's approach to queering hackerdom and returning the magic to computers.
 ---
 
-The [Hackers On Planet Earth (HOPE) conference](https://hope.net/) is a staple of The Hacker Community&trade; that has been happening bi-annually since 1994. It's a huge, well-reknowned event that regularly brings international superstars like Edward Snowden to their stage. This year, due to the Covid-19 pandemic, the conference was moved entirely online.
+The [Hackers On Planet Earth (HOPE) conference](https://hope.net/) is a staple of The Hacker Community&trade; that has been happening bi-annually since 1994. It's a huge, well-renowned event that regularly brings international superstars like Edward Snowden to their stage. This year, due to the Covid-19 pandemic, the conference was moved entirely online.
 
 Although the wholly-virtual conference format was a disappointment for many regulars, it was a very welcome change for us at Tech Learning Collective. It was specifically because of the decision to move the conference online that Tech Learning Collective members felt comfortable enough to submit workshop proposals for consideration. Had the conference been held in person, we would have chosen not to participate because of the fact that mainstream "hacker community" spaces are not spaces where we feel particularly comfortable or safe. Offering an alternative to those more mainstream spaces is, after all, one of the main reasons Tech Learning Collective exists!
 
@@ -19,7 +19,7 @@ That's why, when we were further invited to be interviewed by Erin and Mel of th
 <p><a href="{% link static/media/tech-learning-collective.radio-statler-hope2020.mp3 %}">Download the audio</a>.</p>
 </audio>
 
-> TLC interviewee: That's so much for having us on. Which one of you is Beaches? Do you mind my asking that?
+> TLC interviewee: Thanks so much for having us on. Which one of you is Beaches? Do you mind my asking that?
 >
 > Mel (interviewer 1): Beaches isn't here right now. Beaches has to work.
 >
