@@ -3,23 +3,9 @@ VERSION:2.0
 PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
-UID:1594497600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20200811T201941Z
-DTSTART;VALUE=DATE-TIME:20200711T200000Z
-DTEND;VALUE=DATE-TIME:20200711T213000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to inscribe your thoughts\, dreams\, and desires into your computer and take your command line skills to the next level by learning how to write simple programs called shell scripts. In a way\, invoking commands one at a time is like writing a program interactively\, whereas writing a script inscribes that knowledge into a more permanent form. By learning how to turn commands into simple scripted programs\, you can unlock the almost magical potential of your computer and more easily share that potential with others to whom you distribute your scripts.\n\nWorkshop Description\n\n\n  At their core\, digital computers are very complex writing instruments. Like pen and paper\, they allow us to record our thoughts\, dreams\, and desires for later review. Unlike pen and paper\, they allow us to do this at the speed of electricity and at a scale never before imagined possible\, and their ability to directly manipulate the physical world through servomotors\, industrial control systems\, biomedical devices\, and other robotic prosthesis means they can potentially supercharge every facet of our humanity.\n\n  When a system administrator or programmer uses a computer\, they often issue instructions one by one using a special-purpose\, text-only interface called a command line. Individually\, these instructions are called invocations. (Yes\, that’s their technical term!) In this beginner’s workshop\, you’ll learn how to write whole spells\, rituals\, or (sacred) texts called shell scripts to inscribe your own thoughts\, dreams\, and desires in the electrified silicon and minerals of your computer.\n\n  By saving your scripts in files\, you can invoke arbitrarily complex routines to reproduce tasks or automate complex procedures with a single command. Writing scripts also makes it possible to share what you can do with others and\, as such\, are one the simplest forms of computer program that you can write and distribute. Come learn how the magic of digital inscription can help you do your work\, and increase your power to accomplish your dreams.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2020/07/workshop-2020-07-11-writing-with-blue-fire-shell-scripting-for-beginners
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1594587600-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200712T210000Z
 DTEND;VALUE=DATE-TIME:20200712T220000Z
 
@@ -33,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1594756800-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200714T200000Z
 DTEND;VALUE=DATE-TIME:20200714T213000Z
 
@@ -47,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1594931400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200716T203000Z
 DTEND;VALUE=DATE-TIME:20200716T220000Z
 
@@ -61,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1595100600-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200718T193000Z
 DTEND;VALUE=DATE-TIME:20200718T210000Z
 
@@ -75,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1595190600-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200719T203000Z
 DTEND;VALUE=DATE-TIME:20200719T220000Z
 
@@ -89,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1595361600-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200721T200000Z
 DTEND;VALUE=DATE-TIME:20200721T213000Z
 
@@ -103,7 +89,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1595536200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200723T203000Z
 DTEND;VALUE=DATE-TIME:20200723T220000Z
 
@@ -117,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Get in the Zone: Technological Autonomous Zone
 UID:1595619000-get-in-the-zone-technological-autonomous-zone@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200724T193000Z
 DTEND;VALUE=DATE-TIME:20200724T203000Z
 
@@ -131,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1595707200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200725T200000Z
 DTEND;VALUE=DATE-TIME:20200725T213000Z
 
@@ -145,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1595793600-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200726T200000Z
 DTEND;VALUE=DATE-TIME:20200726T213000Z
 
@@ -159,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1595971800-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200728T213000Z
 DTEND;VALUE=DATE-TIME:20200728T230000Z
 
@@ -173,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1596141000-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200730T203000Z
 DTEND;VALUE=DATE-TIME:20200730T220000Z
 
@@ -187,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1596312000-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200801T200000Z
 DTEND;VALUE=DATE-TIME:20200801T213000Z
 
@@ -201,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1596571200-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200804T200000Z
 DTEND;VALUE=DATE-TIME:20200804T213000Z
 
@@ -215,7 +201,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1596742200-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200806T193000Z
 DTEND;VALUE=DATE-TIME:20200806T210000Z
 
@@ -229,7 +215,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1596915000-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200808T193000Z
 DTEND;VALUE=DATE-TIME:20200808T210000Z
 
@@ -243,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1597006800-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200809T210000Z
 DTEND;VALUE=DATE-TIME:20200809T220000Z
 
@@ -257,7 +243,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1597174200-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200811T193000Z
 DTEND;VALUE=DATE-TIME:20200811T210000Z
 
@@ -271,7 +257,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1597348800-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200813T200000Z
 DTEND;VALUE=DATE-TIME:20200813T213000Z
 
@@ -285,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1597523400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200815T203000Z
 DTEND;VALUE=DATE-TIME:20200815T220000Z
 
@@ -299,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1597609800-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200816T203000Z
 DTEND;VALUE=DATE-TIME:20200816T220000Z
 
@@ -313,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1597779000-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200818T193000Z
 DTEND;VALUE=DATE-TIME:20200818T210000Z
 
@@ -327,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1597951800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200820T193000Z
 DTEND;VALUE=DATE-TIME:20200820T210000Z
 
@@ -341,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Play Night: Backdoors and Breaches (for Beginners)
 UID:1598038200-free-play-night-backdoors-and-breaches-for-beginners@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200821T193000Z
 DTEND;VALUE=DATE-TIME:20200821T203000Z
 
@@ -355,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Our Streets, Our Maps: Introduction to OpenStreetMap
 UID:1598385600-our-streets-our-maps-introduction-to-openstreetmap@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200825T200000Z
 DTEND;VALUE=DATE-TIME:20200825T213000Z
 
@@ -369,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1598558400-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200827T200000Z
 DTEND;VALUE=DATE-TIME:20200827T213000Z
 
@@ -383,7 +369,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Mr. Robot's Hacker Happy Hour
 UID:1598749200-mr-robot-s-hacker-happy-hour@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200830T010000Z
 DTEND;VALUE=DATE-TIME:20200830T020000Z
 
@@ -397,7 +383,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1598990400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200901T200000Z
 DTEND;VALUE=DATE-TIME:20200901T213000Z
 
@@ -411,7 +397,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Get in the Zone: Technological Autonomous Zone
 UID:1599247800-get-in-the-zone-technological-autonomous-zone@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200904T193000Z
 DTEND;VALUE=DATE-TIME:20200904T203000Z
 
@@ -425,7 +411,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1599422400-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200906T200000Z
 DTEND;VALUE=DATE-TIME:20200906T213000Z
 
@@ -439,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1599595200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200908T200000Z
 DTEND;VALUE=DATE-TIME:20200908T213000Z
 
@@ -453,7 +439,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1599769800-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200910T203000Z
 DTEND;VALUE=DATE-TIME:20200910T220000Z
 
@@ -465,9 +451,23 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
+UID:1599944400-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
+DTSTAMP:20200811T234352Z
+DTSTART;VALUE=DATE-TIME:20200912T210000Z
+DTEND;VALUE=DATE-TIME:20200912T220000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Just getting started learning computer technologies? Join Tech Learning Collective instructors for this free\, guided tour of the Tech Learning Collective Foundations curriculum. These self-paced courses and practice labs are great for jump-starting your learning as they introduce you to the most important foundations of Tech Learning Collective course material\, such as command line basics.\n\nWe are asking for a $10 suggested donation if you can afford it. Help support our incredible teachers and expert support teams! No one will be turned away for lack of funds.\n\nClick here to support Tech Learning Collective with your donation:\n\n\n    \n    \n    \n\n\nOr scan or click this QR code to donate:\n\n\n\nThank you so much for your support!\n\nTo participate in our online events\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nCLICK HERE TO JOIN THE EVENT\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2020/09/event-2020-09-12-free-guided-tour-of-tech-learning-collective-foundations
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/event.generic.tech-learning-collective.rectangle.png
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Arab Security Cyber Wargames
 UID:1597370400-arab-security-cyber-wargames@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200814T020000Z
 DTEND;VALUE=DATE-TIME:20200815T020000Z
 
@@ -481,7 +481,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Arab Security Cyber Wargames 2020 Qualifications 
 UID:1597410000-arab-security-cyber-wargames-2020-qualifications@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200814T130000Z
 DTEND;VALUE=DATE-TIME:20200815T130000Z
 
@@ -495,7 +495,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Crypto CTF 2020
 UID:1597417200-crypto-ctf-2020@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200814T150000Z
 DTEND;VALUE=DATE-TIME:20200815T150000Z
 
@@ -509,7 +509,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:PhantomCTF 3.0
 UID:1597496400-phantomctf-3-0@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200815T130000Z
 DTEND;VALUE=DATE-TIME:20200816T090000Z
 
@@ -523,7 +523,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hackers Playground 2020
 UID:1597712400-hackers-playground-2020@techlearningcollective.com
-DTSTAMP:20200811T201941Z
+DTSTAMP:20200811T234352Z
 DTSTART;VALUE=DATE-TIME:20200818T010000Z
 DTEND;VALUE=DATE-TIME:20200818T070000Z
 
