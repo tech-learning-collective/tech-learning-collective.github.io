@@ -17,7 +17,7 @@ offers:
       price: 35
       priceCurrency: USD
       availabilityEnds: *startDate
-    - name: Reduced price admission (for queer-identified and femme people)
+    - name: Reduced price admission (for queer-identified, femme, and BIPOC people)
       description: Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.
       price: 25
       priceCurrency: USD
