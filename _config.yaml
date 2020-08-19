@@ -24,6 +24,9 @@ twitter:
   card: summary_large_image
   username: techlearningc
 
+# Location of this site in Onionland.
+onion: lpiyu33yusoalp5kh3f4hak2so2sjjvjw5ykyvu2dulzosgvuffq6sad.onion
+
 # Build settings
 markdown: kramdown
 exclude:
