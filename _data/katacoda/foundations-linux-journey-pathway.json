@@ -26,6 +26,11 @@
         "course_id": "users-and-groups",
         "title": "User Management",
         "description": "Learn about user roles and management."
+    },
+    {
+        "course_id": "file-permissions",
+        "title": "File Permissions",
+        "description": "Learn about permission levels and modifying permissions."
     }
   ]
 }
