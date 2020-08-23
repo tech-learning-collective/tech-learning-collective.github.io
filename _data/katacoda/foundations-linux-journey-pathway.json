@@ -36,6 +36,11 @@
         "course_id": "monitor-processes-ps-command",
         "title": "Monitor Processes",
         "description": "Learn about the running processes on the system and how to monitor them."
+    },
+    {
+        "course_id": "software-distribution",
+        "title": "Software Distribution and Packages",
+        "description": "Learn all about the dpkg, apt-get, rpm and yum package management tools."
     }
   ]
 }
