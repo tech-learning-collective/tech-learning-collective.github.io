@@ -31,6 +31,11 @@
         "course_id": "file-permissions",
         "title": "File Permissions",
         "description": "Learn about permission levels and modifying permissions."
+    },
+    {
+        "course_id": "monitor-processes-ps-command",
+        "title": "Monitor Processes",
+        "description": "Learn about the running processes on the system and how to monitor them."
     }
   ]
 }
