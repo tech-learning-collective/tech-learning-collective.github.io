@@ -91,6 +91,11 @@
         "course_id": "subnetting",
         "title": "Subnetting",
         "description": "Learn about subnets and how to determine whether your computer is connected to the same logical network as another computer at a different IP address."
+    },
+    {
+        "course_id": "internetwork-routing",
+        "title": "Internetwork Routing",
+        "description": "Learn how packets are routed across networks!"
     }
   ]
 }
