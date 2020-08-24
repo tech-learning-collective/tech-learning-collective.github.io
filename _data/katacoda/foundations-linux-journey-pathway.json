@@ -61,6 +61,11 @@
         "course_id": "kernel-overview",
         "title": "The Linux Kernel",
         "description": "The most foundational part of a GNU/Linux system is the Linux kernel itself. Learn about how it works and how to configure it."
+    },
+    {
+        "course_id": "init-systems",
+        "title": "Init Systems",
+        "description": "Learn about the different Linux init systems: SysV, Upstart, and systemd."
     }
   ]
 }
