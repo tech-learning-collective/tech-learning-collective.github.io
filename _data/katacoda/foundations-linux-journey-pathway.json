@@ -51,6 +51,16 @@
         "course_id": "filesystem-hierarchy",
         "title": "Filesystems and the Filesystem Hierarchy Standard",
         "description": "Learn about the different types of filesystems, the Filesystem Hierarchy Standard, disk partitioning, and more."
+    },
+    {
+        "course_id": "boot-process-overview",
+        "title": "System Boot Process",
+        "description": "Learn about the stages of the Linux boot process and how the hardware startup systems work."
+    },
+    {
+        "course_id": "kernel-overview",
+        "title": "The Linux Kernel",
+        "description": "The most foundational part of a GNU/Linux system is the Linux kernel itself. Learn about how it works and how to configure it."
     }
   ]
 }
