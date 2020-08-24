@@ -76,6 +76,11 @@
         "course_id": "system-logging",
         "title": "System Logging",
         "description": "Learn about system logs and the /var/log directory."
+    },
+    {
+        "course_id": "network-file-sharing",
+        "title": "Network File Sharing",
+        "description": "Learn about sharing files over a network using tools like scp, rsync, nfs, and more."
     }
   ]
 }
