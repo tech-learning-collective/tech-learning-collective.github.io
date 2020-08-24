@@ -41,6 +41,16 @@
         "course_id": "software-distribution",
         "title": "Software Distribution and Packages",
         "description": "Learn all about the dpkg, apt-get, rpm and yum package management tools."
+    },
+    {
+        "course_id": "dev-directory",
+        "title": "Devices",
+        "description": "Learn about Linux devices and how they interact with the kernel and user space."
+    },
+    {
+        "course_id": "filesystem-hierarchy",
+        "title": "Filesystems and the Filesystem Hierarchy Standard",
+        "description": "Learn about the different types of filesystems, the Filesystem Hierarchy Standard, disk partitioning, and more."
     }
   ]
 }
