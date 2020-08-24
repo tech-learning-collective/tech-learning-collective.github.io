@@ -101,6 +101,11 @@
         "course_id": "network-configuration",
         "title": "Network Configuration",
         "description": "Learn how to configure your computper's network interfaces, setting values like your IP address and looking up information such as neighboring computer addresses."
+    },
+    {
+        "course_id": "network-troubleshooting",
+        "title": "Network Troubleshooting",
+        "description": "Learn about common networking tools to help you diagnose and troubleshoot issues!"
     }
   ]
 }
