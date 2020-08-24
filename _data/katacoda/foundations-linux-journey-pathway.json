@@ -66,6 +66,11 @@
         "course_id": "init-systems",
         "title": "Init Systems",
         "description": "Learn about the different Linux init systems: SysV, Upstart, and systemd."
+    },
+    {
+        "course_id": "process-utilization",
+        "title": "Process Utilization",
+        "description": "Learn resource monitoring with top, load averages, iostat and more!"
     }
   ]
 }
