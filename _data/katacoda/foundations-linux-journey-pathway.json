@@ -96,6 +96,11 @@
         "course_id": "internetwork-routing",
         "title": "Internetwork Routing",
         "description": "Learn how packets are routed across networks!"
+    },
+    {
+        "course_id": "network-configuration",
+        "title": "Network Configuration",
+        "description": "Learn how to configure your computper's network interfaces, setting values like your IP address and looking up information such as neighboring computer addresses."
     }
   ]
 }
