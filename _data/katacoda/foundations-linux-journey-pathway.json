@@ -106,6 +106,11 @@
         "course_id": "network-troubleshooting",
         "title": "Network Troubleshooting",
         "description": "Learn about common networking tools to help you diagnose and troubleshoot issues!"
+    },
+    {
+        "course_id": "domain-name-system",
+        "title": "Domain Name System (DNS)",
+        "description": "Learn the basics of how the Domain Name System works and learn about the various tools available for diagnosing DNS issues."
     }
   ]
 }
