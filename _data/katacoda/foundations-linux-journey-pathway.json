@@ -86,6 +86,11 @@
         "course_id": "network-basics",
         "title": "Network Basics",
         "description": "Learn about networking basics and about the TCP/IP networking software stack."
+    },
+    {
+        "course_id": "subnetting",
+        "title": "Subnetting",
+        "description": "Learn about subnets and how to determine whether your computer is connected to the same logical network as another computer at a different IP address."
     }
   ]
 }
