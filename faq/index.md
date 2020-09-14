@@ -109,6 +109,7 @@ That being said, Tech Learning Collective moderates several peripheral (&ldquo;u
 * [How do I know where to go for an online webinar?](#how-do-i-know-where-to-go-for-an-online-webinar)
 * [How do I control the Webinar interface?](#how-do-i-control-the-webinar-interface)
 * [What if I arrive late to the webinar?](#what-if-i-arrive-late-to-the-webinar)
+* [I missed a workshop. Where can I get a refund/discount/workshop materials?](#i-missed-a-workshop-where-can-i-get-a-refunddiscountworkshop-materials)
 
 ## What do I need to participate in a workshop?
 
@@ -142,6 +143,24 @@ You can arrive at the webinar classroom at any time. You will be able to enter a
 If you arrive very late (more than 15 minutes or so) and do not see anyone else in the room, it is possible that *all* other attendees were also very late. In this situation, the instructor may have decided to cancel the class due to lack of attendance. This is the instructor&rsquo;s prerogative, as we feel it is disrespectful to make our teachers wait on students who do not show up.
 
 The bottom line is that you should arrive for class on time, regardless of whether the class is in person or online. Again, we do not offer refunds for any reason. Lateness or no-shows are no exception.
+
+## I missed a workshop. Where can I get a refund/discount/workshop materials?
+
+We're sorry you missed a workshop. If you missed the workshop because of scheduling confusion, please remember that we publish a calendar feed that will automatically resolve timezone differences and the like for you. The most common reason, by far, students miss workshops is because they are not using a calendaring application. We strongly encourage you to make use of one if you aren&rsquo;t already so that you never have to manually copy or write down event times. Refer to [Export Event Calendar]({% link events/upcoming/index.md %}#export-event-calendar) for details about how to access and use our calendar feed in your favorite calendaring software.
+
+Unfortunately, [we do not offer refunds for any reason]({% link pricing/index.md %}#individuals). We also do not offer any discounts beyond the usual sliding scale under which all of our public workshops and events are offered. If you missed a workshop and would like to attend another one, please feel free to register for a future workshop at any ticket scale you feel is appropriate for your situation.
+
+Finally, when a student misses a workshop, they often ask to be sent any reading material, slides, or other texts that they may have missed. This is understandable but comes from experience in a very different world than the one we inhabit.
+
+We remind you that Tech Learning Collective does not make any workshop-specific materials, nor do any of our workshops (or even courses) have any slides. The only relevant pre-written materials are the same materials you can find on the Internet for basic operations like installing the relevant software, or scripts for experimenting with a given technology in various virtual environments.
+
+Our workshops are all bespoke, Socratic sessions with an experienced instructor. This means there is no project-based work or specific lab exercise. Instead, in Tech Learning Collective workshops, you ask questions of an instructor and/or are challenged by them to answer questions they pose to you. Every workshop is different because in each workshop different students ask different questions or have different answers to the instructor's challenges. Instructors are not going over a script; if they were, we would not need them to be human and could instead simply sell you a book we wrote. Put another way, our instructors are responding to your presence. This is why we cannot give you specific workshop materials after you miss a workshop. There is nothing to give you *because* you were not present.
+
+We describe this pedagogical approach in more detail on our Web site's [About]({% link about/index.md %}) page. We recognize that this can be especially frustrating when you miss a workshop by accident, but it's one of the things that makes Tech Learning Collective workshops so different from typical webinars and other bootcamp-style courses. In our workshops, your presence actually changes the workshop itself; we know of no comparable technical training school where this is true.
+
+Nevertheless, to make the most out of this situation for yourself, we encourage you to explore any relevant materials already published on the Internet for the topic of your workshop, especially the Web sites or other published works by any of our upstream curriculum partners. You can find links to our upstream curriculum partners on the [About]({% link about/index.md %}) page of our Web site and elsewhere throughout this FAQ. It&rsquo;s not the same as being able to interact in real-time, and the materials you find there are not necessarily intended for Tech Learning Collective students directly, but it&rsquo;s the best we can do.
+
+Naturally, we hope you&rsquo;ll consider attending the next round of the workshop that you missed. Again, the best way to make sure you do not miss your chance is to [subscribe to our public calendar feed]({% link events/upcoming/index.md %}#export-event-calendar).
 
 # Volunteering and getting involved
 
