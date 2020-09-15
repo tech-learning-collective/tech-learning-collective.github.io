@@ -134,7 +134,7 @@ For online courses, your virtual classroom access details will be available to y
 
 When you first join one of our webinar workshops, you&rsquo;ll see a set of controls with which you can change things like the volume of the other speakers, the size of the video stream, and possibly also the ability to share your own screen and activate your own microphone so that others can see and hear what you&rsquo;re doing.
 
-Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet integration]({% link student-center/webinar/index.md %}) or our [GoBrunch Webinar rooms](https://gobrunch.com/mypage/214824). When you sign up for the Webinar, the Webinar address will tell you which video conferencing software we&rsquo;ll be using. See the [GoBrunch documentation](https://help.gobrunch.com/{{ page.lang | default: site.lang | slice: 0, 2 }}/) for help using the Gobrunch Webinar interface.
+Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet integration]({% link student-center/webinar/index.md %}) or our [GoBrunch Webinar rooms](https://gobrunch.com/mypage/214824). When you sign up for the Webinar, the Webinar address will tell you which video conferencing software we&rsquo;ll be using. Refer to the relevant system's documentation ([Jitsi Meet User Guide](https://jitsi.github.io/handbook/docs/user-guide/user-guide-start), [GoBrunch documentation](https://help.gobrunch.com/{{ page.lang | default: site.lang | slice: 0, 2 }}/) for help using the webinar interface.
 
 ## What if I arrive late to the webinar?
 
