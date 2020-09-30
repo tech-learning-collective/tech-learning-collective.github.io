@@ -23,15 +23,17 @@ Have questions about {{ site.title }}? This page lists some frequently asked que
 
 ## Which course should I take first?
 
-Generally, you should apply for the course on our [course catalog]({% link courses/index.html %}) that most immediately interests you. This is because each course is designed as a self-contained unit and our pre-enrollment application process will help guide you towards the most fitting class for your level of experience. That being said, if you don&rsquo;t have any (or much) existing experience in this area and are not drawn to a particular subject on your own, we suggest that you consider the following learning path through our courses:
+Generally, you should apply for the course on our [course catalog]({% link courses/index.html %}) that most immediately interests you. Each course also lists related workshops; much of the material in the course is also offered a la carte through [workshops]({% link workshops/index.md %}). Both courses and workshops are designed as self-contained units, so you can be confident that you'll gain something valuable regardless of which one you take first. Moreover, our [pre-enrollment application process]({% link enrollment/index.md %}) will help guide you towards the most fitting class for your level of experience.
 
-1. [SYS101]({% link _courses/sys101.md %}): Learn the fundamentals of what a computing device is and how to interact with one.
-1. [NET101]({% link _courses/net101.md %}): Learn how devices are networked together.
-1. [WEB101]({% link _courses/web101.md %}): Learn fundamental concepts of Web publishing, which is among the most common uses for computer networks today.
-1. [SEC101]({% link _courses/sec101.md %}): Learn why the complex interactions between devices, networks, and applications create security and privacy vulnerabilities and how to deal with them.
-1. [WEB201]({% link _courses/web201.md %}): Learn how to safely utilitize the Web as a platform for advocacy and coordination beyond traditional Web sites.
+That being said, if you don&rsquo;t have much (or any) existing experience in this area and are not drawn to a particular subject on your own, we suggest that you consider the following learning path through our course material:
 
-To be clear, you could start at any 101-level course. Nevertheless, completing the courses in the order they are listed above offers the fastest, most thorough, and logical route through the material. This is because networks (NET101) will make more sense if you have some understanding of the networked devices in isolation (SYS101), and so on.
+1. [SYS101]({% link _courses/sys101.md %}): Learn the fundamentals of what a computing device is and how to interact with one. ([View related workshops]({% link _courses/sys101.md %}#related-workshops).)
+1. [NET101]({% link _courses/net101.md %}): Learn how devices are networked together. ([View related workshops]({% link _courses/net101.md %}#related-workshops).)
+1. [WEB101]({% link _courses/web101.md %}): Learn fundamental concepts of Web publishing, which is among the most common uses for computer networks today. ([View related workshops]({% link _courses/web101.md %}#related-workshops).)
+1. [SEC101]({% link _courses/sec101.md %}): Learn why the complex interactions between devices, networks, and applications create security and privacy vulnerabilities and how to deal with them. ([View related workshops]({% link _courses/sec101.md %}#related-workshops).)
+1. [WEB201]({% link _courses/web201.md %}): Learn how to safely utilitize the Web as a platform for advocacy and coordination beyond traditional Web sites. ([View related workshops]({% link _courses/web201.md %}#related-workshops).)
+
+To be clear, you could start at any 101-level course or you can get started even quicker by participating in any of its related workshops. Nevertheless, completing the courses in the order they are listed above offers the fastest, most thorough, and logical route through the material. This is because networks (NET101) will make more sense if you first have some understanding of the networked devices in isolation (SYS101), and so on.
 
 ## Can I enroll in more than one class at a time?
 
