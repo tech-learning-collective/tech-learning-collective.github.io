@@ -29,7 +29,7 @@ organizers:
     - Tech Learning Collective
 performers:
     - Tech Learning Collective
-teaser: This workshop is all about the basics of computer networking. If you&rsquo;ve ever been curious about what happens &ldquo;on the wire&rdquo; when you&rsquo;re browsing a Web site, or if you ever wanted to take a look &ldquo;under the hood&rdquo; of your Wi-Fi connection, this is the class for you!
+teaser: Learn the basics of computer networking in this workshop that starts by watching a "conversation" between two computers as it's happening in real time. You'll be introduced to the free professional network analysis application called Wireshark so that you can listen in on what the programs on your computer are saying to or hearing from other computers across the Internet. By the end of this workshop, you'll understand all about the basics of computer networking. If you've ever been curious about what happens "on the wire" when you're browsing a Web site, or if you ever wanted to take a look "under the hood" of your Wi-Fi connection, this is the class for you!
 ---
 
 {{ page.teaser }}
