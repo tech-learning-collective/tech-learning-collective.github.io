@@ -30,7 +30,7 @@
 
     <footer>
         {% if include.excerpt_only and entry.excerpt != entry.content %}
-        <p class="ReadMore"><a href="{{ entry.url | relative_url }}">Read on&hellip;</a>.</p>
+        <p class="ReadMore"><a href="{{ entry.url | relative_url }}">Continue reading&hellip;</a>.</p>
         {% endif %}
 
         {% unless include.excerpt_only %}
