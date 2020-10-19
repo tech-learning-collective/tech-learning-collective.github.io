@@ -3,23 +3,9 @@ VERSION:2.0
 PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
-UID:1600372800-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20201018T202621Z
-DTSTART;VALUE=DATE-TIME:20200917T200000Z
-DTEND;VALUE=DATE-TIME:20200917T213000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Come exploring with us as we show you how to map out interconnections between computers\, trace packet routes across network gateways\, and find information about network operators. In this workshop all about the voyages of frames\, packets\, and segments\, we use tools like nmap to send probes into cyberspace and tap into the wire with Wireshark to understand how they function.\n\nWorkshop Description\n\n\n  Have you ever wondered what’s between your computer and the websites you visit? Are you curious about where your messages actually go in order to get from here to there? Do you wonder what a map of computer networks really looks like? Come exploring with us as we embark on a journey into cyberspace\, the final Final Frontier! In this beginner-friendly workshop\, we’ll throw a metaphorical message in a bottle into the expanse of cyberspace\, and learn how to sense and track its movement as it makes its way back to us—or not!\n\n  These are the voyages of frames\, packets\, and segments—our messages—as they make their way across the vast reaches of the Internet. On the way\, they’ll encounter both friendly and unfriendly devices\, such as routers\, firewalls\, traffic inspectors\, or NAT tables. At each step of their journey\, a complex series of decisions are made to determine where they’ll be routed to next\, or if their journey is at an end. By using network mapping tools such as nmap along with digital wiretapping tools like Wireshark we can sense what happens on the far side of a network connection in much the same way as looking at the ripples on the surface of a river can tell us something about the shape of the riverbed.\n\n  Join us to explore strange new networks\, to seek out new devices and new organizations\, to boldly go where only packets have gone before!\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2020/09/workshop-2020-09-17-exploring-cyberspace-network-sniffing-and-scanning
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1600547400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200919T203000Z
 DTEND;VALUE=DATE-TIME:20200919T220000Z
 
@@ -33,7 +19,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1600632000-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200920T200000Z
 DTEND;VALUE=DATE-TIME:20200920T213000Z
 
@@ -47,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1600804800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200922T200000Z
 DTEND;VALUE=DATE-TIME:20200922T213000Z
 
@@ -61,7 +47,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1600977600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200924T200000Z
 DTEND;VALUE=DATE-TIME:20200924T213000Z
 
@@ -75,7 +61,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1601150400-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200926T200000Z
 DTEND;VALUE=DATE-TIME:20200926T213000Z
 
@@ -89,7 +75,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1601236800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200927T200000Z
 DTEND;VALUE=DATE-TIME:20200927T213000Z
 
@@ -103,7 +89,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1601409600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20200929T200000Z
 DTEND;VALUE=DATE-TIME:20200929T213000Z
 
@@ -117,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Play Night: Backdoors and Breaches (for Beginners)
 UID:1601672400-free-play-night-backdoors-and-breaches-for-beginners@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201002T210000Z
 DTEND;VALUE=DATE-TIME:20201002T220000Z
 
@@ -131,7 +117,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1601757000-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201003T203000Z
 DTEND;VALUE=DATE-TIME:20201003T220000Z
 
@@ -145,7 +131,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1601841600-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201004T200000Z
 DTEND;VALUE=DATE-TIME:20201004T213000Z
 
@@ -159,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1602014400-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201006T200000Z
 DTEND;VALUE=DATE-TIME:20201006T213000Z
 
@@ -173,7 +159,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1602187200-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201008T200000Z
 DTEND;VALUE=DATE-TIME:20201008T213000Z
 
@@ -187,7 +173,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1602446400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201011T200000Z
 DTEND;VALUE=DATE-TIME:20201011T213000Z
 
@@ -201,7 +187,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1602540000-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201012T220000Z
 DTEND;VALUE=DATE-TIME:20201012T230000Z
 
@@ -215,7 +201,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1602619200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201013T200000Z
 DTEND;VALUE=DATE-TIME:20201013T213000Z
 
@@ -229,7 +215,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1602792000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201015T200000Z
 DTEND;VALUE=DATE-TIME:20201015T213000Z
 
@@ -243,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1602964800-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201017T200000Z
 DTEND;VALUE=DATE-TIME:20201017T213000Z
 
@@ -257,7 +243,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1603051200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201018T200000Z
 DTEND;VALUE=DATE-TIME:20201018T213000Z
 
@@ -271,7 +257,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1603224000-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201020T200000Z
 DTEND;VALUE=DATE-TIME:20201020T213000Z
 
@@ -285,7 +271,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1603396800-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201022T200000Z
 DTEND;VALUE=DATE-TIME:20201022T213000Z
 
@@ -299,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Get in the Zone: Technological Autonomous Zone
 UID:1603481400-get-in-the-zone-technological-autonomous-zone@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201023T193000Z
 DTEND;VALUE=DATE-TIME:20201023T203000Z
 
@@ -313,7 +299,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1603569600-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201024T200000Z
 DTEND;VALUE=DATE-TIME:20201024T213000Z
 
@@ -327,7 +313,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1603656000-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201025T200000Z
 DTEND;VALUE=DATE-TIME:20201025T213000Z
 
@@ -341,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1603830600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201027T203000Z
 DTEND;VALUE=DATE-TIME:20201027T220000Z
 
@@ -355,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1604003400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201029T203000Z
 DTEND;VALUE=DATE-TIME:20201029T220000Z
 
@@ -369,7 +355,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1604264400-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201101T210000Z
 DTEND;VALUE=DATE-TIME:20201101T223000Z
 
@@ -383,7 +369,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1604350800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201102T210000Z
 DTEND;VALUE=DATE-TIME:20201102T223000Z
 
@@ -397,7 +383,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1604610000-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201105T210000Z
 DTEND;VALUE=DATE-TIME:20201105T223000Z
 
@@ -411,7 +397,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1604782800-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201107T210000Z
 DTEND;VALUE=DATE-TIME:20201107T223000Z
 
@@ -425,7 +411,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1604869200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201108T210000Z
 DTEND;VALUE=DATE-TIME:20201108T223000Z
 
@@ -439,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1605042000-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201110T210000Z
 DTEND;VALUE=DATE-TIME:20201110T223000Z
 
@@ -453,7 +439,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1605222000-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201112T230000Z
 DTEND;VALUE=DATE-TIME:20201113T000000Z
 
@@ -467,7 +453,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1605387600-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201114T210000Z
 DTEND;VALUE=DATE-TIME:20201114T223000Z
 
@@ -481,7 +467,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1605474000-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201115T210000Z
 DTEND;VALUE=DATE-TIME:20201115T223000Z
 
@@ -495,7 +481,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1605646800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201117T210000Z
 DTEND;VALUE=DATE-TIME:20201117T223000Z
 
@@ -509,7 +495,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1605819600-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20201018T202621Z
+DTSTAMP:20201019T001048Z
 DTSTART;VALUE=DATE-TIME:20201119T210000Z
 DTEND;VALUE=DATE-TIME:20201119T223000Z
 
@@ -519,6 +505,20 @@ URL:http://techlearningcollective.com/events/2020/11/workshop-2020-11-19-automat
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
+UID:1605992400-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
+DTSTAMP:20201019T001048Z
+DTSTART;VALUE=DATE-TIME:20201121T210000Z
+DTEND;VALUE=DATE-TIME:20201121T223000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of website security auditing in this hands-on workshop that will introduce you to the OWASP Zed Attack Proxy (ZAP)\, a free\, open source Web application security scanner and intercepting proxy. We’ll get set up with a practice target against which you can launch live-fire (but legal and safe!) Web exploits that run the gamut of attack categories from injection to broken authentication and access control. In the process\, you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about exploiting real vulnerabilities that are prevalent all across the Web today.\n\nWorkshop Description\n\n\n  According to Douglas Crockford\, former distinguished architect of Internet behemoths PayPal and Yahoo! before that\, “The Web is the most hostile software engineering environment imaginable.” Given that it’s hard enough to make Web applications work in the first place\, is it any surprise that so many of them can be broken\, hacked\, and exploited? Of course\, it’s often not good enough merely to break some system. Our task is to break into (or\, break out of) that system.\n\n  The “front door” to most targets is usually their Web site and so in this offensive security workshop you’ll learn exactly how attackers\, internal Red Teams\, and professional penetration testers go about targeting websites\, identifying vulnerabilities\, and exploiting them. By using the OWASP Zed Attack Proxy (ZAP)\, a free and open source Web application security scanner\, you’ll get a hands-on introduction to Web application security basics\, intercepting proxy configuration\, target scoping\, and more. We’ll be targeting the OWASP Juice Shop\, an intentionally vulnerable practice target that has a slew of common Web vulnerabilities for us to learn about collectively known as the OWASP Top Ten. They include SQL injection\, sensitive data exposure\, cross-site scripting (XSS)\, broken authentication and access control\, and many others.\n\n  Today’s World Wide Web has become a worldwide battleground\, economically\, militarily\, and culturally. By knowing how the Web-based systems we all use—or even build!—can be made to fail in just the “right” way\, we can better protect ourselves and our organizations from the constant barrage of attacks flying across the Internet. Come learn how to hack yourself before your opponents do\, so you can find vulnerabilities and shore up defenses in your own Web projects before attackers get the chance to leak your sensitive data such as usernames and passwords\, install malware on your systems\, or penetrate your network.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2020/11/workshop-2020-11-21-world-wide-wars-introduction-to-exploiting-web-applications
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.world-wide-wars-introduction-to-exploiting-web-applications.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
