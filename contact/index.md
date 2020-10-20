@@ -20,7 +20,7 @@ Learn more about securely using Signal Private Messenger in [our Signal and Surv
 
 To report security issues to our own cybersecurity team, please refer to the instructions in [our `security.txt` file]({% link .well-known/security.txt %}). ([Learn more about a `security.txt` file.](https://securitytxt.org/))
 
-You can [subscribe to our announcement email list](mailto:techlearningcollective-announce-subscribe@lists.riseup.net) to receive very occasional messages (once every month or two) from us delivered to your email inbox.
+You can [subscribe to our announcement email list](mailto:techlearningcollective-announce-subscribe@lists.riseup.net) to receive very occasional messages (once every month or two) and event announcements from us delivered to your email inbox.
 
 # Alumni and Community
 
