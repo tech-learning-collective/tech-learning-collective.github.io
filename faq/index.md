@@ -142,7 +142,7 @@ Depending on the specific Webinar, you&rsquo;ll either be using [our Jitsi Meet 
 
 You can arrive at the webinar classroom at any time. You will be able to enter and fully participate regardless of when you arrive. Of course, you may miss important parts of the class if you do not show up on time, and we do not offer any way for you to make up this time later, nor do we provide refunds for late or absent attendance.
 
-If you arrive very late (more than 15 minutes or so) and do not see anyone else in the room, it is possible that *all* other attendees were also very late. In this situation, the instructor may have decided to cancel the class due to lack of attendance. This is the instructor&rsquo;s prerogative, as we feel it is disrespectful to make our teachers wait on students who do not show up.
+If you arrive very late (around 10 minutes late or so) and do not see anyone else in the room, it is possible that *all* other attendees were also very late. In this situation, the instructor may have decided to cancel the class due to lack of attendance. This is the instructor&rsquo;s prerogative, as we feel it is disrespectful to make our teachers wait on students who do not show up.
 
 The bottom line is that you should arrive for class on time, regardless of whether the class is in person or online. Again, we do not offer refunds for any reason. Lateness or no-shows are no exception.
 
