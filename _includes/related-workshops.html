@@ -2,7 +2,18 @@
 {% for item in include.workshops %}
     {% assign workshop = site.workshops | where: "title", item | first %}
     {% if workshop %}
-    <li><a href="{{ workshop.url }}">{{ item }}</a></li>
+    <li>
+        <a href="{{ workshop.url }}">{{ item }}</a>
+        {% assign events = site.events
+            | where_exp: "event", "event.title == workshop.title"
+            | where_exp: "event", "event.startDate > site.time"
+            | sort: "startDate" %}
+        {% if 1 <= events.size %}
+        <br />(next scheduled for <a href="{{ events[0].url }}">{{ events[0].startDate | date: "%B %e" }}</a>)
+        {% else %}
+        <br />(not currently scheduled)
+        {% endif %}
+    </li>
     {% endif %}
 {% endfor %}
 </ul>
