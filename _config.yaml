@@ -152,6 +152,7 @@ iCalendar:
         location: New York, NY
         status: CONFIRMED
         image: *logo
+        refresh_interval: P1D # "One day."
 
 # Payment processor integrations.
 payments:
