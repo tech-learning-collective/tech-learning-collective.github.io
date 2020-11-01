@@ -25,11 +25,13 @@ layout: page
         | where_exp: "event", "event.title == page.title"
         | where_exp: "event", "event.startDate > site.time"
         | sort: "startDate" %}
-    <ol>
     {% for event in events %}
+    {% if forloop.first %}<ol>{% endif %}
         <li><a href="{{ event.url }}">{{ event.startDate | date: "%B %e, %Y at %l:%M %P (%z)" }}</a></li>
+    {% if forloop.last %}</ol>{% endif %}
+    {% else %}
+    <p>(Not currently scheduled.)</p>
     {% endfor %}
-    </ol>
     {% endif %}
 </section>
 
