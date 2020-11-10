@@ -287,6 +287,7 @@ img#spinner {
 a.button {
     display: inline-block;
     border-radius: 5px;
+    border: 1px solid transparent;
     padding: 1em;
     background: #19BFBF;
     box-shadow: -2px 5px 10px var(--main-fg-color);
@@ -294,8 +295,8 @@ a.button {
 }
 a.button:hover {
     text-decoration: underline;
-    background: var(--main-fg-color);
     box-shadow: -2px 5px 10px;
+    border-color: yellow;
 }
 table.dotleader.price {
     width: 100%;
@@ -713,9 +714,6 @@ table.dataTable td.child,
     }
     a.button {
         background: #5287A6;
-    }
-    a.button:hover {
-        background: #686868;
     }
     img {
         filter: brightness(.7) contrast(1.3);
