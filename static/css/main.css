@@ -21,7 +21,7 @@ p {
     src: url("../fonts/Gidole-Regular.ttf");
 }
 a {
-    color: #FFF;
+    color: var(--main-fg-color);
 }
 a:hover {
     text-decoration-style: dashed;
@@ -93,7 +93,7 @@ body {
     padding: 25px;
     background: #372BFB;
     font: 12pt "Gidole";
-    color: #FFF;
+    color: var(--main-fg-color);
     height: calc(100vh - 50px);
 }
 
@@ -189,9 +189,9 @@ main h3,
 main h4,
 main h5,
 main h6 {
-    border: 5px solid #FFF;
+    border: 5px solid var(--main-fg-color);
     border-radius: 5px;
-    background-color: #FFF;
+    background-color: var(--main-fg-color);
     text-align: left;
 }
 main h3 {
@@ -223,7 +223,7 @@ img {
     transition: filter .5s;
 }
 #spinner-link:hover {
-    filter: drop-shadow(0 0 20px #FFF);
+    filter: drop-shadow(0 0 20px var(--main-fg-color));
 }
 img#spinner,
 img.icon {
@@ -284,20 +284,18 @@ img#spinner {
     max-width: 100%;
 }
 
-
 a.button {
     display: inline-block;
     border-radius: 5px;
     padding: 1em;
     background: #19BFBF;
-    box-shadow: -2px 5px 10px #FFF;
+    box-shadow: -2px 5px 10px var(--main-fg-color);
     text-decoration: none;
 }
 a.button:hover {
     text-decoration: underline;
-    background: #FFF;
-    box-shadow: -2px 5px 10px #19BFBF;
-    color: #19BFBF;
+    background: var(--main-fg-color);
+    box-shadow: -2px 5px 10px;
 }
 table.dotleader.price {
     width: 100%;
@@ -621,7 +619,7 @@ footer {
  * @group DataTables overrides.
  */
 .dataTable {
-    background-color: #FFF;
+    background-color: var(--main-fg-color);
     color: #000;
 }
 .dataTable a {
@@ -629,7 +627,7 @@ footer {
 }
 .dataTables_wrapper label,
 .dataTables_wrapper .dataTables_info[role="status"] {
-    color: #FFF;
+    color: var(--main-fg-color);
 }
 .dataTable img {
     max-width: 100px;
@@ -701,4 +699,28 @@ table.dataTable td.child,
     width: 20px;
     height: 20px;
     border-radius: 10px;
+}
+
+/**
+ * @group Light/Dark Mode themes.
+ */
+:root {
+    --main-fg-color: #FFF;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-fg-color: #DDD;
+    }
+    a.button {
+        background: #5287A6;
+    }
+    a.button:hover {
+        background: #686868;
+    }
+    img {
+        filter: brightness(.7) contrast(1.3);
+    }
+    .icon[src$=".svg"] {
+        filter: invert(70%);
+    }
 }

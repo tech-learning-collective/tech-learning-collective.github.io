@@ -70,8 +70,16 @@
 /**
  * Color fades.
  */
+:root {
+    --theme-bg-color: rgba(126, 0, 152, 1);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-bg-color: rgba(72, 0, 87, 1);
+    }
+}
 body {
-    background-color: rgba(126, 0, 152, 1);
+    background-color: var(--theme-bg-color);
 }
 body.page header {
     position: relative;
@@ -84,13 +92,13 @@ main h3, main h3 a,
 main h4, main h4 a,
 main h5, main h5 a,
 main h6, main h6 a {
-    color: rgba(126, 0, 152, 1);
+    color: var(--theme-bg-color);
 }
 
 .dotleader span,
 .dotleader.price td:last-child::before,
 .dotleader.price td:last-child::after {
-    background-color: rgba(126, 0, 152, 1);
+    background-color: var(--theme-bg-color);
 }
 </style>
 

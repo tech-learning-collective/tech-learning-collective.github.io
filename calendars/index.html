@@ -65,8 +65,16 @@
 /**
  * Color fades.
  */
+:root {
+    --theme-bg-color: rgba(55, 43, 251, 1);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-bg-color: rgba(17, 13, 77, 1);
+    }
+}
 body {
-    background-color: rgba(55, 43, 251, 1);
+    background-color: var(--theme-bg-color);
 }
 body.page header {
     position: relative;
@@ -79,13 +87,13 @@ main h3, main h3 a,
 main h4, main h4 a,
 main h5, main h5 a,
 main h6, main h6 a {
-    color: rgba(55, 43, 251, 1);
+    color: var(--theme-bg-color);
 }
 
 .dotleader span,
 .dotleader.price td:last-child::before,
 .dotleader.price td:last-child::after {
-    background-color: rgba(55, 43, 251, 1);
+    background-color: var(--theme-bg-color);
 }
 </style>
 
@@ -322,7 +330,7 @@ main h6, main h6 a {
             <td>
                 <a href="/calendars/Hacker-Trivia-Night">Hacker Trivia Night</a>
             </td>
-            <td data-order="2337-09-30 18:05">
+            <td data-order="2337-09-30 18:17">
                 
         
         
