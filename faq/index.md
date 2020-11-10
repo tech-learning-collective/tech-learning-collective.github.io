@@ -1,6 +1,7 @@
 ---
 title: FAQ
 backgroundColor: rgba(225, 150, 0, 1)
+darkBackgroundColor: rgba(134, 89, 0, 1)
 ---
 
 Have questions about {{ site.title }}? This page lists some frequently asked questions and provides fast answers. Choose the category that best addresses your question:

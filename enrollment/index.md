@@ -1,6 +1,7 @@
 ---
 title: Enrollment application process
 backgroundColor: rgba(61, 94, 98, 1)
+darkBackgroundColor: rgba(37, 57, 60, 1)
 ---
 
 Enrolling in a Tech Learning Collective course is a three-stage process:

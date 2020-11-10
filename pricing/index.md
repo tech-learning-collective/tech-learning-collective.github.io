@@ -1,6 +1,7 @@
 ---
 title: Pricing
 backgroundColor: rgba(161, 1, 1, 1)
+darkBackgroundColor: rgba(91, 0, 0, 1)
 ---
 
 Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups) in several different formats such as one-off [workshops]({% link workshops/index.md %}) and intensive [courses]({% link courses/index.html %}).

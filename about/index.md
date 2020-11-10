@@ -1,6 +1,7 @@
 ---
 title: About
 backgroundColor: rgba(122, 156, 44, 1)
+darkBackgroundColor: rgba(65, 83, 22, 1)
 ---
 
 Tech Learning Collective is an apprenticeship-based technology school for radical organizers headquartered in New York City that provides a security-first IT infrastructure curriculum to otherwise underserved communities and organizations advancing social justice causes. We train politically self-motivated individuals in the arts of hypermedia, Information Technology, and radical political practice.

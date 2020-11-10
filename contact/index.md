@@ -1,6 +1,7 @@
 ---
 title: Contact
 backgroundColor: rgba(100, 35, 183, 1)
+darkBackgroundColor: rgba(50, 18, 91, 1)
 columns: 1
 ---
 
