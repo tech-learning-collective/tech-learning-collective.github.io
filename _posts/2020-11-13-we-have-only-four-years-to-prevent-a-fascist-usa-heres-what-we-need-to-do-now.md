@@ -1,6 +1,8 @@
 ---
 title: "We have only four years to prevent a fascist USA: Here's what we need to do now"
 image: static/images/post.featured.we-have-only-four-years-to-prevent-a-fascist-usa-heres-what-we-need-to-do-now.webp
+sameAs:
+    - https://c4ss.org/content/53915
 ---
 
 Trump lost. Last weekend we celebrated the electoral defeat of a US president undeniably behaving as an openly fascist dictator. Yet we must remember that elections are for choosing the *targets* of our political pressure, not for choosing our saviors. Only we the people, not the president-elect, can meaningfully bring that pressure to bear.

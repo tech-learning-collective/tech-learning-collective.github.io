@@ -1,6 +1,8 @@
 ---
 title: How we can win back the Internet by creating lowercase internets
 image: static/images/post.featured.how-we-can-win-back-the-internet-by-creating-lowercase-internets.png
+sameAs:
+    - https://c4ss.org/content/53903
 ---
 
 In April 2001, five months before 9/11, Bram Cohen began designing a new file sharing protocol that would almost single-handedly change the face of the music, TV, and movie industries for the next two decades. The technology was not in itself a completely new idea. After all, similar technologies like the well-known File Transfer Protocol (FTP) had been designed and deployed for copying files between computers before. What made this one so potent was the way it reflected the fractured, organic structure of its underlying medium, the Internet itself.
