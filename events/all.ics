@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1602964800-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201017T200000Z
 DTEND;VALUE=DATE-TIME:20201017T213000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1603051200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201018T200000Z
 DTEND;VALUE=DATE-TIME:20201018T213000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1603224000-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201020T200000Z
 DTEND;VALUE=DATE-TIME:20201020T213000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1603396800-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201022T200000Z
 DTEND;VALUE=DATE-TIME:20201022T213000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Get in the Zone: Technological Autonomous Zone
 UID:1603481400-get-in-the-zone-technological-autonomous-zone@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201023T193000Z
 DTEND;VALUE=DATE-TIME:20201023T203000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1603569600-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201024T200000Z
 DTEND;VALUE=DATE-TIME:20201024T213000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1603656000-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201025T200000Z
 DTEND;VALUE=DATE-TIME:20201025T213000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1603830600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201027T203000Z
 DTEND;VALUE=DATE-TIME:20201027T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1604003400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201029T203000Z
 DTEND;VALUE=DATE-TIME:20201029T220000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1604178000-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201031T210000Z
 DTEND;VALUE=DATE-TIME:20201031T223000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1604264400-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201101T210000Z
 DTEND;VALUE=DATE-TIME:20201101T223000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1604350800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201102T210000Z
 DTEND;VALUE=DATE-TIME:20201102T223000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1604610000-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201105T210000Z
 DTEND;VALUE=DATE-TIME:20201105T223000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1604782800-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201107T210000Z
 DTEND;VALUE=DATE-TIME:20201107T223000Z
 
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1604869200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201108T210000Z
 DTEND;VALUE=DATE-TIME:20201108T223000Z
 
@@ -216,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1605042000-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201110T210000Z
 DTEND;VALUE=DATE-TIME:20201110T223000Z
 
@@ -230,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1605222000-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201112T230000Z
 DTEND;VALUE=DATE-TIME:20201113T000000Z
 
@@ -244,7 +244,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1605387600-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201114T210000Z
 DTEND;VALUE=DATE-TIME:20201114T223000Z
 
@@ -258,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1605474000-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201115T210000Z
 DTEND;VALUE=DATE-TIME:20201115T223000Z
 
@@ -272,7 +272,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1605646800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201117T210000Z
 DTEND;VALUE=DATE-TIME:20201117T223000Z
 
@@ -286,7 +286,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1605819600-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201119T210000Z
 DTEND;VALUE=DATE-TIME:20201119T223000Z
 
@@ -300,7 +300,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1605992400-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201121T210000Z
 DTEND;VALUE=DATE-TIME:20201121T223000Z
 
@@ -314,7 +314,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1606078800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201122T210000Z
 DTEND;VALUE=DATE-TIME:20201122T223000Z
 
@@ -328,7 +328,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1606257000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201124T223000Z
 DTEND;VALUE=DATE-TIME:20201125T000000Z
 
@@ -342,7 +342,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1606341600-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201125T220000Z
 DTEND;VALUE=DATE-TIME:20201125T233000Z
 
@@ -356,7 +356,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1606512600-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201127T213000Z
 DTEND;VALUE=DATE-TIME:20201127T230000Z
 
@@ -370,7 +370,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1606597200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201128T210000Z
 DTEND;VALUE=DATE-TIME:20201128T223000Z
 
@@ -384,7 +384,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1606683600-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201129T210000Z
 DTEND;VALUE=DATE-TIME:20201129T223000Z
 
@@ -398,7 +398,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1606861800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201201T223000Z
 DTEND;VALUE=DATE-TIME:20201202T000000Z
 
@@ -412,7 +412,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1607034600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201203T223000Z
 DTEND;VALUE=DATE-TIME:20201204T000000Z
 
@@ -426,7 +426,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1607203800-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201205T213000Z
 DTEND;VALUE=DATE-TIME:20201205T230000Z
 
@@ -440,7 +440,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1607288400-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201206T210000Z
 DTEND;VALUE=DATE-TIME:20201206T223000Z
 
@@ -454,7 +454,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1607466600-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201208T223000Z
 DTEND;VALUE=DATE-TIME:20201209T000000Z
 
@@ -468,7 +468,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1607639400-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201210T223000Z
 DTEND;VALUE=DATE-TIME:20201211T000000Z
 
@@ -482,7 +482,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1607806800-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201212T210000Z
 DTEND;VALUE=DATE-TIME:20201212T223000Z
 
@@ -496,7 +496,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1607895000-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201213T213000Z
 DTEND;VALUE=DATE-TIME:20201213T230000Z
 
@@ -510,7 +510,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1608071400-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201215T223000Z
 DTEND;VALUE=DATE-TIME:20201216T000000Z
 
@@ -524,7 +524,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Free Guided Tour of Tech Learning Collective Foundations
 UID:1608159600-free-guided-tour-of-tech-learning-collective-foundations@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201216T230000Z
 DTEND;VALUE=DATE-TIME:20201217T000000Z
 
@@ -538,7 +538,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1608244200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201217T223000Z
 DTEND;VALUE=DATE-TIME:20201218T000000Z
 
@@ -552,7 +552,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1608411600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20201117T082220Z
+DTSTAMP:20201117T122428Z
 DTSTART;VALUE=DATE-TIME:20201219T210000Z
 DTEND;VALUE=DATE-TIME:20201219T223000Z
 
