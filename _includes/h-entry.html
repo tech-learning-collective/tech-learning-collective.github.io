@@ -24,7 +24,15 @@
     <img src="{{ entry.image | relative_url }}" alt="{{ entry.image_alt }}" class="u-featured" loading="lazy" />
     {% endif %}
 
-    <div class="e-content entry-content">
+    {% for t in entry.translations %}
+    {% if forloop.first %}
+    <p>Translations:
+    {% endif %}
+    <a href="{{ t[1] }}" hreflang="{{ t[0] }}">{{ t[0] }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
+    {% endfor %}
+    </p>
+
+    <div class="e-content entry-content"{% if include.lang %} lang="{{ include.lang }}"{% endif %}>
         {% if include.excerpt_only %}{{ entry.excerpt | markdownify }}{% else %}{{ content }}{% endif %}
     </div>
 
