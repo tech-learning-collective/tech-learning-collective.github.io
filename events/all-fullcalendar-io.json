@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Get in the Zone: Technological Autonomous Zone",
-    "start" : "2020-10-23T15:30:00-0400",
-    "end"   : "2020-10-23T16:30:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2020/10/event-2020-10-23-get-in-the-zone-technological-autonomous-zone",
-    "image" : "http://techlearningcollective.com/static/images/event.get-in-the-zone-technological-autonomous-zone.rectangle.jpg",
-    "teaser": "Watch servers and software get built (or hacked) before your very eyes. Get answers to your technical questions about how to build revolutionary infrastructure for an anti-capitalist, cop-free world. Learn how to protect your own data and the data of your friends or affinity groups with Tech Learning Collective’s expert cybersecurity trainers. Get to know other radical technologists in a safer and moderated virtual classroom space. Get in the Zone, the Technological Autonomous Zone!",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": null,
-        "maximumAttendeeCapacity": 32,
-        "isAccessibleForFree": true,
-        "sameAs": ["https://gobrunch.com/events/144928"]
-    }
-}
-,
-
-
-{
     "title" : "Ship Shape Computing: Working with Containers and Containerizing Digital Workloads",
     "start" : "2020-10-24T16:00:00-0400",
     "end"   : "2020-10-24T17:30:00-0400",
