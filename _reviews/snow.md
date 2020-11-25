@@ -1,7 +1,7 @@
 ---
 title: "&ldquo;immensely valuable, and changed my core beliefs about my technological proficiency and potential.&rdquo;"
 author:
-    name: Snow Pyre
+    name: Snow
 datePublished: 2020-11-24 12:10:00 -0500
 ---
 
