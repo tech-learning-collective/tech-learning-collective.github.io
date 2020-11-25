@@ -6,6 +6,7 @@ sameAs:
     - https://roarmag.org/essays/win-back-the-internet/
 translations:
     es-AR: http://comunizar.com.ar/recuperar-las-promesas-internet-nuestra-red/
+    de: https://schwarzerpfeil.de/2020/11/24/das-internet-zurueckgewinnen-indem-wir-unser-eigenes-bauen/
 ---
 
 When mentioning the year 2001, most people may think of the attacks on 9/11. But five months prior to that historic date, another event occurred that would continue to shape history in less dramatic but equally profound ways. In April that year, American computer programmer Bram Cohen began designing BitTorrent, a new file sharing protocol that would almost single-handedly change the music, TV and movie industries for decades to come.
