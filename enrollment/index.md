@@ -7,7 +7,7 @@ darkBackgroundColor: rgba(37, 57, 60, 1)
 Enrolling in a Tech Learning Collective course is a three-stage process:
 
 1. [Register for pre-enrollment](#the-pre-enrollment-process) in a specific course. (Choose a course on our [Course Catalog]({% link courses/index.html %}). You can register for pre-enrollment in more than one course at a time.)
-1. If your registration proceeds to the next phase, you will be invoiced a [${{ site.payments.prices.application_fee }} application fee](#paying-the-application-fee). (See [Pricing]({% link pricing/index.md %}) for details.)
+1. If your registration proceeds to the next phase, you will be invoiced a [${{ site.payments.prices.application_fee }} non-refundable application fee](#paying-the-application-fee). (See [Pricing]({% link pricing/index.md %}) for details.)
 1. Upon payment of your application fee, we will schedule a [placement test](#the-placement-test) and/or a [video interview](#the-video-interview) with you.
 
 Shortly thereafter, we will let you know [if your application has been accepted](#enrollment-acceptance).
@@ -18,7 +18,7 @@ The pre-enrollment process consists of a short questionnaire intended to help TL
 
 ## Paying the application fee
 
-If your pre-enrollment application questionnaire is accepted, you will receive an invoice for the application fee of ${{ site.payments.prices.application_fee }}. This fee is the same regardless of which course you apply to enroll in. You will need to pay the application fee to proceed to the next phase of the enrollment process.
+If your pre-enrollment application questionnaire is accepted, you will receive an invoice for the application fee of ${{ site.payments.prices.application_fee }}. This fee is the same regardless of which course you apply to enroll in. You will need to pay the application fee to proceed to the next phase of the enrollment process. The application fee is non-refundable.
 
 ## The placement test
 
@@ -44,4 +44,4 @@ If, for some reason, no course dates are available within six months of your acc
 
 ## Enrollment rejection
 
-If you are not accepted as a student, **please don’t take it personally.** This simply means that, at the moment, we think that classes offered elsewhere will be a better fit for you. Nevertheless, you are welcome to re-apply as early as three months later. While your original application fee is non-refundable, re-applying for the same course will waive your application fee. (This waiver does not apply to applications for different courses.) We do not provide applicants any feedback on the applications they submit.
+If you are not accepted as a student, **please don’t take it personally.** This simply means that, at the moment, we think that classes offered elsewhere will be a better fit for you. Nevertheless, you are welcome to re-apply as early as three months later. We do not provide applicants any feedback on the applications they submit.
