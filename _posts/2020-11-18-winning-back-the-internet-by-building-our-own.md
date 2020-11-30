@@ -6,7 +6,7 @@ sameAs:
     - https://roarmag.org/essays/win-back-the-internet/
 translations:
     de: https://schwarzerpfeil.de/2020/11/24/das-internet-zurueckgewinnen-indem-wir-unser-eigenes-bauen/
-    it: https://serenoregis.org/2020/11/25/la-colpa-non-era-mia-di-dove-andavo-di-come-vestivo/
+    it: https://serenoregis.org/2020/11/25/riprenderci-internet-costruendoci-il-nostro-tech-learning-collective/
     es-AR: http://comunizar.com.ar/recuperar-las-promesas-internet-nuestra-red/
 ---
 
