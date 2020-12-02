@@ -3,6 +3,8 @@ title: How we can win back the Internet by creating lowercase internets
 image: static/images/post.featured.how-we-can-win-back-the-internet-by-creating-lowercase-internets.png
 sameAs:
     - https://c4ss.org/content/53903
+translations:
+    pt: https://medium.com/@elliot_vreeland/como-podemos-reconquistar-a-internet-criando-internets-em-letra-min%C3%BAscula-ee7ba3ed8b25
 ---
 
 In April 2001, five months before 9/11, Bram Cohen began designing a new file sharing protocol that would almost single-handedly change the face of the music, TV, and movie industries for the next two decades. The technology was not in itself a completely new idea. After all, similar technologies like the well-known File Transfer Protocol (FTP) had been designed and deployed for copying files between computers before. What made this one so potent was the way it reflected the fractured, organic structure of its underlying medium, the Internet itself.
@@ -36,3 +38,10 @@ The flow of data over telecom links is much like the flow of electricity over a 
 That's why radical tech education efforts such as those by [Tech Learning Collective]({% link index.html %}) focus on infrastructure over code, where students are taught fundamental internetworking skills overlooked by the rush-to-employment programs of various school-to-corporation pipelines. It's why projects like the [Shift-CTRL Space Library](https://github.com/shiftctrlspace/library), which offers a pre-packaged collection of software to more easily share collections of e-books (PDFs, zines, and more), are built using widely available Free Software and without consideration for available capital-I Internet access as it's traditionally envisioned.
 
 We already have the power, the materials, and the motive to [fight and win back the Internet]({% post_url 2020-10-08-the-internet-was-always-anarchist-so-anarchists-must-learn-to-become-responsible-for-operating-it %}). But we can't start at the last step of building (even more) "new" apps. We have to start with the first step first: owning our own infrastructure.
+
+<aside markdown="1">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/k0Ru47BXrtY" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+
+[Listen to this post in Portuguese](https://www.youtube.com/watch?v=k0Ru47BXrtY).
+</aside>
+
