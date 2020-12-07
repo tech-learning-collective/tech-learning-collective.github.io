@@ -14,3 +14,5 @@ Tech Learning Collective currently offers courses in the following subjects. Cho
 </ul>
 
 To help ensure you have the best possible learning experience, we suggest you consider working through at least some of our [free and self-paced Foundations courses]({% link foundations/index.md %}) before the start of your first class. These additional, free online courses offer the best foundation on which to build your skills regardless of which subject matter you are most interested in. While we feel that the [Tech Learning Collective Foundations courses]({% link foundations/index.md %}) are very helpful, you can still apply to any of the other courses listed here without completing our Foundations course series.
+
+Courses are offered far less frequently than [workshops]({% link workshops/index.md %}) and other [public events]({% link events/calendar/index.md %}).
