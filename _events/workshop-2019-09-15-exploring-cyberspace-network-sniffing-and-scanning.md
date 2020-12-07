@@ -42,7 +42,7 @@ These are the voyages of frames, packets, and segments&mdash;our messages&mdash;
 >
 > Join us for a two-hour mission: to explore strange new networks, to seek out new devices and new organizations, to boldly go where only packets have gone before!
 
-This workshop combines material from two [Tech Learning Collective courses]({% link courses/index.html %}) ([NET101]({% link _courses/net101.md %}) and [SEC101]({% link _courses/sec101.md %})). Tickets are sold on a first-come, first-served basis:
+This workshop combines material from two [Tech Learning Collective courses]({% link courses/index.md %}) ([NET101]({% link _courses/net101.md %}) and [SEC101]({% link _courses/sec101.md %})). Tickets are sold on a first-come, first-served basis:
 
 {% for offer in page.offers %}
 * [${{ offer.price }} - {{ offer.name }}]({{ offer.url }})

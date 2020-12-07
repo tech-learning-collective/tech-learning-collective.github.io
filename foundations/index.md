@@ -15,7 +15,7 @@ Of course, nothing can compare to learning directly from a teacher whom you can 
 
 ## Sample Learning Modules
 
-These sample modules provide a peek at some of what you&rsquo;ll learn in our more in-depth, instructor-led [training workshops]({% link workshops/index.md %}) or [intensive courses]({% link courses/index.html %}).
+These sample modules provide a peek at some of what you&rsquo;ll learn in our more in-depth, instructor-led [training workshops]({% link workshops/index.md %}) or [intensive courses]({% link courses/index.md %}).
 
 <ol class="katacoda-scenarios">
     <li>

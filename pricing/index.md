@@ -4,7 +4,7 @@ backgroundColor: rgba(161, 1, 1, 1)
 darkBackgroundColor: rgba(91, 0, 0, 1)
 ---
 
-Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups) in several different formats such as one-off [workshops]({% link workshops/index.md %}) and intensive [courses]({% link courses/index.html %}).
+Tech Learning Collective offers unparalleled and affordable technology education for both [individuals](#individuals) and [groups](#groups) in several different formats such as one-off [workshops]({% link workshops/index.md %}) and intensive [courses]({% link courses/index.md %}).
 
 Courses for individuals are offered only to selected pre-enrolled applicants; read more about [course enrollment]({% link enrollment/index.md %}) to learn about our application and selection process. Courses for groups are negotiated on a case-by-case basis. Please [contact us]({% link contact/index.md %}) if you would like to enroll your staff members in a group course.
 

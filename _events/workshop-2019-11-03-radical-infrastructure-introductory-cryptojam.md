@@ -66,7 +66,7 @@ Level-up your digital security and online privacy prowess at the Tech Learning C
 > * OpenPGP digital signature validation techniques in multiple environments such as Web mail (GMail) and dedicated apps (ProtonMail).
 > * and much more!
 > 
-> The Tech Learning Collective&rsquo;s Radical Infrastructure CryptoJam is an excellent opportunity to learn a little bit about a lot, and to get a sense of what else you might want to learn. Since the workshop material is derived from our longer [stand-alone workshops]({% link workshops/index.md %}) and [intensive courses]({% link courses/index.html %}), this full-day sampler is also a fantastic opportunity to get a sense of the Tech Learning Collective&rsquo;s teaching style and a cursory overview of some of the material available at other Tech Learning Collective educational offerings.
+> The Tech Learning Collective&rsquo;s Radical Infrastructure CryptoJam is an excellent opportunity to learn a little bit about a lot, and to get a sense of what else you might want to learn. Since the workshop material is derived from our longer [stand-alone workshops]({% link workshops/index.md %}) and [intensive courses]({% link courses/index.md %}), this full-day sampler is also a fantastic opportunity to get a sense of the Tech Learning Collective&rsquo;s teaching style and a cursory overview of some of the material available at other Tech Learning Collective educational offerings.
 
 **Tickets** are sold on a first-come, first-served basis and are only available via [our online storefront]({{ page.offers[0].url }}) in advance. **No walk-ins or door sales are offered for this event.** We are offering a 33% discounted price ticket to this class for queer-identified and femme people to help offset systemic biases.
 

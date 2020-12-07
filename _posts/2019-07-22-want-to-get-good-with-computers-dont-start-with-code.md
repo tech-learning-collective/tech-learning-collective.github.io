@@ -3,7 +3,7 @@ title: Want to get good with computers? Don't start with code.
 image: static/images/poster.sys101.png
 ---
 
-More often than not, when people hear that the [Tech Learning Collective (TLC)]({% link index.html %}) provides "foundational technology education," they ask us what programming languages [our courses]({% link courses/index.html %}) cover. Our answer almost always surprises them: we don't teach coding! It isn't that learning to code is bad or something to be discouraged, but TLC was in part formed as a David to stand against the cultural "learn to code" Goliath.
+More often than not, when people hear that the [Tech Learning Collective (TLC)]({% link index.html %}) provides "foundational technology education," they ask us what programming languages [our courses]({% link courses/index.md %}) cover. Our answer almost always surprises them: we don't teach coding! It isn't that learning to code is bad or something to be discouraged, but TLC was in part formed as a David to stand against the cultural "learn to code" Goliath.
 
 ## Predatory capitalism comes to "learn to code" bootcamps
 

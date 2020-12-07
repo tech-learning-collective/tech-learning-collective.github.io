@@ -4,7 +4,7 @@ title: Scaling SSH Authentication with Certificates
 katacoda-id: tech-learning-collective/scaling-ssh-authentication-with-certificates
 ---
 
-Want to learn more about *{{ page.title }}*? Consider these Tech Learning Collective [workshops]({% link workshops/index.md %}) and [courses]({% link courses/index.html %}).
+Want to learn more about *{{ page.title }}*? Consider these Tech Learning Collective [workshops]({% link workshops/index.md %}) and [courses]({% link courses/index.md %}).
 
 Workshops:
 

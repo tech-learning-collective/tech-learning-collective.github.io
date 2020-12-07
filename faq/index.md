@@ -24,7 +24,7 @@ Have questions about {{ site.title }}? This page lists some frequently asked que
 
 ## Which course should I take first?
 
-Generally, you should apply for the course on our [course catalog]({% link courses/index.html %}) that most immediately interests you. Each course also lists related workshops; much of the material in the course is also offered a la carte through [workshops]({% link workshops/index.md %}). Both courses and workshops are designed as self-contained units, so you can be confident that you'll gain something valuable regardless of which one you take first. Moreover, our [pre-enrollment application process]({% link enrollment/index.md %}) will help guide you towards the most fitting class for your level of experience.
+Generally, you should apply for the course on our [course catalog]({% link courses/index.md %}) that most immediately interests you. Each course also lists related workshops; much of the material in the course is also offered a la carte through [workshops]({% link workshops/index.md %}). Both courses and workshops are designed as self-contained units, so you can be confident that you'll gain something valuable regardless of which one you take first. Moreover, our [pre-enrollment application process]({% link enrollment/index.md %}) will help guide you towards the most fitting class for your level of experience.
 
 That being said, if you don&rsquo;t have much (or any) existing experience in this area and are not drawn to a particular subject on your own, we suggest that you consider the following learning path through our course material:
 
@@ -80,7 +80,7 @@ For more information about our remote/online courses, workshops, or events, refe
 
 ## When is the next class going to start?
 
-Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}), intensive [courses]({% link courses/index.html %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
+Tech Learning Collective hosts several different types of classes, including public [workshops]({% link workshops/index.md %}), intensive [courses]({% link courses/index.md %}), and private [group trainings]({% link pricing/index.md %}#groups), which are each scheduled in a different way:
 
 * For information about public **workshops**, webinars, and events, visit our [events page]({% link events/index.md %}) and subscribe to our event calendar.
 * The schedules for our **courses** are available only to pre-enrolled students; you must first apply for pre-enrollment before you can view upcoming course schedules. Refer to our [enrollment process]({% link enrollment/index.md %}) for more details.
@@ -175,7 +175,7 @@ Naturally, we hope you&rsquo;ll consider attending the next round of the worksho
 
 While we greatly appreciate offers from skilled individuals to teach workshops, our pedagogy demands far more than solely technical skill. [Tech Learning Collective teachers are expert teachers, not merely experts]({% link about/index.md %}#learn-from-expert-teachers-not-merely-experts). In order to be considered as teachers, Tech Learning Collective rigorously vets instructors across numerous areas, including technical expertise, political commitment, and teaching ability. Put another way, teaching is its own skill, and teaching digital technology for political ends requires an even rarer combination of critical skills.
 
-Moreover, as an *apprenticeship-based* technology school, all Tech Learning Collective instructors were former Tech Learning Collective students. This means that in order to become a Tech Learning Collective teacher, you must first apprentice under an existing Tech Learning Collective teacher. You can do this in a number of different ways, including enrolling in [Tech Learning Collective courses]({% link courses/index.html %}) or stand-alone workshop [events]({% link events/index.md %}), or by contributing to any of the open source or Free Software community projects that Tech Learning Collective teachers are involved in alongside them.
+Moreover, as an *apprenticeship-based* technology school, all Tech Learning Collective instructors were former Tech Learning Collective students. This means that in order to become a Tech Learning Collective teacher, you must first apprentice under an existing Tech Learning Collective teacher. You can do this in a number of different ways, including enrolling in [Tech Learning Collective courses]({% link courses/index.md %}) or stand-alone workshop [events]({% link events/index.md %}), or by contributing to any of the open source or Free Software community projects that Tech Learning Collective teachers are involved in alongside them.
 
 Ultimately, while we appreciate your interest in becoming a Tech Learning Collective teacher, we do not offer teaching positions to anyone, no matter how experienced, without first mentoring them in our specific pedagogy.
 

@@ -27,7 +27,7 @@ Tech Learning Collective&rsquo;s cybersecurity students are welcome to join any 
 
 ## How do I join Tech Learning Collective&rsquo;s CTF team?
 
-Our CTF teams are open only to current and former students, with very few exceptions. This means you must have completed or already be enrolled in one or more of our [courses]({% link courses/index.html %}). The other way to participate is to have already completed an equivalent curriculum by attending our [workshops](% link workshops/index.md %), submitted an External Collaborator TLC CTF Team Join Request form ([contact us]({% link contact/index.md %}) for details), and provide no less than three character references from Tech Learning Collective alumni willing to vouch for you.
+Our CTF teams are open only to current and former students, with very few exceptions. This means you must have completed or already be enrolled in one or more of our [courses]({% link courses/index.md %}). The other way to participate is to have already completed an equivalent curriculum by attending our [workshops](% link workshops/index.md %), submitted an External Collaborator TLC CTF Team Join Request form ([contact us]({% link contact/index.md %}) for details), and provide no less than three character references from Tech Learning Collective alumni willing to vouch for you.
 
 ## Why does Tech Learning Collective field CTF teams?
 

@@ -25,7 +25,7 @@ You can [subscribe to our announcement email list](mailto:techlearningcollective
 
 # Alumni and Community
 
-Tech Learning Collective moderates several peripheral (&ldquo;unofficial&rdquo;) communications channels for our alumni and community networks. Current and former students can log in to access their private [course]({% link courses/index.html %}) chat channels. Log in details are sent to students privately during their course experience; if you need these details resent, please email our general contact address listed above.
+Tech Learning Collective moderates several peripheral (&ldquo;unofficial&rdquo;) communications channels for our alumni and community networks. Current and former students can log in to access their private [course]({% link courses/index.md %}) chat channels. Log in details are sent to students privately during their course experience; if you need these details resent, please email our general contact address listed above.
 
 We also invite the general public to join us in our [open community chat room](https://gitter.im/tech-learning-collective/community). This is a semi-moderated chat channel where everyone is welcome to stop by and spend a while. Discussions range from the technical to the humorous to the completely off-topic.
 
