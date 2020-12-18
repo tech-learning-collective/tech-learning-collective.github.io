@@ -3,7 +3,7 @@ name: Publish to GitHub Pages
 
 on:
   schedule:
-    - cron: '3 */4 * * *' # Every four hours.
+    - cron: '3 */6 * * *' # Every six hours.
   push:
     branches:
       - forestry
