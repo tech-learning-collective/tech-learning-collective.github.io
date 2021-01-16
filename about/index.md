@@ -37,7 +37,7 @@ Funding secured through Tech Learning Collective course tuition and workshop or 
 
 ### Our Difference
 
-We are unlike many other educational institutions in ways that make the quality of our teachers, students, and alumni community noticably better than existing coding bootcamps, technical trade schools, and development academies you might otherwise attend. By &ldquo;better&rdquo; we mean:
+We are unlike many other educational institutions in ways that make the quality of our teachers, students, and alumni community noticeably better than existing coding bootcamps, technical trade schools, and development academies you might otherwise attend. By &ldquo;better&rdquo; we mean:
 
 #### Master more skills more quickly
 
