@@ -30,6 +30,7 @@ Your calendaring application will also have instructions in its user manual for 
 * [Apple Calendar Support](https://support.apple.com/guide/calendar/subscribe-to-calendars-icl1022/mac)
 * [Microsoft Outlook Support](https://support.office.com/en-us/article/Import-or-subscribe-to-a-calendar-in-Outlook-on-the-web-503ffaf6-7b86-44fe-8dd6-8099d95f38df)
 * [Mozilla Thunderbird Lightning Calendar Support](https://support.mozilla.org/en-US/kb/creating-new-calendars#w_icalendar-ics)
+* [Nextcloud Calendar documentation](https://docs.nextcloud.com/server/latest/user_manual/en/pim/calendar.html#subscribe-to-a-calendar)
 
 Alternatively, you can [subscribe to the Atom feed for our events](https://techlearningcollective.com/feed/events.xml). If you use a news feed reader capable of consuming Atom feeds (all modern ones are), a new article will be added to this feed with the event details when we publish an event on our Web site.
 
