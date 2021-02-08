@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1610226000-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210109T210000Z
 DTEND;VALUE=DATE-TIME:20210109T223000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1610312400-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210110T210000Z
 DTEND;VALUE=DATE-TIME:20210110T223000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1610829000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210116T203000Z
 DTEND;VALUE=DATE-TIME:20210116T220000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1610915400-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210117T203000Z
 DTEND;VALUE=DATE-TIME:20210117T220000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1611433800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210123T203000Z
 DTEND;VALUE=DATE-TIME:20210123T220000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1611520200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210124T203000Z
 DTEND;VALUE=DATE-TIME:20210124T220000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1612038600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210130T203000Z
 DTEND;VALUE=DATE-TIME:20210130T220000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1612125000-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210131T203000Z
 DTEND;VALUE=DATE-TIME:20210131T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1612643400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210206T203000Z
 DTEND;VALUE=DATE-TIME:20210206T220000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1612729800-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210207T203000Z
 DTEND;VALUE=DATE-TIME:20210207T220000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1613248200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210208T123317Z
+DTSTAMP:20210208T162257Z
 DTSTART;VALUE=DATE-TIME:20210213T203000Z
 DTEND;VALUE=DATE-TIME:20210213T220000Z
 
@@ -156,6 +156,20 @@ URL:http://techlearningcollective.com/events/2021/02/workshop-2021-02-13-the-web
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
+UID:1613327400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
+DTSTAMP:20210208T162257Z
+DTSTART;VALUE=DATE-TIME:20210214T183000Z
+DTEND;VALUE=DATE-TIME:20210214T220000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:The most common way hackers steal passwords\, install malware on a victim’s computer\, or get employees to grant them unauthorized access to critical business systems is through so-called phishing attacks. A phishing attack is surprisingly low-tech\, which is part of what makes it so devastatingly effective. Learning to spot these attacks is one of the most important things you can do to protect yourself online\, since a hacker’s tricks\, called “lures\,” can appear anywhere from an email\, to a Facebook message\, to a real Web site that looks exactly like one you recognize! In this workshop\, you’ll learn how frighteningly easy it is to build these scam sites\, and all about the tricks they use to fool you into falling for them.\n\nWorkshop Description\n\n\n  Whether it’s corporate espionage\, ransomware\, or online fraud\, most cyber attacks don’t start with sophisticated software exploits\, but rather by employing relatively simple tricks. These tricks are called “phishing” attacks because\, much like baiting a lure\, they won’t work unless you bite. However\, many people do get caught up by them.\n\n  In 2019\, ninety percent (90%!) of reported data breaches began with a simple phishing scam\, costing businesses over $12 billion in losses. Phishing attacks are the most common type of cyberattack on the Internet today\, with one and a half million new phishing websites launched every month. Thankfully\, it’s easy to spot—and even to perform—these tricks if you have the right guidance.\n\n  For example\, when you’re at a cafe and you ask the patron next to you to watch your belongings\, your stuff will probably be safe when you return. But how safe would you feel if the patron at the next table turned to you and offered to watch your belongings when you next needed to use the restroom? If you had two different reactions to these scenarios\, you already have the intuition you need to understand how the overwhelming majority of cybercrime gets a foothold inside your company\, home\, or organization’s network.\n\n  In this workshop\, derived from a portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” Security 101 course\, you will have the opportunity to create and deploy your own phishing Web site that can steal usernames and passwords from unsuspecting victims. By learning how attackers build pixel-perfect replicas of familiar sites like the Facebook login screen\, you will also gain the skills you need to more quickly recognize the signs of a malicious web site\, email\, or other online scam.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/02/workshop-2021-02-14-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
