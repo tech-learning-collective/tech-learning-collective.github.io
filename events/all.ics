@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1610829000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210116T203000Z
 DTEND;VALUE=DATE-TIME:20210116T220000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1610915400-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210117T203000Z
 DTEND;VALUE=DATE-TIME:20210117T220000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1611433800-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210123T203000Z
 DTEND;VALUE=DATE-TIME:20210123T220000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1611520200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210124T203000Z
 DTEND;VALUE=DATE-TIME:20210124T220000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1612038600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210130T203000Z
 DTEND;VALUE=DATE-TIME:20210130T220000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1612125000-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210131T203000Z
 DTEND;VALUE=DATE-TIME:20210131T220000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1612643400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210206T203000Z
 DTEND;VALUE=DATE-TIME:20210206T220000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1612729800-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210207T203000Z
 DTEND;VALUE=DATE-TIME:20210207T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1613248200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210213T203000Z
 DTEND;VALUE=DATE-TIME:20210213T220000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1613334600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210216T044243Z
+DTSTAMP:20210216T044627Z
 DTSTART;VALUE=DATE-TIME:20210214T203000Z
 DTEND;VALUE=DATE-TIME:20210214T220000Z
 
@@ -142,6 +142,20 @@ URL:http://techlearningcollective.com/events/2021/02/workshop-2021-02-14-gone-ph
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
+UID:1613853000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
+DTSTAMP:20210216T044627Z
+DTSTART;VALUE=DATE-TIME:20210220T203000Z
+DTEND;VALUE=DATE-TIME:20210220T220000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop\, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer\, novelist\, or art designer.\n\nWorkshop Description\n\n\n  As most of us know first-hand\, the creative process involves many edits and revisions. Adding a little bit here\, trimming a little bit there\, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file\, pressing “Save As…” many times might suffice\, but what if your project spans dozens or even hundreds of files?\n\n  This is where version control systems (VCSs) shine. Designed to track\, compare\, and merge different versions of the same project\, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times\, across any number of files. Moreover\, by naming different snapshots\, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others\; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a branch) without throwing away or overwriting the original version of the project on which your changes were based.\n\n  In this beginner’s workshop\, you’ll learn the basics of Git\, a free distributed version control system on which popular sites like GitHub are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers\, Git is also useful for novelists\, researchers\, and anyone else whose work involves creativity in a digital medium.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/02/workshop-2021-02-20-collaboration-across-universes-basics-of-version-control-with-git
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
