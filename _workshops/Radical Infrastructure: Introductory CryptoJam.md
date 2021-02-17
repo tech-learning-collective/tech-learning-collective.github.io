@@ -24,7 +24,7 @@ Featured tools and techniques covered include:
 * Using the Tor Browser&rsquo;s Security Level slider.
 * Using multiple Tor circuits in and outside of Tor Browser.
 * Accessing and self-hosting Onion services.
-* Strengthening online account security using password and secrets management apps like KeePass, LastPass, and others.
+* Strengthening online account security using password and secrets management apps like KeePass, Bitwarden, and others.
 * Basic Web and email phishing awareness training.
 * Performing HTTPS (TLS) certificate checking.
 * OpenPGP digital signature validation techniques in multiple environments such as Web mail (GMail) and dedicated apps (ProtonMail).
