@@ -24,29 +24,34 @@ layout: default
 
 {% if site.events %}
 {% assign events = site.events | where_exp: "event", "event.startDate > site.time" | sort: "startDate" %}
-{% if 1 <= events.size %}
-<section>
-    <h1 id="next-event">Next Event</h1>
-    {% include events-upcoming-view-all-link.html %}
-    {% include events-upcoming.html limit=1 silent=true %}
+{% for event in events limit: 1 %}
+<section id="featured-events">
+    <h2 id="next-event">Next Event</h2>
+    <div>
+        {% include events-upcoming.html limit=1 silent=true %}
+    </div>
     {% include events-upcoming-view-all-link.html %}
 </section>
-{% endif %}
+{% endfor %}
 {% endif %}
 
 {% if site.posts %}
-<section class="recent-posts">
-    {% for post in site.posts limit: 2 %}
-    {% include h-entry.html entry=post excerpt_only=true %}
-    {% endfor %}
+<section id="featured-posts">
+    <h2 id="recent-posts">Recent Posts</h2>
+    <div>
+        {% for post in site.posts limit: 2 %}
+        {% include h-entry.html entry=post excerpt_only=true %}
+        {% endfor %}
+    </div>
 </section>
 {% endif %}
 
 {% assign featured_testimonials = site.reviews | sample: 4 %}
 {% if 0 < featured_testimonials.size %}
-<section>
-    <h1 id="testimonials">Testimonials</h1>
-    <div class="featured-testimonials">
+<section id="featured-testimonials">
+    <h2 id="testimonials">Testimonials</h2>
+    <p>(<a href="{% link testimonials/index.md %}">Read all reviews</a>.)</p>
+    <div>
         {% for t in featured_testimonials %}
         {% include h-review.html review=t %}
         {% endfor %}

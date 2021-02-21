@@ -17,46 +17,115 @@ html, body, ul, ol, h1, h2, h3, h4, h5, h6, p {
 }
 
 /**
+ * @group Global variables.
+ */
+:root {
+    --main-fg-color: #000;
+    --main-bg-color: #ffecb2;
+}
+
+/**
  * @group Typography.
  */
+@font-face {
+    font-family: "MonoSpatial";
+    src: url("../fonts/MonoSpatial.ttf");
+}
+@font-face {
+    font-family: "Gidole";
+    src: url("../fonts/Gidole-Regular.ttf");
+}
+body {
+    color: var(--main-fg-color);
+    font-family: Gidole;
+}
+h1 {
+    font-size: 2.5em;
+}
+h1[aria-level="3"] {
+    margin: 1em 0 .5em;
+    font-size: 1.5em;
+}
+article > h1 {
+    border-top: 10px solid;
+}
 h2 {
     font-size: 2em;
 }
-p {
+h2[aria-level="4"] {
+    font-size: 1.25em;
+}
+main > section > h2,
+article > h2,
+article > h3,
+.post .h-entry h1 {
+    padding: .25em;
+    text-align: center;
+}
+section > h2,
+article > h2,
+article > h3,
+.event-datetime,
+.post .h-entry h1 {
+    background: var(--main-fg-color);
+    color: var(--main-bg-color);
+}
+p,
+article > ol li,
+article > ul li {
     margin: 1em 0;
+    line-height: 1.25em;
+}
+article ol {
+    list-style-type: decimal;
 }
 
-
+/**
+ * @group Layout.
+ */
 body {
     margin: 25px 50px;
-    background: #ffecb2;
-    color: #000;
+    background: var(--main-bg-color);
 }
-
-body > header > h1 img {
-    filter: invert(100%);
-    animation: spin 20s infinite linear;
+main {
+    margin: 2rem 0 10rem 0;
 }
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+main > section {
+    clear: both;
 }
-
 body > header,
 #Hero {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 #Tagline {
+    margin: 0;
     font-size: 42px;
 }
 #Hero {
-    margin-top: 2em;
+    margin: 2em 0 4em 0;
 }
-#Hero p:first-child {
+#Hero p:first-child,
+.entry-content p:first-child {
     margin-top: 0;
 }
+#MainFooter {
+    position: fixed;
+    bottom: 0;
+    right: 175px;
+}
+#MainFooter p {
+    margin: .25rem;
+    font-size: 8pt;
+    color: #FFF;
+}
 
+/**
+ * @group Navigation.
+ */
+#site-navigation {
+    display: none;
+}
 #MainNavigation {
     position: fixed;
     left: 0;
@@ -86,11 +155,113 @@ body > header,
 }
 
 /**
+ * @group Events.
+ */
+.h-event .h-adr,
+.event-status,
+.h-event .performances,
+.h-event .organizers {
+    display: none;
+}
+.h-event header img {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+.h-event h2,
+.event-meta li {
+    padding: .25em;
+}
+.event-meta li,
+.offers h2 {
+    margin: 0 0 .5em 50%;
+}
+span[itemprop="address"]::after {
+    content: " (Web address provided to ticket holders.)"
+}
+.offers span[itemprop="name"]::after {
+    content: ": ";
+}
+
+.offers .tickets-fallback {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+}
+.offers .tickets-fallback:target {
+    margin: 1em 0;
+    padding: 0 2em;
+    border: 2px dotted;
+    max-height: 9999px;
+}
+
+/**
+ * @group Blog posts.
+ */
+.post .h-entry h1 {
+    margin-bottom: .5rem;
+}
+.post .h-entry h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+.posts-wrapper {
+    list-style-type: none;
+}
+.posts-wrapper li {
+    clear: both;
+    padding-top: 1em;
+}
+.u-featured {
+    float: left;
+    width: 45%;
+    margin: 0 5% 1em 0;
+}
+
+/**
+ * @group Testimonials.
+ */
+.reviewer .u-photo {
+    float: left;
+    margin: 0 1em .25em 0;
+    border-radius: 10px;
+    width: 5em;
+}
+
+/**
  * @group Icons.
  */
-.icon {
+.icon,
+.h-event .u-photo {
     width: 1em;
 }
 .icon[src$=".svg"] {
     filter: invert(100%);
+}
+
+/**
+ * @group Flourishes.
+ */
+body > header > h1 img,
+.u-photo[src$="icon.chip.transparent.png"] {
+    filter: invert(100%);
+    animation: spin 20s infinite linear;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/**
+ * @group Student applications.
+ */
+#pay-application-fee,
+#payment-thank-you,
+#cancelled-payment {
+    display: none;
+}
+#pay-application-fee:target,
+#payment-thank-you:target,
+#cancelled-payment:target {
+    display: block;
 }

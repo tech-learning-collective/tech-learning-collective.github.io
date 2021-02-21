@@ -35,14 +35,13 @@ TODO: Figure out a more precise handling fee pricing model.
 
     {% if offer_url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount handling=handling_fee currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer_url }}{% endif %}" itemprop="url">{% endif %}
         {% if offer.name %}<span itemprop="name">{{ offer.name }}</span>{% endif %}
-        {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif%}
-        {% if offer.priceCurrency %}<meta itemprop="priceCurrency" content="{{ offer.priceCurrency }}" />{% endif%}
+        {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif %}{% if offer.priceCurrency %} <span itemprop="priceCurrency">{{ offer.priceCurrency }}</span>{% endif %}
     {% if offer_url %}</a>{% endif %}
 
     {% if offer.description %}
-    <div itemprop="description">
+    <p itemprop="description">
         {{ offer.description }}
-    </div>
+    </p>
     {% endif %}
 
     {% if offer.availability %}

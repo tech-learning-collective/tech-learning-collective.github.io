@@ -5,10 +5,10 @@
 {% endif %}
 <article id="post-{{ entry.id | slugify }}" class="h-entry hentry">
     <header>
-        <time class="dt-published published" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: site.date_format }}</time>
-        <h1 class="p-name entry-title">
+        <h1 class="p-name entry-title" role="heading" aria-level="{% if "post" == page.layout %}2{% else %}3{% endif %}">
             <a href="{{ entry.url }}" class="u-url">{{ entry.title }}</a>
         </h1>
+        <time class="dt-published published" datetime="{{ entry.date | date_to_xmlschema }}">{{ entry.date | date: site.date_format }}</time>
         {% if entry.authors %}
         <p class="ByLine">
             By
@@ -29,12 +29,14 @@
     <p>Translations:
     {% endif %}
     <a href="{{ t[1] }}" hreflang="{{ t[0] }}">{{ t[0] }}</a>{% unless forloop.last %},{% else %}.{% endunless %}
-    {% endfor %}
+    {% if forloop.last %}
     </p>
+    {% endif %}
+    {% endfor %}
 
-    <div class="e-content entry-content"{% if include.lang %} lang="{{ include.lang }}"{% endif %}>
+    <section class="e-content entry-content"{% if include.lang %} lang="{{ include.lang }}"{% endif %}>
         {% if include.excerpt_only %}{{ entry.excerpt | markdownify }}{% else %}{{ content }}{% endif %}
-    </div>
+    </section>
 
     <footer>
         {% if include.excerpt_only and entry.excerpt != entry.content %}

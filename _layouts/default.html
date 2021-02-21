@@ -7,9 +7,10 @@
 {% include head.html %}
 <body class="{{ page.layout }}">
     <header>
-        <h1><a href="{% link index.html %}"><img src="{% link static/images/icon.chip.transparent.png %}" alt="{{ site.title }} logo, a stylized microchip." /></a></h1>
+        <h1 id="{{ site.title | slugify }}"><a href="{% link index.html %}"><img src="{% link static/images/icon.chip.transparent.png %}" title="{{ site.title }} logo, a stylized microchip spinning in place." alt="{{ site.title }}" /></a></h1>
         {% if site.tagline %}<p id="Tagline">{{ site.tagline }}</p>{% endif %}
         <nav id="MainNavigation">
+            <h2 id="site-navigation">Site Navigation</h2>
             {% include site-navigation.html %}
         </nav>
     </header>
