@@ -23,4 +23,18 @@
         {% endif %}
     </li>
     {% endfor %}
+    {% if site.onion %}
+    <li>
+        <a href="http://{{ site.onion }}/" title="Visit this site on the Dark Web. (Tor Browser is required.)">
+            <img src="{% link static/images/icon.tor.transparent.svg %}" class="icon" alt="Tor" style="padding-right: .25em;" />Onion site mirror</a>
+        <ul>
+            <li>
+                (<a href="https://github.com/tech-learning-collective/tech-learning-collective.github.io.onion/#readme">Run your own!</a>)
+            </li>
+            <li>
+                (<a href="{% link _workshops/Tor: What is it Good For? (Absolutely Everything!).md %}">Learn more about Tor.</a>)
+            </li>
+        </ul>
+    </li>
+    {% endif %}
 </ul>

@@ -35,6 +35,7 @@
     {% seo title=false %}{% comment %} Facebook and Twitter cards require FQURLs, so don't capture and replace. {% endcomment %}
 
 {% if page.backgroundColor and page.darkBackgroundColor %}
+<!--
 <style>
 /**
  * Color fades.
@@ -88,6 +89,7 @@ main h6, main h6 a {
     background-color: var(--theme-bg-color);
 }
 </style>
+-->
 {% endif %}
 {% if "events" == page.collection and page.flyer != nil %}
 {% assign styles = site.data.flyers[page.flyer] %}

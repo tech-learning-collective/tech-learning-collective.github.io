@@ -1,47 +1,32 @@
 ---
 title: Technology, taught collectively.
 columns: 1
+layout: default
 ---
 
-<div id="tlc-hero">
-    <p>
-        Looking to get certified? Look elsewhere. Looking to spark a revolution? We&rsquo;ll show you how to become more powerful than the most well-funded adversaries, including corporate- and government-backed opponents.
-    </p>
-    <ul>
-        <li><a href="{% link about/index.md %}#master-more-skills-more-quickly">Master more skills more quickly</a></li>
-        <li><a href="{% link about/index.md %}#militantly-reject-corporate-monopolies">Militantly reject corporate monopolies</a></li>
-        <li><a href="{% link about/index.md %}#learn-from-expert-teachers-not-merely-experts">Learn from expert teachers, not merely experts</a></li>
-        <li><a href="{% link about/index.md %}#learn-by-doing-not-watching-powerpoint-slides">Learn by doing, not watching PowerPoint slides</a></li>
-    </ul>
-</div>
-<p style="text-align: center;">
-    <a class="button"
-        href="mailto:techlearningcollective-announce-subscribe@lists.riseup.net"
-    >
-        Click here to subscribe for event discounts and announcements
-    </a>
-    <a id="spinner-link" href="{% link about/index.md %}" title="Learn more about {{ site.title }}.">
-        <img id="spinner"
-            alt="{{ site.title }} logo, a stylized microchip spinning in space."
-            src="{% link static/images/icon.chip.transparent.png %}"
-        />
-    </a>
-
-    {% if site.onion %}
-    <a href="http://{{ site.onion }}/" title="Visit this site on the Dark Web. (Tor Browser is required.)">
-        <img src="{% link static/images/icon.tor.transparent.svg %}" class="icon" alt="Tor" style="padding-right: .25em;" />Onion site mirror</a> (<a href="https://github.com/tech-learning-collective/tech-learning-collective.github.io.onion/#readme">Run your own!</a>)
-    (<a href="{% link _workshops/Tor: What is it Good For? (Absolutely Everything!).md %}">Learn more about Tor.</a>)
-    {% endif %}
-</p>
+<section id="Hero">
+    <div>
+        <h2>Get Started</h2>
+        <ul>
+            <li><a href="{% link foundations/index.md %}">Explore free learning labs.</a></li>
+            <li><a href="{% link workshops/index.md %}">Browse workshop catalogue.</a></li>
+            <li><a href="{% link events/calendar/index.md %}">View upcoming events.</a></li>
+            <li><a href="{% link blog/index.html %}">Read our blog.</a></li>
+            <li><a href="{% link donate/index.md %}">Support TLC.</a></li>
+        </ul>
+    </div>
+    <div>
+        <p>We provide a <strong>security-first IT infrastructure</strong> curriculum to otherwise underserved communities and organizations <strong>advancing social justice causes</strong>.</p>
+        <p>We train politically self-motivated individuals in the arts of <strong>hypermedia, Information Technology, and radical political practices</strong>.</p>
+        <p>We offer <strong>unparalleled free, by-donation, and low-cost computer classes</strong> on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers.</p>
+    </div>
+</section>
 
 {% if site.events %}
 {% assign events = site.events | where_exp: "event", "event.startDate > site.time" | sort: "startDate" %}
 {% if 1 <= events.size %}
 <section>
     <h1 id="next-event">Next Event</h1>
-    {% ical url: https://www.google.com/calendar/ical/ctftime%40gmail.com/public/basic.ics only_future: true limit: 1 %}
-    <p>Next CTF: <a href="{% link events/index.md %}#{{ event.summary | slugify }}">{{ event.summary }}</a>. (<a href="{% link events/ctfs.md %}#what-is-a-ctf">What is a CTF?</a>)</p>
-    {% endical %}
     {% include events-upcoming-view-all-link.html %}
     {% include events-upcoming.html limit=1 silent=true %}
     {% include events-upcoming-view-all-link.html %}

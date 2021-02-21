@@ -1,724 +1,96 @@
 /**
+ * @group DEV/DIAGNOSTICS.
+ */
+img {
+    max-width: 100%;
+}
+
+/**
  * @group Reset.
  */
-html, body, ul, ol, h1, h2, h3, h4, h5, h6,
-p {
+html, body, ul, ol, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     border: none;
     padding: 0;
     list-style: none;
+    font-size: 24px;
 }
 
 /**
  * @group Typography.
  */
-@font-face {
-    font-family: "MonoSpatial";
-    src: url("../fonts/MonoSpatial.ttf");
+h2 {
+    font-size: 2em;
 }
-@font-face {
-    font-family: "Gidole";
-    src: url("../fonts/Gidole-Regular.ttf");
-}
-a {
-    color: var(--main-fg-color);
-}
-a:hover {
-    text-decoration-style: dashed;
-}
-.icon {
-    width: 1em;
-}
-.icon[src$=".svg"] {
-    filter: invert(100%);
-}
-.icon.calendar {
-    margin-right: .25em;
-}
-p, main li {
-    line-height: 1.5em;
-}
-main ul li, main ol ul li {
-    list-style: disc;
-}
-main ol:not(.h-events) li,
-main ol:not(.posts-wrapper) li,
-{
-    list-style: decimal;
-}
-.dotleader {
-    overflow: hidden;
-}
-.dotleader td:first-child::before {
-    content:
-        ".............................................."
-        ".............................................."
-        ".............................................."
-        ".............................................."
-        ".............................................."
-        "..............................................";
-    width: 0;
-    float: left;
-    z-index: -99;
-}
-.dotleader span {
-    background-color: inherit;
+p {
+    margin: 1em 0;
 }
 
-h1:target,
-h2:target,
-h3:target,
-h4:target,
-h5:target,
-h6:target {
-    box-shadow: 0px 0px 50px white;
-    transition: box-shadow 2s;
-}
 
-.highlight {
-    margin: 0;
-}
-.highlight pre {
-    border-radius: 1em;
-    padding: 1em;
-    overflow-x: scroll;
-}
-
-/**
- * @group Main.
- */
 body {
-    display: grid;
-    grid-template-columns: 350px minmax(350px, auto);
-    padding: 25px;
-    background: #372BFB;
-    font: 12pt "Gidole";
-    color: var(--main-fg-color);
-    height: calc(100vh - 50px);
+    margin: 25px 50px;
+    background: #ffecb2;
+    color: #000;
 }
 
-h1 {
-    font: 18pt "MonoSpatial";
-    margin-bottom: 1em;
+body > header > h1 img {
+    filter: invert(100%);
+    animation: spin 20s infinite linear;
 }
-main p {
-    margin: 1em 0;
-    text-align: justify;
-}
-main li {
-    margin: 1em 0;
-    text-align: justify;
-}
-ol ul {
-    margin-left: 2em;
-}
-
-body > header > h1,
-body > header > #Tagline,
-#MainNavigation > ul {
-    position: sticky;
-}
-body > header > h1 {
-    top: 20px
-}
-body > header > #Tagline {
-    top: 60px;
-}
-#MainNavigation > ul {
-    top: 120px;
-}
-
-header {
-    display: grid;
-    grid-template-rows: 75px minmax(100px, max-content) auto;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-}
-nav > ul {
-    padding-bottom: 60px;
-    background: url("/static/images/icon.chip.transparent.png") 0 bottom / 60px no-repeat;
-}
-nav li {
-    margin-bottom: 1rem;
-    font-weight: bold;
-    border-left: 0 solid white;
-    transition:
-        margin-left .25s,
-        border-left-width .25s,
-        padding-left .25s;
-}
-nav li:hover {
-    margin-left: -25px;
-    border-left-width: 15px;
-    padding-left: 10px;
-}
-nav li li {
-    font-weight: normal;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-nav li:hover li:hover {
-    margin-left: -25px;
-    border-left-width: 25px;
-    padding-left: 5px;
-}
-
-main {
-    box-sizing: border-box;
-    padding: 75px 20px 40px 30px;
-}
-body.page main {
-    max-height: 100%;
-    columns: 2;
-    column-gap: calc(2rem - 15px);
-    overflow: auto;
-}
-body.page article {
-    padding-right: 15px;
-}
-body.page article[itemtype="https://schema.org/Event"],
-body.page article.h-entry {
-    padding-right: 0;
-}
-main h1,
-main h2,
-main h3,
-main h4,
-main h5,
-main h6 {
-    border: 5px solid var(--main-fg-color);
-    border-radius: 5px;
-    background-color: var(--main-fg-color);
-    text-align: left;
-}
-main h3 {
-    margin-top: 1em;
-}
-
-.recent-posts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.recent-posts article {
-    width: 47%;
-}
-
-.featured-testimonials {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-}
-
-/**
- * @group Images.
- */
-img {
-    box-shadow: 0 0 3px #F0F8FF;
-}
-#spinner-link {
-    transition: filter .5s;
-}
-#spinner-link:hover {
-    filter: drop-shadow(0 0 20px var(--main-fg-color));
-}
-img#spinner,
-img.icon {
-    box-shadow: none;
-}
-img#spinner {
-    display: block;
-    margin: 5em auto;
-    animation: spin 15s infinite linear;
-}
-
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
 
-#subjects-list {
-    margin-top: 2rem;
-}
-#subjects-list li {
-    list-style: none;
-    align-items: baseline;
-    font-size: 36pt;
-    line-height: 1em;
-    text-align: left;
-}
-#subjects-list a {
-    text-decoration: none;
-}
-#subjects-list span:last-child {
-    font-size: 24pt;
-}
-#subjects-list span:first-child {
-    display: inline-block;
-    width: 3em;
-}
-#subjects-list a:hover span {
-    text-decoration: underline;
-}
-#course-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    margin: 0 1rem 1rem;
-}
-#course-list li {
-    list-style: none;
-}
-#course-list header {
-    display: block;
-}
-#course-list header img,
-.course-poster,
-.h-event img {
-    display: block;
-    margin: 1em 0;
-    border-radius: .25rem;
-    max-width: 100%;
-}
-
-a.button {
-    display: inline-block;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    padding: 1em;
-    background: #19BFBF;
-    box-shadow: -2px 5px 10px var(--main-fg-color);
-    text-decoration: none;
-}
-a.button:hover {
-    text-decoration: underline;
-    box-shadow: -2px 5px 10px;
-    border-color: yellow;
-}
-table.dotleader.price {
-    width: 100%;
-    margin-bottom: 1em;
-}
-table.price th:first-child{
-    text-align: left;
-}
-table.price th:last-child,
-table.price td:last-child {
-    text-align: right;
-}
-table.price tr:not(.no-currency) td:last-child::before {
-    content: "$";
-}
-table.price tr:not(.no-currency) td:last-child::after {
-    content: " USD";
-}
-table.price td:last-child {
-    position: relative;
-    height: 3em;
-}
-table.price td:last-child span[title]::after {
-    position: absolute;
-    right: 0;
-    top: 0;
-    content: attr(title);
-    font-size: x-small;
-    white-space: pre;
-}
-
-/**
- * @group Microformats and structured data.
- */
-.h-review {
-    clear: left;
-}
-.h-review .p-author {
-    margin-top: 1em;
-}
-.h-review .p-author div {
-    display: inline;
-}
-.h-review .h-card .u-photo {
-    float: left;
-    width: 25%;
-    margin: 0 1em 0 3px;
-    border-radius: 50%;
-}
-.h-event {
-    margin: 0 0 2em 0;
-}
-.h-event header,
-.h-entry header {
-    display: block;
-}
-.h-event footer {
-    position: static;
-    writing-mode: initial;
-    font-size: inherit;
-    opacity: 1;
-}
-.event-meta li {
-    list-style-type: none;
-}
-.h-event .u-photo,
-.h-event .event-status,
-.h-event .performances,
-.h-event .organizers {
-    display: none;
-}
-.p-street-address::after,
-.p-extended-address::after,
-.p-locality::after,
-.p-postal-code::after {
-    content: ",";
-}
-
-.h-entry .u-featured {
-    max-width: 100%;
-}
-.h-entry .e-content p:first-child {
-    margin-bottom: 1em;
-}
-
-.offers .tickets-fallback {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1s;
-}
-.offers .tickets-fallback:target {
-    margin: 1em 0;
-    padding: 0 2em;
-    border: 2px dotted;
-    max-height: 9999px;
-}
-
-/**
- * @group Workshop pages.
- */
-.workshop article > img:first-of-type {
-    float: right;
-    width: 50%;
-    margin: 1em 0 1em 1em;
-}
-.workshop article > h2 {
-    clear: right;
-}
-.workshop-list ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    margin-top: 1em;
-}
-.workshop-list ul li {
-    list-style-type: none;
-}
-.workshop-list img {
-    display: block;
-    margin-bottom: .25em;
-    max-width: 100%;
-}
-.workshop-collection img {
-    box-shadow: none;
-}
-h4 {
-    text-align: center;
-}
-div.persona-training-container {
-    float: right;
-    margin: 1em 0 1em 2em;
-    font-size: small;
-    text-align: center;
-}
-div.persona-training-graph {
-    display: grid;
-}
-div.persona-training-graph > div {
-    display: flex;
-}
-div.persona-training-graph > div > div {
-    flex: 1;
-    height: 15px;
-    border: 1px solid yellow;
-    background: #000;
-}
-div.persona-training-graph .persona-match-row .persona-match-col {
-    background: red;
-}
-.workshop .videos ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.workshop .videos li {
-    list-style-type: none;
-    flex-basis: 49%;
-}
-.workshop .videos h2 {
-    min-height: 2em;
-}
-
-/**
- * @group Foundations (Katacoda) scenarios and learning modules.
- */
-ol.katacoda-scenarios {
-    display: flex;
-    flex-wrap: wrap;
-}
-ol.katacoda-scenarios li {
-    min-width: 200px;
-    margin: 0 auto 3em 0;
-    width: 25%;
-    padding: 2em;
-    background: #4183C4;
-}
-ol.katacoda-scenarios h4 {
-    border: none;
-    background: transparent;
-    font-size: xx-large;
-    line-height: 1.2em;
-    color: white;
-}
-ol.katacoda-scenarios .button {
-    box-sizing: border-box;
-    width: 100%;
-    box-shadow: none;
-    border-radius: 0;
-    background: #FD7700;
-    text-align: center;
-}
-
-/**
- * @group Footers.
- */
-footer {
-    margin-bottom: 1em;
-}
-#MainFooter {
-    position: fixed;
-    bottom: 25px;
-    right: 0;
-    font-size: 8pt;
-    writing-mode: vertical-rl;
-    opacity: .5;
-}
-#MainFooter p {
-    margin: .25rem;
-}
-
-#pay-application-fee,
-#payment-thank-you,
-#cancelled-payment {
-    display: none;
-}
-#pay-application-fee:target,
-#payment-thank-you:target,
-#cancelled-payment:target {
-    display: block;
-}
-
-@media screen and (max-width: 900px) {
-    body {
-        display: block;
-        height: auto;
-    }
-    header {
-        display: block;
-    }
-    body.page header {
-        position: static;
-    }
-    body.page header::before,
-    body.page header::after {
-        display: none;
-    }
-    #Tagline {
-        margin: 1em 0;
-    }
-    body > header > h1,
-    body > header > #Tagline,
-    #MainNavigation > ul {
-        position: static;
-    }
-    body.page main {
-        max-height: unset;
-        columns: initial;
-        overflow: initial;
-    }
-    nav > ul {
-        display: flex;
-        padding-bottom: 0;
-        padding-right: 60px;
-        background-position: right 0;
-        background-size: 30px;
-    }
-    nav > ul > li {
-        padding-right: 15px;
-    }
-    nav li {
-        flex-grow: 1;
-        flex-basis: 0;
-        margin-left: 0;
-        border: none;
-        transition: none;
-    }
-    nav li:hover,
-    nav li:hover li:hover {
-        margin-left: 0;
-        border: none;
-        padding-left: 0;
-    }
-    nav a:hover {
-        text-decoration: underline dashed white;
-    }
-    main {
-        padding: 20px 0 0 0;
-    }
-    #spinner-link:hover {
-        filter: none;
-    }
-    img#spinner {
-        top: initial;
-    }
-    .recent-posts article {
-        width: auto;
-    }
-    .featured-testimonials {
-        display: block;
-    }
-    #subjects-list li {
-        display: list-item;
-    }
-    #subjects-list span:first-child {
-        display: block;
-        width: auto;
-    }
-    #course-list {
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .workshop article > img:first-of-type {
-        float: none;
-        width: auto;
-        max-width: 100%;
-        margin: 1em 0 0;
-    }
-    .workshop .videos ul {
-        display: block;
-    }
-    div.persona-training-container {
-        margin-top: 1.5em;
-    }
-    .workshop-list ul {
-        display: block;
-    }
-}
-
-/**
- * @group DataTables overrides.
- */
-.dataTable {
-    background-color: var(--main-fg-color);
-    color: #000;
-}
-.dataTable a {
-    color: #000;
-}
-.dataTables_wrapper label,
-.dataTables_wrapper .dataTables_info[role="status"] {
-    color: var(--main-fg-color);
-}
-.dataTable img {
-    max-width: 100px;
-}
-.dataTable .dtr-details {
-    width: 100%;
-}
-.dataTable .dtr-details li {
-    list-style-type: none;
+body > header,
+#Hero {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
-.dataTable .dtr-details .dtr-title {
-    margin-right: 1em;
-    text-align: right;
-    font-size: small;
+#Tagline {
+    font-size: 42px;
 }
-table.dataTable td {
-    white-space: nowrap;
+#Hero {
+    margin-top: 2em;
 }
-table.dataTable td.child,
-.dataTable td:nth-child(2) {
-    white-space: normal;
+#Hero p:first-child {
+    margin-top: 0;
 }
 
-#tlc-hero ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em 2.5em;
+#MainNavigation {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    background: #000;
+    width: 100%;
+    color: #d0d0d0;
 }
-#tlc-hero li {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 1.5em;
-    background: no-repeat left .25em/1em url("../images/icon.chip.transparent.png");
-    text-align: left;
+#MainNavigation > ul {
+    display: flex;
 }
-
-/**
- * @group FullCalendar overrides.
- *
- * For now, we don't use a FullCalendar "theme" so all the
- * class names are simply `unthemed`.
- */
-#fullcalendar button {
-    text-transform: capitalize;
+#MainNavigation li {
+    padding: 0 40px 0 0;
+    font-weight: bold;
 }
-.fc-unthemed .fc-list-empty {
-    background-color: inherit !important;
+#MainNavigation li li {
+    padding: 0;
+    font-weight: normal;
 }
-.fc-unthemed .fc-list-table .fc-list-heading td {
-    background: #333;
+#MainNavigation a {
+    color: inherit;
+    text-decoration: none;
 }
-.fc-unthemed .fc-list-table .fc-list-tem:last-child {
-    border-bottom: 1px solid #FFF;
-}
-.fc-unthemed .fc-list-table .fc-list-item td {
-    background: rgba(189, 14, 96, 0.3);
-}
-.fc-unthemed .fc-list-table .fc-list-item:hover td {
-    background: rgba(189, 14, 96, 0.7);
-}
-.fc-unthemed .fc-dayGrid-view td.fc-today {
-    background: rgba(189, 14, 96, 0.7);
-}
-.fc-event-dot {
-    background-image: url("/static/images/icon.chip.transparent.png");
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+#MainNavigation a:hover {
+    text-decoration: underline;
 }
 
 /**
- * @group Light/Dark Mode themes.
+ * @group Icons.
  */
-:root {
-    --main-fg-color: #FFF;
+.icon {
+    width: 1em;
 }
-@media (prefers-color-scheme: dark) {
-    :root {
-        --main-fg-color: #DDD;
-    }
-    a.button {
-        background: #5287A6;
-    }
-    img {
-        filter: brightness(.7) contrast(1.3);
-    }
-    .icon[src$=".svg"] {
-        filter: invert(70%);
-    }
+.icon[src$=".svg"] {
+    filter: invert(100%);
 }
