@@ -1,8 +1,5 @@
 ---
 title: Contact
-backgroundColor: rgba(100, 35, 183, 1)
-darkBackgroundColor: rgba(50, 18, 91, 1)
-columns: 1
 ---
 
 Tech Learning Collective instructors can be booked for events for a nominal booking fee. We are also available to speak at conferences, trade shows, and other educational events for reasonable fees. For details, please read our [Pricing]({% link pricing/index.md %}) page.

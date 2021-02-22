@@ -1,6 +1,5 @@
 ---
 title: Tech Education Events Calendars
-columns: 1
 include_styles:
     - href: https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css
       integrity: sha384-1UXhfqyOyO+W+XsGhiIFwwD3hsaHRz2XDGMle3b8bXPH5+cMsXVShDoHA3AH/y/p

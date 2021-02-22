@@ -34,63 +34,6 @@
 
     {% seo title=false %}{% comment %} Facebook and Twitter cards require FQURLs, so don't capture and replace. {% endcomment %}
 
-{% if page.backgroundColor and page.darkBackgroundColor %}
-<!--
-<style>
-/**
- * Color fades.
- */
-:root {
-    --theme-bg-color: {{ page.backgroundColor }};
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --theme-bg-color: {{ page.darkBackgroundColor }};
-    }
-}
-body {
-    background-color: var(--theme-bg-color);
-}
-body.page header {
-    position: relative;
-}
-{% if page.columns == nil or 1 < page.columns %}
-body.page header::before {
-    content: '';
-    position: absolute;
-    right: -30px;
-    width: 30px;
-    height: 100%;
-    {% comment %} We have to use rgba() color syntax for Safari to accept the fade-to-transparent effect. {% endcomment %}
-    background-image: linear-gradient(to right, var(--theme-bg-color), {{ page.backgroundColor | replace: "1)", "0)" }});
-}
-body.page header::after {
-    content: '';
-    position: fixed;
-    right: 25px;
-    width: 30px;
-    height: 100%;
-    background-image: linear-gradient(to left, var(--theme-bg-color), {{ page.backgroundColor | replace: "1)", "0)" }});
-}
-{% endif %}
-
-main h1, main h1 a,
-main h2, main h2 a,
-main h3, main h3 a,
-main h4, main h4 a,
-main h5, main h5 a,
-main h6, main h6 a {
-    color: var(--theme-bg-color);
-}
-
-.dotleader span,
-.dotleader.price td:last-child::before,
-.dotleader.price td:last-child::after {
-    background-color: var(--theme-bg-color);
-}
-</style>
--->
-{% endif %}
 {% if "events" == page.collection and page.flyer != nil %}
 {% assign styles = site.data.flyers[page.flyer] %}
 <style media="print">

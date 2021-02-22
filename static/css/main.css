@@ -8,7 +8,7 @@ img {
 /**
  * @group Reset.
  */
-html, body, ul, ol, h1, h2, h3, h4, h5, h6, p {
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 0;
     border: none;
     padding: 0;
@@ -35,6 +35,12 @@ html, body, ul, ol, h1, h2, h3, h4, h5, h6, p {
     font-family: "Gidole";
     src: url("../fonts/Gidole-Regular.ttf");
 }
+a:link {
+    color: inherit;
+}
+a:link:hover {
+    text-decoration: none;
+}
 body {
     color: var(--main-fg-color);
     font-family: Gidole;
@@ -58,13 +64,20 @@ h2[aria-level="4"] {
 main > section > h2,
 article > h2,
 article > h3,
+.event .h-event h1,
 .post .h-entry h1 {
     padding: .25em;
     text-align: center;
 }
+main > h2,
+.post .h-entry h2 {
+    padding: .25em;
+}
+main > h2,
 section > h2,
 article > h2,
 article > h3,
+.event .h-event h1,
 .event-datetime,
 .post .h-entry h1 {
     background: var(--main-fg-color);
@@ -76,7 +89,7 @@ article > ul li {
     margin: 1em 0;
     line-height: 1.25em;
 }
-article ol {
+article ol:not(.h-events) {
     list-style-type: decimal;
 }
 
@@ -128,6 +141,7 @@ body > header,
 }
 #MainNavigation {
     position: fixed;
+    z-index: 100;
     left: 0;
     bottom: 0;
     padding: 20px;
@@ -152,6 +166,9 @@ body > header,
 }
 #MainNavigation a:hover {
     text-decoration: underline;
+}
+#MainNavigation .icon[src$=".svg"] {
+    filter: invert(100%);
 }
 
 /**
@@ -221,6 +238,9 @@ span[itemprop="address"]::after {
 /**
  * @group Testimonials.
  */
+.h-review .p-author div {
+    display: inline;
+}
 .reviewer .u-photo {
     float: left;
     margin: 0 1em .25em 0;
@@ -235,9 +255,28 @@ span[itemprop="address"]::after {
 .h-event .u-photo {
     width: 1em;
 }
-.icon[src$=".svg"] {
-    filter: invert(100%);
+
+/**
+ * @group Buttons.
+ *
+ * @TODO
+ */
+/*
+a.button {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 1em;
+    background: #19BFBF;
+    box-shadow: -2px 5px 10px var(--main-fg-color);
+    text-decoration: none;
 }
+a.button:hover {
+    text-decoration: underline;
+    box-shadow: -2px 5px 10px;
+    border-color: yellow;
+}
+*/
 
 /**
  * @group Flourishes.
@@ -250,6 +289,55 @@ body > header > h1 img,
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
+}
+.dotleader {
+    overflow: hidden;
+}
+.dotleader td:first-child::before {
+    content:
+    ".............................................."
+    ".............................................."
+    ".............................................."
+    ".............................................."
+    ".............................................."
+    "..............................................";
+    width: 0;
+    float: left;
+    z-index: -99;
+}
+.dotleader span {
+    background-color: var(--main-bg-color);
+}
+table.dotleader.price {
+    width: 100%;
+    margin-bottom: 1em;
+}
+table.price th:first-child{
+    text-align: left;
+}
+table.price th:last-child,
+table.price td:last-child {
+    text-align: right;
+}
+table.price tr:not(.no-currency) td:last-child::before {
+    content: "$";
+    background-color: var(--main-bg-color);
+}
+table.price tr:not(.no-currency) td:last-child::after {
+    content: " USD";
+    background-color: var(--main-bg-color);
+}
+table.price td:last-child {
+    position: relative;
+    height: 3em;
+}
+table.price td:last-child span[title]::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: attr(title);
+    font-size: x-small;
+    white-space: pre;
 }
 
 /**

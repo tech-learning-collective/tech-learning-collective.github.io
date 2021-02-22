@@ -1,6 +1,5 @@
 ---
 title: About our Persona-based Training Matrix
-columns: 1
 ---
 
 In the description of some of our [workshops]({% link workshops/index.md %}), we provide a &ldquo;persona matrix&rdquo; in order to help you assess whether the topic of the workshop is relevant to your particular situation. [The persona-based training matrix is a teaching tool created by the Anarcho-Tech NYC Collective](https://github.com/AnarchoTechNYC/meta/wiki/Persona-based-training-matrix#the-matrix) and consists of a three-by-three (3&times;3) grid. Each cell of the grid represents a level of risk that you might be facing.

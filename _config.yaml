@@ -89,13 +89,10 @@ defaults:
     values:
       layout: page
       image: *logo
-      backgroundColor: rgba(55, 43, 251, 1)
-      darkBackgroundColor: rgba(17, 13, 77, 1)
   - scope:
       type: calendars
     values:
       layout: calendars
-      columns: 1
       image: false
   - scope:
       type: courses
@@ -105,39 +102,18 @@ defaults:
       path: "courses"
     values:
       layout: courses
-      backgroundColor: rgba(25, 163, 191, 1)
-      darkBackgroundColor: rgba(16, 102, 119, 1)
   - scope:
       type: workshops
     values:
       layout: workshop
-      backgroundColor: &workshopsBackgroundColor rgba(142, 43, 9, 1)
-      darkBackgroundColor: &workshopsDarkBackgroundColor rgba(89, 26, 5, 1)
-  - scope:
-      path: "workshops" 
-    values:
-      backgroundColor: *workshopsBackgroundColor
-      darkBackgroundColor: *workshopsDarkBackgroundColor
-  - scope:
-      path: "events"
-    values:
-      backgroundColor: &eventsBackgroundColor rgba(126, 0, 152, 1)
-      darkBackgroundColor: &eventsDarkBackgroundColor rgba(72, 0, 87, 1)
   - scope:
       type: events
     values:
       layout: event
-      backgroundColor: *eventsBackgroundColor
-      darkBackgroundColor: *eventsDarkBackgroundColor
-  - scope:
-      path: "blog"
-    values:
-      columns: 1
   - scope:
       type: posts
     values:
       layout: post
-      columns: 1
   - scope:
       type: katacoda
     values:

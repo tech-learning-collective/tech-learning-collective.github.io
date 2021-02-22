@@ -1,6 +1,5 @@
 ---
 title: Workshops
-columns: 1
 ---
 
 In addition to our intensive [courses]({% link courses/index.md %}) and public [events]({% link events/calendar/index.md %}), Tech Learning Collective instructors are also available to host presentations, lectures, and workshops on at least {{ site.workshops.size }} different subjects, listed below. These are derived from portions of our longer course intensives and are typically one to two hours long. Each workshop can be run individually, or as part of a series along with the other workshops in [its collection](#browse-workshop-collections).

@@ -1,6 +1,5 @@
 ---
 title: CTF Events
-columns: 1
 ---
 
 Tech Learning Collective&rsquo;s cybersecurity students are welcome to join any of our &ldquo;Capture the Flag&rdquo; (CTF) teams. Below is a listing of future CTF events our students may be interested in. See [CTFTime.org](https://ctftime.org/event/list/upcoming) for additional details. ([What is a CTF?](#what-is-a-ctf))

@@ -1,6 +1,5 @@
 ---
 title: Webinar
-columns: 1
 ---
 
 <div id="tlc-webinar-container"></div>

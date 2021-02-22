@@ -14,7 +14,7 @@
             {% include site-navigation.html %}
         </nav>
     </header>
-    <main{% if page.columns %} style="column-count: {{ page.columns }}; overflow: unset; max-height: unset;"{% endif %}>
+    <main>
         {{ content }}
     </main>
     {% include foot.html %}

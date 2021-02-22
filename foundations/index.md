@@ -1,6 +1,5 @@
 ---
 title: Free, Foundational Self-Paced Computer Practice Labs
-columns: 1
 ---
 
 Tech Learning Collective provides numerous free, self-paced practice labs that you can use to jump-start your learning before you ever join us at one of [our events]({% link events/index.md %}).
