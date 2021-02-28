@@ -34,13 +34,15 @@
     {% if entity.name %}
     <div class="p-name fn{% if include.isOrg %} org{% endif %}" itemprop="name">
 
-        {% if entity_photo or entity_logo or entity_image %}
         <img
+        {% if entity_photo or entity_logo or entity_image %}
             src="{{ entity_photo | default: entity_logo | default: entity_image | absolute_url | replace: site.url, "" }}"
+        {% else %}
+            src="{% link static/images/icon.chip.transparent.png %}"
+        {% endif %}
             alt=""
             class="u-photo photo"
             itemprop="image logo photo" />
-        {% endif %}
 
         {% if entity.url %}<a href="{{ entity.url }}" class="url" itemprop="url">{% endif -%}
             {{- entity.name -}}

@@ -1,3 +1,7 @@
+---
+layout: none
+---
+
 /**
  * @group DEV/DIAGNOSTICS.
  */
@@ -236,19 +240,6 @@ span[itemprop="address"]::after {
 }
 
 /**
- * @group Testimonials.
- */
-.h-review .p-author div {
-    display: inline;
-}
-.reviewer .u-photo {
-    float: left;
-    margin: 0 1em .25em 0;
-    border-radius: 10px;
-    width: 5em;
-}
-
-/**
  * @group Icons.
  */
 .icon,
@@ -281,8 +272,7 @@ a.button:hover {
 /**
  * @group Flourishes.
  */
-body > header > h1 img,
-.u-photo[src$="icon.chip.transparent.png"] {
+body > header > h1 img {
     filter: invert(100%);
     animation: spin 20s infinite linear;
 }
@@ -352,4 +342,53 @@ table.price td:last-child span[title]::after {
 #payment-thank-you:target,
 #cancelled-payment:target {
     display: block;
+}
+
+/**
+ * @group Testimonials.
+ */
+
+#featured-testimonials > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 100px;
+}
+
+.h-review {
+    position: relative;
+    min-height: 160px;
+    padding-bottom: 3em;
+    font-size: 16px;
+}
+.h-review .u-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    width: 160px;
+}
+.h-review p {
+    font-size: 16px;
+}
+.h-review p:last-child {
+    margin-left: 200px;
+}
+#featured-testimonials .h-review p:last-child {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.h-review .p-author div,
+.h-review .h-card {
+    display: inline;
+}
+.h-review blockquote { display: none; }
+.h-review .u-photo[src$="icon.chip.transparent.png"] {
+    filter: invert(100%);
+}
+.h-review h3.p-summary,
+.h-review .p-author,
+.h-review h3.p-name,
+.h-review .e-content {
+    margin-left: 200px;
 }
