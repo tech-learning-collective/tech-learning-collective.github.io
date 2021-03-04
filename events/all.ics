@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1612643400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210206T203000Z
 DTEND;VALUE=DATE-TIME:20210206T220000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1612729800-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210207T203000Z
 DTEND;VALUE=DATE-TIME:20210207T220000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1613248200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210213T203000Z
 DTEND;VALUE=DATE-TIME:20210213T220000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1613334600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210214T203000Z
 DTEND;VALUE=DATE-TIME:20210214T220000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1613853000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210220T203000Z
 DTEND;VALUE=DATE-TIME:20210220T220000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1613939400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210221T203000Z
 DTEND;VALUE=DATE-TIME:20210221T220000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1614457800-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210227T203000Z
 DTEND;VALUE=DATE-TIME:20210227T220000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1615062600-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210306T203000Z
 DTEND;VALUE=DATE-TIME:20210306T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1615149000-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210304T010158Z
+DTSTAMP:20210304T062853Z
 DTSTART;VALUE=DATE-TIME:20210307T203000Z
 DTEND;VALUE=DATE-TIME:20210307T220000Z
 
