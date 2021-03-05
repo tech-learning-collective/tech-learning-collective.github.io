@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1612643400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210206T203000Z
 DTEND;VALUE=DATE-TIME:20210206T220000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1612729800-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210207T203000Z
 DTEND;VALUE=DATE-TIME:20210207T220000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1613248200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210213T203000Z
 DTEND;VALUE=DATE-TIME:20210213T220000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1613334600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210214T203000Z
 DTEND;VALUE=DATE-TIME:20210214T220000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1613853000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210220T203000Z
 DTEND;VALUE=DATE-TIME:20210220T220000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1613939400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210221T203000Z
 DTEND;VALUE=DATE-TIME:20210221T220000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1614457800-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210227T203000Z
 DTEND;VALUE=DATE-TIME:20210227T220000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1615062600-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210306T203000Z
 DTEND;VALUE=DATE-TIME:20210306T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1615149000-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210307T203000Z
 DTEND;VALUE=DATE-TIME:20210307T220000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1615667400-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20210305T163833Z
+DTSTAMP:20210305T164334Z
 DTSTART;VALUE=DATE-TIME:20210313T203000Z
 DTEND;VALUE=DATE-TIME:20210313T220000Z
 
@@ -142,6 +142,20 @@ URL:http://techlearningcollective.com/events/2021/03/workshop-2021-03-13-signal-
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
+UID:1615750200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
+DTSTAMP:20210305T164334Z
+DTSTART;VALUE=DATE-TIME:20210314T193000Z
+DTEND;VALUE=DATE-TIME:20210314T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:You don’t need to have your doctorate in theoretical mathematics to understand crypto enough to use it safely\, but you do need to use it safely to be secure! Come learn the magic behind the math in this cryptography primer for those of us who are not “number people.” Using simplified examples and hands-on demonstrations\, this workshop (finally!) offers a practical\, accessible introduction to the foundations of modern cryptographic security protocols such as RSA public-key cryptography\, stream and block ciphers\, digital signatures\, one-way hash functions\, Hash-based Message Authentication Codes (HMACs)\, and more.\n\nWorkshop Description\n\n\n  Every time you use a modern computer\, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or “locking” (encrypting) your secret documents behind passwords. At their root\, these functions\, called cryptographic primitives\, are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices\, they serve as the bedrock atop which every provably secure system works\, from password vaults to Virtual Private Networks (VPNs) to BitCoin and beyond.\n\n  Today\, everyone has full access to bulletproof “military grade encryption” for free\, even if they don’t realize it. Signal Private Messenger’s “Safety Numbers?” Those are cryptographic hash functions! One-time passwords generated by apps like Google Authenticator or Authy? They use nonces! The Tor anonymity network? That’s a mixnet! The padlock icon in the address bar of your Web browser? Block ciphers (and public-key cryptography\, and digital signatures\, oh my)!\n\n  Knowledge of cryptography was deemed so dangerous during the Cold War that ever since the end of World War II the United States and its military allies attempted to regulate access to these crypto powers by classifying them as “munitions” (i.e.\, mathematical weapons\, literally) and criminalizing their sale or export. But as the Internet gained widespread commercial adoption and more people became familiar with the underlying math\, the government largely relented. It eventually lost what is now retroactively known as the “Crypto Wars” in the 1990’s.\n\n  In this workshop\, you’ll learn the kind of math that governments tried to keep secret for decades\, even if you’re “not a math person.” You’ll see hash functions in practice\, learn why longer “keys” are stronger by understanding how RSA secrets are generated\, practice developing your own simple ciphers\, and start combining primitives to create security protocols that satisfy multiple requirements like confidentiality (privacy)\, integrity-protection (authenticity)\, and more. By the end of this workshop\, the dizzying vocabulary crytographers use will be well within your reach\, as will the ability to understand any new “encryption” product on the market.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/03/workshop-2021-03-14-bare-bones-crypto-understanding-critical-cryptographic-primitives
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.rectangle.png
 END:VEVENT
 
 END:VCALENDAR
