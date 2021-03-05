@@ -14,6 +14,7 @@ offers:
       priceCurrency: USD
       availabilityEnds: *startDate
     - name: General Admission
+      description: General Admission tickets are the regular ticket type intended for members of the general public.
       price: 35
       priceCurrency: USD
       availabilityEnds: *startDate
