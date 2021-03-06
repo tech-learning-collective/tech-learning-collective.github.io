@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1612643400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210206T203000Z
 DTEND;VALUE=DATE-TIME:20210206T220000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1612729800-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210207T203000Z
 DTEND;VALUE=DATE-TIME:20210207T220000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1613248200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210213T203000Z
 DTEND;VALUE=DATE-TIME:20210213T220000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1613334600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210214T203000Z
 DTEND;VALUE=DATE-TIME:20210214T220000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1613853000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210220T203000Z
 DTEND;VALUE=DATE-TIME:20210220T220000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1613939400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210221T203000Z
 DTEND;VALUE=DATE-TIME:20210221T220000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1614457800-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210227T203000Z
 DTEND;VALUE=DATE-TIME:20210227T220000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1615062600-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210306T203000Z
 DTEND;VALUE=DATE-TIME:20210306T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1615149000-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210307T203000Z
 DTEND;VALUE=DATE-TIME:20210307T220000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1615667400-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210313T203000Z
 DTEND;VALUE=DATE-TIME:20210313T220000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1615750200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20210306T010247Z
+DTSTAMP:20210306T044105Z
 DTSTART;VALUE=DATE-TIME:20210314T193000Z
 DTEND;VALUE=DATE-TIME:20210314T210000Z
 
@@ -156,6 +156,20 @@ URL:http://techlearningcollective.com/events/2021/03/workshop-2021-03-14-bare-bo
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.rectangle.png
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:LibrePlanet 2021: Beyond 'Learning to Code'
+UID:1616358900-libreplanet-2021-beyond-learning-to-code@techlearningcollective.com
+DTSTAMP:20210306T044105Z
+DTSTART;VALUE=DATE-TIME:20210321T203500Z
+DTEND;VALUE=DATE-TIME:20210321T212000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:On Sunday\, March 21st\, join Tech Learning Collective and the Free Software Foundation at the all-online LibrePlanet 2021 conference about software freedom\, where we will be delivering our talk\, “Beyond ‘Learning to Code’: How Tech Learning Collective Merges IT Training with Emancipatory Political Action.”\n\n\n  What good is a pen if the paper it touches can refuse to show its ink? What good is your app when your API key is revoked? Through metaphor and with a unique apprenticeship-based pedagogy\, Tech Learning Collective (TLC) is empowering users by doing exactly what code boot camps and corporate-funded “learn to code” programs don’t: TLC tells students to ignore new Web frameworks and focus instead on the lowest layers of an IT stack like physical network and hardware storage devices. At TLC\, infrastructure is the heart of a free software curriculum eschewing common rush-to-employment training paradigms in favor of Socratic classrooms where practicing Bash commands seamlessly meld with lectures about Gnostic influences on Ethernet\, the relationship between Gregorian chants and bootloaders\, and more. Come see why and how TLC’s holistic approach to IT education is creating communities of activist sysadmins out of people who wouldn’t otherwise have called themselves “techies.”\n\n\nLibrePlanet is a conference about software freedom\, happening March 20 through 21\, 2021. The event is hosted by the Free Software Foundation (FSF)\, and brings together software developers\, law and policy experts\, activists\, students\, and computer users to learn skills\, celebrate free software accomplishments\, and face upcoming challenges. Newcomers are always welcome\, and LibrePlanet 2021 will feature programming for all ages and experience levels.\n\nTickets are required to attend the conference\; please register for LibrePlanet 2021 in advance.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\nAbout the Free Software Foundation\n\nThe Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom. We defend the rights of all software users.\n
+URL:http://techlearningcollective.com/events/2021/03/event-2021-03-21-libreplanet-2021-beyond-learning-to-code
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/https
 END:VEVENT
 
 END:VCALENDAR
