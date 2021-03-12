@@ -55,6 +55,7 @@ h1 {
 h1[aria-level="3"] {
     margin: 1em 0 .5em;
     font-size: 1.5em;
+    line-height: 1em;
 }
 article > h1 {
     border-top: 10px solid;
@@ -93,7 +94,7 @@ article > ul li {
     margin: 1em 0;
     line-height: 1.25em;
 }
-article ol:not(.h-events) {
+article ol:not(.h-events):not(.posts-wrapper) {
     list-style-type: decimal;
 }
 
@@ -226,17 +227,21 @@ span[itemprop="address"]::after {
     color: inherit;
     text-decoration: none;
 }
-.posts-wrapper {
-    list-style-type: none;
-}
 .posts-wrapper li {
     clear: both;
     padding-top: 1em;
 }
+.h-entry {
+    position: relative;
+    margin-left: 50%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--main-fg-color);
+}
 .u-featured {
-    float: left;
-    width: 45%;
-    margin: 0 5% 1em 0;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 90%;
 }
 
 /**
@@ -391,4 +396,7 @@ table.price td:last-child span[title]::after {
 .h-review h3.p-name,
 .h-review .e-content {
     margin-left: 200px;
+}
+.h-review .p-name {
+    margin-bottom: .5em;
 }
