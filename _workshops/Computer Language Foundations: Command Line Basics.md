@@ -1,6 +1,8 @@
 ---
 title: "Computer Language Foundations: Command Line Basics"
 image: static/images/workshop.computer-language-foundations-command-line-basics.square.jpg
+categories:
+    - System Administration
 ---
 
 To be useful, every computer must offer some way for you to control it. Generically, the way you can control a computer is called a *user interface* because it allows you (the user) to interact with (that is, &ldquo;to interface with&rdquo;) the computer system. Most people may already be familiar with *Graphical User Interfaces* or GUIs, which are the buttons, windows, and other controls that you can point-and-click on, but this way of controlling a computer comes with severe limitations. Chief among these is the fact that you are limited to using only one tip of one finger on one of your hands (called your *pointer* or *mouse cursor*) and, worse, you have no access to anything outside of your immediate reach. In a GUI, if you cannot see it or touch it with the mouse, you cannot manipulate it.

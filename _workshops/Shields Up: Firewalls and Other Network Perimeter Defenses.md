@@ -5,6 +5,10 @@ persona_matrix:
     - 2
     - 3
 simple_description: Learn how to set up and use firewalls to keep your computer safe from attacks coming from the Internet or other computers on the same networks as yours. This workshop, which is focused on keeping attackers out of a network, will introduce you to the Linux kernel's Netfilter subsystem, which is the free and incredibly powerful firewall built-in to just about every computer from toasters to supercomputers. You'll also learn about consumer firewalls like the ones that come with your Mac or Windows laptop that you should probably be using to make sure you're as safe as possible whenever you connect to Wi-Fi.
+categories:
+    - Security
+    - Networking
+    - System Administration
 ---
 
 In today&rsquo;s ubiquitous computing environment, the most frequently used entrance (and exit!) in to (or out of) any system is its [network connection]({% link _workshops/Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work.md %}). That&rsquo;s why network firewalls have been a central component of every network security architecture since their introduction in the 1980&rsquo;s. A firewall&rsquo;s primary responsibility is to stop the spread of malware, help prevent cyberattacks and unauthorized data exfiltration, or isolate other problems in one network or network segment from affecting others. Thus, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router, just about *every* computer has a firewall these days, including your personal laptop.

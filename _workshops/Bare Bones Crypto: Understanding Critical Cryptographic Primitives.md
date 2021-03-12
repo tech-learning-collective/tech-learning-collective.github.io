@@ -5,6 +5,8 @@ persona_matrix:
     - 3
     - 3
 simple_description: This workshop shows you real-time examples of modern cryptography by breaking down the process of how computers protect messages from spies and eavesdroppers by scrambling messages, and clearly explains the confusing words that cryptographers and programmers use to talk about information security. You'll literally see the differences between different encryption schemes and "cipher modes" and will be able to understand how today's most complex algorithms and data security protocols are built up out of extremely straightforward mathematical functions like simple addition.
+categories:
+    - Security
 ---
 
 Every time you use a modern computer, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or &ldquo;locking&rdquo; (encrypting) your secret documents behind passwords. At their root, these functions, called *[cryptographic primitives](https://en.wikipedia.org/wiki/Cryptographic_primitive)*, are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices, they serve as the bedrock atop which every provably secure system works, from [password vaults]({% link _workshops/Password Superpowers: How to Crack Hashes and Stump Hackers.md %}) to [Virtual Private Networks (VPNs)]({% link _workshops/Two Places at Once: Understanding Virtual Private Networks.md %}) to BitCoin and beyond.

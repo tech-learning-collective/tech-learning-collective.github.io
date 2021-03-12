@@ -5,6 +5,10 @@ persona_matrix:
     - 3
     - 3
 simple_description: Get your message out without revealing who you are by publishing anonymously on the "Darknet." This workshop shows you how to create Tor Onion services for Web sites through free tools like OnionShare, and even by setting up Tor servers that are built and configured from scratch manually. You'll learn about how Tor helps keep both publishers and consumers private and anonymous online, as well as how law enforcement might successfully de-anonymize poorly configured Onion services through host bypass, fingerprint correlation, and other similar attacks.
+categories:
+    - Networking
+    - System Administration
+    - Security
 ---
 
 It's often said that if you want to tell people the truth, you'd better make them laugh&mdash;or they'll kill you. Sometimes, humor isn't a sufficient defense. For these situations, the only remaining defense is to become anonymous. In this deep-dive workshop on anonymous Internet publishing, you'll learn about a special class of proxy server called a Tor Onion service that makes it possible to publish Web sites or offer network-capable services more or, if you're really skilled, completely anonymously.

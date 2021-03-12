@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h2><strong>Workshops:</strong> {{ page.title }}</h2>
+{% assign workshops = site.workshops | where: "categories", page.title %}
+<ul>
+{% for workshop in workshops %}
+    <li>
+        <a href="{{ workshop.url }}">
+            <img src="{{ workshop.image | relative_url }}" alt="" loading="lazy" />
+            {{ workshop.title }}
+        </a>
+    </li>
+{% endfor %}
+</ul>

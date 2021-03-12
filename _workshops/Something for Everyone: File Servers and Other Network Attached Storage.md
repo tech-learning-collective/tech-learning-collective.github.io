@@ -5,6 +5,9 @@ persona_matrix:
     - 2
     - 3
 simple_description: Learn how to provide file sharing services by creating your own networked file server so that your family, friends, or colleagues have a private place to save, share, and work on documents or photos together. Maintaining the humble file server is among the most fundamental Information Technology (IT) department tasks in businesses or organizations big and small because most other activities revolve around document storage and retrieval. In this workshop, you'll be introduced to numerous free and open technologies such as Nextcloud that can replace more familiar Web-based online file storage services like Google Docs, along with many of the file sharing protocols integral to Network Attached Storage (NAS) devices used in today's enterprises, like NFS, SMB, and WebDAV.
+categories:
+    - Networking
+    - System Administration
 ---
 
 As early as 1964, computer makers like IBM, Inc. were publicizing the idea that businesses could use computers to eliminate or drastically reduce the drudgery and tedium of paperwork by converting paper documents into electronic files. Of course, even today not all businesses have what IBM promised would be a "paperless office," but many of them have a rapidly growing number of important digital documents that need to be stored reliably, secured properly, and shared privately. This is what makes the humble file server a centerpiece of Information Technology (IT) department responsibilities.

@@ -5,6 +5,10 @@ persona_matrix:
   - 2
   - 3
 simple_description: Find out how Virtual Private Networks (VPNs) can help you evade Internet censorship, protect your network traffic, and offer easier access to remote services on firewalled internal networks. You'll learn how to set up and use OpenVPN, a free and widely-deployed VPN solution, so that you can connect securely to your home, office, or other provider's networks no matter where you are and no matter who's watching you. Using a VPN can also make it appear that you are accessing the Internet from a location other than where you are, which means it's simple to access some files or services that would otherwise be blocked where you live.
+categories:
+    - Networking
+    - Security
+    - System Administration
 ---
 
 How often have you wished you could be in two places at once? That&rsquo;s exactly what Virtual Private Networking (VPN) technology was designed to allow computers to do. First popularized in 1996 by Microsoft&rsquo;s [Point-to-Point Tunneling Protocol (PPTP)](https://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol), using VPN technology made it possible for two disconnected networks to be knit back together into one as long as each of them were connected to a third middle network, even if that middle network was hostile or untrusted. Today, that middle network is usually the Internet, which can certainly be hostile and untrusted! With a VPN, it&rsquo;s possible to be &ldquo;here&rdquo; (on your actual network) and &ldquo;there&rdquo; (on the other side of the VPN connection) at the same time; by signing into a VPN service, you create a &ldquo;VPN tunnel&rdquo; that acts like a wormhole in space-time in that whatever you send into the tunnel emerges on the other side as though the two sides of the tunnel are next to each other.

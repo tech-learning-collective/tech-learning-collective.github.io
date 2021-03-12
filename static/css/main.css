@@ -403,3 +403,13 @@ table.price td:last-child span[title]::after {
 .h-review .p-name {
     margin-bottom: .5em;
 }
+
+/**
+ * @group Workshops.
+ */
+.workshop_category main ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin-top: 25px;
+}

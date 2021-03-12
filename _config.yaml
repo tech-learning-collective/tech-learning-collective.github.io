@@ -69,7 +69,7 @@ collections:
     output: true
   workshops:
     output: true
-    permalink: /:collection/:categories/:title
+    permalink: /:collection/:title
   workshop_categories:
     output: true
     permalink: /workshops/:title/
@@ -109,6 +109,10 @@ defaults:
       type: workshops
     values:
       layout: workshop
+  - scope:
+      type: workshop_categories
+    values:
+      layout: workshop_category
   - scope:
       type: events
     values:
