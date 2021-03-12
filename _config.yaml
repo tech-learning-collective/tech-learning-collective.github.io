@@ -70,6 +70,9 @@ collections:
   workshops:
     output: true
     permalink: /:collection/:categories/:title
+  workshop_categories:
+    output: true
+    permalink: /workshops/:title/
   events:
     output: true
     permalink: /:collection/:categories/:year/:month/:title
