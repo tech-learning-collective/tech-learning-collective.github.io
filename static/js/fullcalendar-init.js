@@ -33,6 +33,7 @@ layout: none
                 info.el.setAttribute('title', info.event.title);
                 return [ info.el ];
             },
+            'aspectRatio': 2
         });
         cal.render();
     });

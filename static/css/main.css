@@ -123,6 +123,9 @@ body > header,
 #Hero {
     margin: 2em 0 4em 0;
 }
+#Hero li {
+    margin: .25em 0;
+}
 #Hero p:first-child,
 .entry-content p:first-child {
     margin-top: 0;
