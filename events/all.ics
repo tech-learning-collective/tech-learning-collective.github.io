@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1613334600-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210214T203000Z
 DTEND;VALUE=DATE-TIME:20210214T220000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1613853000-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210220T203000Z
 DTEND;VALUE=DATE-TIME:20210220T220000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1613939400-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210221T203000Z
 DTEND;VALUE=DATE-TIME:20210221T220000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1614457800-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210227T203000Z
 DTEND;VALUE=DATE-TIME:20210227T220000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1615062600-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210306T203000Z
 DTEND;VALUE=DATE-TIME:20210306T220000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1615149000-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210307T203000Z
 DTEND;VALUE=DATE-TIME:20210307T220000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1615514400-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210312T020000Z
 DTEND;VALUE=DATE-TIME:20210312T033000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1615667400-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210313T203000Z
 DTEND;VALUE=DATE-TIME:20210313T220000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1615750200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210314T193000Z
 DTEND;VALUE=DATE-TIME:20210314T210000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1616115600-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210319T010000Z
 DTEND;VALUE=DATE-TIME:20210319T023000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1616268600-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210320T193000Z
 DTEND;VALUE=DATE-TIME:20210320T210000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:LibrePlanet 2021: Beyond 'Learning to Code'
 UID:1616358900-libreplanet-2021-beyond-learning-to-code@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210321T203500Z
 DTEND;VALUE=DATE-TIME:20210321T212000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1616873400-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210327T193000Z
 DTEND;VALUE=DATE-TIME:20210327T210000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1616956200-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210328T183000Z
 DTEND;VALUE=DATE-TIME:20210328T200000Z
 
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1617478200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210403T193000Z
 DTEND;VALUE=DATE-TIME:20210403T210000Z
 
@@ -216,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1617564600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20210317T010523Z
+DTSTAMP:20210317T063000Z
 DTSTART;VALUE=DATE-TIME:20210404T193000Z
 DTEND;VALUE=DATE-TIME:20210404T210000Z
 
