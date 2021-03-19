@@ -2,8 +2,8 @@
 title: "Radical Infrastructure: Your First Physical Server"
 image: static/images/workshop.radical-infrastructures.your-first-physical-server.square.png
 categories:
-    - Radical infrastructures
-order: 5
+    - Community Infrastructure
+    - System Administration
 persona_matrix:
     - 2
     - 2

@@ -2,8 +2,9 @@
 title: "Radical Infrastructure: Hiding Your Servers from the Five Eyes"
 image: static/images/workshop.radical-infrastructures.hiding-your-servers-from-the-five-eyes.png
 categories:
-    - Radical infrastructures
-order: 100
+    - Networking
+    - Security
+    - Tor and the Dark Net
 persona_matrix:
     - 3
     - 3

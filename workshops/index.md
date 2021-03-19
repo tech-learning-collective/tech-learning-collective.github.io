@@ -7,7 +7,7 @@ layout: default
 
 ## About TLC Workshops
 
-In addition to our intensive [courses]({% link courses/index.md %}) and public [events]({% link events/calendar/index.md %}), Tech Learning Collective instructors are also available to host presentations, lectures, and workshops on at least {{ site.workshops.size }} different subjects, listed below. These are derived from portions of our longer course intensives and are typically one to two hours long. Each workshop can be run individually, or as part of a series along with the other workshops in [its collection](#browse-workshop-collections).
+In addition to our intensive [courses]({% link courses/index.md %}) and public [events]({% link events/calendar/index.md %}), Tech Learning Collective instructors are also available to host presentations, lectures, and workshops on at least {{ site.workshops.size }} different subjects, listed below. These are derived from portions of our longer course intensives and are typically one to two hours long. Each workshop can be run individually, or as part of a series along with other related workshops.
 
 Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collective instructor for your venue&rsquo;s next event. View a workshop&rsquo;s detail page for information about the next scheduled run of that workshop.
 
@@ -22,7 +22,7 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 </section>
 
 {% if empty != categories %}
-<section markdown="1">
+<section id="workshops">
 
 {% assign categories = "" | split: "" %}
 {% for workshop in site.workshops %}
@@ -30,21 +30,21 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 {% endfor %}
 
 {% for category in categories %}
-<div class="workshop-collection">
+<div class="workshop-category" markdown="1">
 
-    <h2>{{ category }}</h2>
+## {{ category }}
 
-    {% assign workshops = site.workshops | where: "categories", category | sort: "order" %}
-    <ul>
-        {% for workshop in workshops %}
-        <li>
-            <a href="{{ workshop.url }}">
-                <img alt="Poster for {{ workshop.title }}" src="{{ workshop.image | default: site.logo |  relative_url }}" />
-                {{ workshop.title }}
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+{% assign workshops = site.workshops | where: "categories", category %}
+<ul>
+    {% for workshop in workshops %}
+    <li>
+        <a href="{{ workshop.url }}">
+            <img alt="Poster for {{ workshop.title }}" src="{{ workshop.image | default: site.logo |  relative_url }}" />
+            <span>{{ workshop.title }}</span>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
 
 </div><!-- .workshop-collection -->
 {% endfor %}

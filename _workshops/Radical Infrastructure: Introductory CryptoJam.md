@@ -2,8 +2,7 @@
 title: "Radical Infrastructure: Introductory CryptoJam"
 image: static/images/workshop.radical-infrastructures.introductory-cryptojam.square.png
 categories:
-    - Radical infrastructures
-order: 1
+    - Security
 persona_matrix:
     - 3
     - 3

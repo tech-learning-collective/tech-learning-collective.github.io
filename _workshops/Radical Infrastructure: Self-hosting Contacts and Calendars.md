@@ -2,8 +2,8 @@
 title: "Radical Infrastructure: Self-hosting Contacts and Calendars"
 image: static/images/workshop.radical-infrastructures.self-hosting-contacts-and-calendars.square.png
 categories:
-    - Radical infrastructures
-order: 20
+    - System Administration
+    - Community Infrastructure
 persona_matrix:
     - 2
     - 3

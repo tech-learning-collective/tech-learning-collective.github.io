@@ -1,0 +1,8 @@
+---
+radical_infrastructures:
+    name: Radical infrastructures
+    workshops:
+        - "Radical Infrastructure: Introductory CryptoJam"
+        - "Radical Infrastructure: Your First Physical Server"
+        - "Radical Infrastructure: Self-hosting Contacts and Calendars"
+        - "Radical Infrastructure: Hiding Your Servers from the Five Eyes"

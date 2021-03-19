@@ -407,9 +407,54 @@ table.price td:last-child span[title]::after {
 /**
  * @group Workshops.
  */
+/* `workshop_categoy` layout */
 .workshop_category main ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
     margin-top: 25px;
+}
+
+#workshops {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3em 1em;
+}
+/* `workshop-category` elements */
+.workshop-category {
+    max-height: 6em;
+    transition: max-height 4s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+.workshop-category:hover {
+    max-height: 999999px;
+}
+.workshop-category::after {
+    content: "\2228";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    padding-top: 2em;
+    width: 100%;
+    background: linear-gradient(to top, var(--main-bg-color), transparent);
+    text-align: center;
+}
+.workshop-category:hover::after {
+    padding-top: 0;
+    bottom: -1em;
+}
+.workshop-category li {
+    margin-bottom: .5em;
+}
+.workshop-category a {
+    display: flex;
+    align-items: center;
+}
+.workshop-category img {
+    max-width: 50px;
+    margin-right: .5em;
+}
+.workshop-category span {
+    flex-grow: 1;
 }
