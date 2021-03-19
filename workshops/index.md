@@ -3,6 +3,7 @@ title: Workshop Catalogue
 layout: default
 ---
 
+<div id="workshop-catalogue">
 <section markdown="1">
 
 ## About TLC Workshops
@@ -51,3 +52,4 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 
 </section>
 {% endif %}
+</div><!-- #workshop-catalogue -->

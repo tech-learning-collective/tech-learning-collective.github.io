@@ -415,7 +415,17 @@ table.price td:last-child span[title]::after {
     margin-top: 25px;
 }
 
-#workshops {
+#workshop-catalogue {
+    display: grid;
+    grid-template-areas: "categories sidebar";
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}
+#workshop-catalogue section {
+    grid-area: sidebar;
+}
+#workshop-catalogue #workshops {
+    grid-area: categories;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3em 1em;
