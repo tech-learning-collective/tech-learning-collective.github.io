@@ -33,7 +33,9 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
 {% for category in categories %}
 <div class="workshop-category" markdown="1">
 
-## {{ category }}
+{% assign workshop_category = site.workshop_categories | where: "title", category | first %}
+
+## [{{ category }}]({{ workshop_category.url }})
 
 {% assign workshops = site.workshops | where: "categories", category %}
 <ul>
