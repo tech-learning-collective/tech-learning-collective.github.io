@@ -1,7 +1,7 @@
 ---
 title: "Ship Shape Computing: Working with Containers and Containerizing Digital Workloads"
-startDate: &startDate 2021-03-28 15:30:00 -0300
-endDate: 2021-03-28 17:00:00 -0300
+startDate: &startDate 2021-03-28 15:30:00 -0400
+endDate: 2021-03-28 17:00:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal
