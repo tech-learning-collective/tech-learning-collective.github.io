@@ -1,6 +1,6 @@
 ---
 title: "The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform"
-image: static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.png
+image: static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.square.jpg
 simple_description: Build an infrastructure automatically and from scratch using Terraform, a free and open source tool that turns code into virtual machines, firewall rulesets, DNS records, and other computing resources. Automating the deployment of digital resources makes it easier to grow networks, fix issues, and perform basic maintenance, all of which means a smaller team can do more with less. This workshop introduces you to basic Infrastructure as Code principles so that you can understand how to make the most of "the cloud."
 ---
 
