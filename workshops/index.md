@@ -49,7 +49,7 @@ Please [contact us]({% link contact/index.md %}) to book a Tech Learning Collect
     {% endfor %}
 </ul>
 
-</div><!-- .workshop-collection -->
+</div><!-- .workshop-category -->
 {% endfor %}
 
 </section>

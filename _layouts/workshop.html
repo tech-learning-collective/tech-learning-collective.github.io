@@ -2,69 +2,73 @@
 layout: page
 ---
 
-{% if empty != page.categories %}<div class="workshop-collection">{% endif %}
-<img src="{{ page.image | default: site.logo | relative_url }}" alt="Poster for {{ page.title }}" />
-{% if empty != page.categories %}</div>{% endif %}
+<div class="workshop">
 
-{% if page.persona_matrix %}
-{% include persona-matrix.html matrix=page.persona_matrix %}
-{% endif %}
+    <img src="{{ page.image | default: site.logo | relative_url }}" alt="Poster for {{ page.title }}" />
 
-{% if page.simple_description %}
-{{ page.simple_description | markdownify }}
+    <section class="workshop-details">
 
-<p><a href="#events">Attend the next workshop(s).</a></p>
+        {% if page.persona_matrix %}
+        {% include persona-matrix.html matrix=page.persona_matrix %}
+        {% endif %}
 
-<h2 id="detailed-description">Detailed description</h2>
-{% endif %}
-{{ content }}
+        {% if page.simple_description %}
+        {{ page.simple_description | markdownify }}
 
-<section>
-    <h1 id="events">Upcoming &ldquo;{{ page.title }}&rdquo; Events</h1>
-    {% include call-to-action-subscribe-to-calendar.html %}
+        <p class="skip-to-calendar"><a href="#events">Attend the next workshop(s).</a></p>
 
-    {% if site.events %}
-    {% assign events = site.events
-        | where_exp: "event", "event.title == page.title"
-        | where_exp: "event", "event.startDate > site.time"
-        | sort: "startDate" %}
-    {% for event in events %}
-    {% if forloop.first %}<ol>{% endif %}
-        <li><a href="{{ event.url }}">{{ event.startDate | date: "%B %e, %Y at %l:%M %P (%z)" }}</a></li>
-    {% if forloop.last %}</ol>{% endif %}
-    {% else %}
-    <p>(Not currently scheduled.)</p>
-    {% endfor %}
+        <h3 id="detailed-description">Detailed description</h3>
+        {% endif %}
+        {{ content }}
+    </section>
+
+    <section class="workshop-upcoming-events">
+        <h3 id="events">Upcoming &ldquo;{{ page.title }}&rdquo; Events</h3>
+        {% include call-to-action-subscribe-to-calendar.html %}
+
+        {% if site.events %}
+        {% assign events = site.events
+            | where_exp: "event", "event.title == page.title"
+            | where_exp: "event", "event.startDate > site.time"
+            | sort: "startDate" %}
+        {% for event in events %}
+        {% if forloop.first %}<ol>{% endif %}
+            <li><a href="{{ event.url }}">{{ event.startDate | date: "%B %e, %Y at %l:%M %P (%z)" }}</a></li>
+        {% if forloop.last %}</ol>{% endif %}
+        {% else %}
+        <p>(Not currently scheduled.)</p>
+        {% endfor %}
+        {% endif %}
+    </section>
+
+    {% if page.videos %}
+    <section class="workshop-videos">
+        <h3 id="video-samples">Video Samples</h3>
+        <ul>
+        {% for video in page.videos %}
+            <li>
+                <h2 id="{{ video.title | slugify }}">{{ video.title }}</h2>
+                <video controls="controls" width="100%"
+                    src="{{ video.src | relative_url }}"
+                >
+                {% if video.tracks %}
+                {% for t in video.tracks %}
+                    <track label="{{ t.label }}" srclang="{{ t.srclang }}" kind="{{ t.kind }}"
+                                     src="{{ t.src | relative_url }}"
+                    />
+                {% endfor %}
+                {% endif %}
+                    <p>
+                        <a href="{{ video.src | relative_url }}">Watch {{ video.title }}.</a>
+                    </p>
+                </video>
+            </li>
+        {% endfor %}
+        </ul>
+    </section>
     {% endif %}
-</section>
 
-{% if page.videos %}
-<section class="videos">
-    <h1 id="video-samples">Video Samples</h1>
-    <ul>
-    {% for video in page.videos %}
-        <li>
-            <h2 id="{{ video.title | slugify }}">{{ video.title }}</h2>
-            <video controls="controls" width="100%"
-                src="{{ video.src | relative_url }}"
-            >
-            {% if video.tracks %}
-            {% for t in video.tracks %}
-                <track label="{{ t.label }}" srclang="{{ t.srclang }}" kind="{{ t.kind }}"
-                                 src="{{ t.src | relative_url }}"
-                />
-            {% endfor %}
-            {% endif %}
-                <p>
-                    <a href="{{ video.src | relative_url }}">Watch {{ video.title }}.</a>
-                </p>
-            </video>
-        </li>
-    {% endfor %}
-    </ul>
-</section>
-{% endif %}
-
-<footer>
-    <p><a href="mailto:{{ site.data.contact.email }}?subject={{ "Booking request: " | append: page.title | uri_escape }}">Book a Tech Learning Collective instructor for this workshop</a>.</p>
-</footer>
+    <footer>
+        <p><a href="mailto:{{ site.data.contact.email }}?subject={{ "Booking request: " | append: page.title | uri_escape }}">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+    </footer>
+</div>

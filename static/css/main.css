@@ -466,6 +466,63 @@ table.price td:last-child span[title]::after {
 }
 
 /**
+ * @group Workshop Page.
+ */
+main .workshop {
+    display: grid;
+    grid-template:
+        "image workshop-upcoming-events"
+        "image workshop-details"
+        "image workshop-videos"
+        "image footer"
+    ;
+    grid-column-gap: 20px;
+    margin-top: 1em;
+}
+main .workshop img {
+    grid-area: image;
+}
+.workshop-details {
+    grid-area: workshop-details;
+}
+.workshop-details .skip-to-calendar {
+    display: none;
+}
+.workshop-upcoming-events {
+    grid-area: workshop-upcoming-events;
+}
+.workshop-upcoming-events li {
+    list-style-position: inside;
+}
+.workshop-videos {
+    grid-area: workshop-videos;
+}
+main .workshop footer {
+    grid-area: footer;
+}
+
+div.persona-training-container {
+    width: 120px;
+    font-size: small;
+    text-align: center;
+}
+div.persona-training-graph {
+    display: grid;
+}
+div.persona-training-graph > div {
+    display: flex;
+}
+div.persona-training-graph > div > div {
+    flex: 1;
+    height: 15px;
+    border: 1px solid yellow;
+    background: #000;
+}
+div.persona-training-graph .persona-match-row .persona-match-col {
+    background: red;
+}
+
+/**
  * @group Foundations (Katacoda) scenarios and learning modules.
  */
 ol.katacoda-scenarios {
