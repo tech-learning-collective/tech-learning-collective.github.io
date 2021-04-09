@@ -8,7 +8,7 @@ layout: default
 {% for workshop in workshops %}
     <li>
         <a href="{{ workshop.url }}">
-            <img src="{{ workshop.image | relative_url }}" alt="" loading="lazy" />
+            <img src="{{ workshop.image | relative_url }}" alt="{{ workshop.image_alt }}" loading="lazy" />
             {{ workshop.title }}
         </a>
     </li>

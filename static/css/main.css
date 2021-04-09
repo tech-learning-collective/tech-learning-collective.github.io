@@ -17,7 +17,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol {
     border: none;
     padding: 0;
     list-style: none;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /**
@@ -240,11 +240,23 @@ span[itemprop="address"]::after {
     padding-bottom: 10px;
     border-bottom: 1px solid var(--main-fg-color);
 }
+.h-entry:last-child {
+    border-bottom: none;
+}
 .u-featured {
     position: absolute;
     top: 0;
     left: -100%;
     width: 90%;
+}
+.Pagination {
+    text-align: right;
+}
+.Pagination li {
+    display: inline;
+}
+footer .Pagination li {
+    display: list-item;
 }
 
 /**
@@ -289,6 +301,11 @@ body > header > h1 img {
 }
 .dotleader td:first-child::before {
     content:
+    ".............................................."
+    ".............................................."
+    ".............................................."
+    ".............................................."
+    ".............................................."
     ".............................................."
     ".............................................."
     ".............................................."
@@ -374,26 +391,28 @@ table.price td:last-child span[title]::after {
 .h-review p {
     font-size: 16px;
 }
-.h-review p:last-child {
-    margin-left: 200px;
+article .h-review a {
+    text-decoration: none;
 }
 #featured-testimonials .h-review p:last-child {
+    margin-left: 200px;
     position: absolute;
     bottom: 0;
     right: 0;
 }
+#featured-testimonials .h-review blockquote { display: none; }
 .h-review .p-author div,
 .h-review .h-card {
     display: inline;
 }
-.h-review blockquote { display: none; }
 .h-review .u-photo[src$="icon.chip.transparent.png"] {
     filter: invert(100%);
 }
 .h-review h3.p-summary,
 .h-review .p-author,
 .h-review h3.p-name,
-.h-review .e-content {
+.h-review .e-content,
+article .h-review .u-url.permalink {
     margin-left: 200px;
 }
 .h-review .p-name {
@@ -427,42 +446,8 @@ table.price td:last-child span[title]::after {
     grid-gap: 3em 1em;
 }
 /* `workshop-category` elements */
-.workshop-category {
-    max-height: 6em;
-    transition: max-height 4s ease-in-out;
-    overflow: hidden;
-    position: relative;
-}
-.workshop-category:hover {
-    max-height: 999999px;
-}
-.workshop-category::after {
-    content: "\2228";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    padding-top: 2em;
-    width: 100%;
-    background: linear-gradient(to top, var(--main-bg-color), transparent);
-    text-align: center;
-}
-.workshop-category:hover::after {
-    padding-top: 0;
-    bottom: -1em;
-}
-.workshop-category li {
-    margin-bottom: .5em;
-}
-.workshop-category a {
-    display: flex;
-    align-items: center;
-}
-.workshop-category img {
-    max-width: 50px;
-    margin-right: .5em;
-}
-.workshop-category span {
-    flex-grow: 1;
+.workshop-category ul {
+    display: none;
 }
 
 /**
@@ -559,4 +544,39 @@ ol.katacoda-scenarios .button {
     border-radius: 0;
     background: #FD7700;
     text-align: center;
+}
+
+/**
+ * @group Courses.
+ */
+#subjects-list {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+#subjects-list li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: .1em;
+    list-style: none;
+    font-size: 36pt;
+    text-align: center;
+    background: #000;
+    color: var(--main-bg-color);
+    height: 5em;
+}
+#subjects-list a {
+    text-decoration: none;
+    width: 100%;
+}
+#subjects-list span:last-child {
+    font-size: 24pt;
+}
+#subjects-list span:first-child {
+    display: block;
+}
+#subjects-list a:hover span {
+    text-decoration: underline;
 }

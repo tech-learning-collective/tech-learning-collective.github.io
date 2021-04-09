@@ -1,11 +1,11 @@
 {% assign review = include.review %}
-<div class="h-review hreview"
+<div id="testimonial-{{ review.slug }}" class="h-review hreview"
     itemscope="itemscope"
     itemtype="https://schema.org/Review">
     <h3 class="p-name summary" itemprop="name">{{ review.title }}</h3>
 
     <div class="p-author reviewer" itemprop="author">
-        <span>Read what</span>
+        <span><a href="{% link testimonials/index.md %}#testimonial-{{ review.slug }}" title="Read testimonial.">Read</a> what</span>
         {% include h-card.html entity=review.author %}
         had to say about
         <span class="p-item item h-card vcard fn" itemprop="itemReviewed" itemscope="itemscope" itemtype="https://schema.org/{{ site.type }}">

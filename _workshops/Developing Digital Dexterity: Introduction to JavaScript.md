@@ -1,6 +1,7 @@
 ---
 title: "Developing Digital Dexterity: Introduction to JavaScript"
 image: static/images/workshop.developing-digital-dexterity-introduction-to-javascript.square.jpg
+image_alt: "JavaScript code against a light turquoise background."
 simple_description: The JavaScript programming language began as a way to change the content on a Web page without having to reload it. While it's still most often thought of that way, JavaScript has evolved considerably since its birth in 1995. Today, JavaScript can be found in everything from the microchips controlling smarthome devices to embedded scripts inside office documents like Microsoft Word or Google Sheets, and beyond. This workshop highlights JavaScript as a language proper, distinct from the influences of a Web browser or other specific environment so that you can get familiar with the core of JavaScript itself, like its idiosyncratic data typing, scoping, and inheritance schemes that are important to know regardless of whether you're building Web sites, game interfaces, or any other kind of code.
 categories:
     - Programming

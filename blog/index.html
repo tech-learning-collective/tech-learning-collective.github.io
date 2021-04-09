@@ -15,14 +15,14 @@ i18n: blog
 </li>{% endfor %}</ol>
 
 <ul class="Pagination">
-    {% if paginator.previous_page %}
-    <li class="PaginationPrev">
-        <a href="{{ paginator.previous_page_path }}">{% include gettext.liquid key="newer_posts" %}</a>
-    </li>
-    {% endif %}
     {% if paginator.next_page %}
     <li class="PaginationNext">
-        <a href="{{ paginator.next_page_path }}">{% include gettext.liquid key="older_posts" %}</a>
+        <a href="{{ paginator.next_page_path }}">&larr; {% include gettext.liquid key="older_posts" %}</a>
+    </li>
+    {% endif %}
+    {% if paginator.previous_page %}
+    <li class="PaginationPrev">
+        <a href="{{ paginator.previous_page_path }}">{% include gettext.liquid key="newer_posts" %} &rarr;</a>
     </li>
     {% endif %}
 </ul>
