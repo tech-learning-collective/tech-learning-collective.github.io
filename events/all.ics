@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1616115600-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210319T010000Z
 DTEND;VALUE=DATE-TIME:20210319T023000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1616268600-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210320T193000Z
 DTEND;VALUE=DATE-TIME:20210320T210000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:LibrePlanet 2021: Beyond 'Learning to Code'
 UID:1616358900-libreplanet-2021-beyond-learning-to-code@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210321T203500Z
 DTEND;VALUE=DATE-TIME:20210321T212000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1616720400-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210326T010000Z
 DTEND;VALUE=DATE-TIME:20210326T023000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1616873400-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210327T193000Z
 DTEND;VALUE=DATE-TIME:20210327T210000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1616959800-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210328T193000Z
 DTEND;VALUE=DATE-TIME:20210328T210000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1617325200-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210402T010000Z
 DTEND;VALUE=DATE-TIME:20210402T023000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1617478200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210403T193000Z
 DTEND;VALUE=DATE-TIME:20210403T210000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1617564600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210404T193000Z
 DTEND;VALUE=DATE-TIME:20210404T210000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1617930000-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210409T010000Z
 DTEND;VALUE=DATE-TIME:20210409T023000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1618083000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210410T193000Z
 DTEND;VALUE=DATE-TIME:20210410T210000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1618169400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210411T193000Z
 DTEND;VALUE=DATE-TIME:20210411T210000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1618687800-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210417T193000Z
 DTEND;VALUE=DATE-TIME:20210417T210000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1618774200-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210418T193000Z
 DTEND;VALUE=DATE-TIME:20210418T210000Z
 
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1619292600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210424T193000Z
 DTEND;VALUE=DATE-TIME:20210424T210000Z
 
@@ -216,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1619379000-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210425T193000Z
 DTEND;VALUE=DATE-TIME:20210425T210000Z
 
@@ -230,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1619897400-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210418T032057Z
+DTSTAMP:20210418T063412Z
 DTSTART;VALUE=DATE-TIME:20210501T193000Z
 DTEND;VALUE=DATE-TIME:20210501T210000Z
 
@@ -240,6 +240,20 @@ URL:http://techlearningcollective.com/events/2021/05/workshop-2021-05-01-securin
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
+UID:1619983800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
+DTSTAMP:20210418T063412Z
+DTSTART;VALUE=DATE-TIME:20210502T193000Z
+DTEND;VALUE=DATE-TIME:20210502T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to make your own Virtual Private Cloud (VPC)\, automatically install software on the servers in your cloud\, and write executable runbooks to automatically perform upgrades and other maintenance with the press of a button. With today’s modern automation toolkits\, a two-person hobby project can outperform a 100-person company\, as long as they use the right tools the right way. In this workshop\, you’ll get a practical introduction to cloud infrastructure automation with tools like Ansible\, Vagrant\, and Terraform\, and a chance to solidify your understanding of fundamental DevOps skills that every IT professional needs.\n\nWorkshop Description\n\n\n  In today’s IT environments\, application servers\, databases\, file shares\, and even network devices are too numerous for any individual or team to provision\, configure\, and administer one at a time. To deploy\, maintain\, and secure large digital fleets\, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching\, updating code) to critical but rare operations (migrations\, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact\; today\, a two-person hobby project can outperform a 100-person company if they use the right tools the right way.\n\n  Generically called Infrastructure as Code (IaC)\, modern configuration management tools like Ansible\, Chef\, SaltStack\, and Puppet make it possible for a single operator to paralellize executing Standard Operating Procedures (SOPs) like initiating backups or performing blue-green deployments on hundreds or thousands of machines at once. By using virtualization through IaC tools like Vagrant\, entire “cloud” environments can be emulated for heterogenous development teams\, massively streamlining everything from software development\, to R&amp\;D\, to education and onboarding. (Tech Learning Collective’s own course exercises and practice labs are defined in code as Vagrant configurations!) Encoding your organization’s infrastructure requirements in standard\, vendor-neutral\, open formats such as Terraform means you can switch from one infrastructure provider to another with ease. But perhaps most important of all\, “automating all the things” means that potential disasters like ransomware extortion attempts\, outages\, or even mere accidents can be audited\, diagnosed\, and remediated in a matter of minutes instead of days or weeks.\n\n  In this workshop\, you’ll get a practical introduction to cloud infrastructure automation. You’ll learn how to create your first virtual private cloud (VPC)\, add multiple machines to it\, automatically install server software on those machines\, and write exectuable runbooks to automatically perform upgrades and other maintenance tasks on your new infrastructure. Whether you’re already administering a fleet of servers at work\, or just want to slim your “weekend project” time down to size\, this far-reaching workshop will solidify your understanding of the development operations (DevOps) skills every IT professional needs to hone to have success with modern digital infrastructure projects.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/05/workshop-2021-05-02-automate-all-the-things-a-primer-to-infrastructure-as-code
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
