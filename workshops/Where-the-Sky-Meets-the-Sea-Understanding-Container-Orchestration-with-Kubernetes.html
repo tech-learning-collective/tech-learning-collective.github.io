@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="onion-location" content="http://lpiyu33yusoalp5kh3f4hak2so2sjjvjw5ykyvu2dulzosgvuffq6sad.onion/workshops/Where-the-Sky-Meets-the-Sea-Understanding-Container-Orchestration-with-Kubernetes" />
+
+    <title>Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes &mdash; Tech Learning Collective</title>
+
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/World-Wide-Wars-Introduction-to-Exploiting-Web-Applications" />
+    <link rel="prev" href="/workshops/What's-in-a-Name-Understanding-the-Domain-Name-System" />
+
+    <meta itemprop="name" content="Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/workshops/Where-the-Sky-Meets-the-Sea-Understanding-Container-Orchestration-with-Kubernetes" />
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="As anyone who has ever moved house knows, the more effectively you can pack, the easier your move will be. It’s a big task, often requiring thousands of tiny decisions to make sure delicate items are wrapped appropriately, all one’s stuff fits neatly into all the available boxes, and so on. Once the boxes are all packed, loading them onto a moving vehicle requires that you distribute their weight more or less evenly so that there are no unpleasant surprises during the move. This is more or less what container orchestration tools are for, except instead of moving physical bins, we have to ship software inside containers. Each container requires resources, like CPU time and memory space, which means we’ll need to play a sort of Tetris game to make sure all our containers fit in the most dense, yet most balanced, arrangement to keep our hardware costs as low as possible." />
+<meta property="og:description" content="As anyone who has ever moved house knows, the more effectively you can pack, the easier your move will be. It’s a big task, often requiring thousands of tiny decisions to make sure delicate items are wrapped appropriately, all one’s stuff fits neatly into all the available boxes, and so on. Once the boxes are all packed, loading them onto a moving vehicle requires that you distribute their weight more or less evenly so that there are no unpleasant surprises during the move. This is more or less what container orchestration tools are for, except instead of moving physical bins, we have to ship software inside containers. Each container requires resources, like CPU time and memory space, which means we’ll need to play a sort of Tetris game to make sure all our containers fit in the most dense, yet most balanced, arrangement to keep our hardware costs as low as possible." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Where-the-Sky-Meets-the-Sea-Understanding-Container-Orchestration-with-Kubernetes" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Where-the-Sky-Meets-the-Sea-Understanding-Container-Orchestration-with-Kubernetes" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes.square.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes.square.jpg" />
+<meta property="twitter:title" content="Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"author":{"@type":"Person","name":"Tech Learning Collective"},"description":"As anyone who has ever moved house knows, the more effectively you can pack, the easier your move will be. It’s a big task, often requiring thousands of tiny decisions to make sure delicate items are wrapped appropriately, all one’s stuff fits neatly into all the available boxes, and so on. Once the boxes are all packed, loading them onto a moving vehicle requires that you distribute their weight more or less evenly so that there are no unpleasant surprises during the move. This is more or less what container orchestration tools are for, except instead of moving physical bins, we have to ship software inside containers. Each container requires resources, like CPU time and memory space, which means we’ll need to play a sort of Tetris game to make sure all our containers fit in the most dense, yet most balanced, arrangement to keep our hardware costs as low as possible.","@type":"WebPage","url":"http://techlearningcollective.com/workshops/Where-the-Sky-Meets-the-Sea-Understanding-Container-Orchestration-with-Kubernetes","image":"http://techlearningcollective.com/static/images/workshop.where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes.square.jpg","headline":"Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+:root {
+    --theme-bg-color: rgba(142, 43, 9, 1);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-bg-color: rgba(89, 26, 5, 1);
+    }
+}
+body {
+    background-color: var(--theme-bg-color);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, var(--theme-bg-color), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--theme-bg-color), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: var(--theme-bg-color);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: var(--theme-bg-color);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="/">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/calendar/">Events Calendar</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        <article>
+    <h2>Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes</h2>
+    
+<img src="/static/images/workshop.where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes.square.jpg" alt="Poster for Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes" />
+
+
+
+
+
+<p>Learn to pilot Kubernetes and find out how it helps you get the most value out of your hardware. Kubernetes is the free, enterprise-grade, cloud-native solution for automated deployment, scaling, and management of containerized applications. This workshop offers an introduction to container orchestration concepts and practices by showing you how to work effectively with <code class="language-plaintext highlighter-rouge">kubectl</code>, utilize Labels and Selectors, explore various components of the Kubernetes control plane, and more. You’ll get your own Kubernetes cluster where you can deploy apps, learn how to influence scheduling decisions, and monitor the health of clustered workloads.</p>
+
+
+<p><a href="#events">Attend the next workshop(s).</a></p>
+
+<h2 id="detailed-description">Detailed description</h2>
+
+<p>As anyone who has ever moved house knows, the more effectively you can pack, the easier your move will be. It’s a big task, often requiring thousands of tiny decisions to make sure delicate items are wrapped appropriately, all one’s stuff fits neatly into all the available boxes, and so on. Once the boxes are all packed, loading them onto a moving vehicle requires that you distribute their weight more or less evenly so that there are no unpleasant surprises during the move. This is more or less what container orchestration tools are for, except instead of moving physical bins, we have to ship software inside containers. Each container requires resources, like CPU time and memory space, which means we’ll need to play a sort of Tetris game to make sure all our containers fit in the most dense, yet most balanced, arrangement to keep our hardware costs as low as possible.</p>
+
+<p><a href="https://kubernetes.io/">Kubernetes</a> is the free and open source industry standard container orchestration platform that provides both system administrators and application developers with a set of tools for cooperatively building, deploying, and maintaining applications at all levels of scale. Its job is to help you get the most out of your hardware by “packing” all your containers (installed server software) into the fewest possible “bins” (physical or virtual machines), and then automatically monitoring, restarting, adding, removing, or shuffling those containers from one machine to another as demand for the services running on your cluster change. Your job is to tell Kubernetes what your ideal deployment situation is, and what to prioritize when resources get scarce.</p>
+
+<p>In this intermediate-level workshop, we’ll build on our knowledge of Linux <a href="/workshops/Ship-Shape-Computing-Working-with-Containers-and-Containzerizing-Digital-Workloads">containers</a> and fundamental system administration tasks to explore a Kubernetes cluster. You’ll learn how to inspect workloads using the <a href="https://kubernetes.io/docs/reference/kubectl/overview/"><code class="language-plaintext highlighter-rouge">kubectl</code></a> command line utility, a graphical Web-based dashboard, and the Kubernetes API itself. By exploring the <a href="https://kubernetes.io/docs/concepts/overview/components/">Kubernetes control plane</a>, you’ll get insight into how Kubernetes makes scheduling decisions and, along with using <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/">Labels and Selectors</a>, you’ll learn how to influence those scheduling decisions by <a href="https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/">tainting</a> certain resources in specific ways. Finally, you’ll see how Kubernetes provides a set of “cloud-native” services and APIs that developers can use to write apps that spawn more replicas of themselves when needed and perform other forms of automated or self-healing tasks, making the system administrator’s job that much easier.</p>
+
+
+<section>
+    <h1 id="events">Upcoming &ldquo;Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes&rdquo; Events</h1>
+    <p>
+    <a href="webcal://techlearningcollective.com/events/all.ics"
+       title="Subscribe to our calendar."
+    ><img alt="Calendar" class="download icon" src="/static/images/icon.calendar.svg" />
+        Subscribe to our calendar.</a>
+    <a href="/events/all.ics"
+       title="Export events as iCalendar file."
+    ><img alt="Download" class="download icon" src="/static/images/icon.download.svg" /></a>
+    <a href="/feed/events.xml"
+       title="Subscribe to Atom feed of events."
+    ><img alt="Download" src="/static/images/icon.rss-feed.orange.svg" style="width: 1em; box-shadow: none;" /></a>
+</p>
+
+
+    
+    
+    
+    <p>(Not currently scheduled.)</p>
+    
+    
+</section>
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Where%20the%20Sky%20Meets%20the%20Sea:%20Understanding%20Container%20Orchestration%20with%20Kubernetes">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    
+></script>
+<script src="/static/js/gitter-sidecar.js"></script>
+
+</body>
+</html>
