@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:LibrePlanet 2021: Beyond 'Learning to Code'
-UID:1616358900-libreplanet-2021-beyond-learning-to-code@techlearningcollective.com
-DTSTAMP:20210421T184223Z
-DTSTART;VALUE=DATE-TIME:20210321T203500Z
-DTEND;VALUE=DATE-TIME:20210321T212000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:On Sunday\, March 21st\, join Tech Learning Collective and the Free Software Foundation at the all-online LibrePlanet 2021 conference about software freedom\, where we will be delivering our talk\, “Beyond ‘Learning to Code’: How Tech Learning Collective Merges IT Training with Emancipatory Political Action.”\n\n\n  What good is a pen if the paper it touches can refuse to show its ink? What good is your app when your API key is revoked? Through metaphor and with a unique apprenticeship-based pedagogy\, Tech Learning Collective (TLC) is empowering users by doing exactly what code boot camps and corporate-funded “learn to code” programs don’t: TLC tells students to ignore new Web frameworks and focus instead on the lowest layers of an IT stack like physical network and hardware storage devices. At TLC\, infrastructure is the heart of a free software curriculum eschewing common rush-to-employment training paradigms in favor of Socratic classrooms where practicing Bash commands seamlessly meld with lectures about Gnostic influences on Ethernet\, the relationship between Gregorian chants and bootloaders\, and more. Come see why and how TLC’s holistic approach to IT education is creating communities of activist sysadmins out of people who wouldn’t otherwise have called themselves “techies.”\n\n\nLibrePlanet is a conference about software freedom\, happening March 20 through 21\, 2021. The event is hosted by the Free Software Foundation (FSF)\, and brings together software developers\, law and policy experts\, activists\, students\, and computer users to learn skills\, celebrate free software accomplishments\, and face upcoming challenges. Newcomers are always welcome\, and LibrePlanet 2021 will feature programming for all ages and experience levels.\n\nTickets are required to attend the conference\; please register for LibrePlanet 2021 in advance.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\nAbout the Free Software Foundation\n\nThe Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom. We defend the rights of all software users.\n
-URL:http://techlearningcollective.com/events/2021/03/event-2021-03-21-libreplanet-2021-beyond-learning-to-code
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/https
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1616720400-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210326T010000Z
 DTEND;VALUE=DATE-TIME:20210326T023000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1616873400-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210327T193000Z
 DTEND;VALUE=DATE-TIME:20210327T210000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1616959800-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210328T193000Z
 DTEND;VALUE=DATE-TIME:20210328T210000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1617325200-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210402T010000Z
 DTEND;VALUE=DATE-TIME:20210402T023000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1617478200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210403T193000Z
 DTEND;VALUE=DATE-TIME:20210403T210000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1617564600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210404T193000Z
 DTEND;VALUE=DATE-TIME:20210404T210000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
 UID:1617930000-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210409T010000Z
 DTEND;VALUE=DATE-TIME:20210409T023000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1618083000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210410T193000Z
 DTEND;VALUE=DATE-TIME:20210410T210000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1618169400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210411T193000Z
 DTEND;VALUE=DATE-TIME:20210411T210000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1618687800-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210417T193000Z
 DTEND;VALUE=DATE-TIME:20210417T210000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1618774200-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210418T193000Z
 DTEND;VALUE=DATE-TIME:20210418T210000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1619292600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210424T193000Z
 DTEND;VALUE=DATE-TIME:20210424T210000Z
 
@@ -188,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1619379000-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210425T193000Z
 DTEND;VALUE=DATE-TIME:20210425T210000Z
 
@@ -202,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1619897400-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210501T193000Z
 DTEND;VALUE=DATE-TIME:20210501T210000Z
 
@@ -216,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1619983800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210502T193000Z
 DTEND;VALUE=DATE-TIME:20210502T210000Z
 
@@ -230,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1620502200-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20210421T184223Z
+DTSTAMP:20210422T011941Z
 DTSTART;VALUE=DATE-TIME:20210508T193000Z
 DTEND;VALUE=DATE-TIME:20210508T210000Z
 
