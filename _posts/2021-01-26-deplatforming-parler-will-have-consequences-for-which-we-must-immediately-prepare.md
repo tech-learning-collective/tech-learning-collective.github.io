@@ -1,6 +1,8 @@
 ---
 title: "Deplatforming Parler will have consequences for which we must immediately prepare"
 image: https://web.archive.org/web/20210126023043if_/https://utiglobal.com/wp-content/uploads/2019/01/server-room.jpg
+translations:
+    es: https://beforeitsnews.com/politics/2021/05/desplataformar-a-parler-tendra-consecuencias-para-las-que-debemos-prepararnos-inmediatamente-3232760.html
 ---
 
 Two days after the American far right's failed fascist coup on January 6<sup>th</sup>, 2021 that left five people dead in Washington, DC, [Twitter (finally) permanently banned the would-be dictator](https://blog.twitter.com/en_us/topics/company/2020/suspension.html) responsible for inciting the mob from their platform. Shortly thereafter, the social media network most closely affiliated with the racist reactionaries, [Parler, was kicked off its cloud provider's hosting platform](https://www.nytimes.com/2021/01/09/technology/apple-google-parler.html), Amazon AWS. This meant Parler's servers were shut down, bringing the social media platform down with them, at least temporarily. While de-platforming Trump and Parler is undoubtedly a good thing in the short term (and should have happened a long time ago), the sheer visibility of such high-profile bans is likely to dramatically accelerate the adoption of certain communication technologies that are much harder to shut down the same way Parler was.
