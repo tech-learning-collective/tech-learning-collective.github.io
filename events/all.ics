@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Watch and Learn: Web Design and Development Livestream
-UID:1617930000-watch-and-learn-web-design-and-development-livestream@techlearningcollective.com
-DTSTAMP:20210510T012049Z
-DTSTART;VALUE=DATE-TIME:20210409T010000Z
-DTEND;VALUE=DATE-TIME:20210409T023000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever wanted to peek over the shoulder of an expert developer as they write code\, to pick their brain while they solve real-life problems in real time\, or simply bask in the comfort of watching an experienced craftsperson at work? Tech Learning Collective’s “Watch and Learn” events are your chance to join our staff as they livestream some of the work they do\, such as redesigning our Web site\, building out new or upgrading old infrastructure\, and performing other (non-sensitive) tasks to keep Tech Learning Collective moving forward. It’s like watching Bob Ross paint\, if he were painting with bits and bytes.\n\nLivestream Topic\n\n\n  Tech Learning Collective is redesigning our Web site for 2021. In a few months\, we’ll launch a brand new custom Web design for our public-facing Web site. We’ll have new colors\, new layouts\, and most importantly new code. So this Watch and Learn event will be focused almost exclusively on front-end Web development.\n\n  Some of the work has already been done\, but there’s lots more to do. Our Web designer will be streaming the way they start by examining graphic design artifacts from the Free Software GNU Image Manipulation Program (GIMP)\, a powerful alternative to Adobe Photoshop\, translating them into liquid and dynamic layouts so that they work in a variety of Web browser makes\, models\, and sizes\, and finally how they integrate the new code with our Web site’s simple Content Management System (CMS) called Jekyll. Along the way\, you’ll get to see how an experienced front-end Web designer thinks about design elements like layout grids\, how they organize and optimize Cascading Style Sheets (CSS) code\, and how rich metadata in the form of semantic HTML markup makes their job easier.\n\n  By attending\, you get a front-row seat to the video livestream\, along with access to a chat channel where you can ask questions about and offer feedback on the coding process live and in real time. We recommend that you have at least some familiarity with basic HTML and CSS code\, as this is not a full-fledged class or workshop.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2021/04/event-2021-04-08-watch-and-learn-web-design-and-development-livestream
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/poster.web201.png
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1618083000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210410T193000Z
 DTEND;VALUE=DATE-TIME:20210410T210000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1618169400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210411T193000Z
 DTEND;VALUE=DATE-TIME:20210411T210000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1618687800-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210417T193000Z
 DTEND;VALUE=DATE-TIME:20210417T210000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1618774200-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210418T193000Z
 DTEND;VALUE=DATE-TIME:20210418T210000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1619292600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210424T193000Z
 DTEND;VALUE=DATE-TIME:20210424T210000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1619379000-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210425T193000Z
 DTEND;VALUE=DATE-TIME:20210425T210000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1619897400-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210501T193000Z
 DTEND;VALUE=DATE-TIME:20210501T210000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1619983800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210502T193000Z
 DTEND;VALUE=DATE-TIME:20210502T210000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1620502200-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210508T193000Z
 DTEND;VALUE=DATE-TIME:20210508T210000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1620588600-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210509T193000Z
 DTEND;VALUE=DATE-TIME:20210509T210000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1621711800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210522T193000Z
 DTEND;VALUE=DATE-TIME:20210522T210000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1621798200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210523T193000Z
 DTEND;VALUE=DATE-TIME:20210523T210000Z
 
@@ -188,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1622316600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210529T193000Z
 DTEND;VALUE=DATE-TIME:20210529T210000Z
 
@@ -202,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1622403000-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20210510T012049Z
+DTSTAMP:20210510T063546Z
 DTSTART;VALUE=DATE-TIME:20210530T193000Z
 DTEND;VALUE=DATE-TIME:20210530T210000Z
 
