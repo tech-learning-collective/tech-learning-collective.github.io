@@ -33,7 +33,7 @@ TODO: Figure out a more precise handling fee pricing model.
 
 <div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
 
-    {% if offer_url %}<a href="{% if include.fallback %}{% include paypal-url.liquid amount=amount handling=handling_fee currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer_url }}{% endif %}" itemprop="url">{% endif %}
+    {% if offer_url %}<a class="button" href="{% if include.fallback %}{% include paypal-url.liquid amount=amount handling=handling_fee currency_code=offer.priceCurrency item_name=item_name item_number=event.slug custom=custom return=return cancel_return=cancel_return %}{% else %}{{ offer_url }}{% endif %}" itemprop="url">{% endif %}
         {% if offer.name %}<span itemprop="name">{{ offer.name }}</span>{% endif %}
         {% if offer.price %}<span class="currency-symbol">$</span><span itemprop="price">{{ offer.price }}</span>{% endif %}{% if offer.priceCurrency %} <span itemprop="priceCurrency">{{ offer.priceCurrency }}</span>{% endif %}
     {% if offer_url %}</a>{% endif %}
