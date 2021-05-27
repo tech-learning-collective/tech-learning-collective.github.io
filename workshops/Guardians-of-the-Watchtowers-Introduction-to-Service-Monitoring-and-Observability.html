@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="onion-location" content="http://lpiyu33yusoalp5kh3f4hak2so2sjjvjw5ykyvu2dulzosgvuffq6sad.onion/workshops/Guardians-of-the-Watchtowers-Introduction-to-Service-Monitoring-and-Observability" />
+
+    <title>Guardians of the Watchtowers: Introduction to Service Monitoring and Observability &mdash; Tech Learning Collective</title>
+
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    <link rel="next" href="/workshops/Open-Doors-Introduction-to-the-Art-of-Lockpicking" />
+    <link rel="prev" href="/workshops/Gone-Phishing-How-to-Recognize-Fake-Websites-and-Other-Online-Scams" />
+
+    <meta itemprop="name" content="Guardians of the Watchtowers: Introduction to Service Monitoring and Observability &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/workshops/Guardians-of-the-Watchtowers-Introduction-to-Service-Monitoring-and-Observability" />
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Guardians of the Watchtowers: Introduction to Service Monitoring and Observability" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Every computer program needs certain resources to operate well, like memory and disk space and CPU cycles. This is true both for simple programs on your laptop and also for complex, cloud-native systems like those that run in massive compute clusters in public cloud or on-premises datacenters. On a single computer, tools like the Activity Monitor on macOS or the Task Manager on Windows can report which applications are taking up what amount of specific resources on your computer in near real-time, helping you keep watch over your digital domain. When you need to monitor whole fleets of servers, though, you need tools that can scrape or collect the same information from those servers over a network." />
+<meta property="og:description" content="Every computer program needs certain resources to operate well, like memory and disk space and CPU cycles. This is true both for simple programs on your laptop and also for complex, cloud-native systems like those that run in massive compute clusters in public cloud or on-premises datacenters. On a single computer, tools like the Activity Monitor on macOS or the Task Manager on Windows can report which applications are taking up what amount of specific resources on your computer in near real-time, helping you keep watch over your digital domain. When you need to monitor whole fleets of servers, though, you need tools that can scrape or collect the same information from those servers over a network." />
+<link rel="canonical" href="http://techlearningcollective.com/workshops/Guardians-of-the-Watchtowers-Introduction-to-Service-Monitoring-and-Observability" />
+<meta property="og:url" content="http://techlearningcollective.com/workshops/Guardians-of-the-Watchtowers-Introduction-to-Service-Monitoring-and-Observability" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability.square.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability.square.jpg" />
+<meta property="twitter:title" content="Guardians of the Watchtowers: Introduction to Service Monitoring and Observability" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Tech Learning Collective"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"description":"Every computer program needs certain resources to operate well, like memory and disk space and CPU cycles. This is true both for simple programs on your laptop and also for complex, cloud-native systems like those that run in massive compute clusters in public cloud or on-premises datacenters. On a single computer, tools like the Activity Monitor on macOS or the Task Manager on Windows can report which applications are taking up what amount of specific resources on your computer in near real-time, helping you keep watch over your digital domain. When you need to monitor whole fleets of servers, though, you need tools that can scrape or collect the same information from those servers over a network.","@type":"WebPage","image":"http://techlearningcollective.com/static/images/workshop.guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability.square.jpg","url":"http://techlearningcollective.com/workshops/Guardians-of-the-Watchtowers-Introduction-to-Service-Monitoring-and-Observability","headline":"Guardians of the Watchtowers: Introduction to Service Monitoring and Observability","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+:root {
+    --theme-bg-color: rgba(142, 43, 9, 1);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-bg-color: rgba(89, 26, 5, 1);
+    }
+}
+body {
+    background-color: var(--theme-bg-color);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, var(--theme-bg-color), rgba(142, 43, 9, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--theme-bg-color), rgba(142, 43, 9, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: var(--theme-bg-color);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: var(--theme-bg-color);
+}
+</style>
+
+
+</head>
+
+<body class="workshop">
+    <header>
+        <h1><a href="/">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/calendar/">Events Calendar</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        <article>
+    <h2>Guardians of the Watchtowers: Introduction to Service Monitoring and Observability</h2>
+    
+<img src="/static/images/workshop.guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability.square.jpg" alt="Poster for Guardians of the Watchtowers: Introduction to Service Monitoring and Observability" />
+
+
+
+
+
+<div class="persona-training-container">
+    Persona matrix:
+    <div class="persona-training-graph">
+        <div class="persona-match-row">
+            <div class="persona-match-col" title="Individuals versus Random Assholes"></div>
+            <div class="persona-match-col" title="Individuals versus Assholes with Resources"></div>
+            <div title="Individuals versus The State"></div>
+        </div>
+        <div class="persona-match-row">
+            <div class="persona-match-col" title="Organizers and Jouranlists versus Random Assholes"></div>
+            <div class="persona-match-col" title="Organizers and Jouranlists versus Assholes with Resources"></div>
+            <div title="Organizers and Journalists versus The State"></div>
+        </div>
+        <div>
+            <div class="persona-match-col" title="Targeted Activists versus Random Assholes"></div>
+            <div class="persona-match-col" title="Targeted Activists versus Assholes with Resources"></div>
+            <div title="Targeted Activists versus The State"></div>
+        </div>
+    </div>
+    (<a href="/about/persona-matrix/">What&rsquo;s this?</a>)
+</div><!-- .persona-training-container -->
+
+
+
+
+<p>Knowing what’s happening on the computers you’re responsible for is a critical part of knowing how to care for and maintain any IT infrastructure. Learn how to automatically monitor and alert on operational issues such as resource exhaustion before they take down your servers and applications. In this workshop, you’ll learn about the “four golden signals” of observability, you’ll be introduced to time series databases and metrics collection with Prometheus, and you’ll learn how to create beautiful charts and graphs from that data with Grafana. Together, these free, industry-standard tools comprise the foundation of all modern and cloud-native IT monitoring stacks.</p>
+
+
+<p><a href="#events">Attend the next workshop(s).</a></p>
+
+<h2 id="detailed-description">Detailed description</h2>
+
+<p>Every computer program needs certain resources to operate well, like memory and disk space and CPU cycles. This is true both for simple programs on your laptop and also for complex, cloud-native systems like those that run in massive compute clusters in public cloud or on-premises datacenters. On a single computer, tools like the <a href="https://support.apple.com/guide/activity-monitor/welcome/mac">Activity Monitor</a> on macOS or the <a href="https://www.howtogeek.com/405806/windows-task-manager-the-complete-guide/">Task Manager</a> on Windows can report which applications are taking up what amount of specific resources on your computer in near real-time, helping you keep watch over your digital domain. When you need to monitor whole fleets of servers, though, you need tools that can scrape or collect the same information from those servers over a network.</p>
+
+<p>In decades past, IT teams were often limited to static data sets to perform tasks like asset tracking. As applications grew more complex, performance and reliability metrics became increasingly important, so instrumentation, profiling, and visualization tools like <a href="https://kubernetes.io/docs/reference/using-api/health-checks/">dedicated health and readiness checks</a> and <a href="https://developer.mozilla.org/docs/Tools/Performance/Flame_Chart">flame charts</a> were developed to help engineers figure out how to both optimize the code they wrote and how to integrate it with other systems more seamlessly. Today, specialized frameworks and burgeoning standards like <a href="https://opentelemetry.io/">OpenTelemetry</a> are designed to give system operators more visibility into both the current and historical usage trends and patterns of the resources their services need to run well. Equipped with this information, they can make better capacity planning decisions for the future or even help identify anomalous events like security breaches, bugs in code, and other subtle issues that might be hard or impossible to track down otherwise.</p>
+
+<p>In this workshop, you’ll be introduced to the concepts and practices of observability for infrastructure at any level of scale. You’ll learn about the “four golden signals”—latency, traffic, errors, and saturation—and why they matter. Like the four Quarters that are called to cast a magical circle, each golden signal has a particular focus and almost elemental meaning. You’ll learn how to install and configure <a href="https://prometheus.io/">Prometheus</a>, the open, industry-standard metrics collection solution on which many commercial offerings are based, along with its accompanying components like <a href="https://www.prometheus.io/docs/alerting/latest/alertmanager/">Alertmanager</a>, metric <a href="https://prometheus.io/docs/instrumenting/exporters/">exporters</a>, and supplemental software like <a href="https://grafana.com/">Grafana</a> that can query Prometheus’s time series database to reveal trends, patterns, or anomalies in your systems’ stability over time. Finally, to make sense of all this data, you’ll get an introduction to <a href="https://prometheus.io/docs/prometheus/latest/querying/basics/">PromQL</a>, the purpose-built Prometheus Query Language used for everything from triggering alerts to making custom queries so you’ll always be able to know exactly what’s going on in your infrastructure when you need to.</p>
+
+
+<section>
+    <h1 id="events">Upcoming &ldquo;Guardians of the Watchtowers: Introduction to Service Monitoring and Observability&rdquo; Events</h1>
+    <p>
+    <a href="webcal://techlearningcollective.com/events/all.ics"
+       title="Subscribe to our calendar."
+    ><img alt="Calendar" class="download icon" src="/static/images/icon.calendar.svg" />
+        Subscribe to our calendar.</a>
+    <a href="/events/all.ics"
+       title="Export events as iCalendar file."
+    ><img alt="Download" class="download icon" src="/static/images/icon.download.svg" /></a>
+    <a href="/feed/events.xml"
+       title="Subscribe to Atom feed of events."
+    ><img alt="Download" src="/static/images/icon.rss-feed.orange.svg" style="width: 1em; box-shadow: none;" /></a>
+</p>
+
+
+    
+    
+    
+    <ol>
+        <li><a href="/events/2021/06/workshop-2021-06-12-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability">June 12, 2021 at  3:30 pm (-0400)</a></li>
+    </ol>
+    
+    
+</section>
+
+
+
+<footer>
+    <p><a href="mailto:techlearningcollective@riseup.net?subject=Booking%20request:%20Guardians%20of%20the%20Watchtowers:%20Introduction%20to%20Service%20Monitoring%20and%20Observability">Book a Tech Learning Collective instructor for this workshop</a>.</p>
+</footer>
+
+</article>
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js"
+    async="async" defer="defer"
+    
+></script>
+<script src="/static/js/gitter-sidecar.js"></script>
+
+</body>
+</html>
