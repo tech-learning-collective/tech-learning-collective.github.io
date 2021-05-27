@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1619897400-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210501T193000Z
 DTEND;VALUE=DATE-TIME:20210501T210000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1619983800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210502T193000Z
 DTEND;VALUE=DATE-TIME:20210502T210000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1620502200-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210508T193000Z
 DTEND;VALUE=DATE-TIME:20210508T210000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1620588600-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210509T193000Z
 DTEND;VALUE=DATE-TIME:20210509T210000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1621711800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210522T193000Z
 DTEND;VALUE=DATE-TIME:20210522T210000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1621798200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210523T193000Z
 DTEND;VALUE=DATE-TIME:20210523T210000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1621879200-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210524T180000Z
 DTEND;VALUE=DATE-TIME:20210524T193000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1621965600-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210525T180000Z
 DTEND;VALUE=DATE-TIME:20210525T193000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1622316600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210529T193000Z
 DTEND;VALUE=DATE-TIME:20210529T210000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1622403000-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210530T193000Z
 DTEND;VALUE=DATE-TIME:20210530T210000Z
 
@@ -144,9 +144,37 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.world-wide-wars-introduction-to-exploiting-web-applications.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
+UID:1622921400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
+DTSTAMP:20210527T151245Z
+DTSTART;VALUE=DATE-TIME:20210605T193000Z
+DTEND;VALUE=DATE-TIME:20210605T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:The most common way hackers steal passwords\, install malware on a victim’s computer\, or get employees to grant them unauthorized access to critical business systems is through so-called phishing attacks. A phishing attack is surprisingly low-tech\, which is part of what makes it so devastatingly effective. Learning to spot these attacks is one of the most important things you can do to protect yourself online\, since a hacker’s tricks\, called “lures\,” can appear anywhere from an email\, to a Facebook message\, to a real Web site that looks exactly like one you recognize! In this workshop\, you’ll learn how frighteningly easy it is to build these scam sites\, and all about the tricks they use to fool you into falling for them.\n\nWorkshop Description\n\n\n  Whether it’s corporate espionage\, ransomware\, or online fraud\, most cyber attacks don’t start with sophisticated software exploits\, but rather by employing relatively simple tricks. These tricks are called “phishing” attacks because\, much like baiting a lure\, they won’t work unless you bite. However\, many people do get caught up by them.\n\n  In 2019\, ninety percent (90%!) of reported data breaches began with a simple phishing scam\, costing businesses over $12 billion in losses. Phishing attacks are the most common type of cyberattack on the Internet today\, with one and a half million new phishing websites launched every month. Thankfully\, it’s easy to spot—and even to perform—these tricks if you have the right guidance.\n\n  For example\, when you’re at a cafe and you ask the patron next to you to watch your belongings\, your stuff will probably be safe when you return. But how safe would you feel if the patron at the next table turned to you and offered to watch your belongings when you next needed to use the restroom? If you had two different reactions to these scenarios\, you already have the intuition you need to understand how the overwhelming majority of cybercrime gets a foothold inside your company\, home\, or organization’s network.\n\n  In this workshop\, derived from a portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” Security 101 course\, you will have the opportunity to create and deploy your own phishing Web site that can steal usernames and passwords from unsuspecting victims. By learning how attackers build pixel-perfect replicas of familiar sites like the Facebook login screen\, you will also gain the skills you need to more quickly recognize the signs of a malicious web site\, email\, or other online scam.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-05-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.gone-phishing-how-to-recognize-fake-websites-and-other-online-scams.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
+UID:1623007800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
+DTSTAMP:20210527T151245Z
+DTSTART;VALUE=DATE-TIME:20210606T193000Z
+DTEND;VALUE=DATE-TIME:20210606T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:To take full advantage of the Web\, especially as a digital publishing medium\, you need to start by using the full expressive power of its most fundamental part: the simple HTML “Web page.” This workshop covers HTML\, the HyperText Markup Language\, as though it were a language in which you can write poems as well as tables of facts and figures\, because it is! Learn how to structure your pages in digital rhyme and meter and find out why this approach results in better code for both beautiful designs and automated processes.\n\nWorkshop Description\n\n\n  The Hypertext Markup Language (HTML) is the de-facto standard for publishing information online\, a kind of digital equivalent to learning to read and write. Why\, then\, is it so rarely explained in terms of the language that it actually is? What is HTML’s grammar\, where do HTML “sentences” begin and end\, and how is meaning represented in its elements? You don’t need a computer science degree to learn a foreign language\, and that includes HTML.\n\n  This workshop is designed for anyone who ever wanted to toy with HTML once or twice\, whether it was in the 90’s or just last week. Based on a portion of the Tech Learning Collective’s WEB101 course\, it is a remarkably thorough treatment of some of the Web’s most powerful and most-often overlooked parts. Covering the structure of HTML and extending to the richness of semantic data formats like Microdata and RDFa\, learn how to write in the Web’s native language so that both humans (like your friends and comrades) and machines (like Google!) can find\, use\, and most importantly understand what you’re saying.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-06-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1623526200-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20210527T144028Z
+DTSTAMP:20210527T151245Z
 DTSTART;VALUE=DATE-TIME:20210612T193000Z
 DTEND;VALUE=DATE-TIME:20210612T210000Z
 
@@ -156,6 +184,20 @@ URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-12-guardia
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
+UID:1623612600-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
+DTSTAMP:20210527T151245Z
+DTSTART;VALUE=DATE-TIME:20210613T193000Z
+DTEND;VALUE=DATE-TIME:20210613T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:The way some hypermedia object\, like a Web page\, presents itself is encoded using a language called Cascading Style Sheets (CSS). While CSS is one of the modern Web’s most powerful features\, it’s also one of its most misunderstood and misused inventions. In this workshop\, you’ll learn important CSS fundamentals that are often missing from most tutorials\, like how to understand the concept of document flow\, as well as gain insight into the equations and rendering algorithms that determine things like a CSS box’s size\, position\, and more that are at work behind the scenes in every stylesheet. We’ll also touch on how CSS can be used in contexts beyond HTML including print and mobile app styling\, and how to use some more advanced features like media and feature queries\, modern layout modules\, and other CSS capabilities.\n\nWorkshop Description\n\n\n  All physical mediums like print\, music\, or film can be beautiful\, but they will always be constrained by the fact of their analog nature. Digital media—and specifically hypermedia—is different. It can change both its form and its function\, simultaneously presenting itself as any one or a combination of multimedia formats without changing its underlying structure. The humble Web page is a good example: it can stretch to fit your screen when viewed in a Web browser\, lay itself out on a page to prepare for being printed\, and even embed voice cues so it can be more easily listened to when read aloud. All of this is done using a language called Cascading Style Sheets (CSS)\, one of the most powerful\, and most often misused\, features of the modern Web.\n\n  Although the CSS language itself is decades old now\, its origins are even older. Rooted in the idea that form and function can simultaneously coexist in a multitude of different arrangements\, CSS makes it possible for a single well-formed digital object to appear in the “best” way to any given viewer (or reader\, or listener). This is a radical departure from physical media\, like paper\, and it requires an equally radical departure from some traditional graphic design paradigms that demands we spend an equal amount of time exploring philosophical issues like “the eye of the beholder” as it demands that we familiarize ourselves with technical implementation details such as the mathematical equations determining when\, where\, and how to draw specific shapes or colors.\n\n  This workshop builds on the concepts of hypertext introduced in Tech Learning Collective’s “The Web as a Language” workshop by speaking of fundamental CSS concepts often omitted from other tutorials\, such as “User Agents\,” document flow\, and rendering contexts. You’ll learn how both the design and the function of your digital creations can benefit from approaching hypermedia more fluidly\, so you can work with the CSS rendering engine in most modern graphical programming environments rather than fighting against it. Like water\, your Web pages\, apps\, and other hypertextual creations will be able to flow seamlessly into vessels of any shape\, Operating System\, or Web Browser vendor.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-13-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.water-in-a-garden-the-style-and-substance-of-cascading-style-sheets.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
