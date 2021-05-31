@@ -254,6 +254,24 @@
 
 
 {
+    "title" : "Developing Digital Dexterity: Introduction to JavaScript",
+    "start" : "2021-06-19T15:30:00-0400",
+    "end"   : "2021-06-19T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-19-developing-digital-dexterity-introduction-to-javascript",
+    "image" : "http://techlearningcollective.com/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.rectangle.jpg",
+    "teaser": "JavaScript is known for being “the Web programming language,” and while its capabilities in a Web browser have grown considerably, today JavaScript can also be used to automate mundane office jobs (e.g., Google Apps Script, Microsoft Office’s JavaScript API), develop PC games (using GDevelop), and much more. Learn what you need to know to get started with JavaScript in any environment in this workshop covering some common programming concepts as well as the quirks of the JavaScript language itself (functional scope, prototype-based object inheritance, etc.) so you can increase your digital dexterity whether in a Web browser, office job, or your own project.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-19 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-19 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-19 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/204143"]
+    }
+}
+,
+
+
+{
     "title" : "Something for Everyone: File Servers and Other Network Attached Storage",
     "start" : "2021-06-20T15:30:00-0400",
     "end"   : "2021-06-20T17:00:00-0400",
@@ -266,6 +284,42 @@
         "maximumAttendeeCapacity": 15,
         "isAccessibleForFree": null,
         "sameAs": ["https://gobrunch.com/events/203803"]
+    }
+}
+,
+
+
+{
+    "title" : "Collaboration Across Universes: Basics of Version Control with Git",
+    "start" : "2021-06-26T15:30:00-0400",
+    "end"   : "2021-06-26T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-26-collaboration-across-universes-basics-of-version-control-with-git",
+    "image" : "http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.jpg",
+    "teaser": "Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer, novelist, or art designer.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-26 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-26 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-26 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/204151"]
+    }
+}
+,
+
+
+{
+    "title" : "Down the Rabbit Hole: Anonymous Publishing on the Darknet",
+    "start" : "2021-06-27T15:30:00-0400",
+    "end"   : "2021-06-27T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-27-down-the-rabbit-hole-anonymous-publishing-on-the-darknet",
+    "image" : "http://techlearningcollective.com/static/images/workshop.down-the-rabbit-hole-anonymous-publishing-on-the-darknet.rectangle.jpg",
+    "teaser": "Get your message out without revealing who you are by publishing anonymously on the “Darknet.” This workshop shows you how to create Tor Onion services for Web sites through free tools like OnionShare, and even by setting up Tor servers that are built and configured from scratch manually. You’ll learn about how Tor helps keep both publishers and consumers private and anonymous online, as well as how law enforcement might successfully de-anonymize poorly configured Onion services through host bypass, fingerprint correlation, and other similar attacks.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-27 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-27 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-27 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/204154"]
     }
 }
 ]

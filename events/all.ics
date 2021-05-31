@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1619897400-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210501T193000Z
 DTEND;VALUE=DATE-TIME:20210501T210000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1619983800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210502T193000Z
 DTEND;VALUE=DATE-TIME:20210502T210000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1620502200-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210508T193000Z
 DTEND;VALUE=DATE-TIME:20210508T210000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1620588600-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210509T193000Z
 DTEND;VALUE=DATE-TIME:20210509T210000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1621711800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210522T193000Z
 DTEND;VALUE=DATE-TIME:20210522T210000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1621798200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210523T193000Z
 DTEND;VALUE=DATE-TIME:20210523T210000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1621879200-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210524T180000Z
 DTEND;VALUE=DATE-TIME:20210524T193000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1621965600-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210525T180000Z
 DTEND;VALUE=DATE-TIME:20210525T193000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1622316600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210529T193000Z
 DTEND;VALUE=DATE-TIME:20210529T210000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1622403000-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210530T193000Z
 DTEND;VALUE=DATE-TIME:20210530T210000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1622921400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210605T193000Z
 DTEND;VALUE=DATE-TIME:20210605T210000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1623007800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210606T193000Z
 DTEND;VALUE=DATE-TIME:20210606T210000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1623526200-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210612T193000Z
 DTEND;VALUE=DATE-TIME:20210612T210000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1623612600-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210613T193000Z
 DTEND;VALUE=DATE-TIME:20210613T210000Z
 
@@ -200,9 +200,23 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.water-in-a-garden-the-style-and-substance-of-cascading-style-sheets.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
+UID:1624131000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
+DTSTAMP:20210531T001402Z
+DTSTART;VALUE=DATE-TIME:20210619T193000Z
+DTEND;VALUE=DATE-TIME:20210619T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:JavaScript is known for being “the Web programming language\,” and while its capabilities in a Web browser have grown considerably\, today JavaScript can also be used to automate mundane office jobs (e.g.\, Google Apps Script\, Microsoft Office’s JavaScript API)\, develop PC games (using GDevelop)\, and much more. Learn what you need to know to get started with JavaScript in any environment in this workshop covering some common programming concepts as well as the quirks of the JavaScript language itself (functional scope\, prototype-based object inheritance\, etc.) so you can increase your digital dexterity whether in a Web browser\, office job\, or your own project.\n\nWorkshop Description\n\n\n  Over the course of ten days in 1995\, the Web changed forever when Brendan Eich was hired by Netscape\, Inc. and developed a programming language that could be embedded in Web pages. Briefly named LiveScript\, the language became known as JavaScript three months later\, and was officially standardized as ECMAScript in 1997 after taking the Internet by storm only two years later. Today\, JavaScript is arguably the single most popular and prolific high-level language available to many people for many projects.\n\n  Although most people know of JavaScript as the programming language of the Web\, where its capabilities have increased dramatically over the years\, many other environments outside of the Web browser or traditional Web application now embed or rely on JavaScript engines to work. Entire back-end applications can be created with “server-side JavaScript” (Node.js\, RingoJS)\; Internet-of-Things (IoT) devices like sensors and larger microcontrollers offer JavaScript scriptable interfaces (Espruino\, low.js)\; mundane office jobs and “paperwork” can be accomplished in JavaScript (OpenOffice/LibreOffice Script Provider\, Google Apps Script\, Microsoft Office JavaScript API)\; JavaScript can be used to write smart contracts for blockchain-based distributed ledger technologies (Hyperledger Fabric)\; desktop and PC game programming can be done entirely in JavaScript (GDevelop\, Babylon.js)\; some other programming languages are implemented in JavaScript (Scratch)\; and JavaScript can even be used for macOS system automation tasks using the Open Scripting Architecture (OSA) JavaScript for Automation extension. Almost no other programming language is as easy to learn while offering the breadth of options that JavaScript does\, which is one clear reason for the language’s popularity among developers and desirability among employers.\n\n  In this workshop\, you’ll learn what you need to know to get started with JavaScript in any environment. By focusing on the language’s built-in constructs\, you’ll be able to avoid many common pitfalls and understand what makes JavaScript tick. We’ll cover some programming basics common to all languages\, but we’ll also show how JavaScript’s unusual rules (functional scope\, prototype-based object inheritance\, etc.) make it possible to write especially elegant—or especially dangerous—code\, as well as showing you why developing even minimal proficiency with JavaScript will drastically increase your “digital dexterity” as you browse the Web.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-19-developing-digital-dexterity-introduction-to-javascript
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.developing-digital-dexterity-introduction-to-javascript.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1624217400-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20210530T192758Z
+DTSTAMP:20210531T001402Z
 DTSTART;VALUE=DATE-TIME:20210620T193000Z
 DTEND;VALUE=DATE-TIME:20210620T210000Z
 
@@ -212,6 +226,34 @@ URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-20-somethi
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.something-for-everyone-file-servers-and-other-network-attached-storage.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
+UID:1624735800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
+DTSTAMP:20210531T001402Z
+DTSTART;VALUE=DATE-TIME:20210626T193000Z
+DTEND;VALUE=DATE-TIME:20210626T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop\, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer\, novelist\, or art designer.\n\nWorkshop Description\n\n\n  As most of us know first-hand\, the creative process involves many edits and revisions. Adding a little bit here\, trimming a little bit there\, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file\, pressing “Save As…” many times might suffice\, but what if your project spans dozens or even hundreds of files?\n\n  This is where version control systems (VCSs) shine. Designed to track\, compare\, and merge different versions of the same project\, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times\, across any number of files. Moreover\, by naming different snapshots\, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others\; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a branch) without throwing away or overwriting the original version of the project on which your changes were based.\n\n  In this beginner’s workshop\, you’ll learn the basics of Git\, a free distributed version control system on which popular sites like GitHub are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers\, Git is also useful for novelists\, researchers\, and anyone else whose work involves creativity in a digital medium.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-26-collaboration-across-universes-basics-of-version-control-with-git
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
+UID:1624822200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
+DTSTAMP:20210531T001402Z
+DTSTART;VALUE=DATE-TIME:20210627T193000Z
+DTEND;VALUE=DATE-TIME:20210627T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Get your message out without revealing who you are by publishing anonymously on the “Darknet.” This workshop shows you how to create Tor Onion services for Web sites through free tools like OnionShare\, and even by setting up Tor servers that are built and configured from scratch manually. You’ll learn about how Tor helps keep both publishers and consumers private and anonymous online\, as well as how law enforcement might successfully de-anonymize poorly configured Onion services through host bypass\, fingerprint correlation\, and other similar attacks.\n\nWorkshop Description\n\n\n  It’s often said that if you want to tell people the truth\, you’d better make them laugh—or they’ll kill you. Sometimes\, humor isn’t a sufficient defense. For these situations\, the only remaining defense is to become anonymous. In this deep-dive workshop on anonymous Internet publishing\, you’ll learn about a special class of proxy server called a Tor Onion service that makes it possible to publish Web sites or offer network-capable services more or\, if you’re really skilled\, completely anonymously.\n\n  Publishing something truly anonymously on the Internet today is getting more and more difficult. And yet\, with “real name” requirements pushed by social media giants like Facebook\, law enforcement agents demanding travelers’ online usernames and passwords at border crossings\, and global political campaigns to undermine or outright backdoor privacy-preserving encryption technologies\, anonymous publishing is also getting more and more important. Whistleblowers need to be able to leak or publish anonymously to stay safe from legal and especially extralegal reprisals\, and so too do politically vocal bloggers\, investigative journalists\, and citizens.\n\n  In this specialized workshop\, you’ll see how Darknet Web sites like the now-famous Silk Road\, as well as less controversial Web sites like the New York Times\, actually use the same underlying technology called Tor Onion services to create their respective censorship-resistant publications. You’ll also be exposed to some of the techniques that law enforcement often tries to use to de-anonymize Onion services\, and learn how to defend against them. By the end of this workshop\, you’ll have a working knowledge of numerous critical modern technologies including Web servers\, network relays\, and Tor’s famous onion-routing protocol.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-27-down-the-rabbit-hole-anonymous-publishing-on-the-darknet
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.down-the-rabbit-hole-anonymous-publishing-on-the-darknet.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
