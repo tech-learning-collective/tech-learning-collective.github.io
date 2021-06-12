@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1621711800-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210522T193000Z
 DTEND;VALUE=DATE-TIME:20210522T210000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1621798200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210523T193000Z
 DTEND;VALUE=DATE-TIME:20210523T210000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1621879200-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210524T180000Z
 DTEND;VALUE=DATE-TIME:20210524T193000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1621965600-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210525T180000Z
 DTEND;VALUE=DATE-TIME:20210525T193000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1622316600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210529T193000Z
 DTEND;VALUE=DATE-TIME:20210529T210000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1622403000-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210530T193000Z
 DTEND;VALUE=DATE-TIME:20210530T210000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1622921400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210605T193000Z
 DTEND;VALUE=DATE-TIME:20210605T210000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1623007800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210606T193000Z
 DTEND;VALUE=DATE-TIME:20210606T210000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1623526200-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210612T193000Z
 DTEND;VALUE=DATE-TIME:20210612T210000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1623612600-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210613T193000Z
 DTEND;VALUE=DATE-TIME:20210613T210000Z
 
@@ -144,9 +144,51 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.water-in-a-garden-the-style-and-substance-of-cascading-style-sheets.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
+UID:1623785400-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
+DTSTAMP:20210612T004538Z
+DTSTART;VALUE=DATE-TIME:20210615T193000Z
+DTEND;VALUE=DATE-TIME:20210615T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to beat back configuration drift on your servers by leveraging automation tools like Ansible in this deep dive workshop demonstrating modern DevOps practices for deploying\, maintaining\, and auditing compute clusters. Whether for a Web application\, big data processing\, or other project\, you need to turn old-school runbooks into computerized playbooks that can execute Standard Operating Procedures quickly and reliably so you can deploy complex systems simply and predictably. Come learn about key concepts like idempotence and change control\, and learn how giant corporations implement security principles like RBAC\, all using free and open source software.\n\nWorkshop Description\n\n\n  Today\, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don’t just have one server\, you have a group of them. Commonly called a cluster\, these servers need to be managed as a group\, ensuring that their software configurations\, security patches\, and installed packages are deployed\, maintained\, and eventually updated or retired in a predictable way.\n\n  In this deep dive workshop\, we’ll set up our own small cluster and use Ansible\, which is an agentless\, cross-platform\, enterprise-grade\, free software Configuration Management (CM) and Infrastructure as Code (IaC) framework used by giant corporations like IBM and Cisco\, to turn old-school operator runbooks into computerized playbooks that can be executed quickly and easily even by novice operators. Through several hands-on exercises\, you’ll learn about the entire CM lifecycle from planning through auditing so that you understand critical CM concepts like idempotence\, change control\, and more\, which are common to all CM systems including Chef\, Puppet\, and Salt.\n\n  Along the way\, you’ll be exposed to key concepts such as containerization through Ansible’s support for automating container builds\, Role-Based Access Control (RBAC) via Ansible’s AWX Project\, and more. By adopting configuration management workflows with tools like Ansible\, you can reduce operator errors\, and beat back configuration drift on any long-lived infrastructure components.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-15-faster-than-light-getting-started-with-configuration-management
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.faster-than-light-getting-started-with-configuration-management.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
+UID:1623871800-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
+DTSTAMP:20210612T004538Z
+DTSTART;VALUE=DATE-TIME:20210616T193000Z
+DTEND;VALUE=DATE-TIME:20210616T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to pack up your code bases\, apps\, and microservices and get ready to set sail aboard container orchestration platforms in the cloud or on your own metal in this introductory workshop about working with containers. Far from a newfangled buzzword\, containerizing digital workloads have precedents dating back to the invention of the UNIX operating system in the 1970’s. Today\, operating container engines like Docker and orchestration platforms like Kubernetes are increasingly essential skills\, but difficult to navigate. This workshop will put you back on course by providing a ground-up view of what containers really are\, where they came from\, and how to best use them for DevOps\, site reliability\, and even enhanced security tasks.\n\nWorkshop Description\n\n\n  In the earliest days of computing\, an application would be responsible for processing only very small amounts of input. It would then produce a similarly small amount of output\, working as fast and efficiently as possible. Known as a processing “pipeline\,” this early solutions paradigm is most famously expressed as the so-called “UNIX philosophy\,” a programmer’s adage that states each program should “do (only) one thing\, and do it well\,” and it’s still the beating heart of powerful computer interfaces such as command line use to this day.\n\n  Then\, all throughout the 1980’s\, 90’s\, and 2000’s\, as computing speed relentlessly increased while its cost simultaneously plummeted\, companies began building larger\, more complex applications. Known as “monoliths\,” this generation of apps were well-suited for their environment\, where they were deployed onto singular mainframe-like computers housed inside private server rooms. But these application architectures are no longer sensible in a world where cloud computing and virtualization technologies make it possible to dynamically reserve compute power as user demand ebbs and flows. Why over-purchase server hardware when you can spin up another virtual machine to handle a spike in traffic\, then automatically have that machine shut itself down when incoming requests settle back at manageable levels?\n\n  That’s one reason why\, today\, online apps from Google\, Facebook\, and others are written as “microservices.” Far from being worthy of the buzzword-driven hype\, this paradigm is actually a return to software’s original designs where the goals of a larger application are processed independently by a set of cooperating but independent smaller programs\, each one performing only one job very well. To make this work in today’s cloud environments\, each microservice must be “containerized\,” packaged into a single Operating System process that is run by a container management engine such as Docker\, CoreOS’s rkt (pronounced “rocket”)\, or LXD in preparation for being orchestrated across a fleet of hundreds or thousands of (often virtual) compute instances.\n\n  In this hands-on workshop\, you’ll learn how to make use of the thousands of ready-made containers available at container registries such as the Docker Hub\, create new containers from scratch\, containerize existing codebases\, manage running containers\, and more. We’ll explore how to troubleshoot container failures\, show how to network multiple containers together\, and touch on container orchestration tools like Docker’s Swarm mode\, HashiCorp Nomad\, Apache Mesos/Marathon\, and Kubernetes to see how our containers can be automatically distributed\, or “scheduled\,” and be tasked with their specialized workloads across a virtual private cloud based on whatever resources we have available to us.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-16-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
+UID:1623958200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
+DTSTAMP:20210612T004538Z
+DTSTART;VALUE=DATE-TIME:20210617T193000Z
+DTEND;VALUE=DATE-TIME:20210617T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This workshop is a practical introduction to creating\, using\, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before\, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity\, give you a sandbox in which to try out new software\, and much more!\n\nWorkshop Description\n\n\n  Virtualization and containerization are concepts almost as old as computing itself so\, no matter what you’re doing on your computer\, you’re probably using one form of it or another. For example\, partitioning a hard disk chunks its total capacity into smaller units useful for specific purposes\, much like the individual drawers in a dresser might separate undergarments from outerwear. Organizing\, or “containerizing\,” your closet this way is useful in its own right because it helps you keep things neat and orderly. But this organizing method also offers dramatic security enhancements because a misbehaving program (or dirty sock) will be confined to its own container.\n\n  Today\, virtualization has become integral to how desktop computers\, servers\, and global data networks work\, and cross-platform\, Free Software virtualization programs have never been easier to use. Storage virtualization makes it possible for a single file on your computer to appear to be an entire hard disk drive (such as provided by VeraCrypt)\, network virtualization makes it possible to simulate different networks (e.g.\, using VLANs) or even the whole Internet (using INetSim)\, processor virtualization makes it possible to run programs built for one microchip architecture on computers running a completely different one (e.g.\, in QEMU)\, and fully-fledged virtual machine monitors (VMMs) or hypervisors can construct and modify entire hardware environments complete with virtual video monitors and other peripherals on the fly (as is offered by Proxmox). Virtualization is even the bedrock of numerous Operating System and Web browser security features\, such as in the Qubes Operating System\, macOS’s App Sandbox\, and Firefox Containers.\n\n  Whether you’re using your computer for fun or for profit\, this workshop will get you up and running with Virtual Machines using the VirtualBox type-2 hypervisor so you can experiment with unfamiliar software more boldly\, browse the Web more safely\, and play games you otherwise wouldn’t have been able to. By learning how to take advantage of the virtualization capabilities your computer already offers\, you can revive your love of that long-lost DOS point-and-click adventure\, reliably build and test single- and multi-machine networked software systems\, or simply create an almost unlimited number of purpose-built virtual machines that all exist\, like inception\, inside your existing laptop or other personal computer.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-17-the-imitation-game-introduction-to-administering-virtual-machine-systems
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1624131000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210619T193000Z
 DTEND;VALUE=DATE-TIME:20210619T210000Z
 
@@ -160,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1624217400-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210620T193000Z
 DTEND;VALUE=DATE-TIME:20210620T210000Z
 
@@ -172,9 +214,51 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.something-for-everyone-file-servers-and-other-network-attached-storage.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
+UID:1624390200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
+DTSTAMP:20210612T004538Z
+DTSTART;VALUE=DATE-TIME:20210622T193000Z
+DTEND;VALUE=DATE-TIME:20210622T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol\, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations\, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up\, access\, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself\, friends\, or comrades.\n\nWorkshop Description\n\n\n  Every app you use—from messengers like Signal or WhatsApp to blogs and websites like WordPress and even other coordination tools like digital calendars and online maps—relies on a computer called a server. Whether that computer is one in your hand (your smartphone)\, or a computer somewhere across the Internet (“in the cloud”)\, no meaningful digital communication happens without servers offering services\, somewhere. So\, do you know where your servers are? If not\, you can’t know how safe your data is!\n\n  When you don’t have a clear map of how your messages and other data gets from here to there\, you might be at risk of someone listening in on your conversations. When you rely on services that you don’t own yourself for critical day-to-day operations (like Google Calendar\, or Facebook…) you risk losing access to those capabilities by having your account banned\, even by mistake. Regardless of your specific situation\, knowing more about the digital servers that are serving you is a vital first step for supporting communities or companies large and small.\n\n  This intermediate-level workshop combines various topics from the Tech Learning Collective’s System Administration\, Networking\, and Security courses to offer an intensive crash course in secure server setup\, monitoring\, and maintenance. By taking a deep dive into the SSH protocol\, you’ll learn how to set up remote administrative access to a server in a safe way\, and you’ll be exposed to the potential risks of network eavesdroppers\, Machine-in-the-Middle (MITM) attacks\, and much more. By the end of this workshop\, you’ll have a basic understanding of how to safely operate self-hosted digital infrastructures for yourself\, your friends\, and your comrades\, as well as what first steps you need to take to keep intruders and enemies at bay.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-22-securing-our-servers-basic-network-operations-for-autonomous-communities
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
+UID:1624476600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
+DTSTAMP:20210612T004538Z
+DTSTART;VALUE=DATE-TIME:20210623T193000Z
+DTEND;VALUE=DATE-TIME:20210623T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Master the fundamentals of personal and enterprise-grade network firewalls in this hands-on workshop about network perimeter security. By learning to use the macOS\, Windows\, BSD\, and Linux firewalls (including command-line utilities like iptables\, nft\, and pfctl)\, you can protect your devices even on untrustworthy or hostile networks\, like public Wi-Fi. Intended for all audiences\, you’ll gain experience with both beginner-friendly and advanced tools including dedicated firewall distributions (like pfSense and IPFire) as you get an introduction to a wide range of NetSec scenarios. We’ll also cover the important security properties of NAT routers\, how deep packet inspection (DPI) works\, and get you started with industry-standard Network Intrusion Detection/Prevention Systems (NIDS/NIPS) like Snort and Suricata.\n\nWorkshop Description\n\n\n  In today’s ubiquitous computing environment\, the most frequently used entrance (and exit!) in to (or out of) any system is its network connection. That’s why network firewalls have been a central component of every network security architecture since their introduction in the 1980’s. A firewall’s primary responsibility is to stop the spread of malware\, help prevent cyberattacks and unauthorized data exfiltration\, or isolate other problems in one network or network segment from affecting others. Thus\, firewalls serve to compartmentalize one area of a computer network from another. And while they are most commonly thought of as being at network boundaries like your home or office router\, just about every computer has a firewall these days\, including your personal laptop.\n\n  Modern firewalls can also do a lot more than their first or second generation ancestors that simply blocked certain ports or kept track of ongoing conversations between two endpoints. By building on so-called Deep Packet Inspection (DPI) technology\, firewalls can analyze the traffic passing through them in real time\, making decisions about what to allow or block based on myriad factors. On more heavily policed or otherwise protected networks\, firewalls have evolved into very powerful Network Intrusion Detection or Prevention Systems (NIDS/NIPS).\n\n  But don’t make the mistake of thinking this power is reserved for rich corporations! The firewall built into the Linux kernel (called Netfilter and controlled with the iptables or nft commands) is the backbone of many commercial enterprise firewall distributions\, and it’s available free of charge. Plus\, its ability to intercept and modify traffic in-flight is the basis of many proxy technologies such as Docker’s networking and Kubernetes’s kube-proxy\, among others.\n\n  So\, are your network shields up? Find out at this workshop where we’ll show you how to use the firewall built-in to your Windows\, macOS\, or GNU/Linux laptop. We’ll also show you how to set up firewalled subnets using NAT routers\, a bulletproof way to keep unsecured Internet of Things (IoT) or smart-home devices from infecting your more critical personal devices\, or to make a super-secure guest Wi-Fi network available for visitors. You’ll leave understanding the utility of so-called Layer 7 firewalls such as Web Application Firewalls (WAFs)\, and knowing how to test the security of your own firewall configurations.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-23-shields-up-firewalls-and-other-network-perimeter-defenses
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
+UID:1624563000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
+DTSTAMP:20210612T004538Z
+DTSTART;VALUE=DATE-TIME:20210624T193000Z
+DTEND;VALUE=DATE-TIME:20210624T210000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Find out how Virtual Private Networks (VPNs) can help you evade Internet censorship\, protect your network traffic\, and offer easier access to remote services on firewalled internal networks. You’ll learn how to set up and use OpenVPN\, a free and widely-deployed VPN solution\, so that you can connect securely to your home\, office\, or other provider’s networks no matter where you are and no matter who’s watching you. Using a VPN can also make it appear that you are accessing the Internet from a location other than where you are\, which means it’s simple to access some files or services that would otherwise be blocked where you live.\n\nWorkshop Description\n\n\n  How often have you wished you could be in two places at once? That’s exactly what Virtual Private Networking (VPN) technology was designed to allow computers to do. First popularized in 1996 by Microsoft’s Point-to-Point Tunneling Protocol (PPTP)\, using VPN technology made it possible for two disconnected networks to be knit back together into one as long as each of them were connected to a third middle network\, even if that middle network was hostile or untrusted. Today\, that middle network is usually the Internet\, which can certainly be hostile and untrusted! With a VPN\, it’s possible to be “here” (on your actual network) and “there” (on the other side of the VPN connection) at the same time\; by signing into a VPN service\, you create a “VPN tunnel” that acts like a wormhole in space-time in that whatever you send into the tunnel emerges on the other side as though the two sides of the tunnel are next to each other.\n\n  Throughout the late 1990’s and 2000’s\, VPN technology saw a surge in use among businesses looking for ways to enable remote workers. Using VPNs made it simpler for a colleague to travel because they could still be “directly connected” to their office network. By 2001\, the OpenVPN project made this amazing technology free and open source for GNU/Linux systems\, with cross-platform implementations for Mac OS X and Windows arriving shortly thereafter. Today\, OpenVPN servers form the bedrock of many modern free and commercial VPN solutions\, and are still the most widely deployed VPN solution for most use cases.\n\n  In this workshop\, you’ll get to see what happens when network packets are sent into VPN tunnels and how they appear on the other side in order to learn exactly how VPNs encapsulate—and secure—your computer’s communication with Web sites\, office servers\, or other services. You’ll see what it takes to set up your own OpenVPN server (not much!)\, as well as how to troubleshoot connection issues. You’ll also get introduced to several newer but less mature VPN protocols such as Wireguard\, and learn about Layer 2 and Layer 3 VPN solutions such as IPsec and its related tunneling (L2TP) and security (ESP\, IKE\, etcetera) protocols.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/06/workshop-2021-06-24-two-places-at-once-understanding-virtual-private-networks
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.two-places-at-once-understanding-virtual-private-networks.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1624735800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210626T193000Z
 DTEND;VALUE=DATE-TIME:20210626T210000Z
 
@@ -188,7 +272,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1624822200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210611T183241Z
+DTSTAMP:20210612T004538Z
 DTSTART;VALUE=DATE-TIME:20210627T193000Z
 DTEND;VALUE=DATE-TIME:20210627T210000Z
 

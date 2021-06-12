@@ -182,6 +182,60 @@
 
 
 {
+    "title" : "Faster Than Light: Getting Started with Configuration Management",
+    "start" : "2021-06-15T15:30:00-0400",
+    "end"   : "2021-06-15T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-15-faster-than-light-getting-started-with-configuration-management",
+    "image" : "http://techlearningcollective.com/static/images/workshop.faster-than-light-getting-started-with-configuration-management.rectangle.jpg",
+    "teaser": "Learn how to beat back configuration drift on your servers by leveraging automation tools like Ansible in this deep dive workshop demonstrating modern DevOps practices for deploying, maintaining, and auditing compute clusters. Whether for a Web application, big data processing, or other project, you need to turn old-school runbooks into computerized playbooks that can execute Standard Operating Procedures quickly and reliably so you can deploy complex systems simply and predictably. Come learn about key concepts like idempotence and change control, and learn how giant corporations implement security principles like RBAC, all using free and open source software.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-15 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-15 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-15 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["TODO"]
+    }
+}
+,
+
+
+{
+    "title" : "Ship Shape Computing: Working with Containers and Containerizing Digital Workloads",
+    "start" : "2021-06-16T15:30:00-0400",
+    "end"   : "2021-06-16T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-16-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads",
+    "image" : "http://techlearningcollective.com/static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.rectangle.jpg",
+    "teaser": "Learn how to pack up your code bases, apps, and microservices and get ready to set sail aboard container orchestration platforms in the cloud or on your own metal in this introductory workshop about working with containers. Far from a newfangled buzzword, containerizing digital workloads have precedents dating back to the invention of the UNIX operating system in the 1970’s. Today, operating container engines like Docker and orchestration platforms like Kubernetes are increasingly essential skills, but difficult to navigate. This workshop will put you back on course by providing a ground-up view of what containers really are, where they came from, and how to best use them for DevOps, site reliability, and even enhanced security tasks.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-16 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-16 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-16 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/206483"]
+    }
+}
+,
+
+
+{
+    "title" : "The Imitation Game: Introduction to Administering Virtual Machine Systems",
+    "start" : "2021-06-17T15:30:00-0400",
+    "end"   : "2021-06-17T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-17-the-imitation-game-introduction-to-administering-virtual-machine-systems",
+    "image" : "http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.jpg",
+    "teaser": "This workshop is a practical introduction to creating, using, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity, give you a sandbox in which to try out new software, and much more!",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-17 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-17 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-17 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/206484"]
+    }
+}
+,
+
+
+{
     "title" : "Developing Digital Dexterity: Introduction to JavaScript",
     "start" : "2021-06-19T15:30:00-0400",
     "end"   : "2021-06-19T17:00:00-0400",
@@ -212,6 +266,60 @@
         "maximumAttendeeCapacity": 15,
         "isAccessibleForFree": null,
         "sameAs": ["https://gobrunch.com/events/203803"]
+    }
+}
+,
+
+
+{
+    "title" : "Securing Our Servers: Basic Network Operations for Autonomous Communities",
+    "start" : "2021-06-22T15:30:00-0400",
+    "end"   : "2021-06-22T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-22-securing-our-servers-basic-network-operations-for-autonomous-communities",
+    "image" : "http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg",
+    "teaser": "Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-22 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-22 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-22 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/206486"]
+    }
+}
+,
+
+
+{
+    "title" : "Shields Up: Firewalls and Other Network Perimeter Defenses",
+    "start" : "2021-06-23T15:30:00-0400",
+    "end"   : "2021-06-23T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-23-shields-up-firewalls-and-other-network-perimeter-defenses",
+    "image" : "http://techlearningcollective.com/static/images/workshop.shields-up-firewalls-and-other-network-perimeter-defenses.rectangle.jpg",
+    "teaser": "Master the fundamentals of personal and enterprise-grade network firewalls in this hands-on workshop about network perimeter security. By learning to use the macOS, Windows, BSD, and Linux firewalls (including command-line utilities like `iptables`, `nft`, and `pfctl`), you can protect your devices even on untrustworthy or hostile networks, like public Wi-Fi. Intended for all audiences, you’ll gain experience with both beginner-friendly and advanced tools including dedicated firewall distributions (like pfSense and IPFire) as you get an introduction to a wide range of NetSec scenarios. We’ll also cover the important security properties of NAT routers, how deep packet inspection (DPI) works, and get you started with industry-standard Network Intrusion Detection/Prevention Systems (NIDS/NIPS) like Snort and Suricata.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-23 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-23 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-23 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/206487"]
+    }
+}
+,
+
+
+{
+    "title" : "Two Places at Once: Understanding Virtual Private Networks",
+    "start" : "2021-06-24T15:30:00-0400",
+    "end"   : "2021-06-24T17:00:00-0400",
+    "url"   : "http://techlearningcollective.com/events/2021/06/workshop-2021-06-24-two-places-at-once-understanding-virtual-private-networks",
+    "image" : "http://techlearningcollective.com/static/images/workshop.two-places-at-once-understanding-virtual-private-networks.rectangle.jpg",
+    "teaser": "Find out how Virtual Private Networks (VPNs) can help you evade Internet censorship, protect your network traffic, and offer easier access to remote services on firewalled internal networks. You’ll learn how to set up and use OpenVPN, a free and widely-deployed VPN solution, so that you can connect securely to your home, office, or other provider’s networks no matter where you are and no matter who’s watching you. Using a VPN can also make it appear that you are accessing the Internet from a location other than where you are, which means it’s simple to access some files or services that would otherwise be blocked where you live.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-24 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-24 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-24 15:30:00 -0400"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/206488"]
     }
 }
 ,
