@@ -193,7 +193,7 @@
         "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2021-06-15 15:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2021-06-15 15:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2021-06-15 15:30:00 -0400"}],
         "maximumAttendeeCapacity": 15,
         "isAccessibleForFree": null,
-        "sameAs": ["TODO"]
+        "sameAs": ["https://gobrunch.com/events/206482"]
     }
 }
 ,
