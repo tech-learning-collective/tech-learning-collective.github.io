@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1621879200-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210524T180000Z
 DTEND;VALUE=DATE-TIME:20210524T193000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1621965600-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210525T180000Z
 DTEND;VALUE=DATE-TIME:20210525T193000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1622316600-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210529T193000Z
 DTEND;VALUE=DATE-TIME:20210529T210000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1622403000-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210530T193000Z
 DTEND;VALUE=DATE-TIME:20210530T210000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1622921400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210605T193000Z
 DTEND;VALUE=DATE-TIME:20210605T210000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1623007800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210606T193000Z
 DTEND;VALUE=DATE-TIME:20210606T210000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1623526200-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210612T193000Z
 DTEND;VALUE=DATE-TIME:20210612T210000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1623612600-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210613T193000Z
 DTEND;VALUE=DATE-TIME:20210613T210000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1623785400-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210615T193000Z
 DTEND;VALUE=DATE-TIME:20210615T210000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1623871800-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210616T193000Z
 DTEND;VALUE=DATE-TIME:20210616T210000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1623958200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210617T193000Z
 DTEND;VALUE=DATE-TIME:20210617T210000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1624131000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210619T193000Z
 DTEND;VALUE=DATE-TIME:20210619T210000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1624217400-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210620T193000Z
 DTEND;VALUE=DATE-TIME:20210620T210000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1624390200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210622T193000Z
 DTEND;VALUE=DATE-TIME:20210622T210000Z
 
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1624476600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210623T193000Z
 DTEND;VALUE=DATE-TIME:20210623T210000Z
 
@@ -216,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1624563000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210624T193000Z
 DTEND;VALUE=DATE-TIME:20210624T210000Z
 
@@ -230,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1624735800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210626T193000Z
 DTEND;VALUE=DATE-TIME:20210626T210000Z
 
@@ -244,7 +244,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1624822200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210624T063221Z
+DTSTAMP:20210624T123835Z
 DTSTART;VALUE=DATE-TIME:20210627T193000Z
 DTEND;VALUE=DATE-TIME:20210627T210000Z
 
