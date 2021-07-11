@@ -4,6 +4,8 @@ backgroundColor: rgba(61, 94, 98, 1)
 darkBackgroundColor: rgba(37, 57, 60, 1)
 ---
 
+{% include announce-course-pause.html %}
+
 Enrolling in a Tech Learning Collective course is a three-stage process:
 
 1. [Register for pre-enrollment](#the-pre-enrollment-process) in a specific course. (Choose a course on our [Course Catalog]({% link courses/index.md %}). You can register for pre-enrollment in more than one course at a time.)
@@ -38,7 +40,7 @@ We will contact you within two weeks of the date of your video interview to let 
 
 **If you are accepted as a student**, you will be eligible to enroll in the course to which you have applied.
 
-Courses are offered semi-regularly and are based on a combination of teacher, student, and venue availability. You will be informed of the available course dates and will have the opportunity to enroll immediately in the upcoming course or defer your enrollment for up to six months so that you can choose the specific course timeline that works best for your schedule.
+Courses are offered semi-regularly and are based on a combination of teacher, student, and venue availability. You will be informed of the available course dates and will have the opportunity to enroll immediately in the upcoming course or defer your enrollment for up to six months (or indefinitely if you applied during the COVID-19 pause period, currently ongoing) so that you can choose the specific course timeline that works best for your schedule.
 
 If, for some reason, no course dates are available within six months of your acceptance, your enrollment deferral window can be extended indefinitely.
 

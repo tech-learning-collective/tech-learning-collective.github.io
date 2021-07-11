@@ -4,7 +4,9 @@ backgroundColor: rgba(189, 14, 96, 1)
 darkBackgroundColor: rgba(102, 7, 51, 1)
 ---
 
-Tech Learning Collective currently offers courses in the following subjects. Choose a subject to view the available courses for that subject. You can apply to enroll in more than one course at a time.
+{% include announce-course-pause.html %}
+
+Tech Learning Collective courses cover the following subjects. Choose a subject to view the available courses for that subject. You can apply to enroll in more than one course at a time.
 
 {% include get-subjects.liquid %}
 <ul id="subjects-list">
