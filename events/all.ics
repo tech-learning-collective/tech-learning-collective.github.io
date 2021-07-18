@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1623958200-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210617T193000Z
 DTEND;VALUE=DATE-TIME:20210617T210000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1624131000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210619T193000Z
 DTEND;VALUE=DATE-TIME:20210619T210000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1624217400-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210620T193000Z
 DTEND;VALUE=DATE-TIME:20210620T210000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1624390200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210622T193000Z
 DTEND;VALUE=DATE-TIME:20210622T210000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1624476600-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210623T193000Z
 DTEND;VALUE=DATE-TIME:20210623T210000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1624563000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210624T193000Z
 DTEND;VALUE=DATE-TIME:20210624T210000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1624735800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210626T193000Z
 DTEND;VALUE=DATE-TIME:20210626T210000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1624822200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210627T193000Z
 DTEND;VALUE=DATE-TIME:20210627T210000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1625333400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210703T173000Z
 DTEND;VALUE=DATE-TIME:20210703T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1625938200-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210710T173000Z
 DTEND;VALUE=DATE-TIME:20210710T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1626024600-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210711T173000Z
 DTEND;VALUE=DATE-TIME:20210711T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1626543000-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210717T173000Z
 DTEND;VALUE=DATE-TIME:20210717T190000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1626629400-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210718T173000Z
 DTEND;VALUE=DATE-TIME:20210718T190000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1627147800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210724T173000Z
 DTEND;VALUE=DATE-TIME:20210724T190000Z
 
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1627234200-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210725T173000Z
 DTEND;VALUE=DATE-TIME:20210725T190000Z
 
@@ -216,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1627752600-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210731T173000Z
 DTEND;VALUE=DATE-TIME:20210731T190000Z
 
@@ -230,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1627839000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210718T044821Z
+DTSTAMP:20210718T063129Z
 DTSTART;VALUE=DATE-TIME:20210801T173000Z
 DTEND;VALUE=DATE-TIME:20210801T190000Z
 
