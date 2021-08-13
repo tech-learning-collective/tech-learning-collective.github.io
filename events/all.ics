@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1626543000-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210717T173000Z
 DTEND;VALUE=DATE-TIME:20210717T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1626629400-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210718T173000Z
 DTEND;VALUE=DATE-TIME:20210718T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1627147800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210724T173000Z
 DTEND;VALUE=DATE-TIME:20210724T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1627234200-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210725T173000Z
 DTEND;VALUE=DATE-TIME:20210725T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1627752600-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210731T173000Z
 DTEND;VALUE=DATE-TIME:20210731T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1627839000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210801T173000Z
 DTEND;VALUE=DATE-TIME:20210801T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1628357400-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210807T173000Z
 DTEND;VALUE=DATE-TIME:20210807T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1628443800-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210808T173000Z
 DTEND;VALUE=DATE-TIME:20210808T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1628962200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210814T173000Z
 DTEND;VALUE=DATE-TIME:20210814T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1629048600-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210815T173000Z
 DTEND;VALUE=DATE-TIME:20210815T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1629567000-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210821T173000Z
 DTEND;VALUE=DATE-TIME:20210821T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1629653400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210813T225736Z
+DTSTAMP:20210813T231039Z
 DTSTART;VALUE=DATE-TIME:20210822T173000Z
 DTEND;VALUE=DATE-TIME:20210822T190000Z
 
@@ -170,6 +170,34 @@ URL:http://techlearningcollective.com/events/2021/08/workshop-2021-08-22-tor-wha
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
+UID:1630171800-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
+DTSTAMP:20210813T231039Z
+DTSTART;VALUE=DATE-TIME:20210828T173000Z
+DTEND;VALUE=DATE-TIME:20210828T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in\, how to find out if you have been “pwned\,” what the risks are\, and what you can do to protect yourself from brute-force\, credential stuffing\, and other forms of account takeover attacks.\n\nWorkshop Description\n\n\n  Have you been “pwned”? For years\, security researcher Troy Hunt has been running a website at HaveIBeenPwned.com that lets you check to see if your online accounts have been pwned—that is\, if your personal information such as your password\, has been leaked\, accessed\, or (worst of all!) “cracked.” Go on\, check for yourself!\n\n  If you’ve been “pwned\,” this workshop is your chance to learn exactly what the risk might be\, and what you can do about it. Derived from one portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” (Security 101) course\, this class will clarify the basics of cryptography and encryption within a context that actually applies to your day to day life online.\n\n\n\n  Learn what websites do with your password when you log in to them\, and why using free password management software can make you both safer and more productive. On the flip side\, learn professional techniques for recovering passwords from their “encrypted” (hashed) representation\, such as using optimized wordlists\, word-mangling rulesets\, and employing basic doxing techniques for creating personally targeted password-cracking attacks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/08/workshop-2021-08-28-password-superpowers-how-to-crack-hashes-and-stump-hackers
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
+UID:1630258200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
+DTSTAMP:20210813T231039Z
+DTSTART;VALUE=DATE-TIME:20210829T173000Z
+DTEND;VALUE=DATE-TIME:20210829T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:To take full advantage of the Web\, especially as a digital publishing medium\, you need to start by using the full expressive power of its most fundamental part: the simple HTML “Web page.” This workshop covers HTML\, the HyperText Markup Language\, as though it were a language in which you can write poems as well as tables of facts and figures\, because it is! Learn how to structure your pages in digital rhyme and meter and find out why this approach results in better code for both beautiful designs and automated processes.\n\nWorkshop Description\n\n\n  The Hypertext Markup Language (HTML) is the de-facto standard for publishing information online\, a kind of digital equivalent to learning to read and write. Why\, then\, is it so rarely explained in terms of the language that it actually is? What is HTML’s grammar\, where do HTML “sentences” begin and end\, and how is meaning represented in its elements? You don’t need a computer science degree to learn a foreign language\, and that includes HTML.\n\n  This workshop is designed for anyone who ever wanted to toy with HTML once or twice\, whether it was in the 90’s or just last week. Based on a portion of the Tech Learning Collective’s WEB101 course\, it is a remarkably thorough treatment of some of the Web’s most powerful and most-often overlooked parts. Covering the structure of HTML and extending to the richness of semantic data formats like Microdata and RDFa\, learn how to write in the Web’s native language so that both humans (like your friends and comrades) and machines (like Google!) can find\, use\, and most importantly understand what you’re saying.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/08/workshop-2021-08-29-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
