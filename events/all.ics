@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1627147800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210724T173000Z
 DTEND;VALUE=DATE-TIME:20210724T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1627234200-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210725T173000Z
 DTEND;VALUE=DATE-TIME:20210725T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1627752600-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210731T173000Z
 DTEND;VALUE=DATE-TIME:20210731T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1627839000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210801T173000Z
 DTEND;VALUE=DATE-TIME:20210801T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1628357400-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210807T173000Z
 DTEND;VALUE=DATE-TIME:20210807T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1628443800-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210808T173000Z
 DTEND;VALUE=DATE-TIME:20210808T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1628962200-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210814T173000Z
 DTEND;VALUE=DATE-TIME:20210814T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1629048600-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210815T173000Z
 DTEND;VALUE=DATE-TIME:20210815T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1629567000-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210821T173000Z
 DTEND;VALUE=DATE-TIME:20210821T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1629653400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210822T173000Z
 DTEND;VALUE=DATE-TIME:20210822T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1630171800-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210828T173000Z
 DTEND;VALUE=DATE-TIME:20210828T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1630258200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210822T063006Z
+DTSTAMP:20210822T123844Z
 DTSTART;VALUE=DATE-TIME:20210829T173000Z
 DTEND;VALUE=DATE-TIME:20210829T190000Z
 
