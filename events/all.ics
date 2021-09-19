@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1629567000-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210821T173000Z
 DTEND;VALUE=DATE-TIME:20210821T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1629653400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210822T173000Z
 DTEND;VALUE=DATE-TIME:20210822T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1630171800-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210828T173000Z
 DTEND;VALUE=DATE-TIME:20210828T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1630258200-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210829T173000Z
 DTEND;VALUE=DATE-TIME:20210829T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1631381400-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210911T173000Z
 DTEND;VALUE=DATE-TIME:20210911T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1631467800-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210912T173000Z
 DTEND;VALUE=DATE-TIME:20210912T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1631986200-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210918T173000Z
 DTEND;VALUE=DATE-TIME:20210918T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1632072600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210919T173000Z
 DTEND;VALUE=DATE-TIME:20210919T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1632591000-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210925T173000Z
 DTEND;VALUE=DATE-TIME:20210925T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1632677400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20210926T173000Z
 DTEND;VALUE=DATE-TIME:20210926T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1633195800-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20211002T173000Z
 DTEND;VALUE=DATE-TIME:20211002T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1633282200-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20210919T163431Z
+DTSTAMP:20210919T163707Z
 DTSTART;VALUE=DATE-TIME:20211003T173000Z
 DTEND;VALUE=DATE-TIME:20211003T190000Z
 
@@ -170,6 +170,20 @@ URL:http://techlearningcollective.com/events/2021/10/workshop-2021-10-03-securin
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
+UID:1633887000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
+DTSTAMP:20210919T163707Z
+DTSTART;VALUE=DATE-TIME:20211010T173000Z
+DTEND;VALUE=DATE-TIME:20211010T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Find out how Virtual Private Networks (VPNs) can help you evade Internet censorship\, protect your network traffic\, and offer easier access to remote services on firewalled internal networks. You’ll learn how to set up and use OpenVPN\, a free and widely-deployed VPN solution\, so that you can connect securely to your home\, office\, or other provider’s networks no matter where you are and no matter who’s watching you. Using a VPN can also make it appear that you are accessing the Internet from a location other than where you are\, which means it’s simple to access some files or services that would otherwise be blocked where you live.\n\nWorkshop Description\n\n\n  How often have you wished you could be in two places at once? That’s exactly what Virtual Private Networking (VPN) technology was designed to allow computers to do. First popularized in 1996 by Microsoft’s Point-to-Point Tunneling Protocol (PPTP)\, using VPN technology made it possible for two disconnected networks to be knit back together into one as long as each of them were connected to a third middle network\, even if that middle network was hostile or untrusted. Today\, that middle network is usually the Internet\, which can certainly be hostile and untrusted! With a VPN\, it’s possible to be “here” (on your actual network) and “there” (on the other side of the VPN connection) at the same time\; by signing into a VPN service\, you create a “VPN tunnel” that acts like a wormhole in space-time in that whatever you send into the tunnel emerges on the other side as though the two sides of the tunnel are next to each other.\n\n  Throughout the late 1990’s and 2000’s\, VPN technology saw a surge in use among businesses looking for ways to enable remote workers. Using VPNs made it simpler for a colleague to travel because they could still be “directly connected” to their office network. By 2001\, the OpenVPN project made this amazing technology free and open source for GNU/Linux systems\, with cross-platform implementations for Mac OS X and Windows arriving shortly thereafter. Today\, OpenVPN servers form the bedrock of many modern free and commercial VPN solutions\, and are still the most widely deployed VPN solution for most use cases.\n\n  In this workshop\, you’ll get to see what happens when network packets are sent into VPN tunnels and how they appear on the other side in order to learn exactly how VPNs encapsulate—and secure—your computer’s communication with Web sites\, office servers\, or other services. You’ll see what it takes to set up your own OpenVPN server (not much!)\, as well as how to troubleshoot connection issues. You’ll also get introduced to several newer but less mature VPN protocols such as Wireguard\, and learn about Layer 2 and Layer 3 VPN solutions such as IPsec and its related tunneling (L2TP) and security (ESP\, IKE\, etcetera) protocols.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2021/10/workshop-2021-10-10-two-places-at-once-understanding-virtual-private-networks
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.two-places-at-once-understanding-virtual-private-networks.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
