@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1633887000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211010T173000Z
 DTEND;VALUE=DATE-TIME:20211010T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1634405400-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211016T173000Z
 DTEND;VALUE=DATE-TIME:20211016T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1634491800-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211017T173000Z
 DTEND;VALUE=DATE-TIME:20211017T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1635010200-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211023T173000Z
 DTEND;VALUE=DATE-TIME:20211023T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1635096600-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211024T173000Z
 DTEND;VALUE=DATE-TIME:20211024T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1635615000-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211030T173000Z
 DTEND;VALUE=DATE-TIME:20211030T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1635701400-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211031T173000Z
 DTEND;VALUE=DATE-TIME:20211031T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1636219800-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211106T173000Z
 DTEND;VALUE=DATE-TIME:20211106T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1636309800-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211107T183000Z
 DTEND;VALUE=DATE-TIME:20211107T200000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1636828200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211113T183000Z
 DTEND;VALUE=DATE-TIME:20211113T200000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1636914600-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211114T183000Z
 DTEND;VALUE=DATE-TIME:20211114T200000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1637433000-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211120T183000Z
 DTEND;VALUE=DATE-TIME:20211120T200000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1637519400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211121T183000Z
 DTEND;VALUE=DATE-TIME:20211121T200000Z
 
@@ -188,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1638037800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211127T183000Z
 DTEND;VALUE=DATE-TIME:20211127T200000Z
 
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1638124200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20211104T123916Z
+DTSTAMP:20211104T182952Z
 DTSTART;VALUE=DATE-TIME:20211128T183000Z
 DTEND;VALUE=DATE-TIME:20211128T200000Z
 
