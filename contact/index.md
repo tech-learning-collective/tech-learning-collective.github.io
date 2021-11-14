@@ -27,6 +27,4 @@ You can [subscribe to our announcement email list](mailto:techlearningcollective
 
 Tech Learning Collective moderates several peripheral (&ldquo;unofficial&rdquo;) communications channels for our alumni and community networks. Current and former students can log in to access their private [course]({% link courses/index.md %}) chat channels. Log in details are sent to students privately during their course experience; if you need these details resent, please email our general contact address listed above.
 
-We also invite the general public to join us in our [open community chat room](https://gitter.im/tech-learning-collective/community). This is a semi-moderated chat channel where everyone is welcome to stop by and spend a while. Discussions range from the technical to the humorous to the completely off-topic.
-
 **As with all Tech Learning Collective spaces, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior will result in immediate removal from this space.** Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
