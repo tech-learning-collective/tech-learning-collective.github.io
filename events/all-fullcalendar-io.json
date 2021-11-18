@@ -226,10 +226,10 @@
     "teaser": "Hex90 is a recurring occasional “queer hacker salon” featuring music, visuals, special performances, and unique experiences that mix technology, queer culture, art, and late-night partying of course! And they’re back for a sequel! Tech Learning Collective is sending our cybersecurity instructors to the Hex90 party to help party-goers navigate the event’s exclusive, physical-world cybersecurity component.",
     "location": "Wonderville",
     "schemaDotOrg": {
-        "offers": [{"name":"General Admission","price":15,"priceCurrency":"USD","availabilityEnds":"2022-01-15 21:00:00 -0500","url":"https://hex90.techlearningcollective.com/"},{"name":"Queers and Femmes","price":10,"priceCurrency":"USD","availabilityEnds":"2022-01-15 21:00:00 -0500","url":"https://hex90.techlearningcollective.com/"}],
+        "offers": [{"name":"General Admission","price":15,"priceCurrency":"USD","availabilityEnds":"2022-01-15 21:00:00 -0500","url":"https://hex90.techlearningcollective.com/#buy-tickets"},{"name":"Queers and Femmes","price":10,"priceCurrency":"USD","availabilityEnds":"2022-01-15 21:00:00 -0500","url":"https://hex90.techlearningcollective.com/#buy-tickets"}],
         "maximumAttendeeCapacity": null,
         "isAccessibleForFree": null,
-        "sameAs": ["https://hex90.party/"]
+        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex-90-1-15","https://withfriends.co/event/13104831/hex90_cold_boot"]
     }
 }
 ]
