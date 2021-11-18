@@ -10,14 +10,16 @@ offers:
       price: 15
       priceCurrency: USD
       availabilityEnds: *startDate
-      url: https://hex90.techlearningcollective.com/
+      url: https://hex90.techlearningcollective.com/#buy-tickets
     - name: Queers and Femmes
       price: 10
       priceCurrency: USD
       availabilityEnds: *startDate
-      url: https://hex90.techlearningcollective.com/
+      url: https://hex90.techlearningcollective.com/#buy-tickets
 sameAs:
     - https://hex90.party/
+    - https://www.wonderville.nyc/events/hex-90-1-15
+    - https://withfriends.co/event/13104831/hex90_cold_boot
 organizers:
     - Tech Learning Collective
     - Wonderville
