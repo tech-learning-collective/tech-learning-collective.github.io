@@ -21,6 +21,7 @@ sameAs:
     - https://www.wonderville.nyc/events/hex-90-1-15
     - https://withfriends.co/event/13104831/hex90_cold_boot
     - https://www.residentadvisor.net/events/1483306
+    - http://gomag.com/event/hex90-cold-boot/
 organizers:
     - Tech Learning Collective
     - Wonderville
