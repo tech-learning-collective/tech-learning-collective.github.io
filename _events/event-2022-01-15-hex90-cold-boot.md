@@ -22,6 +22,8 @@ sameAs:
     - https://withfriends.co/event/13104831/hex90_cold_boot
     - https://www.residentadvisor.net/events/1483306
     - http://gomag.com/event/hex90-cold-boot/
+    - https://patch.com/new-york/new-york-city/calendar/event/20220115/1622829/hex90-cold-boot
+    - https://www.meetup.com/New-York-Cryptoparty-Network/events/282530018/
 organizers:
     - Tech Learning Collective
     - Wonderville
