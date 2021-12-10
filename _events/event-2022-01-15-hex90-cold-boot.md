@@ -119,9 +119,7 @@ We are anti-(techno)capitalists, solarpunks, and radical technologists. Our ethi
 
 ## About XOXA
 
-Dedicated to cultivating an inclusive queer community through art, music and performance by curating the best of the Brooklyn underground for femmes and allies.
-
-[XOXA](https://xoxanyc.com/) curates the best of the Brooklyn underground for femmes and allies.
+XOXA (pronounced ex-oh-ex-ay) is a Brooklyn based queer collective of DJs, artists and performers founded in 2017. Their mission is to provide a supportive platform for women and LGBTQ+ artists to perform while creating an intentional party space for women, non-binary and trans individuals. You can follow [@xoxanyc on Facebook](https://www.facebook.com/xoxanyc) and [Instagram](https://www.instagram.com/xoxanyc) for more information on upcoming events and projects.
 
 ## About DJ Niyah West
 
