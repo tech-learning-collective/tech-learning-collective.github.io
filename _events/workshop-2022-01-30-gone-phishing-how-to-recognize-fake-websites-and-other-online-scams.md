@@ -1,7 +1,7 @@
 ---
 title: "Gone Phishing: How to Recognize Fake Websites and Other Online Scams"
-startDate: &startDate 2022-01-30 13:30:00 -0400
-endDate: 2022-01-30 15:00:00 -0400
+startDate: &startDate 2022-01-30 13:30:00 -0500
+endDate: 2022-01-30 15:00:00 -0500
 date: *startDate
 location: Remote
 payment_processor: paypal

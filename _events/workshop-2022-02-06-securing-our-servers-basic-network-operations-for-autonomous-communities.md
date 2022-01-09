@@ -1,7 +1,7 @@
 ---
 title: "Securing Our Servers: Basic Network Operations for Autonomous Communities"
-startDate: &startDate 2022-02-06 13:30:00 -0400
-endDate: 2022-02-06 15:00:00 -0400
+startDate: &startDate 2022-02-06 13:30:00 -0500
+endDate: 2022-02-06 15:00:00 -0500
 date: *startDate
 location: Remote
 payment_processor: paypal

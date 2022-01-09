@@ -1,7 +1,7 @@
 ---
 title: "Computer Language Foundations: Command Line Basics"
-startDate: &startDate 2022-01-22 13:30:00 -0400
-endDate: 2022-01-22 15:00:00 -0400
+startDate: &startDate 2022-01-22 13:30:00 -0500
+endDate: 2022-01-22 15:00:00 -0500
 date: *startDate
 location: Remote
 payment_processor: paypal

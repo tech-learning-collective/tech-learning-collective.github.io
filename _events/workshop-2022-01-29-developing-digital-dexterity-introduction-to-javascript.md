@@ -1,7 +1,7 @@
 ---
 title: "Developing Digital Dexterity: Introduction to JavaScript"
-startDate: &startDate 2022-01-29 13:30:00 -0400
-endDate: 2022-01-29 15:00:00 -0400
+startDate: &startDate 2022-01-29 13:30:00 -0500
+endDate: 2022-01-29 15:00:00 -0500
 date: *startDate
 location: Remote
 payment_processor: paypal

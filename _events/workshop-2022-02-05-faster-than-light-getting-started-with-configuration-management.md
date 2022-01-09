@@ -1,7 +1,7 @@
 ---
 title: "Faster Than Light: Getting Started with Configuration Management"
-startDate: &startDate 2022-02-05 13:30:00 -0400
-endDate: 2022-02-05 15:00:00 -0400
+startDate: &startDate 2022-02-05 13:30:00 -0500
+endDate: 2022-02-05 15:00:00 -0500
 date: *startDate
 location: Remote
 payment_processor: paypal
