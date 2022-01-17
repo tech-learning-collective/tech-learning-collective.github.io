@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1639852200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20211218T183000Z
 DTEND;VALUE=DATE-TIME:20211218T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1639938600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20211219T183000Z
 DTEND;VALUE=DATE-TIME:20211219T200000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1641148200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220102T183000Z
 DTEND;VALUE=DATE-TIME:20220102T200000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1641666600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220108T183000Z
 DTEND;VALUE=DATE-TIME:20220108T200000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1641753000-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220109T183000Z
 DTEND;VALUE=DATE-TIME:20220109T200000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Cold Boot
 UID:1642298400-hex90-cold-boot@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220116T020000Z
 DTEND;VALUE=DATE-TIME:20220116T070000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1642876200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220122T183000Z
 DTEND;VALUE=DATE-TIME:20220122T200000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1642962600-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220123T183000Z
 DTEND;VALUE=DATE-TIME:20220123T200000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1643481000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220129T183000Z
 DTEND;VALUE=DATE-TIME:20220129T200000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1643567400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220130T183000Z
 DTEND;VALUE=DATE-TIME:20220130T200000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1644085800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220205T183000Z
 DTEND;VALUE=DATE-TIME:20220205T200000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1644172200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220117T012405Z
+DTSTAMP:20220117T063311Z
 DTSTART;VALUE=DATE-TIME:20220206T183000Z
 DTEND;VALUE=DATE-TIME:20220206T200000Z
 
