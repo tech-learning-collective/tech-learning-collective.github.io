@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
-UID:1639938600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20220119T182822Z
-DTSTART;VALUE=DATE-TIME:20211219T183000Z
-DTEND;VALUE=DATE-TIME:20211219T200000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This workshop is a practical introduction to creating\, using\, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before\, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity\, give you a sandbox in which to try out new software\, and much more!\n\nWorkshop Description\n\n\n  Virtualization and containerization are concepts almost as old as computing itself so\, no matter what you’re doing on your computer\, you’re probably using one form of it or another. For example\, partitioning a hard disk chunks its total capacity into smaller units useful for specific purposes\, much like the individual drawers in a dresser might separate undergarments from outerwear. Organizing\, or “containerizing\,” your closet this way is useful in its own right because it helps you keep things neat and orderly. But this organizing method also offers dramatic security enhancements because a misbehaving program (or dirty sock) will be confined to its own container.\n\n  Today\, virtualization has become integral to how desktop computers\, servers\, and global data networks work\, and cross-platform\, Free Software virtualization programs have never been easier to use. Storage virtualization makes it possible for a single file on your computer to appear to be an entire hard disk drive (such as provided by VeraCrypt)\, network virtualization makes it possible to simulate different networks (e.g.\, using VLANs) or even the whole Internet (using INetSim)\, processor virtualization makes it possible to run programs built for one microchip architecture on computers running a completely different one (e.g.\, in QEMU)\, and fully-fledged virtual machine monitors (VMMs) or hypervisors can construct and modify entire hardware environments complete with virtual video monitors and other peripherals on the fly (as is offered by Proxmox). Virtualization is even the bedrock of numerous Operating System and Web browser security features\, such as in the Qubes Operating System\, macOS’s App Sandbox\, and Firefox Containers.\n\n  Whether you’re using your computer for fun or for profit\, this workshop will get you up and running with Virtual Machines using the VirtualBox type-2 hypervisor so you can experiment with unfamiliar software more boldly\, browse the Web more safely\, and play games you otherwise wouldn’t have been able to. By learning how to take advantage of the virtualization capabilities your computer already offers\, you can revive your love of that long-lost DOS point-and-click adventure\, reliably build and test single- and multi-machine networked software systems\, or simply create an almost unlimited number of purpose-built virtual machines that all exist\, like inception\, inside your existing laptop or other personal computer.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2021/12/workshop-2021-12-19-the-imitation-game-introduction-to-administering-virtual-machine-systems
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1641148200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220102T183000Z
 DTEND;VALUE=DATE-TIME:20220102T200000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1641666600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220108T183000Z
 DTEND;VALUE=DATE-TIME:20220108T200000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1641753000-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220109T183000Z
 DTEND;VALUE=DATE-TIME:20220109T200000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Cold Boot
 UID:1642298400-hex90-cold-boot@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220116T020000Z
 DTEND;VALUE=DATE-TIME:20220116T070000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1642876200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220122T183000Z
 DTEND;VALUE=DATE-TIME:20220122T200000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1642962600-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220123T183000Z
 DTEND;VALUE=DATE-TIME:20220123T200000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1643481000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220129T183000Z
 DTEND;VALUE=DATE-TIME:20220129T200000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1643567400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220130T183000Z
 DTEND;VALUE=DATE-TIME:20220130T200000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1644085800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220205T183000Z
 DTEND;VALUE=DATE-TIME:20220205T200000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1644172200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220119T182822Z
+DTSTAMP:20220120T013707Z
 DTSTART;VALUE=DATE-TIME:20220206T183000Z
 DTEND;VALUE=DATE-TIME:20220206T200000Z
 
