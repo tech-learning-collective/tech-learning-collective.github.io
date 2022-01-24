@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1641148200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220102T183000Z
 DTEND;VALUE=DATE-TIME:20220102T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1641666600-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220108T183000Z
 DTEND;VALUE=DATE-TIME:20220108T200000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1641753000-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220109T183000Z
 DTEND;VALUE=DATE-TIME:20220109T200000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Cold Boot
 UID:1642298400-hex90-cold-boot@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220116T020000Z
 DTEND;VALUE=DATE-TIME:20220116T070000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1642876200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220122T183000Z
 DTEND;VALUE=DATE-TIME:20220122T200000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1642962600-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220123T183000Z
 DTEND;VALUE=DATE-TIME:20220123T200000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1643481000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220129T183000Z
 DTEND;VALUE=DATE-TIME:20220129T200000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1643567400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220130T183000Z
 DTEND;VALUE=DATE-TIME:20220130T200000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1644085800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220205T183000Z
 DTEND;VALUE=DATE-TIME:20220205T200000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1644172200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220124T182709Z
+DTSTAMP:20220124T205418Z
 DTSTART;VALUE=DATE-TIME:20220206T183000Z
 DTEND;VALUE=DATE-TIME:20220206T200000Z
 
@@ -142,6 +142,62 @@ URL:http://techlearningcollective.com/events/2022/02/workshop-2022-02-06-securin
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
+UID:1644690600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
+DTSTAMP:20220124T205418Z
+DTSTART;VALUE=DATE-TIME:20220212T183000Z
+DTEND;VALUE=DATE-TIME:20220212T200000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Most individuals with access to a computer system have more power today than ever before\, but rarely do they make use of it or even know how much power they truly have. In this beginner’s workshop\, you’ll begin learning how to “speak with the machines.” By learning to communicate more expressively with the digital devices that are increasingly responsible for mediating contemporary society\, you’ll gain the power to effectively and materially change your relationship not only with your laptop\, but with global systems of law\, finance\, and even art\, literature\, and philosophy governing today’s world.\n\nWorkshop Description\n\n\n  How much good does a powerful tool do for you if you don’t know how to use it well? How much more capable would you be if you mastered all the tools available to you? It might sound ridiculous\, but failing to learn the practicalities of computer system operation basics is arguably the most common mistake people in the fast-paced tech scene make.\n\n  Modern computers are power tools\, and behind each one of them is a human operator\, or “system administrator\,” responsible for configuring and maintaining that computer. If you have a personal computer such as a laptop or smartphone\, then you are already a system administrator whether you realize it or not! Making sure the apps you want to use are installed and up to date\, managing the amount of free space you have for your photos\, and connecting or disconnecting from the Internet are all examples of simple system administration tasks that you probably already take on a daily basis.\n\n  In this beginner’s workshop\, we’ll start by exploring what happens inside your computer when you take every-day tasks like open a Web browser or save files\, and then dive down the rabbit hole to meet the special class of programs that make it possible for all your other programs to work. Called daemons\, short for Disk Access and Execution Monitors\, they make up the world of Operating System services\, signals\, sockets\, and more under the hood of your desktop environment. By the end of this workshop\, you’ll have a far deeper understanding of how to care for your computer\, as well as the ability to understand any new tools or services you encounter a whole lot faster than ever before.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/02/workshop-2022-02-12-taming-daemons-system-administration-and-operation-basics
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.taming-daemons-system-administration-and-operation-basics.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
+UID:1644777000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
+DTSTAMP:20220124T205418Z
+DTSTART;VALUE=DATE-TIME:20220213T183000Z
+DTEND;VALUE=DATE-TIME:20220213T200000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Find out how Virtual Private Networks (VPNs) can help you evade Internet censorship\, protect your network traffic\, and offer easier access to remote services on firewalled internal networks. You’ll learn how to set up and use OpenVPN\, a free and widely-deployed VPN solution\, so that you can connect securely to your home\, office\, or other provider’s networks no matter where you are and no matter who’s watching you. Using a VPN can also make it appear that you are accessing the Internet from a location other than where you are\, which means it’s simple to access some files or services that would otherwise be blocked where you live.\n\nWorkshop Description\n\n\n  How often have you wished you could be in two places at once? That’s exactly what Virtual Private Networking (VPN) technology was designed to allow computers to do. First popularized in 1996 by Microsoft’s Point-to-Point Tunneling Protocol (PPTP)\, using VPN technology made it possible for two disconnected networks to be knit back together into one as long as each of them were connected to a third middle network\, even if that middle network was hostile or untrusted. Today\, that middle network is usually the Internet\, which can certainly be hostile and untrusted! With a VPN\, it’s possible to be “here” (on your actual network) and “there” (on the other side of the VPN connection) at the same time\; by signing into a VPN service\, you create a “VPN tunnel” that acts like a wormhole in space-time in that whatever you send into the tunnel emerges on the other side as though the two sides of the tunnel are next to each other.\n\n  Throughout the late 1990’s and 2000’s\, VPN technology saw a surge in use among businesses looking for ways to enable remote workers. Using VPNs made it simpler for a colleague to travel because they could still be “directly connected” to their office network. By 2001\, the OpenVPN project made this amazing technology free and open source for GNU/Linux systems\, with cross-platform implementations for Mac OS X and Windows arriving shortly thereafter. Today\, OpenVPN servers form the bedrock of many modern free and commercial VPN solutions\, and are still the most widely deployed VPN solution for most use cases.\n\n  In this workshop\, you’ll get to see what happens when network packets are sent into VPN tunnels and how they appear on the other side in order to learn exactly how VPNs encapsulate—and secure—your computer’s communication with Web sites\, office servers\, or other services. You’ll see what it takes to set up your own OpenVPN server (not much!)\, as well as how to troubleshoot connection issues. You’ll also get introduced to several newer but less mature VPN protocols such as Wireguard\, and learn about Layer 2 and Layer 3 VPN solutions such as IPsec and its related tunneling (L2TP) and security (ESP\, IKE\, etcetera) protocols.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/02/workshop-2022-02-13-two-places-at-once-understanding-virtual-private-networks
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.two-places-at-once-understanding-virtual-private-networks.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
+UID:1645295400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
+DTSTAMP:20220124T205418Z
+DTSTART;VALUE=DATE-TIME:20220219T183000Z
+DTEND;VALUE=DATE-TIME:20220219T200000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Come learn how the free Tor Web Browser can be your gateway to the Dark Web while simultaneously keeping you safer and your personal info more private as you browse web sites big and small. In this deep dive workshop on Tor\, the Tech Learning Collective’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool.\n\nWorkshop Description\n\n\n  From illegal online drug stores like Silk Road to DDoS botnet command and control headquarters\, media attention has long painted “the Dark Web” as though nothing good can come of it. But learn just a little bit more about how Tor and “hidden services” work and you’ll find a treasure trove of valuable possibilities for day-to-day Internet use. The same technology that can hide the location of a drug ring can also serve as a free VPN-like service to protect your privacy while you browse the Internet\, make censored websites available again\, and even let you host your own Internet services for free\, all without opening a single port on your firewall!\n\n  In this deep dive workshop on Tor\, the Tech Learning Collective’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool. They’ll demonstrate numerous Tor features such as Tor authentication\, target service load balancing\, and NAT-punching. In the process\, you’ll finally understand—on a technical level—what the “Dark Web” actually is and how it works. Bring a laptop to class\, and you’ll leave having run your own Dark Web site. This class is for everyone\; whether you’re a veteran black hat or a timid newbie\, this class will shine a light on the Dark Web once and for all.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/02/workshop-2022-02-19-tor-what-is-it-good-for-absolutely-everything
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
+UID:1645381800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
+DTSTAMP:20220124T205418Z
+DTSTART;VALUE=DATE-TIME:20220220T183000Z
+DTEND;VALUE=DATE-TIME:20220220T200000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop\, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer\, novelist\, or art designer.\n\nWorkshop Description\n\n\n  As most of us know first-hand\, the creative process involves many edits and revisions. Adding a little bit here\, trimming a little bit there\, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file\, pressing “Save As…” many times might suffice\, but what if your project spans dozens or even hundreds of files?\n\n  This is where version control systems (VCSs) shine. Designed to track\, compare\, and merge different versions of the same project\, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times\, across any number of files. Moreover\, by naming different snapshots\, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others\; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a branch) without throwing away or overwriting the original version of the project on which your changes were based.\n\n  In this beginner’s workshop\, you’ll learn the basics of Git\, a free distributed version control system on which popular sites like GitHub are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers\, Git is also useful for novelists\, researchers\, and anyone else whose work involves creativity in a digital medium.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/02/workshop-2022-02-20-collaboration-across-universes-basics-of-version-control-with-git
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
