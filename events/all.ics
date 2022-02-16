@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Cold Boot
-UID:1642298400-hex90-cold-boot@techlearningcollective.com
-DTSTAMP:20220216T062945Z
-DTSTART;VALUE=DATE-TIME:20220116T020000Z
-DTEND;VALUE=DATE-TIME:20220116T070000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:1186 Broadway\, Brooklyn\, NY\, 11221\, United States
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Queer hackers of the world\, unite! Tech Learning Collective is excited to invite you to Hex90’s latest queer hacker salon\, “Cold Boot\,” hosted at Wonderville\, where some of our teaching staff will be on-hand to assist players as they navigate the party’s “cybersecurity alternate reality experience” game produced in partnership with the semi-elusive NYC-based hacklab\, Shift-CTRL Space.\n\nMeet other queerdos and 1337 femmes revolutionizing New York City’s burgeoning cyber underground. Then test your pinball wizardry on A Place to Bury Strangers\, navigate Particle Mace’s deadly asteroid fields\, or survive the single-pixel gauntlet of Line Wobbler.\n\nConnect with your laptop or smartphone to plug into the party’s exclusive alternate reality cybersecurity experience where you’ll help save the world from evil corporations and top-secret government cover ups.\n\nR  2021-11-15\nFM HEX90\nTO QUEER HACKERS OF THE WORLD\n\nCOLD BOOT (SECRET//NOFORN)\n\nHEX90 — a queer hacker salon in nyc\n\nThe most powerful magic of all is the power of language.\n\nPerhaps you are still becoming aware of yourself as a magician. Perhaps you can already code\, but don't feel connected to the vibrating silicon enchanting your every keypress when you inscribe your intentions as spell-craft into your computer. Perhaps you don't yet know how to write the proper incantations\, but already feel strangely drawn to the arcane sigils and symbols animating the metal and electric fires in your machine.\n\nWe are witches\, wizards\, and techno-sorceresses. The shape shifters\, the body-changers\, the tele-mindful whose technology is humanity and connection itself. We were the original programmers\, the first hackers. And now\, we are returning.\n\ninfo_\n\nJanuary 15\, 2022 @ Wonderville\n1186 Broadway\, Brooklyn\, NY 11221\n9pm - 2am\n\n~ this venue is accessible\n~ this venue has gender-neutral restrooms\n\n# dressing up is encouraged but not required\n\nfeaturing_\n\n~ music performance by DJ Niyah West (XOXA)\n~ visuals &amp\; livecoding by Char Stiles (Livecode.NYC)\n~ indie arcade cabinets by Death By Audio\n~ hacking demos &amp\; education by Tech Learning Collective\n~ augmented reality cybersecurity game by Shift-CTRL Space\n\n#------------------------#\n#  TICKETS ON SALE SOON  #\n#------------------------#\n\nAdvance cover:\n$15.00 - str8t cismen\n$10.00 - queers and femmes\n\nAt the door:\n$20.00 - str8t cismen\n$15.00 - queers and femmes\n\n/**\n * Hex90 is an inclusive event.\n * Door staff is instructed to respect your self-identification.\n */\n\nNOTICE:\nThis is an intentionally queer space. Consent and respect are not optional! Anyone acting shitty will be removed immediately without a refund. No amount of racism\, queerphobia\, transphobia\, or sexism will be tolerated. This event is a celebration of queer hacking for queer hackers\, not for Silicon Valley entrepreneurs\, brogrammers\, or BitCoin bros. Don't piss off the hackers. \;)\n\nHex90\n\n###\n\n\nStart playing immediately and buy your ticket at the invitation site.\n\n\n  \n    $15 - General Admission\n  \n  \n    $10 - Queers and Femmes\n  \n\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from the event without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Shift-CTRL Space\n\nWe are anti-(techno)capitalists\, solarpunks\, and radical technologists. Our ethics place us against “Adtech\,” “Fintech\,” and Silicon Valley. We believe technology is an intangible earth\, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one’s actual communities. Our approach stands in contrast to isolationism\, sterility\, and authoritarianism by being participatory\, flexible\, and adaptive.\n\nAbout XOXA\n\nXOXA (pronounced ex-oh-ex-ay) is a Brooklyn based queer collective of DJs\, artists and performers founded in 2017. Their mission is to provide a supportive platform for women and LGBTQ+ artists to perform while creating an intentional party space for women\, non-binary and trans individuals. You can follow @xoxanyc on Facebook and Instagram for more information on upcoming events and projects.\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n\nAbout LiveCode.NYC\n\nWe are primarily a meetup group who gets together to discuss programming in real time. We view live coding as a methodology and not medium specific. Some of our members code graphics\, games\, VR and a handful live code music. Many languages are used within the group\, without one being prioritised. Many of us are artists. Sometimes we run events. The core of what we do is share live coding\, whether discussing types at our meetups or teaching a system one of us built. We hope to continue to find ways in which we can do this\, as a collective.\n\nAbout Char Stiles\n\nChar Stiles is an artist\, educator and programmer based in Brooklyn\, NY. She works creatively in the lower levels of computational systems to bring to light how computers work. Char works and collaborates across mediums such as interactive installation\, video\, performance and web. She is a part of the Livecode.nyc collective\, where she organizes shows\, and livecodes music and visuals.\n\nAbout Death By Audio\n\nThe Death By Audio Arcade is a series of lovingly crafted local multiplayer arcade cabinets produced by local indie game developers. We are also a progressive\, open community of like-minded artists\, artisans\, and enthusiasts. We host events at least once a month\, in NYC and at events across the country\, from SXSW to the Smithsonian.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/01/event-2022-01-15-hex90-cold-boot
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/event.hex90.flyer.2022-01-15.960x540.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1642876200-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220122T183000Z
 DTEND;VALUE=DATE-TIME:20220122T200000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1642962600-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220123T183000Z
 DTEND;VALUE=DATE-TIME:20220123T200000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Developing Digital Dexterity: Introduction to JavaScript
 UID:1643481000-developing-digital-dexterity-introduction-to-javascript@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220129T183000Z
 DTEND;VALUE=DATE-TIME:20220129T200000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Gone Phishing: How to Recognize Fake Websites and Other Online Scams
 UID:1643567400-gone-phishing-how-to-recognize-fake-websites-and-other-online-scams@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220130T183000Z
 DTEND;VALUE=DATE-TIME:20220130T200000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1644085800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220205T183000Z
 DTEND;VALUE=DATE-TIME:20220205T200000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1644172200-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220206T183000Z
 DTEND;VALUE=DATE-TIME:20220206T200000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1644690600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220212T183000Z
 DTEND;VALUE=DATE-TIME:20220212T200000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1644777000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220213T183000Z
 DTEND;VALUE=DATE-TIME:20220213T200000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1645295400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220219T183000Z
 DTEND;VALUE=DATE-TIME:20220219T200000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1645381800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220220T183000Z
 DTEND;VALUE=DATE-TIME:20220220T200000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1645900200-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220226T183000Z
 DTEND;VALUE=DATE-TIME:20220226T200000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1645986600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220227T183000Z
 DTEND;VALUE=DATE-TIME:20220227T200000Z
 
@@ -188,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220305T183000Z
 DTEND;VALUE=DATE-TIME:20220305T200000Z
 
@@ -202,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -216,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -230,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647196200-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220216T062945Z
+DTSTAMP:20220216T123750Z
 DTSTART;VALUE=DATE-TIME:20220313T183000Z
 DTEND;VALUE=DATE-TIME:20220313T200000Z
 
