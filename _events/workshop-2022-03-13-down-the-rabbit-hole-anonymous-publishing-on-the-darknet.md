@@ -1,7 +1,7 @@
 ---
 title: "Down the Rabbit Hole: Anonymous Publishing on the Darknet"
-startDate: &startDate 2022-03-13 13:30:00 -0500
-endDate: 2022-03-13 15:00:00 -0500
+startDate: &startDate 2022-03-13 13:30:00 -0400
+endDate: 2022-03-13 15:00:00 -0400
 date: *startDate
 location: Remote
 payment_processor: paypal
