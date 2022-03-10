@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1644690600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220212T183000Z
 DTEND;VALUE=DATE-TIME:20220212T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1644777000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220213T183000Z
 DTEND;VALUE=DATE-TIME:20220213T200000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1645295400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220219T183000Z
 DTEND;VALUE=DATE-TIME:20220219T200000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1645381800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220220T183000Z
 DTEND;VALUE=DATE-TIME:20220220T200000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1645900200-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220226T183000Z
 DTEND;VALUE=DATE-TIME:20220226T200000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1645986600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220227T183000Z
 DTEND;VALUE=DATE-TIME:20220227T200000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220305T183000Z
 DTEND;VALUE=DATE-TIME:20220305T200000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220310T063032Z
+DTSTAMP:20220310T124431Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
