@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1644690600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220212T183000Z
 DTEND;VALUE=DATE-TIME:20220212T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1644777000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220213T183000Z
 DTEND;VALUE=DATE-TIME:20220213T200000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1645295400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220219T183000Z
 DTEND;VALUE=DATE-TIME:20220219T200000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1645381800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220220T183000Z
 DTEND;VALUE=DATE-TIME:20220220T200000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1645900200-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220226T183000Z
 DTEND;VALUE=DATE-TIME:20220226T200000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1645986600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220227T183000Z
 DTEND;VALUE=DATE-TIME:20220227T200000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220305T183000Z
 DTEND;VALUE=DATE-TIME:20220305T200000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220320T173000Z
 DTEND;VALUE=DATE-TIME:20220320T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -174,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220310T183018Z
+DTSTAMP:20220310T193240Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -184,6 +184,62 @@ URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-27-bare-bo
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.rectangle.png
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
+UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
+DTSTAMP:20220310T193240Z
+DTSTART;VALUE=DATE-TIME:20220402T173000Z
+DTEND;VALUE=DATE-TIME:20220402T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to provide file sharing services by creating your own networked file server so that your family\, friends\, or colleagues have a private place to save\, share\, and work on documents or photos together. Maintaining the humble file server is among the most fundamental Information Technology (IT) department tasks in businesses or organizations big and small because most other activities revolve around document storage and retrieval. In this workshop\, you’ll be introduced to numerous free and open technologies such as Nextcloud that can replace more familiar Web-based online file storage services like Google Docs\, along with many of the file sharing protocols integral to Network Attached Storage (NAS) devices used in today’s enterprises\, like NFS\, SMB\, and WebDAV.\n\nWorkshop Description\n\n\n  As early as 1964\, computer makers like IBM\, Inc. were publicizing the idea that businesses could use computers to eliminate or drastically reduce the drudgery and tedium of paperwork by converting paper documents into electronic files. Of course\, even today not all businesses have what IBM promised would be a “paperless office\,” but many of them have a rapidly growing number of important digital documents that need to be stored reliably\, secured properly\, and shared privately. This is what makes the humble file server a centerpiece of Information Technology (IT) department responsibilities.\n\n  These days\, however\, it’s not just businesses who must manage loads of electronic documents. As society becomes increasingly digitized\, individuals\, community groups\, political organizers\, and even hobbyists are much more reliant on electronic files today than we have ever been before. This is where familiar Web-based online file storage services like Google Docs\, Microsoft Office 365\, and Dropbox Paper come in\, making it easy for people to save their work in “the cloud\,” as long as they’re comfortable letting the company providing the storage service have a peek at their work. But like most things in the Internet age\, the file storage and retrieval services that these companies offer are built on the back of Free\, Libre\, and Open Source Software programs and protocols available to everyone from individuals to large enterprises without paying a dime for them in either monetary cost or privacy exposure.\n\n  In this workshop\, you’ll learn what it takes to build your own online file storage service for yourself\, for a small group of friends\, or for a much larger organization. Starting with a simple “shared folder\,” you’ll get introduced to network protocols like WebDAV to see how they enable Web-based distributed authoring and versioning of files including Word documents\, Excel spreadsheets\, and PDFs\, and how these protocols fit into enterprise-ready file storage systems like Nextcloud. We’ll also discuss filesystem-level networked filing protocols that define a whole category of computer equipment called Network-Attached Storage (NAS) devices like the (Secure) File Transfer Protocol (SFTP) that are common in Web hosting environments\, and the Network File System (NFS) and Server Message Block (SMB) protocols that are common in homes and offices.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-02-something-for-everyone-file-servers-and-other-network-attached-storage
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.something-for-everyone-file-servers-and-other-network-attached-storage.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
+UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
+DTSTAMP:20220310T193240Z
+DTSTART;VALUE=DATE-TIME:20220403T173000Z
+DTEND;VALUE=DATE-TIME:20220403T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of computer networking in this workshop that starts by watching a “conversation” between two computers as it’s happening in real time. You’ll be introduced to the free professional network analysis application called Wireshark so that you can listen in on what the programs on your computer are saying to or hearing from other computers across the Internet. By the end of this workshop\, you’ll understand all about the basics of computer networking. If you’ve ever been curious about what happens “on the wire” when you’re browsing a Web site\, or if you ever wanted to take a look “under the hood” of your Wi-Fi connection\, this is the class for you!\n\nWorkshop Description\n\n\n  Our ability to browse Web sites\, send and receive digital messages like emails and text messages\, and make phone or video calls depends on the connections our digital devices make with one another. That makes it critical to understand how these connections are made\, and where they lead to. Far from being an amorphous “cloud\,” modern telecommunications networks and services like the Internet are made up of physical devices. Some of these you can see\, like your own computer or the router and modem in your house\, and others you can’t\, like distant servers or Layer 2 switches that make up the network infrastructure itself.\n\n  In this workshop derived from a portion of the Tech Learning Collective’s NET101 course\, you’ll have the opportunity to actually look—visually and with great detail—at how your computer “talks” to other computers like those that power Google Drive\, Facebook\, and other cloud services. By using an industry-standard tool called Wireshark\, we’ll dissect a conversation between your computer and a server and walk through the process of encapsulating a packet of application layer data\, emitting it onto a network\, and watching it travel to its destination. We’ll also touch on some illustrative counter-examples to explore how things can go wrong on a network\, such as DHCP server misconfigurations\, ARP spoofing attacks\, and unsecured or weakly-secured Wi-Fi networks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-03-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
+UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
+DTSTAMP:20220310T193240Z
+DTSTART;VALUE=DATE-TIME:20220409T173000Z
+DTEND;VALUE=DATE-TIME:20220409T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Come exploring with us as we show you how to map out interconnections between computers\, trace packet routes across network gateways\, and find information about network operators. In this workshop all about the voyages of frames\, packets\, and segments\, we use tools like nmap to send probes into cyberspace and tap into the wire with Wireshark to understand how they function.\n\nWorkshop Description\n\n\n  Have you ever wondered what’s between your computer and the websites you visit? Are you curious about where your messages actually go in order to get from here to there? Do you wonder what a map of computer networks really looks like? Come exploring with us as we embark on a journey into cyberspace\, the final Final Frontier! In this beginner-friendly workshop\, we’ll throw a metaphorical message in a bottle into the expanse of cyberspace\, and learn how to sense and track its movement as it makes its way back to us—or not!\n\n  These are the voyages of frames\, packets\, and segments—our messages—as they make their way across the vast reaches of the Internet. On the way\, they’ll encounter both friendly and unfriendly devices\, such as routers\, firewalls\, traffic inspectors\, or NAT tables. At each step of their journey\, a complex series of decisions are made to determine where they’ll be routed to next\, or if their journey is at an end. By using network mapping tools such as nmap along with digital wiretapping tools like Wireshark we can sense what happens on the far side of a network connection in much the same way as looking at the ripples on the surface of a river can tell us something about the shape of the riverbed.\n\n  Join us to explore strange new networks\, to seek out new devices and new organizations\, to boldly go where only packets have gone before!\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-09-exploring-cyberspace-network-sniffing-and-scanning
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
+UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
+DTSTAMP:20220310T193240Z
+DTSTART;VALUE=DATE-TIME:20220410T173000Z
+DTEND;VALUE=DATE-TIME:20220410T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:To take full advantage of the Web\, especially as a digital publishing medium\, you need to start by using the full expressive power of its most fundamental part: the simple HTML “Web page.” This workshop covers HTML\, the HyperText Markup Language\, as though it were a language in which you can write poems as well as tables of facts and figures\, because it is! Learn how to structure your pages in digital rhyme and meter and find out why this approach results in better code for both beautiful designs and automated processes.\n\nWorkshop Description\n\n\n  The Hypertext Markup Language (HTML) is the de-facto standard for publishing information online\, a kind of digital equivalent to learning to read and write. Why\, then\, is it so rarely explained in terms of the language that it actually is? What is HTML’s grammar\, where do HTML “sentences” begin and end\, and how is meaning represented in its elements? You don’t need a computer science degree to learn a foreign language\, and that includes HTML.\n\n  This workshop is designed for anyone who ever wanted to toy with HTML once or twice\, whether it was in the 90’s or just last week. Based on a portion of the Tech Learning Collective’s WEB101 course\, it is a remarkably thorough treatment of some of the Web’s most powerful and most-often overlooked parts. Covering the structure of HTML and extending to the richness of semantic data formats like Microdata and RDFa\, learn how to write in the Web’s native language so that both humans (like your friends and comrades) and machines (like Google!) can find\, use\, and most importantly understand what you’re saying.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-10-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
