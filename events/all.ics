@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1644690600-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220212T183000Z
 DTEND;VALUE=DATE-TIME:20220212T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Places at Once: Understanding Virtual Private Networks
 UID:1644777000-two-places-at-once-understanding-virtual-private-networks@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220213T183000Z
 DTEND;VALUE=DATE-TIME:20220213T200000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1645295400-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220219T183000Z
 DTEND;VALUE=DATE-TIME:20220219T200000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
 UID:1645381800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220220T183000Z
 DTEND;VALUE=DATE-TIME:20220220T200000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1645900200-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220226T183000Z
 DTEND;VALUE=DATE-TIME:20220226T200000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1645986600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220227T183000Z
 DTEND;VALUE=DATE-TIME:20220227T200000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220305T183000Z
 DTEND;VALUE=DATE-TIME:20220305T200000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220310T124431Z
+DTSTAMP:20220310T182325Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -142,6 +142,48 @@ URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-13-down-th
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.down-the-rabbit-hole-anonymous-publishing-on-the-darknet.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
+UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
+DTSTAMP:20220310T182325Z
+DTSTART;VALUE=DATE-TIME:20220320T173000Z
+DTEND;VALUE=DATE-TIME:20220320T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:BitTorrent\, the wildly popular but often maligned file sharing protocol\, is now being used in everything from (legal!) video streaming sites to corporate software update servers\, but you wouldn’t know that if you only listened to Big Media groups like the RIAA. In this beginner-friendly workshop\, we’ll bust BitTorrent myths and set the record straight about what “torrenting” actually is\, how it works\, and what you can do with it. You’ll see how next generation “decentralized” Web applications are making use of the technology\, how companies like Facebook and Blizzard\, Inc. use it every day\, how to make your own “torrents” to share files of your own\, and how and why some people take protective measures to torrent more privately.\n\nWorkshop Description\n\n\n  If you’ve heard anything about “downloading free movies on the Internet\,” you probably heard of BitTorrent or its more colloquial synonym\, “torrents.” You have also probably heard of companies threatening BitTorrent users with Internet service bans\, financial penalties\, and even lawsuits for “stealing intellectual property.“ Through expensive and coordinated disinformation campaigns\, companies like Disney and other “Big Content” media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard\, immoral\, and unsafe to use\, but the reality is far less one-sided.\n\n  BitTorrent refers to a file transfer technology that has been around since 2001 and is designed to make it easy for you to more quickly share very large files across a computer network\, even if your computer lacked a high-speed Internet connection. It worked so well that by the end of 2013 there were more than a quarter billion individual BitTorrent users on the Internet. While the media painted this as an epidemic of criminal behavior\, most BitTorrent uses were and still are both legal and mundane. Moreover\, the heaviest BitTorrent users were actually companies who built the technology into their own products\, such as Blizzard\, Inc. (the World of WarCraft company)\, who used BitTorrent to deliver updates of its game software to players.\n\n  Today\, BitTorrent is still one of the most popular\, cost-efficient\, and speediest large-file transfer technologies available to both individuals and multinational corporations alike. Cash-strapped Free Software projects such as GNU/Linux distributions use BitTorrent to distribute their installation packages in order to reduce their monthly bandwidth bills\, a whole new category of “decentralized Web” applications like ZeroNet are using BitTorrent under the hood to make Web publishing easier and more censorship-resistant than ever before\, and traditional Web sites with large bandwidth requirements like video streaming sites (e.g.\, PeerTube) are increasingly adopting a newer variant called WebTorrent to improve download speeds and interoperate with the massive existing BitTorrent network.\n\n  In this beginner-friendly workshop\, we’ll bust BitTorrent myths and set the record straight about what “torrenting” actually is\, how it works\, and what you can do with it. Learn how to find\, download\, and even create your own torrents so you can share files with friends and colleagues regardless of network obstacles like firewalls or NAT routers. Bring a laptop and you’ll be able to participate in a (legal and safe!) BitTorrent “swarm.” We’ll also discuss the implications of using BitTorrent for less-than-legal ends\, and demonstrate steps you can take to improve your privacy such as enabling BitTorrent encryption\, connecting to trackers through public proxies and Virtual Private Networks\, and building private seedboxes.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-20-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
+UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
+DTSTAMP:20220310T182325Z
+DTSTART;VALUE=DATE-TIME:20220326T173000Z
+DTEND;VALUE=DATE-TIME:20220326T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to make your own Virtual Private Cloud (VPC)\, automatically install software on the servers in your cloud\, and write executable runbooks to automatically perform upgrades and other maintenance with the press of a button. With today’s modern automation toolkits\, a two-person hobby project can outperform a 100-person company\, as long as they use the right tools the right way. In this workshop\, you’ll get a practical introduction to cloud infrastructure automation with tools like Ansible\, Vagrant\, and Terraform\, and a chance to solidify your understanding of fundamental DevOps skills that every IT professional needs.\n\nWorkshop Description\n\n\n  In today’s IT environments\, application servers\, databases\, file shares\, and even network devices are too numerous for any individual or team to provision\, configure\, and administer one at a time. To deploy\, maintain\, and secure large digital fleets\, site reliability engineers leverage the inherent power of computerized automation to perform everything from daily tasks (patching\, updating code) to critical but rare operations (migrations\, incident response). But even small groups can take advantage of this sort of automation to massively amplify their impact\; today\, a two-person hobby project can outperform a 100-person company if they use the right tools the right way.\n\n  Generically called Infrastructure as Code (IaC)\, modern configuration management tools like Ansible\, Chef\, SaltStack\, and Puppet make it possible for a single operator to paralellize executing Standard Operating Procedures (SOPs) like initiating backups or performing blue-green deployments on hundreds or thousands of machines at once. By using virtualization through IaC tools like Vagrant\, entire “cloud” environments can be emulated for heterogenous development teams\, massively streamlining everything from software development\, to R&amp\;D\, to education and onboarding. (Tech Learning Collective’s own course exercises and practice labs are defined in code as Vagrant configurations!) Encoding your organization’s infrastructure requirements in standard\, vendor-neutral\, open formats such as Terraform means you can switch from one infrastructure provider to another with ease. But perhaps most important of all\, “automating all the things” means that potential disasters like ransomware extortion attempts\, outages\, or even mere accidents can be audited\, diagnosed\, and remediated in a matter of minutes instead of days or weeks.\n\n  In this workshop\, you’ll get a practical introduction to cloud infrastructure automation. You’ll learn how to create your first virtual private cloud (VPC)\, add multiple machines to it\, automatically install server software on those machines\, and write exectuable runbooks to automatically perform upgrades and other maintenance tasks on your new infrastructure. Whether you’re already administering a fleet of servers at work\, or just want to slim your “weekend project” time down to size\, this far-reaching workshop will solidify your understanding of the development operations (DevOps) skills every IT professional needs to hone to have success with modern digital infrastructure projects.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-26-automate-all-the-things-a-primer-to-infrastructure-as-code
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.automate-all-the-things-a-primer-to-infrastructure-as-code.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
+UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
+DTSTAMP:20220310T182325Z
+DTSTART;VALUE=DATE-TIME:20220327T173000Z
+DTEND;VALUE=DATE-TIME:20220327T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:You don’t need to have your doctorate in theoretical mathematics to understand crypto enough to use it safely\, but you do need to use it safely to be secure! Come learn the magic behind the math in this cryptography primer for those of us who are not “number people.” Using simplified examples and hands-on demonstrations\, this workshop (finally!) offers a practical\, accessible introduction to the foundations of modern cryptographic security protocols such as RSA public-key cryptography\, stream and block ciphers\, digital signatures\, one-way hash functions\, Hash-based Message Authentication Codes (HMACs)\, and more.\n\nWorkshop Description\n\n\n  Every time you use a modern computer\, you invoke numerous simple mathematical functions that make it possible to do things like logging in to Web sites safely or “locking” (encrypting) your secret documents behind passwords. At their root\, these functions\, called cryptographic primitives\, are not that much more complicated than simple addition or division. But when used in concert with the massive storage capacities and processing speeds of our modern electronic devices\, they serve as the bedrock atop which every provably secure system works\, from password vaults to Virtual Private Networks (VPNs) to BitCoin and beyond.\n\n  Today\, everyone has full access to bulletproof “military grade encryption” for free\, even if they don’t realize it. Signal Private Messenger’s “Safety Numbers?” Those are cryptographic hash functions! One-time passwords generated by apps like Google Authenticator or Authy? They use nonces! The Tor anonymity network? That’s a mixnet! The padlock icon in the address bar of your Web browser? Block ciphers (and public-key cryptography\, and digital signatures\, oh my)!\n\n  Knowledge of cryptography was deemed so dangerous during the Cold War that ever since the end of World War II the United States and its military allies attempted to regulate access to these crypto powers by classifying them as “munitions” (i.e.\, mathematical weapons\, literally) and criminalizing their sale or export. But as the Internet gained widespread commercial adoption and more people became familiar with the underlying math\, the government largely relented. It eventually lost what is now retroactively known as the “Crypto Wars” in the 1990’s.\n\n  In this workshop\, you’ll learn the kind of math that governments tried to keep secret for decades\, even if you’re “not a math person.” You’ll see hash functions in practice\, learn why longer “keys” are stronger by understanding how RSA secrets are generated\, practice developing your own simple ciphers\, and start combining primitives to create security protocols that satisfy multiple requirements like confidentiality (privacy)\, integrity-protection (authenticity)\, and more. By the end of this workshop\, the dizzying vocabulary crytographers use will be well within your reach\, as will the ability to understand any new “encryption” product on the market.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-27-bare-bones-crypto-understanding-critical-cryptographic-primitives
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.bare-bones-crypto-understanding-critical-cryptographic-primitives.rectangle.png
 END:VEVENT
 
 END:VCALENDAR
