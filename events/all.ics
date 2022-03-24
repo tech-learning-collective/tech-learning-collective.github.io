@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Collaboration Across Universes: Basics of Version Control with Git
-UID:1645381800-collaboration-across-universes-basics-of-version-control-with-git@techlearningcollective.com
-DTSTAMP:20220323T183300Z
-DTSTART;VALUE=DATE-TIME:20220220T183000Z
-DTEND;VALUE=DATE-TIME:20220220T200000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Ever work on a project with other people? Of course you do. If you’ve been saving files with names like “Project-outline-1” and then saving another version of that file as “Project-outline-2” then you already understand the importance of a Version Control System (VCS). In this beginner’s workshop\, you’ll see the popular Git version control system in action and learn how to improve your collaborative workflow whether you’re a software engineer\, novelist\, or art designer.\n\nWorkshop Description\n\n\n  As most of us know first-hand\, the creative process involves many edits and revisions. Adding a little bit here\, trimming a little bit there\, but then hitting “undo” a bunch and experimenting with a new direction is quite normal! When your project is a single file\, pressing “Save As…” many times might suffice\, but what if your project spans dozens or even hundreds of files?\n\n  This is where version control systems (VCSs) shine. Designed to track\, compare\, and merge different versions of the same project\, these tools give you the ability to make a snapshot of the state of your work at a given point in time so that you can “undo” or “redo” any number of times\, across any number of files. Moreover\, by naming different snapshots\, you can create an infinite number of variations of your project and then build on those unique versions without affecting the others\; it’s as though the new version is in its own alternate universe. This makes it possible to easily and safely experiment in one universe (called a branch) without throwing away or overwriting the original version of the project on which your changes were based.\n\n  In this beginner’s workshop\, you’ll learn the basics of Git\, a free distributed version control system on which popular sites like GitHub are based. Git is lovingly called “the stupid content tracker” because it can track changes to everything and anything that can be digitized. Although it was originally invented for software programmers\, Git is also useful for novelists\, researchers\, and anyone else whose work involves creativity in a digital medium.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/02/workshop-2022-02-20-collaboration-across-universes-basics-of-version-control-with-git
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.collaboration-across-universes-basics-of-version-control-with-git.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Shields Up: Firewalls and Other Network Perimeter Defenses
 UID:1645900200-shields-up-firewalls-and-other-network-perimeter-defenses@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220226T183000Z
 DTEND;VALUE=DATE-TIME:20220226T200000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:World Wide Wars: Introduction to Exploiting Web Applications
 UID:1645986600-world-wide-wars-introduction-to-exploiting-web-applications@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220227T183000Z
 DTEND;VALUE=DATE-TIME:20220227T200000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220305T183000Z
 DTEND;VALUE=DATE-TIME:20220305T200000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1647711000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220319T173000Z
 DTEND;VALUE=DATE-TIME:20220319T190000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220320T173000Z
 DTEND;VALUE=DATE-TIME:20220320T190000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220402T173000Z
 DTEND;VALUE=DATE-TIME:20220402T190000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220403T173000Z
 DTEND;VALUE=DATE-TIME:20220403T190000Z
 
@@ -188,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220409T173000Z
 DTEND;VALUE=DATE-TIME:20220409T190000Z
 
@@ -202,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220323T183300Z
+DTSTAMP:20220324T015107Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
