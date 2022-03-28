@@ -265,7 +265,7 @@
         "offers": [{"name":"General Admission","price":15,"priceCurrency":"USD","availabilityEnds":"2022-05-07 20:30:00 -0400","url":"https://www.wonderville.nyc/events/hex90-overflow"},{"name":"Queers and Femmes","price":10,"priceCurrency":"USD","availabilityEnds":"2022-05-07 20:30:00 -0400","url":"https://www.wonderville.nyc/events/hex90-overflow"}],
         "maximumAttendeeCapacity": null,
         "isAccessibleForFree": null,
-        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-overflow","https://withfriends.co/event/14094422/hex90_overflow","https://www.residentadvisor.net/events/1483306","http://gomag.com/event/hex90-cold-boot/","https://patch.com/new-york/new-york-city/calendar/event/20220115/1622829/hex90-cold-boot","https://www.meetup.com/New-York-Cryptoparty-Network/events/282530018/"]
+        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-overflow","https://withfriends.co/event/14094422/hex90_overflow","https://ra.co/events/1516558","http://gomag.com/TODO","https://patch.com/new-york/new-york-city/calendar/event/20220507/1814820/hex90-overflow","https://meetup.com/TODO"]
     }
 }
 ]
