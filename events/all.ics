@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
 UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220305T183000Z
 DTEND;VALUE=DATE-TIME:20220305T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1647711000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220319T173000Z
 DTEND;VALUE=DATE-TIME:20220319T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220320T173000Z
 DTEND;VALUE=DATE-TIME:20220320T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220402T173000Z
 DTEND;VALUE=DATE-TIME:20220402T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220403T173000Z
 DTEND;VALUE=DATE-TIME:20220403T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220409T173000Z
 DTEND;VALUE=DATE-TIME:20220409T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
@@ -174,12 +174,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220404T183529Z
+DTSTAMP:20220404T213931Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:1186 Broadway\, Brooklyn\, NY\, 11221\, United States
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Queer hackers of the world\, unite! Tech Learning Collective is excited to invite you to Hex90’s latest queer hacker salon\, “Overflow\,” hosted at Wonderville\, where you can buy tickets.\n\nR  2022-05-07\nFM HEX90\nTO QUEER HACKERS OF THE WORLD\n\nOVERFLOW (SECRET//NOFORN)\n\nHEX90 — a queer hacker salon in NYC\n\nEverything is circles.\n\nThe past becomes the present\, the present becomes the future\, and the future becomes the past again. The same water in the ocean rises to the sky before returning to the sea. Which memories fade and which are refreshed? What lies beyond the waterfall of time and space?\n\nWe are hackers\, the witches\, the wizards\, the techno-sorceresses whose shapes shift within an infinite loop. We are the essence of the more.\n\nConstraints do not restrain us. Limitations give us powers others cannot understand because they do not see beyond the overflow.\n\nThey store integers in finite fields. We use those integers as portals into their machines. They reduce gender to a binary. We stretch those roles to (re)create theaters of infinite expressive possibility. They "build" software. We write reality. They "engineer" services. We enchant souls. They "command" tools. We invoke demons.\n\nEverything is circles.\n\ninfo_\n\nMay 7\, 2022 @ Wonderville\n1186 Broadway\, Brooklyn\, NY 11221\n8:30pm — 2:30am\n\n~ this venue is accessible\n~ this venue has gender-neutral restrooms\n~ this venue has outdoor space\n\n# dressing up is encouraged but not required\n\nfeaturing_\n\n~ music performances by\n~~ DJ Niyah West (@niyahwest\, XOXA)\n~~ Soo Intoit (@iamsoointoit\, CRITICAL HIT)\n~ visuals &amp\; livecoding by gwenpri.me\n~ indie games by Death By Audio Arcade\n~ hacking demos &amp\; education by Tech Learning Collective\n~ text adventure cybersecurity game by Shift-CTRL Space\n\nBRING YOUR LAPTOP SO YOU CAN HACK WITH US!\n\nIn addition to music and visuals\, the most unique addition of the Hex90 parties is a hyperlocal cybersecurity (hacking) themed text-adventure game that gave the party its name: Hex90. This game is played on your own laptop\, not on a console or arcade cabinet at the venue\, but is still only accessible when you are physically at the party venue itself. (Aside from a short "trailer\," the game is not available on the public Internet.)\n\nAfter you connect to the party's Wi-Fi network\, you can then connect to the Hex90 game server using your Web browser. But to solve the challenges\, you must download and install real hacker tools and learn how to employ real hacking techniques to progress through game levels ranging from network reconnaissance\, applied cryptography\, and Web exploitation. You've never seen so many queers open so many terminals in one place while being so close to a dance floor\, and there's no high quite like it.\n\nWe continuously add levels to the game\, so expect new challenges at most parties. Moreover\, we sometimes incorporate physical-world features of the venue\, like padlocks you need to pick that are safeguarding access to secret passwords\, QR codes stashed in unexpected places\, unassuming but exposed Ethernet cabling that turns out not to be a mistake at all\, and so on. At Hex90\, the game controller is your computer and the game mechanic is the real world.\n\nAll of the tools\, techniques\, and procedures (TTPs) used to progress in the game levels are skills taught by and equipment used by Tech Learning Collective instructors in our twice-weekly online workshops. Visit TechLearningCollective.com for more information and to enroll.\n\n#------------------#\n# START HACKING AT #\n#------------------#\nhttps://hex90.party\n\n#------------------#\n# BUY TICKETS HERE #\n#------------------#\nhttps://www.wonderville.nyc/events/hex90-overflow\n\nAdvance cover:\n$15.00 - str8t cismen\n$10.00 - queers and femmes\n\nAt the door:\n$20.00 - str8t cismen\n$15.00 - queers and femmes\n\n/**\n* Hex90 is an inclusive event.\n* Door staff is instructed to respect your self-identification.\n*/\n\nNOTICE:\nThis is an intentionally queer space. Consent and respect are not optional! Anyone acting shitty will be removed immediately without a refund. No amount of racism\, queer phobia\, transphobia\, or sexism will be tolerated. This event is a celebration of queer hacking for queer hackers\, not for Silicon Valley entrepreneurs\, brogrammers\, or BitCoin bros. Don't piss off the hackers. \;)\n\nHex90\n\n###\n\n\nStart playing immediately and buy your ticket at the invitation site.\n\n\n  \n    $15 - General Admission\n  \n  \n    $10 - Queers and Femmes\n  \n\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from the event without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Shift-CTRL Space\n\nWe are anti-(techno)capitalists\, solarpunks\, and radical technologists. Our ethics place us against “Adtech\,” “Fintech\,” and Silicon Valley. We believe technology is an intangible earth\, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one’s actual communities. Our approach stands in contrast to isolationism\, sterility\, and authoritarianism by being participatory\, flexible\, and adaptive.\n\nAbout XOXA\n\nXOXA (pronounced ex-oh-ex-ay) is a Brooklyn based queer collective of DJs\, artists and performers founded in 2017. Their mission is to provide a supportive platform for women and LGBTQ+ artists to perform while creating an intentional party space for women\, non-binary and trans individuals. You can follow @xoxanyc on Facebook and Instagram for more information on upcoming events and projects.\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n\nAbout LiveCode.NYC\n\nWe are primarily a meetup group who gets together to discuss programming in real time. We view live coding as a methodology and not medium specific. Some of our members code graphics\, games\, VR and a handful live code music. Many languages are used within the group\, without one being prioritised. Many of us are artists. Sometimes we run events. The core of what we do is share live coding\, whether discussing types at our meetups or teaching a system one of us built. We hope to continue to find ways in which we can do this\, as a collective.\n\nAbout Death By Audio\n\nThe Death By Audio Arcade is a series of lovingly crafted local multiplayer arcade cabinets produced by local indie game developers. We are also a progressive\, open community of like-minded artists\, artisans\, and enthusiasts. We host events at least once a month\, in NYC and at events across the country\, from SXSW to the Smithsonian.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Queer hackers of the world\, unite! Tech Learning Collective is excited to invite you to Hex90’s latest queer hacker salon\, “Overflow\,” hosted at Wonderville\, where you can buy tickets.\n\nR  2022-05-07\nFM HEX90\nTO QUEER HACKERS OF THE WORLD\n\nOVERFLOW (SECRET//NOFORN)\n\nHEX90 — a queer hacker salon in NYC\n\nEverything is circles.\n\nThe past becomes the present\, the present becomes the future\, and the future becomes the past again. The same water in the ocean rises to the sky before returning to the sea. Which memories fade and which are refreshed? What lies beyond the waterfall of time and space?\n\nWe are hackers\, the witches\, the wizards\, the techno-sorceresses whose shapes shift within an infinite loop. We are the essence of the more.\n\nConstraints do not restrain us. Limitations give us powers others cannot understand because they do not see beyond the overflow.\n\nThey store integers in finite fields. We use those integers as portals into their machines. They reduce gender to a binary. We stretch those roles to (re)create theaters of infinite expressive possibility. They "build" software. We write reality. They "engineer" services. We enchant souls. They "command" tools. We invoke demons.\n\nEverything is circles.\n\ninfo_\n\nMay 7\, 2022 @ Wonderville\n1186 Broadway\, Brooklyn\, NY 11221\n8:30pm — 2:30am\n\n~ this venue is accessible\n~ this venue has gender-neutral restrooms\n~ this venue has outdoor space\n\n# dressing up is encouraged but not required\n\nfeaturing_\n\n~ music performances by\n~~ DJ Niyah West (@niyahwest\, XOXA)\n~~ Soo Intoit (@iamsoointoit\, CRITICAL HIT)\n~ visuals &amp\; livecoding by gwenpri.me\n~ indie games by Death By Audio Arcade\n~ hacking demos &amp\; education by Tech Learning Collective\n~ text adventure cybersecurity game by Shift-CTRL Space\n\nBRING YOUR LAPTOP SO YOU CAN HACK WITH US!\n\nIn addition to music and visuals\, the most unique addition of the Hex90 parties is a hyperlocal cybersecurity (hacking) themed text-adventure game that gave the party its name: Hex90. This game is played on your own laptop\, not on a console or arcade cabinet at the venue\, but is still only accessible when you are physically at the party venue itself. (Aside from a short "trailer\," the game is not available on the public Internet.)\n\nAfter you connect to the party's Wi-Fi network\, you can then connect to the Hex90 game server using your Web browser. But to solve the challenges\, you must download and install real hacker tools and learn how to employ real hacking techniques to progress through game levels ranging from network reconnaissance\, applied cryptography\, and Web exploitation. You've never seen so many queers open so many terminals in one place while being so close to a dance floor\, and there's no high quite like it.\n\nWe continuously add levels to the game\, so expect new challenges at most parties. Moreover\, we sometimes incorporate physical-world features of the venue\, like padlocks you need to pick that are safeguarding access to secret passwords\, QR codes stashed in unexpected places\, unassuming but exposed Ethernet cabling that turns out not to be a mistake at all\, and so on. At Hex90\, the game controller is your computer and the game mechanic is the real world.\n\nAll of the tools\, techniques\, and procedures (TTPs) used to progress in the game levels are skills taught by and equipment used by Tech Learning Collective instructors in our twice-weekly online workshops. Visit TechLearningCollective.com for more information and to enroll.\n\n#------------------#\n# START HACKING AT #\n#------------------#\nhttps://hex90.party\n\n#------------------#\n# BUY TICKETS HERE #\n#------------------#\nhttps://www.wonderville.nyc/events/hex90-overflow\n\nAdvance cover:\n$15.00 - str8t cismen\n$10.00 - queers and femmes\n\nAt the door:\n$20.00 - str8t cismen\n$15.00 - queers and femmes\n\n/**\n* Hex90 is an inclusive event.\n* Door staff is instructed to respect your self-identification.\n*/\n\nNOTICE:\nThis is an intentionally queer space. Consent and respect are not optional! Anyone acting shitty will be removed immediately without a refund. No amount of racism\, queer phobia\, transphobia\, or sexism will be tolerated. This event is a celebration of queer hacking for queer hackers\, not for Silicon Valley entrepreneurs\, brogrammers\, or BitCoin bros. Don't piss off the hackers. \;)\n\nHex90\n\n###\n\n\nStart playing immediately and buy your ticket at the invitation site.\n\n\n  \n    $15 - General Admission\n  \n  \n    $10 - Queers and Femmes\n  \n\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from the event without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Shift-CTRL Space\n\nWe are anti-(techno)capitalists\, solarpunks\, and radical technologists. Our ethics place us against “Adtech\,” “Fintech\,” and Silicon Valley. We believe technology is an intangible earth\, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one’s actual communities. Our approach stands in contrast to isolationism\, sterility\, and authoritarianism by being participatory\, flexible\, and adaptive.\n\nAbout XOXA\n\nXOXA (pronounced ex-oh-ex-ay) is a Brooklyn based queer collective of DJs\, artists and performers founded in 2017. Their mission is to provide a supportive platform for women and LGBTQ+ artists to perform while creating an intentional party space for women\, non-binary and trans individuals. You can follow @xoxanyc on Facebook and Instagram for more information on upcoming events and projects.\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n\nAbout LiveCode.NYC\n\nWe are primarily a meetup group who gets together to discuss programming in real time. We view live coding as a methodology and not medium specific. Some of our members code graphics\, games\, VR and a handful live code music. Many languages are used within the group\, without one being prioritised. Many of us are artists. Sometimes we run events. The core of what we do is share live coding\, whether discussing types at our meetups or teaching a system one of us built. We hope to continue to find ways in which we can do this\, as a collective.\n\nAbout gwenpri.me\n\ngwenpri.me is a creative technologist\, artist\, and livecoder. She makes live visuals from videos\, pictures\, emoji\, text\, and more\, then composites them using live code techniques. She enjoys finding arcane ways to put pixels on screens. Past sets have included touch designer patching\, Lua DSLs\, command line video editors\, and more.\n\nAbout Death By Audio\n\nThe Death By Audio Arcade is a series of lovingly crafted local multiplayer arcade cabinets produced by local indie game developers. We are also a progressive\, open community of like-minded artists\, artisans\, and enthusiasts. We host events at least once a month\, in NYC and at events across the country\, from SXSW to the Smithsonian.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
 URL:http://techlearningcollective.com/events/2022/05/event-2022-05-07-hex90-overflow
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
