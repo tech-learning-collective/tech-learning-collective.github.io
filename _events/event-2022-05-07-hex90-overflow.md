@@ -21,6 +21,7 @@ sameAs:
     - https://www.wonderville.nyc/events/hex90-overflow
     - https://withfriends.co/event/14094422/hex90_overflow
     - https://ra.co/events/1516558
+    - https://tockify.com/bushwickdaily/detail/6489/1651969800000
     - http://gomag.com/TODO
     - https://patch.com/new-york/new-york-city/calendar/event/20220507/1814820/hex90-overflow
     - https://meetup.com/TODO
@@ -121,7 +122,7 @@ $15.00 - queers and femmes
 */
 
 NOTICE:
-This is an intentionally queer space. Consent and respect are not optional! Anyone acting shitty will be removed immediately without a refund. No amount of racism, queer phobia, transphobia, or sexism will be tolerated. This event is a celebration of queer hacking for queer hackers, not for Silicon Valley entrepreneurs, brogrammers, or BitCoin bros. Don't piss off the hackers. ;)
+This is an intentionally queer space. Consent and respect are not optional! Anyone acting shitty will be removed immediately without a refund. No amount of racism, queerphobia, transphobia, or sexism will be tolerated. This event is a celebration of queer hacking for queer hackers, not for Silicon Valley entrepreneurs, brogrammers, or BitCoin bros. Don't piss off the hackers. ;)
 
 Hex90
 
@@ -151,6 +152,10 @@ Niyah West (she/they) is a DJ, music curator and digital artist based in New Yor
 ## About [LiveCode.NYC](https://livecode.nyc/)
 
 We are primarily a meetup group who gets together to discuss programming in real time. We view live coding as a methodology and not medium specific. Some of our members code graphics, games, VR and a handful live code music. Many languages are used within the group, without one being prioritised. Many of us are artists. Sometimes we run events. The core of what we do is share live coding, whether discussing types at our meetups or teaching a system one of us built. We hope to continue to find ways in which we can do this, as a collective.
+
+## About [gwenpri.me](https://gwenpri.me/)
+
+gwenpri.me is a creative technologist, artist, and livecoder. She makes live visuals from videos, pictures, emoji, text, and more, then composites them using live code techniques. She enjoys finding arcane ways to put pixels on screens. Past sets have included touch designer patching, Lua DSLs, command line video editors, and more.
 
 ## About Death By Audio
 
