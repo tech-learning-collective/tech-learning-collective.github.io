@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Ship Shape Computing: Working with Containers and Containerizing Digital Workloads
-UID:1646505000-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads@techlearningcollective.com
-DTSTAMP:20220405T183652Z
-DTSTART;VALUE=DATE-TIME:20220305T183000Z
-DTEND;VALUE=DATE-TIME:20220305T200000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to pack up your code bases\, apps\, and microservices and get ready to set sail aboard container orchestration platforms in the cloud or on your own metal in this introductory workshop about working with containers. Far from a newfangled buzzword\, containerizing digital workloads have precedents dating back to the invention of the UNIX operating system in the 1970’s. Today\, operating container engines like Docker and orchestration platforms like Kubernetes are increasingly essential skills\, but difficult to navigate. This workshop will put you back on course by providing a ground-up view of what containers really are\, where they came from\, and how to best use them for DevOps\, site reliability\, and even enhanced security tasks.\n\nWorkshop Description\n\n\n  In the earliest days of computing\, an application would be responsible for processing only very small amounts of input. It would then produce a similarly small amount of output\, working as fast and efficiently as possible. Known as a processing “pipeline\,” this early solutions paradigm is most famously expressed as the so-called “UNIX philosophy\,” a programmer’s adage that states each program should “do (only) one thing\, and do it well\,” and it’s still the beating heart of powerful computer interfaces such as command line use to this day.\n\n  Then\, all throughout the 1980’s\, 90’s\, and 2000’s\, as computing speed relentlessly increased while its cost simultaneously plummeted\, companies began building larger\, more complex applications. Known as “monoliths\,” this generation of apps were well-suited for their environment\, where they were deployed onto singular mainframe-like computers housed inside private server rooms. But these application architectures are no longer sensible in a world where cloud computing and virtualization technologies make it possible to dynamically reserve compute power as user demand ebbs and flows. Why over-purchase server hardware when you can spin up another virtual machine to handle a spike in traffic\, then automatically have that machine shut itself down when incoming requests settle back at manageable levels?\n\n  That’s one reason why\, today\, online apps from Google\, Facebook\, and others are written as “microservices.” Far from being worthy of the buzzword-driven hype\, this paradigm is actually a return to software’s original designs where the goals of a larger application are processed independently by a set of cooperating but independent smaller programs\, each one performing only one job very well. To make this work in today’s cloud environments\, each microservice must be “containerized\,” packaged into a single Operating System process that is run by a container management engine such as Docker\, CoreOS’s rkt (pronounced “rocket”)\, or LXD in preparation for being orchestrated across a fleet of hundreds or thousands of (often virtual) compute instances.\n\n  In this hands-on workshop\, you’ll learn how to make use of the thousands of ready-made containers available at container registries such as the Docker Hub\, create new containers from scratch\, containerize existing codebases\, manage running containers\, and more. We’ll explore how to troubleshoot container failures\, show how to network multiple containers together\, and touch on container orchestration tools like Docker’s Swarm mode\, HashiCorp Nomad\, Apache Mesos/Marathon\, and Kubernetes to see how our containers can be automatically distributed\, or “scheduled\,” and be tasked with their specialized workloads across a virtual private cloud based on whatever resources we have available to us.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-05-ship-shape-computing-working-with-containers-and-containerizing-digital-workloads
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.ship-shape-computing-working-with-containers-and-containerizing-digital-workloads.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:What's in a Name: Understanding the Domain Name System
 UID:1646591400-what-s-in-a-name-understanding-the-domain-name-system@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220306T183000Z
 DTEND;VALUE=DATE-TIME:20220306T200000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1647711000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220319T173000Z
 DTEND;VALUE=DATE-TIME:20220319T190000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220320T173000Z
 DTEND;VALUE=DATE-TIME:20220320T190000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220402T173000Z
 DTEND;VALUE=DATE-TIME:20220402T190000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220403T173000Z
 DTEND;VALUE=DATE-TIME:20220403T190000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220409T173000Z
 DTEND;VALUE=DATE-TIME:20220409T190000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220405T183652Z
+DTSTAMP:20220406T015430Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
