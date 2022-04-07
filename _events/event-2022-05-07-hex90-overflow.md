@@ -22,7 +22,7 @@ sameAs:
     - https://withfriends.co/event/14094422/hex90_overflow
     - https://ra.co/events/1516558
     - https://tockify.com/bushwickdaily/detail/6489/1651969800000
-    - http://gomag.com/TODO
+    - https://gomag.com/event/hex90-overflow/
     - https://patch.com/new-york/new-york-city/calendar/event/20220507/1814820/hex90-overflow
     - https://meetup.com/TODO
 organizers:
