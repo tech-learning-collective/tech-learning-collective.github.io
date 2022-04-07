@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "What’s in a Name: Understanding the Domain Name System",
-    "start" : "2022-03-06T13:30:00-0500",
-    "end"   : "2022-03-06T15:00:00-0500",
-    "url"   : "http://techlearningcollective.com/events/2022/03/workshop-2022-03-06-whats-in-a-name-understanding-the-domain-name-system",
-    "image" : "http://techlearningcollective.com/static/images/workshop.whats-in-a-name-understanding-the-domain-name-system.rectangle.jpg",
-    "teaser": "Find out how easy it is to avoid certain forms of Internet censorship, phishing attacks, or network outages in this primer to the Domain Name System or DNS. Far from being just a way to translate names like Google.com into IP addresses, the DNS is actually a massively distributed, delegated database capable of housing all sorts of information. For administrators and programmers, understanding DNS is a crucial step to ensuring the health of applications and services. But it’s also one of the components of Internet networking most visible to users. This workshop will discuss recursive resolvers, anti-spam DNS resource records, and state-of-the-art security protocols such as DNS-over-HTTPS.",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2022-03-06 13:30:00 -0500"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2022-03-06 13:30:00 -0500"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2022-03-06 13:30:00 -0500"}],
-        "maximumAttendeeCapacity": 15,
-        "isAccessibleForFree": null,
-        "sameAs": ["https://gobrunch.com/events/248414/369815"]
-    }
-}
-,
-
-
-{
     "title" : "Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes",
     "start" : "2022-03-12T13:30:00-0500",
     "end"   : "2022-03-12T15:00:00-0500",
