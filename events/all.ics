@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1647711000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220319T173000Z
 DTEND;VALUE=DATE-TIME:20220319T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220320T173000Z
 DTEND;VALUE=DATE-TIME:20220320T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220402T173000Z
 DTEND;VALUE=DATE-TIME:20220402T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220403T173000Z
 DTEND;VALUE=DATE-TIME:20220403T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220409T173000Z
 DTEND;VALUE=DATE-TIME:20220409T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
@@ -144,9 +144,37 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didnt-know-to-ask.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
+UID:1650130200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
+DTSTAMP:20220408T001950Z
+DTSTART;VALUE=DATE-TIME:20220416T173000Z
+DTEND;VALUE=DATE-TIME:20220416T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:The way some hypermedia object\, like a Web page\, presents itself is encoded using a language called Cascading Style Sheets (CSS). While CSS is one of the modern Web’s most powerful features\, it’s also one of its most misunderstood and misused inventions. In this workshop\, you’ll learn important CSS fundamentals that are often missing from most tutorials\, like how to understand the concept of document flow\, as well as gain insight into the equations and rendering algorithms that determine things like a CSS box’s size\, position\, and more that are at work behind the scenes in every stylesheet. We’ll also touch on how CSS can be used in contexts beyond HTML including print and mobile app styling\, and how to use some more advanced features like media and feature queries\, modern layout modules\, and other CSS capabilities.\n\nWorkshop Description\n\n\n  All physical mediums like print\, music\, or film can be beautiful\, but they will always be constrained by the fact of their analog nature. Digital media—and specifically hypermedia—is different. It can change both its form and its function\, simultaneously presenting itself as any one or a combination of multimedia formats without changing its underlying structure. The humble Web page is a good example: it can stretch to fit your screen when viewed in a Web browser\, lay itself out on a page to prepare for being printed\, and even embed voice cues so it can be more easily listened to when read aloud. All of this is done using a language called Cascading Style Sheets (CSS)\, one of the most powerful\, and most often misused\, features of the modern Web.\n\n  Although the CSS language itself is decades old now\, its origins are even older. Rooted in the idea that form and function can simultaneously coexist in a multitude of different arrangements\, CSS makes it possible for a single well-formed digital object to appear in the “best” way to any given viewer (or reader\, or listener). This is a radical departure from physical media\, like paper\, and it requires an equally radical departure from some traditional graphic design paradigms that demands we spend an equal amount of time exploring philosophical issues like “the eye of the beholder” as it demands that we familiarize ourselves with technical implementation details such as the mathematical equations determining when\, where\, and how to draw specific shapes or colors.\n\n  This workshop builds on the concepts of hypertext introduced in Tech Learning Collective’s “The Web as a Language” workshop by speaking of fundamental CSS concepts often omitted from other tutorials\, such as “User Agents\,” document flow\, and rendering contexts. You’ll learn how both the design and the function of your digital creations can benefit from approaching hypermedia more fluidly\, so you can work with the CSS rendering engine in most modern graphical programming environments rather than fighting against it. Like water\, your Web pages\, apps\, and other hypertextual creations will be able to flow seamlessly into vessels of any shape\, Operating System\, or Web Browser vendor.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-16-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.water-in-a-garden-the-style-and-substance-of-cascading-style-sheets.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
+UID:1650216600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
+DTSTAMP:20220408T001950Z
+DTSTART;VALUE=DATE-TIME:20220417T173000Z
+DTEND;VALUE=DATE-TIME:20220417T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to inscribe your thoughts\, dreams\, and desires into your computer and take your command line skills to the next level by learning how to write simple programs called shell scripts. In a way\, invoking commands one at a time is like writing a program interactively\, whereas writing a script inscribes that knowledge into a more permanent form. By learning how to turn commands into simple scripted programs\, you can unlock the almost magical potential of your computer and more easily share that potential with others to whom you distribute your scripts.\n\nWorkshop Description\n\n\n  At their core\, digital computers are very complex writing instruments. Like pen and paper\, they allow us to record our thoughts\, dreams\, and desires for later review. Unlike pen and paper\, they allow us to do this at the speed of electricity and at a scale never before imagined possible\, and their ability to directly manipulate the physical world through servomotors\, industrial control systems\, biomedical devices\, and other robotic prosthesis means they can potentially supercharge every facet of our humanity.\n\n  When a system administrator or programmer uses a computer\, they often issue instructions one by one using a special-purpose\, text-only interface called a command line. Individually\, these instructions are called invocations. (Yes\, that’s their technical term!) In this beginner’s workshop\, you’ll learn how to write whole spells\, rituals\, or (sacred) texts called shell scripts to inscribe your own thoughts\, dreams\, and desires in the electrified silicon and minerals of your computer.\n\n  By saving your scripts in files\, you can invoke arbitrarily complex routines to reproduce tasks or automate complex procedures with a single command. Writing scripts also makes it possible to share what you can do with others and\, as such\, are one the simplest forms of computer program that you can write and distribute. Come learn how the magic of digital inscription can help you do your work\, and increase your power to accomplish your dreams.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-17-writing-with-blue-fire-shell-scripting-for-beginners
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220407T223036Z
+DTSTAMP:20220408T001950Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
