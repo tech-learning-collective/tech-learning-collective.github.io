@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Where the Sky Meets the Sea: Understanding Container Orchestration with Kubernetes
 UID:1647109800-where-the-sky-meets-the-sea-understanding-container-orchestration-with-kubernetes@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220312T183000Z
 DTEND;VALUE=DATE-TIME:20220312T200000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Down the Rabbit Hole: Anonymous Publishing on the Darknet
 UID:1647192600-down-the-rabbit-hole-anonymous-publishing-on-the-darknet@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220313T173000Z
 DTEND;VALUE=DATE-TIME:20220313T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State
 UID:1647711000-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220319T173000Z
 DTEND;VALUE=DATE-TIME:20220319T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
 UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220320T173000Z
 DTEND;VALUE=DATE-TIME:20220320T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220402T173000Z
 DTEND;VALUE=DATE-TIME:20220402T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220403T173000Z
 DTEND;VALUE=DATE-TIME:20220403T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220409T173000Z
 DTEND;VALUE=DATE-TIME:20220409T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1650130200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220416T173000Z
 DTEND;VALUE=DATE-TIME:20220416T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1650216600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220417T173000Z
 DTEND;VALUE=DATE-TIME:20220417T190000Z
 
@@ -172,9 +172,65 @@ STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.rectangle.jpg
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
+UID:1650735000-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
+DTSTAMP:20220408T003758Z
+DTSTART;VALUE=DATE-TIME:20220423T173000Z
+DTEND;VALUE=DATE-TIME:20220423T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This workshop is a practical introduction to creating\, using\, and administering virtual machine (VM) systems. Even if you’ve never heard of a virtual machine before\, you probably already use the underlying technology. And you can get a lot out of using a virtual machine even if you aren’t a software developer because they can help secure your Web browsing activity\, give you a sandbox in which to try out new software\, and much more!\n\nWorkshop Description\n\n\n  Virtualization and containerization are concepts almost as old as computing itself so\, no matter what you’re doing on your computer\, you’re probably using one form of it or another. For example\, partitioning a hard disk chunks its total capacity into smaller units useful for specific purposes\, much like the individual drawers in a dresser might separate undergarments from outerwear. Organizing\, or “containerizing\,” your closet this way is useful in its own right because it helps you keep things neat and orderly. But this organizing method also offers dramatic security enhancements because a misbehaving program (or dirty sock) will be confined to its own container.\n\n  Today\, virtualization has become integral to how desktop computers\, servers\, and global data networks work\, and cross-platform\, Free Software virtualization programs have never been easier to use. Storage virtualization makes it possible for a single file on your computer to appear to be an entire hard disk drive (such as provided by VeraCrypt)\, network virtualization makes it possible to simulate different networks (e.g.\, using VLANs) or even the whole Internet (using INetSim)\, processor virtualization makes it possible to run programs built for one microchip architecture on computers running a completely different one (e.g.\, in QEMU)\, and fully-fledged virtual machine monitors (VMMs) or hypervisors can construct and modify entire hardware environments complete with virtual video monitors and other peripherals on the fly (as is offered by Proxmox). Virtualization is even the bedrock of numerous Operating System and Web browser security features\, such as in the Qubes Operating System\, macOS’s App Sandbox\, and Firefox Containers.\n\n  Whether you’re using your computer for fun or for profit\, this workshop will get you up and running with Virtual Machines using the VirtualBox type-2 hypervisor so you can experiment with unfamiliar software more boldly\, browse the Web more safely\, and play games you otherwise wouldn’t have been able to. By learning how to take advantage of the virtualization capabilities your computer already offers\, you can revive your love of that long-lost DOS point-and-click adventure\, reliably build and test single- and multi-machine networked software systems\, or simply create an almost unlimited number of purpose-built virtual machines that all exist\, like inception\, inside your existing laptop or other personal computer.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-23-the-imitation-game-introduction-to-administering-virtual-machine-systems
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-imitation-game-introduction-to-administering-virtual-machine-systems.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
+UID:1650821400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
+DTSTAMP:20220408T003758Z
+DTSTART;VALUE=DATE-TIME:20220424T173000Z
+DTEND;VALUE=DATE-TIME:20220424T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in\, how to find out if you have been “pwned\,” what the risks are\, and what you can do to protect yourself from brute-force\, credential stuffing\, and other forms of account takeover attacks.\n\nWorkshop Description\n\n\n  Have you been “pwned”? For years\, security researcher Troy Hunt has been running a website at HaveIBeenPwned.com that lets you check to see if your online accounts have been pwned—that is\, if your personal information such as your password\, has been leaked\, accessed\, or (worst of all!) “cracked.” Go on\, check for yourself!\n\n  If you’ve been “pwned\,” this workshop is your chance to learn exactly what the risk might be\, and what you can do about it. Derived from one portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” (Security 101) course\, this class will clarify the basics of cryptography and encryption within a context that actually applies to your day to day life online.\n\n\n\n  Learn what websites do with your password when you log in to them\, and why using free password management software can make you both safer and more productive. On the flip side\, learn professional techniques for recovering passwords from their “encrypted” (hashed) representation\, such as using optimized wordlists\, word-mangling rulesets\, and employing basic doxing techniques for creating personally targeted password-cracking attacks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-24-password-superpowers-how-to-crack-hashes-and-stump-hackers
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
+UID:1651339800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
+DTSTAMP:20220408T003758Z
+DTSTART;VALUE=DATE-TIME:20220430T173000Z
+DTEND;VALUE=DATE-TIME:20220430T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:This workshop shows you how to keep your emails private regardless of what email provider you use. By learning how to use the freely and widely available Pretty Good Privacy (PGP) cryptosystem in email\, you will see how easy it is to not only encrypt messages so that they remain confidential\, but also how to make sure the emails you get were really sent by the people they claim to be from. Once you’re able to verify the sender of email you receive\, you’re far less likely to get caught up in an email phishing scam ever again.\n\nWorkshop Description\n\n\n  As one of the oldest digital communication methods\, email is used for everything from pointless chain letters to critical financial statements and legal actions. The name “e-mail” might make you think that electronic mail works the same way that writing a physical letter does\, but this isn’t entirely true. From a technical perspective\, it’s more like “e-postcards” because\, just like sending a postcard through the postal service\, anyone who handles your postcard can read what you wrote.\n\n  In the physical world\, protecting your correspondence requires you to take the extra step of putting your letter inside an envelope and then sealing the envelope. That way\, no one looking at the outside of the envelope can read what you wrote on the letter paper. To protect your email in the digital world\, you still have to take this extra step of putting your letter inside a metaphorical envelope. Some services\, like ProtonMail\, claim to do this for you\, but fail to do so in many common scenarios. Meanwhile\, many people believe that just using Google’s GMail service means all your email content is always readable by Google\, but this isn’t always true either.\n\n  This workshop will demystify the nuance of email privacy and security. By using freely available OpenPGP-compatible software\, which has been available since 1991\, the Tech Learning Collective’s cybersecurity instructors will show you how you can keep your message contents private regardless of the email service provider you use. Never send paperwork with your social security number or other sensitive details on a digital postcard to your lawyer or accountant ever again!\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-30-securing-email-protecting-everyday-communications-from-gmail-to-protonmail
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.securing-email-protecting-everyday-communications-from-gmail-to-protonmail.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
+UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
+DTSTAMP:20220408T003758Z
+DTSTART;VALUE=DATE-TIME:20220501T173000Z
+DTEND;VALUE=DATE-TIME:20220501T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn to manage your own Virtual Private Cloud (VPC) datacenter environment and make the most of cloud infrastructure providers (“IaaS platforms”) by automatically deploying underlying infrastructure\, including network topology\, firewall rulesets\, DNS records\, and other resources. This intermediate-level workshop introduces you to Terraform\, a free\, agentless\, masterless\, Infrastructure-as-Code (IaC) digital operations provisioning tool used by many of the largest organizations in the world but simple enough to use on a team of one.\n\nWorkshop Description\n\n\n  In the beginning\, there was the mainframe: a single\, gigantic machine that held all the data and did all the work by itself\, like a digital planet suspended in the vast emptiness of cyberspace. Then came networks\, the personal computer\, the Internet\, Web 2.0\, cloud computing\, microservices\, and containers—a whole cybergalaxy to explore. While the world today looks very different than it did in the days of the mainframe\, every project still needs to start at the beginning: get at least one computer to hold all project data and do all project work. So how do modern projects go from a single computer to a whole galaxy so quickly?\n\n  For many (including Tech Learning Collective!)\, the answer is Terraform\, a free\, open source\, and extensible tool that can provision and manage any number of infrastructural resources from source code repositories to cloud compute instances to DNS records and much\, much more. Using Terraform\, engineers describe the digital environment they’d like to have by writing it down in a simple\, declarative configuration language called HCL. Then\, when instructed\, Terraform does the work of metaphorically\, well\, terraforming cyberspace to match the engineer’s description.\n\n  In this workshop\, you’ll learn the basics of how to set up Terraform for your organization. We’ll also go over best practices for ensuring testing\, staging\, and production infrastructures stay isolated from one another\, how to compose reusable modules\, and how to share your Terraform configurations as well as project state with collaborators. At the end of this workshop\, you’ll understand how to bring the cloud down to earth.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/05/workshop-2022-05-01-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220408T001950Z
+DTSTAMP:20220408T003758Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
