@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Down the Rabbit Hole: Anonymous Publishing on the Darknet",
-    "start" : "2022-03-13T13:30:00-0400",
-    "end"   : "2022-03-13T15:00:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2022/03/workshop-2022-03-13-down-the-rabbit-hole-anonymous-publishing-on-the-darknet",
-    "image" : "http://techlearningcollective.com/static/images/workshop.down-the-rabbit-hole-anonymous-publishing-on-the-darknet.rectangle.jpg",
-    "teaser": "Get your message out without revealing who you are by publishing anonymously on the “Darknet.” This workshop shows you how to create Tor Onion services for Web sites through free tools like OnionShare, and even by setting up Tor servers that are built and configured from scratch manually. You’ll learn about how Tor helps keep both publishers and consumers private and anonymous online, as well as how law enforcement might successfully de-anonymize poorly configured Onion services through host bypass, fingerprint correlation, and other similar attacks.",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2022-03-13 13:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2022-03-13 13:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2022-03-13 13:30:00 -0400"}],
-        "maximumAttendeeCapacity": 15,
-        "isAccessibleForFree": null,
-        "sameAs": ["https://gobrunch.com/events/248419/369822"]
-    }
-}
-,
-
-
-{
     "title" : "Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State",
     "start" : "2022-03-19T13:30:00-0400",
     "end"   : "2022-03-19T15:00:00-0400",
