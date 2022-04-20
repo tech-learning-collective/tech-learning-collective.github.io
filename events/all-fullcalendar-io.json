@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Signal and Surveillance: How to Exercise Digital Civil Liberties in a Surveillance State",
-    "start" : "2022-03-19T13:30:00-0400",
-    "end"   : "2022-03-19T15:00:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2022/03/workshop-2022-03-19-signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state",
-    "image" : "http://techlearningcollective.com/static/images/workshop.signal-and-surveillance-how-to-exercise-digital-civil-liberties-in-a-surveillance-state.rectangle.jpg",
-    "teaser": "This introductory cybersecurity workshop will show you why Signal, a free, secure, private message app is simple enough to schedule drinks with, yet secure enough to use for planning a protest. As dragnet surveillance practices are legalized at alarming speed, there has never been a more important time to flex your digital civil liberties muscle than right now.",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2022-03-19 13:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2022-03-19 13:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2022-03-19 13:30:00 -0400"}],
-        "maximumAttendeeCapacity": 15,
-        "isAccessibleForFree": null,
-        "sameAs": ["https://gobrunch.com/events/257875/382726"]
-    }
-}
-,
-
-
-{
     "title" : "File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It",
     "start" : "2022-03-20T13:30:00-0400",
     "end"   : "2022-03-20T15:00:00-0400",
