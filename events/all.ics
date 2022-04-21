@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:File Sharing for Fun and Profit: How BitTorrent Works and What You Can Do With It
-UID:1647797400-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it@techlearningcollective.com
-DTSTAMP:20220420T183241Z
-DTSTART;VALUE=DATE-TIME:20220320T173000Z
-DTEND;VALUE=DATE-TIME:20220320T190000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:BitTorrent\, the wildly popular but often maligned file sharing protocol\, is now being used in everything from (legal!) video streaming sites to corporate software update servers\, but you wouldn’t know that if you only listened to Big Media groups like the RIAA. In this beginner-friendly workshop\, we’ll bust BitTorrent myths and set the record straight about what “torrenting” actually is\, how it works\, and what you can do with it. You’ll see how next generation “decentralized” Web applications are making use of the technology\, how companies like Facebook and Blizzard\, Inc. use it every day\, how to make your own “torrents” to share files of your own\, and how and why some people take protective measures to torrent more privately.\n\nWorkshop Description\n\n\n  If you’ve heard anything about “downloading free movies on the Internet\,” you probably heard of BitTorrent or its more colloquial synonym\, “torrents.” You have also probably heard of companies threatening BitTorrent users with Internet service bans\, financial penalties\, and even lawsuits for “stealing intellectual property.“ Through expensive and coordinated disinformation campaigns\, companies like Disney and other “Big Content” media conglomerates represented by special interest groups like the Record Industry Association of America (RIAA) and the Motion Picture Association of America (MPAA) have linked BitTorrent with music and movie piracy in the public mind. They continue to try convincing people that BitTorrent is hard\, immoral\, and unsafe to use\, but the reality is far less one-sided.\n\n  BitTorrent refers to a file transfer technology that has been around since 2001 and is designed to make it easy for you to more quickly share very large files across a computer network\, even if your computer lacked a high-speed Internet connection. It worked so well that by the end of 2013 there were more than a quarter billion individual BitTorrent users on the Internet. While the media painted this as an epidemic of criminal behavior\, most BitTorrent uses were and still are both legal and mundane. Moreover\, the heaviest BitTorrent users were actually companies who built the technology into their own products\, such as Blizzard\, Inc. (the World of WarCraft company)\, who used BitTorrent to deliver updates of its game software to players.\n\n  Today\, BitTorrent is still one of the most popular\, cost-efficient\, and speediest large-file transfer technologies available to both individuals and multinational corporations alike. Cash-strapped Free Software projects such as GNU/Linux distributions use BitTorrent to distribute their installation packages in order to reduce their monthly bandwidth bills\, a whole new category of “decentralized Web” applications like ZeroNet are using BitTorrent under the hood to make Web publishing easier and more censorship-resistant than ever before\, and traditional Web sites with large bandwidth requirements like video streaming sites (e.g.\, PeerTube) are increasingly adopting a newer variant called WebTorrent to improve download speeds and interoperate with the massive existing BitTorrent network.\n\n  In this beginner-friendly workshop\, we’ll bust BitTorrent myths and set the record straight about what “torrenting” actually is\, how it works\, and what you can do with it. Learn how to find\, download\, and even create your own torrents so you can share files with friends and colleagues regardless of network obstacles like firewalls or NAT routers. Bring a laptop and you’ll be able to participate in a (legal and safe!) BitTorrent “swarm.” We’ll also discuss the implications of using BitTorrent for less-than-legal ends\, and demonstrate steps you can take to improve your privacy such as enabling BitTorrent encryption\, connecting to trackers through public proxies and Virtual Private Networks\, and building private seedboxes.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/03/workshop-2022-03-20-file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.file-sharing-for-fun-and-profit-how-bittorrent-works-and-what-you-can-do-with-it.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1648315800-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220326T173000Z
 DTEND;VALUE=DATE-TIME:20220326T190000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Bare Bones Crypto: Understanding Critical Cryptographic Primitives
 UID:1648402200-bare-bones-crypto-understanding-critical-cryptographic-primitives@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220327T173000Z
 DTEND;VALUE=DATE-TIME:20220327T190000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Something for Everyone: File Servers and Other Network Attached Storage
 UID:1648920600-something-for-everyone-file-servers-and-other-network-attached-storage@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220402T173000Z
 DTEND;VALUE=DATE-TIME:20220402T190000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1649007000-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220403T173000Z
 DTEND;VALUE=DATE-TIME:20220403T190000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
 UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220409T173000Z
 DTEND;VALUE=DATE-TIME:20220409T190000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1650130200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220416T173000Z
 DTEND;VALUE=DATE-TIME:20220416T190000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1650216600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220417T173000Z
 DTEND;VALUE=DATE-TIME:20220417T190000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1650735000-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220423T173000Z
 DTEND;VALUE=DATE-TIME:20220423T190000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1650821400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220424T173000Z
 DTEND;VALUE=DATE-TIME:20220424T190000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1651339800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220430T173000Z
 DTEND;VALUE=DATE-TIME:20220430T190000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220501T173000Z
 DTEND;VALUE=DATE-TIME:20220501T190000Z
 
@@ -188,7 +174,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
@@ -202,7 +188,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1652549400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220514T173000Z
 DTEND;VALUE=DATE-TIME:20220514T190000Z
 
@@ -216,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220515T173000Z
 DTEND;VALUE=DATE-TIME:20220515T190000Z
 
@@ -230,7 +216,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -244,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220420T183241Z
+DTSTAMP:20220421T020935Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
