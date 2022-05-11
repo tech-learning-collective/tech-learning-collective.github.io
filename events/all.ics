@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Exploring Cyberspace: Network Sniffing and Scanning
-UID:1649525400-exploring-cyberspace-network-sniffing-and-scanning@techlearningcollective.com
-DTSTAMP:20220510T183330Z
-DTSTART;VALUE=DATE-TIME:20220409T173000Z
-DTEND;VALUE=DATE-TIME:20220409T190000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Come exploring with us as we show you how to map out interconnections between computers\, trace packet routes across network gateways\, and find information about network operators. In this workshop all about the voyages of frames\, packets\, and segments\, we use tools like nmap to send probes into cyberspace and tap into the wire with Wireshark to understand how they function.\n\nWorkshop Description\n\n\n  Have you ever wondered what’s between your computer and the websites you visit? Are you curious about where your messages actually go in order to get from here to there? Do you wonder what a map of computer networks really looks like? Come exploring with us as we embark on a journey into cyberspace\, the final Final Frontier! In this beginner-friendly workshop\, we’ll throw a metaphorical message in a bottle into the expanse of cyberspace\, and learn how to sense and track its movement as it makes its way back to us—or not!\n\n  These are the voyages of frames\, packets\, and segments—our messages—as they make their way across the vast reaches of the Internet. On the way\, they’ll encounter both friendly and unfriendly devices\, such as routers\, firewalls\, traffic inspectors\, or NAT tables. At each step of their journey\, a complex series of decisions are made to determine where they’ll be routed to next\, or if their journey is at an end. By using network mapping tools such as nmap along with digital wiretapping tools like Wireshark we can sense what happens on the far side of a network connection in much the same way as looking at the ripples on the surface of a river can tell us something about the shape of the riverbed.\n\n  Join us to explore strange new networks\, to seek out new devices and new organizations\, to boldly go where only packets have gone before!\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-09-exploring-cyberspace-network-sniffing-and-scanning
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.exploring-cyberspace-network-sniffing-and-scanning.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Web as a Language: What No One Ever Told You About HTML That You Didn't Know To Ask
 UID:1649611800-the-web-as-a-language-what-no-one-ever-told-you-about-html-that-you-didn-t-know-to-ask@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220410T173000Z
 DTEND;VALUE=DATE-TIME:20220410T190000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Water in a Garden: The Style and Substance of Cascading Style Sheets
 UID:1650130200-water-in-a-garden-the-style-and-substance-of-cascading-style-sheets@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220416T173000Z
 DTEND;VALUE=DATE-TIME:20220416T190000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1650216600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220417T173000Z
 DTEND;VALUE=DATE-TIME:20220417T190000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1650735000-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220423T173000Z
 DTEND;VALUE=DATE-TIME:20220423T190000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1650821400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220424T173000Z
 DTEND;VALUE=DATE-TIME:20220424T190000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1651339800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220430T173000Z
 DTEND;VALUE=DATE-TIME:20220430T190000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220501T173000Z
 DTEND;VALUE=DATE-TIME:20220501T190000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1652549400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220514T173000Z
 DTEND;VALUE=DATE-TIME:20220514T190000Z
 
@@ -146,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220515T173000Z
 DTEND;VALUE=DATE-TIME:20220515T190000Z
 
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220510T183330Z
+DTSTAMP:20220511T021103Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
