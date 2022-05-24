@@ -84,7 +84,7 @@ to be set on DIV elements, not ARTICLEs.
         </p>
         {% endif %}
 
-        {% if event.offers and site.time < event.endDate %}
+        {% if event.offers and site.time < event.endDate and event.offering != false %}
         {% if 'events' == page.collection %}
         <h2 id="tickets-{{ page.slug }}">Tickets</h2>
         {% else %}
@@ -130,7 +130,7 @@ to be set on DIV elements, not ARTICLEs.
             <p>Your order has been cancelled.</p>
         </div>
         {% elsif event.offers %}
-        <p>Tickets are no longer available for this event because the event has passed.</p>
+        <p>Tickets are no longer available for this event.</p>
         <p>View <a href="{% link events/upcoming/index.md %}">upcoming events</a> or <a href="{% link events/calendar/index.md %}">subscribe to our events calendar</a> to make sure you catch the next one.</p>
         {% endif %}
 
