@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1650821400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220424T173000Z
 DTEND;VALUE=DATE-TIME:20220424T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1651339800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220430T173000Z
 DTEND;VALUE=DATE-TIME:20220430T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220501T173000Z
 DTEND;VALUE=DATE-TIME:20220501T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1652549400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220514T173000Z
 DTEND;VALUE=DATE-TIME:20220514T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220515T173000Z
 DTEND;VALUE=DATE-TIME:20220515T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1653759000-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220528T173000Z
 DTEND;VALUE=DATE-TIME:20220528T190000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1653845400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220525T180930Z
+DTSTAMP:20220525T182115Z
 DTSTART;VALUE=DATE-TIME:20220529T173000Z
 DTEND;VALUE=DATE-TIME:20220529T190000Z
 
@@ -142,6 +142,34 @@ URL:http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securin
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
+UID:1654363800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
+DTSTAMP:20220525T182115Z
+DTSTART;VALUE=DATE-TIME:20220604T173000Z
+DTEND;VALUE=DATE-TIME:20220604T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to beat back configuration drift on your servers by leveraging automation tools like Ansible in this deep dive workshop demonstrating modern DevOps practices for deploying\, maintaining\, and auditing compute clusters. Whether for a Web application\, big data processing\, or other project\, you need to turn old-school runbooks into computerized playbooks that can execute Standard Operating Procedures quickly and reliably so you can deploy complex systems simply and predictably. Come learn about key concepts like idempotence and change control\, and learn how giant corporations implement security principles like RBAC\, all using free and open source software.\n\nWorkshop Description\n\n\n  Today\, all but the most trivial of computer systems rely on an interdependent set of servers working in concert. You don’t just have one server\, you have a group of them. Commonly called a cluster\, these servers need to be managed as a group\, ensuring that their software configurations\, security patches\, and installed packages are deployed\, maintained\, and eventually updated or retired in a predictable way.\n\n  In this deep dive workshop\, we’ll set up our own small cluster and use Ansible\, which is an agentless\, cross-platform\, enterprise-grade\, free software Configuration Management (CM) and Infrastructure as Code (IaC) framework used by giant corporations like IBM and Cisco\, to turn old-school operator runbooks into computerized playbooks that can be executed quickly and easily even by novice operators. Through several hands-on exercises\, you’ll learn about the entire CM lifecycle from planning through auditing so that you understand critical CM concepts like idempotence\, change control\, and more\, which are common to all CM systems including Chef\, Puppet\, and Salt.\n\n  Along the way\, you’ll be exposed to key concepts such as containerization through Ansible’s support for automating container builds\, Role-Based Access Control (RBAC) via Ansible’s AWX Project\, and more. By adopting configuration management workflows with tools like Ansible\, you can reduce operator errors\, and beat back configuration drift on any long-lived infrastructure components.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/06/workshop-2022-06-04-faster-than-light-getting-started-with-configuration-management
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.faster-than-light-getting-started-with-configuration-management.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
+UID:1654450200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
+DTSTAMP:20220525T182115Z
+DTSTART;VALUE=DATE-TIME:20220605T173000Z
+DTEND;VALUE=DATE-TIME:20220605T190000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Come learn how the free Tor Web Browser can be your gateway to the Dark Web while simultaneously keeping you safer and your personal info more private as you browse web sites big and small. In this deep dive workshop on Tor\, the Tech Learning Collective’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool.\n\nWorkshop Description\n\n\n  From illegal online drug stores like Silk Road to DDoS botnet command and control headquarters\, media attention has long painted “the Dark Web” as though nothing good can come of it. But learn just a little bit more about how Tor and “hidden services” work and you’ll find a treasure trove of valuable possibilities for day-to-day Internet use. The same technology that can hide the location of a drug ring can also serve as a free VPN-like service to protect your privacy while you browse the Internet\, make censored websites available again\, and even let you host your own Internet services for free\, all without opening a single port on your firewall!\n\n  In this deep dive workshop on Tor\, the Tech Learning Collective’s cybersecurity trainers will show you how to make the most of this widely available and free digital safety tool. They’ll demonstrate numerous Tor features such as Tor authentication\, target service load balancing\, and NAT-punching. In the process\, you’ll finally understand—on a technical level—what the “Dark Web” actually is and how it works. Bring a laptop to class\, and you’ll leave having run your own Dark Web site. This class is for everyone\; whether you’re a veteran black hat or a timid newbie\, this class will shine a light on the Dark Web once and for all.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2022/06/workshop-2022-06-05-tor-what-is-it-good-for-absolutely-everything
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.tor-what-is-it-good-for-absolutely-everything.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR
