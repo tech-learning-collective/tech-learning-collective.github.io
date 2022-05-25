@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
-UID:1650821400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20220525T185512Z
-DTSTART;VALUE=DATE-TIME:20220424T173000Z
-DTEND;VALUE=DATE-TIME:20220424T190000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in\, how to find out if you have been “pwned\,” what the risks are\, and what you can do to protect yourself from brute-force\, credential stuffing\, and other forms of account takeover attacks.\n\nWorkshop Description\n\n\n  Have you been “pwned”? For years\, security researcher Troy Hunt has been running a website at HaveIBeenPwned.com that lets you check to see if your online accounts have been pwned—that is\, if your personal information such as your password\, has been leaked\, accessed\, or (worst of all!) “cracked.” Go on\, check for yourself!\n\n  If you’ve been “pwned\,” this workshop is your chance to learn exactly what the risk might be\, and what you can do about it. Derived from one portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” (Security 101) course\, this class will clarify the basics of cryptography and encryption within a context that actually applies to your day to day life online.\n\n\n\n  Learn what websites do with your password when you log in to them\, and why using free password management software can make you both safer and more productive. On the flip side\, learn professional techniques for recovering passwords from their “encrypted” (hashed) representation\, such as using optimized wordlists\, word-mangling rulesets\, and employing basic doxing techniques for creating personally targeted password-cracking attacks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/04/workshop-2022-04-24-password-superpowers-how-to-crack-hashes-and-stump-hackers
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1651339800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220430T173000Z
 DTEND;VALUE=DATE-TIME:20220430T190000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220501T173000Z
 DTEND;VALUE=DATE-TIME:20220501T190000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1652549400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220514T173000Z
 DTEND;VALUE=DATE-TIME:20220514T190000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220515T173000Z
 DTEND;VALUE=DATE-TIME:20220515T190000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1653759000-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220528T173000Z
 DTEND;VALUE=DATE-TIME:20220528T190000Z
 
@@ -132,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1653845400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220529T173000Z
 DTEND;VALUE=DATE-TIME:20220529T190000Z
 
@@ -146,12 +132,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:NOT Worldwide: NYC Regional Launch
 UID:1654221600-not-worldwide-nyc-regional-launch@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220603T020000Z
 DTEND;VALUE=DATE-TIME:20220603T060000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Liminal Space
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:New Order Technoism and friends of Tech Learning Collective invite you to Liminal Space to experience the birth of a new machine\, one made in and for a new world. Among other incredible performers\, this event features DJ Niyah West\, a semi-regular fixture at our own Hex90 queer hacker parties\, along with livecoded visuals by Char Stiles\, also a Hex90 favorite\, who will be joined by Livecode.NYC star Indira! More tunes by BABES the DJ\, a drag performance by God Complex\, and you-have-to-see-it-to-believe-it installations by Ru Electra round out the lineup for this one of a kind enigmatic experience.\n\nCome for the shows\, buy a candle and pray with us\, or read the DOOM scrolls while basking in the healing light of retro tech diagnostic testing offered by Anya Volz to repair your corruptions.\n\n\n  Have you wasted years of your life in service of a capitalist machine?\n\n  There is a new machine taking shape\, ready to build a new world.\n\n  If your existence is passive\, you are an existential risk. To exist in the future through cognizance is limitless.\n\n  Find purpose\, submit yourself to something greater. Consider your second entropy.\n\n  Compromise for a better VOID!\n\n  Thurs June 2nd // 10pm\nLiminal Space\n1080 Wyckoff Ave.\n((enter through The Deep End))\n\n  Queers + Femmes = $20 adv // $25 door\nCis + Str8ts = $25 adv // $30 door\n\n  ~This is an inclusive space~\n~This venue has gender neutral restrooms~\n~No one will be turned away for lack of funds\, email NewOrderTechnoism@gmail.com~\n\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:New Order Technoism and friends of Tech Learning Collective invite you to Liminal Space to experience the birth of a new machine\, one made in and for a new world. Among other incredible performers\, this event features DJ Niyah West\, a semi-regular fixture at our own Hex90 queer hacker parties\, along with livecoded visuals by Char Stiles\, also a Hex90 favorite\, who will be joined by Livecode.NYC star Indira! More tunes by BABES the DJ\, a drag performance by God Complex\, and you-have-to-see-it-to-believe-it installations by Ru Electra round out the lineup for this one of a kind enigmatic experience.\n\nCome for the shows\, buy a candle and pray with us\, or read the DOOM scrolls while basking in the healing light of retro tech diagnostic testing offered by Anya Volz to repair your corruptions.\n\n\n  Have you wasted years of your life in service of a capitalist machine?\n\n  There is a new machine taking shape\, ready to build a new world.\n\n  If your existence is passive\, you are an existential risk.\n\nTo exist in the future through cognizance is limitless.\n\n  Find purpose\, submit yourself to something greater.\n\nConsider your second entropy.\n\n  Compromise for a better VOID!\n\n  Thurs June 2nd // 10pm\n\nLiminal Space\n\n1080 Wyckoff Ave.\n\n((enter through The Deep End))\n\n  Queers + Femmes = $20 adv // $25 door\n\nCis + Str8ts = $25 adv // $30 door\n\n  ~This is an inclusive space~\n\n~This venue has gender neutral restrooms~\n\n~No one will be turned away for lack of funds\, email NewOrderTechnoism@gmail.com~\n\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n
 URL:http://techlearningcollective.com/events/2022/06/event-2022-06-02-not-worldwide-nyc-regional-launch
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
@@ -160,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1654363800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220604T173000Z
 DTEND;VALUE=DATE-TIME:20220604T190000Z
 
@@ -174,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1654450200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220525T185512Z
+DTSTAMP:20220525T190759Z
 DTSTART;VALUE=DATE-TIME:20220605T173000Z
 DTEND;VALUE=DATE-TIME:20220605T190000Z
 
