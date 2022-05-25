@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Email: Protecting Everyday Communications from GMail to ProtonMail
 UID:1651339800-securing-email-protecting-everyday-communications-from-gmail-to-protonmail@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220430T173000Z
 DTEND;VALUE=DATE-TIME:20220430T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220501T173000Z
 DTEND;VALUE=DATE-TIME:20220501T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1652549400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220514T173000Z
 DTEND;VALUE=DATE-TIME:20220514T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220515T173000Z
 DTEND;VALUE=DATE-TIME:20220515T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1653759000-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220528T173000Z
 DTEND;VALUE=DATE-TIME:20220528T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1653845400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220529T173000Z
 DTEND;VALUE=DATE-TIME:20220529T190000Z
 
@@ -132,12 +132,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:NOT Worldwide: NYC Regional Launch
 UID:1654221600-not-worldwide-nyc-regional-launch@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220603T020000Z
 DTEND;VALUE=DATE-TIME:20220603T070000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:Liminal Space
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:New Order Technoism and friends of Tech Learning Collective invite you to Liminal Space to experience the birth of a new machine\, one made in and for a new world. Among other incredible performers\, this event features DJ Niyah West\, a semi-regular fixture at our own Hex90 queer hacker parties\, along with livecoded visuals by Char Stiles\, also a Hex90 favorite\, who will be joined by Livecode.NYC star Indira! More tunes by BABES the DJ\, a drag performance by God Complex\, and you-have-to-see-it-to-believe-it installations by Ru Electra round out the lineup for this one of a kind enigmatic experience.\n\nCome for the shows\, buy a candle and pray with us\, or read the DOOM scrolls while basking in the healing light of retro tech diagnostic testing offered by Anya Volz to repair your corruptions.\n\n\n  Have you wasted years of your life in service of a capitalist machine?\n\n  There is a new machine taking shape\, ready to build a new world.\n\n  If your existence is passive\, you are an existential risk.\n\nTo exist in the future through cognizance is limitless.\n\n  Find purpose\, submit yourself to something greater.\n\nConsider your second entropy.\n\n  Compromise for a better VOID!\n\n  Thurs June 2nd // 10pm\n\nLiminal Space\n\n1080 Wyckoff Ave.\n\n((enter through The Deep End))\n\n  Queers + Femmes = $20 adv // $25 door\n\nCis + Str8ts = $25 adv // $30 door\n\n  ~This is an inclusive space~\n\n~This venue has gender neutral restrooms~\n\n~No one will be turned away for lack of funds\, email NewOrderTechnoism@gmail.com~\n\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:New Order Technoism and friends of Tech Learning Collective invite you to Liminal Space to experience the birth of a new machine\, one made in and for a new world. Among other incredible performers\, this event features DJ Niyah West\, a semi-regular fixture at our own Hex90 queer hacker parties\, along with livecoded visuals by Char Stiles\, also a Hex90 favorite\, who will be joined by Livecode.NYC star Indira! More tunes by BABES the DJ\, a drag performance by God Complex\, and you-have-to-see-it-to-believe-it installations by Ru Electra round out the lineup for this one of a kind enigmatic experience.\n\nCome for the shows\, buy a candle and pray with us\, or read the DOOM scrolls while basking in the healing light of retro tech diagnostic testing offered by Anya Volz that may repair—or worsen—all your corruptions.\n\n\n  Have you wasted years of your life in service of a capitalist machine?\n\n  There is a new machine taking shape\, ready to build a new world.\n\n  If your existence is passive\, you are an existential risk.\n\nTo exist in the future through cognizance is limitless.\n\n  Find purpose\, submit yourself to something greater.\n\nConsider your second entropy.\n\n  Compromise for a better VOID!\n\n  Thurs June 2nd // 10pm\n\nLiminal Space\n\n1080 Wyckoff Ave.\n\n((enter through The Deep End))\n\n  Queers + Femmes = $20 adv // $25 door\n\nCis + Str8ts = $25 adv // $30 door\n\n  ~This is an inclusive space~\n\n~This venue has gender neutral restrooms~\n\n~No one will be turned away for lack of funds\, email NewOrderTechnoism@gmail.com~\n\n\nAbout DJ Niyah West\n\nNiyah West (she/they) is a DJ\, music curator and digital artist based in New York City. From the living rooms of dear friends to the night clubs\, Niyah made her professional debut just this year during pride month. Thus\, making her a bright newcomer in the queer DJ scene. She has amplified parties and dancefloors all over the boroughs\, some recently including MEOW NYC\, Gayjoy &amp\; a residency at Kind Regards in the Lower East Side. She’s also a resident of Brooklyn based queer DJ collective XOXA NYC.\n
 URL:http://techlearningcollective.com/events/2022/06/event-2022-06-02-not-worldwide-nyc-regional-launch
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1654363800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220604T173000Z
 DTEND;VALUE=DATE-TIME:20220604T190000Z
 
@@ -160,7 +160,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1654450200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220525T190857Z
+DTSTAMP:20220525T191038Z
 DTSTART;VALUE=DATE-TIME:20220605T173000Z
 DTEND;VALUE=DATE-TIME:20220605T190000Z
 
