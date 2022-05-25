@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en_US"
+      itemscope="itemscope"
+      itemtype="https://schema.org/School"
+>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="onion-location" content="http://lpiyu33yusoalp5kh3f4hak2so2sjjvjw5ykyvu2dulzosgvuffq6sad.onion/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" />
+
+    <title>Securing Our Servers: Basic Network Operations for Autonomous Communities &mdash; Tech Learning Collective</title>
+
+    <link rel="shortcut icon" type="image/png" href="/static/images/icon.chip.blue.png" />
+
+    <link rel="stylesheet" href="/static/css/main.css" />
+    <link rel="stylesheet" href="/static/css/event-flyer.css" media="print" />
+    <link rel="stylesheet" href="/static/css/vim.css" />
+    
+
+    
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tech Learning Collective" />
+
+    <link rel="alternate" href="/events/all.ics" type="text/calendar" title="Subscribe to these events in your calendar." />
+
+    
+    <link rel="prev" href="/events/2022/05/workshop-2022-05-28-taming-daemons-system-administration-and-operation-basics" />
+
+    <meta itemprop="name" content="Securing Our Servers: Basic Network Operations for Autonomous Communities &mdash; Tech Learning Collective" />
+    <meta itemprop="url" content="/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" />
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Securing Our Servers: Basic Network Operations for Autonomous Communities" />
+<meta name="author" content="Tech Learning Collective" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades." />
+<meta property="og:description" content="Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades." />
+<link rel="canonical" href="http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" />
+<meta property="og:url" content="http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" />
+<meta property="og:site_name" content="Tech Learning Collective" />
+<meta property="og:image" content="http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-05-29T13:30:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg" />
+<meta property="twitter:title" content="Securing Our Servers: Basic Network Operations for Autonomous Communities" />
+<meta name="twitter:site" content="@techlearningc" />
+<meta name="twitter:creator" content="@Tech Learning Collective" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Tech Learning Collective"},"dateModified":"2022-05-29T13:30:00-04:00","datePublished":"2022-05-29T13:30:00-04:00","description":"Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades.","headline":"Securing Our Servers: Basic Network Operations for Autonomous Communities","image":"http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://techlearningcollective.com/static/images/icon.chip.blue.png"},"name":"Tech Learning Collective"},"url":"http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+
+<style>
+/**
+ * Color fades.
+ */
+:root {
+    --theme-bg-color: rgba(126, 0, 152, 1);
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-bg-color: rgba(72, 0, 87, 1);
+    }
+}
+body {
+    background-color: var(--theme-bg-color);
+}
+body.page header {
+    position: relative;
+}
+
+body.page header::before {
+    content: '';
+    position: absolute;
+    right: -30px;
+    width: 30px;
+    height: 100%;
+    
+    background-image: linear-gradient(to right, var(--theme-bg-color), rgba(126, 0, 152, 0));
+}
+body.page header::after {
+    content: '';
+    position: fixed;
+    right: 25px;
+    width: 30px;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--theme-bg-color), rgba(126, 0, 152, 0));
+}
+
+
+main h1, main h1 a,
+main h2, main h2 a,
+main h3, main h3 a,
+main h4, main h4 a,
+main h5, main h5 a,
+main h6, main h6 a {
+    color: var(--theme-bg-color);
+}
+
+.dotleader span,
+.dotleader.price td:last-child::before,
+.dotleader.price td:last-child::after {
+    background-color: var(--theme-bg-color);
+}
+</style>
+
+
+</head>
+
+<body class="event">
+    <header>
+        <h1><a href="/">Tech Learning Collective</a></h1>
+        <p id="Tagline">Technology education for radical organizers and revolutionary communities.</p>
+        <nav id="MainNavigation">
+            <ul>
+    
+    
+    
+    
+    
+    
+    <li class="main-nav-about ">
+        <a href="/about/">About</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/faq/" title="Answers to Frequently Asked Questions">FAQ</a>
+            </li>
+        
+            <li>
+                <a href="/events/calendar/">Events Calendar</a>
+            </li>
+        
+            <li>
+                <a href="/workshops/">Workshops</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-courses ">
+        <a href="/courses/">Courses</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/foundations/">Foundations</a>
+            </li>
+        
+            <li>
+                <a href="/enrollment/">Enrollment</a>
+            </li>
+        
+            <li>
+                <a href="/pricing/">Pricing</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+    
+    
+    <li class="main-nav-contact ">
+        <a href="/contact/">Contact</a>
+        
+        
+        <ul>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+            </li>
+        
+            <li>
+                <a href="/testimonials/">Testimonials</a>
+            </li>
+        
+            <li>
+                <a href="/donate/">Donate</a>
+            </li>
+        
+        </ul>
+        
+    </li>
+    
+</ul>
+
+        </nav>
+    </header>
+    <main>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="2022-05-29-13-30-00-0400-securing-our-servers-basic-network-operations-for-autonomous-communities" class="h-event vevent">
+<article itemscope="itemscope" itemtype="https://schema.org/Event">
+    <header>
+
+        <a href="/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" class="u-url url" itemprop="url">
+            <h2 class="p-summary summary p-name" itemprop="name">
+                Securing Our Servers: Basic Network Operations for Autonomous Communities
+            </h2>
+            <img src="/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg" alt="" itemprop="image" loading="lazy" />
+        </a>
+        <ul class="event-meta">
+            <li class="event-datetime">
+                <abbr class="dt-start dtstart" title="2022-05-29T13:30:00-04:00">
+                    <span>May 29, 2022</span>
+                    <span> 1:30 PM (-0400)</span>
+                </abbr>
+                &ndash;
+                <abbr class="dt-end dtend" title="2022-05-29T15:00:00-04:00">
+                    <span>May 29, 2022</span>
+                    <span> 3:00 PM</span>
+                </abbr>
+                <meta itemprop="startDate" content="2022-05-29T13:30:00-04:00" />
+                <meta itemprop="endDate" content="2022-05-29T15:00:00-04:00" />
+            </li><!-- .event-datetime -->
+            
+            <li class="p-location location" itemprop="location" itemscope="itemscope" itemtype="https://schema.org/Place">
+                
+                <span itemprop="address">Remote</span>
+                
+            </li><!-- .p-location -->
+            <li class="event-status">
+                Status:
+
+<span class="status">
+
+CONFIRMED
+    
+    <meta itemprop="eventStatus" content="https://schema.org/EventScheduled" />
+    
+
+</span>
+
+            </li>
+        </ul>
+    </header>
+
+    <section class="offers">
+
+        
+
+        
+        
+        <h2 id="tickets-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities">Tickets</h2>
+        
+        <ul itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/AggregateOffer">
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=70&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Securing+Our+Servers%3A+Basic+Network+Operations+for+Autonomous+Communities+-+Privacy+Defender+Webinar+Ticket&amp;item_number=WEBINAR-303-2022-05-29t13-30-00-04-00-securing-our-servers-basic-network-operations-for-autonomous-communities-TICKET&amp;no_shipping=0&amp;rm=0&amp;return=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities%23tickets-fallback-event-thank-you-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities&amp;cancel_return=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities%23tickets-fallback-event-cancelled-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities&amp;custom=" itemprop="url">
+        <span itemprop="name">Privacy Defender Webinar Ticket</span>
+        <span class="currency-symbol">$</span><span itemprop="price">70</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+    <div itemprop="description">
+        Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.
+    </div>
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2022-05-29T13:30:00-04:00" />
+    
+</div>
+
+        </li>
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=35&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Securing+Our+Servers%3A+Basic+Network+Operations+for+Autonomous+Communities+-+General+Admission&amp;item_number=WEBINAR-303-2022-05-29t13-30-00-04-00-securing-our-servers-basic-network-operations-for-autonomous-communities-TICKET&amp;no_shipping=0&amp;rm=0&amp;return=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities%23tickets-fallback-event-thank-you-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities&amp;cancel_return=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities%23tickets-fallback-event-cancelled-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities&amp;custom=" itemprop="url">
+        <span itemprop="name">General Admission</span>
+        <span class="currency-symbol">$</span><span itemprop="price">35</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+    <div itemprop="description">
+        General Admission tickets are the regular ticket type intended for members of the general public.
+    </div>
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2022-05-29T13:30:00-04:00" />
+    
+</div>
+
+        </li>
+        
+        <li>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div itemprop="offers" itemscope="itemscope" itemtype="https://schema.org/Offer">
+
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&amp;business=techlearningcollective%40riseup.net&amp;amount=25&amp;discount_amount=&amp;handling=3&amp;currency_code=USD&amp;item_name=Securing+Our+Servers%3A+Basic+Network+Operations+for+Autonomous+Communities+-+Reduced+price+admission+%28for+queer-identified%2C+femme%2C+and+BIPOC+people%29&amp;item_number=WEBINAR-303-2022-05-29t13-30-00-04-00-securing-our-servers-basic-network-operations-for-autonomous-communities-TICKET&amp;no_shipping=0&amp;rm=0&amp;return=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities%23tickets-fallback-event-thank-you-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities&amp;cancel_return=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities%23tickets-fallback-event-cancelled-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities&amp;custom=" itemprop="url">
+        <span itemprop="name">Reduced price admission (for queer-identified, femme, and BIPOC people)</span>
+        <span class="currency-symbol">$</span><span itemprop="price">25</span>
+        <meta itemprop="priceCurrency" content="USD" />
+    </a>
+
+    
+    <div itemprop="description">
+        Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.
+    </div>
+    
+
+    
+
+    
+    <meta itemprop="availabilityEnds" content="2022-05-29T13:30:00-04:00" />
+    
+</div>
+
+        </li>
+        
+        </ul>
+        <p><small>Prices shown may exclude nominal handling fees. All sales are final and non-transferable. When you make a purchase, our payment processor retains a copy of your billing information, which may include your legal name, address, and other details.</small></p>
+
+        
+        
+
+        <div id="tickets-fallback-event-thank-you-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" class="tickets-fallback">
+            
+            <p>Thank you for purchasing a ticket to our upcoming &ldquo;Securing Our Servers: Basic Network Operations for Autonomous Communities&rdquo; webinar. <strong>Please allow several minutes for delivery of your webinar access credentials to the email address associated with your payment processor account.</strong> Remember to check your spam folder, as well!</p>
+            <p>If you still don&rsquo;t receive your webinar access credentials after one hour, please <a href="/contact/">contact us</a> and we&rsquo;ll help you get it sorted.</p>
+            
+        </div>
+        <div id="tickets-fallback-event-cancelled-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities" class="tickets-fallback">
+            <p>Your order has been cancelled.</p>
+        </div>
+        
+
+    </section><!-- .offers -->
+
+    
+    <section itemprop="description">
+        <h2>Event description</h2>
+        <div class="p-description description">
+            <p>Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades.</p>
+
+<h2 id="workshop-description">Workshop Description</h2>
+
+<blockquote>
+  <p>Every app you use—from messengers like <a href="https://signal.org/">Signal</a> or WhatsApp to blogs and websites like <a href="https://wordpress.org/">WordPress</a> and even other coordination tools like digital calendars and <a href="/workshops/Our-Streets,-Our-Maps-Introduction-to-OpenStreetMap">online maps</a>—relies on a computer called a server. Whether that computer is one in your hand (your smartphone), or a computer somewhere across the Internet (“in the cloud”), no meaningful digital communication happens without servers offering services, somewhere. So, do you know where <em>your</em> servers are? If not, you can’t know how safe your data is!</p>
+
+  <p>When you don’t have a clear map of how your messages and other data gets from here to there, you might be at risk of someone listening in on your conversations. When you rely on services that you don’t own yourself for critical day-to-day operations (like Google Calendar, or Facebook…) you risk losing access to those capabilities by having your account banned, even by mistake. Regardless of your specific situation, knowing more about the digital servers that are serving you is a vital first step for supporting communities or companies large and small.</p>
+
+  <p>This intermediate-level workshop combines various topics from the <a href="/courses/sys101.html">Tech Learning Collective’s System Administration</a>, <a href="/courses/net101.html">Networking</a>, and <a href="/courses/sec101.html">Security</a> courses to offer an intensive crash course in secure server setup, monitoring, and maintenance. By taking a <a href="https://github.com/AnarchoTechNYC/meta/blob/master/train-the-trainers/practice-labs/introduction-to-securing-virtualized-secure-shell-servers/README.md">deep dive into the SSH protocol</a>, you’ll learn how to set up remote administrative access to a server in a safe way, and you’ll be exposed to the potential risks of network eavesdroppers, <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Machine-in-the-Middle (MITM) attacks</a>, and much more. By the end of this workshop, you’ll have a basic understanding of how to safely operate self-hosted digital infrastructures for yourself, your friends, and your comrades, as well as what first steps you need to take to keep intruders and enemies at bay.</p>
+</blockquote>
+
+<p>As this is a remote/online-only event, there is no physical class space, but attendance is still limited to 15 students, so <a href="#tickets-workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities">purchase your ticket now</a> to reserve your spot.</p>
+
+<p>To participate in our webinars, you will need access to a modern Web browser such as an up-to-date copy of <a href="https://www.mozilla.org/firefox/">Mozilla Firefox</a> or <a href="https://www.google.com/chrome/">Google Chrome</a>. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar, if possible.</p>
+
+<p>If you would like to share your video screen or appear on camera, you will need to have and activate your own camera, such as the one built-in to many modern laptops. Similarly, to speak with the rest of the webinar participants, you will need a microphone. If you do choose to activate your microphone, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.</p>
+
+<p>Please refer to <a href="/faq/#workshops-and-webinars">our workshops and webinars FAQ</a> for additional tips and advice before you join the video conference.</p>
+
+<p>As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, “brogrammer,” “manarchist,” or any kind of similarly awful behavior <em>will</em> result in immediate removal from class without a refund. Please refer to <a href="https://github.com/AnarchoTechNYC/meta/wiki/Social-rules">our lightweight social rules</a> for details on our strictly enforced no-tolerance policy against bigotry of any kind.</p>
+
+<h2 id="about-tech-learning-collective">About Tech Learning Collective</h2>
+
+<p>Tech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia, Information Technology, and radical political practice. We offer unparalleled free, by-donation, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll, visit <a href="/">TechLearningCollective.com</a>.</p>
+        </div><!-- .p-description -->
+    </section>
+    
+
+    
+    <section class="performances">
+        <h2>Performances by</h2>
+        <ul>
+        
+            
+
+
+<li itemprop="performer" itemscope="itemscope" itemtype="https://schema.org/School"><div class="h-card vcard">        <div class="p-name fn org" itemprop="name">                <img            src="https://techlearningcollective.com/static/images/icon.chip.transparent.png"            alt=""            class="u-photo photo"            itemprop="image logo photo" />                <a href="https://techlearningcollective.com/" class="url" itemprop="url">Tech Learning Collective</a>    </div><!-- .p-name -->            <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">                <span class="p-locality locality" itemprop="addressLocality">New York</span>        <span class="p-region region" itemprop="addressRegion">NY</span>                <span class="p-country country" itemprop="addressCountry">United States</span>    </div><!-- .h-adr -->        </div><!-- .h-card --></li>
+
+        
+        </ul>
+    </section>
+    
+
+    
+    <section class="organizers">
+        <h2>Presented by</h2>
+        <ul>
+        
+            
+
+
+<li itemprop="organizer" itemscope="itemscope" itemtype="https://schema.org/School"><div class="h-card vcard">        <div class="p-name fn org" itemprop="name">                <img            src="https://techlearningcollective.com/static/images/icon.chip.transparent.png"            alt=""            class="u-photo photo"            itemprop="image logo photo" />                <a href="https://techlearningcollective.com/" class="url" itemprop="url">Tech Learning Collective</a>    </div><!-- .p-name -->            <div class="h-adr adr" itemprop="address" itemscope="itemscope" itemtype="https://schema.org/PostalAddress">                <span class="p-locality locality" itemprop="addressLocality">New York</span>        <span class="p-region region" itemprop="addressRegion">NY</span>                <span class="p-country country" itemprop="addressCountry">United States</span>    </div><!-- .h-adr -->        </div><!-- .h-card --></li>
+
+        
+        </ul>
+    </section>
+    
+
+    <footer>
+        
+        <p><a href="https://h2vx.com/ics/get-cal.php?uri=http%3A%2F%2Ftechlearningcollective.com%2Fevents%2F2022%2F05%2Fworkshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities">Save this event to your calendar</a>.</p>
+        
+
+        
+    </footer>
+
+    
+    <meta itemprop="sameAs" content="https://gobrunch.com/events/269266/396634" />
+    
+</article>
+</div><!-- .h-event -->
+
+
+    </main>
+    <footer id="MainFooter">
+    <p>Website by <a href="https://shiftctrl.space/">Shift-CTRL Space</a>.</p>
+</footer>
+
+</body>
+</html>
