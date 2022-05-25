@@ -2,6 +2,8 @@
 title: "Imagining an optimistic cyber-future"
 image: https://web.archive.org/web/20200509054116if_/https://cdn.vox-cdn.com/thumbor/15SEQOYBZIpfRpqwY6g8DhGvFNM=/0x115:2400x1465/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/52088969/2I1A4480__2_.0.jpeg
 excerpt: "In the last half century, computing power made at least three great migrations. The pendulum swung from centralized to decentralized, and then back to (kind of) centralized again. Next time the pendulum swings—and it will—what might the catalyzing event be? What shape might the networks that connect our modern world take? And to what ends might we apply such a shift in compute power?"
+translations:
+    es: https://www.elsaltodiario.com/articulos/26486
 ---
 
 (Image credit: [America's first sustainable urban agrihood is growing in Detroit](https://detroit.curbed.com/2016/12/1/13807672/urban-agrihood-detroit-mufi).)
