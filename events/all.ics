@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Genesis Project: Making and Maintaining Cloud Infrastructure with Terraform
 UID:1651426200-the-genesis-project-making-and-maintaining-cloud-infrastructure-with-terraform@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220501T173000Z
 DTEND;VALUE=DATE-TIME:20220501T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Hex90: Overflow
 UID:1651969800-hex90-overflow@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220508T003000Z
 DTEND;VALUE=DATE-TIME:20220508T063000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1652549400-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220514T173000Z
 DTEND;VALUE=DATE-TIME:20220514T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
 UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220515T173000Z
 DTEND;VALUE=DATE-TIME:20220515T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1653759000-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220528T173000Z
 DTEND;VALUE=DATE-TIME:20220528T190000Z
 
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1653845400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220529T173000Z
 DTEND;VALUE=DATE-TIME:20220529T190000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:NOT Worldwide: NYC Regional Launch
 UID:1654221600-not-worldwide-nyc-regional-launch@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220603T020000Z
 DTEND;VALUE=DATE-TIME:20220603T070000Z
 
@@ -132,7 +132,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1654363800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220604T173000Z
 DTEND;VALUE=DATE-TIME:20220604T190000Z
 
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1654450200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220601T023717Z
+DTSTAMP:20220601T063854Z
 DTSTART;VALUE=DATE-TIME:20220605T173000Z
 DTEND;VALUE=DATE-TIME:20220605T190000Z
 
