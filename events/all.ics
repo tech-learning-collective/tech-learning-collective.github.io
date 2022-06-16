@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Getting the Right Stuff: Introduction to Data Files, Spreadsheets, and Databases
-UID:1652635800-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases@techlearningcollective.com
-DTSTAMP:20220615T183143Z
-DTSTART;VALUE=DATE-TIME:20220515T173000Z
-DTEND;VALUE=DATE-TIME:20220515T190000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to collect\, generate\, and manipulate data of all kinds so that you can make decisions and meet the challenges you’re facing. You’ll see how simple\, text-based data files and command-line utilities have been and are still being used in all sorts of applications today\, what spreadsheets have to offer\, and how all these tools differ from Relational Database Management Systems (RDMSs) like MySQL/MariaDB\, PostgreSQL\, Oracle\, or Microsoft SQL Server. This workshop will also touch on Web scraping\, form building\, mail merges\, data cleaning\, and other techniques you need to know to make automating the boring parts of your day possible.\n\nWorkshop Description\n\n\n  If knowledge is power\, what is knowledge? On a computer\, knowledge comes from data. By collecting data relevant to the problem you’re trying to solve\, you can scrutinize it in various different ways until you’re able to draw meaningful conclusions from the dataset\; you turn data into information\, and from that information you gain knowledge\, which gives you power. But this is all much easier said than done\, especially if you are not already familiar with how to work with digital data.\n\n  This workshop introduces you to the concepts and techniques you need to know to collect\, generate\, and manipulate digital information regardless of the specific application or problem domain you’re working in. Ever since the dawn of computing\, data has been a central element in computer use. After all\, what good is a computer without data to compute? Early databases took the form of stacks of physical punch cards. Later on\, databases were created out of structured text files (and many of these still exist on your computer today\, whether you realize it or not). With the advent of “personal” computing in the 1980’s\, digital spreadsheets in applications like Lotus 1-2-3 brought enterprise automation solutions to the masses—or it would have\, if more people had the opportunity to learn how to use these powerful tools.\n\n  Today\, massive datasets with billions or trillions of records are often stored in Relational Database Management Systems (RDMSs) and are accessed using specialized computer languages such as the Structured Query Language (SQL). These databases are thus the crown jewels of every company or organization conducting business online. Everything that matters to them gets stored in a database of some kind\, from email subscriber lists\, customer records\, call logs\, and purchase orders\, to social media postings\, blog comments\, personal photos\, and much more. Practice working with different kinds of data to learn the foundations relevant to all data exploration and transformation tasks in this introductory workshop that will help you ensure you can get the right stuff to construct successful solutions to any problem.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/05/workshop-2022-05-15-getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.getting-the-right-stuff-introduction-to-data-files-spreadsheets-and-databases.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Digital Defenses for the People: Practical Digital Security
 UID:1653154200-digital-defenses-for-the-people-practical-digital-security@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220521T173000Z
 DTEND;VALUE=DATE-TIME:20220521T190000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Guardians of the Watchtowers: Introduction to Service Monitoring and Observability
 UID:1653240600-guardians-of-the-watchtowers-introduction-to-service-monitoring-and-observability@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220522T173000Z
 DTEND;VALUE=DATE-TIME:20220522T190000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1653759000-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220528T173000Z
 DTEND;VALUE=DATE-TIME:20220528T190000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
 UID:1653845400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220529T173000Z
 DTEND;VALUE=DATE-TIME:20220529T190000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:NOT Worldwide: NYC Regional Launch
 UID:1654221600-not-worldwide-nyc-regional-launch@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220603T020000Z
 DTEND;VALUE=DATE-TIME:20220603T070000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1654363800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220604T173000Z
 DTEND;VALUE=DATE-TIME:20220604T190000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1654450200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220615T183143Z
+DTSTAMP:20220616T021612Z
 DTSTART;VALUE=DATE-TIME:20220605T173000Z
 DTEND;VALUE=DATE-TIME:20220605T190000Z
 
