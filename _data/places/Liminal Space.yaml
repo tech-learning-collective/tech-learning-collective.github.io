@@ -1,0 +1,15 @@
+---
+name: Liminal Space
+description: We are a 30’ x 30’ space with fire and aerial capacity, featuring 20’ ceilings and four aerial points. We are a space for artists to grow, experiment, and learn.
+type: EventVenue
+address:
+  streetAddress: 1080 Wyckoff Avenue
+  addressLocality: Brooklyn
+  addressRegion: NY
+  postalCode: 11385
+  addressCountry: United States
+email: LiminalSpacesNYC@gmail.com
+url: https://www.liminalspace.nyc/
+logo: https://images.squarespace-cdn.com/content/v1/606f4d0867483f697412fe6a/e618455b-b2e5-4998-8793-fc29219f318d/Liminal+Logo+White.png
+sameAs:
+  - https://www.facebook.com/liminalspace.nyc
