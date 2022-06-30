@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Securing Our Servers: Basic Network Operations for Autonomous Communities
-UID:1653845400-securing-our-servers-basic-network-operations-for-autonomous-communities@techlearningcollective.com
-DTSTAMP:20220629T183755Z
-DTSTART;VALUE=DATE-TIME:20220529T173000Z
-DTEND;VALUE=DATE-TIME:20220529T190000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol\, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations\, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up\, access\, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself\, friends\, or comrades.\n\nWorkshop Description\n\n\n  Every app you use—from messengers like Signal or WhatsApp to blogs and websites like WordPress and even other coordination tools like digital calendars and online maps—relies on a computer called a server. Whether that computer is one in your hand (your smartphone)\, or a computer somewhere across the Internet (“in the cloud”)\, no meaningful digital communication happens without servers offering services\, somewhere. So\, do you know where your servers are? If not\, you can’t know how safe your data is!\n\n  When you don’t have a clear map of how your messages and other data gets from here to there\, you might be at risk of someone listening in on your conversations. When you rely on services that you don’t own yourself for critical day-to-day operations (like Google Calendar\, or Facebook…) you risk losing access to those capabilities by having your account banned\, even by mistake. Regardless of your specific situation\, knowing more about the digital servers that are serving you is a vital first step for supporting communities or companies large and small.\n\n  This intermediate-level workshop combines various topics from the Tech Learning Collective’s System Administration\, Networking\, and Security courses to offer an intensive crash course in secure server setup\, monitoring\, and maintenance. By taking a deep dive into the SSH protocol\, you’ll learn how to set up remote administrative access to a server in a safe way\, and you’ll be exposed to the potential risks of network eavesdroppers\, Machine-in-the-Middle (MITM) attacks\, and much more. By the end of this workshop\, you’ll have a basic understanding of how to safely operate self-hosted digital infrastructures for yourself\, your friends\, and your comrades\, as well as what first steps you need to take to keep intruders and enemies at bay.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:NOT Worldwide: NYC Regional Launch
 UID:1654221600-not-worldwide-nyc-regional-launch@techlearningcollective.com
-DTSTAMP:20220629T183755Z
+DTSTAMP:20220630T022707Z
 DTSTART;VALUE=DATE-TIME:20220603T020000Z
 DTEND;VALUE=DATE-TIME:20220603T070000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Faster Than Light: Getting Started with Configuration Management
 UID:1654363800-faster-than-light-getting-started-with-configuration-management@techlearningcollective.com
-DTSTAMP:20220629T183755Z
+DTSTAMP:20220630T022707Z
 DTSTART;VALUE=DATE-TIME:20220604T173000Z
 DTEND;VALUE=DATE-TIME:20220604T190000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1654450200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20220629T183755Z
+DTSTAMP:20220630T022707Z
 DTSTART;VALUE=DATE-TIME:20220605T173000Z
 DTEND;VALUE=DATE-TIME:20220605T190000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Vi's Triple Header Happy Birthday Happy Hour
 UID:1657054800-vi-s-triple-header-happy-birthday-happy-hour@techlearningcollective.com
-DTSTAMP:20220629T183755Z
+DTSTAMP:20220630T022707Z
 DTSTART;VALUE=DATE-TIME:20220705T210000Z
 DTEND;VALUE=DATE-TIME:20220706T063000Z
 

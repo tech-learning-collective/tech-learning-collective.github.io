@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Securing Our Servers: Basic Network Operations for Autonomous Communities",
-    "start" : "2022-05-29T13:30:00-0400",
-    "end"   : "2022-05-29T15:00:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2022/05/workshop-2022-05-29-securing-our-servers-basic-network-operations-for-autonomous-communities",
-    "image" : "http://techlearningcollective.com/static/images/workshop.securing-our-servers-basic-network-operations-for-autonomous-communities.rectangle.jpg",
-    "teaser": "Learn the basics of securing digital infrastructure by taking a deep-dive into the Secure Shell (SSH) protocol, a fundamental component of safe administrative access to remote servers. Regardless of whether you rely on one or many thousands of servers to power your daily operations, securely managing those machines is essential to the success of your efforts. This intermediate-level workshop shows you how to securely set up, access, and debug connection issues over the SSH protocol so that you’ll be ready to operate self-hosted digital infrastructure for yourself, friends, or comrades.",
-    "location": "Remote",
-    "schemaDotOrg": {
-        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2022-05-29 13:30:00 -0400"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2022-05-29 13:30:00 -0400"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2022-05-29 13:30:00 -0400"}],
-        "maximumAttendeeCapacity": 15,
-        "isAccessibleForFree": null,
-        "sameAs": ["https://gobrunch.com/events/269266/396634"]
-    }
-}
-,
-
-
-{
     "title" : "NOT Worldwide: NYC Regional Launch",
     "start" : "2022-06-02T22:00:00-0400",
     "end"   : "2022-06-03T03:00:00-0400",
