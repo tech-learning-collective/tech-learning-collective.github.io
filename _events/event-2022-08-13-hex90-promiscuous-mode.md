@@ -36,7 +36,7 @@ sameAs:
     - https://hex90.party/
     - https://www.wonderville.nyc/events/hex90-promiscuous-mode
 #    - TODO: https://withfriends.co/event/TODO
-#    - TODO: https://ra.co/events/TODO
+    - https://ra.co/events/1567342
 #    - TODO: https://tockify.com/bushwickdaily/detail/TODO
 #    - TODO: https://gomag.com/event/TODO
 #    - TODO: https://patch.com/new-york/new-york-city/calendar/event/TODO
