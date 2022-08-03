@@ -199,6 +199,10 @@ gwenpri.me is a creative technologist, artist, and livecoder. She makes live vis
 
 Alanza is a polymath based in New York. Her music ranges from hardware improvisation to in-the-box pop production. She's interested in synthesis, odd rhythms, things that make you think while dancing.
 
+## About [alsoknownasrox](https://alsoknownasrox.com/)
+
+Roxanne Harris (alsoknownasrox) makes art by programming on-the-fly, seeking to push the limitations of computation for creative expression, both in new application and new foundational research. She spends her time finding new ways to engage with the world, destructing and reconstructing existing structures as she goes.
+
 ## About [dan.dog](https://www.instagram.com/dqgorelick)
 
 Dan Gorelick is an SF and Brooklyn-based musician, creative technologist, and livecoder. He mixes acoustic instruments and voice with synthesizers (and code) to create expressive electronic music. 
