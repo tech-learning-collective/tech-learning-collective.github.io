@@ -2,24 +2,6 @@
 
 
 {
-    "title" : "Vi’s Triple Header Happy Birthday Happy Hour",
-    "start" : "2022-07-05T17:00:00-0400",
-    "end"   : "2022-07-06T02:30:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2022/07/event-2022-07-05-vis-triple-header-happy-birthday-happy-hour",
-    "image" : "http://techlearningcollective.com/static/images/m4g1sh-retrowave.gif",
-    "teaser": "Join Vi, your friendly neighborhood trans hacker party princess, for a TRIPLE HEADER HAPPY HOUR event. As an active member of an LGBTQ+ Employee Resource Group (ERG), Vi is hosting a post-Pride Month “How was your Pride?” Happy Hour with (limited) open bar tab, sponsored in partnership with her other employer and Tech Learning Collective. She’s chosen to combine it with the next Killer Queen Open Hive Night plus her 1 year HRT anniversary. So come party with Vi, her colleagues “from work,” the Tech Learning Collective staff and student body, and the NYC Killer Queen scene for a three-in-one birthday/Pride spectacular mashup celebrating NYC’s newest up and coming hottie Queen Bee’s 1-year traniversary!",
-    "location": "Wonderville",
-    "schemaDotOrg": {
-        "offers": [{"name":"DONATIONS GLADLY ACCEPTED BUT NOT REQUIRED","price":10,"priceCurrency":"USD","availabilityEnds":"2022-07-05 17:00:00 -0400","url":"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PW4TUNMA53J3J&source=url"}],
-        "maximumAttendeeCapacity": null,
-        "isAccessibleForFree": null,
-        "sameAs": ["https://anarchism.nyc/tripleheaderhappybirthdayhappyhour.html"]
-    }
-}
-,
-
-
-{
     "title" : "Hex90: Promiscuous Mode",
     "start" : "2022-08-13T21:00:00-0400",
     "end"   : "2022-08-14T03:00:00-0400",
