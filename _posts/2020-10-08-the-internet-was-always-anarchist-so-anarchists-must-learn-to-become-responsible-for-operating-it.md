@@ -4,6 +4,8 @@ image: static/images/post.featured.circle-a-ascii-art.jpg
 sameAs:
     - https://c4ss.org/content/53593
 excerpt: When Bob Metcalfe invented Ethernet in the 1970's, he intentionally designed his system in a way that would function anarchically. Many engineers believed this approach was too chaotic to succeed. How could a system of coordination function with no command center? It would be pure anarchy! Today, every Internet connection, local network, telephone uplink, datacenter backhaul, and Wi-Fi signal to your computer uses Ethernet. The anarchist approach proved simpler, more efficient, and ultimately more successful. This is no surprise to any practicing anarchist, although many practicing anarchists still won’t recognize the anarchism in action when they post their next Tweet. Meanwhile, most Big Tech insiders aren't able to see the parallels between their beloved technology and the anarchist viewpoint. This must change, and we're going to change it.
+translations:
+    pt-br: https://hiperobjeto.substack.com/p/a-internet-sempre-foi-anarquista
 ---
 
 The fundamental tenet of Anarchism is the resistance to an Archos, Greek for "master." To advocate for anarchism is to position oneself in opposition to a master, i.e., to claim the fundamental right of self-determination, autonomy, and freedom from a centralized system of (especially coercive) control. To act anarchically simply means to act independently of a master. It does not mean acting in an uncoordinated or unorganized fashion, nor does it always mean a total absence of layered responsibilities, more commonly known as "hierarchy."
