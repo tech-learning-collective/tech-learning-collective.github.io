@@ -13,7 +13,7 @@
         "offers": [{"name":"Supporter (pay if you can)","price":30,"priceCurrency":"USD","availabilityEnds":"2022-12-03 20:00:00 -0500","url":"https://www.wonderville.nyc/events/hex90-transposition"},{"name":"General Admission - Advance","price":15,"priceCurrency":"USD","availabilityEnds":"2022-12-03 20:00:00 -0500","url":"https://www.wonderville.nyc/events/hex90-transposition"},{"name":"Queers and Femmes - Advance","price":10,"priceCurrency":"USD","availabilityEnds":"2022-12-03 20:00:00 -0500","url":"https://www.wonderville.nyc/events/hex90-transposition"},{"name":"General Admission - Day-of/at the door","price":20,"priceCurrency":"USD","availabilityEnds":"2022-12-03 20:00:00 -0500","url":"https://www.wonderville.nyc/events/hex90-transposition"},{"name":"Queers and Femmes - Day-of/at the door","price":15,"priceCurrency":"USD","availabilityEnds":"2022-12-03 20:00:00 -0500","url":"https://www.wonderville.nyc/events/hex90-transposition"}],
         "maximumAttendeeCapacity": null,
         "isAccessibleForFree": null,
-        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-transposition"]
+        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-transposition","https://withfriends.co/event/15295945/hex90_transposition"]
     }
 }
 ]
