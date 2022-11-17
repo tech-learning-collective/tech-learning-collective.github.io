@@ -35,7 +35,7 @@ offers:
 sameAs:
     - https://hex90.party/
     - https://www.wonderville.nyc/events/hex90-transposition
-#    - https://withfriends.co/TK-TODO
+    - https://withfriends.co/event/15295945/hex90_transposition
 #    - https://ra.co/events/TK-TODO
 #    - https://tockify.com/bushwickdaily/TK-TODO
 #    - TODO: https://gomag.com/event/TODO
@@ -55,6 +55,7 @@ performers:
     - trans kafka
     - Sailor Malice
     - gwenpri.me
+    - Janie Jaffe
 
 teaser: Hex90 is a &ldquo;queer hacker salon&rdquo; featuring music, dancing, visuals, and special performances. The most unique addition of the Hex90 parties is a hyperlocal cybersecurity (hacking) themed text-adventure game that gave the party its name. After you connect to the party's Wi-Fi network with your laptop, you can launch the Hex90 game in your Web browser. But to solve the challenges, you must download and install real hacker tools and learn how to employ real hacking techniques to progress through game levels ranging from network reconnaissance, applied cryptography, and Web exploitation. Think every 90's hacker movie party scene but gayer, and kinder! You don't need to be a hacker to enjoy the party, and TLC instructors will be at the party ready to guide you if you want to learn some basic hacking techniques!
 ---
@@ -67,11 +68,11 @@ DHRRE UNPXREF BS GUR JBEYQ, HAVGR!
 
 HEX90 — a queer hacker salon in NYC
 
-Change has come again. It arrives on the airwaves, in the storms, over the wires. Some fear it, others welcome it, and few deny it. Change transports us from where we were to where we must next be. It is not inevitable, for we are the change. They will fight for stagnation, but we will not be stopped.
+Change has come again. It arrives streaming on the airwaves, in the storms, over the wires. Some fear it, others welcome it, but few deny it. Change transports us from where we were to where we must next be. It is not inevitable, for we are the change. They will fight for stagnation, but we will not be stopped.
 
-Transitions make us powerful. Transformation showed us difference, gave us perspective, and taught us adaptability. We have learned to reconfigure the world through command injection, and to reconfigure ourselves through hormonal injections. To hackers, these are the same: when we reconfigure ourselves, we reconfigure the world, when we reconfigure the world, we reconfigure ourselves.
+Transitions make us powerful. Transformation showed us difference, gave us perspective, and taught us adaptability. We have learned to reconfigure the world through command injection, and to reconfigure ourselves through hormonal injections. To hackers, these are the same: when we reconfigure ourselves, we reconfigure the world. When we reconfigure the world, we reconfigure ourselves.
 
-Transpose this and that. Move there to here. Redefine the problem. Discard the premise. Take it one round at a time. Repeat. Again. Faster. FASTER. Continue until nothing is the same, and beautiful differences are all that remain of the source.
+Transpose this and that. Redefine the problem. Substitute the premise. Shift bits left. Cycle one round at a time. Repeat for block after block. Again. Faster. FASTER. Continue until nothing is the same, and beautiful differences are all that remain of the source.
 
 This night, we celebrate transposition, the oldest witchcraft.
 
@@ -98,6 +99,7 @@ featuring_
 ~~ heaven ender
 ~ livecoded visuals by
 ~~ gwenpri.me
+~~ Janie Jaffe
 ~ indie games by Death By Audio Arcade
 ~ hacking demos & education by Tech Learning Collective
 ~ text adventure cybersecurity game by Shift-CTRL Space
