@@ -36,10 +36,10 @@ sameAs:
     - https://hex90.party/
     - https://www.wonderville.nyc/events/hex90-transposition
     - https://withfriends.co/event/15295945/hex90_transposition
+    - https://patch.com/new-york/bushwick/ep/4037644/nodx
 #    - https://ra.co/events/TK-TODO
 #    - https://tockify.com/bushwickdaily/TK-TODO
 #    - TODO: https://gomag.com/event/TODO
-#    - TODO: https://patch.com/new-york/new-york-city/calendar/event/TODO
 #    - TODO: https://meetup.com/TODO
 organizers:
     - Tech Learning Collective
@@ -160,7 +160,7 @@ As with all Tech Learning Collective events, racism, queerphobia, transphobia, s
 
 We are anti-(techno)capitalists, solarpunks, and radical technologists. Our ethics place us against &ldquo;Adtech,&rdquo; &ldquo;Fintech,&rdquo; and Silicon Valley. We believe technology is an intangible earth, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one&rsquo;s actual communities. Our approach stands in contrast to isolationism, sterility, and authoritarianism by being participatory, flexible, and adaptive.
 
-## About [ÆON](https://www.instagram.com/aeon)
+## About [ÆON](https://www.instagram.com/dj__aeon)
 
 ÆON is a Brooklyn based DJ and producer. Her sound melds jagged psychedelic techno with soaring trance melodies for a raw and hard hitting energy that packs dance floors city wide. As cofounder of the Palacio party series she sources sounds from the Bushwick underground to bring forward, with a distinct focus on voices from her own trans community.
 
