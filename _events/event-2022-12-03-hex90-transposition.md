@@ -37,10 +37,13 @@ sameAs:
     - https://www.wonderville.nyc/events/hex90-transposition
     - https://withfriends.co/event/15295945/hex90_transposition
     - https://patch.com/new-york/bushwick/ep/4037644/nodx
-#    - https://ra.co/events/TK-TODO
-#    - https://tockify.com/bushwickdaily/TK-TODO
-#    - TODO: https://gomag.com/event/TODO
-#    - TODO: https://meetup.com/TODO
+    - https://ra.co/events/1619944
+    - https://tockify.com/bushwickdaily/detail/7119/1670115600000
+    - http://gomag.com/event/hex90-transposition/
+    - https://events.brooklynpaper.com/event/hex90-transposition/
+    - https://events.qns.com/event/hex90-transposition/
+    - https://events.politicsny.com/event/hex90-transposition/
+    - https://events.gaycitynews.com/event/hex90-transposition/
 organizers:
     - Tech Learning Collective
     - Wonderville
@@ -61,6 +64,15 @@ teaser: Hex90 is a &ldquo;queer hacker salon&rdquo; featuring music, dancing, vi
 ---
 
 Queer hackers of the world, unite! Tech Learning Collective is excited to invite you to [Hex90&rsquo;s latest queer hacker salon, &ldquo;Transposition,&rdquo;](https://hex90.party/) hosted at [Wonderville, where you can buy tickets](https://wonderville.nyc/).
+
+<video id="sizzle-reel" controls="controls" width="100%"
+     src="/static/media/hex90-transposition-trailer.mp4"
+     poster="/static/img/event.hex90.flyer.2022-12-03.540x540.jpg"
+>
+    <p><a href="/static/media/hex90-transposition-trailer.mp4">Watch the Hex90: Transposition trailer</a>.</p>
+</video>
+
+<p style="text-align: center;><small>Music: <a href="https://www.youtube.com/watch?v=eD2-HcJNlbs">Black Hole Sun by Anatomy</a>. <a href="https://hex90.party/">Hex90</a> is brought to you by <a href="https://techlearningcollective.com/">Tech Learning Collective</a> and friends.</small></p>
 
 {:style="white-space: pre-wrap;"}
 ```txt
