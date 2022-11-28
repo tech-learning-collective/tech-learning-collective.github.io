@@ -72,7 +72,8 @@ Queer hackers of the world, unite! Tech Learning Collective is excited to invite
     <p><a href="/static/media/hex90-transposition-trailer.mp4">Watch the Hex90: Transposition trailer</a>.</p>
 </video>
 
-<p style="text-align: center;><small>Music: <a href="https://www.youtube.com/watch?v=eD2-HcJNlbs">Black Hole Sun by Anatomy</a>. <a href="https://hex90.party/">Hex90</a> is brought to you by <a href="https://techlearningcollective.com/">Tech Learning Collective</a> and friends.</small></p>
+{:style="text-align: center;"}
+<small>Music: <a href="https://www.youtube.com/watch?v=eD2-HcJNlbs">Black Hole Sun by Anatomy</a>. <a href="https://hex90.party/">Hex90</a> is brought to you by <a href="https://techlearningcollective.com/">Tech Learning Collective</a> and friends.</small>
 
 {:style="white-space: pre-wrap;"}
 ```txt
