@@ -13,7 +13,7 @@
         "offers": [{"name":"Supporter (pay if you can)","price":30,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"General Admission - Advance","price":15,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"Queers and Femmes - Advance","price":10,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"General Admission - Day-of/at the door","price":20,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"Queers and Femmes - Day-of/at the door","price":15,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"}],
         "maximumAttendeeCapacity": null,
         "isAccessibleForFree": null,
-        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-replay","https://withfriends.co/event/16001373/hex90_replay"]
+        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-replay","https://withfriends.co/event/16001373/hex90_replay","https://www.ninavicious.com/events/2023/4/22/hacker-party","https://events.amny.com/event/hex90-replay/"]
     }
 }
 ]
