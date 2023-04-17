@@ -36,14 +36,9 @@ sameAs:
     - https://hex90.party/
     - https://www.wonderville.nyc/events/hex90-replay
     - https://withfriends.co/event/16001373/hex90_replay
-#    - https://patch.com/
-#    - https://ra.co/
-#    - https://tockify.com/
+    - https://www.ninavicious.com/events/2023/4/22/hacker-party
+    - https://events.amny.com/event/hex90-replay/
 #    - http://gomag.com/
-#    - https://events.brooklynpaper.com/
-#    - https://events.qns.com/
-#    - https://events.politicsny.com/
-#    - https://events.gaycitynews.com/
 organizers:
     - Tech Learning Collective
     - Wonderville
