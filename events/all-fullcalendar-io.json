@@ -1,20 +1,2 @@
-[
-
-
-{
-    "title" : "Hex90: Replay",
-    "start" : "2023-04-22T20:00:00-0400",
-    "end"   : "2023-04-22T04:00:00-0400",
-    "url"   : "http://techlearningcollective.com/events/2023/04/event-2023-04-22-hex90-replay",
-    "image" : "http://techlearningcollective.com/static/images/event.hex90.flyer.2023-04-22.540x540.jpg",
-    "teaser": "Hex90 is a “queer hacker salon” featuring music, dancing, visuals, and special performances. The most unique addition of the Hex90 parties is a hyperlocal cybersecurity (hacking) themed text-adventure game that gave the party its name. After you connect to the party’s Wi-Fi network with your laptop, you can launch the Hex90 game in your Web browser. But to solve the challenges, you must download and install real hacker tools and learn how to employ real hacking techniques to progress through game levels ranging from network reconnaissance, applied cryptography, and Web exploitation. Think every 90’s hacker movie party scene but gayer, and kinder! You don’t need to be a hacker to enjoy the party, and TLC instructors will be at the party ready to guide you if you want to learn some basic hacking techniques!",
-    "location": "Wonderville",
-    "schemaDotOrg": {
-        "offers": [{"name":"Supporter (pay if you can)","price":30,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"General Admission - Advance","price":15,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"Queers and Femmes - Advance","price":10,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"General Admission - Day-of/at the door","price":20,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"},{"name":"Queers and Femmes - Day-of/at the door","price":15,"priceCurrency":"USD","availabilityEnds":"2023-04-22 20:00:00 -0400","url":"https://www.wonderville.nyc/events/hex90-replay"}],
-        "maximumAttendeeCapacity": null,
-        "isAccessibleForFree": null,
-        "sameAs": ["https://hex90.party/","https://www.wonderville.nyc/events/hex90-replay","https://withfriends.co/event/16001373/hex90_replay","https://www.ninavicious.com/events/2023/4/22/hacker-party","https://events.amny.com/event/hex90-replay/"]
-    }
-}
-]
+[]
 
