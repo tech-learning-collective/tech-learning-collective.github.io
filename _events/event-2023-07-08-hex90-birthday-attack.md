@@ -175,5 +175,16 @@ Inspired by a lifelong interest in games, stuttersprite's psychedelic and emotio
 
 gwenpri.me is a creative technologist, artist, and livecoder. She makes live visuals from videos, pictures, emoji, text, and more, then composites them using live code techniques. She enjoys finding arcane ways to put pixels on screens. Past sets have included touch designer patching, Lua DSLs, command line video editors, and more.
 
+## About [alsoknownasrox](https://www.instagram.com/alsoknownasrox)
+
+alsoknownasrox is a New York-based audiovisual artist approaching programming as a medium for creative expression. She specializes in programming as performance, modifying real-time processes to create dynamic audiovisual experiences. She spends her time finding new ways to engage with the world, destructing and reconstructing existing structures as she goes.
+
+## About [David Lunch](https://www.soundcloud.com/davidlunchbox)
+
+David Lunch (Ben Breier) is a genre-crossing DJ that leans into breakbeat, two-step, Jersey Club, UKG & techno. He is the current host of Zero Chill on Newtown Radio, and the resident DJ at Jade's Exactly. He has opened for acts that include Crystal Castles, !!! & The Hood Internet. Under the moniker Mister Disco, he was the resident DJ at Happy House (The Bell House) as well as Endmax at Trophy Bar. 
+
+## About [DJ Softserve](softserve.the.frost.dj)
+
+Softserve began DJing in South Korea in 2017 where he became a local hip hop resident. After a few years he moved on to headlining at Korean EDM festivals and playing Busan's premiere house and techno clubs. After moving to Brooklyn, he continues to play high energy eclectic bass mixes flexing genre boundaries from latin and afro beats to wonky UK tech, half-time flips and basshouse. He focusing on moving the crowd to "get their tongues hanging out" and is the CEO of saying "damn- I probably should have recorded that set.
 
 {% include boilerplate-press.md %}
