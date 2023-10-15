@@ -105,7 +105,7 @@
             }
         }
 
-        new FullCalendar.Calendar(document.getElementById('fullcalendar'), {
+        var cal = new FullCalendar.Calendar(document.getElementById('fullcalendar'), {
             headerToolbar: {
                 left  : 'title',
                 center: 'listWeek,dayGridMonth',
@@ -117,6 +117,7 @@
             events: fullcalendar_events || '/events/all-fullcalendar-io.json',
             eventDidMount: renderEvent,
             windowResize: windowResize
-        }).render();
+        });
+        cal.render();
     });
 })();
