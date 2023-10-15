@@ -33,18 +33,8 @@ In addition to our intensive [courses]({% link courses/index.md %}), we also hos
 ([Learn more about calendar subscriptions]({% link events/upcoming/index.md %}#export-event-calendar).)
 
 <script
-    src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.js"
-    integrity="sha384-jpR7BEBpiXHNqgvVP4S6rYPyDDoXkQ/HV90LJxREmLjbKEeB1bk/Dp6trW1Vs4Wz"
-    crossorigin="anonymous"
-></script>
-<script
-    src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@4.4.0/main.min.js"
-    integrity="sha384-gVrKlneckelHlVlsbbAfWsL4XRoXrlSFV9S86+z5DOAQiN1rg82ITBYnDqiZdA/R"
-    crossorigin="anonymous"
-></script>
-<script
-    src="https://cdn.jsdelivr.net/npm/@fullcalendar/list@4.4.0/main.min.js"
-    integrity="sha384-Dk41zoqiS9HymTYb4xGf+9Q0fEzBobDFElPvaRIs/1YKe5MFsHgC/RMgppllS+tG"
+    src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js"
+    integrity="sha256-alsi6DkexWIdeVDEct5s7cnqsWgOqsh2ihuIZbU6H3I="
     crossorigin="anonymous"
 ></script>
 <script src="{% link static/js/fullcalendar-init.js %}"></script>

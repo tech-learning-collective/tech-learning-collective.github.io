@@ -669,37 +669,44 @@ table.dataTable td.child,
 
 /**
  * @group FullCalendar overrides.
- *
- * For now, we don't use a FullCalendar "theme" so all the
- * class names are simply `unthemed`.
  */
 #fullcalendar button {
     text-transform: capitalize;
 }
-.fc-unthemed .fc-list-empty {
-    background-color: inherit !important;
+.fc-theme-standard .fc-list-table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.fc-unthemed .fc-list-table .fc-list-heading td {
+.fc-theme-standard .fc-list-empty,
+.fc-theme-standard .fc-list-event,
+.fc-theme-standard .fc-list-event:hover td {
+    background-color: inherit;
+}
+.fc-theme-standard .fc-list-day-cushion {
     background: #333;
 }
-.fc-unthemed .fc-list-table .fc-list-tem:last-child {
-    border-bottom: 1px solid #FFF;
-}
-.fc-unthemed .fc-list-table .fc-list-item td {
-    background: rgba(189, 14, 96, 0.3);
-}
-.fc-unthemed .fc-list-table .fc-list-item:hover td {
-    background: rgba(189, 14, 96, 0.7);
-}
-.fc-unthemed .fc-dayGrid-view td.fc-today {
-    background: rgba(189, 14, 96, 0.7);
-}
-.fc-event-dot {
-    background-image: url("/static/images/icon.chip.transparent.png");
+.fc-theme-standard .fc-list-event-dot {
+    background-image: url("../images/icon.chip.transparent.png");
     background-size: contain;
     width: 20px;
     height: 20px;
     border-radius: 10px;
+}
+.fc-theme-standard .fc-list-event-title {
+    width: 100%;
+}
+.fc-theme-standard .fc-list-event {
+    background-color: rgba(189, 14, 96, 0.3);
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+.fc-theme-standard .fc-list-event:last-child {
+    border-bottom: 1px solid #FFF;
+}
+.fc-theme-standard .fc-list-event:hover,
+.fc-theme-standard .fc-daygrid-event:hover,
+.fc-theme-standard .fc-dayGridMonth-view .fc-day-today {
+    background-color: rgba(189, 14, 96, 0.7);
 }
 
 /**
