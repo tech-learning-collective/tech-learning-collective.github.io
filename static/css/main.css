@@ -673,8 +673,13 @@ table.dataTable td.child,
 #fullcalendar button {
     text-transform: capitalize;
 }
+.fc-theme-standard .fc-list-table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .fc-theme-standard .fc-list-empty,
-.fc-theme-standard .fc-list-event {
+.fc-theme-standard .fc-list-event,
+.fc-theme-standard .fc-list-event:hover td {
     background-color: inherit;
 }
 .fc-theme-standard .fc-list-day-cushion {
@@ -690,23 +695,18 @@ table.dataTable td.child,
 .fc-theme-standard .fc-list-event-title {
     width: 100%;
 }
-.fc-theme-standard .fc-list-event-title p {
-    margin: 0.5em 0 0 0;
-}
 .fc-theme-standard .fc-list-event {
+    background-color: rgba(189, 14, 96, 0.3);
     background-repeat: no-repeat;
     border-radius: 0;
 }
 .fc-theme-standard .fc-list-event:last-child {
     border-bottom: 1px solid #FFF;
 }
-.fc-theme-standard .fc-list-table .fc-list-event td {
-    background: rgba(189, 14, 96, 0.3);
-}
-.fc-theme-standard .fc-list-table .fc-list-event:hover td,
+.fc-theme-standard .fc-list-event:hover,
 .fc-theme-standard .fc-daygrid-event:hover,
 .fc-theme-standard .fc-dayGridMonth-view .fc-day-today {
-    background: rgba(189, 14, 96, 0.7);
+    background-color: rgba(189, 14, 96, 0.7);
 }
 
 /**
