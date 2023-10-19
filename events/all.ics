@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1697304600-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20231019T123929Z
+DTSTAMP:20231019T182629Z
 DTSTART;VALUE=DATE-TIME:20231014T173000Z
 DTEND;VALUE=DATE-TIME:20231014T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1697391000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20231019T123929Z
+DTSTAMP:20231019T182629Z
 DTSTART;VALUE=DATE-TIME:20231015T173000Z
 DTEND;VALUE=DATE-TIME:20231015T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1697909400-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20231019T123929Z
+DTSTAMP:20231019T182629Z
 DTSTART;VALUE=DATE-TIME:20231021T173000Z
 DTEND;VALUE=DATE-TIME:20231021T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1697995800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20231019T123929Z
+DTSTAMP:20231019T182629Z
 DTSTART;VALUE=DATE-TIME:20231022T173000Z
 DTEND;VALUE=DATE-TIME:20231022T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1698514200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20231019T123929Z
+DTSTAMP:20231019T182629Z
 DTSTART;VALUE=DATE-TIME:20231028T173000Z
 DTEND;VALUE=DATE-TIME:20231028T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1698600600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20231019T123929Z
+DTSTAMP:20231019T182629Z
 DTSTART;VALUE=DATE-TIME:20231029T173000Z
 DTEND;VALUE=DATE-TIME:20231029T190000Z
 
