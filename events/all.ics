@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1697304600-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231014T173000Z
 DTEND;VALUE=DATE-TIME:20231014T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1697391000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231015T173000Z
 DTEND;VALUE=DATE-TIME:20231015T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1697909400-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231021T173000Z
 DTEND;VALUE=DATE-TIME:20231021T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1697995800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231022T173000Z
 DTEND;VALUE=DATE-TIME:20231022T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1698514200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231028T173000Z
 DTEND;VALUE=DATE-TIME:20231028T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1698600600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231029T173000Z
 DTEND;VALUE=DATE-TIME:20231029T190000Z
 
@@ -90,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:November, November Trance Party
 UID:1699146000-november-november-trance-party@techlearningcollective.com
-DTSTAMP:20231102T210339Z
+DTSTAMP:20231102T234832Z
 DTSTART;VALUE=DATE-TIME:20231105T010000Z
 DTEND;VALUE=DATE-TIME:20231105T070000Z
 
@@ -100,6 +100,34 @@ URL:http://techlearningcollective.com/events/2023/11/event-2023-11-04-november-n
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
 IMAGE:http://techlearningcollective.com/https
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
+UID:1699209000-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
+DTSTAMP:20231102T234832Z
+DTSTART;VALUE=DATE-TIME:20231105T183000Z
+DTEND;VALUE=DATE-TIME:20231105T203000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Learn how to inscribe your thoughts\, dreams\, and desires into your computer and take your command line skills to the next level by learning how to write simple programs called shell scripts. In a way\, invoking commands one at a time is like writing a program interactively\, whereas writing a script inscribes that knowledge into a more permanent form. By learning how to turn commands into simple scripted programs\, you can unlock the almost magical potential of your computer and more easily share that potential with others to whom you distribute your scripts.\n\nWorkshop Description\n\n\n  At their core\, digital computers are very complex writing instruments. Like pen and paper\, they allow us to record our thoughts\, dreams\, and desires for later review. Unlike pen and paper\, they allow us to do this at the speed of electricity and at a scale never before imagined possible\, and their ability to directly manipulate the physical world through servomotors\, industrial control systems\, biomedical devices\, and other robotic prosthesis means they can potentially supercharge every facet of our humanity.\n\n  When a system administrator or programmer uses a computer\, they often issue instructions one by one using a special-purpose\, text-only interface called a command line. Individually\, these instructions are called invocations. (Yes\, that’s their technical term!) In this beginner’s workshop\, you’ll learn how to write whole spells\, rituals\, or (sacred) texts called shell scripts to inscribe your own thoughts\, dreams\, and desires in the electrified silicon and minerals of your computer.\n\n  By saving your scripts in files\, you can invoke arbitrarily complex routines to reproduce tasks or automate complex procedures with a single command. Writing scripts also makes it possible to share what you can do with others and\, as such\, are one the simplest forms of computer program that you can write and distribute. Come learn how the magic of digital inscription can help you do your work\, and increase your power to accomplish your dreams.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2023/11/workshop-2023-11-05-writing-with-blue-fire-shell-scripting-for-beginners
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.rectangle.jpg
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
+UID:1699723800-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
+DTSTAMP:20231102T234832Z
+DTSTART;VALUE=DATE-TIME:20231111T173000Z
+DTEND;VALUE=DATE-TIME:20231111T193000Z
+
+LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in\, how to find out if you have been “pwned\,” what the risks are\, and what you can do to protect yourself from brute-force\, credential stuffing\, and other forms of account takeover attacks.\n\nWorkshop Description\n\n\n  Have you been “pwned”? For years\, security researcher Troy Hunt has been running a website at HaveIBeenPwned.com that lets you check to see if your online accounts have been pwned—that is\, if your personal information such as your password\, has been leaked\, accessed\, or (worst of all!) “cracked.” Go on\, check for yourself!\n\n  If you’ve been “pwned\,” this workshop is your chance to learn exactly what the risk might be\, and what you can do about it. Derived from one portion of the Tech Learning Collective’s popular “Hacking with Mr. Robot” (Security 101) course\, this class will clarify the basics of cryptography and encryption within a context that actually applies to your day to day life online.\n\n\n\n  Learn what websites do with your password when you log in to them\, and why using free password management software can make you both safer and more productive. On the flip side\, learn professional techniques for recovering passwords from their “encrypted” (hashed) representation\, such as using optimized wordlists\, word-mangling rulesets\, and employing basic doxing techniques for creating personally targeted password-cracking attacks.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+URL:http://techlearningcollective.com/events/2023/11/workshop-2023-11-11-password-superpowers-how-to-crack-hashes-and-stump-hackers
+CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
+STATUS:CONFIRMED
+IMAGE:http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.jpg
 END:VEVENT
 
 END:VCALENDAR

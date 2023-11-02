@@ -124,5 +124,41 @@
         "sameAs": ["https://www.wonderville.nyc/events/november-november-trance-party","https://ra.co/events/1796256"]
     }
 }
+,
+
+
+{
+    "title" : "Writing with Blue Fire: Shell Scripting for Beginners",
+    "start" : "2023-11-05T13:30:00-0500",
+    "end"   : "2023-11-05T15:30:00-0500",
+    "url"   : "http://techlearningcollective.com/events/2023/11/workshop-2023-11-05-writing-with-blue-fire-shell-scripting-for-beginners",
+    "image" : "http://techlearningcollective.com/static/images/workshop.writing-with-blue-fire-shell-scripting-for-beginners.rectangle.jpg",
+    "teaser": "Learn how to inscribe your thoughts, dreams, and desires into your computer and take your command line skills to the next level by learning how to write simple programs called shell scripts. In a way, invoking commands one at a time is like writing a program interactively, whereas writing a script inscribes that knowledge into a more permanent form. By learning how to turn commands into simple scripted programs, you can unlock the almost magical potential of your computer and more easily share that potential with others to whom you distribute your scripts.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2023-11-05 13:30:00 -0500"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2023-11-05 13:30:00 -0500"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2023-11-05 13:30:00 -0500"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/land/332477"]
+    }
+}
+,
+
+
+{
+    "title" : "Password Superpowers: How to Crack Hashes and Stump Hackers",
+    "start" : "2023-11-11T12:30:00-0500",
+    "end"   : "2023-11-11T14:30:00-0500",
+    "url"   : "http://techlearningcollective.com/events/2023/11/workshop-2023-11-11-password-superpowers-how-to-crack-hashes-and-stump-hackers",
+    "image" : "http://techlearningcollective.com/static/images/workshop.password-superpowers-how-to-crack-hashes-and-stump-hackers.rectangle.jpg",
+    "teaser": "Get an accessible introduction to the basics of password management by learning how to perform a password cracking attack yourself. Learn exactly what Web sites do with your password when you log in, how to find out if you have been “pwned,” what the risks are, and what you can do to protect yourself from brute-force, credential stuffing, and other forms of account takeover attacks.",
+    "location": "Remote",
+    "schemaDotOrg": {
+        "offers": [{"name":"Privacy Defender Webinar Ticket","description":"Privacy Defender tickets are the recommended ticket type for those who can afford to help fund the digital security and online privacy advocacy communities with their financial resources, are attending the workshop with the support of their employers or other backers, or have other resources available to them. Purchasing tickets at this level makes it possible for us to offer reduced price tickets to those in need.","price":70,"priceCurrency":"USD","availabilityEnds":"2023-11-11 12:30:00 -0500"},{"name":"General Admission","description":"General Admission tickets are the regular ticket type intended for members of the general public.","price":35,"priceCurrency":"USD","availabilityEnds":"2023-11-11 12:30:00 -0500"},{"name":"Reduced price admission (for queer-identified, femme, and BIPOC people)","description":"Reduced price workshop tickets help offset systemic biases prevalent in society and in the technology sector especially.","price":25,"priceCurrency":"USD","availabilityEnds":"2023-11-11 12:30:00 -0500"}],
+        "maximumAttendeeCapacity": 15,
+        "isAccessibleForFree": null,
+        "sameAs": ["https://gobrunch.com/events/land/332480"]
+    }
+}
 ]
 
