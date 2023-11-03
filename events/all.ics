@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
 UID:1697304600-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231014T173000Z
 DTEND;VALUE=DATE-TIME:20231014T190000Z
 
@@ -20,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1697391000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231015T173000Z
 DTEND;VALUE=DATE-TIME:20231015T190000Z
 
@@ -34,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1697909400-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231021T173000Z
 DTEND;VALUE=DATE-TIME:20231021T190000Z
 
@@ -48,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1697995800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231022T173000Z
 DTEND;VALUE=DATE-TIME:20231022T190000Z
 
@@ -62,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1698514200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231028T173000Z
 DTEND;VALUE=DATE-TIME:20231028T190000Z
 
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1698600600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231029T173000Z
 DTEND;VALUE=DATE-TIME:20231029T190000Z
 
@@ -90,12 +90,12 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:November, November Trance Party
 UID:1699146000-november-november-trance-party@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231105T010000Z
 DTEND;VALUE=DATE-TIME:20231105T070000Z
 
 LOCATION;LANGUAGE=en;CHARSET=utf-8:1186 Broadway\, Brooklyn\, NY\, 11221\, United States
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Noble neighors!\n\nNote this night of November the 4th\, a noctural celebration notwithstanding November’s numbing nonchalance\, surely introduced by its nippy temperatures. Nay\, our evening’s novel narrative is nonfiction\, and hosted by the neighborhood’s most notorious gender nonconforming hacker nymph on skates\, Vi\, with her network of naturally talented nightingale performers!\n\nIndeed\, you navigated the seasons! Now\, this 4th of November\, nourish a nonstandard way to fall into Fall!\n\nOn the eve of November 5th\, we’ll prepare for the coming cold of Winter in the way we know best: enjoying cathartic\, dreamy trance beats spun by some of Brooklyn’s hottest DJs\, basking in radio waves from WiFi-enabled digital libraries letting you browse thousands of e-books for free\, and drinks with huggable friends\, all bathed in the warm glow of Wonderville’s many arcade cabinets. Drift into an exemplary\, shimmering plane of possibilities to recharge your bio-batteries!\n\nNovember the 4th is also DJ Astral_Dejection’s birthday\, so come early (before the show starts) to participate in a delicious name day treat this November\, November that will never be forgot!\n\nFeaturing:\n\n\n  \n    Shift-CTRL Space\n  \n  \n    Tech Learning Collective\n  \n  \n    Death By Audio Arcade\n  \n  \n    lain__d\n  \n  \n    Astral_Dejection\n  \n  \n    heaven ender\n  \n  \n    dis_aster_ous\n  \n  \n    stuttersprite\n  \n  \n    $10 - General Admission\n  \n\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from the event without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Astral_Dejection\n\nAbout lain__d\n\nAbout heaven ender\n\nheaven ender is an immortal entity inhabiting the mortal plane of existence seeking to make the world a more beautiful place. Host of Gender Experts Party\, producer of Str8 to DVD and all around create of the New York underground rave scene\, they are known for their unrelenting\, genre blurring sets and condemning to to dance for eternity.\n\nAbout dis_aster_ous\n\nAbout stuttersprite\n\nNew York based\, New Jersey raised DJ favoring the atmospheric\, psychedelic\, and experimental side of dance music.\n\nAbout Shift-CTRL Space\n\nShift-CTRL Space is an elusive collective of New York City-based hacktivists whose mission is to strengthen local affinity groups with the power of contemporary digital technologies often hoarded by or made illegible by large corporations. As anti-(techno)capitalists\, solarpunks\, and radical technologists. Our ethics place us against “Adtech\,” “Fintech\,” and Silicon Valley. We believe technology is an intangible earth\, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one’s actual communities.\n\nAbout Vi “like the text editor”\n\nIf you’ve spent time in Bushwick’s post-quarantine queer party scene or in a number of billiards bars around the city\, you may have seen Vi zipping around on her rollerblades. As Brooklyn’s own trans hacker roller slut\, she has the type of main character energy found in cyberpunk hentai and is best known for her approachable\, sporty whirlwind of kind\, extroverted energy radiating from a hard femme candy shell. Whether she’s holding a pool cue\, a keyboard\, a tequila shot\, or all three\, it’s all about having a good\, safe\, and memorable time making people feel comfortable at the party. Say hi!\n\nAbout Death By Audio\n\nThe Death By Audio Arcade is a series of lovingly crafted local multiplayer arcade cabinets produced by local indie game developers. We are also a progressive\, open community of like-minded artists\, artisans\, and enthusiasts. We host events at least once a month\, in NYC and at events across the country\, from SXSW to the Smithsonian.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
+DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:Noble neighors!\n\nNote this night of November the 4th\, a noctural celebration notwithstanding November’s numbing nonchalance\, surely introduced by its nippy temperatures. Nay\, our evening’s novel narrative is nonfiction\, and hosted by the neighborhood’s most notorious gender nonconforming hacker nymph on skates\, Vi\, with her network of naturally talented nightingale performers!\n\nIndeed\, you navigated the seasons! Now\, this 4th of November\, nourish a nonstandard way to fall into Fall!\n\nOn the eve of November 5th\, we’ll prepare for the coming cold of Winter in the way we know best: enjoying cathartic\, dreamy trance beats spun by some of Brooklyn’s hottest DJs\, basking in radio waves from WiFi-enabled digital libraries letting you browse thousands of e-books for free\, and drinks with huggable friends\, all bathed in the warm glow of Wonderville’s many arcade cabinets. Drift into an exemplary\, shimmering plane of possibilities to recharge your bio-batteries!\n\nNovember the 4th is also DJ Astral_Dejection’s birthday\, so come early (before the show starts) to participate in a delicious name day treat this November\, November that will never be forgot!\n\nFeaturing:\n\n\n  \n    Shift-CTRL Space\n  \n  \n    Tech Learning Collective\n  \n  \n    Death By Audio Arcade\n  \n  \n    lain__d\n  \n  \n    Astral_Dejection\n  \n  \n    heaven ender\n  \n  \n    dis_aster_ous\n  \n  \n    stuttersprite\n  \n  \n    $10 - General Admission\n  \n\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from the event without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Astral_Dejection\n\nAbout lain__d\n\nAbout heaven ender\n\nheaven ender is an immortal entity inhabiting the mortal plane of existence seeking to make the world a more beautiful place. Host of Gender Experts Party\, producer of Str8 to DVD and all around creature of the New York underground rave scene\, they are known for their unrelenting\, genre blurring sets and condemning you to dance for eternity.\n\nAbout dis_aster_ous\n\nAbout stuttersprite\n\nNew York based\, New Jersey raised DJ favoring the atmospheric\, psychedelic\, and experimental side of dance music.\n\nAbout Shift-CTRL Space\n\nShift-CTRL Space is an elusive collective of New York City-based hacktivists whose mission is to strengthen local affinity groups with the power of contemporary digital technologies often hoarded by or made illegible by large corporations. As anti-(techno)capitalists\, solarpunks\, and radical technologists. Our ethics place us against “Adtech\,” “Fintech\,” and Silicon Valley. We believe technology is an intangible earth\, with which we can and should have an earthly relationship. It is power that we can harness through holistic methods as individuals and cooperative networks for the empowerment of oneself and of one’s actual communities.\n\nAbout Vi “like the text editor”\n\nIf you’ve spent time in Bushwick’s post-quarantine queer party scene or in a number of billiards bars around the city\, you may have seen Vi zipping around on her rollerblades. As Brooklyn’s own trans hacker roller slut\, she has the type of main character energy found in cyberpunk hentai and is best known for her approachable\, sporty whirlwind of kind\, extroverted energy radiating from a hard femme candy shell. Whether she’s holding a pool cue\, a keyboard\, a tequila shot\, or all three\, it’s all about having a good\, safe\, and memorable time making people feel comfortable at the party. Say hi!\n\nAbout Death By Audio\n\nThe Death By Audio Arcade is a series of lovingly crafted local multiplayer arcade cabinets produced by local indie game developers. We are also a progressive\, open community of like-minded artists\, artisans\, and enthusiasts. We host events at least once a month\, in NYC and at events across the country\, from SXSW to the Smithsonian.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
 URL:http://techlearningcollective.com/events/2023/11/event-2023-11-04-november-november-trance-party
 CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
 STATUS:CONFIRMED
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1699212600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231105T193000Z
 DTEND;VALUE=DATE-TIME:20231105T213000Z
 
@@ -118,7 +118,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1699727400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20231103T123744Z
+DTSTAMP:20231103T175158Z
 DTSTART;VALUE=DATE-TIME:20231111T183000Z
 DTEND;VALUE=DATE-TIME:20231111T203000Z
 
