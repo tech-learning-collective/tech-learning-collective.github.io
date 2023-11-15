@@ -4,23 +4,9 @@ PRODID:iCalendar Generator at http://techlearningcollective.com
 NAME:Tech Learning Collective - All Events
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-SUMMARY;LANGUAGE=en;CHARSET=utf-8:Computer Language Foundations: Command Line Basics
-UID:1697304600-computer-language-foundations-command-line-basics@techlearningcollective.com
-DTSTAMP:20231114T182216Z
-DTSTART;VALUE=DATE-TIME:20231014T173000Z
-DTEND;VALUE=DATE-TIME:20231014T190000Z
-
-LOCATION;LANGUAGE=en;CHARSET=utf-8:Remote
-DESCRIPTION;LANGUAGE=en;CHARSET=utf-8:You have read about people who can talk to machines. Maybe you imagined secret chambers\, hidden away behind locked doors\, with dark rooms basking in blue from electric fires. Some of these people seemed friendly\, others scary\, but all of them were powerful. How did they learn to communicate with their computers? This is your chance to learn the foundations of all computer languages\, the command line\, and actually begin to talk to a machine yourself.\n\nWorkshop Description\n\n\n  To be useful\, every computer must offer some way for you to control it. Generically\, the way you can control a computer is called a user interface because it allows you (the user) to interact with (that is\, “to interface with”) the computer system. Most people may already be familiar with Graphical User Interfaces or GUIs\, which are the buttons\, windows\, and other controls that you can point-and-click on\, but this way of controlling a computer comes with severe limitations. Chief among these is the fact that you are limited to using only one tip of one finger on one of your hands (called your pointer or mouse cursor) and\, worse\, you have no access to anything outside of your immediate reach. In a GUI\, if you cannot see it or touch it with the mouse\, you cannot manipulate it.\n\n  This is why almost all hackers\, programmers\, and system administrators prefer a Command Line Interface or CLI over the graphical options for many\, if not most\, of their day-to-day tasks. In a command-line\, or “terminal\,” you can use the complete expressive power of spoken language to control your computer. You can use symbolism and metaphor to express any idea that you have the words for. Moreover\, you always have all the words you know at your disposal at any time\, even if they refer to things that are far away or that you cannot currently see.\n\n  In this beginner’s workshop\, you’ll learn how to access the command line interface of your computer\, and you’ll learn the basic grammar of command line languages such as that provided by the ubiquitous Bash command interpreter. You’ll also be introduced to the basic set of utilities required to quickly accomplish tasks that require working with files and folders\, processing text\, and automating common workflows that would take dozens or even hundreds of clicks with a mouse to complete in a Graphical User Interface. By learning how to “speak” to your computer using a command language\, you can save hours every day and take your first step toward using your computer the way the best hackers would.\n\n\nAs this is a remote/online-only event\, there is no physical class space\, but attendance is still limited to 15 students\, so purchase your ticket now to reserve your spot.\n\nTo participate in our webinars\, you will need access to a modern Web browser such as an up-to-date copy of Mozilla Firefox or Google Chrome. You will also need a reliable Internet connection. We recommend disabling Wi-Fi and plugging your computer in to a hard-wired Ethernet network cable for the duration of the webinar\, if possible.\n\nIf you would like to share your video screen or appear on camera\, you will need to have and activate your own camera\, such as the one built-in to many modern laptops. Similarly\, to speak with the rest of the webinar participants\, you will need a microphone. If you do choose to activate your microphone\, we ask that you please plug in headphones/ear buds or use a headset in order to help reduce audio feedback loops that can degrade the webinar experience for other participants.\n\nPlease refer to our workshops and webinars FAQ for additional tips and advice before you join the video conference.\n\nAs with all Tech Learning Collective events\, racism\, queerphobia\, transphobia\, sexism\, “brogrammer\,” “manarchist\,” or any kind of similarly awful behavior will result in immediate removal from class without a refund. Please refer to our lightweight social rules for details on our strictly enforced no-tolerance policy against bigotry of any kind.\n\nAbout Tech Learning Collective\n\nTech Learning Collective is an apprenticeship-based technology school that trains politically self-motivated individuals in the arts of hypermedia\, Information Technology\, and radical political practice. We offer unparalleled free\, by-donation\, and low-cost computer classes on topics ranging from fundamental computer literacy to the same offensive computer hacking techniques used by national intelligence agencies and military powers (cyber armies). For more information and to enroll\, visit TechLearningCollective.com.\n\n
-URL:http://techlearningcollective.com/events/2023/10/workshop-2023-10-14-computer-language-foundations-command-line-basics
-CATEGORIES;LANGUAGE=en;CHARSET=utf-8:
-STATUS:CONFIRMED
-IMAGE:http://techlearningcollective.com/static/images/workshop.computer-language-foundations-command-line-basics.rectangle.jpg
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Automate All the Things: A Primer to Infrastructure as Code
 UID:1697391000-automate-all-the-things-a-primer-to-infrastructure-as-code@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231015T173000Z
 DTEND;VALUE=DATE-TIME:20231015T190000Z
 
@@ -34,7 +20,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Clearing Away the Clouds: How Computer Networks, Servers, and the Internet Work
 UID:1697909400-clearing-away-the-clouds-how-computer-networks-servers-and-the-internet-work@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231021T173000Z
 DTEND;VALUE=DATE-TIME:20231021T190000Z
 
@@ -48,7 +34,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Taming Daemons: System Administration and Operation Basics
 UID:1697995800-taming-daemons-system-administration-and-operation-basics@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231022T173000Z
 DTEND;VALUE=DATE-TIME:20231022T190000Z
 
@@ -62,7 +48,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Tor: What is it Good For? (Absolutely Everything!)
 UID:1698514200-tor-what-is-it-good-for-absolutely-everything@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231028T173000Z
 DTEND;VALUE=DATE-TIME:20231028T190000Z
 
@@ -76,7 +62,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:The Imitation Game: Introduction to Administering Virtual Machine Systems
 UID:1698600600-the-imitation-game-introduction-to-administering-virtual-machine-systems@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231029T173000Z
 DTEND;VALUE=DATE-TIME:20231029T190000Z
 
@@ -90,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:November, November Trance Party
 UID:1699146000-november-november-trance-party@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231105T010000Z
 DTEND;VALUE=DATE-TIME:20231105T070000Z
 
@@ -104,7 +90,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Writing with Blue Fire: Shell Scripting for Beginners
 UID:1699212600-writing-with-blue-fire-shell-scripting-for-beginners@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231105T193000Z
 DTEND;VALUE=DATE-TIME:20231105T213000Z
 
@@ -118,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Password Superpowers: How to Crack Hashes and Stump Hackers
 UID:1699727400-password-superpowers-how-to-crack-hashes-and-stump-hackers@techlearningcollective.com
-DTSTAMP:20231114T182216Z
+DTSTAMP:20231115T012422Z
 DTSTART;VALUE=DATE-TIME:20231111T183000Z
 DTEND;VALUE=DATE-TIME:20231111T203000Z
 
