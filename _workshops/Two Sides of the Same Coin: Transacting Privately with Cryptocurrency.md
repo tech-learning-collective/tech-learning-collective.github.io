@@ -2,7 +2,7 @@
 title: "Two Sides of the Same Coin: Transacting Privately with Cryptocurrency"
 simple_description: >
   Bitcoin changed the world when it was formally released in 2009. But its promise of financial independence, free from control of centralized banks and economic surveillance by governments, has not fully materialized. This workshop is for anyone who wants to understand the foundational technologies of cryptocurrency enough to be able to confidently transact using them, but will also debunk common myths around their security and privacy by practicing with newer cryptocurrencies called "privacy coins," like Zcash and Monero, that shield transaction data from prying eyes. You'll learn how authorities "follow the money" when it's on a blockchain, and practice how to use wallets, make cross-chain swaps, and retain your privacy so that you can use cryptocurrency as it was always intended: just like cash.
-#image
+image: static/images/workshop.two-sides-of-the-same-coin-transacting-privately-with-cryptocurrency.square.jpg
 ---
 
 When cryptocurrency was first popularized by the emergence of [Bitcoin](https://bitcoin.org/), it promised to disintermediate economic transactions from entrenched middlemen like central banks or credit card companies who have long been pushing for a "cashless" future. In contrast, &ldquo;cash is king&rdquo; for most ordinary people, who still prefer exchanging paper banknotes or metal coins to transact with each other.
