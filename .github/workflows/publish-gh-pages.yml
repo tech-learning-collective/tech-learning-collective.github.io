@@ -12,8 +12,14 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: fabacab/jekyll-builder-for-github-pages-action@builder-3.8
+    - uses: actions/checkout@v5
+    - uses: fabacab/jekyll-builder-for-github-pages-action@builder-4
       with:
         secret_gh_pages_api_token: ${{ secrets.GH_PAGES_TOKEN }}
         jekyll_build_opts: --future
+        pre_build_commands: |
+          gem install bundler -v 2.5.14            # Match with Gemfile.lock.
+          chmod a+w /github/workspace/Gemfile.lock # Required for new Bundler, I guess?
+        post_build_commands: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE # Required for newer Git versions.
+          git config --global --add safe.directory /srv/jekyll       # Also to avoid dubious ownership.

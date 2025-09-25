@@ -19,6 +19,7 @@ audiences:
       requiredMinAge: 18
 sameAs:
     - https://www.eventbrite.com/e/two-sides-of-the-same-coin-transacting-privately-with-cryptocurrency-tickets-1689283966819
+    - https://luma.com/weu6udi3
 maximumAttendeeCapacity: 25
 organizers:
     - Tech Learning Collective
