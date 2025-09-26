@@ -45,8 +45,6 @@ teaser: Learn how you can go "to the moon" in one, giant leap for humankind! Thi
 >
 > When you leave, you&rsquo;ll have a self-custody wallet app such as [Cake Wallet](https://cakewallet.com/), [Edge Wallet](https://edge.app/), or [Zashi](https://electriccoin.co/zashi/), and enough knowledge to transact safely by protecting both your &ldquo;coinflow&rdquo; and your netflow data. After all, if money is speech, and you care about the ability to speak both publicly and privately, you should be able to transact in both those ways, too!
 
-{% include boilerplate-webinar.md %}
-
 As with all Tech Learning Collective events, racism, queerphobia, transphobia, sexism, &ldquo;brogrammer,&rdquo; &ldquo;manarchist,&rdquo; or any kind of similarly awful behavior *will* result in immediate removal from class without a refund. Please refer to [our lightweight social rules](https://github.com/AnarchoTechNYC/meta/wiki/Social-rules) for details on our strictly enforced no-tolerance policy against bigotry of any kind.
 
 {% include boilerplate-press.md %}
