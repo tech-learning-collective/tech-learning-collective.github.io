@@ -6,7 +6,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
 SUMMARY;LANGUAGE=en;CHARSET=utf-8:Two Sides of the Same Coin: Transacting Privately with Cryptocurrency
 UID:1760907600-two-sides-of-the-same-coin-transacting-privately-with-cryptocurrency@techlearningcollective.com
-DTSTAMP:20251022T064028Z
+DTSTAMP:20251022T125857Z
 DTSTART;VALUE=DATE-TIME:20251019T210000Z
 DTEND;VALUE=DATE-TIME:20251019T233000Z
 
